@@ -1,0 +1,24 @@
+{
+  "name": "brew-dump",
+  "version": "0.0.0",
+  "description": "Node.js utility to dump the local homebrew registry to JSON files.",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knpwrs/brew-dump.git"
+  },
+  "keywords": [
+    "brew",
+    "homebrew",
+    "dump",
+    "json"
+  ],
+  "author": "Kenneth Powers <ken@kenpowers.net> (https://knpw.rs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knpwrs/brew-dump/issues"
+  },
+  "homepage": "https://github.com/knpwrs/brew-dump#readme"
+}
