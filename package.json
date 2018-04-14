@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/knpwrs/brew-dump/issues"
   },
-  "homepage": "https://github.com/knpwrs/brew-dump#readme"
+  "homepage": "https://github.com/knpwrs/brew-dump#readme",
+  "dependencies": {
+    "any-observable": "^0.2.0",
+    "execa": "^0.10.0",
+    "listr": "^0.14.0",
+    "mkdirp": "^0.5.1",
+    "p-map": "^1.2.0",
+    "pify": "^3.0.0",
+    "zen-observable": "^0.8.8"
+  }
 }
