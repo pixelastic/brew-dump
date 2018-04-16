@@ -23,12 +23,14 @@
   },
   "homepage": "https://github.com/knpwrs/brew-dump#readme",
   "dependencies": {
+    "algoliasearch": "^3.26.0",
     "any-observable": "^0.2.0",
     "execa": "^0.10.0",
     "listr": "^0.14.0",
     "mkdirp": "^0.5.1",
     "p-map": "^1.2.0",
     "pify": "^3.0.0",
+    "ramda": "^0.25.0",
     "yargs": "^11.0.0",
     "zen-observable": "^0.8.8"
   }
