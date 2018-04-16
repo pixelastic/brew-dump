@@ -4,7 +4,7 @@
   "description": "Node.js utility to dump the local homebrew registry to JSON files.",
   "scripts": {
     "start": "node lib/index.js",
-    "dump": "npm run start -- --commit"
+    "dump": "npm run start -- --commit --dir dump"
   },
   "repository": {
     "type": "git",
