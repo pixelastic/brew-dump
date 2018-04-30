@@ -1,0 +1,99 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b900bb57ad020106cfc83d07c6579611b9c7083ce004ee03ce1a2d099e4e2378",
+          "url": "https://linuxbrew.bintray.com/bottles/gcc@5-5.5.0_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3cef0d77229769d75a85b545be64ea74fdca7fe99b78a08025d9523dae2db4c1",
+          "url": "https://linuxbrew.bintray.com/bottles/gcc@5-5.5.0_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "831b722a88b94d2663883ede5b301173055ccd68cb2cd8f6231aae79fb7a5910",
+          "url": "https://linuxbrew.bintray.com/bottles/gcc@5-5.5.0_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "97bce0daec95df10eed7c749b7ea178ca7c03aae81227131d5a833d4a05bd7c1",
+          "url": "https://linuxbrew.bintray.com/bottles/gcc@5-5.5.0_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gmp",
+    "libmpc",
+    "mpfr",
+    "isl@0.18",
+    "zlib",
+    "glibc"
+  ],
+  "desc": "The GNU Compiler Collection",
+  "full_name": "gcc@5",
+  "homepage": "https://gcc.gnu.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gcc@5",
+  "oldname": "gcc5",
+  "optional_dependencies": [
+    "glibc"
+  ],
+  "options": [
+    {
+      "description": "Build the gcj compiler",
+      "option": "--with-java"
+    },
+    {
+      "description": "Enable all compilers and languages, except Ada",
+      "option": "--with-all-languages"
+    },
+    {
+      "description": "Build with native language support (localization)",
+      "option": "--with-nls"
+    },
+    {
+      "description": "Make use of profile guided optimization when bootstrapping GCC",
+      "option": "--with-profiled-build"
+    },
+    {
+      "description": "Build the jit compiler",
+      "option": "--with-jit"
+    },
+    {
+      "description": "Build without the gfortran compiler",
+      "option": "--without-fortran"
+    },
+    {
+      "description": "Build with glibc support",
+      "option": "--with-glibc"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.5.0"
+  }
+}

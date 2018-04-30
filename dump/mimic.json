@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "da7eca33821161618bc078a46ea315c713cb087ec5ecc17c5f43ebd95e9d152e",
+          "url": "https://linuxbrew.bintray.com/bottles/mimic-1.2.0.2_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "26b8f664a926f40d85afae92e0c3a4f5035017373b7b3129ca9d2fe961a0169e",
+          "url": "https://linuxbrew.bintray.com/bottles/mimic-1.2.0.2_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4b81c2894454ce34ff155244f88fdabf542519e13befdaa55e89bac0e126b707",
+          "url": "https://linuxbrew.bintray.com/bottles/mimic-1.2.0.2_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "icu4c",
+    "portaudio"
+  ],
+  "desc": "Lightweight text-to-speech engine based on CMU Flite",
+  "full_name": "mimic",
+  "homepage": "https://mimic.mycroft.ai",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mimic",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.0.2"
+  }
+}

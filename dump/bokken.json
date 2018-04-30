@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "03fb595260541767d40af2eaa67d662b2ca2750495610226f155f81e74866059",
+          "url": "https://linuxbrew.bintray.com/bottles/bokken-1.8_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "399b38a3c993daac5fe50f1eae4e2530f1bb436be37d0b7899731bf7f453778e",
+          "url": "https://linuxbrew.bintray.com/bottles/bokken-1.8_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4d773862c8aea37e6387c33e459adbcd77c61d53313cf8b57e0009103d5e8ee4",
+          "url": "https://linuxbrew.bintray.com/bottles/bokken-1.8_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "graphviz",
+    "librsvg",
+    "pygtk",
+    "pygtksourceview",
+    "radare2"
+  ],
+  "desc": "GUI for the Pyew and Radare projects",
+  "full_name": "bokken",
+  "homepage": "http://bokken.re/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bokken",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8"
+  }
+}

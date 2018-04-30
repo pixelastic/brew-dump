@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "9f763468898732a937aeb6898f653144c67481288f4a6c9f3a029d62ca11cde7",
+          "url": "https://linuxbrew.bintray.com/bottles/ghc@8.2-8.2.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "sphinx-doc",
+    "m4",
+    "gmp"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sphinx-doc",
+    "m4",
+    "gmp",
+    "ncurses"
+  ],
+  "desc": "Glorious Glasgow Haskell Compilation System",
+  "full_name": "ghc@8.2",
+  "homepage": "https://haskell.org/ghc/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "ghc@8.2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Verify the build using the testsuite",
+      "option": "--with-test"
+    },
+    {
+      "description": "Do not build documentation (including man page)",
+      "option": "--without-docs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "8.2.2"
+  }
+}

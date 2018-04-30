@@ -1,0 +1,45 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "This formula is useful if you need to use the ClojureScript compiler directly.\nFor a more integrated workflow use Leiningen, Boot, or Maven.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Clojure to JS compiler",
+  "full_name": "clojurescript",
+  "homepage": "https://github.com/clojure/clojurescript",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "clojurescript",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.9.946"
+  }
+}

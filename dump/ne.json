@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7bdd3016890a03f6bc006d924cf2373a97b3915bf8d7ddc1a6bb81741085ecff",
+          "url": "https://linuxbrew.bintray.com/bottles/ne-3.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ebf14e2778e53688a4c1c0051187b79994e9374fc599332b20b0b362d6517c49",
+          "url": "https://linuxbrew.bintray.com/bottles/ne-3.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1aee5fa253900a888bfa27d92a3b0e262a01acf03da2987285064c916105a388",
+          "url": "https://linuxbrew.bintray.com/bottles/ne-3.1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "00d0ed886fa94db6b33f26dd304f468c79748379ac95c49a96141594fa0b333a",
+          "url": "https://linuxbrew.bintray.com/bottles/ne-3.1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "The nice editor",
+  "full_name": "ne",
+  "homepage": "http://ne.di.unimi.it",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ne",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.1.1"
+  }
+}

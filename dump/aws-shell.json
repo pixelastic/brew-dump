@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8cbefd666d4b22ed36e488ad96e2e6ba472fb7f51df9fdab45a6c21aaf3c1234",
+          "url": "https://linuxbrew.bintray.com/bottles/aws-shell-0.2.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8cbefd666d4b22ed36e488ad96e2e6ba472fb7f51df9fdab45a6c21aaf3c1234",
+          "url": "https://linuxbrew.bintray.com/bottles/aws-shell-0.2.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8cbefd666d4b22ed36e488ad96e2e6ba472fb7f51df9fdab45a6c21aaf3c1234",
+          "url": "https://linuxbrew.bintray.com/bottles/aws-shell-0.2.0_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b8533447e5d4ecdc766fae188b3d7391bb40251321fd65f98fb85ecbeade9a63",
+          "url": "https://linuxbrew.bintray.com/bottles/aws-shell-0.2.0_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Integrated shell for working with the AWS CLI",
+  "full_name": "aws-shell",
+  "homepage": "https://github.com/awslabs/aws-shell",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aws-shell",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.0"
+  }
+}

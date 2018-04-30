@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d6cb9dee20339fe668adcf97447a6451f59e970ccef032cb97665582fa064ce4",
+          "url": "https://linuxbrew.bintray.com/bottles/vaulted-2.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "db68eee1cf7831a4fcd07b446b1ec9e4e31f61180e43dc78d5609974d233bb89",
+          "url": "https://linuxbrew.bintray.com/bottles/vaulted-2.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f26213f97d628b3fd09da3499599ce809836d35a8d9066c4ca0956337e8004e2",
+          "url": "https://linuxbrew.bintray.com/bottles/vaulted-2.2.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "643939ca33c34a15ac264bf4cb66aaf1b14fb175528b40ab2fbaa206baa62624",
+          "url": "https://linuxbrew.bintray.com/bottles/vaulted-2.2.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Allows the secure storage and execution of environments",
+  "full_name": "vaulted",
+  "homepage": "https://github.com/miquella/vaulted",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vaulted",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.2.0"
+  }
+}

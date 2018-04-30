@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3c5ebdc4717d374aa9775c137129463fea9d255080e6a90d1380443c50cf192e",
+          "url": "https://linuxbrew.bintray.com/bottles/yank-0.8.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "aa67d326b2059610675288a2ff20edb1f156327f8c4399e0d725fed6bb3962f1",
+          "url": "https://linuxbrew.bintray.com/bottles/yank-0.8.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "07b4356f309e74541d37da6c1a619e836e7743ad206e38d4e1ce66204ca03ce1",
+          "url": "https://linuxbrew.bintray.com/bottles/yank-0.8.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "585e4e6fb05fdcc0f67e237ce961def9ba1e1541fd45208111d001ebb955ffe2",
+          "url": "https://linuxbrew.bintray.com/bottles/yank-0.8.3.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "eafe51016b3b0b08f5af4db3f9a143ec291cdeb1f8dca59285ea90d5b1fb1101",
+          "url": "https://linuxbrew.bintray.com/bottles/yank-0.8.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Copy terminal output to clipboard",
+  "full_name": "yank",
+  "homepage": "https://github.com/mptre/yank",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yank",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.3"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Large-scale codebase refactors assistant tool",
+  "full_name": "codemod",
+  "homepage": "https://github.com/facebook/codemod",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "codemod",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a8b3fe01f85e8d9345dbe4ceddda24abd244f1b4055abcfef36e73b26e14ae86",
+          "url": "https://linuxbrew.bintray.com/bottles/libcoap-4.1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0c6f38dbbdca258949c72b8eb9439e72c9f8cdb473de80fc4b2d5996a89d80b5",
+          "url": "https://linuxbrew.bintray.com/bottles/libcoap-4.1.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f9577ef79f4c1a7a257d04004cb64802879787bb5b5657a7aa54ab24ee102c20",
+          "url": "https://linuxbrew.bintray.com/bottles/libcoap-4.1.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9136fd65029d0b43c91065adead6f4383cdc399ebb8fdd91d4b44d37ba95b5a6",
+          "url": "https://linuxbrew.bintray.com/bottles/libcoap-4.1.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "desc": "Lightweight application-protocol for resource-constrained devices",
+  "full_name": "libcoap",
+  "homepage": "https://github.com/obgm/libcoap",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libcoap",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.1.2"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9dc3edc35150bd1701f9107b2248a5b275d1842447aa58f77341c4af8e478d7e",
+          "url": "https://linuxbrew.bintray.com/bottles/itstool-2.0.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9dc3edc35150bd1701f9107b2248a5b275d1842447aa58f77341c4af8e478d7e",
+          "url": "https://linuxbrew.bintray.com/bottles/itstool-2.0.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9dc3edc35150bd1701f9107b2248a5b275d1842447aa58f77341c4af8e478d7e",
+          "url": "https://linuxbrew.bintray.com/bottles/itstool-2.0.4_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "34afd91b5d312141a1e754abb738b5f9223be9931f519f91d967e1197d640032",
+          "url": "https://linuxbrew.bintray.com/bottles/itstool-2.0.4_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "libxml2"
+  ],
+  "desc": "Make XML documents translatable through PO files",
+  "full_name": "itstool",
+  "homepage": "http://itstool.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "itstool",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.4"
+  }
+}

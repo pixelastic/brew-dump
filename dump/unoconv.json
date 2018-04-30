@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "cb6ddbfbd729b82ab62289c996f8150044ea66ea6ec1fa54c64736eccb1fa964",
+          "url": "https://linuxbrew.bintray.com/bottles/unoconv-0.8.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cb6ddbfbd729b82ab62289c996f8150044ea66ea6ec1fa54c64736eccb1fa964",
+          "url": "https://linuxbrew.bintray.com/bottles/unoconv-0.8.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cb6ddbfbd729b82ab62289c996f8150044ea66ea6ec1fa54c64736eccb1fa964",
+          "url": "https://linuxbrew.bintray.com/bottles/unoconv-0.8.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c4da0c1a5218cb2ed9c2ce717572ae046634e03e2d818bac2b0f8c1c89f6be80",
+          "url": "https://linuxbrew.bintray.com/bottles/unoconv-0.8.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "In order to use unoconv, a copy of LibreOffice between versions 3.6.0.1 - 4.3.x must be installed.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Convert between any document format supported by OpenOffice",
+  "full_name": "unoconv",
+  "homepage": "http://dag.wiee.rs/home-made/unoconv/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "unoconv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8.2"
+  }
+}

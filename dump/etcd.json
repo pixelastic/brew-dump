@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "325b07bbc00530731ae0d2d223431110416bf14fc344d02f14ff95c7a1c85124",
+          "url": "https://linuxbrew.bintray.com/bottles/etcd-3.3.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e1d61351074861afece7902e97abea9e738071ae113a6784cc77a2b9ad270b97",
+          "url": "https://linuxbrew.bintray.com/bottles/etcd-3.3.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d4c6e309999a13ad54d08c57d2e7839a6eb37bc4aff3871e003adaaff0fe6f70",
+          "url": "https://linuxbrew.bintray.com/bottles/etcd-3.3.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "123a1cced03b8f1a06ba70f0dc040d8b543a772ac73afb4c373dd7c269f51689",
+          "url": "https://linuxbrew.bintray.com/bottles/etcd-3.3.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Key value store for shared configuration and service discovery",
+  "full_name": "etcd",
+  "homepage": "https://github.com/coreos/etcd",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "etcd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.3.4"
+  }
+}

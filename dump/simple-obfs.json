@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "eccfcd8d4016297999d730fd185624b42e903f7dfac43bd6227c337c2b3aafea",
+          "url": "https://linuxbrew.bintray.com/bottles/simple-obfs-0.0.5_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "08024887dc9fba3f56425181dd34dba1ecf185dad688b85d20a7b70ec07afbae",
+          "url": "https://linuxbrew.bintray.com/bottles/simple-obfs-0.0.5_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "831de4a180d61c801397ead63a0130d8d2eb102afb526ef81bcecb2f9d1d029b",
+          "url": "https://linuxbrew.bintray.com/bottles/simple-obfs-0.0.5_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "asciidoc",
+    "autoconf",
+    "automake",
+    "libtool",
+    "xmlto"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "asciidoc",
+    "autoconf",
+    "automake",
+    "libtool",
+    "xmlto",
+    "libev"
+  ],
+  "desc": "Simple obfusacting plugin of shadowsocks-libev",
+  "full_name": "simple-obfs",
+  "homepage": "https://github.com/shadowsocks/simple-obfs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "simple-obfs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.0.5"
+  }
+}

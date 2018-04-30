@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "84ce281185ba415257d8507e9b16ba8dc3189ec8b8414d21a6421d5979a025d2",
+          "url": "https://linuxbrew.bintray.com/bottles/sha2-1.0.1.el_capitan.bottle.3.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ae8fb4e03f1272bd6d323669b311ddffd021a945e0beba52ae288f1fa7d4639b",
+          "url": "https://linuxbrew.bintray.com/bottles/sha2-1.0.1.high_sierra.bottle.3.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "34650fbb427aa57f452acc23a338696756792907bd7e127d7b495a7fd7e4573a",
+          "url": "https://linuxbrew.bintray.com/bottles/sha2-1.0.1.mavericks.bottle.3.tar.gz"
+        },
+        "sierra": {
+          "sha256": "133588f831b1848abef49c88fd7587052990ad4b7133dc300a5c6aed806b1801",
+          "url": "https://linuxbrew.bintray.com/bottles/sha2-1.0.1.sierra.bottle.3.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "da63b7e9be95c91bcdc3290e3c6caee12016c5d59960144ea26f8c6438dfe680",
+          "url": "https://linuxbrew.bintray.com/bottles/sha2-1.0.1.yosemite.bottle.3.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 3,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Implementation of SHA-256, SHA-384, and SHA-512 hash algorithms",
+  "full_name": "sha2",
+  "homepage": "https://www.aarongifford.com/computers/sha.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sha2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Skip compile-time tests",
+      "option": "--without-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.1"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e333e99c0fe8611be1fc7fb54d3e4e77f4cde210bb1c281031ed54b74187ef4d",
+          "url": "https://linuxbrew.bintray.com/bottles/stk-4.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "67c1c6c12bbf98d866bac55955d4715f94c05c63551bd0687646c6acd549de91",
+          "url": "https://linuxbrew.bintray.com/bottles/stk-4.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "70c1c7e91fc3477055e6bc1a39dd5ef160c4e496887bb22b88d7fd149b03bfa6",
+          "url": "https://linuxbrew.bintray.com/bottles/stk-4.6.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": "The header files have been put in a standard search path, it is possible to use an include statement in programs as follows:\n\n  #include \"stk/FileLoop.h\"\n  #include \"stk/FileWvOut.h\"\n\nsrc/ projects/ and rawwaves/ have all been copied to /home/tim/.linuxbrew/opt/stk/share/stk\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "desc": "Sound Synthesis Toolkit",
+  "full_name": "stk",
+  "homepage": "https://ccrma.stanford.edu/software/stk/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "stk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Compile with debug flags and modified CFLAGS for easier debugging",
+      "option": "--with-debug"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.6.0"
+  }
+}

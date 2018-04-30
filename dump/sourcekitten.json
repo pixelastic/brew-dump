@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "high_sierra": {
+          "sha256": "18dd6b4cf0ba1bf41858a1ba55cfdc4f289aa4dee04afa4e77b8f7cac36a235a",
+          "url": "https://linuxbrew.bintray.com/bottles/sourcekitten-0.20.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6eca1a63058245ca3fd29e42cf93f0c50271d3d363a7a2578afc27d306131938",
+          "url": "https://linuxbrew.bintray.com/bottles/sourcekitten-0.20.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Framework and command-line tool for interacting with SourceKit",
+  "full_name": "sourcekitten",
+  "homepage": "https://github.com/jpsim/SourceKitten",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sourcekitten",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.20.0"
+  }
+}

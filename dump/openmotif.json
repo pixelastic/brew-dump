@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bef02966fb2d72ac23235c8038cdf864cefe47d1cb905fac08a9194d7c9ed554",
+          "url": "https://linuxbrew.bintray.com/bottles/openmotif-2.3.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ca0c7a96b098ed5efc2dace2cb1b9bc2447c8f1cf0780e882bfee691160466e0",
+          "url": "https://linuxbrew.bintray.com/bottles/openmotif-2.3.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "21120a7b3aab57d5660c480ab5f1924cbfb31e8625674bf02704971f103616f9",
+          "url": "https://linuxbrew.bintray.com/bottles/openmotif-2.3.8.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "lesstif"
+  ],
+  "dependencies": [
+    "pkg-config",
+    "fontconfig",
+    "freetype",
+    "jpeg",
+    "libpng"
+  ],
+  "desc": "LGPL release of the Motif toolkit",
+  "full_name": "openmotif",
+  "homepage": "https://motif.ics.com/motif",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openmotif",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.8"
+  }
+}

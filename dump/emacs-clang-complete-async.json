@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9501489cb080eef8a51eb5d3891df8d75f1ccb2211b5d1e95e4ac52c031ab191",
+          "url": "https://linuxbrew.bintray.com/bottles/emacs-clang-complete-async-0.5_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0ba317a80f92e3edc59b0e9205cd4854f2b8debcec89e7844c6c4a82570b9b1e",
+          "url": "https://linuxbrew.bintray.com/bottles/emacs-clang-complete-async-0.5_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "75d385e6d09ad1ca380891f2835d07ba1eaf3091ab0d82d063a4c977464d5cd0",
+          "url": "https://linuxbrew.bintray.com/bottles/emacs-clang-complete-async-0.5_4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "llvm"
+  ],
+  "desc": "Emacs plugin using libclang to complete C/C++ code",
+  "full_name": "emacs-clang-complete-async",
+  "homepage": "https://github.com/Golevka/emacs-clang-complete-async",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "emacs-clang-complete-async",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Include Emacs lisp package",
+      "option": "--with-elisp"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5"
+  }
+}

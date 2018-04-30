@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "af95008a046a4a95f90a8fe3c2c51a7e14623be12463e61da681835e1f5fe01c",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-rtsp-server-1.14.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8685967d5691dd7bd63981eee80a0780d4daaabe650f4c07f1498e4694875dac",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-rtsp-server-1.14.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "45d3f693b64f0041fc923135e7e0ccb1f80bb8784e508fa25b43c6e53318bbb6",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-rtsp-server-1.14.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "libtool",
+    "pkg-config",
+    "gettext",
+    "gstreamer",
+    "gst-plugins-base"
+  ],
+  "desc": "RTSP server library based on GStreamer",
+  "full_name": "gst-rtsp-server",
+  "homepage": "https://gstreamer.freedesktop.org/modules/gst-rtsp-server.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gst-rtsp-server",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.14.0"
+  }
+}

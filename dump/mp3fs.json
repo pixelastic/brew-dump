@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ac57948842d987524def18895ffe171aaf036e4503315c64eb5152003f67027b",
+          "url": "https://linuxbrew.bintray.com/bottles/mp3fs-0.91.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7eec592abb48a4e5acb0b77ba4138b0e2ce8c01817dadf9ace35cdbbcfdd5ea5",
+          "url": "https://linuxbrew.bintray.com/bottles/mp3fs-0.91.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e711d5da3c4c5f838911938bf5a5e8b754ffacae41c8824caa1ea0576d194718",
+          "url": "https://linuxbrew.bintray.com/bottles/mp3fs-0.91.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a1f89f74c8de87c9559fe1dc2f26ec0af5ee5d9d60d1f8962f6eaa1af243f25b",
+          "url": "https://linuxbrew.bintray.com/bottles/mp3fs-0.91.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "lame",
+    "libid3tag",
+    "flac"
+  ],
+  "desc": "Read-only FUSE file system: transcodes audio formats to MP3",
+  "full_name": "mp3fs",
+  "homepage": "https://khenriks.github.io/mp3fs/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mp3fs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.91"
+  }
+}

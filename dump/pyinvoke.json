@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f6576a575d302c1549e7cf76d3d07f5fc0f5c38efdd3534e915c0a39f4de57f9",
+          "url": "https://linuxbrew.bintray.com/bottles/pyinvoke-0.22.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "22caddb4a74b1d916fee0352c5ca99f4abe7f7544d5afa870d9d9b22442a8105",
+          "url": "https://linuxbrew.bintray.com/bottles/pyinvoke-0.22.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b649f689fa537171c909318338baa5147b4c6abe0e0d3ab4405bda9f9e433d3d",
+          "url": "https://linuxbrew.bintray.com/bottles/pyinvoke-0.22.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6b0d46bf3bef3dab4e49c2905a8f02dabe8dccd7850a72f6d3e9f291cdc9630f",
+          "url": "https://linuxbrew.bintray.com/bottles/pyinvoke-0.22.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Pythonic task management & command execution",
+  "full_name": "pyinvoke",
+  "homepage": "http://pyinvoke.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pyinvoke",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.22.1"
+  }
+}

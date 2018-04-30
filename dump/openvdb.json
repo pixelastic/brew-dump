@@ -1,0 +1,88 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2ef5c5cd804347751f8067ce242ef560f030d2754601b6f406a39ed7b1a28902",
+          "url": "https://linuxbrew.bintray.com/bottles/openvdb-5.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "47a0d2be1d63bf4b86391f16d627fe13c491ef602f37e0bca3d70b78481943fa",
+          "url": "https://linuxbrew.bintray.com/bottles/openvdb-5.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "44060a4849fbe734eca5885033d07947c96b83545496f2afeb033eb8d8b00305",
+          "url": "https://linuxbrew.bintray.com/bottles/openvdb-5.1.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "ilmbase",
+    "openexr",
+    "tbb",
+    "jemalloc",
+    "glfw"
+  ],
+  "desc": "Sparse volume processing toolkit",
+  "full_name": "openvdb",
+  "homepage": "http://www.openvdb.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openvdb",
+  "oldname": null,
+  "optional_dependencies": [
+    "glfw"
+  ],
+  "options": [
+    {
+      "description": "Installs the command-line tool to view OpenVDB files",
+      "option": "--with-glfw"
+    },
+    {
+      "description": "Installs the unit tests for the OpenVDB library",
+      "option": "--with-test"
+    },
+    {
+      "description": "Requires log4cplus",
+      "option": "--with-logging"
+    },
+    {
+      "description": "Installs documentation",
+      "option": "--with-docs"
+    },
+    {
+      "description": "Build without jemalloc support",
+      "option": "--without-jemalloc"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "jemalloc"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.1.0"
+  }
+}

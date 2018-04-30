@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a51e7c700bb0074445e0a0ccea938592841a49f9c858051f6ec97170e30eccd0",
+          "url": "https://linuxbrew.bintray.com/bottles/fleetctl-1.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "01ae897f69a8d74b22c52faeb300380299b2c369eb39c0778eee6fb0602e5309",
+          "url": "https://linuxbrew.bintray.com/bottles/fleetctl-1.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "217f22406b9a249f6101b40605b020766547b00bb24e8c005cbdecc099251a80",
+          "url": "https://linuxbrew.bintray.com/bottles/fleetctl-1.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "bd2846fe30e681c787b0a01870f1f9aea290af07c137afc9ce0e53fd2c49b012",
+          "url": "https://linuxbrew.bintray.com/bottles/fleetctl-1.0.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "09492b0c1dc6af381bb22bec46b51c585db9068cda51f290dc5d2c46d91d6c48",
+          "url": "https://linuxbrew.bintray.com/bottles/fleetctl-1.0.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Distributed init system",
+  "full_name": "fleetctl",
+  "homepage": "https://github.com/coreos/fleet",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fleetctl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.0"
+  }
+}

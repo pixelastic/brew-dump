@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9d4e866c9eaecc6301c4b715eb807893c87df9ad9a680cc70fa16d9b62412885",
+          "url": "https://linuxbrew.bintray.com/bottles/qjackctl-0.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "00a9841ed8fdaf1b6e52b54e1ee1711ca2737485175d84480a0dc848e356f4a6",
+          "url": "https://linuxbrew.bintray.com/bottles/qjackctl-0.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "27a7963a4c5e9a5cbf844f0284064a28e3b275c843a703c99e8a161d4260dda1",
+          "url": "https://linuxbrew.bintray.com/bottles/qjackctl-0.5.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "qt",
+    "jack"
+  ],
+  "desc": "Simple Qt application to control the JACK sound server daemon",
+  "full_name": "qjackctl",
+  "homepage": "https://qjackctl.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qjackctl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5.0"
+  }
+}

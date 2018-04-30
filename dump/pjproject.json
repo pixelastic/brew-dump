@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "52a55c49ef0d0d53abf447fd060e7eaf8bd1d10c8f6b419582c5e453634d5b61",
+          "url": "https://linuxbrew.bintray.com/bottles/pjproject-2.7.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eec232d8fe6c5b4e05521a87a4bd1a5cb4fcc6a4f0a996ddaacc33bd2d93255f",
+          "url": "https://linuxbrew.bintray.com/bottles/pjproject-2.7.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f7d12f6bcb2a628df0e87e4bbaffc368ca004ed6de12d11d4d019b080257a2d0",
+          "url": "https://linuxbrew.bintray.com/bottles/pjproject-2.7.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "C library for multimedia protocols such as SIP, SDP, RTP and more",
+  "full_name": "pjproject",
+  "homepage": "http://www.pjsip.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pjproject",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.7.2"
+  }
+}

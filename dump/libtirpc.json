@@ -1,0 +1,58 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "7c093d0948f7794df11cae0a0f0e974e8b0734d46beb2f7977db39d84aa16720",
+          "url": "https://linuxbrew.bintray.com/bottles/libtirpc-1.0.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "krb5"
+  ],
+  "desc": "Port of Sun's Transport-Independent RPC library to Linux",
+  "full_name": "libtirpc",
+  "homepage": "http://sourceforge.net/projects/libtirpc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libtirpc",
+  "oldname": null,
+  "optional_dependencies": [
+    "krb5"
+  ],
+  "options": [
+    {
+      "description": "Build with krb5 support",
+      "option": "--with-krb5"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.1"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "937cdf0951ddd716ff654d3d959f862bb838c830a5194de220c3c60c118895c5",
+          "url": "https://linuxbrew.bintray.com/bottles/xa-2.3.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8b72ad60db64443a0f7a821059221573e258e4a3e99621e5defebe71bda1d322",
+          "url": "https://linuxbrew.bintray.com/bottles/xa-2.3.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c3148f1d7318b3e1757bdae5c7cca5d0f5cd15d1dbb3fbf33880c0b22ee525f1",
+          "url": "https://linuxbrew.bintray.com/bottles/xa-2.3.8.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "68a7eb1baf6fa2ba45715c022d1914852f8b041330719e5878344fc8c29da331",
+          "url": "https://linuxbrew.bintray.com/bottles/xa-2.3.8.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "6502 cross assembler",
+  "full_name": "xa",
+  "homepage": "https://www.floodgap.com/retrotech/xa/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xa",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.8"
+  }
+}

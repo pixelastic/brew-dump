@@ -1,0 +1,54 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "cd729e36e463154b10f4198024ca0760669ebf198f12dc2d3b73162684ae2ddd",
+          "url": "https://linuxbrew.bintray.com/bottles/docker2aci-0.17.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Library and CLI tool to convert Docker images to ACIs",
+  "full_name": "docker2aci",
+  "homepage": "https://github.com/appc/docker2aci",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "docker2aci",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.17.2"
+  }
+}

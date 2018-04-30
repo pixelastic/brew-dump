@@ -1,0 +1,115 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c17635a041cf7fdf5458ed70f4cf8b10f53fe1a5ccf2109d5c8e262b978eab16",
+          "url": "https://linuxbrew.bintray.com/bottles/monetdb-11.29.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "524334a54122d87d29e15f15da8620d804ee6a791396a8da698cc378fe8db10a",
+          "url": "https://linuxbrew.bintray.com/bottles/monetdb-11.29.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b0c68409cc0783fcf83fd84496556a3a6c80bbe4bb1414f687cd10c3eddd85da",
+          "url": "https://linuxbrew.bintray.com/bottles/monetdb-11.29.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "ant",
+    "libatomic_ops"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "ant",
+    "libatomic_ops",
+    "pcre",
+    "readline",
+    "openssl",
+    "unixodbc",
+    "geos",
+    "gsl",
+    "cfitsio"
+  ],
+  "desc": "Column-store database",
+  "full_name": "monetdb",
+  "homepage": "https://www.monetdb.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "monetdb",
+  "oldname": null,
+  "optional_dependencies": [
+    "unixodbc",
+    "geos",
+    "gsl",
+    "cfitsio"
+  ],
+  "options": [
+    {
+      "description": "Build the JDBC driver",
+      "option": "--with-java"
+    },
+    {
+      "description": "Build the Ruby driver",
+      "option": "--with-ruby"
+    },
+    {
+      "description": "Build the R integration module",
+      "option": "--with-r"
+    },
+    {
+      "description": "Build without libatomic_ops support",
+      "option": "--without-libatomic_ops"
+    },
+    {
+      "description": "Build with unixodbc support",
+      "option": "--with-unixodbc"
+    },
+    {
+      "description": "Build with geos support",
+      "option": "--with-geos"
+    },
+    {
+      "description": "Build with gsl support",
+      "option": "--with-gsl"
+    },
+    {
+      "description": "Build with cfitsio support",
+      "option": "--with-cfitsio"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libatomic_ops"
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "r"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "11.29.3"
+  }
+}

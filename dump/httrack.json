@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "34e26e1534cdf1cf32f10c861833c2ab8405def4a0f2d08253acfe15e37a8b90",
+          "url": "https://linuxbrew.bintray.com/bottles/httrack-3.49.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e46c52519cd4b7caf7ff5bd034ab016362e79d4df73840305b3a54d679fa33b4",
+          "url": "https://linuxbrew.bintray.com/bottles/httrack-3.49.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "16e5fb0657a1cdafcfa94d9f5e1362f7f1f89e86633e371b7ad86d17b7caa37b",
+          "url": "https://linuxbrew.bintray.com/bottles/httrack-3.49.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "dd8b465a86b2d6331ad663c3a26f84ddf3b8b16ef5b1e909e4a9cabc8c8593c0",
+          "url": "https://linuxbrew.bintray.com/bottles/httrack-3.49.2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e07658fd32a00001eb85c18b159eea17e2014142e8e56c7d1e07ecbb5774be95",
+          "url": "https://linuxbrew.bintray.com/bottles/httrack-3.49.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Website copier/offline browser",
+  "full_name": "httrack",
+  "homepage": "https://www.httrack.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "httrack",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.49.2"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "eecf056af8aa2b0062a5c6568a30c6f8e0120fbe5bdef718d5b30f76894e3f36",
+          "url": "https://linuxbrew.bintray.com/bottles/nedit-5.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e0b25b1e4de1406581d398d1159f19b806328f1dc82b90874eab044dd8369162",
+          "url": "https://linuxbrew.bintray.com/bottles/nedit-5.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0150b964f9436f9e97e8a969379240ba50612354e36883bb851cc66f4fea6f74",
+          "url": "https://linuxbrew.bintray.com/bottles/nedit-5.7.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openmotif"
+  ],
+  "desc": "Fast, compact Motif/X11 plain text editor",
+  "full_name": "nedit",
+  "homepage": "https://sourceforge.net/projects/nedit/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nedit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.7"
+  }
+}

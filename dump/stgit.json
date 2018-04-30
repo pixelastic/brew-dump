@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0eee6dda264e8d497079d734b3127dbc84931a831edcb488a6ea55f80cc1cce5",
+          "url": "https://linuxbrew.bintray.com/bottles/stgit-0.18.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cf5d28fd456e9d28a4dae935ce96968cfa019801381e9d4ba50ed978d42fe791",
+          "url": "https://linuxbrew.bintray.com/bottles/stgit-0.18.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0eee6dda264e8d497079d734b3127dbc84931a831edcb488a6ea55f80cc1cce5",
+          "url": "https://linuxbrew.bintray.com/bottles/stgit-0.18.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0eee6dda264e8d497079d734b3127dbc84931a831edcb488a6ea55f80cc1cce5",
+          "url": "https://linuxbrew.bintray.com/bottles/stgit-0.18.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Push/pop utility built on top of Git",
+  "full_name": "stgit",
+  "homepage": "https://github.com/ctmarinas/stgit",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "stgit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.18"
+  }
+}

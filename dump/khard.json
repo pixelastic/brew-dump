@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f593c204aa806a82569194d72a93bf111e0ef8a1f8a0dc040d67f1e55f2785f9",
+          "url": "https://linuxbrew.bintray.com/bottles/khard-0.12.2_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "db7eeae4d9861620a26eeab74e37f02ea3b31793f94dd5785d50cdd607c151a3",
+          "url": "https://linuxbrew.bintray.com/bottles/khard-0.12.2_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0252064179ba0a9218700e6a51eb57a3502b52fedd6b248996186ddcb67ad58b",
+          "url": "https://linuxbrew.bintray.com/bottles/khard-0.12.2_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Console carddav client",
+  "full_name": "khard",
+  "homepage": "https://github.com/scheibler/khard/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "khard",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.12.2"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "37fd3d134428952fda16239392f4960428852c1f83eb942bd0b45da2e76dcc3b",
+          "url": "https://linuxbrew.bintray.com/bottles/eject-0.1.27.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3333db5dbcaba9ec034423be274f92465fd4058ee3322c9278e783090cc172d2",
+          "url": "https://linuxbrew.bintray.com/bottles/eject-0.1.27.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ae124f2e438fe9bf83900b2f5f452d478ff2ca8b9a36dcd07454497044e4ae49",
+          "url": "https://linuxbrew.bintray.com/bottles/eject-0.1.27.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Generate swift code from Interface Builder xibs",
+  "full_name": "eject",
+  "homepage": "https://github.com/Raizlabs/Eject",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "eject",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.27"
+  }
+}

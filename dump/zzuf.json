@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5f0c55658fba6bbf225b6001b5be75c38f7a375322bd4b23944f3c7239dae0c7",
+          "url": "https://linuxbrew.bintray.com/bottles/zzuf-0.15.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f13b52915de3bf08ed663b02df0f8b4d8f78d3a623c523a4d5f3c085ae6bafcf",
+          "url": "https://linuxbrew.bintray.com/bottles/zzuf-0.15.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "52460ee4dcac540298fa8f0e07225bc01d5592fd4ff558f1cfd129b329e87639",
+          "url": "https://linuxbrew.bintray.com/bottles/zzuf-0.15.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9f1b2bfb909739bc5dec2e56b520313e30df3384e8a249b575d3664ac6a636be",
+          "url": "https://linuxbrew.bintray.com/bottles/zzuf-0.15.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7f260ec41af74aa8b99df4a89f202382c72067e34b4bb3ac0a0e3fb0be6f8ed0",
+          "url": "https://linuxbrew.bintray.com/bottles/zzuf-0.15.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Transparent application input fuzzer",
+  "full_name": "zzuf",
+  "homepage": "http://caca.zoy.org/wiki/zzuf",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zzuf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.15"
+  }
+}

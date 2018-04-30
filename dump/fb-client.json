@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1ead29ad0ede0e2f81b6c734c8099a57bf02fd3690a7316d58a62201f52c9311",
+          "url": "https://linuxbrew.bintray.com/bottles/fb-client-2.0.3_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7c175561426a008817ec3bd80f3239f80746d4409a49ea32787e3974db336077",
+          "url": "https://linuxbrew.bintray.com/bottles/fb-client-2.0.3_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "49208b9103b9acb4df5f553720bc4c785796f1113d84c1019663cf6e01d8d56e",
+          "url": "https://linuxbrew.bintray.com/bottles/fb-client-2.0.3_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "findbugs"
+  ],
+  "dependencies": [
+    "pkg-config",
+    "python"
+  ],
+  "desc": "Shell-script client for https://paste.xinu.at",
+  "full_name": "fb-client",
+  "homepage": "https://paste.xinu.at",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fb-client",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.3"
+  }
+}

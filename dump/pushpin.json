@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2ee66b7f78d4b25641651f34151adbd1a07b89441a5e1930796e6337fc56807b",
+          "url": "https://linuxbrew.bintray.com/bottles/pushpin-1.17.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "33219cdbd31298f00209282e5ff588187245f7a5a5652c39263717a372e9b290",
+          "url": "https://linuxbrew.bintray.com/bottles/pushpin-1.17.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2233ed69e470f3cf507ff933bb8eb78783b5e8523673fa9b8ad09418b6426a72",
+          "url": "https://linuxbrew.bintray.com/bottles/pushpin-1.17.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "eee9d774b7210606f332efc71f0bc78ea6d4048117cf1f8bf6f5c5e12b017f44",
+          "url": "https://linuxbrew.bintray.com/bottles/pushpin-1.17.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "qt",
+    "zeromq",
+    "mongrel2",
+    "zurl"
+  ],
+  "desc": "Reverse proxy for realtime web services",
+  "full_name": "pushpin",
+  "homepage": "https://pushpin.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pushpin",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.17.2"
+  }
+}

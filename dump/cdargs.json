@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "de9d5777eb0179f9ffacb5bcbb0ff0ce7f0c1fb208bb992290eb5a36e1d3f159",
+          "url": "https://linuxbrew.bintray.com/bottles/cdargs-1.35.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "10a170bfe1b70f6c8909ddb6fb88b7615219d6847576e72ee1e4011aba482e9b",
+          "url": "https://linuxbrew.bintray.com/bottles/cdargs-1.35.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "2bb555d4cf65f3d11595350135582599fd6ccf988bc7bb76c58155ddcef29223",
+          "url": "https://linuxbrew.bintray.com/bottles/cdargs-1.35.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5ba84d6dff14f5743296721a91e6d01ce984bf6e4589ce2128041b1ed9560a3a",
+          "url": "https://linuxbrew.bintray.com/bottles/cdargs-1.35.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "cf098fc4187835ef1c970b38ab41719e0900c01d2772572f697e9773a6c632e6",
+          "url": "https://linuxbrew.bintray.com/bottles/cdargs-1.35.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Support files for bash, tcsh, and emacs have been installed to:\n  /home/tim/.linuxbrew/Cellar/cdargs/1.35/contrib\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Bookmarks for the shell",
+  "full_name": "cdargs",
+  "homepage": "https://www.skamphausen.de/cgi-bin/ska/CDargs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cdargs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.35"
+  }
+}

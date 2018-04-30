@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a66b436a645cafa77a5bd79d22f314ff2b9331526f5efeaf79d38346647cad66",
+          "url": "https://linuxbrew.bintray.com/bottles/avanor-0.5.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d99615cac684c32894df532e78452b2542ba857ce69fa58d39e54bcc2fe4ca4a",
+          "url": "https://linuxbrew.bintray.com/bottles/avanor-0.5.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "848e96ed26b258042b77a3c2139398b8e6f62722719263c082fb4c6655ffd4bc",
+          "url": "https://linuxbrew.bintray.com/bottles/avanor-0.5.8.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fac0daf5f6f98e48364ce42b619096483a60a03e52c268e5729f9843dcbb87fe",
+          "url": "https://linuxbrew.bintray.com/bottles/avanor-0.5.8.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1c12fd7f45993d18b481d3317594083e4bb88f0eecf100d4b5dd4a927c866200",
+          "url": "https://linuxbrew.bintray.com/bottles/avanor-0.5.8.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Quick-growing roguelike game with easy ADOM-like UI",
+  "full_name": "avanor",
+  "homepage": "https://avanor.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "avanor",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.5.8"
+  }
+}

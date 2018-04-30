@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "dd3b0a77e2eb08bbec7f5a0b14744f2dcc7894d4da9702d1e489e901c8e9a4f0",
+          "url": "https://linuxbrew.bintray.com/bottles/viewvc-1.1.26_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dd3b0a77e2eb08bbec7f5a0b14744f2dcc7894d4da9702d1e489e901c8e9a4f0",
+          "url": "https://linuxbrew.bintray.com/bottles/viewvc-1.1.26_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dd3b0a77e2eb08bbec7f5a0b14744f2dcc7894d4da9702d1e489e901c8e9a4f0",
+          "url": "https://linuxbrew.bintray.com/bottles/viewvc-1.1.26_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "subversion"
+  ],
+  "desc": "Browser interface for CVS and Subversion repositories",
+  "full_name": "viewvc",
+  "homepage": "http://www.viewvc.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "viewvc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.26"
+  }
+}

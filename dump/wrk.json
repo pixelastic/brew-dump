@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "23f7c0c7b86691a810238679dee61662781a70b13db95c6dfee4d469845867c1",
+          "url": "https://linuxbrew.bintray.com/bottles/wrk-4.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8167375044c6ff20f33e2d94f92fe2977bb25f19f561f1d5f2eb241b0feda62c",
+          "url": "https://linuxbrew.bintray.com/bottles/wrk-4.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1ace345f489c0fc589b619e96a748bf841ff9134a70016b76cde5ae06795369f",
+          "url": "https://linuxbrew.bintray.com/bottles/wrk-4.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "967ee5aa9cb75f8a498af15c2dbaa8a9d5f868ee8edfc1f1e7fda530e0a4b3c8",
+          "url": "https://linuxbrew.bintray.com/bottles/wrk-4.1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "makedepend"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "wrk-trello"
+  ],
+  "dependencies": [
+    "openssl",
+    "makedepend"
+  ],
+  "desc": "HTTP benchmarking tool",
+  "full_name": "wrk",
+  "homepage": "https://github.com/wg/wrk",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wrk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.1.0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "936133040ca7d68c05f799afb57cde2f21037561431b06efd350cbcbbde430d0",
+          "url": "https://linuxbrew.bintray.com/bottles/angle-grinder-0.7.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "77303c918071cc2d29bceb994bb2642ca507ed14254a3eea0f68af5e4b98482b",
+          "url": "https://linuxbrew.bintray.com/bottles/angle-grinder-0.7.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c7d3caf7625680bbfea59b75de3d8d425ddfe1b3d730373b954b1e57a0d7aa91",
+          "url": "https://linuxbrew.bintray.com/bottles/angle-grinder-0.7.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8648249f20c95fbcc5f3353c1db335d6c35b69f6af3084ef9f6ed9e7c8d4ede7",
+          "url": "https://linuxbrew.bintray.com/bottles/angle-grinder-0.7.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "rust"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "rust"
+  ],
+  "desc": "Slice and dice log files on the command-line",
+  "full_name": "angle-grinder",
+  "homepage": "https://github.com/rcoh/angle-grinder",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "angle-grinder",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.3"
+  }
+}

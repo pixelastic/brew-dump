@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "65aad67d21baa8a0d77b6efb141a418b9a5e5feeb1eed0507160adf799fd8a23",
+          "url": "https://linuxbrew.bintray.com/bottles/modules-4.1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3ae66f974cb5d829374813f56e0c4d94bf77a09e1d2e15579b5fbc9d3bd6ddd2",
+          "url": "https://linuxbrew.bintray.com/bottles/modules-4.1.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "703c6305675950d51a35f08a072aff0aa3f453f65e9beb129e1b5345873e6e4c",
+          "url": "https://linuxbrew.bintray.com/bottles/modules-4.1.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "grep"
+  ],
+  "caveats": "To activate modules, add the following at the end of your .zshrc:\n  source /home/tim/.linuxbrew/opt/modules/init/zsh\nYou will also need to reload your .zshrc:\n  source ~/.zshrc\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "grep"
+  ],
+  "desc": "Dynamic modification of a user's environment via modulefiles",
+  "full_name": "modules",
+  "homepage": "https://modules.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "modules",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.1.2"
+  }
+}

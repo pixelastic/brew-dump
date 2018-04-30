@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "48d404ad79ecd0ac870ca0b3390a6465e7ed2755d58eaf130ec93a4e874e5f34",
+          "url": "https://linuxbrew.bintray.com/bottles/vecx-1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2a2b5d63a8be0bcf51a9b4eee05b0751fd3757b5576e515931a55ad6f729a465",
+          "url": "https://linuxbrew.bintray.com/bottles/vecx-1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9417cc9e5938dc117b4ab7ab41518a2b28e366cae15cdf1192af15e6237a35e6",
+          "url": "https://linuxbrew.bintray.com/bottles/vecx-1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "65e4cd91159f3772ec9e688d93bb1c1dd823e9c397b5163a62b1499909a2b74b",
+          "url": "https://linuxbrew.bintray.com/bottles/vecx-1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl",
+    "sdl_gfx",
+    "sdl_image"
+  ],
+  "desc": "Vectrex emulator",
+  "full_name": "vecx",
+  "homepage": "https://github.com/jhawthorn/vecx",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vecx",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1"
+  }
+}

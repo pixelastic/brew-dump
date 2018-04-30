@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b5bc0c06241f2c7de3da21b27f2126903550fe959378992fe5260eeedb0f612f",
+          "url": "https://linuxbrew.bintray.com/bottles/glulxe-0.5.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "229ef4b0b9e61f0e1ecf0b632ccd5fee08df494a97203820368e669a91f4028d",
+          "url": "https://linuxbrew.bintray.com/bottles/glulxe-0.5.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3a36753838342aef55319fdf1aab32666caffcb714fefd328a93521ed33d6adf",
+          "url": "https://linuxbrew.bintray.com/bottles/glulxe-0.5.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b50be16e36671d7818d123403937496f258882c98bbc6f4d8242c2e6eb97b310",
+          "url": "https://linuxbrew.bintray.com/bottles/glulxe-0.5.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cheapglk",
+    "glkterm",
+    "glktermw"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cheapglk",
+    "glkterm",
+    "glktermw"
+  ],
+  "desc": "Portable VM like the Z-machine",
+  "full_name": "glulxe",
+  "homepage": "https://www.eblong.com/zarf/glulx/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "glulxe",
+  "oldname": null,
+  "optional_dependencies": [
+    "cheapglk",
+    "glkterm"
+  ],
+  "options": [
+    {
+      "description": "Build with glkterm (without wide character support)",
+      "option": "--with-glkterm"
+    },
+    {
+      "description": "Build with cheapglk support",
+      "option": "--with-cheapglk"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5.4"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "high_sierra": {
+          "sha256": "a2a31260b0c6fb1d780945f9a8517fc7bc0a832e7aadb5aeda5ff5f4517071b3",
+          "url": "https://linuxbrew.bintray.com/bottles/openrct2-0.1.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3f50413762987b388ba37939734339369875e746079bbbc840a2d640c65dde39",
+          "url": "https://linuxbrew.bintray.com/bottles/openrct2-0.1.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "jansson",
+    "libpng",
+    "libzip",
+    "openssl",
+    "sdl2",
+    "sdl2_ttf",
+    "speexdsp",
+    "freetype"
+  ],
+  "desc": "Open source re-implementation of RollerCoaster Tycoon 2",
+  "full_name": "openrct2",
+  "homepage": "https://openrct2.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openrct2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.1.2"
+  }
+}

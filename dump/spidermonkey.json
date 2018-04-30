@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5e7789a8ba4e3259364bd3ae827037ba83bf3a076633799bf8f5869b885db399",
+          "url": "https://linuxbrew.bintray.com/bottles/spidermonkey-1.8.5_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "03c8a52da69c69fd7dba21cfb6fad8f3f95f6aa63b0fde61572c39124cbaea41",
+          "url": "https://linuxbrew.bintray.com/bottles/spidermonkey-1.8.5_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "62193341691f6f35a1d844409c587b431aa7540b70c02d90451e2cb3623788de",
+          "url": "https://linuxbrew.bintray.com/bottles/spidermonkey-1.8.5_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "be685dbfce38a7dbcec242c6ad04ad94c4881e7876d1d92e4aa08174220e64c1",
+          "url": "https://linuxbrew.bintray.com/bottles/spidermonkey-1.8.5_3.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "38d1b7f54b5dbdd4a0e28e3a1077aed2ada42a9266cfaddeda6a08d761a2d8b2",
+          "url": "https://linuxbrew.bintray.com/bottles/spidermonkey-1.8.5_3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "python",
+    "zip"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "narwhal"
+  ],
+  "dependencies": [
+    "nspr",
+    "python",
+    "zip"
+  ],
+  "desc": "JavaScript-C Engine",
+  "full_name": "spidermonkey",
+  "homepage": "https://developer.mozilla.org/en/SpiderMonkey",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "spidermonkey",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.5"
+  }
+}

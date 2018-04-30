@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "e6be9e88eaf93270e7cb2aad05fb3841d39560220ca2b4541c7bc24762d36b59",
+          "url": "https://linuxbrew.bintray.com/bottles/shibboleth-sp-2.6.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1a91c531f1be5c05e66aa27f486034dc80f8a43b831ef7af67cbf4df5b8b3f67",
+          "url": "https://linuxbrew.bintray.com/bottles/shibboleth-sp-2.6.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e2bd8a05bf07e9b746b240331b9b5a8588cedf2b21d6919fc8096c00721e9e16",
+          "url": "https://linuxbrew.bintray.com/bottles/shibboleth-sp-2.6.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "apr-util",
+    "apr"
+  ],
+  "caveats": "You must manually edit httpd.conf to include\nLoadModule mod_shib /home/tim/.linuxbrew/opt/shibboleth-sp/lib/shibboleth/mod_shib_24.so\nYou must also manually configure\n  /home/tim/.linuxbrew/etc/shibboleth/shibboleth2.xml\nas per your own requirements. For more information please see\n  https://wiki.shibboleth.net/confluence/display/EDS10/3.1+Configuring+the+Service+Provider\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "curl",
+    "opensaml",
+    "xml-tooling-c",
+    "xerces-c",
+    "xml-security-c",
+    "log4shib",
+    "boost",
+    "unixodbc",
+    "apr-util",
+    "apr"
+  ],
+  "desc": "Shibboleth 2 Service Provider daemon",
+  "full_name": "shibboleth-sp",
+  "homepage": "https://wiki.shibboleth.net/confluence/display/SHIB2",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "shibboleth-sp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.6.1"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "89d55800b60e750453ab196237c0935c89e069b26da608325a469c4ca4cddfb0",
+          "url": "https://linuxbrew.bintray.com/bottles/libgraphqlparser-0.7.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cffca81b24fb0914f2904592156f6ac7d6971807b81d72234cb0218fc7481cde",
+          "url": "https://linuxbrew.bintray.com/bottles/libgraphqlparser-0.7.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "15805dc7067558d8af112caa85ebcb777122640d41cc1b7998e070ebdeafd62d",
+          "url": "https://linuxbrew.bintray.com/bottles/libgraphqlparser-0.7.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "610aa6d67d635f984c0a8cf6ae56dd9b9c6d067408725e04e1606fc63666c22f",
+          "url": "https://linuxbrew.bintray.com/bottles/libgraphqlparser-0.7.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "GraphQL query parser in C++ with C and C++ APIs",
+  "full_name": "libgraphqlparser",
+  "homepage": "https://github.com/graphql/libgraphqlparser",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libgraphqlparser",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.0"
+  }
+}

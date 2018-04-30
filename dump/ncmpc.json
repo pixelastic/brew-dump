@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "242415e2c3fc29b9c863fd0ce5ff5b4ac66eccc17f79af4b102f43fddaf543fb",
+          "url": "https://linuxbrew.bintray.com/bottles/ncmpc-0.30.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6ccc21b95ad0603a163fb790bd920ed680313ae75a93aac79e57a11ada7fbf6a",
+          "url": "https://linuxbrew.bintray.com/bottles/ncmpc-0.30.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fc2d55287927be971b13587c1cda6b379ad5804ec09ac8bbc85cd6b87c064e26",
+          "url": "https://linuxbrew.bintray.com/bottles/ncmpc-0.30.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config",
+    "gcc",
+    "gettext",
+    "glib",
+    "libmpdclient"
+  ],
+  "desc": "Curses Music Player Daemon (MPD) client",
+  "full_name": "ncmpc",
+  "homepage": "https://www.musicpd.org/clients/ncmpc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ncmpc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.30"
+  }
+}

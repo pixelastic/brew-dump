@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4fec10a5e15cceceee0b93e11bf000d9f6365cfc1c97dbc255b4a4d7d7d6c8dd",
+          "url": "https://linuxbrew.bintray.com/bottles/cairomm-1.12.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "80db0528a9b198b3cf17d3b450982a26fd1619a15ace2087f6f52f1347b89499",
+          "url": "https://linuxbrew.bintray.com/bottles/cairomm-1.12.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "da41ea7c4cd90ab7183f4eba82f6921fd70b8a3ad0301054f2152214efe33373",
+          "url": "https://linuxbrew.bintray.com/bottles/cairomm-1.12.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c2083f0fb89462891ba7ee9846554b32a1b5e5428955715caf17201bd0b1278a",
+          "url": "https://linuxbrew.bintray.com/bottles/cairomm-1.12.2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ce58504dbe14cd1a27aeecd7eed1d95c6fa7819b8ff6ab451e02462cdc699e83",
+          "url": "https://linuxbrew.bintray.com/bottles/cairomm-1.12.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libsigc++",
+    "libpng",
+    "cairo"
+  ],
+  "desc": "Vector graphics library with cross-device output support",
+  "full_name": "cairomm",
+  "homepage": "https://cairographics.org/cairomm/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cairomm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.12.2"
+  }
+}

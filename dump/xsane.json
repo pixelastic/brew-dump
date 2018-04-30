@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4346e2b40f260128b2ac562cff15be61c96bcc31b04457f44e41d28aeb7d6be2",
+          "url": "https://linuxbrew.bintray.com/bottles/xsane-0.999_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "197b36716d2df9e81581650549571ce379ce74290fb45c703e6173c190024dad",
+          "url": "https://linuxbrew.bintray.com/bottles/xsane-0.999_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cb6cd9fabadf727b9414d4a252fa648f579bfe168eb44dd25fb2cb18a84395ed",
+          "url": "https://linuxbrew.bintray.com/bottles/xsane-0.999_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gtk+",
+    "sane-backends"
+  ],
+  "desc": "Graphical scanning frontend",
+  "full_name": "xsane",
+  "homepage": "http://www.xsane.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xsane",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.999"
+  }
+}

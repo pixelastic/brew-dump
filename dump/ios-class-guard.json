@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0bb9abaac82cbc4e66a12493548659197559a01a779db6ceda4cf6c4439ea0bb",
+          "url": "https://linuxbrew.bintray.com/bottles/ios-class-guard-0.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1962e7dde167e41141680b1347318396c0878fb8eeae55ec9f09460fcee33142",
+          "url": "https://linuxbrew.bintray.com/bottles/ios-class-guard-0.8.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "4eddde784c843628cb8bcb8c971142683c5a17373058f5bda62356b432dec00a",
+          "url": "https://linuxbrew.bintray.com/bottles/ios-class-guard-0.8.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a7843a0767e916aa6be1509a984eb698bb54d125d06ad762fd25f4a3d6a55db1",
+          "url": "https://linuxbrew.bintray.com/bottles/ios-class-guard-0.8.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4cada6d32bb82fbd8ad2afa58b7041bd5da12dc5d9fceab6277eec97459a2d33",
+          "url": "https://linuxbrew.bintray.com/bottles/ios-class-guard-0.8.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Objective-C obfuscator for Mach-O executables",
+  "full_name": "ios-class-guard",
+  "homepage": "https://github.com/Polidea/ios-class-guard/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ios-class-guard",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8"
+  }
+}

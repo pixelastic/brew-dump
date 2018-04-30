@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1d5bf33cf4116008494a62b741d4d01c6c406d68a56617d1f217606a6d87024d",
+          "url": "https://linuxbrew.bintray.com/bottles/braid-1.1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "164bd10a44ce5e3c10f443dbb392e991f5e4512532f1a6c95e986a86376a3b00",
+          "url": "https://linuxbrew.bintray.com/bottles/braid-1.1.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "26751a08ef6692049c7b8d5218b579f40e4e137ae208d9e802a0c26803afd6f7",
+          "url": "https://linuxbrew.bintray.com/bottles/braid-1.1.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e749b2786955bdfa7c2258bffe2de2c5b24f26e383adc3732bbfacf97764feba",
+          "url": "https://linuxbrew.bintray.com/bottles/braid-1.1.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ruby"
+  ],
+  "desc": "Simple tool to help track vendor branches in a Git repository",
+  "full_name": "braid",
+  "homepage": "https://cristibalan.github.io/braid/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "braid",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.2"
+  }
+}

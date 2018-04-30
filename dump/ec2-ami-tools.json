@@ -1,0 +1,45 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Before you can use these tools you must export some variables to your $SHELL.\n  export AWS_ACCESS_KEY=\"<Your AWS Access ID>\"\n  export AWS_SECRET_KEY=\"<Your AWS Secret Key>\"\n  export AWS_CREDENTIAL_FILE=\"<Path to the credentials file>\"\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Amazon EC2 AMI Tools (helps bundle Amazon Machine Images)",
+  "full_name": "ec2-ami-tools",
+  "homepage": "https://aws.amazon.com/developertools/368",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ec2-ami-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.7"
+  }
+}

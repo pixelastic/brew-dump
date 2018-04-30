@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "112a89ea6071526c1604047b40cf5f168cc1ca3d779fa2c4b4093c8ee3675c39",
+          "url": "https://linuxbrew.bintray.com/bottles/flowgrind-0.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fc136acf25aed179051b10dd46fe655f0eca478f3918029931b961402c3ff416",
+          "url": "https://linuxbrew.bintray.com/bottles/flowgrind-0.8.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "10f9b511118c62e1302d427a91b0972d61638a43b64594ba04731b7fa50fce77",
+          "url": "https://linuxbrew.bintray.com/bottles/flowgrind-0.8.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a39cc57cb6353dfeae30da6c204c35956f6ef1570c3caf0419fa6c6e75ff0998",
+          "url": "https://linuxbrew.bintray.com/bottles/flowgrind-0.8.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gsl",
+    "xmlrpc-c"
+  ],
+  "desc": "TCP measurement tool, similar to iperf or netperf",
+  "full_name": "flowgrind",
+  "homepage": "https://launchpad.net/flowgrind",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "flowgrind",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.0"
+  }
+}

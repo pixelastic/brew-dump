@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3bd2f9a0bfc2296316e69702a126b23dc126a513192ce709b6d8d5120bc16904",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkextra-3.3.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dccb6576a9313eec96b7b7c7abd6e9411959b351b996f19592021c7c2348d518",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkextra-3.3.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "74d2f3a62c9a008d18f68e40aec68e94f6054ce0b94f5d0e5f67c79d88610411",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkextra-3.3.4_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gtk+"
+  ],
+  "desc": "Widgets for creating GUIs for GTK+",
+  "full_name": "gtkextra",
+  "homepage": "https://gtkextra.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gtkextra",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.3.4"
+  }
+}

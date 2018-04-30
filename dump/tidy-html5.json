@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "48416711a2f1a080e9eae1ecba30773ee48eae98181e25c6ae5ace07cb7ac8ee",
+          "url": "https://linuxbrew.bintray.com/bottles/tidy-html5-5.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "af9633f1578980fe3d4351c3d71b4b83cc79f814d87310e4b7d05830c53c9621",
+          "url": "https://linuxbrew.bintray.com/bottles/tidy-html5-5.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6c8f843d25d6964b18d4c2fa15aaf2606b36decbbe65c31b38a7982e499a9d28",
+          "url": "https://linuxbrew.bintray.com/bottles/tidy-html5-5.6.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a9e3d3b4b49df633a5a58fbee141c2e309e93e467f23d0c728a17ce3d8b69b5a",
+          "url": "https://linuxbrew.bintray.com/bottles/tidy-html5-5.6.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Granddaddy of HTML tools, with support for modern standards",
+  "full_name": "tidy-html5",
+  "homepage": "https://www.html-tidy.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tidy-html5",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.6.0"
+  }
+}

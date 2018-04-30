@@ -1,0 +1,195 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "33a07fe69d0831fa4eb6e601ec2e406ef059bbe7984badd3ad855eab6efb039b",
+          "url": "https://linuxbrew.bintray.com/bottles/uwsgi-2.0.17.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c42839806ac4d5e1bcf9348909cb2012284ef20f69e646981ad11fb5bf9448d1",
+          "url": "https://linuxbrew.bintray.com/bottles/uwsgi-2.0.17.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "87b5877671e1b1dd1c7aebe3dca1c2068e40d68c4f922de0610fae4b88a52f97",
+          "url": "https://linuxbrew.bintray.com/bottles/uwsgi-2.0.17.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "pcre",
+    "openssl",
+    "python@2",
+    "geoip",
+    "gloox",
+    "go",
+    "jansson",
+    "libffi",
+    "libxslt",
+    "libyaml",
+    "lua@5.1",
+    "mongodb",
+    "mongrel2",
+    "mono",
+    "nagios",
+    "postgresql",
+    "pypy",
+    "python",
+    "rrdtool",
+    "rsyslog",
+    "tcc",
+    "v8",
+    "zeromq",
+    "yajl"
+  ],
+  "desc": "Full stack for building hosting services",
+  "full_name": "uwsgi",
+  "homepage": "https://uwsgi-docs.readthedocs.org/en/latest/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "uwsgi",
+  "oldname": null,
+  "optional_dependencies": [
+    "geoip",
+    "gloox",
+    "go",
+    "jansson",
+    "libffi",
+    "libxslt",
+    "libyaml",
+    "lua@5.1",
+    "mongodb",
+    "mongrel2",
+    "mono",
+    "nagios",
+    "postgresql",
+    "pypy",
+    "python",
+    "rrdtool",
+    "rsyslog",
+    "tcc",
+    "v8",
+    "zeromq"
+  ],
+  "options": [
+    {
+      "description": "Compile with Java support",
+      "option": "--with-java"
+    },
+    {
+      "description": "Compile with Ruby support",
+      "option": "--with-ruby"
+    },
+    {
+      "description": "Build with geoip support",
+      "option": "--with-geoip"
+    },
+    {
+      "description": "Build with gloox support",
+      "option": "--with-gloox"
+    },
+    {
+      "description": "Build with go support",
+      "option": "--with-go"
+    },
+    {
+      "description": "Build with jansson support",
+      "option": "--with-jansson"
+    },
+    {
+      "description": "Build with libffi support",
+      "option": "--with-libffi"
+    },
+    {
+      "description": "Build with libxslt support",
+      "option": "--with-libxslt"
+    },
+    {
+      "description": "Build with libyaml support",
+      "option": "--with-libyaml"
+    },
+    {
+      "description": "Build with lua@5.1 support",
+      "option": "--with-lua@5.1"
+    },
+    {
+      "description": "Build with mongodb support",
+      "option": "--with-mongodb"
+    },
+    {
+      "description": "Build with mongrel2 support",
+      "option": "--with-mongrel2"
+    },
+    {
+      "description": "Build with mono support",
+      "option": "--with-mono"
+    },
+    {
+      "description": "Build with nagios support",
+      "option": "--with-nagios"
+    },
+    {
+      "description": "Build with postgresql support",
+      "option": "--with-postgresql"
+    },
+    {
+      "description": "Build with pypy support",
+      "option": "--with-pypy"
+    },
+    {
+      "description": "Build with python support",
+      "option": "--with-python"
+    },
+    {
+      "description": "Build with rrdtool support",
+      "option": "--with-rrdtool"
+    },
+    {
+      "description": "Build with rsyslog support",
+      "option": "--with-rsyslog"
+    },
+    {
+      "description": "Build with tcc support",
+      "option": "--with-tcc"
+    },
+    {
+      "description": "Build with v8 support",
+      "option": "--with-v8"
+    },
+    {
+      "description": "Build with zeromq support",
+      "option": "--with-zeromq"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.17"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4b4e2e68dc5ffa9a5fc02b6c59c4d8201d8d6df8d5e6aef5bd70854ecbe917b7",
+          "url": "https://linuxbrew.bintray.com/bottles/bsdiff-4.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3624be48c026da2a0ade8316548296ec4b2b100a0b9914acb77124374c9be0d2",
+          "url": "https://linuxbrew.bintray.com/bottles/bsdiff-4.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "26899c5d4e34ccfde4633b78a8cbbdf3036f028dfb16767fb2ac64efb2296b56",
+          "url": "https://linuxbrew.bintray.com/bottles/bsdiff-4.3.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c21cd31202c096b99788346b22a3aeaddd72b397b2ae6cbd971926ba93d9f541",
+          "url": "https://linuxbrew.bintray.com/bottles/bsdiff-4.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "79d0ef36a33a214595c66a70d8197a1eb148bcd3c1d1c782d28fc20f6a057d43",
+          "url": "https://linuxbrew.bintray.com/bottles/bsdiff-4.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bsdmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bsdmake"
+  ],
+  "desc": "Generate and apply patches to binary files",
+  "full_name": "bsdiff",
+  "homepage": "https://www.daemonology.net/bsdiff",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bsdiff",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.3"
+  }
+}

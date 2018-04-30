@@ -1,0 +1,105 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "8ba27901ec54f9f141c3afb94406d22ec49f907f4e1c873375b5338703e1d3e2",
+          "url": "https://linuxbrew.bintray.com/bottles/minetest-0.4.16_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "557c9618fd6f9c16c13cf74ef76e3923e71334ba68c3100a60539d331edb802d",
+          "url": "https://linuxbrew.bintray.com/bottles/minetest-0.4.16_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bd1bb5708000861f5406b4e95355f4474b372136e96db374076c29dc9464fa74",
+          "url": "https://linuxbrew.bintray.com/bottles/minetest-0.4.16_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a56489395aa0d13f322ced52167d8e46974bfd6e8302a0e6b0335df3082eed4e",
+          "url": "https://linuxbrew.bintray.com/bottles/minetest-0.4.16_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": "Put additional subgames and mods into \"games\" and \"mods\" folders under\n\"~/Library/Application Support/minetest/\", respectively (you may have\nto create those folders first).\n\nIf you would like to start the Minetest server from a terminal, run\n\"/Applications/minetest.app/Contents/MacOS/minetest --server\".\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "irrlicht",
+    "jpeg",
+    "libogg",
+    "libvorbis",
+    "luajit",
+    "freetype",
+    "gettext",
+    "leveldb",
+    "redis"
+  ],
+  "desc": "Free, open source voxel game engine and game",
+  "full_name": "minetest",
+  "homepage": "https://www.minetest.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "minetest",
+  "oldname": null,
+  "optional_dependencies": [
+    "leveldb",
+    "redis"
+  ],
+  "options": [
+    {
+      "description": "Build without luajit support",
+      "option": "--without-luajit"
+    },
+    {
+      "description": "Build without freetype support",
+      "option": "--without-freetype"
+    },
+    {
+      "description": "Build without gettext support",
+      "option": "--without-gettext"
+    },
+    {
+      "description": "Build with leveldb support",
+      "option": "--with-leveldb"
+    },
+    {
+      "description": "Build with redis support",
+      "option": "--with-redis"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "luajit",
+    "freetype",
+    "gettext"
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.16"
+  }
+}

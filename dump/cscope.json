@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "97930be35cbcd08980651597acf931adbb50a80df10960d6564497f19d9c8032",
+          "url": "https://linuxbrew.bintray.com/bottles/cscope-15.8b.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c341d01145d24da1e42347e3c8924569e97158c826ab5a118c2708baa3733ecc",
+          "url": "https://linuxbrew.bintray.com/bottles/cscope-15.8b.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "cb2f63522d072307cacf63e8eabf4c284f2e8c1b2ff8c6de3aeb6fb8759a1212",
+          "url": "https://linuxbrew.bintray.com/bottles/cscope-15.8b.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7065f35c7c69268a0c293c7108e936c92c83fa6c1aff78d9fb6eb4d6178cb3c9",
+          "url": "https://linuxbrew.bintray.com/bottles/cscope-15.8b.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fc29371aab2eefa041da5c483648fab3558f0149c47884abd6133c9817ac9bca",
+          "url": "https://linuxbrew.bintray.com/bottles/cscope-15.8b.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "71d86771790165c777341e4457dd193008cfb2fb24628a138cb45fec61e6b42d",
+          "url": "https://linuxbrew.bintray.com/bottles/cscope-15.8b.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "desc": "Tool for browsing source code",
+  "full_name": "cscope",
+  "homepage": "https://cscope.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cscope",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "15.8b"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "292447a86953bb10361130542d2db9e0c0fc410e9be3b13b8c80891fbfaeec20",
+          "url": "https://linuxbrew.bintray.com/bottles/yazpp-1.6.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "870f730cc4ee76700749f4091d111cb0e9a529d43c1ba7cb40b36807e49d9b76",
+          "url": "https://linuxbrew.bintray.com/bottles/yazpp-1.6.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "794e2e265413005b3c26a0fa38e1ab8957bd1ec13cf4abb63730070181d9beb4",
+          "url": "https://linuxbrew.bintray.com/bottles/yazpp-1.6.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6f769c30797af9cb98bf02491706f96b7085eed2d5d05c377e51ca5e0bf8541a",
+          "url": "https://linuxbrew.bintray.com/bottles/yazpp-1.6.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "yaz"
+  ],
+  "desc": "C++ API for the Yaz toolkit",
+  "full_name": "yazpp",
+  "homepage": "https://www.indexdata.com/yazpp",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yazpp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.5"
+  }
+}

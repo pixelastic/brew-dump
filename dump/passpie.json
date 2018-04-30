@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9676b9237428cd46ce1fcfb42b7911ebf96a7df2535e936bb60d3f57507db8f4",
+          "url": "https://linuxbrew.bintray.com/bottles/passpie-1.6.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c76cf8962d2cef65aa5a59672e58be1ad0fd74f48ef94608f34275800f243d29",
+          "url": "https://linuxbrew.bintray.com/bottles/passpie-1.6.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "858a53fbd86235af38263ff97b7f283f434fe59623f6bf170845fc51a0ebc0c7",
+          "url": "https://linuxbrew.bintray.com/bottles/passpie-1.6.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "80853bbcd7a24fa8d1aefcef47a38376b85f7d96b2a9c05c90765047a369b151",
+          "url": "https://linuxbrew.bintray.com/bottles/passpie-1.6.0_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "gnupg"
+  ],
+  "desc": "Manage login credentials from the terminal",
+  "full_name": "passpie",
+  "homepage": "https://github.com/marcwebbie/passpie",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "passpie",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.6.0"
+  }
+}

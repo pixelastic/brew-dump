@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "65e9d6cecfd8cbf6c40cce2a5c16d50c1102a605d1e919c66ca316e7c1046e90",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf-c-1.3.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8f56aec07a20c79a5d01c7a8d30946d1b86c157d24468e8160edbec318046b71",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf-c-1.3.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "276829169dc5d00b9c14a4542c67009aed3b9049ece5f30aa1bce20bd4f5e195",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf-c-1.3.0_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ed7434c452f957e034c06bc18721dae031d66cc0c9bb114edd1919bc1ad780df",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf-c-1.3.0_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "protobuf"
+  ],
+  "desc": "Protocol buffers library",
+  "full_name": "protobuf-c",
+  "homepage": "https://github.com/protobuf-c/protobuf-c",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "protobuf-c",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3.0"
+  }
+}

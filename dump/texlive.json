@@ -1,0 +1,84 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "d8411a57a68358655861ce001f53807cee2c973cd8bd552da912180965d21aa4",
+          "url": "https://linuxbrew.bintray.com/bottles/texlive-20180119.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "wget"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "perl",
+    "fontconfig",
+    "wget",
+    "linuxbrew/xorg/libice",
+    "linuxbrew/xorg/libsm",
+    "linuxbrew/xorg/libx11",
+    "linuxbrew/xorg/libxaw",
+    "linuxbrew/xorg/libxext",
+    "linuxbrew/xorg/libxmu",
+    "linuxbrew/xorg/libxpm",
+    "linuxbrew/xorg/libxt"
+  ],
+  "desc": "TeX Live is a free software distribution for the TeX typesetting system",
+  "full_name": "texlive",
+  "homepage": "https://www.tug.org/texlive/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "texlive",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "install everything",
+      "option": "--with-full"
+    },
+    {
+      "description": "install small + more packages and languages",
+      "option": "--with-medium"
+    },
+    {
+      "description": "install basic + xetex, metapost, a few languages [default]",
+      "option": "--with-small"
+    },
+    {
+      "description": "install plain and latex",
+      "option": "--with-basic"
+    },
+    {
+      "description": "install plain only",
+      "option": "--with-minimal"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20180119"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5ad4050e75f506fe5d6cd5a36331058942e490755d565f0da8f1cc1b399e2b87",
+          "url": "https://linuxbrew.bintray.com/bottles/spdlog-0.16.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5ad4050e75f506fe5d6cd5a36331058942e490755d565f0da8f1cc1b399e2b87",
+          "url": "https://linuxbrew.bintray.com/bottles/spdlog-0.16.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5ad4050e75f506fe5d6cd5a36331058942e490755d565f0da8f1cc1b399e2b87",
+          "url": "https://linuxbrew.bintray.com/bottles/spdlog-0.16.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c7c3406837752473a0efa89d66a3cd73492f0cba447f44b8e5690575adc5761e",
+          "url": "https://linuxbrew.bintray.com/bottles/spdlog-0.16.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Super fast C++ logging library",
+  "full_name": "spdlog",
+  "homepage": "https://github.com/gabime/spdlog",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "spdlog",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.16.3"
+  }
+}

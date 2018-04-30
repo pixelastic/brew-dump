@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "79a59bd09dd302ec10e3ad36fb6920e877628b0047011efa2a9f748e90d6dd96",
+          "url": "https://linuxbrew.bintray.com/bottles/libgosu-0.13.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3630e9cf325de71b57cb8353797da6c46ef27e0310ab704a86a68a424cf4d908",
+          "url": "https://linuxbrew.bintray.com/bottles/libgosu-0.13.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "471b6470e480332ab0b69946fbcf526ddf0e4d39d5ebfa27624bc2d4a614a31c",
+          "url": "https://linuxbrew.bintray.com/bottles/libgosu-0.13.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "sdl2"
+  ],
+  "desc": "2D game development library",
+  "full_name": "libgosu",
+  "homepage": "https://libgosu.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libgosu",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.13.3"
+  }
+}

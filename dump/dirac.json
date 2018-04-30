@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8f4414614755f863d3ba0f43d6415684fbc00976ae24c7e45c88fe736be918d2",
+          "url": "https://linuxbrew.bintray.com/bottles/dirac-1.0.2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9413ec8e068d4c8e30d679a62af9779a09de385e2287acebacf9e5c56e80a50a",
+          "url": "https://linuxbrew.bintray.com/bottles/dirac-1.0.2.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "e7c407545085631c27c77f2d15abe84b3cc0a3645cf5e538aa15f0aacfe6de50",
+          "url": "https://linuxbrew.bintray.com/bottles/dirac-1.0.2.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "09b846fe4069e971ec6d10668d97ac599cb555e5799f3ba3076d0d088e1f78cf",
+          "url": "https://linuxbrew.bintray.com/bottles/dirac-1.0.2.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1d3049d9dcdbd0116c65c54582601b20cdd17c8b89cf80e74efc79f71b641ca4",
+          "url": "https://linuxbrew.bintray.com/bottles/dirac-1.0.2.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "General-purpose video codec aimed at a range of resolutions",
+  "full_name": "dirac",
+  "homepage": "https://sourceforge.net/projects/dirac/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dirac",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.2"
+  }
+}

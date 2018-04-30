@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "92872796f8a352da0d68a5bca3c8c897097cc9614be320cc34728e4c3024dc65",
+          "url": "https://linuxbrew.bintray.com/bottles/libtorrent-rasterbar-1.1.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5b4a43e6bb49e3833e10f531681d4841eac8175036a9ecaad6b54f7ab85ca65f",
+          "url": "https://linuxbrew.bintray.com/bottles/libtorrent-rasterbar-1.1.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "760221d15d7d1974ae23d684d040738b7053ddafa3177991e59f77d610ea6165",
+          "url": "https://linuxbrew.bintray.com/bottles/libtorrent-rasterbar-1.1.7.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "openssl",
+    "python@2",
+    "boost"
+  ],
+  "desc": "C++ bittorrent library by Rasterbar Software",
+  "full_name": "libtorrent-rasterbar",
+  "homepage": "https://www.libtorrent.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libtorrent-rasterbar",
+  "oldname": null,
+  "optional_dependencies": [
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Build with python@2 support",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.7"
+  }
+}

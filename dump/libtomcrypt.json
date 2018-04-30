@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "bb0d91090b6bbe1f49fa14d32fe137f08a80cd5d5a2a79dd79e641f8ab57794c",
+          "url": "https://linuxbrew.bintray.com/bottles/libtomcrypt-1.18.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "db05bfc16ef60355d9079efeb274e9106755bedb4e891ea2b9e455bf784a1c38",
+          "url": "https://linuxbrew.bintray.com/bottles/libtomcrypt-1.18.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "031781e5baf4fad0febb66182e66b99a4f32aad9d6376eaf7f70c2496ed6fc5c",
+          "url": "https://linuxbrew.bintray.com/bottles/libtomcrypt-1.18.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f8b2c112a0a31400e41db92988aba1c43b19bc17b38b058ffbcb059598301ee3",
+          "url": "https://linuxbrew.bintray.com/bottles/libtomcrypt-1.18.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gmp",
+    "libtommath"
+  ],
+  "desc": "Comprehensive, modular and portable cryptographic toolkit",
+  "full_name": "libtomcrypt",
+  "homepage": "https://www.libtom.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libtomcrypt",
+  "oldname": null,
+  "optional_dependencies": [
+    "gmp",
+    "libtommath"
+  ],
+  "options": [
+    {
+      "description": "enable gmp as MPI provider",
+      "option": "--with-gmp"
+    },
+    {
+      "description": "enable libtommath as MPI provider",
+      "option": "--with-libtommath"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.18.1"
+  }
+}

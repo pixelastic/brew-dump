@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "469e66a59e1f3ccf2607a77a4198b6f5fb80d100b00ec7228cd165ca13624323",
+          "url": "https://linuxbrew.bintray.com/bottles/log4shib-1.0.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e8579b422326aafe0c42e8658ea8bdc83a7659724dcaf052e8c84a88cc6feb9f",
+          "url": "https://linuxbrew.bintray.com/bottles/log4shib-1.0.9.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "0d3d2c95cac3b915a3278ea14550eaedd8e12aea205d7833a7266f4121e56a45",
+          "url": "https://linuxbrew.bintray.com/bottles/log4shib-1.0.9.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "3a5c7a68ba63d929fec53b79f6df2aa79fad75771d33d28b072ffaa49dd49956",
+          "url": "https://linuxbrew.bintray.com/bottles/log4shib-1.0.9.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cc682d3389900e2d87ab5236add6141228f6e9a77c0d686450d641257772eb35",
+          "url": "https://linuxbrew.bintray.com/bottles/log4shib-1.0.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5036867d1dfb30e58d8c870dd0cffd9f91880ef24efc41fe68a1388c6593499a",
+          "url": "https://linuxbrew.bintray.com/bottles/log4shib-1.0.9.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4bc1071029e6c9cb46d8ab05079ae9d8dc148df73009db99c4e94dfaab74fe4c",
+          "url": "https://linuxbrew.bintray.com/bottles/log4shib-1.0.9.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Forked version of log4cpp for the Shibboleth project",
+  "full_name": "log4shib",
+  "homepage": "https://wiki.shibboleth.net/confluence/display/OpenSAML/log4shib",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "log4shib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.9"
+  }
+}

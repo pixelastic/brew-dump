@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d3f9801c5f0ffa066bdd6e00006488a6e69144beb9385f1bd70467684f50130c",
+          "url": "https://linuxbrew.bintray.com/bottles/ocproxy-1.60.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5671c31a3b0392b5c4c9ea21644c4cbeb430e78dc9f24c28622e9a47ec7e3324",
+          "url": "https://linuxbrew.bintray.com/bottles/ocproxy-1.60.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cb12a1bc3320c0ca5580a44256f5a627f1d74ad59a315cc3cf7aa87846a30243",
+          "url": "https://linuxbrew.bintray.com/bottles/ocproxy-1.60.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "15393addc83cc3da3a88fa62e80e2e149a85c627fdd1a4320be6f47b5b74f10f",
+          "url": "https://linuxbrew.bintray.com/bottles/ocproxy-1.60.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libevent"
+  ],
+  "desc": "User-level SOCKS and port forwarding proxy",
+  "full_name": "ocproxy",
+  "homepage": "https://github.com/cernekee/ocproxy",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ocproxy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.60"
+  }
+}

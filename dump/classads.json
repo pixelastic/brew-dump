@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "52bd3bb21e7a2491ad96f01988b802ab183c5e93d3123e9cc57b75e1a0076171",
+          "url": "https://linuxbrew.bintray.com/bottles/classads-1.0.10.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "febef9dc12fdea8d1dbd1687f835ac8a58d8a7534ce2a0735d6102872058ec59",
+          "url": "https://linuxbrew.bintray.com/bottles/classads-1.0.10.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b2ba8857a9e07ece0c19ac04a78893322bb22b361e28d5eb23abfa2515e965c9",
+          "url": "https://linuxbrew.bintray.com/bottles/classads-1.0.10.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d51471a725a552974a309b8add05ca731264f7a0fbaedee1c85b97475c204cb7",
+          "url": "https://linuxbrew.bintray.com/bottles/classads-1.0.10.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2ec01b2285391e8c1a696c783db281dc69c05e0f2c483792129799b8ad304d7e",
+          "url": "https://linuxbrew.bintray.com/bottles/classads-1.0.10.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pcre"
+  ],
+  "desc": "Classified Advertisements (used by HTCondor Central Manager)",
+  "full_name": "classads",
+  "homepage": "https://research.cs.wisc.edu/htcondor/classad/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "classads",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.10"
+  }
+}

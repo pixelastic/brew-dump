@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "2223e66660b7c600b71cb13cc9921c687bcc33e9e85fee7ab351c383e1533657",
+          "url": "https://linuxbrew.bintray.com/bottles/libuvc-0.0.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7aad3af5a7a5f2936d2fde1a208a6efcc6dbf7e80a2b61202b0a208c45abb7df",
+          "url": "https://linuxbrew.bintray.com/bottles/libuvc-0.0.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0e2f8e177ecefcf0cd2a2c2be399d3e45fe18956642363b6f0e9b6632a7019da",
+          "url": "https://linuxbrew.bintray.com/bottles/libuvc-0.0.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d5c0f272b07e797302fcd5128ba7b56a2c1d9006887235892a6613454cca92ce",
+          "url": "https://linuxbrew.bintray.com/bottles/libuvc-0.0.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "libusb",
+    "jpeg"
+  ],
+  "desc": "Cross-platform library for USB video devices",
+  "full_name": "libuvc",
+  "homepage": "https://github.com/ktossell/libuvc",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libuvc",
+  "oldname": null,
+  "optional_dependencies": [
+    "jpeg"
+  ],
+  "options": [
+    {
+      "description": "Build with jpeg support",
+      "option": "--with-jpeg"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.0.6"
+  }
+}

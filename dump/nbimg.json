@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "402904e3588fe5a8ae00d7131fe29821880f31a8ec19fb89e70a79f76e067452",
+          "url": "https://linuxbrew.bintray.com/bottles/nbimg-1.2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "20d4ae1588773f9ccd4ff2181def08297ea1119ca70f39392ef11648cb72270f",
+          "url": "https://linuxbrew.bintray.com/bottles/nbimg-1.2.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "5389c76ef785f2d7d7ce695dc5b9a1bbecf3dd8eb3fcc8646a28a8b52dfa6a96",
+          "url": "https://linuxbrew.bintray.com/bottles/nbimg-1.2.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "75fd1505a68d1c499ddcf73e912947910659d9bd127c208cafeb3e8899664fbd",
+          "url": "https://linuxbrew.bintray.com/bottles/nbimg-1.2.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7e5f47c47238a5e6b0abca121880c72e78e29d0638924afa75ed999286dc934b",
+          "url": "https://linuxbrew.bintray.com/bottles/nbimg-1.2.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Smartphone boot splash screen converter for Android and winCE",
+  "full_name": "nbimg",
+  "homepage": "https://github.com/poliva/nbimg",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nbimg",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.1"
+  }
+}

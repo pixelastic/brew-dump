@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "bd1fe99b7c2a458acd81a5a567ba57c664c99f9f5f73adb8845bae7d7363a151",
+          "url": "https://linuxbrew.bintray.com/bottles/tintin-2.01.4_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "552223fd7efc3d68a99a1d49135a6537091f0d893e67f08eaf876e2385a0460d",
+          "url": "https://linuxbrew.bintray.com/bottles/tintin-2.01.4_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "58dbcc694fb3b80f10951d06f24fb4fd0e94eac1a3dc84017cd82e38610ff6a7",
+          "url": "https://linuxbrew.bintray.com/bottles/tintin-2.01.4_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "12d94676a6f5d0dbe90c13886606806c02f44f30559424a7b687f56a5c81e810",
+          "url": "https://linuxbrew.bintray.com/bottles/tintin-2.01.4_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gnutls",
+    "pcre"
+  ],
+  "desc": "MUD client",
+  "full_name": "tintin",
+  "homepage": "https://tintin.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tintin",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.01.4"
+  }
+}

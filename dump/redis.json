@@ -1,0 +1,69 @@
+{
+  "aliases": [
+    "redis@4.0"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3baf5323b7d8b875969bc44a1842e69d0efd6c71edd0117ebc898e9cc7b14d88",
+          "url": "https://linuxbrew.bintray.com/bottles/redis-4.0.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "da7c329125b26d90abd946e3743a5715b30ca8d6585296319b64de833ffb5b47",
+          "url": "https://linuxbrew.bintray.com/bottles/redis-4.0.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bd9961d83354840c829a77f0325246fed4faee0f5f8a9bf47c564fe98625f167",
+          "url": "https://linuxbrew.bintray.com/bottles/redis-4.0.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6e92b5afdae41ab27a13b904bba5d707b684caa601554152880f86aa963b243b",
+          "url": "https://linuxbrew.bintray.com/bottles/redis-4.0.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Persistent key-value database, with built-in net interface",
+  "full_name": "redis",
+  "homepage": "https://redis.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "redis",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Select jemalloc as memory allocator when building Redis",
+      "option": "--with-jemalloc"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.0.9"
+  }
+}

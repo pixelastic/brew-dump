@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "214e469d1b5bdbdc685cc31a53e8673880640a2551274c8f06c08b347db7ee54",
+          "url": "https://linuxbrew.bintray.com/bottles/mpich-3.2.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bab0862c4f607c8f411d16b754fb6474f536c5340c2d1c9be4a339ca4a6d9bf9",
+          "url": "https://linuxbrew.bintray.com/bottles/mpich-3.2.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bfb708826242dd9e27ce8c46bba866cbec2c95ee6db419c56e7942c32a88b3b3",
+          "url": "https://linuxbrew.bintray.com/bottles/mpich-3.2.1_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fc2ae124539eeae51740490bbcedc782ff700998f78176d77a79a52c64f5c49f",
+          "url": "https://linuxbrew.bintray.com/bottles/mpich-3.2.1_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "open-mpi"
+  ],
+  "dependencies": [
+    "gcc"
+  ],
+  "desc": "Implementation of the MPI Message Passing Interface standard",
+  "full_name": "mpich",
+  "homepage": "https://www.mpich.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mpich",
+  "oldname": "mpich2",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "3.3b1",
+    "head": "HEAD",
+    "stable": "3.2.1"
+  }
+}

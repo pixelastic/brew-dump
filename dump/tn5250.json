@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3d799f665866c2fa21ca2712682178ba64cdb2b5bf0ad77705de6ec869c529c7",
+          "url": "https://linuxbrew.bintray.com/bottles/tn5250-0.17.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "57cf521a088585c906d03536052352540749f01dd2325f1b39a5416b187e9f64",
+          "url": "https://linuxbrew.bintray.com/bottles/tn5250-0.17.4_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "992b0e0f6fdedf1030a0326936fc7533a013639385d39a590d6b68a8728844dd",
+          "url": "https://linuxbrew.bintray.com/bottles/tn5250-0.17.4_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "677c563daec583859a4ad6ffd0c57d2a2b74e1cc42d6b380fc2f8ac18a3abcec",
+          "url": "https://linuxbrew.bintray.com/bottles/tn5250-0.17.4_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e7c01e8c5c3e732c9f36e7480f788a2ca7387ada7d74daaccb06d48b7fafdac4",
+          "url": "https://linuxbrew.bintray.com/bottles/tn5250-0.17.4_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "5250 terminal and printer emulator",
+  "full_name": "tn5250",
+  "homepage": "https://tn5250.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tn5250",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.17.4"
+  }
+}

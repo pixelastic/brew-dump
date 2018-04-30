@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "fe9630b653c9e4a74afb0d71f68dc6201356f4da81b89ea05acd3b4cb00f44e9",
+          "url": "https://linuxbrew.bintray.com/bottles/robot-framework-3.0.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4ba23cd77588a92f77606f3d2682414036267a30ec0020d212cab0b78f66a584",
+          "url": "https://linuxbrew.bintray.com/bottles/robot-framework-3.0.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bc307ba65c8df63d4e26ee888afb59aafdcf8c493a7337f17a12d96056b9d3b9",
+          "url": "https://linuxbrew.bintray.com/bottles/robot-framework-3.0.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "openssl"
+  ],
+  "desc": "Open source test framework for acceptance testing",
+  "full_name": "robot-framework",
+  "homepage": "http://robotframework.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "robot-framework",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.0.4"
+  }
+}

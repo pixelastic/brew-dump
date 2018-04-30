@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "682390632704347046e696e342a2b6127f5142391d66180e090bed90b4dc0fb0",
+          "url": "https://linuxbrew.bintray.com/bottles/remctl-3.14.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d673f05a37c5f969afbbc81453abfc34da769b5b3e21ca0ba7adbaa0201fef3d",
+          "url": "https://linuxbrew.bintray.com/bottles/remctl-3.14.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6d48e0704c8803c3884e282ce2b7043dded5d2b86a49caf85f037a58a541f33f",
+          "url": "https://linuxbrew.bintray.com/bottles/remctl-3.14.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pcre",
+    "libevent"
+  ],
+  "desc": "Client/server application for remote execution of tasks",
+  "full_name": "remctl",
+  "homepage": "https://www.eyrie.org/~eagle/software/remctl/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "remctl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.14"
+  }
+}

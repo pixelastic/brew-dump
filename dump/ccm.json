@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e370947953aa56e48eb71ea1555d3ce971a6257f741f8c3abccf9fe9a002eef5",
+          "url": "https://linuxbrew.bintray.com/bottles/ccm-3.1.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "996ae7df7b2eff3e519f056ac05ac86529355f2d2c2023683464c3043794a187",
+          "url": "https://linuxbrew.bintray.com/bottles/ccm-3.1.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "996ae7df7b2eff3e519f056ac05ac86529355f2d2c2023683464c3043794a187",
+          "url": "https://linuxbrew.bintray.com/bottles/ccm-3.1.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9bfba86e3f8e43196afb7cd7f1b235254af780f64368be2ce9d302c53b76f210",
+          "url": "https://linuxbrew.bintray.com/bottles/ccm-3.1.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Create and destroy an Apache Cassandra cluster on localhost",
+  "full_name": "ccm",
+  "homepage": "https://github.com/pcmanus/ccm",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ccm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.1.4"
+  }
+}

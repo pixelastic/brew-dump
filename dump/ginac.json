@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5ea2a6631c79b96a700f0706bd7a8cc2983a37f368040df029f0621aee1bdd82",
+          "url": "https://linuxbrew.bintray.com/bottles/ginac-1.7.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "34b12f8c03cc21a11302f1c59b3852cd23563a071dda751b1004986801c0462e",
+          "url": "https://linuxbrew.bintray.com/bottles/ginac-1.7.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cd530a6c9656240a5afd12b03b30a7fc4a3724646150e78e86868206c2d816ac",
+          "url": "https://linuxbrew.bintray.com/bottles/ginac-1.7.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0c58f8514d603fca34c7218d05e91cb59bd2086e3e383dce288339a39e15910e",
+          "url": "https://linuxbrew.bintray.com/bottles/ginac-1.7.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cln",
+    "readline",
+    "python"
+  ],
+  "desc": "Not a Computer algebra system",
+  "full_name": "ginac",
+  "homepage": "https://www.ginac.de/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ginac",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.4"
+  }
+}

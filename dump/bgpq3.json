@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f0accebad776f61fba550fad572ff7f7ace7f1d442c21c8147f8594a7f99e561",
+          "url": "https://linuxbrew.bintray.com/bottles/bgpq3-0.1.33.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "baf8c7084ca313d18bc307c9e1fc114a605e4950d067d91250721d7e3672a913",
+          "url": "https://linuxbrew.bintray.com/bottles/bgpq3-0.1.33.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0b7ddfe831651eac02b3e5f72a99ecb237f371c27826fff682dd21e3bb3f21a4",
+          "url": "https://linuxbrew.bintray.com/bottles/bgpq3-0.1.33.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "80f717b72e90ed6eb6a25874e52c262f73559ec034764004af35c6df17630acf",
+          "url": "https://linuxbrew.bintray.com/bottles/bgpq3-0.1.33.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "BGP filtering automation for Cisco, Juniper, BIRD and OpenBGPD routers",
+  "full_name": "bgpq3",
+  "homepage": "http://snar.spb.ru/prog/bgpq3/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bgpq3",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.1.33"
+  }
+}

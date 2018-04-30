@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "7d7fd8a7621eeb9409a91128bdf066218cbd58b67c32b9191dd6fd2c62f837af",
+          "url": "https://linuxbrew.bintray.com/bottles/gwyddion-2.50_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e0d461ff2b6090eeb6bd7ee5b1c5453a8d4f5f647538257da198a1ca479031b3",
+          "url": "https://linuxbrew.bintray.com/bottles/gwyddion-2.50_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8c0731c773702bac6e8c2284d773a830a90c84b0f3ad0430998cb653d3d0dcd8",
+          "url": "https://linuxbrew.bintray.com/bottles/gwyddion-2.50_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "fftw",
+    "gtk+",
+    "gtkglext",
+    "libxml2",
+    "minizip",
+    "python@2"
+  ],
+  "desc": "Scanning Probe Microscopy visualization and analysis tool",
+  "full_name": "gwyddion",
+  "homepage": "http://gwyddion.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gwyddion",
+  "oldname": null,
+  "optional_dependencies": [
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Build with python@2 support",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.50"
+  }
+}

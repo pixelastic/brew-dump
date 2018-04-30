@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "42f8eebffc6824ad487ae5613963b89d32111eee4d49fd8bc162e1d7d0be57ac",
+          "url": "https://linuxbrew.bintray.com/bottles/dcd-0.9.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ef67572c271b275f3024850640cdb55ea5c34932c35ae917802a50c4b34250d3",
+          "url": "https://linuxbrew.bintray.com/bottles/dcd-0.9.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c5eab62828d24813f3eee7e7930dabb493f4297c9a611530cecd08721b5b6a99",
+          "url": "https://linuxbrew.bintray.com/bottles/dcd-0.9.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6abd42bdab883ad47b5d1ac8dbb24872b9767c17f0a879ccba25c63f6b4256f7",
+          "url": "https://linuxbrew.bintray.com/bottles/dcd-0.9.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "dmd"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "dmd"
+  ],
+  "desc": "Auto-complete program for the D programming language",
+  "full_name": "dcd",
+  "homepage": "https://github.com/dlang-community/DCD",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dcd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.4"
+  }
+}

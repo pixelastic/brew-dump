@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c7ed10cf7ef215ef098e2e340d1f491037080acac59a38ade51088ebc09e71c4",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-which-2.21.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3932d82472cb95be1af5692a3cdaf55b841f2799f80271ffb2ff22b940210dbc",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-which-2.21.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b2649bbc23e1b180e3a7b9d4f88765d674696468904b246d253a7ca39106af61",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-which-2.21.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "5f9dc6704dbc7599c299c6e0dd186efe19d2cdf6680651010c7a9c3b377a983e",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-which-2.21.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ad546f7de7825dfbadcfbadd27a493d8acdb44c4a7a6855d02473ef96fb2f716",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-which-2.21.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "19a5b17d2f45260d2f38df1b127b1ccad20ed8b2d965821829e0dc92dcdd0b33",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-which-2.21.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "469d61be66afe0da2758838d1bde62544a661691568eaa30bc4f5abc16402efc",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-which-2.21.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "GNU implementation of which utility",
+  "full_name": "gnu-which",
+  "homepage": "https://savannah.gnu.org/projects/which/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnu-which",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Do not prepend 'g' to the binary",
+      "option": "--with-default-names"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.21"
+  }
+}

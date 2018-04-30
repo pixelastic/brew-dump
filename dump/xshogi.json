@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a4bfc78e6d2f10e6bf4c813a2e847963d6dd6d939a522934717ff6d35acafcc9",
+          "url": "https://linuxbrew.bintray.com/bottles/xshogi-1.4.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c78625da6cc10502df9274bff0680a1af6316c125b6ce482ab9d79ad745e6e55",
+          "url": "https://linuxbrew.bintray.com/bottles/xshogi-1.4.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4877493db0e9536a1282b9aa79d3cd38357a4b8e767533cfb6c4dce941faed23",
+          "url": "https://linuxbrew.bintray.com/bottles/xshogi-1.4.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "62c11f796225f439e5698ad87abafbfe55d2184d895b86fd13abe3dc924b2030",
+          "url": "https://linuxbrew.bintray.com/bottles/xshogi-1.4.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gnu-shogi"
+  ],
+  "desc": "X11 interface for GNU Shogi",
+  "full_name": "xshogi",
+  "homepage": "https://www.gnu.org/software/gnushogi/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xshogi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.2"
+  }
+}

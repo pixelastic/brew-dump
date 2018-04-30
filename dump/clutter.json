@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "fe6f945a3aac285dd0f21d1bdf0e4da08ac179c7cde03198af98c69166ccce6e",
+          "url": "https://linuxbrew.bintray.com/bottles/clutter-1.26.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cd1bad834964168854f060603548fb495a629cbf98a119050cb1ff2a4ef41b67",
+          "url": "https://linuxbrew.bintray.com/bottles/clutter-1.26.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "feebbe98a8c3cc1ad25202719451b4e9db64c145583ea1bd3b0d540e23cc8bf6",
+          "url": "https://linuxbrew.bintray.com/bottles/clutter-1.26.2_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "glib",
+    "gdk-pixbuf",
+    "cogl",
+    "cairo",
+    "atk",
+    "pango",
+    "json-glib"
+  ],
+  "desc": "Generic high-level canvas library",
+  "full_name": "clutter",
+  "homepage": "https://wiki.gnome.org/Projects/Clutter",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "clutter",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.26.2"
+  }
+}

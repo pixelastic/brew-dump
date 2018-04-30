@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1b0f14f892c930a2140a853edd308edc7545b0e2baa1637e77b925209476fe96",
+          "url": "https://linuxbrew.bintray.com/bottles/lynx-2.8.8rel.2_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "979236f9bc2b53908e398e1faa452da5cfad2677b99e64d8bd5a5de7d5d1c86a",
+          "url": "https://linuxbrew.bintray.com/bottles/lynx-2.8.8rel.2_1.high_sierra.bottle.1.tar.gz"
+        },
+        "lion": {
+          "sha256": "8ae76d02829b7d9d0daf1a43d57ef765e9bbc0002511ae71fc977262df3f652d",
+          "url": "https://linuxbrew.bintray.com/bottles/lynx-2.8.8rel.2_1.lion.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "41ddd45e917af411f20cebf679459490cb412a1f94b662a7f1e9f8cc9f9f394f",
+          "url": "https://linuxbrew.bintray.com/bottles/lynx-2.8.8rel.2_1.mavericks.bottle.1.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "a12c691f38002046a7a71c84df76f0f70e95c92a879663e50793dde1611c4834",
+          "url": "https://linuxbrew.bintray.com/bottles/lynx-2.8.8rel.2_1.mountain_lion.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bea7cf10aa6df403d9c421ef1e91d7af9b07bb2c2c41b71a36e975ca6d4b9bc2",
+          "url": "https://linuxbrew.bintray.com/bottles/lynx-2.8.8rel.2_1.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Text-based web browser",
+  "full_name": "lynx",
+  "homepage": "https://invisible-island.net/lynx/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lynx",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.8.8rel.2"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ad024ec7122272de003ebfee98ffa2c0518d40061dbf7631627e720ef27ad4e9",
+          "url": "https://linuxbrew.bintray.com/bottles/libinfinity-0.6.8_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5a82262c8519af2c73c3ee69c9632031cc6e7cc6bc52c2eef5defe74025b7a24",
+          "url": "https://linuxbrew.bintray.com/bottles/libinfinity-0.6.8_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d9791b732d6a5c1bbba29941cfc8e0847c92bacebc43cdf9aef26799e8bada8f",
+          "url": "https://linuxbrew.bintray.com/bottles/libinfinity-0.6.8_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib",
+    "gtk+3",
+    "gnutls",
+    "gsasl"
+  ],
+  "desc": "GObject-based C implementation of the Infinote protocol",
+  "full_name": "libinfinity",
+  "homepage": "https://gobby.github.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libinfinity",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.8"
+  }
+}

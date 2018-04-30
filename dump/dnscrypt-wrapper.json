@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "fd337e04cffac7af7eaf24b9a191bacd012a3b458d247d6a266274d0968702d3",
+          "url": "https://linuxbrew.bintray.com/bottles/dnscrypt-wrapper-0.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ea9ee8d3e27d21906fd1319ae23dcc42fd35d8b8833c558392db5b302870a24b",
+          "url": "https://linuxbrew.bintray.com/bottles/dnscrypt-wrapper-0.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "50da00dbfaa78a699d47f8c9f80818d6ae23149af86ba1e99e493b3748b50b0e",
+          "url": "https://linuxbrew.bintray.com/bottles/dnscrypt-wrapper-0.4.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "498f3fd330205ae9dbf1164589fdc8ff1a2c32bcfdbc1baaf4607aad714c638a",
+          "url": "https://linuxbrew.bintray.com/bottles/dnscrypt-wrapper-0.4.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "libsodium",
+    "libevent"
+  ],
+  "desc": "Server-side proxy that adds dnscrypt support to name resolvers",
+  "full_name": "dnscrypt-wrapper",
+  "homepage": "https://cofyc.github.io/dnscrypt-wrapper/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dnscrypt-wrapper",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.1"
+  }
+}

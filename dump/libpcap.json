@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d65185154e1d7d34070c0b61855fb2cec6fcf0b47f679135ad3f7c4105acd52a",
+          "url": "https://linuxbrew.bintray.com/bottles/libpcap-1.8.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "68a738a006b2226b2de1af999b2914b018aff21d1822a8be27d1cd83cba08eb3",
+          "url": "https://linuxbrew.bintray.com/bottles/libpcap-1.8.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "59aa812cdec684990f5b6a4a6243116f728155a52de29ad6b553012b5b4bb75f",
+          "url": "https://linuxbrew.bintray.com/bottles/libpcap-1.8.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "99c2ac9cf9224caf95b5b61259bedba02ad68ce283466912d80278b4e3fbd1cc",
+          "url": "https://linuxbrew.bintray.com/bottles/libpcap-1.8.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "cca6e084403fedada146bd162dade2638a6380733c136bb2e65b6657d5c3fe92",
+          "url": "https://linuxbrew.bintray.com/bottles/libpcap-1.8.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bison",
+    "flex"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bison",
+    "flex"
+  ],
+  "desc": "Portable library for network traffic capture",
+  "full_name": "libpcap",
+  "homepage": "https://www.tcpdump.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libpcap",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.1"
+  }
+}

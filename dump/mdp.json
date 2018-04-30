@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d2db9becc3573a975c8da120dcb62dcfc3cbb0f146850744dab3fda4917fd693",
+          "url": "https://linuxbrew.bintray.com/bottles/mdp-1.0.12.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "847efa4b5df6c24c768a3f13a312b3ece5f99e3ceff8d293c42b2c241e918c35",
+          "url": "https://linuxbrew.bintray.com/bottles/mdp-1.0.12.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d23b853ad13d7557f7156314df76bf4efcbd40c6cb0afd4ac4d59cb5803bc1b8",
+          "url": "https://linuxbrew.bintray.com/bottles/mdp-1.0.12.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "eb149ddad2aad1af0daef188dbe8cf9f3e2f344a47b154877462702233e466e0",
+          "url": "https://linuxbrew.bintray.com/bottles/mdp-1.0.12.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "desc": "Command-line based markdown presentation tool",
+  "full_name": "mdp",
+  "homepage": "https://github.com/visit1985/mdp",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mdp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.12"
+  }
+}

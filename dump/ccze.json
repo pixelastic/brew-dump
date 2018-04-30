@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "795fc9b842f53197ec45774d909fb14efd463a64215fbec799ad870bb78a6834",
+          "url": "https://linuxbrew.bintray.com/bottles/ccze-0.2.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6aa074341d1442c6795ece5581a5b404277254d4fdf3a42004d23e32e73824dd",
+          "url": "https://linuxbrew.bintray.com/bottles/ccze-0.2.1_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "40b61bc0353350f43c97f611d26c0826e4e4ce5df0284b1f544e89460af25722",
+          "url": "https://linuxbrew.bintray.com/bottles/ccze-0.2.1_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7f1d8fb98c7ca95eb938ff2bae748ad081772542234bbd25151cc37e0f097461",
+          "url": "https://linuxbrew.bintray.com/bottles/ccze-0.2.1_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "11c34c8ad4df9993b7f465c7c7a7fdb2588e3c75d678f3b22f36166ca1c04520",
+          "url": "https://linuxbrew.bintray.com/bottles/ccze-0.2.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pcre"
+  ],
+  "desc": "Robust and modular log colorizer",
+  "full_name": "ccze",
+  "homepage": "https://packages.debian.org/wheezy/ccze",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ccze",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.1"
+  }
+}

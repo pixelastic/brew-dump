@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f0361aa58cf382e6daafb4cfd13dad45d398e4d6edff5cccd813efc165df199b",
+          "url": "https://linuxbrew.bintray.com/bottles/aurora-2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "64a70dcfd939245ccd64cee3f91c26374616eede20583e0a7e43314188d6e648",
+          "url": "https://linuxbrew.bintray.com/bottles/aurora-2.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d2af9495df0060035181a1991a9e29a8723336b312ac794e4b9a716cc38ce58e",
+          "url": "https://linuxbrew.bintray.com/bottles/aurora-2.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "bf706d68165ed7c7df0008a0bf6cbbae878c5056b397b7578820a6f49d4b6cbe",
+          "url": "https://linuxbrew.bintray.com/bottles/aurora-2.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "150614c06c473e101d34f65f0e4114581df8d9808a3ec36df9425c9fd5246c4d",
+          "url": "https://linuxbrew.bintray.com/bottles/aurora-2.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Beanstalkd queue server console",
+  "full_name": "aurora",
+  "homepage": "https://xuri.me/aurora",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aurora",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.1"
+  }
+}

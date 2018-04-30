@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3c9943c455dbb8a0f641f78fd93dec6a27937494021b8f94f1bfe381ded46ca3",
+          "url": "https://linuxbrew.bintray.com/bottles/c-ares-1.14.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "90ff616a7b816ce090d1319e541ad45d7b515c2787007d10b7eace9601fb2396",
+          "url": "https://linuxbrew.bintray.com/bottles/c-ares-1.14.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "82c529566254c10dd71d09ae23281cf4a2c75d16200cc4df6d406ddecde5ba16",
+          "url": "https://linuxbrew.bintray.com/bottles/c-ares-1.14.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "426747362488bca54ad51996ce1e080dd86539090aa32e14848a4bfd323bb7fd",
+          "url": "https://linuxbrew.bintray.com/bottles/c-ares-1.14.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Asynchronous DNS library",
+  "full_name": "c-ares",
+  "homepage": "https://c-ares.haxx.se/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "c-ares",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.14.0"
+  }
+}

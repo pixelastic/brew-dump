@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8fa4f17ee4b0f8c52bdb155f4264043f12245858e413975cfea4355d569db207",
+          "url": "https://linuxbrew.bintray.com/bottles/geos-3.6.2_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bd35ebbcc9d142b0ee4d1f1837520cd0e195e13e3ea1804c5cfd1cc99d660b9b",
+          "url": "https://linuxbrew.bintray.com/bottles/geos-3.6.2_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a435dcf855256300793f56c3d0af6597f39958bde52adc29d07736f897b40c1b",
+          "url": "https://linuxbrew.bintray.com/bottles/geos-3.6.2_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "79302435d89915c147c6ef19cc66688e17e00bc0f4552c542f7f9c74ee9c6cf5",
+          "url": "https://linuxbrew.bintray.com/bottles/geos-3.6.2_2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5966c5ecea54189c67a3ffb5856176f4bb070ca72b3c3628ad7b76fb67e35de8",
+          "url": "https://linuxbrew.bintray.com/bottles/geos-3.6.2_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "swig"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "swig",
+    "python@2"
+  ],
+  "desc": "Geometry Engine",
+  "full_name": "geos",
+  "homepage": "https://trac.osgeo.org/geos",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "geos",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.6.2"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "043c6513885afda6860fb26fa366b1ccc799d1631f664f8fe00cf654a8408bb4",
+          "url": "https://linuxbrew.bintray.com/bottles/terragrunt-0.14.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5e8c46a5036c2bff241875d34a32ffe532fdd7f8ae1446c28d6119199195b5e2",
+          "url": "https://linuxbrew.bintray.com/bottles/terragrunt-0.14.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4f7c27ef74c09b888d10db9574f0b09e51ef4f9a1750180b563d6edb771ba589",
+          "url": "https://linuxbrew.bintray.com/bottles/terragrunt-0.14.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0ffe2b2d08bb31914bdcedd4f4c15dbbd4339ecc8a74cb6c8090c013def16e6a",
+          "url": "https://linuxbrew.bintray.com/bottles/terragrunt-0.14.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "glide",
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "glide",
+    "go",
+    "terraform"
+  ],
+  "desc": "Thin wrapper for Terraform e.g. for locking state",
+  "full_name": "terragrunt",
+  "homepage": "https://github.com/gruntwork-io/terragrunt",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "terragrunt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.14.7"
+  }
+}

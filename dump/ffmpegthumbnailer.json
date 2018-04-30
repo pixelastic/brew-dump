@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6c047fa6a18eee3f245e29e92e5f25bfb975815517f1710662bf82d71b78d3cd",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmpegthumbnailer-2.2.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b0045a9bca8a11ae6b76bb2970acbaf621e0ebefec62923e98f3a4d351b7ce37",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmpegthumbnailer-2.2.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5e9499e66c34208325a585175b2c18688e7f5b263a2a9223e000ac3dc6e984a1",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmpegthumbnailer-2.2.0_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "jpeg",
+    "libpng",
+    "ffmpeg"
+  ],
+  "desc": "Create thumbnails for your video files",
+  "full_name": "ffmpegthumbnailer",
+  "homepage": "https://github.com/dirkvdb/ffmpegthumbnailer",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ffmpegthumbnailer",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.2.0"
+  }
+}

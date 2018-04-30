@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9a957d7797f3e346e6aa85a85f96e463dd10c75e5ab3e32e32ee25952874a50f",
+          "url": "https://linuxbrew.bintray.com/bottles/libopusenc-0.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6a9ff9eacc72069a2d16951445772dbd60ab0fe4347ab6c385e8cc42c6b94ee5",
+          "url": "https://linuxbrew.bintray.com/bottles/libopusenc-0.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "611eace04f91c6f8685eb27e60c5bcd4f3f5edfe9904e267a476cce882016884",
+          "url": "https://linuxbrew.bintray.com/bottles/libopusenc-0.1.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ce338b279090d51831a051adeb41bc1185adbf3e702500b41636c8aac658b233",
+          "url": "https://linuxbrew.bintray.com/bottles/libopusenc-0.1.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "opus"
+  ],
+  "desc": "Convenience libraray for creating .opus files",
+  "full_name": "libopusenc",
+  "homepage": "https://opus-codec.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libopusenc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.1.1"
+  }
+}

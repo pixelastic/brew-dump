@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "70c249809920acc2d10405c0487427d154ee55cf201507d910d8178693c7fd61",
+          "url": "https://linuxbrew.bintray.com/bottles/dex-1.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1d36402b9470f2e714bf9b9b94e9575d06130485559826a08181ff9087e77176",
+          "url": "https://linuxbrew.bintray.com/bottles/dex-1.0.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ce004b66bad4f8ad7d363f45a0b6af15fc96f719a591f3383cd2a84dc424d9e3",
+          "url": "https://linuxbrew.bintray.com/bottles/dex-1.0.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1e413a64cd9e2c594ec47c7e5e9ff36ab199126f6708265f5ad87363e66f033e",
+          "url": "https://linuxbrew.bintray.com/bottles/dex-1.0.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a4cffc5c0b61be9452988d4435ccff1d1c72d2b9cdec595e55ea5f37ca2541a6",
+          "url": "https://linuxbrew.bintray.com/bottles/dex-1.0.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses",
+    "libiconv"
+  ],
+  "desc": "Dextrous text editor",
+  "full_name": "dex",
+  "homepage": "https://github.com/tihirvon/dex",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dex",
+  "oldname": null,
+  "optional_dependencies": [
+    "ncurses",
+    "libiconv"
+  ],
+  "options": [
+    {
+      "description": "Build with ncurses support",
+      "option": "--with-ncurses"
+    },
+    {
+      "description": "Build with libiconv support",
+      "option": "--with-libiconv"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0"
+  }
+}

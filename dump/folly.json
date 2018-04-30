@@ -1,0 +1,87 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8352ada9c96905541fec3e0bc2e270456a8e0add93a45875c6c620299a31c2e3",
+          "url": "https://linuxbrew.bintray.com/bottles/folly-2018.04.23.00.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3a629f67583c5bb72789a43eb0694e8d2063db90c778caa7e6c2281d8d44a849",
+          "url": "https://linuxbrew.bintray.com/bottles/folly-2018.04.23.00.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "00b32db370203998106ce076d3fbbfa614b07d92fc08fe342005843476334c69",
+          "url": "https://linuxbrew.bintray.com/bottles/folly-2018.04.23.00.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "12dbda6c10ca7fb915077dfa4dc4611fd0d84de316a99ea3ea36b7994aaa1e88",
+          "url": "https://linuxbrew.bintray.com/bottles/folly-2018.04.23.00.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "double-conversion",
+    "glog",
+    "gflags",
+    "boost",
+    "libevent",
+    "xz",
+    "snappy",
+    "lz4",
+    "openssl",
+    "python"
+  ],
+  "desc": "Collection of reusable C++ library artifacts developed at Facebook",
+  "full_name": "folly",
+  "homepage": "https://github.com/facebook/folly",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "folly",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2018.04.23.00"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To run Tika:\n  tika\n\nTo run Tika's REST server:\n  tika-rest-server\n\nSee the Tika homepage for more documentation:\n  brew home tika\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Content analysis toolkit",
+  "full_name": "tika",
+  "homepage": "https://tika.apache.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tika",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "1.18"
+  }
+}

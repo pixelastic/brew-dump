@@ -1,0 +1,81 @@
+{
+  "aliases": [
+    "recipes"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "42047634605fc4712aaf5aad6d64a157ed727d0be5bf6faaae334572d1420394",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-recipes-2.0.2_6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7e43f9bf6e1195b10cae436af57429908ae4e6fb7686ac8b3ac1c7df41bbba23",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-recipes-2.0.2_6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "078cd939f7da09bb99f11b8587376a3988ae6677e12951aa0dc0710165428183",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-recipes-2.0.2_6.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config",
+    "itstool",
+    "python"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config",
+    "itstool",
+    "python",
+    "gtk+3",
+    "adwaita-icon-theme",
+    "libcanberra",
+    "gnome-autoar",
+    "gspell",
+    "libsoup",
+    "gnu-tar",
+    "libxml2",
+    "json-glib",
+    "librest"
+  ],
+  "desc": "Formula for GNOME recipes",
+  "full_name": "gnome-recipes",
+  "homepage": "https://wiki.gnome.org/Apps/Recipes",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnome-recipes",
+  "oldname": "recipes",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 6,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.2"
+  }
+}

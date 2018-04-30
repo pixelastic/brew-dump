@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5f2f6cffd99459f429f53731c03528972648816997818bb4b8ec9df0a96c4d01",
+          "url": "https://linuxbrew.bintray.com/bottles/dvdbackup-0.4.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c1451c94d778d2096df258679da916279cc117642128196cb487ac67c4c58f01",
+          "url": "https://linuxbrew.bintray.com/bottles/dvdbackup-0.4.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c786685f8d6a27cb8b9be5a709b0b96b7087a59ab09b0736d4f48439e475aaf2",
+          "url": "https://linuxbrew.bintray.com/bottles/dvdbackup-0.4.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b47019e2fbfd855f1658b3edef96bf5a6794e6d8d6a863278b4512e4490e7e51",
+          "url": "https://linuxbrew.bintray.com/bottles/dvdbackup-0.4.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ac8d01872e80f83bb7fa14134391da4ec688a6e54d8f57ad58d970c38284e983",
+          "url": "https://linuxbrew.bintray.com/bottles/dvdbackup-0.4.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libdvdread"
+  ],
+  "desc": "Rip DVD's from the command-line",
+  "full_name": "dvdbackup",
+  "homepage": "https://dvdbackup.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dvdbackup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.2"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bash-completion"
+  ],
+  "desc": "Bash and Zsh completion for Gradle",
+  "full_name": "gradle-completion",
+  "homepage": "https://gradle.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gradle-completion",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without bash-completion support",
+      "option": "--without-bash-completion"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "bash-completion"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.3.1"
+  }
+}

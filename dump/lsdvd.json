@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "eefa4b673d38a87354cdac631ee7e7a1054e69e29e912ff52c2fa84995f7e189",
+          "url": "https://linuxbrew.bintray.com/bottles/lsdvd-0.17.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ada8d8a799f6138e42cef34f1592e7ff01278ae6b7c7e3a8e519509db2a24ce6",
+          "url": "https://linuxbrew.bintray.com/bottles/lsdvd-0.17.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d64473d3ff0f1b1b7dce0435da6305aa384a374ebca7154498770a9c66297cb7",
+          "url": "https://linuxbrew.bintray.com/bottles/lsdvd-0.17.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4662e19252627e7f8e344fc0f8b52e83e908f26e9253aad7590eef126ebae7f0",
+          "url": "https://linuxbrew.bintray.com/bottles/lsdvd-0.17.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libdvdread",
+    "libdvdcss"
+  ],
+  "desc": "Read the content info of a DVD",
+  "full_name": "lsdvd",
+  "homepage": "https://sourceforge.net/projects/lsdvd",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lsdvd",
+  "oldname": null,
+  "optional_dependencies": [
+    "libdvdcss"
+  ],
+  "options": [
+    {
+      "description": "Build with libdvdcss support",
+      "option": "--with-libdvdcss"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.17"
+  }
+}

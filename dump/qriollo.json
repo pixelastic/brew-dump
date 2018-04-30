@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c570641b476c08b7e8d26ea37486f6db64cb6f573e0228b3893742857ceca7a0",
+          "url": "https://linuxbrew.bintray.com/bottles/qriollo-0.91.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "589772b174426b627088e6586e8fb95196db74543b28d2871b3c643ed0570107",
+          "url": "https://linuxbrew.bintray.com/bottles/qriollo-0.91.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "bc0ef3114f072bfcbf3b647f47d77f82e24f650b52edfbd1b3f34fd4dcc08c98",
+          "url": "https://linuxbrew.bintray.com/bottles/qriollo-0.91.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eac8f1a19aebca8ab21b5d992b61f8d7d702a2a81d1bc04534acb5f46517f6d4",
+          "url": "https://linuxbrew.bintray.com/bottles/qriollo-0.91.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "dab13bc1d92169631801eaa347f58a71049a762b3994ace1efbbcb813a72afb3",
+          "url": "https://linuxbrew.bintray.com/bottles/qriollo-0.91.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ghc"
+  ],
+  "caveats": "The standard module \"Chamuyo.q\" has been placed in:\n  /home/tim/.linuxbrew/Cellar/qriollo/0.91/lib/chamuyo\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ghc"
+  ],
+  "desc": "Impure functional language, based on Rioplatense Spanish",
+  "full_name": "qriollo",
+  "homepage": "https://qriollo.github.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qriollo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.91"
+  }
+}

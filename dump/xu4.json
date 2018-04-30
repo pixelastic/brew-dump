@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "47700a341c1dc6a700d5a0f2925846b2457e3f470b25c2288c8c0c132202d027",
+          "url": "https://linuxbrew.bintray.com/bottles/xu4-1.0beta4+r3088.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e7aac43710b9180710c9af0dcd80a955aa095d6264f92eb482cbe2322c01146d",
+          "url": "https://linuxbrew.bintray.com/bottles/xu4-1.0beta4+r3088.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9d490768b07abfa8c105c88dc0d2a6be97e175f6535afcee0a4c63e37d976f6f",
+          "url": "https://linuxbrew.bintray.com/bottles/xu4-1.0beta4+r3088.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "aab6d22274a345209ff25516b2dd11b715088ccab2d31588b8253f65e29f0e96",
+          "url": "https://linuxbrew.bintray.com/bottles/xu4-1.0beta4+r3088.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "subversion"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "subversion",
+    "sdl",
+    "sdl_mixer",
+    "libpng"
+  ],
+  "desc": "Remake of Ultima IV",
+  "full_name": "xu4",
+  "homepage": "https://xu4.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xu4",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0beta4+r3088"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "101c3442589eb596e46e5df2a64f69bbb6d12909ef4fa0d0d4f86607258b3194",
+          "url": "https://linuxbrew.bintray.com/bottles/simple-tiles-0.6.1_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5032c76efb7ae602dcafda7a048110ea123662b06835a077d329558c58fdddc8",
+          "url": "https://linuxbrew.bintray.com/bottles/simple-tiles-0.6.1_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "30efcc0e5fcb844511c341015f251fb81226e434d16b0c5451fc7381da2a841a",
+          "url": "https://linuxbrew.bintray.com/bottles/simple-tiles-0.6.1_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cairo",
+    "gdal",
+    "pango"
+  ],
+  "desc": "Image generation library for spatial data",
+  "full_name": "simple-tiles",
+  "homepage": "https://propublica.github.io/simple-tiles/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "simple-tiles",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.6.1"
+  }
+}

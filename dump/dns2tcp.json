@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2cd5e77bec42f0f5e2715494c38eb8773ab30d53b140509d3f428d38890bf640",
+          "url": "https://linuxbrew.bintray.com/bottles/dns2tcp-0.5.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d6fb240175854e0a0b5069544a58c4fbcd161d3337288c2f289f48999c4dde10",
+          "url": "https://linuxbrew.bintray.com/bottles/dns2tcp-0.5.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "2f69efb2f705eb1514e8b46d7daa61379df3f4892cfe2d570c233a18ff109e7d",
+          "url": "https://linuxbrew.bintray.com/bottles/dns2tcp-0.5.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e948ddde1e95f055a9cd3e73cd2756c22f729d9feed9ebc2929cb3df6fe09584",
+          "url": "https://linuxbrew.bintray.com/bottles/dns2tcp-0.5.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3e805ac804eea824b81bd15191b71cdc42d4ac779ebfc1d74d5de51500be18a5",
+          "url": "https://linuxbrew.bintray.com/bottles/dns2tcp-0.5.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "TCP over DNS tunnel",
+  "full_name": "dns2tcp",
+  "homepage": "https://packages.debian.org/sid/dns2tcp",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dns2tcp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.5.2"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6d9d9900813b21abc89149ded185d4b74147a85c1a350d54511ee535acde171c",
+          "url": "https://linuxbrew.bintray.com/bottles/mupen64plus-2.5.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4dc531259b558fe987eecd74d87afb70284d36ec4e0c3008de751b820f83e64b",
+          "url": "https://linuxbrew.bintray.com/bottles/mupen64plus-2.5.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "28006559bb0cc624432b1a8b0a7dfd08e9a5a3d59d7dbaf5cde64ac29dc747d1",
+          "url": "https://linuxbrew.bintray.com/bottles/mupen64plus-2.5.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libpng",
+    "sdl",
+    "boost",
+    "freetype",
+    "speex"
+  ],
+  "desc": "Cross-platform plugin-based N64 emulator",
+  "full_name": "mupen64plus",
+  "homepage": "https://www.mupen64plus.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mupen64plus",
+  "oldname": null,
+  "optional_dependencies": [
+    "speex"
+  ],
+  "options": [
+    {
+      "description": "Disables the On Screen Display",
+      "option": "--without-osd"
+    },
+    {
+      "description": "Replace dynamic recompiler with Ari64's experimental dynarec",
+      "option": "--with-new-dynarec"
+    },
+    {
+      "description": "Build with libsamplerate",
+      "option": "--with-src"
+    },
+    {
+      "description": "Build with libspeexdsp",
+      "option": "--with-speex"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5"
+  }
+}

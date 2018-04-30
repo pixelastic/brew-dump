@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8da318e9023c99e198d2be9df2d053ef4e60ebbe70d54041e522309f7b258e6e",
+          "url": "https://linuxbrew.bintray.com/bottles/proof-general-4.4_2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8da318e9023c99e198d2be9df2d053ef4e60ebbe70d54041e522309f7b258e6e",
+          "url": "https://linuxbrew.bintray.com/bottles/proof-general-4.4_2.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8da318e9023c99e198d2be9df2d053ef4e60ebbe70d54041e522309f7b258e6e",
+          "url": "https://linuxbrew.bintray.com/bottles/proof-general-4.4_2.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "texi2html",
+    "texinfo"
+  ],
+  "caveats": "HTML documentation is available in: /home/tim/.linuxbrew/share/doc/proof-general\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "texi2html",
+    "texinfo",
+    "emacs"
+  ],
+  "desc": "Emacs-based generic interface for theorem provers",
+  "full_name": "proof-general",
+  "homepage": "https://proofgeneral.github.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "proof-general",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.4"
+  }
+}

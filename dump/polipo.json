@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "54142753c1ad2f0bbb0b7d3acd62c12dd6f5e33f059f27432a739e01a351f1a7",
+          "url": "https://linuxbrew.bintray.com/bottles/polipo-1.1.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a778da0bb114b5c5496be43cdb9ebce244d9ccb3faacda464e9621999e40ff21",
+          "url": "https://linuxbrew.bintray.com/bottles/polipo-1.1.1.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "74930c6406c860315088f3bde52332fb3708a60f5aabeeff1497a3cbbdf10a73",
+          "url": "https://linuxbrew.bintray.com/bottles/polipo-1.1.1.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d30101dd7753f59f84a8962f07772a1e18ec8007096b815c3cae117a59fbb2e0",
+          "url": "https://linuxbrew.bintray.com/bottles/polipo-1.1.1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ce6453203feafa737212242a0ea9d2faa118e5880775e115682901e59fad5891",
+          "url": "https://linuxbrew.bintray.com/bottles/polipo-1.1.1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Web caching proxy",
+  "full_name": "polipo",
+  "homepage": "https://www.irif.univ-paris-diderot.fr/~jch/software/polipo/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "polipo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Set chunk size to 16k (more RAM, but more performance)",
+      "option": "--with-large-chunks"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.1"
+  }
+}

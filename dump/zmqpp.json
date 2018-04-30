@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "58f0301f03f30b314cb31dbbbc9a82163930b5b00a7285e3d279f49c0e1a25d1",
+          "url": "https://linuxbrew.bintray.com/bottles/zmqpp-4.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "02c8a7e0124d22e2c9fde2349179d9340e17203ad252ed9fd56fd6c9ea71a24c",
+          "url": "https://linuxbrew.bintray.com/bottles/zmqpp-4.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a1843b77cb53950bcf0b29589071025a48d86f0ecb4420280f7fcff7420f1905",
+          "url": "https://linuxbrew.bintray.com/bottles/zmqpp-4.2.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "45ccf7507091583c8d4bcacf8553878f2cecb77a9464f0f4116acfcead26f77d",
+          "url": "https://linuxbrew.bintray.com/bottles/zmqpp-4.2.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "doxygen"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "doxygen",
+    "zeromq"
+  ],
+  "desc": "High-level C++ binding for zeromq",
+  "full_name": "zmqpp",
+  "homepage": "https://zeromq.github.io/zmqpp/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zmqpp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.2.0"
+  }
+}

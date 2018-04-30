@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c6bd1f502ddbcc756a400958f1f79da193c5784b7cd71361e1e6742412ae442c",
+          "url": "https://linuxbrew.bintray.com/bottles/trafshow-5.2.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d7d2f4fc92f234fd9fda9ec65a03b37aaf43d40203682ee3821526bb18f1ad13",
+          "url": "https://linuxbrew.bintray.com/bottles/trafshow-5.2.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c6324418840429d76f53035ae9e013190b8190f75f9fc1eaa8100bc9e7df27f8",
+          "url": "https://linuxbrew.bintray.com/bottles/trafshow-5.2.3_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fd7be4933f9be5a4a3ebaf0e31086e0f5566608305dd88779f0b0790fdc75c05",
+          "url": "https://linuxbrew.bintray.com/bottles/trafshow-5.2.3_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtool"
+  ],
+  "desc": "Continuous network traffic display",
+  "full_name": "trafshow",
+  "homepage": "https://web.archive.org/web/20130707021442/soft.risp.ru/trafshow/index_en.shtml",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "trafshow",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.2.3"
+  }
+}

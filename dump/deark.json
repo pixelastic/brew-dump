@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "914a5f782e78b109b82d4d813ac2025e6499ce44c1d2b1b3fc5c78799ad4eebb",
+          "url": "https://linuxbrew.bintray.com/bottles/deark-1.4.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4c73f07c4cf4a414827ade6a4b982d478352c0f7bfb739481278198df8fbec02",
+          "url": "https://linuxbrew.bintray.com/bottles/deark-1.4.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "913ca3d03afc1c9ddd7f03a0ecf9a31245e11471c366d7ef8486a612aef3d328",
+          "url": "https://linuxbrew.bintray.com/bottles/deark-1.4.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "84a64e0cff0f547e62387cd6d899ad01fc142ce429fc579f0cc055241043d9d5",
+          "url": "https://linuxbrew.bintray.com/bottles/deark-1.4.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "File conversion utility for older formats",
+  "full_name": "deark",
+  "homepage": "http://entropymine.com/deark/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "deark",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.5"
+  }
+}

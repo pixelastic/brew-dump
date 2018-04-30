@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "2884120953aeac755a39365d5905ece08b90b1bfd9568677cd1ed45046fe8491",
+          "url": "https://linuxbrew.bintray.com/bottles/minisign-0.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6826fa79c308cc321871704d79baab4deb71e916c00656c0b6cc656042889103",
+          "url": "https://linuxbrew.bintray.com/bottles/minisign-0.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bb3f8c4d58e195960606e1f155775da72ba7c019d9dd72b818ed7d232bf4e22c",
+          "url": "https://linuxbrew.bintray.com/bottles/minisign-0.8.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1cb6ad5812cfb0618c208e121fde7ff27201881d5d9930454f00808620bd4118",
+          "url": "https://linuxbrew.bintray.com/bottles/minisign-0.8.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libsodium",
+    "cmake"
+  ],
+  "desc": "Sign files & verify signatures. Works with signify in OpenBSD",
+  "full_name": "minisign",
+  "homepage": "https://jedisct1.github.io/minisign/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "minisign",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8"
+  }
+}

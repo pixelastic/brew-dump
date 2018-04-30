@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "56c173bc0afde492037cd5c572ae600562058ae0c9c0dc8b0155d902332bbe37",
+          "url": "https://linuxbrew.bintray.com/bottles/oauth2_proxy-2.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "062e2e65e4a9e233eeb94b711b642eb061f9eee949ef43e10845353b8fbcb9d8",
+          "url": "https://linuxbrew.bintray.com/bottles/oauth2_proxy-2.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "48fde51ae6c8f7c1ea348526117953ced48616c0e9a7678867c31998fdc13612",
+          "url": "https://linuxbrew.bintray.com/bottles/oauth2_proxy-2.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "bf940346696e4c891da94647640886d5aa78c261649730ddb08bc7efc3bea63e",
+          "url": "https://linuxbrew.bintray.com/bottles/oauth2_proxy-2.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "gpm"
+  ],
+  "caveats": "/home/tim/.linuxbrew/etc/oauth2_proxy/oauth2_proxy.cfg must be filled in.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "gpm"
+  ],
+  "desc": "Reverse proxy for authenticating users via OAuth 2 providers",
+  "full_name": "oauth2_proxy",
+  "homepage": "https://github.com/bitly/oauth2_proxy",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "oauth2_proxy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.2"
+  }
+}

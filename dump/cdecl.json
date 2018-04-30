@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4f0e990d88823aa9f3d1dcea71ffa442c13640ce82cc9da41f90a1be5ef457dc",
+          "url": "https://linuxbrew.bintray.com/bottles/cdecl-2.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a2469d514723e35850b252b97d3bf90f9311c276455b218383d276ccb0c88ee4",
+          "url": "https://linuxbrew.bintray.com/bottles/cdecl-2.5.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b1e1618d0f1bcbb801c669c314c36c72e47e8829950a8bf0899d0517f3036ccc",
+          "url": "https://linuxbrew.bintray.com/bottles/cdecl-2.5.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1d424613881cf9109d824664fc77fc947f2968b9850d448db4b02c6f0a562b5c",
+          "url": "https://linuxbrew.bintray.com/bottles/cdecl-2.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e8f53a0e5b3649f0c691c60380b9c77af573387240f3479a41550583fcc4e22c",
+          "url": "https://linuxbrew.bintray.com/bottles/cdecl-2.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Turn English phrases to C or C++ declarations",
+  "full_name": "cdecl",
+  "homepage": "https://cdecl.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cdecl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5"
+  }
+}

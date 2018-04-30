@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "high_sierra": {
+          "sha256": "d2846ca09af8d51f46ab3101f5b93b5ad75cbeabdb45f82e02bf75e4bb451eba",
+          "url": "https://linuxbrew.bintray.com/bottles/carthage-0.29.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0012918a8f4e32c7a95a9bc37dc52dff5c033756aa45335fe36d680161004ea2",
+          "url": "https://linuxbrew.bintray.com/bottles/carthage-0.29.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Decentralized dependency manager for Cocoa",
+  "full_name": "carthage",
+  "homepage": "https://github.com/Carthage/Carthage",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "carthage",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.29.0"
+  }
+}

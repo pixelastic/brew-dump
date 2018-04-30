@@ -1,0 +1,83 @@
+{
+  "aliases": [
+    "pyqt5"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "7befa5819255a5048171f493fbcb4fa62e19cd2f2d97b5e10388dcd4151eb069",
+          "url": "https://linuxbrew.bintray.com/bottles/pyqt-5.10.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cd346b8e55439c8492c3d62547663afe68ffe722eae98f79bc7dbc01af9b088c",
+          "url": "https://linuxbrew.bintray.com/bottles/pyqt-5.10.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "133864e1f65eac84555cfb21bc7108bc92c0e7d375f5094ad2d8d30080c8f388",
+          "url": "https://linuxbrew.bintray.com/bottles/pyqt-5.10.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "qt",
+    "sip",
+    "python",
+    "python@2"
+  ],
+  "desc": "Python bindings for v5 of Qt",
+  "full_name": "pyqt",
+  "homepage": "https://www.riverbankcomputing.com/software/pyqt/download5",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pyqt",
+  "oldname": "pyqt5",
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with debug symbols",
+      "option": "--with-debug"
+    },
+    {
+      "description": "Install HTML documentation and python examples",
+      "option": "--with-docs"
+    },
+    {
+      "description": "Build without python support",
+      "option": "--without-python"
+    },
+    {
+      "description": "Build without python@2 support",
+      "option": "--without-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python",
+    "python@2"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.10.1"
+  }
+}

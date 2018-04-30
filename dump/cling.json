@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a735b768dd2e5b9b000ca81660d5472897036d331277595501b341075da5ee8b",
+          "url": "https://linuxbrew.bintray.com/bottles/cling-0.5_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fe94e56a3ee12dc8ada76ab4e9f96f4ff754f356a9ca9ad35708c0dbf4a41802",
+          "url": "https://linuxbrew.bintray.com/bottles/cling-0.5_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c947df2499dcdeaa9807c3eae023d5c5cf9ba49902a68998e242b24e0fedcd9f",
+          "url": "https://linuxbrew.bintray.com/bottles/cling-0.5_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "The cling C++ interpreter",
+  "full_name": "cling",
+  "homepage": "https://root.cern.ch/cling",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cling",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.5"
+  }
+}

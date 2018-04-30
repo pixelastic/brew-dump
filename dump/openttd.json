@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b2b8d6cf06c840acbf425d4b89daf146541d46f19cd3aa7f09a622d7897b3a9f",
+          "url": "https://linuxbrew.bintray.com/bottles/openttd-1.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e5d194e126ec516ca84a4f9187e8415953cf64e319dfe31dedd1bdaa2a4e2339",
+          "url": "https://linuxbrew.bintray.com/bottles/openttd-1.8.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5d74a4c682236213f06a7cdeae2f62f462d59f445a66719fe86e82a872ff112e",
+          "url": "https://linuxbrew.bintray.com/bottles/openttd-1.8.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "If you have access to the sound and graphics files from the original\nTransport Tycoon Deluxe, you can install them by following the\ninstructions in section 4.1 of /home/tim/.linuxbrew/Cellar/openttd/1.8.0/readme.txt\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "lzo",
+    "xz",
+    "pkg-config"
+  ],
+  "desc": "Simulation game based upon Transport Tycoon Deluxe",
+  "full_name": "openttd",
+  "homepage": "https://www.openttd.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openttd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.0"
+  }
+}

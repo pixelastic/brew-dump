@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c26ff8c09d6e992a377dc5fa74051eb49257925cb3b2580dbf964bb0d836c8e8",
+          "url": "https://linuxbrew.bintray.com/bottles/libmicrohttpd-0.9.59.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7c860a1ec7c375a12afc989721d144334154b7d3a45cdc7b1e0e2fdc7bdd2450",
+          "url": "https://linuxbrew.bintray.com/bottles/libmicrohttpd-0.9.59.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e4ac52a6a863271805580972734997984da7c338811839838f4022617fae1cdf",
+          "url": "https://linuxbrew.bintray.com/bottles/libmicrohttpd-0.9.59.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b369d42b0e5c1573e56557550cb740cfffe66965a90a50e2306163f95221a2ec",
+          "url": "https://linuxbrew.bintray.com/bottles/libmicrohttpd-0.9.59.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Light HTTP/1.1 server library",
+  "full_name": "libmicrohttpd",
+  "homepage": "https://www.gnu.org/software/libmicrohttpd/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libmicrohttpd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable SSL support",
+      "option": "--with-ssl"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.59"
+  }
+}

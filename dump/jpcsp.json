@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "eb76d37c11b46c6ad7545456604aeba4efe127a213de2aab97cba3bd6d2de8f0",
+          "url": "https://linuxbrew.bintray.com/bottles/jpcsp-0.7+20160322.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ae41109bff3e00d7d62a2ed9bd29be94bad124a3cc1dfdec551bd1149ee4a83c",
+          "url": "https://linuxbrew.bintray.com/bottles/jpcsp-0.7+20160322.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ef7a92493281cd2c18af2ec4d73a291c89f6e6e93613b71520ed6a3f067ae8f8",
+          "url": "https://linuxbrew.bintray.com/bottles/jpcsp-0.7+20160322.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a6b330e246febab5a13181d4631c7e19d35a6173badaf7587586c8aa1a07af30",
+          "url": "https://linuxbrew.bintray.com/bottles/jpcsp-0.7+20160322.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ant",
+    "p7zip"
+  ],
+  "caveats": "ISO/CSO images are to be placed in the following directory:\n  /home/tim/.linuxbrew/Cellar/jpcsp/0.7+20160322/Jpcsp.app/Contents/Resources/Java/umdimages\n\nTo avoid any incidental wipeout upon future updates, change it to\na safe location (under Options > Settings > General > UMD path folders).\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ant",
+    "p7zip"
+  ],
+  "desc": "PSP emulator written in Java",
+  "full_name": "jpcsp",
+  "homepage": "https://jpcsp.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jpcsp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.7+20160322"
+  }
+}

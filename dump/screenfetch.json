@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "62441999c591325de600f4cbd5d46e4157c443cfb514a3b1dfce8764c911785d",
+          "url": "https://linuxbrew.bintray.com/bottles/screenfetch-3.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8e0571c592a9ae4b20d7e88e12dcbde9b722856721c3227d3334800cfd8445f5",
+          "url": "https://linuxbrew.bintray.com/bottles/screenfetch-3.8.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "62441999c591325de600f4cbd5d46e4157c443cfb514a3b1dfce8764c911785d",
+          "url": "https://linuxbrew.bintray.com/bottles/screenfetch-3.8.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "62441999c591325de600f4cbd5d46e4157c443cfb514a3b1dfce8764c911785d",
+          "url": "https://linuxbrew.bintray.com/bottles/screenfetch-3.8.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Generate ASCII art with terminal, shell, and OS info",
+  "full_name": "screenfetch",
+  "homepage": "https://github.com/KittyKatt/screenFetch",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "screenfetch",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.8.0"
+  }
+}

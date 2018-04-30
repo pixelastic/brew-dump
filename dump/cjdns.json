@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "25fdeeddcf62a47435f401d90975650af5a8b3a771270fe18f13aeac6d356536",
+          "url": "https://linuxbrew.bintray.com/bottles/cjdns-20.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c8de87eccf8e0c10f5e6b7b943c8f9e388aeccd7ac122cfa3c54edb94f1313ba",
+          "url": "https://linuxbrew.bintray.com/bottles/cjdns-20.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9b9275abfa8abc4f0ca0013b6756a4dfe254282de869cc8fac716103aee05088",
+          "url": "https://linuxbrew.bintray.com/bottles/cjdns-20.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "node"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "desc": "Advanced mesh routing system with cryptographic addressing",
+  "full_name": "cjdns",
+  "homepage": "https://github.com/cjdelisle/cjdns/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cjdns",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "20.1"
+  }
+}

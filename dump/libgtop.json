@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "fe1a65675f609a65a3aa8938080472df2f84159f163de616a50683de3ab6a3f3",
+          "url": "https://linuxbrew.bintray.com/bottles/libgtop-2.38.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ebe7cd41964c94cc59a4734eac1a04a9b64038c69234f6f3fb131266450d57f7",
+          "url": "https://linuxbrew.bintray.com/bottles/libgtop-2.38.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "903f395ddb70fd42c184323584437e156836b8dea5e69f6e9bb54f4fd39b0987",
+          "url": "https://linuxbrew.bintray.com/bottles/libgtop-2.38.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "gnome-common",
+    "gobject-introspection",
+    "gtk-doc",
+    "libtool",
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "gnome-common",
+    "gobject-introspection",
+    "gtk-doc",
+    "libtool",
+    "pkg-config",
+    "intltool",
+    "gettext",
+    "glib"
+  ],
+  "desc": "Library for portably obtaining information about processes",
+  "full_name": "libgtop",
+  "homepage": "https://library.gnome.org/devel/libgtop/stable/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libgtop",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.38.0"
+  }
+}

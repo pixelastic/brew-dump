@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "acb2ae5951a0f32cbdce39e02d86c63cdb85b41fd02aff74aac6ea4939d71d8d",
+          "url": "https://linuxbrew.bintray.com/bottles/rdate-1.5.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "02e41a79e9aca3bad86802e1bc32c7148e8a2ea2f410c57765f9e9d8b2686fd1",
+          "url": "https://linuxbrew.bintray.com/bottles/rdate-1.5.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "3a36b6feccd119c90db3373a3de1b67f4aa03fc72aacdf7b11165b538206ae14",
+          "url": "https://linuxbrew.bintray.com/bottles/rdate-1.5.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9f4a6300d6d3ebc9034abeb5388fd40face1f286a7b97610b6a40a1dcdf166b5",
+          "url": "https://linuxbrew.bintray.com/bottles/rdate-1.5.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "553782017635be9c8d80bbf6fd033f294cddcb427a2d83fe82af8c069c60867f",
+          "url": "https://linuxbrew.bintray.com/bottles/rdate-1.5.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Set the system's date from a remote host",
+  "full_name": "rdate",
+  "homepage": "https://www.aelius.com/njh/rdate/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rdate",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5"
+  }
+}

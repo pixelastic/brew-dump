@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b43ba5577c7e8b2dd9b4852a5d6652e1600a460584096646f38b69b7d103cee9",
+          "url": "https://linuxbrew.bintray.com/bottles/atomicparsley-0.9.6.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ea4399b0ed2025590068deda729e9c566094cda9a9e38149e116d97fc6d034d4",
+          "url": "https://linuxbrew.bintray.com/bottles/atomicparsley-0.9.6.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8797e94e5a1083d41fd9843a94362a714a48430918ed95fa9d7f37b31e0ba1e9",
+          "url": "https://linuxbrew.bintray.com/bottles/atomicparsley-0.9.6.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "345eb5a19de38e476a0b39627ea243efdfc9a7a7dd980e5e51e4db74599c3f20",
+          "url": "https://linuxbrew.bintray.com/bottles/atomicparsley-0.9.6.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1d19235e19a1834ba82f04dea871f7e3098be41d291ce2ddc3dfb4a100b81361",
+          "url": "https://linuxbrew.bintray.com/bottles/atomicparsley-0.9.6.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b1825326c53079bd37a098cf100ae29d2b2763c985be0f2592ba89f10b914eb3",
+          "url": "https://linuxbrew.bintray.com/bottles/atomicparsley-0.9.6.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "zlib"
+  ],
+  "desc": "MPEG-4 command-line tool",
+  "full_name": "atomicparsley",
+  "homepage": "https://bitbucket.org/wez/atomicparsley/overview/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "atomicparsley",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.6"
+  }
+}

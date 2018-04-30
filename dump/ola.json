@@ -1,0 +1,94 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9230a8fcc75bcc0c29c57dbd012909a2d7331823e70db1fc58462143c7350cf3",
+          "url": "https://linuxbrew.bintray.com/bottles/ola-0.10.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ada249b3e16aaee5610c9c4a2c438b158c1dcf36be684af62e4af6095984fe7b",
+          "url": "https://linuxbrew.bintray.com/bottles/ola-0.10.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "06defbab5f678025a309989dc0c84aed8c2a315f880d9610263d2bdaab2d5c4c",
+          "url": "https://linuxbrew.bintray.com/bottles/ola-0.10.6.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libmicrohttpd",
+    "ossp-uuid",
+    "protobuf@3.1",
+    "python@2",
+    "liblo",
+    "libusb",
+    "doxygen",
+    "libftdi"
+  ],
+  "desc": "Open Lighting Architecture for lighting control information",
+  "full_name": "ola",
+  "homepage": "https://www.openlighting.org/ola/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ola",
+  "oldname": null,
+  "optional_dependencies": [
+    "doxygen",
+    "libftdi"
+  ],
+  "options": [
+    {
+      "description": "Install FTDI USB plugin for OLA.",
+      "option": "--with-libftdi"
+    },
+    {
+      "description": "Install RDM Tests for OLA.",
+      "option": "--with-rdm-tests"
+    },
+    {
+      "description": "Build without liblo support",
+      "option": "--without-liblo"
+    },
+    {
+      "description": "Build without libusb support",
+      "option": "--without-libusb"
+    },
+    {
+      "description": "Build with doxygen support",
+      "option": "--with-doxygen"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "liblo",
+    "libusb"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.10.6"
+  }
+}

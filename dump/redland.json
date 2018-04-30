@@ -1,0 +1,103 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "38eac3bae25aa65cbb7b688ecfaae91ab79c0c292e7505596ffc3b409bc8ca3b",
+          "url": "https://linuxbrew.bintray.com/bottles/redland-1.0.17_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "407f9f1bd2a8682684660826fce445077c33fe3e7f1bfb05e7c0e265e2edacfe",
+          "url": "https://linuxbrew.bintray.com/bottles/redland-1.0.17_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "06d1c7c81a9803ad37cd40303987b90456fb565f4305965388bc8faff54c6db7",
+          "url": "https://linuxbrew.bintray.com/bottles/redland-1.0.17_1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "bbe8f82451695648adb66ab2766413e938f8f4ffdc318ba946e210d23e637dd2",
+          "url": "https://linuxbrew.bintray.com/bottles/redland-1.0.17_1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0ed03c897836946cbadf2e390bd25c79eeb6ad34ea1144ef69d8bf1dfbfaf2eb",
+          "url": "https://linuxbrew.bintray.com/bottles/redland-1.0.17_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6047842b51137c968df4787bbfcf2080b4f32b73bb9d3412fa117ee9c1ff22d2",
+          "url": "https://linuxbrew.bintray.com/bottles/redland-1.0.17_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "raptor",
+    "rasqal",
+    "unixodbc",
+    "sqlite",
+    "berkeley-db",
+    "python@2"
+  ],
+  "desc": "RDF Library",
+  "full_name": "redland",
+  "homepage": "http://librdf.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "redland",
+  "oldname": null,
+  "optional_dependencies": [
+    "berkeley-db",
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Build with php support",
+      "option": "--with-php"
+    },
+    {
+      "description": "Build with ruby support",
+      "option": "--with-ruby"
+    },
+    {
+      "description": "Build without sqlite support",
+      "option": "--without-sqlite"
+    },
+    {
+      "description": "Build with berkeley-db support",
+      "option": "--with-berkeley-db"
+    },
+    {
+      "description": "Build with python@2 support",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "sqlite"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.17"
+  }
+}

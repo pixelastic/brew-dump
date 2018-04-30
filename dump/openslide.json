@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8d8bdded3aa4db040a15f1cf0c31db10832d0349320a550eaa73a0fe77abfcd6",
+          "url": "https://linuxbrew.bintray.com/bottles/openslide-3.4.1_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9118b45fe096442eb436126366d3f617d8fc5e356b1a764535686115941b0aac",
+          "url": "https://linuxbrew.bintray.com/bottles/openslide-3.4.1_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e5f7b2fe405fcbc70797c326fba07b7311b334bdd03e7ce88cfd28231557ea51",
+          "url": "https://linuxbrew.bintray.com/bottles/openslide-3.4.1_4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libpng",
+    "jpeg",
+    "libxml2",
+    "libtiff",
+    "glib",
+    "openjpeg",
+    "cairo",
+    "gdk-pixbuf"
+  ],
+  "desc": "C library to read whole-slide images (a.k.a. virtual slides)",
+  "full_name": "openslide",
+  "homepage": "http://openslide.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openslide",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.4.1"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8bd6a07c4625266bd8631f636b317b19916611308e7f9eeec5f5b8b847327ef9",
+          "url": "https://linuxbrew.bintray.com/bottles/eigen-3.3.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4cc2b76353629941ff0098928d331e1620c5e27e5d55f337deae8b35f8af1b97",
+          "url": "https://linuxbrew.bintray.com/bottles/eigen-3.3.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "73b77dbad9910ff34a3b3dfe24db8c9e84b0bf0dc6e2ea8ebd9cb663083fa9e1",
+          "url": "https://linuxbrew.bintray.com/bottles/eigen-3.3.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f21819bfecdc0ac86884634504a75e73dd37438f862ab546068ea4c0d1bc4da5",
+          "url": "https://linuxbrew.bintray.com/bottles/eigen-3.3.4.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8bd6a07c4625266bd8631f636b317b19916611308e7f9eeec5f5b8b847327ef9",
+          "url": "https://linuxbrew.bintray.com/bottles/eigen-3.3.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "C++ template library for linear algebra",
+  "full_name": "eigen",
+  "homepage": "https://eigen.tuxfamily.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "eigen",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.3.4"
+  }
+}

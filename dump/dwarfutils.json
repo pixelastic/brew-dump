@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0769a3da91dead3364d833cb9caa602f36bfc4b2b5ed8e0c9fb7d7ef93fb52a2",
+          "url": "https://linuxbrew.bintray.com/bottles/dwarfutils-20180129.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1f818559afe85bd41eb7e96c273b3e8f4d68afa4aea28ad9c28a9461595eb077",
+          "url": "https://linuxbrew.bintray.com/bottles/dwarfutils-20180129.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "092c2d5cb68c6644d312e7b7b365e926e9353dfd196d7680fdf5cbadb1406f9e",
+          "url": "https://linuxbrew.bintray.com/bottles/dwarfutils-20180129.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "libelf"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libelf"
+  ],
+  "desc": "Dump and produce DWARF debug information in ELF objects",
+  "full_name": "dwarfutils",
+  "homepage": "https://www.prevanders.net/dwarf.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dwarfutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Use -fsanitize",
+      "option": "--with-sanitize"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20180129"
+  }
+}

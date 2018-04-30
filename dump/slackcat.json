@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "bd75f396807917734adec3c541faebee3789841474fdd81c343c61c6a739d293",
+          "url": "https://linuxbrew.bintray.com/bottles/slackcat-1.4.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "81bf29fac1f47bfaa4064b9b03aae96c4ea179158b0baeb0868203c6b7144221",
+          "url": "https://linuxbrew.bintray.com/bottles/slackcat-1.4.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7a0331e03695488f07eba24c4ebef11b406face8dcdbfc632beb8c5eb3227395",
+          "url": "https://linuxbrew.bintray.com/bottles/slackcat-1.4.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "46c54462f1a6e9e639566a8bde49998c85fe1a340200ab98bb779c1d2c2db239",
+          "url": "https://linuxbrew.bintray.com/bottles/slackcat-1.4.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "dep",
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "dep",
+    "go"
+  ],
+  "desc": "Command-line utility for posting snippets to Slack",
+  "full_name": "slackcat",
+  "homepage": "https://github.com/vektorlab/slackcat",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "slackcat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4"
+  }
+}

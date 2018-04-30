@@ -1,0 +1,84 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "221b163a3c4634bad784d29c7590a87984d662de7a38ea1fc2d5fc2ff3306eb4",
+          "url": "https://linuxbrew.bintray.com/bottles/mcabber-1.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c95601a98c1c0a3ee247ccfef25d77b52d49ebd535840761916225571a9c3ebe",
+          "url": "https://linuxbrew.bintray.com/bottles/mcabber-1.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b3bdcaf2f025e9b8844fd8b0be4ccbb742b088987658724d1599714fb053b9ca",
+          "url": "https://linuxbrew.bintray.com/bottles/mcabber-1.1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3bfcbb80e1e4bebe963f88b8045a1dcea0cd3e3bed2e79a62b69d7cafc9c7e21",
+          "url": "https://linuxbrew.bintray.com/bottles/mcabber-1.1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "A configuration file is necessary to start mcabber.  The template is here:\n  /home/tim/.linuxbrew/opt/mcabber/share/mcabber/mcabberrc.example\nAnd there is a Getting Started Guide you will need to setup Mcabber:\n  https://wiki.mcabber.com/#index2h1\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib",
+    "loudmouth",
+    "gpgme",
+    "libgcrypt",
+    "libotr",
+    "libidn",
+    "aspell",
+    "enchant"
+  ],
+  "desc": "Console Jabber client",
+  "full_name": "mcabber",
+  "homepage": "https://mcabber.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mcabber",
+  "oldname": null,
+  "optional_dependencies": [
+    "aspell",
+    "enchant"
+  ],
+  "options": [
+    {
+      "description": "Build with aspell support",
+      "option": "--with-aspell"
+    },
+    {
+      "description": "Build with enchant support",
+      "option": "--with-enchant"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.0"
+  }
+}

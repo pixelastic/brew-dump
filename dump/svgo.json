@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b255cdc0b1d51ddf9103fd3bc2e527c7556715c91c6e79f65806b3b6bbe475ef",
+          "url": "https://linuxbrew.bintray.com/bottles/svgo-1.0.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "33251a1558bc0d5479d49189d1dd3d9dd27af77d0a4e03d97f8f905cda2bfd72",
+          "url": "https://linuxbrew.bintray.com/bottles/svgo-1.0.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5553d5bca19b519bfaed0edf43f33839371983b7b9840d4804a51a365281eca1",
+          "url": "https://linuxbrew.bintray.com/bottles/svgo-1.0.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0a5f6cb236435ebd7f803880e861b1cbda6d658d123be2ef7d08322d771411a9",
+          "url": "https://linuxbrew.bintray.com/bottles/svgo-1.0.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "desc": "Nodejs-based tool for optimizing SVG vector graphics files",
+  "full_name": "svgo",
+  "homepage": "https://github.com/svg/svgo",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "svgo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.5"
+  }
+}

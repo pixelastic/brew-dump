@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d3e7e6e70d7f1b3bfb6b5e7bc5eca122d353f62f9e468d34f9498ce2fc0d1f44",
+          "url": "https://linuxbrew.bintray.com/bottles/dvm-1.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "18b508c00e7e82028b7a4bea6e739c77130299dd38fb3e4c98a9518429be6457",
+          "url": "https://linuxbrew.bintray.com/bottles/dvm-1.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "91e37e60f6badef7c4c9e8a81f5fd6f600e3da247b57c1b461c55ff4ecad0ff8",
+          "url": "https://linuxbrew.bintray.com/bottles/dvm-1.0.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d92ffa5627cf1dbed1f5883daf11fb2b5e7bab3ce13847632a23d22e028298ad",
+          "url": "https://linuxbrew.bintray.com/bottles/dvm-1.0.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": "dvm is a shell function, and must be sourced before it can be used.\nAdd the following command to your bash profile:\n    [ -f /home/tim/.linuxbrew/opt/dvm/dvm.sh ] && . /home/tim/.linuxbrew/opt/dvm/dvm.sh\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Docker Version Manager",
+  "full_name": "dvm",
+  "homepage": "https://github.com/howtowhale/dvm",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dvm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.1"
+  }
+}

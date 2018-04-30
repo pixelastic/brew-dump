@@ -1,0 +1,48 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To enable the `homeshick cd <CASTLE>` command, you need to\n`export HOMESHICK_DIR=/home/tim/.linuxbrew/opt/homeshick`\nand\n`source \"/home/tim/.linuxbrew/opt/homeshick/homeshick.sh\"`\nin your $HOME/.bashrc\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Git dotfiles synchronizer written in bash",
+  "full_name": "homeshick",
+  "homepage": "https://github.com/andsens/homeshick",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "homeshick",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build fish bindings",
+      "option": "--with-fish"
+    },
+    {
+      "description": "Build csh bindings",
+      "option": "--with-csh"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.0"
+  }
+}

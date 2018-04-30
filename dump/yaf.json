@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a78d64bc822e5238b8959c29f6b2fd3b0c5dd394e035f467115fae1a00e5f8c8",
+          "url": "https://linuxbrew.bintray.com/bottles/yaf-2.9.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "24422434ea23843b2ae740613df6e275d6ca7428fb18edf6d859a8e424da8fe4",
+          "url": "https://linuxbrew.bintray.com/bottles/yaf-2.9.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "07ed2f7990b8ba323ea4086c33d6c1dad14dd9896b2e477f2e72d229b2666155",
+          "url": "https://linuxbrew.bintray.com/bottles/yaf-2.9.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib",
+    "libfixbuf"
+  ],
+  "desc": "Yet another flowmeter: processes packet data from pcap(3)",
+  "full_name": "yaf",
+  "homepage": "https://tools.netsa.cert.org/yaf/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yaf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.9.3"
+  }
+}

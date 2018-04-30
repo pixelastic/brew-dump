@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5751796e42e7d544f4976bc304a0ae7407dc5217b2b4218b0a6afdc18ea3eeaf",
+          "url": "https://linuxbrew.bintray.com/bottles/l-smash-2.9.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eae1dfce4f50c3b48d2a3fabf415ad7ec98de0937d610fec98d700e517e18934",
+          "url": "https://linuxbrew.bintray.com/bottles/l-smash-2.9.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "78c5c52a90e1609694b43a45240126515f97be8a1d129a57215d4a7ba9e3717f",
+          "url": "https://linuxbrew.bintray.com/bottles/l-smash-2.9.1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "5e2cd2ae65a0aeb7d1429f18fbd41dd7bdbfc03fcd10f320e41fc0cf6c95aef4",
+          "url": "https://linuxbrew.bintray.com/bottles/l-smash-2.9.1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "57802892865529a99658bd4da1b29eb5287259183658131cc215ef80fcd0cfbe",
+          "url": "https://linuxbrew.bintray.com/bottles/l-smash-2.9.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "00b5b08edf3405261e5b6777a2ca57c15b51d504e4369d27c811acd925cd694a",
+          "url": "https://linuxbrew.bintray.com/bottles/l-smash-2.9.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3703bdeb1dfe66aef898e60a990f4e64f0ab3c1fe26a49cf824b3c6998acaacc",
+          "url": "https://linuxbrew.bintray.com/bottles/l-smash-2.9.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tool for working with MP4 files",
+  "full_name": "l-smash",
+  "homepage": "https://l-smash.github.io/l-smash/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "l-smash",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.9.1"
+  }
+}

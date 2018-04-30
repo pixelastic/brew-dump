@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bcc61675b4c4d3c2801a19357fd426b681a0d598169ce1102a580df5c91cbcd5",
+          "url": "https://linuxbrew.bintray.com/bottles/bacula-fd-9.0.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "159792205dcef2493c4ae2fb7b2359c8ed4ae0b0d985a4535328206bbb21c1a5",
+          "url": "https://linuxbrew.bintray.com/bottles/bacula-fd-9.0.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "788cde919b28276990d1d5802791207080fe24b5a33ccc095b87c208be1dc254",
+          "url": "https://linuxbrew.bintray.com/bottles/bacula-fd-9.0.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "241a2b1452acb1317455cf57bf9ee7e1b12396ce92b1edae1bd8b9a69670c041",
+          "url": "https://linuxbrew.bintray.com/bottles/bacula-fd-9.0.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "bareos-client"
+  ],
+  "dependencies": [
+    "readline",
+    "openssl"
+  ],
+  "desc": "Network backup solution",
+  "full_name": "bacula-fd",
+  "homepage": "https://www.bacula.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bacula-fd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "9.0.7"
+  }
+}

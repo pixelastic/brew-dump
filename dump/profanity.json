@@ -1,0 +1,91 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "759ebf658a3a869b22da48f7c6a99dbad605c75af19931cef996ef3484df5d29",
+          "url": "https://linuxbrew.bintray.com/bottles/profanity-0.5.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "927877fecb1306de71150281968d62ebc20d3e2fb70a43706d759d31f9b46d3d",
+          "url": "https://linuxbrew.bintray.com/bottles/profanity-0.5.1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e1944f29f1fb1233f43c9beac4e4f6c4af247e64e94fa9c1c3b77fc4071124aa",
+          "url": "https://linuxbrew.bintray.com/bottles/profanity-0.5.1.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "db1d923738b3d88e5c4b1b92fa5a6273498e64a4f4b347aaac0e0e52df297e3c",
+          "url": "https://linuxbrew.bintray.com/bottles/profanity-0.5.1.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "ossp-uuid",
+    "libstrophe",
+    "readline",
+    "glib",
+    "openssl",
+    "gnutls",
+    "libotr",
+    "gpgme",
+    "terminal-notifier",
+    "curl"
+  ],
+  "desc": "Console based XMPP client",
+  "full_name": "profanity",
+  "homepage": "http://www.profanity.im/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "profanity",
+  "oldname": null,
+  "optional_dependencies": [
+    "terminal-notifier"
+  ],
+  "options": [
+    {
+      "description": "Build without libotr support",
+      "option": "--without-libotr"
+    },
+    {
+      "description": "Build without gpgme support",
+      "option": "--without-gpgme"
+    },
+    {
+      "description": "Build with terminal-notifier support",
+      "option": "--with-terminal-notifier"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libotr",
+    "gpgme"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5.1"
+  }
+}

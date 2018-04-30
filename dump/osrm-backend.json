@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5266b41a1ae6f469f817cdc9abdbf3d8441631ac1e58d63251a76499411a3333",
+          "url": "https://linuxbrew.bintray.com/bottles/osrm-backend-5.17.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bfd5771df129cdd1f8816a618cca5bbf26bcfbb889cade213365f56202a4421f",
+          "url": "https://linuxbrew.bintray.com/bottles/osrm-backend-5.17.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "77e23d6bdf9085c82ccdd64a646662d689ba6379f816923f94300e01b1dd583d",
+          "url": "https://linuxbrew.bintray.com/bottles/osrm-backend-5.17.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "boost",
+    "libstxxl",
+    "libxml2",
+    "libzip",
+    "lua",
+    "tbb"
+  ],
+  "desc": "High performance routing engine",
+  "full_name": "osrm-backend",
+  "homepage": "http://project-osrm.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "osrm-backend",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.17.2"
+  }
+}

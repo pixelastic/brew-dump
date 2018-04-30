@@ -1,0 +1,53 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "1c116580e07e76b7937ff20b18e4e6c1cec06e09868801bc99e50c07c0e31eb8",
+          "url": "https://linuxbrew.bintray.com/bottles/source-highlight-3.1.8_9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost"
+  ],
+  "desc": "Source-code syntax highlighter",
+  "full_name": "source-highlight",
+  "homepage": "https://www.gnu.org/software/src-highlite/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "source-highlight",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 9,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.1.8"
+  }
+}

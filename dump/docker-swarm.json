@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "de4c2cb59c9a198bec4bb6442cbb6fd0465964b27842d77d6d277429cfe51b27",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-swarm-1.2.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f3940875a0cbb1cf562376e61ffb6206aa75e266931e54f52fe08c2ceaaf6329",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-swarm-1.2.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "17efa0a36074c19516377ed860540ed5e8672794607d8a1a78b7f18b12b0f403",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-swarm-1.2.8.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4dfe57b9aeb03e3836c9f4bfd543b8150147473502958a18d787f4e306945af9",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-swarm-1.2.8.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "01b32b2a21df9ffb5f3e0721cbb33f65aa5ef8e0207ec9648feb769fcb4ae932",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-swarm-1.2.8.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Turn a pool of Docker hosts into a single, virtual host",
+  "full_name": "docker-swarm",
+  "homepage": "https://github.com/docker/swarm",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "docker-swarm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.8"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "08a11bcd044482d90ce0b7482e5be7bd967e580e6224d85d39bb02e64f6a9906",
+          "url": "https://linuxbrew.bintray.com/bottles/pygobject3-3.28.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "40f262ce96d07a14e9e7949d42b9dda053203ce6ab5d5e16fa4fa6543dd8908c",
+          "url": "https://linuxbrew.bintray.com/bottles/pygobject3-3.28.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "09e59b39dec8b7e44a6f3a74fe14c1c6ad06a5b879b0d936ba1478a766909564",
+          "url": "https://linuxbrew.bintray.com/bottles/pygobject3-3.28.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libffi",
+    "glib",
+    "python@2",
+    "python",
+    "py3cairo",
+    "gobject-introspection"
+  ],
+  "desc": "GNOME Python bindings (based on GObject Introspection)",
+  "full_name": "pygobject3",
+  "homepage": "https://live.gnome.org/PyGObject",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pygobject3",
+  "oldname": null,
+  "optional_dependencies": [
+    "libffi",
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Build without python3 support",
+      "option": "--without-python"
+    },
+    {
+      "description": "Build with python2 support",
+      "option": "--with-python@2"
+    },
+    {
+      "description": "Build with libffi support",
+      "option": "--with-libffi"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.28.2"
+  }
+}

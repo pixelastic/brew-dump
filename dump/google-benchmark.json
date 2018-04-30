@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "79e9bdfa601cc661a7cc0c7129b54d11e7f0dc183ed85a0f67304a80c498626a",
+          "url": "https://linuxbrew.bintray.com/bottles/google-benchmark-1.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "76c2713d3de1596cf9cb298d906aebcd0c06259a4595ca519e7be3ae9b32a58e",
+          "url": "https://linuxbrew.bintray.com/bottles/google-benchmark-1.4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e733b53d5fbddaf8a75a0fbcfe415c5bdb420a9666f770e06afa4e844cef45e9",
+          "url": "https://linuxbrew.bintray.com/bottles/google-benchmark-1.4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ed9f15cd1c7ea48417f107ed6dda7f25a3a9744a7ee057d5ab81443f49bdf326",
+          "url": "https://linuxbrew.bintray.com/bottles/google-benchmark-1.4.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "C++ microbenchmark support library",
+  "full_name": "google-benchmark",
+  "homepage": "https://github.com/google/benchmark",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "google-benchmark",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.0"
+  }
+}

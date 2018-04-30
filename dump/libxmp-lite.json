@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a8fcd7a5ab446a221b7444b90191656175f6060a0730a703e4f862c4f49690f4",
+          "url": "https://linuxbrew.bintray.com/bottles/libxmp-lite-4.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e0b20b3d4fcd64e4c90b9d704ee5621739bf633bdf8bd71bd1b2cb713a2b0284",
+          "url": "https://linuxbrew.bintray.com/bottles/libxmp-lite-4.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d1ed5c1803f622508c3e20bb9c48f9bc644d0d639574aaa298724dd0aa17262d",
+          "url": "https://linuxbrew.bintray.com/bottles/libxmp-lite-4.4.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "448d0a4bcd651c44551a1d3785de1c0181cce1ee374cd7903a629cb200a3011d",
+          "url": "https://linuxbrew.bintray.com/bottles/libxmp-lite-4.4.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Lite libxmp",
+  "full_name": "libxmp-lite",
+  "homepage": "https://xmp.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libxmp-lite",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.4.1"
+  }
+}

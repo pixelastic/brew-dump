@@ -1,0 +1,55 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "b605e4c6dfc849d742d01a49b04261c6e29a7ae031f0b1a14144a0dac7ccb8fc",
+          "url": "https://linuxbrew.bintray.com/bottles/gsoap-2.8.66.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "bison",
+    "flex"
+  ],
+  "desc": "SOAP stub and skeleton compiler for C and C++",
+  "full_name": "gsoap",
+  "homepage": "https://www.genivia.com/products.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gsoap",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.8.66"
+  }
+}

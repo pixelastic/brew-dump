@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b5e4678d23246d60439074f6bf41c57a2f8c2a43718eff304c710073a176971a",
+          "url": "https://linuxbrew.bintray.com/bottles/lysp-1.1_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c5bac7fdb03d9f6cf682e3accb11a6f3d66f73646290f748f70a092dc8a22aaf",
+          "url": "https://linuxbrew.bintray.com/bottles/lysp-1.1_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5c9f575cdef03223be2d182bd687ba327c512c46ebaabd3195016ef1937e2f0b",
+          "url": "https://linuxbrew.bintray.com/bottles/lysp-1.1_4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bdw-gc",
+    "gcc"
+  ],
+  "desc": "Small Lisp interpreter",
+  "full_name": "lysp",
+  "homepage": "http://www.piumarta.com/software/lysp/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lysp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

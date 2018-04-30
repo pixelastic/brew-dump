@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d6d62997e9ca3378380e96fc7f1f633b755b88956d009195b3e91832b8466c64",
+          "url": "https://linuxbrew.bintray.com/bottles/rlvm-0.14_3.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ffbe5c1893759c495572d8338f4b7d18bb37a8fb8a88e4d0ef11e1f552e591e8",
+          "url": "https://linuxbrew.bintray.com/bottles/rlvm-0.14_3.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bf5a864796942f72edf91b4ca86696050e694edd718418b01c23227f23c5fe33",
+          "url": "https://linuxbrew.bintray.com/bottles/rlvm-0.14_3.sierra.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "scons"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "scons",
+    "boost",
+    "freetype",
+    "gettext",
+    "glew",
+    "jpeg",
+    "libogg",
+    "libpng",
+    "libvorbis",
+    "mad",
+    "sdl",
+    "sdl_image",
+    "sdl_mixer",
+    "sdl_ttf"
+  ],
+  "desc": "RealLive interpreter for VisualArts games",
+  "full_name": "rlvm",
+  "homepage": "http://www.rlvm.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rlvm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.14"
+  }
+}

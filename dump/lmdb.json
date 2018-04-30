@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6ca8e50908dfd7feb3e405c6f348a950c798747d57d02bd426e76b1cf1b8500f",
+          "url": "https://linuxbrew.bintray.com/bottles/lmdb-0.9.22.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "446eacbb6ae70705b8ef850a143a19378f840ed4070a6beb7ec80c0876913987",
+          "url": "https://linuxbrew.bintray.com/bottles/lmdb-0.9.22.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5eb74dfb0f982df132fb1c4edd45de857cba72bf461b213c4565b54a8cb9fe67",
+          "url": "https://linuxbrew.bintray.com/bottles/lmdb-0.9.22.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d53d0b41a88cdd6f965668b64f15a4f6ada4752ec8ca716fcbb1038382846b39",
+          "url": "https://linuxbrew.bintray.com/bottles/lmdb-0.9.22.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Lightning memory-mapped database: key-value data store",
+  "full_name": "lmdb",
+  "homepage": "https://symas.com/mdb-and-sqlite/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lmdb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.22"
+  }
+}

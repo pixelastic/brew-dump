@@ -1,0 +1,49 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Some of the support scripts used by Tomcat have very generic names.\nThese are likely to conflict with support scripts used by other Java-based\nserver software.\nYou can add /home/tim/.linuxbrew/Cellar/tomcat@6/6.0.53/bin to your PATH instead.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Implementation of Java Servlet and JavaServer Pages",
+  "full_name": "tomcat@6",
+  "homepage": "https://tomcat.apache.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "tomcat@6",
+  "oldname": "tomcat6",
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Install full documentation locally",
+      "option": "--with-fulldocs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "6.0.53"
+  }
+}

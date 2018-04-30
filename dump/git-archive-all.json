@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d4bfe6683cec5c08fbd701d4b431256cf42315746260e53a4655127e89df9048",
+          "url": "https://linuxbrew.bintray.com/bottles/git-archive-all-1.17.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d4bfe6683cec5c08fbd701d4b431256cf42315746260e53a4655127e89df9048",
+          "url": "https://linuxbrew.bintray.com/bottles/git-archive-all-1.17.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d4bfe6683cec5c08fbd701d4b431256cf42315746260e53a4655127e89df9048",
+          "url": "https://linuxbrew.bintray.com/bottles/git-archive-all-1.17.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "18fcdf1e09113b534d403312c5bf4c4544483e1f1f37f5b73708a6d56e023196",
+          "url": "https://linuxbrew.bintray.com/bottles/git-archive-all-1.17.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Archive a project and its submodules",
+  "full_name": "git-archive-all",
+  "homepage": "https://github.com/Kentzo/git-archive-all",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git-archive-all",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.17.1"
+  }
+}

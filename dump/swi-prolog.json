@@ -1,0 +1,87 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2016d9b076b252805f48f705181d03cd26183b0f74a026c029cd34f9e8afb79d",
+          "url": "https://linuxbrew.bintray.com/bottles/swi-prolog-7.6.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7a1a76d4b9160e0fea1899a8af0dcd448f71efef8476b1732d75e8d0339ac419",
+          "url": "https://linuxbrew.bintray.com/bottles/swi-prolog-7.6.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "af00bfcc0da68a800dd50e608aabc6620db00de1a7bf1b986a7bc49ae58ea234",
+          "url": "https://linuxbrew.bintray.com/bottles/swi-prolog-7.6.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7b86e11f244c21051f94c9ffd2648f3411131f58b5b6efcf2830c3982c1257a8",
+          "url": "https://linuxbrew.bintray.com/bottles/swi-prolog-7.6.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "readline",
+    "gmp",
+    "openssl",
+    "libarchive"
+  ],
+  "desc": "ISO/Edinburgh-style Prolog interpreter",
+  "full_name": "swi-prolog",
+  "homepage": "http://www.swi-prolog.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "swi-prolog",
+  "oldname": null,
+  "optional_dependencies": [
+    "libarchive"
+  ],
+  "options": [
+    {
+      "description": "Disable all packages",
+      "option": "--with-lite"
+    },
+    {
+      "description": "Enable JPL (Java Prolog Bridge)",
+      "option": "--with-jpl"
+    },
+    {
+      "description": "Enable XPCE (Prolog Native GUI Library)",
+      "option": "--with-xpce"
+    },
+    {
+      "description": "Build with libarchive support",
+      "option": "--with-libarchive"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "7.7.9",
+    "head": "HEAD",
+    "stable": "7.6.4"
+  }
+}

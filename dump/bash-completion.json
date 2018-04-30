@@ -1,0 +1,70 @@
+{
+  "aliases": [
+    "bash-completion@1"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "58be92ef01d5068f37b1c00af8e9b202bdb409c93121bb0e07dcbb5e55dc3be2",
+          "url": "https://linuxbrew.bintray.com/bottles/bash-completion-1.3_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b069be5574bdf6d12fd1fda17c3162467b68165541166d95d1a9474653a63abc",
+          "url": "https://linuxbrew.bintray.com/bottles/bash-completion-1.3_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "58be92ef01d5068f37b1c00af8e9b202bdb409c93121bb0e07dcbb5e55dc3be2",
+          "url": "https://linuxbrew.bintray.com/bottles/bash-completion-1.3_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d8e44d076970e70be1e5d910511f582857021c4e418db385f11be9d8ff354d1d",
+          "url": "https://linuxbrew.bintray.com/bottles/bash-completion-1.3_3.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "58be92ef01d5068f37b1c00af8e9b202bdb409c93121bb0e07dcbb5e55dc3be2",
+          "url": "https://linuxbrew.bintray.com/bottles/bash-completion-1.3_3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Add the following line to your ~/.bash_profile:\n  [ -f /home/tim/.linuxbrew/etc/bash_completion ] && . /home/tim/.linuxbrew/etc/bash_completion\n",
+  "conflicts_with": [
+    "bash-completion@2"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Programmable completion for Bash 3.2",
+  "full_name": "bash-completion",
+  "homepage": "https://bash-completion.alioth.debian.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bash-completion",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b9c5e200dab1bf30ef4bd9bb257d5728c6779552aab97a1ddc65d02ad697cd8f",
+          "url": "https://linuxbrew.bintray.com/bottles/multitail-6.4.2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b8d2ab93cd8bf7954ffc49ed929aa0cf2c60a2ebeb872e9d3686d314af043be2",
+          "url": "https://linuxbrew.bintray.com/bottles/multitail-6.4.2.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ec1007a1ab7ffc9394f25d1a838d54051c04c14667721e8db9f49803084f6dcc",
+          "url": "https://linuxbrew.bintray.com/bottles/multitail-6.4.2.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9e71d116effb1ae96a596b2f39a78e8b82a5678c7dceda901e2a61a6ab64838e",
+          "url": "https://linuxbrew.bintray.com/bottles/multitail-6.4.2.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "desc": "Tail multiple files in one terminal simultaneously",
+  "full_name": "multitail",
+  "homepage": "https://vanheusden.com/multitail/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "multitail",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.4.2"
+  }
+}

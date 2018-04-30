@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c07c0df6e5c7773397b3716fd2660a89fdcab54bf73d2e55546e3166afe5c7c8",
+          "url": "https://linuxbrew.bintray.com/bottles/scalapack-2.0.2_10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1ce4bb3c8dd855dfd73502eaa5446ba6d2f29a118b69de37e86e0df5ba6a35d1",
+          "url": "https://linuxbrew.bintray.com/bottles/scalapack-2.0.2_10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "adba6fc8c47b72e7313020ea80d31b1a2ab01021d2595fc8b0266ad3114a5d2a",
+          "url": "https://linuxbrew.bintray.com/bottles/scalapack-2.0.2_10.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9ed1761c3852aece51f34e4bad425da35b56c4739e488bd5a160dcfcf8cc1ae8",
+          "url": "https://linuxbrew.bintray.com/bottles/scalapack-2.0.2_10.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "gcc",
+    "open-mpi",
+    "openblas"
+  ],
+  "desc": "High-performance linear algebra for distributed memory machines",
+  "full_name": "scalapack",
+  "homepage": "http://www.netlib.org/scalapack/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "scalapack",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without openblas support",
+      "option": "--without-openblas"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "openblas"
+  ],
+  "requirements": [
+  ],
+  "revision": 10,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.2"
+  }
+}

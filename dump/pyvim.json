@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "76295ee3821641b9ce9f951372b82a393e30d21e2420f870a0f8acef52e561b3",
+          "url": "https://linuxbrew.bintray.com/bottles/pyvim-0.0.21.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "76dd168a56f90e7fb10497a5ed9d97891f023611a9b154bd5cd4bfba80bce19a",
+          "url": "https://linuxbrew.bintray.com/bottles/pyvim-0.0.21.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "76dd168a56f90e7fb10497a5ed9d97891f023611a9b154bd5cd4bfba80bce19a",
+          "url": "https://linuxbrew.bintray.com/bottles/pyvim-0.0.21.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8b96138cdc6a8354c5535d6b994e5ffd8f708f79089d36b5c54513e0807c6bc2",
+          "url": "https://linuxbrew.bintray.com/bottles/pyvim-0.0.21.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Pure Python Vim clone",
+  "full_name": "pyvim",
+  "homepage": "https://github.com/jonathanslenders/pyvim",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pyvim",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.0.21"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "47c35b91db7052ee938daa6ddd95e96d49982e8767a48a0821f054b543fedb7f",
+          "url": "https://linuxbrew.bintray.com/bottles/bvi-1.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "832a212daacc98df05797371ff7fb6ff0bbe5b7ac824a430c04b2b7f04d0e1e7",
+          "url": "https://linuxbrew.bintray.com/bottles/bvi-1.4.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7ec90f6665011faa3f1715cf6cc855270a536993633d8a4600cdb0492db16686",
+          "url": "https://linuxbrew.bintray.com/bottles/bvi-1.4.0.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "75d2461715e5afacd35efcb188d580191db6ebe02607bc66ea52a813be21e29c",
+          "url": "https://linuxbrew.bintray.com/bottles/bvi-1.4.0.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f918f3425865c4b8df97c32cf700f631d2c19e285adf01cc6ceadd429f7d0bfb",
+          "url": "https://linuxbrew.bintray.com/bottles/bvi-1.4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8259c8f5e2928b0ec8bae46c9390f082b5f02a6278ef907cbc74d7ce9babb228",
+          "url": "https://linuxbrew.bintray.com/bottles/bvi-1.4.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4b5a3bdfa1bf083bde13338fc8fc5a8027880b3e79611ad064e44fd2f4d7a4a0",
+          "url": "https://linuxbrew.bintray.com/bottles/bvi-1.4.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "desc": "Vi-like binary file (hex) editor",
+  "full_name": "bvi",
+  "homepage": "https://bvi.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bvi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.0"
+  }
+}

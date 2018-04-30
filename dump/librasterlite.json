@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "24120f69886a7fcd617896f8b80c4d25648a840eb44b14d3a0ee1457230810e1",
+          "url": "https://linuxbrew.bintray.com/bottles/librasterlite-1.1g_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "65caf1ad410dbec8ab61630fd43051eebdc0a152278ceacb1b9f9c470f7daaf2",
+          "url": "https://linuxbrew.bintray.com/bottles/librasterlite-1.1g_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c35a4604e8ca5b6bff8368bdf18f42858b7c1e616c2153539d91f92f3d1cba22",
+          "url": "https://linuxbrew.bintray.com/bottles/librasterlite-1.1g_4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libpng",
+    "libgeotiff",
+    "libspatialite",
+    "sqlite"
+  ],
+  "desc": "Library to store and retrieve huge raster coverages",
+  "full_name": "librasterlite",
+  "homepage": "https://www.gaia-gis.it/fossil/librasterlite/index",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "librasterlite",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1g"
+  }
+}

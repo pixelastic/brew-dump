@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5b879543999158c4f55a52fdb9e643267ac1ad46aa69e56448f43799f1cce771",
+          "url": "https://linuxbrew.bintray.com/bottles/whohas-0.29.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ad57fdefa6da7a779c1bd503f336634dc55b8f524f8e59cfa74fb2a6eba42ebd",
+          "url": "https://linuxbrew.bintray.com/bottles/whohas-0.29.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0fc69ababba028f6408233021f0dfbbe6b1d29abcbce8416b8eb109c24a570d1",
+          "url": "https://linuxbrew.bintray.com/bottles/whohas-0.29.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Query multiple distributions' package archives",
+  "full_name": "whohas",
+  "homepage": "http://www.philippwesche.org/200811/whohas/intro.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "whohas",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.29.1"
+  }
+}

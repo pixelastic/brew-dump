@@ -1,0 +1,278 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4081321d6ca435f867efeab84e8ae1bb8b1f87263a7a2936043cc9e91e0413e6",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmpeg@2.8-2.8.13_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "aa356ed2a33d8a1bfc32c1541b42a666ce24201709b82fbbf4f24bcf418735bf",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmpeg@2.8-2.8.13_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "280d377b3853063069f174efae5fa7d00fba939bb05090e6ed1e3bf51c97e0a2",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmpeg@2.8-2.8.13_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3c82de481a76e6c955a0b7084d83acd75f32a9b75fcd9b97d38e9517c6c58f57",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmpeg@2.8-2.8.13_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "texi2html",
+    "yasm"
+  ],
+  "caveats": "FFmpeg has been built without libfaac for licensing reasons;\nlibvo-aacenc is used by default.\nTo install with libfaac, you can:\n  brew reinstall ffmpeg28 --with-faac\n\nYou can also use the experimental FFmpeg encoder, libfdk-aac, or\nlibvo_aacenc to encode AAC audio:\n  ffmpeg -i input.wav -c:a aac -strict experimental output.m4a\nOr:\n  brew reinstall ffmpeg28 --with-fdk-aac\n  ffmpeg -i input.wav -c:a libfdk_aac output.m4a\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "texi2html",
+    "yasm",
+    "x264",
+    "lame",
+    "libvo-aacenc",
+    "xvid",
+    "faac",
+    "fontconfig",
+    "freetype",
+    "theora",
+    "libvorbis",
+    "libvpx",
+    "rtmpdump",
+    "opencore-amr",
+    "libass",
+    "openjpeg",
+    "snappy",
+    "speex",
+    "schroedinger",
+    "fdk-aac",
+    "opus",
+    "frei0r",
+    "libcaca",
+    "libbluray",
+    "libsoxr",
+    "libquvi",
+    "libvidstab",
+    "x265",
+    "openssl",
+    "libssh",
+    "webp",
+    "zeromq",
+    "libbs2b",
+    "dcadec"
+  ],
+  "desc": "Play, record, convert, and stream audio and video",
+  "full_name": "ffmpeg@2.8",
+  "homepage": "https://ffmpeg.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "ffmpeg@2.8",
+  "oldname": "ffmpeg28",
+  "optional_dependencies": [
+    "faac",
+    "fontconfig",
+    "freetype",
+    "theora",
+    "libvorbis",
+    "libvpx",
+    "rtmpdump",
+    "opencore-amr",
+    "libass",
+    "openjpeg",
+    "snappy",
+    "speex",
+    "schroedinger",
+    "fdk-aac",
+    "opus",
+    "frei0r",
+    "libcaca",
+    "libbluray",
+    "libsoxr",
+    "libquvi",
+    "libvidstab",
+    "x265",
+    "openssl",
+    "libssh",
+    "webp",
+    "zeromq",
+    "libbs2b",
+    "dcadec"
+  ],
+  "options": [
+    {
+      "description": "Disable H.264 encoder",
+      "option": "--without-x264"
+    },
+    {
+      "description": "Disable MP3 encoder",
+      "option": "--without-lame"
+    },
+    {
+      "description": "Disable VisualOn AAC encoder",
+      "option": "--without-libvo-aacenc"
+    },
+    {
+      "description": "Disable Xvid MPEG-4 video encoder",
+      "option": "--without-xvid"
+    },
+    {
+      "description": "Disable deprecated QuickTime framework",
+      "option": "--without-qtkit"
+    },
+    {
+      "description": "Disable use of SecureTransport",
+      "option": "--without-securetransport"
+    },
+    {
+      "description": "Enable RTMP protocol",
+      "option": "--with-rtmpdump"
+    },
+    {
+      "description": "Enable ASS/SSA subtitle format",
+      "option": "--with-libass"
+    },
+    {
+      "description": "Enable Opencore AMR NR/WB audio format",
+      "option": "--with-opencore-amr"
+    },
+    {
+      "description": "Enable JPEG 2000 image format",
+      "option": "--with-openjpeg"
+    },
+    {
+      "description": "Enable SSL support",
+      "option": "--with-openssl"
+    },
+    {
+      "description": "Enable SFTP protocol via libssh",
+      "option": "--with-libssh"
+    },
+    {
+      "description": "Enable Dirac video format",
+      "option": "--with-schroedinger"
+    },
+    {
+      "description": "Enable FFplay media player",
+      "option": "--with-ffplay"
+    },
+    {
+      "description": "Enable additional FFmpeg tools",
+      "option": "--with-tools"
+    },
+    {
+      "description": "Enable the Fraunhofer FDK AAC library",
+      "option": "--with-fdk-aac"
+    },
+    {
+      "description": "Enable vid.stab support for video stabilization",
+      "option": "--with-libvidstab"
+    },
+    {
+      "description": "Enable x265 encoder",
+      "option": "--with-x265"
+    },
+    {
+      "description": "Enable the soxr resample library",
+      "option": "--with-libsoxr"
+    },
+    {
+      "description": "Enable using libwebp to encode WEBP images",
+      "option": "--with-webp"
+    },
+    {
+      "description": "Enable using libzeromq to receive commands sent through a libzeromq client",
+      "option": "--with-zeromq"
+    },
+    {
+      "description": "Enable Snappy library",
+      "option": "--with-snappy"
+    },
+    {
+      "description": "Enable dcadec library",
+      "option": "--with-dcadec"
+    },
+    {
+      "description": "Build with faac support",
+      "option": "--with-faac"
+    },
+    {
+      "description": "Build with fontconfig support",
+      "option": "--with-fontconfig"
+    },
+    {
+      "description": "Build with freetype support",
+      "option": "--with-freetype"
+    },
+    {
+      "description": "Build with theora support",
+      "option": "--with-theora"
+    },
+    {
+      "description": "Build with libvorbis support",
+      "option": "--with-libvorbis"
+    },
+    {
+      "description": "Build with libvpx support",
+      "option": "--with-libvpx"
+    },
+    {
+      "description": "Build with speex support",
+      "option": "--with-speex"
+    },
+    {
+      "description": "Build with opus support",
+      "option": "--with-opus"
+    },
+    {
+      "description": "Build with frei0r support",
+      "option": "--with-frei0r"
+    },
+    {
+      "description": "Build with libcaca support",
+      "option": "--with-libcaca"
+    },
+    {
+      "description": "Build with libbluray support",
+      "option": "--with-libbluray"
+    },
+    {
+      "description": "Build with libquvi support",
+      "option": "--with-libquvi"
+    },
+    {
+      "description": "Build with libbs2b support",
+      "option": "--with-libbs2b"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "x264",
+    "lame",
+    "libvo-aacenc",
+    "xvid"
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.8.13"
+  }
+}

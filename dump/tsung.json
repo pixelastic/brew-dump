@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9febf50b525e5c631f5bc5219d105f781668963644b4765bd0ef4098ed939b47",
+          "url": "https://linuxbrew.bintray.com/bottles/tsung-1.7.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6a5f134428985b83e21260b6c95d71469d782705709913b4eadeb867e2213e34",
+          "url": "https://linuxbrew.bintray.com/bottles/tsung-1.7.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aa42236bbee2669782a403e2ae494b48fb97e2155cdd6d3bd60728719c1f1265",
+          "url": "https://linuxbrew.bintray.com/bottles/tsung-1.7.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0b12c238f39d105daf49018f31e2b5fda548890a93b5f5c5c840dd140c18b23b",
+          "url": "https://linuxbrew.bintray.com/bottles/tsung-1.7.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "erlang",
+    "gnuplot"
+  ],
+  "desc": "Load testing for HTTP, PostgreSQL, Jabber, and others",
+  "full_name": "tsung",
+  "homepage": "http://tsung.erlang-projects.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tsung",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.7.0"
+  }
+}

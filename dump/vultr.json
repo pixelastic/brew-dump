@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b97a438ef61327a2c876a934417d61f0cebc710520f0a17eb123217b57a13d2f",
+          "url": "https://linuxbrew.bintray.com/bottles/vultr-1.15.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "223b1b559d163410cae027526f5c6de0c7f9ac766bafbf77b7abf1e4a2f3e83a",
+          "url": "https://linuxbrew.bintray.com/bottles/vultr-1.15.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "97fec16060a7e644402ea8e24fe57aa0dcf4a8e31b6505dc8f57574fd1b57f2c",
+          "url": "https://linuxbrew.bintray.com/bottles/vultr-1.15.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f02c93087f3a34cfc4601eaf93f9b20ed449d52c2b8492495619b9d2eae3080e",
+          "url": "https://linuxbrew.bintray.com/bottles/vultr-1.15.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Command-line tool for Vultr",
+  "full_name": "vultr",
+  "homepage": "https://jamesclonk.github.io/vultr",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vultr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.15.0"
+  }
+}

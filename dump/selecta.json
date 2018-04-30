@@ -1,0 +1,41 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ruby"
+  ],
+  "desc": "Fuzzy text selector for files and anything else you need to select",
+  "full_name": "selecta",
+  "homepage": "https://github.com/garybernhardt/selecta",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "selecta",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "0.0.7"
+  }
+}

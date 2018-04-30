@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "591d1ad247fc19a1b0881dc4454c88bcf30dca774ac5f57e9f25d8bfa50724f6",
+          "url": "https://linuxbrew.bintray.com/bottles/fftw-3.3.7_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9b75b4f667c2346cbdd285b9c499ad5bb8f4662a326061ed8718142894147eab",
+          "url": "https://linuxbrew.bintray.com/bottles/fftw-3.3.7_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d504285d5ce7d4510f14274e4738824d197c60ab4cb56d08a16284f368f8ae74",
+          "url": "https://linuxbrew.bintray.com/bottles/fftw-3.3.7_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e4e68faac6537dd34015e7ba27488efcd30a90e01722222d33c67419ef0f58c5",
+          "url": "https://linuxbrew.bintray.com/bottles/fftw-3.3.7_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gcc"
+  ],
+  "desc": "C routines to compute the Discrete Fourier Transform",
+  "full_name": "fftw",
+  "homepage": "http://www.fftw.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fftw",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable MPI parallel transforms",
+      "option": "--with-mpi"
+    },
+    {
+      "description": "Enable OpenMP parallel transforms",
+      "option": "--with-openmp"
+    },
+    {
+      "description": "Disable Fortran bindings",
+      "option": "--without-fortran"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.3.7"
+  }
+}

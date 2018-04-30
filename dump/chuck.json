@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4c27808b3b8755a856bdc49e9a97569a6bfb3ebc90991f8d3112b4debfd28bdf",
+          "url": "https://linuxbrew.bintray.com/bottles/chuck-1.4.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c1fe255bad84264c62b99d114877389b8c25e8ec6f9726e5b501db10a1b9f4b1",
+          "url": "https://linuxbrew.bintray.com/bottles/chuck-1.4.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f4ec8ddda3e8c533cf8402184d22dd3451ad9130284552b6f746a4bbb1249fd0",
+          "url": "https://linuxbrew.bintray.com/bottles/chuck-1.4.0.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Concurrent, on-the-fly audio programming language",
+  "full_name": "chuck",
+  "homepage": "http://chuck.cs.princeton.edu/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "chuck",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.0.0"
+  }
+}

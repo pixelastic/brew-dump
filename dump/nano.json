@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c641678d4991639c515e3162e54f2a501fc9553bd8c4c52bf92e74fe831e2028",
+          "url": "https://linuxbrew.bintray.com/bottles/nano-2.9.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "48c72640410fec697df32b1a1d349841c157685d4060cceb1b31d21cb5535b7a",
+          "url": "https://linuxbrew.bintray.com/bottles/nano-2.9.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "117573cea6487f6346ea205b56f861893c507f2e50054f8a41e9343bf424336f",
+          "url": "https://linuxbrew.bintray.com/bottles/nano-2.9.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5811ae5fe321b232dda6b1621b07b03d50c81ee1c5d5505abb9af628c806a746",
+          "url": "https://linuxbrew.bintray.com/bottles/nano-2.9.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gettext",
+    "ncurses",
+    "libmagic"
+  ],
+  "desc": "Free (GNU) replacement for the Pico text editor",
+  "full_name": "nano",
+  "homepage": "https://www.nano-editor.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nano",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.9.6"
+  }
+}

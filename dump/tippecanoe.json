@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "069065c2ab310890856e9ff0381a14da0365482c8e4bcfcbac84792528355eb5",
+          "url": "https://linuxbrew.bintray.com/bottles/tippecanoe-1.27.14.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c04ac9aedab5a6059a0522b1f68107503138af74879129438c3d2ca0be9baf79",
+          "url": "https://linuxbrew.bintray.com/bottles/tippecanoe-1.27.14.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "26a9d355ef3ea06b68f7ae06f08ad1a597c5dedb8ca751a02b5c9aee3ffb826c",
+          "url": "https://linuxbrew.bintray.com/bottles/tippecanoe-1.27.14.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "bdb4a07e565efa2282ff74364ba5af4dc4af7a6bec4aac2cefc173b36c4fb264",
+          "url": "https://linuxbrew.bintray.com/bottles/tippecanoe-1.27.14.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sqlite",
+    "zlib"
+  ],
+  "desc": "Build vector tilesets from collections of GeoJSON features",
+  "full_name": "tippecanoe",
+  "homepage": "https://github.com/mapbox/tippecanoe",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tippecanoe",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.27.14"
+  }
+}

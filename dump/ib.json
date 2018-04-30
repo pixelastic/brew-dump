@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "51b002426c06c820d4133e3b88ac9264aad81b7c554d08991ced951a0f43e0e1",
+          "url": "https://linuxbrew.bintray.com/bottles/ib-0.7.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "51b002426c06c820d4133e3b88ac9264aad81b7c554d08991ced951a0f43e0e1",
+          "url": "https://linuxbrew.bintray.com/bottles/ib-0.7.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "51b002426c06c820d4133e3b88ac9264aad81b7c554d08991ced951a0f43e0e1",
+          "url": "https://linuxbrew.bintray.com/bottles/ib-0.7.1_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "C/C++ build tool that automatically resolves included source",
+  "full_name": "ib",
+  "homepage": "https://github.com/JasonL9000/ib",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.1"
+  }
+}

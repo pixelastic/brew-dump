@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "37747abe5597a40dec5a741919eaa46bedc42472bb909b9a09c4a200e5d592d4",
+          "url": "https://linuxbrew.bintray.com/bottles/libiptcdata-1.0.4.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "711d2412e24e7cfa0e519e60c7205e46d544d480892988dbb6e2c6039dc653f1",
+          "url": "https://linuxbrew.bintray.com/bottles/libiptcdata-1.0.4.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "e88aff2cc7949c8c05608811f894bd6816d797eeffe74f35118168168512738c",
+          "url": "https://linuxbrew.bintray.com/bottles/libiptcdata-1.0.4.mavericks.bottle.1.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "3656316c8836547affe91fa29e9ea4067ac6774a9c9a08aef5fb296f4330e5f2",
+          "url": "https://linuxbrew.bintray.com/bottles/libiptcdata-1.0.4.mountain_lion.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d87011cbe7d98af0df3210ee1a01aaf35da267d9894b095ba031911a980d8c4e",
+          "url": "https://linuxbrew.bintray.com/bottles/libiptcdata-1.0.4.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "14f6b3a649e0d944768e5e3a1e4d44e1efd0389fdeaa5740993b10ee7a42c718",
+          "url": "https://linuxbrew.bintray.com/bottles/libiptcdata-1.0.4.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gettext"
+  ],
+  "desc": "Virtual package provided by libiptcdata0",
+  "full_name": "libiptcdata",
+  "homepage": "https://libiptcdata.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libiptcdata",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.4"
+  }
+}

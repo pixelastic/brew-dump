@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "207bd087f9675c188a430ead82700870c9d3088597a788c334d020d92148caa8",
+          "url": "https://linuxbrew.bintray.com/bottles/mairix-0.24.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5975d9e5b741611279f008a50febebfa9d91c4e3e8448c4d8eda80cbd5c371af",
+          "url": "https://linuxbrew.bintray.com/bottles/mairix-0.24.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9cfafed3ea8980b65d1fa5910db71468b3dfd5b81b598d20ff1bf317c55edbca",
+          "url": "https://linuxbrew.bintray.com/bottles/mairix-0.24.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Email index and search tool",
+  "full_name": "mairix",
+  "homepage": "http://www.rpcurnow.force9.co.uk/mairix/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mairix",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.24"
+  }
+}

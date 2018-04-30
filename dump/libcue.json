@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ccedc0b4aa350161a33a29241d250ef4cb3fab0f47a71c9cce19593edab62332",
+          "url": "https://linuxbrew.bintray.com/bottles/libcue-2.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "88f893cd81af245a0f573cad9ddc4cbfddb1c8f948da7a01fd3218a32673626f",
+          "url": "https://linuxbrew.bintray.com/bottles/libcue-2.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "90efcf7400fece2beb2ce1a433331c87602fe6414dbbd09233c535dbb3d1d9a1",
+          "url": "https://linuxbrew.bintray.com/bottles/libcue-2.2.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8ca3f62eb5ef40e872160be3feaac424e04b6415f7cfc78ad236e9e497f2172a",
+          "url": "https://linuxbrew.bintray.com/bottles/libcue-2.2.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "bison",
+    "flex"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "bison",
+    "flex"
+  ],
+  "desc": "Cue sheet parser library for C",
+  "full_name": "libcue",
+  "homepage": "https://github.com/lipnitsk/libcue",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libcue",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.0"
+  }
+}

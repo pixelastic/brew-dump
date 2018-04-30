@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "78444ca50e14d07eb52c827c9760f706acf4745d467fae4d2e05953a7c921b95",
+          "url": "https://linuxbrew.bintray.com/bottles/ratfor-1.03_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e26348fdb8d1f44321bcb7cef4f69c48c9d16cad5fec96b421b9fd1030bf1529",
+          "url": "https://linuxbrew.bintray.com/bottles/ratfor-1.03_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "46728e56e09c117379d3d588eafe15aa9f7ecd18055e3d7ae34d437b130bde30",
+          "url": "https://linuxbrew.bintray.com/bottles/ratfor-1.03_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b722392fdc4e4be7456d1c6a6f16fb2e8ae280fb7615119baee356cf5ff3b10f",
+          "url": "https://linuxbrew.bintray.com/bottles/ratfor-1.03_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gcc"
+  ],
+  "desc": "Rational Fortran",
+  "full_name": "ratfor",
+  "homepage": "http://www.dgate.org/ratfor/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ratfor",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.03"
+  }
+}

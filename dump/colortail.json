@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e0c8c9af739ce911c0d09eaee26b615444c17f48de27c680cbaf27739e45d8f5",
+          "url": "https://linuxbrew.bintray.com/bottles/colortail-0.3.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a7974ddb2f0bd3a7946bb5d06fe637f94c7a8776f9cd811bf8fbd530caa92816",
+          "url": "https://linuxbrew.bintray.com/bottles/colortail-0.3.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8570fbda1625d70eac83d0e53a1d32d0cd7b32f9fb0b8dea38d32a3228dc6688",
+          "url": "https://linuxbrew.bintray.com/bottles/colortail-0.3.4.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "cba08e3d00b530eca42cd2d95dc0c3ed9419f199e7f26edc068b5b1074c3fe51",
+          "url": "https://linuxbrew.bintray.com/bottles/colortail-0.3.4.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "44e09610d285f503fbae67f930ae7bea894c737d1e2c9c634332188340a70e3e",
+          "url": "https://linuxbrew.bintray.com/bottles/colortail-0.3.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d3cd61e660155bded960b5fb5334e8dcc587efb36575a832c85b7a9a2e28bd0b",
+          "url": "https://linuxbrew.bintray.com/bottles/colortail-0.3.4.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1be1c0067a5621f5edcabf64ec06a775d334924e4ea01bccd1c42830f6c9d0c6",
+          "url": "https://linuxbrew.bintray.com/bottles/colortail-0.3.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "automake",
+    "autoconf"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "automake",
+    "autoconf"
+  ],
+  "desc": "Like tail(1), but with various colors for specified output",
+  "full_name": "colortail",
+  "homepage": "https://github.com/joakim666/colortail",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "colortail",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.4"
+  }
+}

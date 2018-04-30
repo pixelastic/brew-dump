@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0768fc24347a5e5e061722175cae535b6e295c28302d98ad3e03dc9f79a32bf0",
+          "url": "https://linuxbrew.bintray.com/bottles/libpuzzle-0.11.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "017b32e2b389f87bc7445476d67543dd711cdac34374da0958d70a4682a706a7",
+          "url": "https://linuxbrew.bintray.com/bottles/libpuzzle-0.11.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ed3d860aa40203a73921fc7f6919828599a28fb39e2d95f0c963ae4eb5c7811b",
+          "url": "https://linuxbrew.bintray.com/bottles/libpuzzle-0.11.mavericks.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "62452be0513886b00ad766fc6c444f69af8a70d89948a65b3fe201c12383f536",
+          "url": "https://linuxbrew.bintray.com/bottles/libpuzzle-0.11.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d8f7de77378d0fa29e34876ccc8def7f8e60e6564a1c17dae77f4c32ebd8ae5a",
+          "url": "https://linuxbrew.bintray.com/bottles/libpuzzle-0.11.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gd"
+  ],
+  "desc": "Library to find visually similar images",
+  "full_name": "libpuzzle",
+  "homepage": "https://www.pureftpd.org/project/libpuzzle",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libpuzzle",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.11"
+  }
+}

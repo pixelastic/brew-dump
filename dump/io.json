@@ -1,0 +1,97 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3a5a0e9a1ec0ce7f4bc6bcfc5fb8c782f0b1ba0451251aaab51a796452b59e67",
+          "url": "https://linuxbrew.bintray.com/bottles/io-2017.09.06.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "686d5d23790b53c27765d49da0a74ec96ee949353b31646a0a92ee931270a23d",
+          "url": "https://linuxbrew.bintray.com/bottles/io-2017.09.06.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2d0e05344917ad3a1d322f2860030013315ceb7e8ae962cf6070d1ee8cc395d4",
+          "url": "https://linuxbrew.bintray.com/bottles/io-2017.09.06.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "be56e5ec4568a194ad2566e91b9bb84675f37a44a2bd7c4eb251bcf2b90293a5",
+          "url": "https://linuxbrew.bintray.com/bottles/io-2017.09.06.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "16d31a7062e2c7ebab815bcd48b03aab9597a6c40071cb407e2bc6dec91fef0b",
+          "url": "https://linuxbrew.bintray.com/bottles/io-2017.09.06.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "glib",
+    "cairo",
+    "gmp",
+    "jpeg",
+    "libevent",
+    "libffi",
+    "libogg",
+    "libpng",
+    "libsndfile",
+    "libtiff",
+    "libvorbis",
+    "ossp-uuid",
+    "pcre",
+    "yajl",
+    "xz",
+    "python"
+  ],
+  "desc": "Small prototype-based programming language",
+  "full_name": "io",
+  "homepage": "http://iolanguage.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "io",
+  "oldname": null,
+  "optional_dependencies": [
+    "python"
+  ],
+  "options": [
+    {
+      "description": "Build without addons",
+      "option": "--without-addons"
+    },
+    {
+      "description": "Build with python support",
+      "option": "--with-python"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2017.09.06"
+  }
+}

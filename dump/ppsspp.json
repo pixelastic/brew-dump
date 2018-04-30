@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3b0923d51f0ca7f5552eb974e9c438aecce0e5724dda9fc358bedc4229ba7575",
+          "url": "https://linuxbrew.bintray.com/bottles/ppsspp-1.5.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "188fba0108fb2399d66a6339716096d5ff44267fec831a2d617f484a0cfb7dd8",
+          "url": "https://linuxbrew.bintray.com/bottles/ppsspp-1.5.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7d1ca5e3f63fa206e65f529ef35c7cdb8763fdab849653750ead94d9cbd044c1",
+          "url": "https://linuxbrew.bintray.com/bottles/ppsspp-1.5.4_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "sdl2",
+    "glew",
+    "libzip",
+    "snappy",
+    "ffmpeg"
+  ],
+  "desc": "PlayStation Portable emulator",
+  "full_name": "ppsspp",
+  "homepage": "https://ppsspp.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ppsspp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "ci"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.5.4"
+  }
+}

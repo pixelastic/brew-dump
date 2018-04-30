@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "10fe64f506ae90c9141317a534fe0f83d879c6ea92b04e42f790ac55bc4ce8a3",
+          "url": "https://linuxbrew.bintray.com/bottles/gcc@7-7.3.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gmp",
+    "isl",
+    "libmpc",
+    "mpfr",
+    "zlib",
+    "glibc"
+  ],
+  "desc": "GNU compiler collection",
+  "full_name": "gcc@7",
+  "homepage": "https://gcc.gnu.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gcc@7",
+  "oldname": null,
+  "optional_dependencies": [
+    "glibc"
+  ],
+  "options": [
+    {
+      "description": "Build just-in-time compiler",
+      "option": "--with-jit"
+    },
+    {
+      "description": "Build with native language support (localization)",
+      "option": "--with-nls"
+    },
+    {
+      "description": "Build with glibc support",
+      "option": "--with-glibc"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "7.3.0"
+  }
+}

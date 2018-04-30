@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1aca76cf8e890112cad63d353ca8369e301e0e990e5380bb5fc4236ded810147",
+          "url": "https://linuxbrew.bintray.com/bottles/rkhunter-1.4.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "35df7b4e420968fc71fc0fc0217716393c624594ff51245c80a969a5bb1569eb",
+          "url": "https://linuxbrew.bintray.com/bottles/rkhunter-1.4.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8d00f31cf5150d841b22dd3c1cdda33dc8705075529f000d41678d05cb733e0f",
+          "url": "https://linuxbrew.bintray.com/bottles/rkhunter-1.4.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e49a856107315449b464b02b411394ce502352f68de8567772ce0624096b2760",
+          "url": "https://linuxbrew.bintray.com/bottles/rkhunter-1.4.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Rootkit hunter",
+  "full_name": "rkhunter",
+  "homepage": "https://rkhunter.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rkhunter",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.6"
+  }
+}

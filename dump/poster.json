@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "07702fc6f1d43a3875637f8ff9d3509d6eb913abda301c24c23d824a76a858b6",
+          "url": "https://linuxbrew.bintray.com/bottles/poster-1.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "74db7055649cd3f68316b99db48139641f916b4434008300f2bfcd1146f92c77",
+          "url": "https://linuxbrew.bintray.com/bottles/poster-1.0.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "5c109f3122d33b73aecbb3a7e5aaeece5c9e9d3be8aae9c6e39001b6a5feea4e",
+          "url": "https://linuxbrew.bintray.com/bottles/poster-1.0.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "caa5474e5d7baf13ae6495c01a7530146d55531e41c88a469b0e44ee892c4be4",
+          "url": "https://linuxbrew.bintray.com/bottles/poster-1.0.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "718131fa123a69d0db610d95722d968fbda597da2477abe520146393ff0321c2",
+          "url": "https://linuxbrew.bintray.com/bottles/poster-1.0.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Create large posters out of PostScript pages",
+  "full_name": "poster",
+  "homepage": "https://schrfr.github.io/poster/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "poster",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.0"
+  }
+}

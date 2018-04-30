@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "46d189ebe1f240381a9e8d99a2cb249e577cec98e6399e741e47275735a3471c",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl2_net-2.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f193c7c2ae1b7f2c82cbbc9b83a16fc72d845c6396ecd33644eea19695a850ee",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl2_net-2.0.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ebabcb8f4df6fdee7855a6e19080aea42d9909205b287312015179bb9b3f472a",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl2_net-2.0.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dc2b96762f77dd4d42fea1da4d4c2373692dd0a531f686f00de0dd4a6eed8df9",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl2_net-2.0.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a8f5d11fec7bb5fe7ba1cbfec35ba08faaca60928271d7ea1bfd5cc77ea7665f",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl2_net-2.0.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2e2bcc1e1aac84b37ebb44398e463d9004764aa369489926cd07bb97cb9f60c4",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl2_net-2.0.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "sdl2"
+  ],
+  "desc": "Small sample cross-platform networking library",
+  "full_name": "sdl2_net",
+  "homepage": "https://www.libsdl.org/projects/SDL_net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sdl2_net",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.1"
+  }
+}

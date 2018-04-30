@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8a1762dbd40b98869e01a19c29cdb1cfa5a127543b3e132fb0fdff996e46f566",
+          "url": "https://linuxbrew.bintray.com/bottles/tre-0.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eaab931989b5bf5fc18949eaa234a1840531ef3aeb9deda65e4d66be40cae149",
+          "url": "https://linuxbrew.bintray.com/bottles/tre-0.8.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c57f9bfa724cd20843a672f5e8bd384e05e65bac062dd7d7b676db9b1c11f998",
+          "url": "https://linuxbrew.bintray.com/bottles/tre-0.8.0.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "1159edaece87806b8141cb351d896641b6de1667b0f62d6214ff0412ffae7fc4",
+          "url": "https://linuxbrew.bintray.com/bottles/tre-0.8.0.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e28b7ac6153b06c067538f555f9ac5973df49c14ac2693aa4239ae407982e2c9",
+          "url": "https://linuxbrew.bintray.com/bottles/tre-0.8.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "946afb33c1e2159798dd0f60d9e7654e65eb4b08d10e7b3fa41893665d3eae3c",
+          "url": "https://linuxbrew.bintray.com/bottles/tre-0.8.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6fada15a2fd1c5905f8ed45d3c966da5e14efeb10522f82c26d2a23a918abaad",
+          "url": "https://linuxbrew.bintray.com/bottles/tre-0.8.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Lightweight, POSIX-compliant regular expression (regex) library",
+  "full_name": "tre",
+  "homepage": "https://laurikari.net/tre/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tre",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.0"
+  }
+}

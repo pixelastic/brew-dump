@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Cut, copy and paste files with Bash",
+  "full_name": "xcv",
+  "homepage": "https://github.com/busterc/xcv",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xcv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.1"
+  }
+}

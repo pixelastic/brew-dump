@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7b62449f8a9c02834b74adeb0827ca2ae32b47cb82923de0a8e88f16c36ca8b8",
+          "url": "https://linuxbrew.bintray.com/bottles/libusb-compat-0.1.5_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fccc08c6c3ff2bf93d2aa8e7cc18f30c1fb95fbca044ecaa42d45f7c73a8facf",
+          "url": "https://linuxbrew.bintray.com/bottles/libusb-compat-0.1.5_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e24ad80ee860f6f6c7e6c8dbb100aaa2de3294e2ecf7f591f2f51c52e11f09ea",
+          "url": "https://linuxbrew.bintray.com/bottles/libusb-compat-0.1.5_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7a27e889da8e809d5c93ce724be81367f69d623849df97c5b894a4b971dd04f1",
+          "url": "https://linuxbrew.bintray.com/bottles/libusb-compat-0.1.5_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0e4f131b8fd8210db3ff353a92c35ed12643a717b8780618680e3b4a16d7f347",
+          "url": "https://linuxbrew.bintray.com/bottles/libusb-compat-0.1.5_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libusb"
+  ],
+  "desc": "Library for USB device access",
+  "full_name": "libusb-compat",
+  "homepage": "http://libusb.info",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libusb-compat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.5"
+  }
+}

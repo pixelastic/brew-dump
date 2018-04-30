@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a0eb22ac35b48f9696da523eb85270a5a0e6652d35c921a5c80b195d3e1f39c2",
+          "url": "https://linuxbrew.bintray.com/bottles/git-standup-2.1.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a0eb22ac35b48f9696da523eb85270a5a0e6652d35c921a5c80b195d3e1f39c2",
+          "url": "https://linuxbrew.bintray.com/bottles/git-standup-2.1.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a0eb22ac35b48f9696da523eb85270a5a0e6652d35c921a5c80b195d3e1f39c2",
+          "url": "https://linuxbrew.bintray.com/bottles/git-standup-2.1.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a3f63905f9c1c7ffee26082326c0fd195dc006ae6343824d9d770b5f56d68abf",
+          "url": "https://linuxbrew.bintray.com/bottles/git-standup-2.1.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Git extension to generate reports for standup meetings",
+  "full_name": "git-standup",
+  "homepage": "https://github.com/kamranahmedse/git-standup",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git-standup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.9"
+  }
+}

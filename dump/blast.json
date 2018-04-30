@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "110a62423f43f3618aadc5a149c238302af30399426346e571e23f252f8e6bab",
+          "url": "https://linuxbrew.bintray.com/bottles/blast-2.7.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "13e0286489e2b28adbe3fc6ef82a26f3e081b44a0ce99f3212a0c4d7da981b3a",
+          "url": "https://linuxbrew.bintray.com/bottles/blast-2.7.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a868633034dc12160109ee44e5415577967e2ceabaad3246881abaf07c57a198",
+          "url": "https://linuxbrew.bintray.com/bottles/blast-2.7.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f434242e0b337c0b13f62e1b0ce5e8735d5aab0b698320691cafa9900340e1c5",
+          "url": "https://linuxbrew.bintray.com/bottles/blast-2.7.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cpio"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "proj"
+  ],
+  "dependencies": [
+    "lmdb",
+    "python@2",
+    "cpio"
+  ],
+  "desc": "Basic Local Alignment Search Tool",
+  "full_name": "blast",
+  "homepage": "https://blast.ncbi.nlm.nih.gov/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "blast",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.7.1"
+  }
+}

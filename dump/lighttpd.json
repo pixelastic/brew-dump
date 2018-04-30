@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c8aaafd41d8b8bdd4b823a09694246752b64cd3db9a8557e8c4c0d0716372785",
+          "url": "https://linuxbrew.bintray.com/bottles/lighttpd-1.4.48.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b7b7b0351d2ad65f6c71c594f4df2f865c31834007e0811d99356c339c53c3e4",
+          "url": "https://linuxbrew.bintray.com/bottles/lighttpd-1.4.48.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2eaa0285cf8e0e4616b804e5a7d4059e0d8549e90c167dfc8bea2ef269706f80",
+          "url": "https://linuxbrew.bintray.com/bottles/lighttpd-1.4.48.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": "Docroot is: /home/tim/.linuxbrew/var/www\n\nThe default port has been set in /home/tim/.linuxbrew/etc/lighttpd/lighttpd.conf to 8080 so that\nlighttpd can run without sudo.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool",
+    "pcre",
+    "openssl",
+    "lua@5.1",
+    "libev"
+  ],
+  "desc": "Small memory footprint, flexible web-server",
+  "full_name": "lighttpd",
+  "homepage": "https://www.lighttpd.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lighttpd",
+  "oldname": null,
+  "optional_dependencies": [
+    "lua@5.1",
+    "libev"
+  ],
+  "options": [
+    {
+      "description": "Include Lua scripting support for mod_magnet",
+      "option": "--with-lua@5.1"
+    },
+    {
+      "description": "Build with libev support",
+      "option": "--with-libev"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.48"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "61efb175a5ae38717e9f939c172e9a249e9138bfa3531e71471d6314c7b61b16",
+          "url": "https://linuxbrew.bintray.com/bottles/libsbol-2.3.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ee8e8a563435076bdee91fafe19832750ec91f25d0a32d727cdb505d7c437c3a",
+          "url": "https://linuxbrew.bintray.com/bottles/libsbol-2.3.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cfe93d1e977048c7502a5aa1b43514deca305dc66451aafb386f68a304c12492",
+          "url": "https://linuxbrew.bintray.com/bottles/libsbol-2.3.0.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "jsoncpp",
+    "raptor"
+  ],
+  "desc": "Read and write files in the Synthetic Biology Open Language (SBOL)",
+  "full_name": "libsbol",
+  "homepage": "https://synbiodex.github.io/libSBOL",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libsbol",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.0.0"
+  }
+}

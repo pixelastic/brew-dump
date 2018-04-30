@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a2bc2115c9cc18a7f155583e6209ade38e73b80a10704e4d26e44ed177bcf5a5",
+          "url": "https://linuxbrew.bintray.com/bottles/fcl-0.5.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "72a5ca040739722599576b579a6f864ca3307bf01ad8403765d739813a3e1fd0",
+          "url": "https://linuxbrew.bintray.com/bottles/fcl-0.5.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8fd76b19ab4408397f161947d7da47f619ec710ddcdc2c012579440a6885f192",
+          "url": "https://linuxbrew.bintray.com/bottles/fcl-0.5.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "74382ad665b9afce1034892e54f4ec78088362d18d2c7eb83913a49a9d652d4b",
+          "url": "https://linuxbrew.bintray.com/bottles/fcl-0.5.0_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "boost",
+    "libccd",
+    "octomap"
+  ],
+  "desc": "Flexible Collision Library",
+  "full_name": "fcl",
+  "homepage": "https://flexible-collision-library.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fcl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.5.0"
+  }
+}

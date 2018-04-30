@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a2e2cb79d5a3774077c7458b0c131e67d345e8e7b2dc29735302d003fec3379e",
+          "url": "https://linuxbrew.bintray.com/bottles/libserialport-0.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "36dd828a2eba76bf82a3cd9c2c9ed9b684753c3a38aea33269f82f699762422b",
+          "url": "https://linuxbrew.bintray.com/bottles/libserialport-0.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e34159ce49ba7c90e2fc0672f99df7b11a6d2de9ceccfc20679918bb87cb9b1e",
+          "url": "https://linuxbrew.bintray.com/bottles/libserialport-0.1.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Cross-platform serial port C library",
+  "full_name": "libserialport",
+  "homepage": "https://sigrok.org/wiki/Libserialport",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libserialport",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.1"
+  }
+}

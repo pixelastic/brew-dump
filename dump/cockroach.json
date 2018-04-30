@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ca238206eac0199947c6dab60d8a9d330e65282262984137327ec7b9dccbd5f0",
+          "url": "https://linuxbrew.bintray.com/bottles/cockroach-2.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8c6c3011cf1ed64d7c0d4a5b7ccaeb08b05d7f40ed49b854ffa556768034ff5d",
+          "url": "https://linuxbrew.bintray.com/bottles/cockroach-2.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ed8f7bf78acec12cbc321555fb996c92cc5511e1ca44c8e7d3b948826e75d47a",
+          "url": "https://linuxbrew.bintray.com/bottles/cockroach-2.0.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "cmake",
+    "go",
+    "xz"
+  ],
+  "caveats": "For local development only, this formula ships a launchd configuration to\nstart a single-node cluster that stores its data under:\n  /home/tim/.linuxbrew/var/cockroach/\nInstead of the default port of 8080, the node serves its admin UI at:\n  http://localhost:26256\n\nDo NOT use this cluster to store data you care about; it runs in insecure\nmode and may expose data publicly in e.g. a DNS rebinding attack. To run\nCockroachDB securely, please see:\n  https://www.cockroachlabs.com/docs/secure-a-cluster.html\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "cmake",
+    "go",
+    "xz"
+  ],
+  "desc": "Distributed SQL database",
+  "full_name": "cockroach",
+  "homepage": "https://www.cockroachlabs.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cockroach",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.1"
+  }
+}

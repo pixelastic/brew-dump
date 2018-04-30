@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "085695b61ef0c3fee0fb6f56971ab8b4018415ff1cfdeace264f64c706ea1ad0",
+          "url": "https://linuxbrew.bintray.com/bottles/pspg-1.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1725ff9cff00ec80839d349dd6c75ea7f765cdbaecd73e3854676a7ce6dfc7b5",
+          "url": "https://linuxbrew.bintray.com/bottles/pspg-1.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8460f72aa012329de26c9af6a699aec5b2fbb4014355cef288cc21eecfba0d53",
+          "url": "https://linuxbrew.bintray.com/bottles/pspg-1.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "24518c2cd402ee5d98a451d9a01d4585c693001ee6f1230bbcee2515d0e81317",
+          "url": "https://linuxbrew.bintray.com/bottles/pspg-1.1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Add the following line to your psql profile (e.g. ~/.psqlrc)\n  \\setenv PAGER pspg\n  \\pset border 2\n  \\pset linestyle unicode\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses",
+    "readline"
+  ],
+  "desc": "Unix pager optimized for psql",
+  "full_name": "pspg",
+  "homepage": "https://github.com/okbob/pspg",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pspg",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.0"
+  }
+}

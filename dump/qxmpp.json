@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f783c251ee39546cd4cbc893565f5174a4510d41ac4861932c53f02b3f621d96",
+          "url": "https://linuxbrew.bintray.com/bottles/qxmpp-0.9.3_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4a810995bced82af3afb6c9c56dd6d0ddaa8b89c191dc506433d31ffc7df2d19",
+          "url": "https://linuxbrew.bintray.com/bottles/qxmpp-0.9.3_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2aae5596c491b1904299d29e8c309cf68debee312a1c613cc5b9dab3b8271777",
+          "url": "https://linuxbrew.bintray.com/bottles/qxmpp-0.9.3_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6205c7bb9b62fbf5bcbce366e77c2a77992a3bcd88d5666e751a7dfee9202936",
+          "url": "https://linuxbrew.bintray.com/bottles/qxmpp-0.9.3_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "qt"
+  ],
+  "desc": "Cross-platform C++ XMPP client and server library",
+  "full_name": "qxmpp",
+  "homepage": "https://github.com/qxmpp-project/qxmpp/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qxmpp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.3"
+  }
+}

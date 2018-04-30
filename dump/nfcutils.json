@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ae0ac5663ac10557da9d42a12986268f5ab6149661c8e394df5a314b405d3b30",
+          "url": "https://linuxbrew.bintray.com/bottles/nfcutils-0.3.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bb263a7a1a406e79c94e97cd3ea7dd1ab4894f7d91ed8246c22b30957b83f897",
+          "url": "https://linuxbrew.bintray.com/bottles/nfcutils-0.3.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "9c116d6d84f06a70e271b87268be451dc082a4e191e5cbeeb1a0cb6384f21e1d",
+          "url": "https://linuxbrew.bintray.com/bottles/nfcutils-0.3.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3f0145b6a563c0f401f567fb314a1485b3a5bc9b3a843f53d8d1fda72492b8fa",
+          "url": "https://linuxbrew.bintray.com/bottles/nfcutils-0.3.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "24217bb0697bfde3272b966d664ed7e1d40c0c986207ea7f7edef84862302a9d",
+          "url": "https://linuxbrew.bintray.com/bottles/nfcutils-0.3.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libnfc",
+    "libusb"
+  ],
+  "desc": "Near Field Communication (NFC) tools under POSIX systems",
+  "full_name": "nfcutils",
+  "homepage": "https://github.com/nfc-tools/nfcutils",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nfcutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.2"
+  }
+}

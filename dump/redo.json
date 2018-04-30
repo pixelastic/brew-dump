@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ffb1132c1c7327971b89c6a6bfd7abe267f08c0790dc66816c09052c93a28ebb",
+          "url": "https://linuxbrew.bintray.com/bottles/redo-0.11.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "73245e29a910908beebc16fb2b9ac64f7b6839b5656904a9abd96ec68796c86a",
+          "url": "https://linuxbrew.bintray.com/bottles/redo-0.11.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "81834b6558862943db1789472cc50393dfece52dcc4b4d1720fd85c11a615217",
+          "url": "https://linuxbrew.bintray.com/bottles/redo-0.11.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "70523de82822fa0cb289197dbbd228a6105781e80fd89dc1ea594637eccad6a1",
+          "url": "https://linuxbrew.bintray.com/bottles/redo-0.11.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Implements djb's redo: an alternative to make(1)",
+  "full_name": "redo",
+  "homepage": "https://github.com/apenwarr/redo",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "redo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.11"
+  }
+}

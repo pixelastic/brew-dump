@@ -1,0 +1,124 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1ecfea274c44b5d087003b51acb934c4c3cc8494667cbaa4f6d57c1e919a2e20",
+          "url": "https://linuxbrew.bintray.com/bottles/pike-8.0.498_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9b3c1d8c9a1eceef90ce1bfe78137b0ccd726ec5dfc12f9746a471c5e855f92a",
+          "url": "https://linuxbrew.bintray.com/bottles/pike-8.0.498_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c8abc1e8fcc26523b257cd2144c22a27ed6063c07e33193c70e3d0898c94fa86",
+          "url": "https://linuxbrew.bintray.com/bottles/pike-8.0.498_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0f75c9a865a40ed1225727a7db1373f36f7d7c867cdc30dbb36de0cc11c17917",
+          "url": "https://linuxbrew.bintray.com/bottles/pike-8.0.498_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "nettle",
+    "gmp",
+    "pcre",
+    "libtiff",
+    "jpeg",
+    "linuxbrew/xorg/xorg"
+  ],
+  "desc": "Dynamic programming language",
+  "full_name": "pike",
+  "homepage": "https://pike.lysator.liu.se",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pike",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Include Gettext support",
+      "option": "--with-gettext"
+    },
+    {
+      "description": "Include Gdbm support",
+      "option": "--with-gdbm"
+    },
+    {
+      "description": "Include GTK2 support",
+      "option": "--with-gtk2"
+    },
+    {
+      "description": "Include Mysql support",
+      "option": "--with-mysql"
+    },
+    {
+      "description": "Include Regexp.PCRE support",
+      "option": "--with-pcre"
+    },
+    {
+      "description": "Include SDL support",
+      "option": "--with-sdl"
+    },
+    {
+      "description": "Include Sane support",
+      "option": "--with-sane"
+    },
+    {
+      "description": "Include PDF support",
+      "option": "--with-pdf"
+    },
+    {
+      "description": "Include GL support",
+      "option": "--with-gl"
+    },
+    {
+      "description": "Include all features",
+      "option": "--with-all"
+    },
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    },
+    {
+      "description": "Build without libtiff support",
+      "option": "--without-libtiff"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libtiff"
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "8.0.498"
+  }
+}

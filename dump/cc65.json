@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "46e8dc043981d55e0b62e77cd12dae35b1ab13b3164f1510010e73bbe8ee76a9",
+          "url": "https://linuxbrew.bintray.com/bottles/cc65-2.17.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "12c9533c600dda022dc121f51f668648cd89a98e407e02aeb2119c21d8e8cc54",
+          "url": "https://linuxbrew.bintray.com/bottles/cc65-2.17.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f470bfeec0cc01b3da7656945e401815a852f2d6fbca5197f9dd41dc3391a539",
+          "url": "https://linuxbrew.bintray.com/bottles/cc65-2.17.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Library files have been installed to:\n  /home/tim/.linuxbrew/Cellar/cc65/2.17/share/cc65\n",
+  "conflicts_with": [
+    "grc"
+  ],
+  "dependencies": [
+  ],
+  "desc": "6502 C compiler",
+  "full_name": "cc65",
+  "homepage": "https://cc65.github.io/cc65/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cc65",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.17"
+  }
+}

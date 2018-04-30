@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2a09b1b16f9b1ea0c89a807ebd2b9cfe43e22d1e35cd576780b1a3c986b4b0d1",
+          "url": "https://linuxbrew.bintray.com/bottles/ccal-2.5.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1d836266f41a1123f7421b92390b0affe29ca15105b6bad5ae458c147940693c",
+          "url": "https://linuxbrew.bintray.com/bottles/ccal-2.5.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f79240c70ea10dd661005105e552d8dcc993acfb31c399b3f74f4abf9d2c0162",
+          "url": "https://linuxbrew.bintray.com/bottles/ccal-2.5.3.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8ab4cd19d0e0e86ec136ef120dd8308682a34b43f17981cddc4e80d1e17042f2",
+          "url": "https://linuxbrew.bintray.com/bottles/ccal-2.5.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d3dc167fb2ac1507616dbf5ce5310fd5c67153d680ff242da23a44f199da7fb3",
+          "url": "https://linuxbrew.bintray.com/bottles/ccal-2.5.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Create Chinese calendars for print or browsing",
+  "full_name": "ccal",
+  "homepage": "http://ccal.chinesebay.com/ccal",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ccal",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5.3"
+  }
+}

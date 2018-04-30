@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e2d2e0cbb4999b69e9b1de09a75621ad6119f2978b0a86aefd0e63b2ee908203",
+          "url": "https://linuxbrew.bintray.com/bottles/makepp-2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8a8cfb0d135e47e4a37bff17d662234a9c1ebb17d82b12013b3a24d0f8f15032",
+          "url": "https://linuxbrew.bintray.com/bottles/makepp-2.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "d54e884aac7589f363d2c67920c87861878777a59771cd2457ed86053cf6e6b8",
+          "url": "https://linuxbrew.bintray.com/bottles/makepp-2.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d9244cdf9ca16edf5972aa60783ecfd675c581ba3a9b53339593f1fdc355a0ab",
+          "url": "https://linuxbrew.bintray.com/bottles/makepp-2.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9ccedb5776a953719caa8cb8154a8dea1e633fca632eee9ff3ef286e4539f0e8",
+          "url": "https://linuxbrew.bintray.com/bottles/makepp-2.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Drop-in replacement for GNU make",
+  "full_name": "makepp",
+  "homepage": "https://makepp.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "makepp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0"
+  }
+}

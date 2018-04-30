@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "55ff4e1eba88785498ab383d2717cbe228b2b899c46b93e4da4b388b7a183225",
+          "url": "https://linuxbrew.bintray.com/bottles/librealsense-2.10.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8fd080c1b6312e41676c180c75842c63cd1cb05997f95baa37bb9c104977279b",
+          "url": "https://linuxbrew.bintray.com/bottles/librealsense-2.10.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "434845e2038e1bc60a822be2d9d9a9b5a54fc6cafcf5ba650408d5439c567ef3",
+          "url": "https://linuxbrew.bintray.com/bottles/librealsense-2.10.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "libusb"
+  ],
+  "desc": "Intel RealSense D400 series and SR300 capture",
+  "full_name": "librealsense",
+  "homepage": "https://github.com/IntelRealSense/librealsense",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "librealsense",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Install examples",
+      "option": "--with-examples"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.10.4"
+  }
+}

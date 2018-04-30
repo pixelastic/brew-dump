@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3b09d787e73444964136ab042bc458610eb4cf08f4ba015cbe7e1d13ab8509f5",
+          "url": "https://linuxbrew.bintray.com/bottles/radamsa-0.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a971e3bf09f3854d724549a31b98854458b8c49cdfd88593fb14c380066d7bc1",
+          "url": "https://linuxbrew.bintray.com/bottles/radamsa-0.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d13369632654e12471ff029aa6c08f57e9572df60b9d5b18040ce341ca8b4b09",
+          "url": "https://linuxbrew.bintray.com/bottles/radamsa-0.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "083634a30b818189c586442ea18be2050cc61ce8ea034fdc57e800150c37eed0",
+          "url": "https://linuxbrew.bintray.com/bottles/radamsa-0.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "The Radamsa binary has been installed.\nThe Lisp source code has been copied to:\n  /home/tim/.linuxbrew/Cellar/radamsa/0.5/rad\n\nTo be able to recompile the source to C, you will need run:\n  $ make get-owl\n\nTests can be run with:\n  $ make .seal-of-quality\n\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Test case generator for robustness testing (a.k.a. a \"fuzzer\")",
+  "full_name": "radamsa",
+  "homepage": "https://github.com/aoh/radamsa",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "radamsa",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.5"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1b5b1475bdc488b716f7cfcd0113ea66264a41e34853adfb5b89051dc9b2c1fc",
+          "url": "https://linuxbrew.bintray.com/bottles/saldl-39.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e188e80c260dd4c39e344753c5f6c622cbcc0ba4d32511339d79654cf58949a3",
+          "url": "https://linuxbrew.bintray.com/bottles/saldl-39.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cc682cbf7b8bd1ce35fbb2159fb8ecf7d944a8294e009d87ef0aebae3325e4e0",
+          "url": "https://linuxbrew.bintray.com/bottles/saldl-39.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "asciidoc",
+    "docbook-xsl"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "asciidoc",
+    "docbook-xsl",
+    "curl",
+    "libevent"
+  ],
+  "desc": "CLI downloader optimized for speed and early preview",
+  "full_name": "saldl",
+  "homepage": "https://saldl.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "saldl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "39"
+  }
+}

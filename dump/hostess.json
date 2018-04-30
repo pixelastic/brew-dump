@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e77cffa19bdf7feb4973d59c4aa0f1551dc74b8caaf35c8a6330e71e223e2bdf",
+          "url": "https://linuxbrew.bintray.com/bottles/hostess-0.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "955705aca89353471ac63e07a9254ca4252546c8071eda85a8b95ac6aa0b6331",
+          "url": "https://linuxbrew.bintray.com/bottles/hostess-0.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6a5ca47a7d0047d1595c79008ffc5d9a43ce8ef11cea5b6fc7deeaa239102216",
+          "url": "https://linuxbrew.bintray.com/bottles/hostess-0.3.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2ecb13f8e1c6a8e51f7e0d4fdeacfb98397adc10440384432871f7c291397b62",
+          "url": "https://linuxbrew.bintray.com/bottles/hostess-0.3.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Idempotent command-line utility for managing your /etc/hosts file",
+  "full_name": "hostess",
+  "homepage": "https://github.com/cbednarski/hostess",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hostess",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.3.0"
+  }
+}

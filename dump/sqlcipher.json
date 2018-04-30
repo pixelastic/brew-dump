@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6370ce68ccb2f598f42bee2f799f7e97d7f1bac75ec71aeb446ee57761436642",
+          "url": "https://linuxbrew.bintray.com/bottles/sqlcipher-3.4.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5b8aaeb3f3f41a57f171a3f1175887ea9d98511982354479d4171ebae24377c6",
+          "url": "https://linuxbrew.bintray.com/bottles/sqlcipher-3.4.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9462222059285b70d3a301812a38516ce0337e7dddb064ab052549124b9aca3f",
+          "url": "https://linuxbrew.bintray.com/bottles/sqlcipher-3.4.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "SQLite extension providing 256-bit AES encryption",
+  "full_name": "sqlcipher",
+  "homepage": "http://sqlcipher.net",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sqlcipher",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with full-text search enabled",
+      "option": "--with-fts"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.4.2"
+  }
+}

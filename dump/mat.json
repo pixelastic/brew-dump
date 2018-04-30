@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "be9d42344640bddc264ccefc4d11e569187aa109b99e052d0d068cc8046bb2f8",
+          "url": "https://linuxbrew.bintray.com/bottles/mat-0.6.1_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b944eae68110eba71a0324548b3f153266d040e5f5144c87d8a1f11189b68bdc",
+          "url": "https://linuxbrew.bintray.com/bottles/mat-0.6.1_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "79ca171addde571ff859bcb533842f0b81d71229ca2c94ea06977063a72edf7d",
+          "url": "https://linuxbrew.bintray.com/bottles/mat-0.6.1_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gettext",
+    "intltool"
+  ],
+  "caveats": "MAT was built without PDF support nor GUI.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "coreutils",
+    "poppler",
+    "py2cairo",
+    "pygobject3",
+    "exiftool",
+    "gettext",
+    "intltool"
+  ],
+  "desc": "Metadata anonymization toolkit",
+  "full_name": "mat",
+  "homepage": "https://mat.boum.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mat",
+  "oldname": null,
+  "optional_dependencies": [
+    "python@2",
+    "exiftool"
+  ],
+  "options": [
+    {
+      "description": "Build with python@2 support",
+      "option": "--with-python@2"
+    },
+    {
+      "description": "Build with exiftool support",
+      "option": "--with-exiftool"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.1"
+  }
+}

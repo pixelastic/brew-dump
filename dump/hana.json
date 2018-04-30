@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8349d4f7b7204fd9e791e78433810d7bf4bd21df8a748abd4f1f7a15154d7c35",
+          "url": "https://linuxbrew.bintray.com/bottles/hana-1.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8349d4f7b7204fd9e791e78433810d7bf4bd21df8a748abd4f1f7a15154d7c35",
+          "url": "https://linuxbrew.bintray.com/bottles/hana-1.4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8349d4f7b7204fd9e791e78433810d7bf4bd21df8a748abd4f1f7a15154d7c35",
+          "url": "https://linuxbrew.bintray.com/bottles/hana-1.4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e30f1340b85120f4bdc7ace8662c2ecc6ea835bddbc40a3ac543b3977d7bf161",
+          "url": "https://linuxbrew.bintray.com/bottles/hana-1.4.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "The Boost.Hana C++14 metaprogramming library",
+  "full_name": "hana",
+  "homepage": "https://github.com/boostorg/hana",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hana",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.0"
+  }
+}

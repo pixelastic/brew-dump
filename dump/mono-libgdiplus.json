@@ -1,0 +1,83 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d099b8722d00774e64d1685cdb8506f03e3f026e05984cf4f0148359b5036693",
+          "url": "https://linuxbrew.bintray.com/bottles/mono-libgdiplus-5.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e025958c8b7c9e7ec1f699a9a32149f31e5ba66279d733948036f26e2f19699b",
+          "url": "https://linuxbrew.bintray.com/bottles/mono-libgdiplus-5.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8cd50ca8eac2fae538ba0ecf66809838f4929c25e49b65c31c2c7e409cb560de",
+          "url": "https://linuxbrew.bintray.com/bottles/mono-libgdiplus-5.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a32cf60e4d2e89a62c86911b0a83a9fa70e855a3039b0ddec6af2d1f8778f306",
+          "url": "https://linuxbrew.bintray.com/bottles/mono-libgdiplus-5.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "cairo",
+    "fontconfig",
+    "freetype",
+    "gettext",
+    "giflib",
+    "glib",
+    "jpeg",
+    "libexif",
+    "libpng",
+    "libtiff",
+    "pixman"
+  ],
+  "desc": "GDI+-compatible API on non-Windows operating systems",
+  "full_name": "mono-libgdiplus",
+  "homepage": "https://www.mono-project.com/docs/gui/libgdiplus/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mono-libgdiplus",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.6"
+  }
+}

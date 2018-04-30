@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Command-line tool for managing sbt environments",
+  "full_name": "sbtenv",
+  "homepage": "https://github.com/sbtenv/sbtenv",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sbtenv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.0.14"
+  }
+}

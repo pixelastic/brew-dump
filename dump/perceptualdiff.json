@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d47d680df91ee88897f95123e6b9f972351a603a5f4921726b2877cc2e67924f",
+          "url": "https://linuxbrew.bintray.com/bottles/perceptualdiff-1.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "683d05fc64186ee518180b56345d446be90ff2c42666c80adb86bc185d20d283",
+          "url": "https://linuxbrew.bintray.com/bottles/perceptualdiff-1.1.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "99baa893fa0ceaa71fd8c4443a315c2d8e51c567f65a6917eaa5e4ab3952a900",
+          "url": "https://linuxbrew.bintray.com/bottles/perceptualdiff-1.1.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eb2da458eda1cebc7872b2621c96e5aa627d9711f8d31fb792cb092d92d060db",
+          "url": "https://linuxbrew.bintray.com/bottles/perceptualdiff-1.1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7a1956479cc1176b7340f4614db1b556318513b6359a025dca942142956b65d9",
+          "url": "https://linuxbrew.bintray.com/bottles/perceptualdiff-1.1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "freeimage"
+  ],
+  "desc": "Perceptual image comparison tool",
+  "full_name": "perceptualdiff",
+  "homepage": "https://pdiff.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "perceptualdiff",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.1"
+  }
+}

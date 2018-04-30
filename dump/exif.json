@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "607827dc887cae86a2bedc7892e4d061990cb04814fb0ac2fd5d0cd1fdefcb30",
+          "url": "https://linuxbrew.bintray.com/bottles/exif-0.6.21.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "73abe70edbf8eaac5773627b225afe24461340c163849356ca8a730ac89f0f30",
+          "url": "https://linuxbrew.bintray.com/bottles/exif-0.6.21.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "e24a0bdfee07a46a49620c29726748e73a4eca0937c59c1f5efeeb51ea9f6971",
+          "url": "https://linuxbrew.bintray.com/bottles/exif-0.6.21.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "0d5997d1d013822aee275d0e65403a1d99b579f53c2ee131b5b121d85377665d",
+          "url": "https://linuxbrew.bintray.com/bottles/exif-0.6.21.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ae8645e99466b553e7198556a2d331759c9f173956dc0c10f584903030c78876",
+          "url": "https://linuxbrew.bintray.com/bottles/exif-0.6.21.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ebf412bb43ad3695f01f8ed1e5851e7c02218589fc7cbb175c9a3f1914894e37",
+          "url": "https://linuxbrew.bintray.com/bottles/exif-0.6.21.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "popt",
+    "libexif",
+    "gettext"
+  ],
+  "desc": "Read, write, modify, and display EXIF data on the command-line",
+  "full_name": "exif",
+  "homepage": "https://libexif.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "exif",
+  "oldname": null,
+  "optional_dependencies": [
+    "gettext"
+  ],
+  "options": [
+    {
+      "description": "Build with Native Language Support",
+      "option": "--with-gettext"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.21"
+  }
+}

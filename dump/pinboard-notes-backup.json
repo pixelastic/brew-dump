@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "357931ecd198a6fad58d6a9cf3d8543b1dbc3a2fd0ec60e1887725791a2e6c6b",
+          "url": "https://linuxbrew.bintray.com/bottles/pinboard-notes-backup-1.0.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1138cbd05fc88464afb783d8509336fb8bb82495700b34199d5c16dee1cbac41",
+          "url": "https://linuxbrew.bintray.com/bottles/pinboard-notes-backup-1.0.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "77d4f8e3de1887bbae724aaaf2b72b7399adb8435153a192b7f39cabb8846c54",
+          "url": "https://linuxbrew.bintray.com/bottles/pinboard-notes-backup-1.0.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "00ed339a5617887bbfffe96ed88ab307e271d97a199382f03dbd9c57c3afac2f",
+          "url": "https://linuxbrew.bintray.com/bottles/pinboard-notes-backup-1.0.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cabal-install",
+    "ghc@8.2"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cabal-install",
+    "ghc@8.2"
+  ],
+  "desc": "Efficiently back up the notes you've saved to Pinboard",
+  "full_name": "pinboard-notes-backup",
+  "homepage": "https://github.com/bdesham/pinboard-notes-backup",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pinboard-notes-backup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.3"
+  }
+}

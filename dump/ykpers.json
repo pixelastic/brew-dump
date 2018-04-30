@@ -1,0 +1,70 @@
+{
+  "aliases": [
+    "yubikey-personalization"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a621bd54eb6823e19baabef290a18834ac0d5b8f886eff267f8180d3fb11f71d",
+          "url": "https://linuxbrew.bintray.com/bottles/ykpers-1.19.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "033fde5866eef8f18f9359a6a2fa93ee10692ded0215921f83bc02fc48f7ca01",
+          "url": "https://linuxbrew.bintray.com/bottles/ykpers-1.19.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5097fdfc181c4b7cf384c149dd566f4aab24099212835ec13dc93cdb903a19c2",
+          "url": "https://linuxbrew.bintray.com/bottles/ykpers-1.19.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libyubikey",
+    "json-c"
+  ],
+  "desc": "YubiKey personalization library and tool",
+  "full_name": "ykpers",
+  "homepage": "https://developers.yubico.com/yubikey-personalization/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ykpers",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without json-c support",
+      "option": "--without-json-c"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "json-c"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.19.0"
+  }
+}

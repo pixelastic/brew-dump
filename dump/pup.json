@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a1aa49640871c127c76f4aea6db65487db964a055e2aa4d86ee2d8b7f5dcb561",
+          "url": "https://linuxbrew.bintray.com/bottles/pup-0.4.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f470de75187b994ef9612c5404dc7622a356c8ee6af21f6b2549b5d7c5d88d32",
+          "url": "https://linuxbrew.bintray.com/bottles/pup-0.4.0.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4ba84cffa7cfd01bd252223055abdf5fd8b6cfc27474131cf313e688ea8eeecf",
+          "url": "https://linuxbrew.bintray.com/bottles/pup-0.4.0.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "cd3466638887295c61ccfb54a926672849f669baffbf8b20bf1bbefba346d065",
+          "url": "https://linuxbrew.bintray.com/bottles/pup-0.4.0.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "gox"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "gox"
+  ],
+  "desc": "Parse HTML at the command-line",
+  "full_name": "pup",
+  "homepage": "https://github.com/EricChiang/pup",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.0"
+  }
+}

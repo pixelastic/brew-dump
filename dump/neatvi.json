@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c773025ad559bb25cc095a7e1efc8950424a4cd86ff81ee4b0093a0e2e3c3c84",
+          "url": "https://linuxbrew.bintray.com/bottles/neatvi-06.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2e34d03e212479064e86e8d1024447badeb61a54205f1fda24f9b6633e22afe7",
+          "url": "https://linuxbrew.bintray.com/bottles/neatvi-06.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "339a7880dea5f7ff0e290bc890f95719da7e5ba4b64a7205760c8f6cf64e10a2",
+          "url": "https://linuxbrew.bintray.com/bottles/neatvi-06.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "ex/vi clone for editing bidirectional uft-8 text",
+  "full_name": "neatvi",
+  "homepage": "http://repo.or.cz/w/neatvi.git",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "neatvi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "06"
+  }
+}

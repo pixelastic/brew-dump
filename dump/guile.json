@@ -1,0 +1,73 @@
+{
+  "aliases": [
+    "guile@2.2"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c38c4edf9a4e91680c90940416013741a7b3ed2b97f588be238b1c9c27cf1311",
+          "url": "https://linuxbrew.bintray.com/bottles/guile-2.2.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d61c8dd379af7d9a86b120994a936f135f4f83587dc2bf7ee3dfafcab363894c",
+          "url": "https://linuxbrew.bintray.com/bottles/guile-2.2.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0743241f9804f6b64a851b50590bcd7384c77b9b6dfce4910d2eca64a9ede948",
+          "url": "https://linuxbrew.bintray.com/bottles/guile-2.2.3_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c71522dcbd535f4523b7fde541841af4da96283324d1c8fad7f6c7d956cb9e6b",
+          "url": "https://linuxbrew.bintray.com/bottles/guile-2.2.3_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libtool",
+    "libffi",
+    "libunistring",
+    "bdw-gc",
+    "gmp",
+    "readline",
+    "gperf"
+  ],
+  "desc": "GNU Ubiquitous Intelligent Language for Extensions",
+  "full_name": "guile",
+  "homepage": "https://www.gnu.org/software/guile/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "guile",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.2.3"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "88bda24c638a68880447a6e10dcfa06ac2e49a2b77415b6a85ac3dfd33c20114",
+          "url": "https://linuxbrew.bintray.com/bottles/vifm-0.9.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "85ed156c78b6259286e1bbde0559efbb7d184f061f1fe6d7dfa3c9e73262cbce",
+          "url": "https://linuxbrew.bintray.com/bottles/vifm-0.9.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7123769c4a1a3ea3e59871d3150182bbf3da2d98a4036b3a06a39ebacfaf65ed",
+          "url": "https://linuxbrew.bintray.com/bottles/vifm-0.9.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Ncurses based file manager with vi like keybindings",
+  "full_name": "vifm",
+  "homepage": "https://vifm.info/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vifm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.1"
+  }
+}

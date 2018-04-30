@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b5ba1668dddf52946866c866bc1ba2ab2983b67d99c69b6c41fabe91e816139a",
+          "url": "https://linuxbrew.bintray.com/bottles/tcpreplay-4.2.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9be61ec3aeeac7be8cd51225d5914a7ba7ee8f0c9fbd4393e452f6b9447a53c7",
+          "url": "https://linuxbrew.bintray.com/bottles/tcpreplay-4.2.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "569bdb4ac12e4ff62c723b1fdabad4b037c54423a70742306ba852f9bc43e25d",
+          "url": "https://linuxbrew.bintray.com/bottles/tcpreplay-4.2.6.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3eaba6e1af68c8af3f7d1d0a15c2563b178368a74a760e3fafa5b3c4774f9129",
+          "url": "https://linuxbrew.bintray.com/bottles/tcpreplay-4.2.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libdnet"
+  ],
+  "desc": "Replay saved tcpdump files at arbitrary speeds",
+  "full_name": "tcpreplay",
+  "homepage": "https://tcpreplay.appneta.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tcpreplay",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.2.6"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "910ae7448a650a9415ad61e86635daed39177537f891a16bd036f444c96bdbfb",
+          "url": "https://linuxbrew.bintray.com/bottles/freeimage-3.17.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a98fcfcbb82364d411ec11861f0523ea4e7dfd789d7e80fe1e1bdcb337ef3006",
+          "url": "https://linuxbrew.bintray.com/bottles/freeimage-3.17.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c3489ce29935ad196057e6ff95485dfc4442e7e26c4031523623e28bb587fad3",
+          "url": "https://linuxbrew.bintray.com/bottles/freeimage-3.17.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2de1e4492ad7b690d2f4a6b51b536e79491b8a521466439634dc8ed5567e7b52",
+          "url": "https://linuxbrew.bintray.com/bottles/freeimage-3.17.0_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "aec3219d5a015a5df4fbc81da4d74ac3c2a6f2d528bfbca770c217775f065e19",
+          "url": "https://linuxbrew.bintray.com/bottles/freeimage-3.17.0_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "unzip"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "unzip"
+  ],
+  "desc": "Library for FreeImage, a dependency-free graphics library",
+  "full_name": "freeimage",
+  "homepage": "https://sourceforge.net/projects/freeimage",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "freeimage",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.17.0"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e5c4b3fa712d705c3cc9bfae12242c9b4dc429e329c61d12aa01b65c1623a11f",
+          "url": "https://linuxbrew.bintray.com/bottles/bc-1.07.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0baf2e31191d80258636186bf9adcdf6b3f554f213d36cb3054213f736e52bf1",
+          "url": "https://linuxbrew.bintray.com/bottles/bc-1.07.1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1d8f0459c0b67aae275c43e01e5312146be72163acadd3d6c8f2bc440181508c",
+          "url": "https://linuxbrew.bintray.com/bottles/bc-1.07.1.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "57de5ac07f99f1b7b67b854997e9f2a6fb69664f904ea3c3cf4538d509227d91",
+          "url": "https://linuxbrew.bintray.com/bottles/bc-1.07.1.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bison",
+    "ed",
+    "texinfo"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bison",
+    "ed",
+    "texinfo",
+    "flex"
+  ],
+  "desc": "Arbitrary precision numeric processing language",
+  "full_name": "bc",
+  "homepage": "https://www.gnu.org/software/bc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.07.1"
+  }
+}

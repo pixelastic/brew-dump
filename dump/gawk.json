@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "aacfd8339f28ace56c4145cddd18986b050a14f408cdceb90d05eeb1bcf08590",
+          "url": "https://linuxbrew.bintray.com/bottles/gawk-4.2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "617115fcba047189d0a86aad82382768fec90a49c9d86f2fb944aec440ea64b2",
+          "url": "https://linuxbrew.bintray.com/bottles/gawk-4.2.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f60a61f057eefb9114f8080460fdb31d71b1f3fd6dd6daf855f380dfb4ae4fa1",
+          "url": "https://linuxbrew.bintray.com/bottles/gawk-4.2.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9ba88fa31a5821882f60c9907db5ae3b5485a463508d5b65bfb0a78a0d91e1d9",
+          "url": "https://linuxbrew.bintray.com/bottles/gawk-4.2.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gettext",
+    "mpfr",
+    "readline"
+  ],
+  "desc": "GNU awk utility",
+  "full_name": "gawk",
+  "homepage": "https://www.gnu.org/software/gawk/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gawk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.2.1"
+  }
+}

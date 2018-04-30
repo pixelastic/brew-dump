@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ea2e17f4259da1aba15c211e545eb833f4e9c5472538a6b8e55b7cf236b63780",
+          "url": "https://linuxbrew.bintray.com/bottles/sratoolkit-2.9.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "87ecc734d48d087d6ead16197d6fa3b9246c8076cb54785e65101a79d902439b",
+          "url": "https://linuxbrew.bintray.com/bottles/sratoolkit-2.9.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "270658aa58569660fc323a4b8430959adb97eaca4edf014e3096a0e51aaea743",
+          "url": "https://linuxbrew.bintray.com/bottles/sratoolkit-2.9.0_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "hdf5",
+    "libmagic"
+  ],
+  "desc": "Data tools for INSDC Sequence Read Archive",
+  "full_name": "sratoolkit",
+  "homepage": "https://github.com/ncbi/sra-tools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sratoolkit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.9.0"
+  }
+}

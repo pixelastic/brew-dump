@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5274bb4cd33d9c15d8c73dbe4cfb54e686da29cd29093adba549024fe520b82c",
+          "url": "https://linuxbrew.bintray.com/bottles/tidyp-1.04.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "52ef5e1d78ef5a3404e2345683fc03a61b0fad8084b74508473a042b1858b54c",
+          "url": "https://linuxbrew.bintray.com/bottles/tidyp-1.04.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7501f78d5f8e549fec7f689cd24aafa716e2097744ec78359d8092183469e4c8",
+          "url": "https://linuxbrew.bintray.com/bottles/tidyp-1.04.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6b5b65c1476004cc973fff0992dfaf77887b5a5df583ac31fc22665d250b538a",
+          "url": "https://linuxbrew.bintray.com/bottles/tidyp-1.04.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a67e93cc14f51fd0ed5668b04f7c7de13c679d3713ea1fa236f35fc7f9f10674",
+          "url": "https://linuxbrew.bintray.com/bottles/tidyp-1.04.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "710962782d909bf11987f8b147d7e141ccba48643ab2db02c7f267d6cf871dd9",
+          "url": "https://linuxbrew.bintray.com/bottles/tidyp-1.04.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "libxslt"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libxslt"
+  ],
+  "desc": "Validate and modify HTML",
+  "full_name": "tidyp",
+  "homepage": "http://tidyp.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tidyp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.04"
+  }
+}

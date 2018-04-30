@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c3c7bfaf4dd467504aecd039742152ce173529c6d3ff53ef0d6e2cbee0d5f5e6",
+          "url": "https://linuxbrew.bintray.com/bottles/cvs2svn-2.4.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2f09535e501bc80b9cd4b911b678e2e583a4eba9cd4d91be41e80b1f768f4631",
+          "url": "https://linuxbrew.bintray.com/bottles/cvs2svn-2.4.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "147e9169c114da7c54cf8e35ea15c0e00213f49416f11c13f9d205cf4dd715b4",
+          "url": "https://linuxbrew.bintray.com/bottles/cvs2svn-2.4.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "NOTE: man pages have been installed, but for better documentation see:\n  /home/tim/.linuxbrew/share/doc/cvs2svn/cvs2svn.html\nor http://cvs2svn.tigris.org/cvs2svn.html.\n\nContrib scripts and example options files are installed in:\n  /home/tim/.linuxbrew/opt/cvs2svn\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Tool for converting from CVS to Subversion",
+  "full_name": "cvs2svn",
+  "homepage": "http://cvs2svn.tigris.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cvs2svn",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.0"
+  }
+}

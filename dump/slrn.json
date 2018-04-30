@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d45e3c8765302bd61709b091143becf4c7ce78913256620c956dcf2b95431910",
+          "url": "https://linuxbrew.bintray.com/bottles/slrn-1.0.3a.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "73238ccdd5f84b813446674f5be88f604c4e44107ab5bf367caee0bdd00ea410",
+          "url": "https://linuxbrew.bintray.com/bottles/slrn-1.0.3a.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "46721d6d7a4ac469837a4e41bfdc279727ee7c3dd38351eb3d47aa7b43e64062",
+          "url": "https://linuxbrew.bintray.com/bottles/slrn-1.0.3a.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "06d71ffeb008854c63eeadf6f45633cf692e648490cb20c2ba5f3229cc3dc808",
+          "url": "https://linuxbrew.bintray.com/bottles/slrn-1.0.3a.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "s-lang",
+    "openssl"
+  ],
+  "desc": "Powerful console-based newsreader",
+  "full_name": "slrn",
+  "homepage": "https://slrn.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "slrn",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.3a"
+  }
+}

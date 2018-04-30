@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ff1455c705893442d357efb79b275c6337b24a9e11c959e38f06df5cde4367ae",
+          "url": "https://linuxbrew.bintray.com/bottles/jp2a-1.0.6_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c68f18d28eb4799c5aa6a74c5f2c98a21b9c0968ed2cd9af6b4ea16a7f206fa6",
+          "url": "https://linuxbrew.bintray.com/bottles/jp2a-1.0.6_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2d5c4358454d3fa29f6bf4ebb9f43992f7fd0fd68f9161476ae2cd79f51a652a",
+          "url": "https://linuxbrew.bintray.com/bottles/jp2a-1.0.6_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "553b3479ae0dee9a8546a10db8f8f6ce04efec18731bf7b7bfb13c5bd5d1ab48",
+          "url": "https://linuxbrew.bintray.com/bottles/jp2a-1.0.6_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2a175fef16afed3e74c834ff250f0278eedc60c4deb0296e62f073954605d97d",
+          "url": "https://linuxbrew.bintray.com/bottles/jp2a-1.0.6_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "jpeg"
+  ],
+  "desc": "Convert JPG images to ASCII",
+  "full_name": "jp2a",
+  "homepage": "https://csl.name/jp2a/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jp2a",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Skip compile-time tests",
+      "option": "--without-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.6"
+  }
+}

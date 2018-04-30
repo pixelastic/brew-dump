@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "35d2a278927c3f38e099581c5b8ef684c75adc84f2e8bfbc3eaa422738e195ea",
+          "url": "https://linuxbrew.bintray.com/bottles/residualvm-0.2.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "783c6c9e017d19eb2e41d95887a5af3fdeb74a649e9369a641bfc750d2552cb0",
+          "url": "https://linuxbrew.bintray.com/bottles/residualvm-0.2.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8281bb6898adfa48808f9d0217b6365918f3dc499dd026723be595644545a43b",
+          "url": "https://linuxbrew.bintray.com/bottles/residualvm-0.2.1_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1d8666ce740532b37383960334000dd2f935398dfcee9484885e5f5022612f10",
+          "url": "https://linuxbrew.bintray.com/bottles/residualvm-0.2.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "faad2",
+    "flac",
+    "fluid-synth",
+    "freetype",
+    "jpeg",
+    "libpng",
+    "libvorbis",
+    "mad",
+    "sdl",
+    "theora"
+  ],
+  "desc": "3D graphic adventure game interpreter",
+  "full_name": "residualvm",
+  "homepage": "http://residualvm.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "residualvm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.2.1"
+  }
+}

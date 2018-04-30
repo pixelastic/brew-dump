@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2860850684659f15f8d5dc01127a7a9f2bfc21f773d99c4a8897585b4542723d",
+          "url": "https://linuxbrew.bintray.com/bottles/aide-0.16.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c9429f028f2627c8ae1b76737b26741cecc4c18507139b02bcc6c487bc5e15a7",
+          "url": "https://linuxbrew.bintray.com/bottles/aide-0.16.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "71d151f2f389cbbc5884eff30261d0691d020c0983411962c1ba42927d0ae052",
+          "url": "https://linuxbrew.bintray.com/bottles/aide-0.16.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "513e82f736d1e0c87795f5c6ca4d981d60bd64664f9b0cc5b20b0555e79a4071",
+          "url": "https://linuxbrew.bintray.com/bottles/aide-0.16.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bison",
+    "flex"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libgcrypt",
+    "libgpg-error",
+    "pcre",
+    "curl",
+    "bison",
+    "flex"
+  ],
+  "desc": "File and directory integrity checker",
+  "full_name": "aide",
+  "homepage": "https://aide.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aide",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.16"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "34a9b94c6161be85b1b42a57395528982965357cffd7f4771456c01309fb402e",
+          "url": "https://linuxbrew.bintray.com/bottles/ekg2-0.3.1_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "59cef56ba8d42aa5f198e11b7c342ddeabe8382543562ef9a13fc169ab5d4efa",
+          "url": "https://linuxbrew.bintray.com/bottles/ekg2-0.3.1_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "77d62ccb6a0ff4e9126850aa1c5287e583cc5f643f6fbe2505199e694de7a337",
+          "url": "https://linuxbrew.bintray.com/bottles/ekg2-0.3.1_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "dafaf67dca8fefd62b5e76ec03c8d71a85542d04157e53e0ceb915475a2c5067",
+          "url": "https://linuxbrew.bintray.com/bottles/ekg2-0.3.1_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "readline",
+    "libgadu",
+    "openssl"
+  ],
+  "desc": "Multiplatform, multiprotocol, plugin-based instant messenger",
+  "full_name": "ekg2",
+  "homepage": "http://en.ekg2.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ekg2",
+  "oldname": null,
+  "optional_dependencies": [
+    "libgadu"
+  ],
+  "options": [
+    {
+      "description": "Build with libgadu support",
+      "option": "--with-libgadu"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.1"
+  }
+}

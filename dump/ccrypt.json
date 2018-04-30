@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "006c8e5eb58e88305dec70559d6d64fd0203881dcaca36db50cbb44d3aaae61b",
+          "url": "https://linuxbrew.bintray.com/bottles/ccrypt-1.10.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a1f0fa02b623955333f98118473c16a7af7e740c18455d48866133ce7dd9a97b",
+          "url": "https://linuxbrew.bintray.com/bottles/ccrypt-1.10.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "41561da9ecb852e0e704b6c9d6693f1eac65a02d0ff1419eb55b4221550d6aa7",
+          "url": "https://linuxbrew.bintray.com/bottles/ccrypt-1.10.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "aab0a4f240a28a5d596f7c553332386446c1c2b2e8cf90719035c05a6361194f",
+          "url": "https://linuxbrew.bintray.com/bottles/ccrypt-1.10.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "44efc492cc7cf2d4f1061f14fd5aa213517406434c41c96e297d9b4f06d7e1a7",
+          "url": "https://linuxbrew.bintray.com/bottles/ccrypt-1.10.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "ccat"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Encrypt and decrypt files and streams",
+  "full_name": "ccrypt",
+  "homepage": "https://ccrypt.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ccrypt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.10"
+  }
+}

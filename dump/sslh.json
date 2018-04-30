@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a457cede9fdc5903b4d4cf390ccf34caf716c1cf8ddfef315197876c250438c0",
+          "url": "https://linuxbrew.bintray.com/bottles/sslh-1.19c.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4f3429c456314ead9330497258f58dbc07c620a497101d451b37538f773e7138",
+          "url": "https://linuxbrew.bintray.com/bottles/sslh-1.19c.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4c02e4c94f732f382abb18e3831f629a0dd108211aca169ae7b93c3e387a6b70",
+          "url": "https://linuxbrew.bintray.com/bottles/sslh-1.19c.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fa720ca3303cf1b6b89a83313ca759c11184ea924698a9a9833a01c64c2ec543",
+          "url": "https://linuxbrew.bintray.com/bottles/sslh-1.19c.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libconfig",
+    "pcre"
+  ],
+  "desc": "Forward connections based on first data packet sent by client",
+  "full_name": "sslh",
+  "homepage": "https://www.rutschle.net/tech/sslh.shtml",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sslh",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.19c"
+  }
+}

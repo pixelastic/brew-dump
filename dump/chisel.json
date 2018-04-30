@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "82f135ec7770a425e666086b7a5d6a31b086c10e11df42fbe849354592f26a3e",
+          "url": "https://linuxbrew.bintray.com/bottles/chisel-1.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eba994a5b5d1880890bab0db0741ec7f6c65f3cc4a78957355714a84b76f2fa2",
+          "url": "https://linuxbrew.bintray.com/bottles/chisel-1.8.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0cde612e49ea07f54a455161b9371f6b662b450169947103dddba66fb2debe6c",
+          "url": "https://linuxbrew.bintray.com/bottles/chisel-1.8.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Add the following line to ~/.lldbinit to load chisel when Xcode launches:\n  command script import /home/tim/.linuxbrew/opt/chisel/libexec/fblldb.py\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Collection of LLDB commands to assist debugging iOS apps",
+  "full_name": "chisel",
+  "homepage": "https://github.com/facebook/chisel",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "chisel",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.0"
+  }
+}

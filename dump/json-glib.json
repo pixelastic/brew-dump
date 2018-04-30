@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f5baf172b136c33fb8fa7b9e8e7e923cc0f9eabf6012f8765ff665b4380c29c8",
+          "url": "https://linuxbrew.bintray.com/bottles/json-glib-1.4.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d27d9aaeadd8072a2eeb91984b2cf9b8e13b7c6cbc2cc1e4debe4738bce90f36",
+          "url": "https://linuxbrew.bintray.com/bottles/json-glib-1.4.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ef55b4676e0ef1e3dcde3fd642bc7cb6da0d091921720281b4b3400e169cbffa",
+          "url": "https://linuxbrew.bintray.com/bottles/json-glib-1.4.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9f61731ee9ad171f5f6ce32708a1bd9da065002c2ee01c1ed8e337d324efd92a",
+          "url": "https://linuxbrew.bintray.com/bottles/json-glib-1.4.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "meson-internal",
+    "ninja"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "meson-internal",
+    "ninja",
+    "glib"
+  ],
+  "desc": "Library for JSON, based on GLib",
+  "full_name": "json-glib",
+  "homepage": "https://live.gnome.org/JsonGlib",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "json-glib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.2"
+  }
+}

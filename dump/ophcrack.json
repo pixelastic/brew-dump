@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "cdc8ef23e5f78936b3c3840a18a6ea2fcee63cb3ba16ff2037d995221e0ae7cf",
+          "url": "https://linuxbrew.bintray.com/bottles/ophcrack-3.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5fa70c9c1293d366594b8c3f16f77a31cfc562dbc7b882c919458efa34d387f8",
+          "url": "https://linuxbrew.bintray.com/bottles/ophcrack-3.8.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "60021285ce03e3a40f946906879ad053ec68fec04e8ab299b3362e8b487e274f",
+          "url": "https://linuxbrew.bintray.com/bottles/ophcrack-3.8.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Microsoft Windows password cracker using rainbow tables",
+  "full_name": "ophcrack",
+  "homepage": "https://ophcrack.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ophcrack",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.8.0"
+  }
+}

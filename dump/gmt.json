@@ -1,0 +1,67 @@
+{
+  "aliases": [
+    "gmt@5"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "59edd37d3f0d29a3fbc73dddef12fab7bfd9d8cee5a44205f57701ba71c523ab",
+          "url": "https://linuxbrew.bintray.com/bottles/gmt-5.4.3_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1a3ec4dd62997f9b9dd58eb93bcfb06d85053afb67ba1a025d4ee83c14165a00",
+          "url": "https://linuxbrew.bintray.com/bottles/gmt-5.4.3_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2c62a92e2fc0d68f7aed44d1e727b95d3191025ecad757fa033cecfe5f09d1ca",
+          "url": "https://linuxbrew.bintray.com/bottles/gmt-5.4.3_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "fftw",
+    "gdal",
+    "netcdf",
+    "pcre"
+  ],
+  "desc": "Tools for processing and displaying xy and xyz datasets",
+  "full_name": "gmt",
+  "homepage": "https://gmt.soest.hawaii.edu/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gmt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.4.3"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "596fc55d7e2cc63e8fdc4f3648a23d2c3c9c9eee9775a6579410c28708c0a358",
+          "url": "https://linuxbrew.bintray.com/bottles/nsuds-0.7B.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "26e82eae22288d51eda3742c0ae4f3e1b0b17a003461f1baec38ccaa52495d9f",
+          "url": "https://linuxbrew.bintray.com/bottles/nsuds-0.7B.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "89ae2f310d8b21d98ababce7110f20d3d41da06b7a751447c56aa6dbd13a1950",
+          "url": "https://linuxbrew.bintray.com/bottles/nsuds-0.7B.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9bc60ceced759f079112d97d9fc0a408fbe6d7d18d21d3cdcf5a3a2cbf2185cc",
+          "url": "https://linuxbrew.bintray.com/bottles/nsuds-0.7B.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Ncurses Sudoku system",
+  "full_name": "nsuds",
+  "homepage": "https://nsuds.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nsuds",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.7B"
+  }
+}

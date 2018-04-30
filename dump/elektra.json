@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b393066a4c05790003e095101ac08e3b5b650788dd45f5d3d7530781e731ef45",
+          "url": "https://linuxbrew.bintray.com/bottles/elektra-0.8.22.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a285397a8ef165eb825773c6ad452ed9fd97283b93eb6f0a86de2a222624cbe4",
+          "url": "https://linuxbrew.bintray.com/bottles/elektra-0.8.22.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cac9779dcc8c1cc998b30274fc3ab137d94644ba25b1fb5a8dca6c922b2679cd",
+          "url": "https://linuxbrew.bintray.com/bottles/elektra-0.8.22.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "doxygen"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "doxygen",
+    "qt"
+  ],
+  "desc": "Framework to access config settings in a global key database",
+  "full_name": "elektra",
+  "homepage": "https://libelektra.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "elektra",
+  "oldname": null,
+  "optional_dependencies": [
+    "qt"
+  ],
+  "options": [
+    {
+      "description": "Build GUI frontend",
+      "option": "--with-qt"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8.22"
+  }
+}

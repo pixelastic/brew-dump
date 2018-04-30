@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "40c55a6d0c734674b4b464a96f7c52cd71e9490fb91ea8e8259fe7915f908b2f",
+          "url": "https://linuxbrew.bintray.com/bottles/herrie-2.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f837acb9b4c073ab4586f6d5a9bcfccd9d99e30391b04227fe6988835a9714b0",
+          "url": "https://linuxbrew.bintray.com/bottles/herrie-2.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "cf08ab1847d628ceb2353b8cc75620f4234ff98b028a53542d55ef8800b86dd7",
+          "url": "https://linuxbrew.bintray.com/bottles/herrie-2.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5d6d73767063b7f2be104fd2dbb00d8bf3b561a06e9720a822f60972bfb70d79",
+          "url": "https://linuxbrew.bintray.com/bottles/herrie-2.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "01c14479efa7e6c3e7a3eee14a6af6e9934d93ff2b1449a26a7d38ce730edf35",
+          "url": "https://linuxbrew.bintray.com/bottles/herrie-2.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gettext",
+    "glib",
+    "libvorbis",
+    "libid3tag",
+    "mad",
+    "libsndfile"
+  ],
+  "desc": "Minimalistic audio player built upon Ncurses",
+  "full_name": "herrie",
+  "homepage": "https://herrie.info/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "herrie",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2"
+  }
+}

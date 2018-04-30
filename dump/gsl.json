@@ -1,0 +1,69 @@
+{
+  "aliases": [
+    "gnu-scientific-library"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0e58f3748624d439a7152557518e389827a8a38dfa7ea486625d38e86291f9b2",
+          "url": "https://linuxbrew.bintray.com/bottles/gsl-2.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a1977bfdc9a2803521d471a85fd943641df753c0dc2e8ce102b0c8d9113c9783",
+          "url": "https://linuxbrew.bintray.com/bottles/gsl-2.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ea19659efea6c85dfda0b42468fd2d4bc980ec2689a07fa3506ea2a5fc9a9c89",
+          "url": "https://linuxbrew.bintray.com/bottles/gsl-2.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "cc9c752252817f13c74b9d9178e2f5f9f5db4358abd9b8e932624502429f480d",
+          "url": "https://linuxbrew.bintray.com/bottles/gsl-2.4.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e8f5a126564d238ed734d3f069b183304ec1a707473cbce7fdde512122ccf3fb",
+          "url": "https://linuxbrew.bintray.com/bottles/gsl-2.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Numerical library for C and C++",
+  "full_name": "gsl",
+  "homepage": "https://www.gnu.org/software/gsl/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gsl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4"
+  }
+}

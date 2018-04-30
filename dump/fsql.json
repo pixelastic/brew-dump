@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7cd4ee8016d85649bd0bbdc4ea24ab571d022d5e62b5f8e0d90d7ee6bbd4dd52",
+          "url": "https://linuxbrew.bintray.com/bottles/fsql-0.3.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9ac3de9b635d87b572c9dbc7d206105bab93768f2bdc081756477cea1340ff69",
+          "url": "https://linuxbrew.bintray.com/bottles/fsql-0.3.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ef29b4aeaeb30416b1969391049f557c3c7edc5b818d41c1693f2f73639b42af",
+          "url": "https://linuxbrew.bintray.com/bottles/fsql-0.3.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d634c6ed616f5e951e7326ffb8d9d58c82f47a301fb3d412d0d94bd5e3749b16",
+          "url": "https://linuxbrew.bintray.com/bottles/fsql-0.3.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "627a98cf5a27228b7f471b90925dbdc9734c9697c147f37767ae9572838dd984",
+          "url": "https://linuxbrew.bintray.com/bottles/fsql-0.3.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Search through your filesystem with SQL-esque queries",
+  "full_name": "fsql",
+  "homepage": "https://github.com/kshvmdn/fsql",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fsql",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.1"
+  }
+}

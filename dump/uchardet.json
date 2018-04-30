@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "998232b6d034c090680202ca6d48a9af4924f091f3b597e4aa318f87fdf29bb8",
+          "url": "https://linuxbrew.bintray.com/bottles/uchardet-0.0.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c0416fb559e8c10f1cca21a0b0162d462cc02019d8abbce3712f64261b1ce8fe",
+          "url": "https://linuxbrew.bintray.com/bottles/uchardet-0.0.6.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c02f20920ac97596ab425b057275372a77c80c7d523191f2e5ab78c636d6827f",
+          "url": "https://linuxbrew.bintray.com/bottles/uchardet-0.0.6.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dce2d199e163858a10f27f9d94d232b8df5d38507098b629356ee5154d4f182c",
+          "url": "https://linuxbrew.bintray.com/bottles/uchardet-0.0.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5058d851e365cdacb6025bee3e56266eab6e93476bc992614d33f4c09917a9f4",
+          "url": "https://linuxbrew.bintray.com/bottles/uchardet-0.0.6.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ab930a4e2c217362dc7e05940cc6449d024f18c5014847ff9428facef02316c7",
+          "url": "https://linuxbrew.bintray.com/bottles/uchardet-0.0.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Encoding detector library",
+  "full_name": "uchardet",
+  "homepage": "https://www.freedesktop.org/wiki/Software/uchardet/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "uchardet",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.0.6"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "56d6a77e429bf9dde3d5e5edb9959fc7ed913430236cf628e0aec6445c07c85a",
+          "url": "https://linuxbrew.bintray.com/bottles/httpry-0.1.8.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "349ba4f39066cb02c151ab0f274f6bb9f4ee2cf558abdb2c5a3ecf0e563874fc",
+          "url": "https://linuxbrew.bintray.com/bottles/httpry-0.1.8.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ec016612be65aa5761213134d211f9bee121d8904dae9b9d73ebfc37d4de3cea",
+          "url": "https://linuxbrew.bintray.com/bottles/httpry-0.1.8.mavericks.bottle.1.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "a554f7789ce0d685a837fa2b795f7936a97603a7c2b915ee6923c0527e8bc1de",
+          "url": "https://linuxbrew.bintray.com/bottles/httpry-0.1.8.mountain_lion.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "71014794d2a136fea229dd19d6fe7dc136037c074a817d70bd7b13713653f19f",
+          "url": "https://linuxbrew.bintray.com/bottles/httpry-0.1.8.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "af0deb9d79e72df6369f57ed1050abeb70c62f77ab481232b556ba6da5ace66c",
+          "url": "https://linuxbrew.bintray.com/bottles/httpry-0.1.8.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Packet sniffer for displaying and logging HTTP traffic",
+  "full_name": "httpry",
+  "homepage": "https://github.com/jbittel/httpry",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "httpry",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.1.8"
+  }
+}

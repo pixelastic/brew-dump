@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d1abbc5f4752f77a01b1dfbadf831f58affc245137535d030992bd5cd3b1dd9c",
+          "url": "https://linuxbrew.bintray.com/bottles/sleepwatcher-2.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f9683fbee55fd410cd2650b2e12a01a322e316ceaf39484e5faa4ca3bec25ea3",
+          "url": "https://linuxbrew.bintray.com/bottles/sleepwatcher-2.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b59893325808df64d3944f9aef6c66f6420d16cba36a2a1934bb8260bc27fe2f",
+          "url": "https://linuxbrew.bintray.com/bottles/sleepwatcher-2.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b9ebee67696518e4d79efee6e8d564de9b6ccc67fbfea07f68b264b8c6a2a80a",
+          "url": "https://linuxbrew.bintray.com/bottles/sleepwatcher-2.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e4e3d7f9802dcf14431334c3187108c554c5315b3e34bc03dcb76e8f181158f5",
+          "url": "https://linuxbrew.bintray.com/bottles/sleepwatcher-2.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "For SleepWatcher to work, you will need to read the following:\n\n  /home/tim/.linuxbrew/Cellar/sleepwatcher/2.2/ReadMe.rtf\n\nIgnore information about installing the binary and man page,\nbut read information regarding setup of the launchd files which\nare installed here:\n\n  \n\nThese are the examples provided by the author.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Monitors sleep, wakeup, and idleness of a Mac",
+  "full_name": "sleepwatcher",
+  "homepage": "http://www.bernhard-baehr.de/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sleepwatcher",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2"
+  }
+}

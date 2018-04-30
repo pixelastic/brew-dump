@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3cc5e96fa9c49edb0b06d60af238f4a4803feefe22bbf5924698649e8c4db5fb",
+          "url": "https://linuxbrew.bintray.com/bottles/uni2ascii-4.18.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e95934b7cfcfc96467f1d9d36ec91e04e53fa0edd71f9c0b8aff6e357128de5a",
+          "url": "https://linuxbrew.bintray.com/bottles/uni2ascii-4.18.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b58b9d744048c9e2cc81e75d46c94926d14b2c25a613a05cd0835882221ade7c",
+          "url": "https://linuxbrew.bintray.com/bottles/uni2ascii-4.18.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "fe16b41d049b9dada88474ace55d1155b70afe7b679d323772743a86ec24cb64",
+          "url": "https://linuxbrew.bintray.com/bottles/uni2ascii-4.18.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "298ca15b89643dfa4946d485105fed7baa6934556c63d2bf97a3b7af0984c325",
+          "url": "https://linuxbrew.bintray.com/bottles/uni2ascii-4.18.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0200efd85e37c8c6e2582f82ff8fbb050bba07d31a1bf3720837f5d30da6a54b",
+          "url": "https://linuxbrew.bintray.com/bottles/uni2ascii-4.18.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Bi-directional conversion between UTF-8 and various ASCII flavors",
+  "full_name": "uni2ascii",
+  "homepage": "https://billposer.org/Software/uni2ascii.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "uni2ascii",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.18"
+  }
+}

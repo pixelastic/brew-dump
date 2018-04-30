@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8a469e92a6303d80752ebc80ade382261d263b9c7226ca6652eddc8954e5ff2f",
+          "url": "https://linuxbrew.bintray.com/bottles/duff-0.5.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a30c57c79b3cef30518fccc5227e954dd9a2383e15458f85706733dcc1fe188a",
+          "url": "https://linuxbrew.bintray.com/bottles/duff-0.5.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a66cbddeb95dd67055ef6db7acf729a925427778d6cc88ed2ef52a2dd40b7856",
+          "url": "https://linuxbrew.bintray.com/bottles/duff-0.5.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2af1262a9b02e687c0efc14eed3d837920ab746fe8fca9b12b9361c4729f06ef",
+          "url": "https://linuxbrew.bintray.com/bottles/duff-0.5.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "927ba61ce39cf9be33f796197063b1a6865bbc2db2f4b1340ad6786acf0494df",
+          "url": "https://linuxbrew.bintray.com/bottles/duff-0.5.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Quickly find duplicates in a set of files from the command-line",
+  "full_name": "duff",
+  "homepage": "https://duff.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "duff",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.5.2"
+  }
+}

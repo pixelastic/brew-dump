@@ -1,0 +1,65 @@
+{
+  "aliases": [
+    "myrepos"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b7af2995198e84cf2dce5ffceabd485e485c17054bd11e3f0032c07968d4b4c8",
+          "url": "https://linuxbrew.bintray.com/bottles/mr-1.20171231.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dd785ab43994c4209e80bcad7d676b641839ef6df50c5ec1bad08492c212c714",
+          "url": "https://linuxbrew.bintray.com/bottles/mr-1.20171231.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "952a63655282b3a8926920c103d61a37df79610ce4c03bdfe9259cc239556369",
+          "url": "https://linuxbrew.bintray.com/bottles/mr-1.20171231.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ce80dc487be54835c3b2f65d0df59fb2bd91b9f0d714b35eb690edeb04ae4bb3",
+          "url": "https://linuxbrew.bintray.com/bottles/mr-1.20171231.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Multiple Repository management tool",
+  "full_name": "mr",
+  "homepage": "https://myrepos.branchable.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.20171231"
+  }
+}

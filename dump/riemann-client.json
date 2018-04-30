@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5ea7d37d883608833a4f75ff024850a4754a8ecacc8246f3f689eb2f25dff564",
+          "url": "https://linuxbrew.bintray.com/bottles/riemann-client-1.10.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "37c265236767d2343b258024f99c18b1e0fa823e46fe8fd694a43c1e936c3c5c",
+          "url": "https://linuxbrew.bintray.com/bottles/riemann-client-1.10.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cf5f268e934bbf16faf8fcb9dd042698daa1199d6f465b70d700482ee1c03d52",
+          "url": "https://linuxbrew.bintray.com/bottles/riemann-client-1.10.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a9a3cc324df878e42cbbb382902ac9d8ca21e785cad1f1a07cb72808ef26a345",
+          "url": "https://linuxbrew.bintray.com/bottles/riemann-client-1.10.2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "58c9d2d70c5523aa89060ee54d4d85de87c5c7aa6a8ae0b876f9ddefa7ceabf6",
+          "url": "https://linuxbrew.bintray.com/bottles/riemann-client-1.10.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "libtool",
+    "json-c",
+    "protobuf-c"
+  ],
+  "desc": "C client library for the Riemann monitoring system",
+  "full_name": "riemann-client",
+  "homepage": "https://github.com/algernon/riemann-c-client",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "riemann-client",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.10.2"
+  }
+}

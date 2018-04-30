@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b0a4712e735be9c798ba7f9233db9339a09dc70b69c88c318fc14662972f5511",
+          "url": "https://linuxbrew.bintray.com/bottles/libosip-5.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6a92bcb59772b46d9eba4e340f01cd798f54fcf521a6f6e09011c4f89c44d863",
+          "url": "https://linuxbrew.bintray.com/bottles/libosip-5.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a6f031a29e43ee5af71d20f9c9b86bc138ad55a1c41faef1f2f852b5595912a8",
+          "url": "https://linuxbrew.bintray.com/bottles/libosip-5.0.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "01816d798919670ccce2726b59aa1752d4f6ef2a3e74df5e9141882c778e1f37",
+          "url": "https://linuxbrew.bintray.com/bottles/libosip-5.0.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Implementation of the eXosip2 stack",
+  "full_name": "libosip",
+  "homepage": "https://www.gnu.org/software/osip/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libosip",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.0.0"
+  }
+}

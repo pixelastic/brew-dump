@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9cbbd25ce9019d92e6ed3c8ce5af9533b0d79d79f96b01fc8741016a3bd4eb39",
+          "url": "https://linuxbrew.bintray.com/bottles/yafc-1.3.7_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "40c44b84a96b4cf65ee0c1d09a2770ede71e5cfd7fdf9c24504723a8b1eaef3f",
+          "url": "https://linuxbrew.bintray.com/bottles/yafc-1.3.7_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "05ea440c672b5283feaf2597a8c0525d3ff4228cd2347aabd3a69d282d245dd2",
+          "url": "https://linuxbrew.bintray.com/bottles/yafc-1.3.7_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3ac839135bac59b4d1d98cb662adc558109167fd21e69976dd39e1e3602de25b",
+          "url": "https://linuxbrew.bintray.com/bottles/yafc-1.3.7_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "readline",
+    "libssh"
+  ],
+  "desc": "Command-line FTP client",
+  "full_name": "yafc",
+  "homepage": "http://www.yafc-ftp.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yafc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without libssh support",
+      "option": "--without-libssh"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libssh"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3.7"
+  }
+}

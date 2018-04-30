@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8753b0c9ec11f1f6195fa52c346b4d6015652931908156dcdb4468cc94103d1c",
+          "url": "https://linuxbrew.bintray.com/bottles/libstxxl-1.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a8b116ba332c5d32055f754db6fb491e3c3fd87b4b4a317213a2e0963d34ddeb",
+          "url": "https://linuxbrew.bintray.com/bottles/libstxxl-1.4.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "5a64626281265368e41f51089271c031ae8782651d65fe012f8a86949e37573b",
+          "url": "https://linuxbrew.bintray.com/bottles/libstxxl-1.4.1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "2d5d3e4c697422777d98708aa5db58a1d26b55165f0e633700bf9934fbde5c9e",
+          "url": "https://linuxbrew.bintray.com/bottles/libstxxl-1.4.1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0f9cb534bcdc8d344dd5da5b8381cca527e515d1a3df2bf5b3785783f7f482d7",
+          "url": "https://linuxbrew.bintray.com/bottles/libstxxl-1.4.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fbefd1ceb6f328ef77b9a005f5bc3c93fe23fa68d60b4a5e126a68a6a9d8e17d",
+          "url": "https://linuxbrew.bintray.com/bottles/libstxxl-1.4.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "C++ implementation of STL for extra large data sets",
+  "full_name": "libstxxl",
+  "homepage": "https://stxxl.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libstxxl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.1"
+  }
+}

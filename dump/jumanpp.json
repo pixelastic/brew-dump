@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4b4dd5ca55ba7d380a9a6bc7dda462c3825aa8650e9dc6b131e53fadbf64dc63",
+          "url": "https://linuxbrew.bintray.com/bottles/jumanpp-1.02.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "87555f0efa065cd86d3344c8304972567d4b8a84ef1c0e53acb09afabbd1fa9e",
+          "url": "https://linuxbrew.bintray.com/bottles/jumanpp-1.02.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "afddd3445d86fa1969611b413d0ae460fdaa7b106cdf5edf6ce0bf9d14689a49",
+          "url": "https://linuxbrew.bintray.com/bottles/jumanpp-1.02.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d53d25e49f4bd8cddd2657ee09eeaec56844996b10445c15561be1a12977a888",
+          "url": "https://linuxbrew.bintray.com/bottles/jumanpp-1.02.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "boost-build"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost-build",
+    "boost",
+    "gperftools"
+  ],
+  "desc": "Japanese Morphological Analyzer based on RNNLM",
+  "full_name": "jumanpp",
+  "homepage": "http://nlp.ist.i.kyoto-u.ac.jp/EN/index.php?JUMAN%2B%2B",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jumanpp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.02"
+  }
+}

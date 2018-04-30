@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c3c5ea34eeea62e0c7fc379e6691eed05edbb4ceabe2c568683acd474061e565",
+          "url": "https://linuxbrew.bintray.com/bottles/jsvc-1.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "867f5db60424ee34f1d72059cb3f60ace96abeca8005c85e4401006b53db1aa5",
+          "url": "https://linuxbrew.bintray.com/bottles/jsvc-1.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d67d2a5120584d15afca82c5100c0314c0c865e51f982f1512f2deebbcb14b08",
+          "url": "https://linuxbrew.bintray.com/bottles/jsvc-1.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "abe2b0123b4e733a90153120e25083bfdd3db324b78bad2269d248fcbfea438a",
+          "url": "https://linuxbrew.bintray.com/bottles/jsvc-1.1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Wrapper to launch Java applications as daemons",
+  "full_name": "jsvc",
+  "homepage": "https://commons.apache.org/daemon/jsvc.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jsvc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.0"
+  }
+}

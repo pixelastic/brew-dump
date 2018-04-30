@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "535a6527f264e9c02435fcd549052e40d605645afb17bafd6efbd117fbdad053",
+          "url": "https://linuxbrew.bintray.com/bottles/container-diff-0.9.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b02b2c908f3fc6682c792b24f8b9e42c8049c0d1d7cef3a99852156048ccf2db",
+          "url": "https://linuxbrew.bintray.com/bottles/container-diff-0.9.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1e11353fdbfbe3ef68bc79a06f90d2f575d140c5d451b88330c5fb319f326dff",
+          "url": "https://linuxbrew.bintray.com/bottles/container-diff-0.9.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6fd38ae5a372065ba59a835997ac1ce4483c7db796cbf20aab27d618e4e0ae8d",
+          "url": "https://linuxbrew.bintray.com/bottles/container-diff-0.9.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Diff your Docker containers",
+  "full_name": "container-diff",
+  "homepage": "https://github.com/GoogleCloudPlatform/container-diff",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "container-diff",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.0"
+  }
+}

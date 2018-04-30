@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "19da64e0188bf1f95d50a76a4c2d6f1601dd61ccdbd475131aca020b68cf90b0",
+          "url": "https://linuxbrew.bintray.com/bottles/dynare-4.5.4_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8d2ac3f91c6fb52e00f11a52e26dee2f14bcc7ab2bcbacb1955d38c612a04863",
+          "url": "https://linuxbrew.bintray.com/bottles/dynare-4.5.4_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c7be8466ecaae1131105ce5ca01f206e7dbe36c0f0484b4b6eb54342892c6372",
+          "url": "https://linuxbrew.bintray.com/bottles/dynare-4.5.4_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "boost",
+    "cweb"
+  ],
+  "caveats": "To get started with Dynare, open Octave and type\n  addpath /home/tim/.linuxbrew/opt/dynare/lib/dynare/matlab\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "cweb",
+    "fftw",
+    "gcc",
+    "gsl",
+    "hdf5",
+    "libmatio",
+    "metis",
+    "octave",
+    "suite-sparse",
+    "veclibfort"
+  ],
+  "desc": "Platform for economic models, particularly DSGE and OLG models",
+  "full_name": "dynare",
+  "homepage": "https://www.dynare.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dynare",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.5.4"
+  }
+}

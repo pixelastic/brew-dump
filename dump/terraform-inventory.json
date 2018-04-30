@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d876b7acee1bfaaeaaf284bfd8518195b10005f7de504c8aaf39be3164b93dac",
+          "url": "https://linuxbrew.bintray.com/bottles/terraform-inventory-0.6.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "15e8799c163c87affb5f4a48ffbb3e1f0392f837df4fba1db174088fe8159c6b",
+          "url": "https://linuxbrew.bintray.com/bottles/terraform-inventory-0.6.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "19fed440ba3c95ef85fcd529f151131136fa684c9a091d17177ac8f74426e7d5",
+          "url": "https://linuxbrew.bintray.com/bottles/terraform-inventory-0.6.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6c423700ad3cb2a27295cbbca5de08a5a47b3f42a7c9cc53abfe9c3d1061b6b3",
+          "url": "https://linuxbrew.bintray.com/bottles/terraform-inventory-0.6.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "77b4cfd96088f6019ad5bd0f0faf6757d1fb8c34ea3b327490ff33fde03538c1",
+          "url": "https://linuxbrew.bintray.com/bottles/terraform-inventory-0.6.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Terraform State → Ansible Dynamic Inventory",
+  "full_name": "terraform-inventory",
+  "homepage": "https://github.com/adammck/terraform-inventory",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "terraform-inventory",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.6.1"
+  }
+}

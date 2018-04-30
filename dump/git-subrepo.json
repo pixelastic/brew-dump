@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f7d319ded76484efef8f34b45853e97c5d663cc2c4e76e91ed0f6a7fae1a8edb",
+          "url": "https://linuxbrew.bintray.com/bottles/git-subrepo-0.3.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ee31c24df2bf36697f81c0b2b4f1779f4bb4987187050ba28bb7ff6069c12383",
+          "url": "https://linuxbrew.bintray.com/bottles/git-subrepo-0.3.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f7d319ded76484efef8f34b45853e97c5d663cc2c4e76e91ed0f6a7fae1a8edb",
+          "url": "https://linuxbrew.bintray.com/bottles/git-subrepo-0.3.1_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f7d319ded76484efef8f34b45853e97c5d663cc2c4e76e91ed0f6a7fae1a8edb",
+          "url": "https://linuxbrew.bintray.com/bottles/git-subrepo-0.3.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Git Submodule Alternative",
+  "full_name": "git-subrepo",
+  "homepage": "https://github.com/ingydotnet/git-subrepo",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git-subrepo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.3.1"
+  }
+}

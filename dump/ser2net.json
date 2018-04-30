@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5b94f195c765af83306e29f0d8e2556751cbdad1669866761faaeaf199023805",
+          "url": "https://linuxbrew.bintray.com/bottles/ser2net-2.10.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6cfa743d0e2090bed8f8c2e0495a840dfe77b1f3544582f60a0483315dcfe5ba",
+          "url": "https://linuxbrew.bintray.com/bottles/ser2net-2.10.1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "63b36a1ef39e534d2a8ae91caede4abea2dcfc4ed9ba1ef69f2da6a30baf7b31",
+          "url": "https://linuxbrew.bintray.com/bottles/ser2net-2.10.1.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To configure ser2net, edit the example configuration in /home/tim/.linuxbrew/etc/ser2net.conf\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Allow network connections to serial ports",
+  "full_name": "ser2net",
+  "homepage": "https://ser2net.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ser2net",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.10.1"
+  }
+}

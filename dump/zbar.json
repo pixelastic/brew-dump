@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b30c6de3d4194cfe20e054cb2f3aa271766f1147da91295bf03db9c422384a7d",
+          "url": "https://linuxbrew.bintray.com/bottles/zbar-0.10_8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5929b876b1536e7b4c75ea08e52a94aafb43326bdfda8258929929a867e8f15d",
+          "url": "https://linuxbrew.bintray.com/bottles/zbar-0.10_8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "86a824f7c99c057389d03591a665a85d975e43f7296bf2a26e8bd7664846562a",
+          "url": "https://linuxbrew.bintray.com/bottles/zbar-0.10_8.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "jpeg",
+    "imagemagick",
+    "ufraw",
+    "xz",
+    "freetype",
+    "libtool"
+  ],
+  "desc": "Suite of barcodes-reading tools",
+  "full_name": "zbar",
+  "homepage": "https://zbar.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zbar",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 8,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.10"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0d60e875c6b6a135ca98ead7436ca3cf8a073e2a2c5fe5aef64867d24da52ce5",
+          "url": "https://linuxbrew.bintray.com/bottles/root-6.12.06.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "26c632e4a43db19c05cb4680feb9769d07d167e2df8faaa60b218b6784d134c4",
+          "url": "https://linuxbrew.bintray.com/bottles/root-6.12.06.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7a4b7823f8a2af91ebe3cc42ef96a4d6766fff7a0928c2b853bd00297eb1efa7",
+          "url": "https://linuxbrew.bintray.com/bottles/root-6.12.06.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": "Because ROOT depends on several installation-dependent\nenvironment variables to function properly, you should\nadd the following commands to your shell initialization\nscript (.bashrc/.profile/etc.), or call them directly\nbefore using ROOT.\n\nFor bash users:\n  . /home/tim/.linuxbrew/bin/thisroot.sh\nFor zsh users:\n  pushd /home/tim/.linuxbrew >/dev/null; . bin/thisroot.sh; popd >/dev/null\nFor csh/tcsh users:\n  source /home/tim/.linuxbrew/bin/thisroot.csh\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "fftw",
+    "gcc",
+    "graphviz",
+    "gsl",
+    "openssl",
+    "pcre",
+    "xrootd",
+    "xz",
+    "python",
+    "python@2"
+  ],
+  "desc": "Object oriented framework for large scale data analysis",
+  "full_name": "root",
+  "homepage": "https://root.cern.ch",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "root",
+  "oldname": "root6",
+  "optional_dependencies": [
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Build without python support",
+      "option": "--without-python"
+    },
+    {
+      "description": "Build with python@2 support",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.12.06"
+  }
+}

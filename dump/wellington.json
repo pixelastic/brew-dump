@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f681adb615a82377c1855000ac57c26c7403df8f8a1371646630afaddb922e63",
+          "url": "https://linuxbrew.bintray.com/bottles/wellington-1.0.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "df25c2ccd2a972ba8e208168552d97fab66aedda36eb34df7b52b16f8db0d386",
+          "url": "https://linuxbrew.bintray.com/bottles/wellington-1.0.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a0ba1b9d9b495bf840140087276b501c0458b0d9d64a7bd83d19208e5787a569",
+          "url": "https://linuxbrew.bintray.com/bottles/wellington-1.0.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "224a5a7d40b14cbd89e6cec80c73fd775aaf660c94fba53d651b70aab56524e9",
+          "url": "https://linuxbrew.bintray.com/bottles/wellington-1.0.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "pkg-config"
+  ],
+  "desc": "Project-focused tool to manage Sass and spriting",
+  "full_name": "wellington",
+  "homepage": "https://getwt.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wellington",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.4"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "dd76de959f08a89e5cba3c135607af53a922413f584397cd141fb6a93b52587c",
+          "url": "https://linuxbrew.bintray.com/bottles/gupnp-tools-0.8.14_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "45ebb44e94ed47a5e47e6eb7de6fa4abc68029ca96a9f5217dfb3176c95c343f",
+          "url": "https://linuxbrew.bintray.com/bottles/gupnp-tools-0.8.14_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "270aa92cd6ae9fd83560c997d444afff984615c71bf81600701c22fe0216c058",
+          "url": "https://linuxbrew.bintray.com/bottles/gupnp-tools-0.8.14_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "gettext",
+    "gupnp",
+    "gupnp-av",
+    "gtk+3",
+    "gtksourceview3"
+  ],
+  "desc": "Free replacements of Intel's UPnP tools",
+  "full_name": "gupnp-tools",
+  "homepage": "https://wiki.gnome.org/GUPnP/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gupnp-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.14"
+  }
+}

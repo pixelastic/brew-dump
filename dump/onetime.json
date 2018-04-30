@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9f73f9cdb465fce1aefc3cf80c00bc8e43b41a33c3e999fb3ec531251cfc3da0",
+          "url": "https://linuxbrew.bintray.com/bottles/onetime-1.81_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9f73f9cdb465fce1aefc3cf80c00bc8e43b41a33c3e999fb3ec531251cfc3da0",
+          "url": "https://linuxbrew.bintray.com/bottles/onetime-1.81_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9f73f9cdb465fce1aefc3cf80c00bc8e43b41a33c3e999fb3ec531251cfc3da0",
+          "url": "https://linuxbrew.bintray.com/bottles/onetime-1.81_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Encryption with one-time pads",
+  "full_name": "onetime",
+  "homepage": "http://red-bean.com/onetime/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "onetime",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "2.0.13",
+    "head": null,
+    "stable": "1.81"
+  }
+}

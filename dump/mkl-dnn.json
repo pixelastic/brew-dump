@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d92f64a36897592d1996adfede93c4c90da5ebd2edaab9d420c4dbb2e8e4ec3d",
+          "url": "https://linuxbrew.bintray.com/bottles/mkl-dnn-0.14.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0dab3f3d0f9f93c83e688b0ec3f2f70ff1c39fd8fb016bca31f81938613a54c1",
+          "url": "https://linuxbrew.bintray.com/bottles/mkl-dnn-0.14.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a116e14e37656921fa9a2008b91228467020b5ad4f3188303ebf8fab32e6d3c4",
+          "url": "https://linuxbrew.bintray.com/bottles/mkl-dnn-0.14.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "doxygen"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "doxygen"
+  ],
+  "desc": "Intel Math Kernel Library for Deep Neural Networks",
+  "full_name": "mkl-dnn",
+  "homepage": "https://01.org/mkl-dnn",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mkl-dnn",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.14"
+  }
+}

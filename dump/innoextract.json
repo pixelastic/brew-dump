@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "bc8067405c9d0ce50abcc398dffa9f70bac62e48025cecace2bf3cff44f58974",
+          "url": "https://linuxbrew.bintray.com/bottles/innoextract-1.6_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3ef597b97eebaa9336c73597b7f4dbcec5bfff6fe112524fde4421b34b823060",
+          "url": "https://linuxbrew.bintray.com/bottles/innoextract-1.6_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "87e0929063d004f693b5c7dad597334fdb6282fc2b244c2b859f42e62ef3f613",
+          "url": "https://linuxbrew.bintray.com/bottles/innoextract-1.6_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0581a58c46ee032306d8e73c1ed6429b42f0e01d9fc4765ca455b836aae22931",
+          "url": "https://linuxbrew.bintray.com/bottles/innoextract-1.6_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "boost",
+    "xz"
+  ],
+  "desc": "Tool to unpack installers created by Inno Setup",
+  "full_name": "innoextract",
+  "homepage": "https://constexpr.org/innoextract/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "innoextract",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.6"
+  }
+}

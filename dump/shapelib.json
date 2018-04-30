@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5ec5a7f6ae4857b2b43bdbcc360558e4f90ca6e510b42edd3ac5961988db195e",
+          "url": "https://linuxbrew.bintray.com/bottles/shapelib-1.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cdc9cc715cc716357b9faa701b930117e85b13e89a940ad6dbd6413af6308384",
+          "url": "https://linuxbrew.bintray.com/bottles/shapelib-1.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dd4f69f0833e460653959dee684d687bc2186031c5f7481dc5b6d3bc0f383e59",
+          "url": "https://linuxbrew.bintray.com/bottles/shapelib-1.4.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6cd581a91e82011b20f0b9f807f563ea3807641ffe9c732501028d268fbac59d",
+          "url": "https://linuxbrew.bintray.com/bottles/shapelib-1.4.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Library for reading and writing ArcView Shapefiles",
+  "full_name": "shapelib",
+  "homepage": "http://shapelib.maptools.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "shapelib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.1"
+  }
+}

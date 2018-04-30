@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "156b4d5aaa71240da5707376fd4d8f61f9a39f21756dafdadf6180257f9d593f",
+          "url": "https://linuxbrew.bintray.com/bottles/apache-arrow-0.9.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ad46f2697053ace2da654ee4752d022f29e1de12d0f4627c12e1c44b9c911334",
+          "url": "https://linuxbrew.bintray.com/bottles/apache-arrow-0.9.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5fb9d7f3e9ba08ec3f39e36f1f264ace354fcc521b1527eddb930102d24a14ca",
+          "url": "https://linuxbrew.bintray.com/bottles/apache-arrow-0.9.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "boost",
+    "jemalloc"
+  ],
+  "desc": "Columnar in-memory analytics layer designed to accelerate big data",
+  "full_name": "apache-arrow",
+  "homepage": "https://arrow.apache.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "apache-arrow",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.0"
+  }
+}

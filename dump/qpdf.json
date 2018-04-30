@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0c3a19ca49a699ac443255c25a8f684bb7c9c80133f1a477594a06f00bf681ff",
+          "url": "https://linuxbrew.bintray.com/bottles/qpdf-8.0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9fd9f92561462b908933e50460c613dd953497622958d1cd0417aa72ba9fc741",
+          "url": "https://linuxbrew.bintray.com/bottles/qpdf-8.0.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ed1a2d5507a5a86beb37a1f125c6a2d553ff1fbf3538baa2e4673ae24d8ce998",
+          "url": "https://linuxbrew.bintray.com/bottles/qpdf-8.0.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "jpeg"
+  ],
+  "desc": "Tools for and transforming and inspecting PDF files",
+  "full_name": "qpdf",
+  "homepage": "https://qpdf.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qpdf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "8.0.2"
+  }
+}

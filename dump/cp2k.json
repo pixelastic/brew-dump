@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0f1e0c6fd23c666c9b6b253d9c6e035d1e973ea4dd6f65d02211e38be65700c1",
+          "url": "https://linuxbrew.bintray.com/bottles/cp2k-5.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "85d3a5ad5abc2e16391d30ad91ebe10517652598f17beac62265bd66f67a1eef",
+          "url": "https://linuxbrew.bintray.com/bottles/cp2k-5.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9b516e4a0764b18f236a369b8f884d877a4ab08bf4fdfe66a29004f61695116b",
+          "url": "https://linuxbrew.bintray.com/bottles/cp2k-5.1_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "fftw",
+    "gcc",
+    "libxc",
+    "open-mpi",
+    "scalapack"
+  ],
+  "desc": "Quantum chemistry and solid state physics software package",
+  "full_name": "cp2k",
+  "homepage": "https://www.cp2k.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cp2k",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.1"
+  }
+}

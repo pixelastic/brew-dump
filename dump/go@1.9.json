@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a14c5b76772760a32201f9cdc10d4f8f0f52f7d40a692feb6de2a444954eebc1",
+          "url": "https://linuxbrew.bintray.com/bottles/go@1.9-1.9.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f4fe214d30b295ba356d4f4e0268d8bfccadc183bd9803a7a1d66caece96eee8",
+          "url": "https://linuxbrew.bintray.com/bottles/go@1.9-1.9.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9603d3463cfe1c18547ede8ad83a3f8eaa49ab8300225d2623e7e97fa2a193bc",
+          "url": "https://linuxbrew.bintray.com/bottles/go@1.9-1.9.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "A valid GOPATH is required to use the `go get` command.\nIf $GOPATH is not specified, $HOME/go will be used by default:\n  https://golang.org/doc/code.html#GOPATH\n\nYou may wish to add the GOROOT-based install location to your PATH:\n  export PATH=$PATH:/home/tim/.linuxbrew/opt/go@1.9/libexec/bin\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Go programming environment (1.9)",
+  "full_name": "go@1.9",
+  "homepage": "https://golang.org",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "go@1.9",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without cgo (also disables race detector)",
+      "option": "--without-cgo"
+    },
+    {
+      "description": "Build without race detector",
+      "option": "--without-race"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9.5"
+  }
+}

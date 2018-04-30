@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1b22606a88b9d76e6fa41d4892bc40ec8553740a9b5467fb5be17b1871376dbd",
+          "url": "https://linuxbrew.bintray.com/bottles/corsixth-0.61_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f6fff1b9d33191fb30fc3b6ddd02b5690a1f23d1f0c80ab5e495c0b3ac8a05a2",
+          "url": "https://linuxbrew.bintray.com/bottles/corsixth-0.61_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8c3fcdadd2f5aa7e23e72d516ca41bb23fcf148d7480243531eb4fd2a92cff94",
+          "url": "https://linuxbrew.bintray.com/bottles/corsixth-0.61_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "ffmpeg",
+    "freetype",
+    "lua",
+    "sdl2",
+    "sdl2_mixer"
+  ],
+  "desc": "Open source clone of Theme Hospital",
+  "full_name": "corsixth",
+  "homepage": "https://github.com/CorsixTH/CorsixTH",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "corsixth",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.61"
+  }
+}

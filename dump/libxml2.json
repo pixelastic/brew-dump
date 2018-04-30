@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "cdcc13eab3436e1c44dcae42396e519e4a5119552818b656a2c7a5d878b9a912",
+          "url": "https://linuxbrew.bintray.com/bottles/libxml2-2.9.7_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ff9bf7d946d5413fb1f2837a187bd026f469a67b78ba6589f5b565f0133b58f2",
+          "url": "https://linuxbrew.bintray.com/bottles/libxml2-2.9.7_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0b9bc0fe308a22b557822d0bc254f209e33bd7b4948d7d08a14d620e1f8b6a3b",
+          "url": "https://linuxbrew.bintray.com/bottles/libxml2-2.9.7_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "38864bea9cef0b3dbccbc4479f152a4716a634f450ef7f217405f72a894b4d7d",
+          "url": "https://linuxbrew.bintray.com/bottles/libxml2-2.9.7_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "zlib"
+  ],
+  "desc": "GNOME XML library",
+  "full_name": "libxml2",
+  "homepage": "http://xmlsoft.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libxml2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.9.7"
+  }
+}

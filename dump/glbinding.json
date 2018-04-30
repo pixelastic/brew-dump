@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "206ed78988d76389de106d58d8b8ffb8417fc1e48ed32141f58e3ebc1f41b77e",
+          "url": "https://linuxbrew.bintray.com/bottles/glbinding-2.1.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fd4ecf93841f884924c9394e6c9ce1ceadbd4d4a5d93a8e816ba547873fe8f84",
+          "url": "https://linuxbrew.bintray.com/bottles/glbinding-2.1.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "17af598a7d19f598412b3c94efe9166ab31f027d81ed3ded7aa7e2e318c2d166",
+          "url": "https://linuxbrew.bintray.com/bottles/glbinding-2.1.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "glfw"
+  ],
+  "desc": "C++ binding for the OpenGL API",
+  "full_name": "glbinding",
+  "homepage": "https://github.com/cginternals/glbinding",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "glbinding",
+  "oldname": null,
+  "optional_dependencies": [
+    "glfw"
+  ],
+  "options": [
+    {
+      "description": "Enable tools that display OpenGL information for your system",
+      "option": "--with-glfw"
+    },
+    {
+      "description": "Build static instead of shared glbinding libraries",
+      "option": "--with-static"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.1.4"
+  }
+}

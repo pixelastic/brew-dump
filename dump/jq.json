@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b3f95569c5d67db9c9c1e9eeff670e8769bd5b40ebf1e170bd64be7e62b8e576",
+          "url": "https://linuxbrew.bintray.com/bottles/jq-1.5_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "25be689b9bca3cef2ee0cb647388200d25f045f651679ef8871b8a86100f9e43",
+          "url": "https://linuxbrew.bintray.com/bottles/jq-1.5_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "11e169f340dc1f93fbb3c21a87c3aaa7d1242967ed11672663e6e827e622ef0d",
+          "url": "https://linuxbrew.bintray.com/bottles/jq-1.5_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "cfad6f50b6630939fc7f32a97d3f70d3233b3a960290105892648b525a8a9886",
+          "url": "https://linuxbrew.bintray.com/bottles/jq-1.5_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "oniguruma"
+  ],
+  "desc": "Lightweight and flexible command-line JSON processor",
+  "full_name": "jq",
+  "homepage": "https://stedolan.github.io/jq/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jq",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "1.6rc1",
+    "head": "HEAD",
+    "stable": "1.5"
+  }
+}

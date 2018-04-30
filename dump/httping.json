@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f283d8cde06988fa6117d7cb1e008ae480851e8f4e9ba60fd8f429864499f983",
+          "url": "https://linuxbrew.bintray.com/bottles/httping-2.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "99b687e9e7cbadbb3e1774e89538395e7630152631fa90471d6f784927759c4c",
+          "url": "https://linuxbrew.bintray.com/bottles/httping-2.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b209aa24927ed620ce6a7e676c7358ca94d17ec456c8b7b49b72b1aec57c44ed",
+          "url": "https://linuxbrew.bintray.com/bottles/httping-2.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c4784fc08f239a6fd0f778657fe11509f445ee889f6d6b305c30c533be25f35c",
+          "url": "https://linuxbrew.bintray.com/bottles/httping-2.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gettext",
+    "openssl",
+    "fftw"
+  ],
+  "desc": "Ping-like tool for HTTP requests",
+  "full_name": "httping",
+  "homepage": "https://www.vanheusden.com/httping/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "httping",
+  "oldname": null,
+  "optional_dependencies": [
+    "fftw"
+  ],
+  "options": [
+    {
+      "description": "Build with fftw support",
+      "option": "--with-fftw"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.5"
+  }
+}

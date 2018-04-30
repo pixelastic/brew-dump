@@ -1,0 +1,99 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "94600d322a7d86c27d81ca1dcdcd4fb7aec596ff80df67233163436dec263238",
+          "url": "https://linuxbrew.bintray.com/bottles/mkvtoolnix-22.0.0_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "245c1cd594fdf5b8d98d37bc2f33550209eeca371e96649c0ed3c95e6d467180",
+          "url": "https://linuxbrew.bintray.com/bottles/mkvtoolnix-22.0.0_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eaa641f3b00207569d18b18382b3e20bcb3179af7c430e0642dba496f4122ede",
+          "url": "https://linuxbrew.bintray.com/bottles/mkvtoolnix-22.0.0_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "docbook-xsl",
+    "pkg-config",
+    "pugixml",
+    "ruby",
+    "libxslt"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "docbook-xsl",
+    "pkg-config",
+    "pugixml",
+    "ruby",
+    "boost",
+    "libebml",
+    "libmatroska",
+    "libogg",
+    "libvorbis",
+    "flac",
+    "libmagic",
+    "gettext",
+    "qt",
+    "libxslt"
+  ],
+  "desc": "Matroska media files manipulation tools",
+  "full_name": "mkvtoolnix",
+  "homepage": "https://www.bunkus.org/videotools/mkvtoolnix/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mkvtoolnix",
+  "oldname": null,
+  "optional_dependencies": [
+    "qt"
+  ],
+  "options": [
+    {
+      "description": "Build with Qt GUI",
+      "option": "--with-qt"
+    },
+    {
+      "description": "Build without flac support",
+      "option": "--without-flac"
+    },
+    {
+      "description": "Build without libmagic support",
+      "option": "--without-libmagic"
+    },
+    {
+      "description": "Build without gettext support",
+      "option": "--without-gettext"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "flac",
+    "libmagic",
+    "gettext"
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "22.0.0"
+  }
+}

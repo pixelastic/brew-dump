@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "58a18aaf640e1b4788876082272dee570c7b8c3bf459463ec72f14d10a8bfc59",
+          "url": "https://linuxbrew.bintray.com/bottles/geocode-glib-3.24.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "780bb3b6c0a4254b86b7ea19aaa38b7aefd64d3e426bb0ecffd1bec2ca0e48ff",
+          "url": "https://linuxbrew.bintray.com/bottles/geocode-glib-3.24.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "46f57b5d17d403eac2ac15a9d855cc97419c657d6956d41893f9f9ac02809354",
+          "url": "https://linuxbrew.bintray.com/bottles/geocode-glib-3.24.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "gtk+3",
+    "json-glib",
+    "libsoup"
+  ],
+  "desc": "GNOME library for gecoding and reverse geocoding",
+  "full_name": "geocode-glib",
+  "homepage": "https://developer.gnome.org/geocode-glib",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "geocode-glib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.24.0"
+  }
+}

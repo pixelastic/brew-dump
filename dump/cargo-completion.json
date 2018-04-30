@@ -1,0 +1,41 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "rust"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Bash and Zsh completion for Cargo",
+  "full_name": "cargo-completion",
+  "homepage": "https://github.com/rust-lang/cargo",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cargo-completion",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.25.0"
+  }
+}

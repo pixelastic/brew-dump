@@ -1,0 +1,83 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bec85433a35605164bdbf5f8913e29eb6d9ceb5acc5569dd9d864706ae6c8d49",
+          "url": "https://linuxbrew.bintray.com/bottles/cairo-1.14.12_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5bdc28de8e5a615ab664d43f7f322ed02d58071171415bb6e2750f486b9465e2",
+          "url": "https://linuxbrew.bintray.com/bottles/cairo-1.14.12_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "102847d74a0a11bb6143d93b9f32e1736e88036fb4c685d554a8bcd376bbd929",
+          "url": "https://linuxbrew.bintray.com/bottles/cairo-1.14.12_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f280c34cad69a036fb1f209249e054e78da643481afd8a3962bed5ad91ca9ccb",
+          "url": "https://linuxbrew.bintray.com/bottles/cairo-1.14.12_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "freetype",
+    "fontconfig",
+    "libpng",
+    "pixman",
+    "glib",
+    "zlib",
+    "linuxbrew/xorg/xorg",
+    "linuxbrew/xorg/kbproto",
+    "linuxbrew/xorg/libxcb",
+    "linuxbrew/xorg/renderproto",
+    "linuxbrew/xorg/xcb-proto",
+    "linuxbrew/xorg/xextproto"
+  ],
+  "desc": "Vector graphics library with cross-device output support",
+  "full_name": "cairo",
+  "homepage": "https://cairographics.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cairo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without xorg support",
+      "option": "--without-xorg"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "linuxbrew/xorg/xorg"
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.14.12"
+  }
+}

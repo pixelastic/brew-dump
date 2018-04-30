@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d0998cd6fb89d689aeb6f88bcd92039ad88daa3aef8b718bbcb8be6a3c4a7e39",
+          "url": "https://linuxbrew.bintray.com/bottles/web100clt-3.7.0.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "93f6e31d1b28eea6a6f64d6bcacf39db135725bd6130a88173a724c6968c8c62",
+          "url": "https://linuxbrew.bintray.com/bottles/web100clt-3.7.0.2_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "86b6d51af3d9e33db8220d8834d04aeed0241872a28aeac697b4357d2afbcc2e",
+          "url": "https://linuxbrew.bintray.com/bottles/web100clt-3.7.0.2_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "be444b693ab664de5d521242702bf91a1518cd8945d7d6db1b03126f8a2638bb",
+          "url": "https://linuxbrew.bintray.com/bottles/web100clt-3.7.0.2_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e2acae1966b2897ef89dcec1610e164f4c8bee054369d2012e1619853c6674d0",
+          "url": "https://linuxbrew.bintray.com/bottles/web100clt-3.7.0.2_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "i2util",
+    "jansson",
+    "openssl"
+  ],
+  "desc": "Command-line version of NDT diagnostic client",
+  "full_name": "web100clt",
+  "homepage": "https://software.internet2.edu/ndt/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "web100clt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.7.0.2"
+  }
+}

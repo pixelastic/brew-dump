@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Activates NFS on docker-machine",
+  "full_name": "docker-machine-nfs",
+  "homepage": "https://github.com/adlogix/docker-machine-nfs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "docker-machine-nfs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "0.5.0"
+  }
+}

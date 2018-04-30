@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7daa296cf49de573214b4f2c72e3b621bbbc1ef5bfebfbe00fb18a70ba8e3152",
+          "url": "https://linuxbrew.bintray.com/bottles/m4-1.4.18.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "066b43f14d9422bee66df1a6f62778e805a0308a36243d99e2d584e08a579dd8",
+          "url": "https://linuxbrew.bintray.com/bottles/m4-1.4.18.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b0fe54c5705842618e6446c4c804330df89a78ed09bd5b013b2c5fabf34b218f",
+          "url": "https://linuxbrew.bintray.com/bottles/m4-1.4.18.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5a2327087fb76145b4d0fb23acc244115adc3ced14ffc2a6231159a4f16c8a7f",
+          "url": "https://linuxbrew.bintray.com/bottles/m4-1.4.18.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "00d9327f2e8a59996228569bf4faff1c6550653eb3e20353e77f73a34063f3eb",
+          "url": "https://linuxbrew.bintray.com/bottles/m4-1.4.18.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Macro processing language",
+  "full_name": "m4",
+  "homepage": "https://www.gnu.org/software/m4",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "m4",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.18"
+  }
+}

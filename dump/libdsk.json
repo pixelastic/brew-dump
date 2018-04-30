@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b14fb001603c2ba33a26c0f49c7b008659ca5aa05ffaa01ab8147bac4da40d46",
+          "url": "https://linuxbrew.bintray.com/bottles/libdsk-1.4.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b4fa361c1800fd348c804873fd03f8663f7324eed228c3ba2e2d809a58fbbb97",
+          "url": "https://linuxbrew.bintray.com/bottles/libdsk-1.4.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d46bdf8e9c779b22a2a21c123572c08130aa36b8a817365ee3bd76219478aad3",
+          "url": "https://linuxbrew.bintray.com/bottles/libdsk-1.4.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library for accessing discs and disc image files",
+  "full_name": "libdsk",
+  "homepage": "https://www.seasip.info/Unix/LibDsk/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libdsk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.2"
+  }
+}

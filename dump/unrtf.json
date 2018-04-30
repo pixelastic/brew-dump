@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2d658e54c0f66ae90764c8588fa7181c68d69d505336747b9bd5e496ba7b99d6",
+          "url": "https://linuxbrew.bintray.com/bottles/unrtf-0.21.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "20b25e70ca6dce766d851b7bafef64adf81633ff8cf6cb5ed97c70a4abbc3c60",
+          "url": "https://linuxbrew.bintray.com/bottles/unrtf-0.21.9.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "852bd896c8537489400e646ed41f2876079e124203e493cfc1e2d7f51d024726",
+          "url": "https://linuxbrew.bintray.com/bottles/unrtf-0.21.9.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "7e680da7a4c4da9ed3b21f04e5125721cf506cc9579a2e95b4635078b0606cb2",
+          "url": "https://linuxbrew.bintray.com/bottles/unrtf-0.21.9.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6d305effeb3f7b8196db7c0746c2efb3170a809186916d7380ee35390cc9786b",
+          "url": "https://linuxbrew.bintray.com/bottles/unrtf-0.21.9.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "42737f31a7ea06592c2ad22a48f0e2537c0cd025129870399bd4f0fbe7362a98",
+          "url": "https://linuxbrew.bintray.com/bottles/unrtf-0.21.9.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "automake",
+    "autoconf"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "automake",
+    "autoconf"
+  ],
+  "desc": "RTF to other formats converter",
+  "full_name": "unrtf",
+  "homepage": "https://www.gnu.org/software/unrtf/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "unrtf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.21.9"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6763e3cfb49aba34aab28df7a0deec27fa9603463220f4b2d4750530176ba6bf",
+          "url": "https://linuxbrew.bintray.com/bottles/di-4.46.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "81c4864d599c750853763af46e78d9cc63f7cd57d892e9609e80eecd6c815eac",
+          "url": "https://linuxbrew.bintray.com/bottles/di-4.46.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cd3618e1d20bbacf19690dd9b851399714e94bd89af4a9b4e22de6dd38ce39d1",
+          "url": "https://linuxbrew.bintray.com/bottles/di-4.46.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "95f51f148e55dfffa0e3891fc5ee1aecb851f325b69deccf1b97512cc0e42cfe",
+          "url": "https://linuxbrew.bintray.com/bottles/di-4.46.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Advanced df-like disk information utility",
+  "full_name": "di",
+  "homepage": "https://gentoo.com/di/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "di",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.46"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c720948c84996b651176968c096492da2242cb6b57226e04e25f9251c782491a",
+          "url": "https://linuxbrew.bintray.com/bottles/remind-03.01.15.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c0d65b1c0428721038f25d11e4ad00de344b34bca29e23afa5354e4efcfbd955",
+          "url": "https://linuxbrew.bintray.com/bottles/remind-03.01.15.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "958eafdd458799e788457837d01ef387c5368ffee6f9a6b1ce363678a9cbc8a5",
+          "url": "https://linuxbrew.bintray.com/bottles/remind-03.01.15.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "fb78fa7e3df893822473b56d79d64d48ff5827c7df3ce6d518985262c99d3056",
+          "url": "https://linuxbrew.bintray.com/bottles/remind-03.01.15.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b89632422362efd9660eb98e53dfe3ca62006003c34a03d3b57bb8698b3a53a1",
+          "url": "https://linuxbrew.bintray.com/bottles/remind-03.01.15.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b72ffda6998a1c203686b82b8e07c3132bc380fb9126a2ca22254608d3c418c8",
+          "url": "https://linuxbrew.bintray.com/bottles/remind-03.01.15.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "rem"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Sophisticated calendar and alarm",
+  "full_name": "remind",
+  "homepage": "https://www.roaringpenguin.com/products/remind",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "remind",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "03.01.15"
+  }
+}

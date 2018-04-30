@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7602f76b0667a7dd1527c01285274c2cca24d5e638b9a0c4a90cbc004d5e097e",
+          "url": "https://linuxbrew.bintray.com/bottles/libgee-0.20.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d4afb1bbccfd61b0a106595356d5f571a0df6a5fb0fd5e378c8321a46e152c1b",
+          "url": "https://linuxbrew.bintray.com/bottles/libgee-0.20.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b70794b96ce5d21dc3dac66f4e0e63177d7507c723d78a786110dc502d7777e1",
+          "url": "https://linuxbrew.bintray.com/bottles/libgee-0.20.1_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4791ea0a57328e464ff8875867e26db127687d2891528667fcf97d403ad8f1ac",
+          "url": "https://linuxbrew.bintray.com/bottles/libgee-0.20.1_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "vala"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "vala",
+    "glib"
+  ],
+  "desc": "Collection library providing GObject-based interfaces",
+  "full_name": "libgee",
+  "homepage": "https://wiki.gnome.org/Projects/Libgee",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libgee",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.20.1"
+  }
+}

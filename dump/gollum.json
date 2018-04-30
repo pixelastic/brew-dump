@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f3b98eb14ff5762a30f55ff8da3bae13bd29cf7c684f704a3dc7ff1b334baaad",
+          "url": "https://linuxbrew.bintray.com/bottles/gollum-0.5.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "86e8ea259f024cb5c429594a4ecbafe983b06b08dc4fcad3dc35e269d89fb283",
+          "url": "https://linuxbrew.bintray.com/bottles/gollum-0.5.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "75fa194b9bb429eccbfeea26cde0acfb68622e0f8c544fd788fa527aad8ac322",
+          "url": "https://linuxbrew.bintray.com/bottles/gollum-0.5.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "824eb33c14ccc25297d06793fe003eec0b51c1ef9b7183b49bcddf412976c690",
+          "url": "https://linuxbrew.bintray.com/bottles/gollum-0.5.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "n:m message multiplexer written in Go",
+  "full_name": "gollum",
+  "homepage": "https://github.com/trivago/gollum",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gollum",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5.3"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f748da269d23717c525cc0272bf90a1c286a16aaa868d9433505f6a72d28bfed",
+          "url": "https://linuxbrew.bintray.com/bottles/urlview-0.9-20.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ded9ca6285a2c87ecfe9af130e5bc231adfa501c2aae5602c13f40b998077f6a",
+          "url": "https://linuxbrew.bintray.com/bottles/urlview-0.9-20.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0f75c9a2a4018f9bac7262314a9f391c63353abd707f820b92a389b21bbf08b8",
+          "url": "https://linuxbrew.bintray.com/bottles/urlview-0.9-20.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "URL extractor/launcher",
+  "full_name": "urlview",
+  "homepage": "https://packages.debian.org/sid/misc/urlview",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "urlview",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9-20"
+  }
+}

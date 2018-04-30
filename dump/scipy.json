@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f407e1f9a6b6c2adad30214fe9603a28edc5cf871bd6491683970ca9c14b3c61",
+          "url": "https://linuxbrew.bintray.com/bottles/scipy-1.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "05d58e182817e4a0a9a60991e152a71230f3315d07de252ff11bcd2113d239b6",
+          "url": "https://linuxbrew.bintray.com/bottles/scipy-1.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fc4b501664bae60fdb2d360c1dd6a85e64fbf7391f3b753b1e4a6f6c76b157af",
+          "url": "https://linuxbrew.bintray.com/bottles/scipy-1.0.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "swig"
+  ],
+  "caveats": "If you use system python (that comes - depending on the OS X version -\nwith older versions of numpy, scipy and matplotlib), you may need to\nensure that the brewed packages come earlier in Python's sys.path with:\n  mkdir -p /home/tim/.local/lib/python2.7/site-packages\n  echo 'import sys; sys.path.insert(1, \"/home/tim/.linuxbrew/lib/python3.6/site-packages\")' >> /home/tim/.local/lib/python2.7/site-packages/homebrew.pth\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "swig",
+    "gcc",
+    "numpy",
+    "python@2",
+    "python",
+    "openblas"
+  ],
+  "desc": "Software for mathematics, science, and engineering",
+  "full_name": "scipy",
+  "homepage": "https://www.scipy.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "scipy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without python2 support",
+      "option": "--without-python"
+    },
+    {
+      "description": "Build without python@2 support",
+      "option": "--without-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python@2",
+    "python"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.1"
+  }
+}

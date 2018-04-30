@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "bac7f73c061797768be28e21bec2e7773cfd70ff7c3f46eafd464b9632d5eae4",
+          "url": "https://linuxbrew.bintray.com/bottles/pth-2.0.7.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "da4549f9e89a71478b47f4454f9a259dc3a56a109f24083ce8f4ea69b11ac9c5",
+          "url": "https://linuxbrew.bintray.com/bottles/pth-2.0.7.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "4271f5c483e95641caa088059669dad1ab6d95774ff66eecae2af1c5c0ddaf0a",
+          "url": "https://linuxbrew.bintray.com/bottles/pth-2.0.7.mavericks.bottle.2.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "b478e70f3b391d547d98334070185e44d9d9074943bafbb3a7bf2e13dfdc34b9",
+          "url": "https://linuxbrew.bintray.com/bottles/pth-2.0.7.mountain_lion.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "583d6ae1681974c7461650151253c5a302f33fb16dae74b5546a4a693cec71d1",
+          "url": "https://linuxbrew.bintray.com/bottles/pth-2.0.7.sierra.bottle.2.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a1e2eafca56d3449338a0d2455b268329d11280dddb91db21864f0082390fe47",
+          "url": "https://linuxbrew.bintray.com/bottles/pth-2.0.7.x86_64_linux.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7b31c6d65a97c722e661feb4c73a59a9025f1eac6b297ff181931bbdbc894ff3",
+          "url": "https://linuxbrew.bintray.com/bottles/pth-2.0.7.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "GNU Portable THreads",
+  "full_name": "pth",
+  "homepage": "https://www.gnu.org/software/pth/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pth",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.7"
+  }
+}

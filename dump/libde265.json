@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "942f19c7b70c6bc6510715c13752bb99e7a4793f1f028245fd2f2b798a8efe56",
+          "url": "https://linuxbrew.bintray.com/bottles/libde265-1.0.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "318155fde344fe1742f354396bd65fbd2b1ed14f420131f3ed5ff569d5a6b38f",
+          "url": "https://linuxbrew.bintray.com/bottles/libde265-1.0.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5f247bee31e10b2217023a64e5ef841566f1ee5edc7227dc15110fb507405269",
+          "url": "https://linuxbrew.bintray.com/bottles/libde265-1.0.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Open h.265 video codec implementation",
+  "full_name": "libde265",
+  "homepage": "https://github.com/strukturag/libde265",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libde265",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.3"
+  }
+}

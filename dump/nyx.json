@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8bea1e0d0e413854646f08dbd72ae94c147ede81157f4dca4e6118bbe14a9193",
+          "url": "https://linuxbrew.bintray.com/bottles/nyx-2.0.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "144068c5ee35f582d8457cb5c57778447bda93cd73900eab42f061598391eaf1",
+          "url": "https://linuxbrew.bintray.com/bottles/nyx-2.0.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "144068c5ee35f582d8457cb5c57778447bda93cd73900eab42f061598391eaf1",
+          "url": "https://linuxbrew.bintray.com/bottles/nyx-2.0.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Command-line monitor for Tor",
+  "full_name": "nyx",
+  "homepage": "https://nyx.torproject.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nyx",
+  "oldname": "arm",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.4"
+  }
+}

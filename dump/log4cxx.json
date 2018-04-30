@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "16eb54dca4f5d772a23d55d9599947f93a8c6003df5d6a4ad468b99daeda9153",
+          "url": "https://linuxbrew.bintray.com/bottles/log4cxx-0.10.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0d29b911db2c77048046e048589fcf6739b72f25494145f8d0650d81b67a36f1",
+          "url": "https://linuxbrew.bintray.com/bottles/log4cxx-0.10.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0e1c8e304f87bdb864f14e7b158e2f9e82ab4300a0ea144a8abaf9c8d5bc2976",
+          "url": "https://linuxbrew.bintray.com/bottles/log4cxx-0.10.0_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b96afe3f4e4b63017d2061028ed8792c4190996b1e008d8c87c3f52dba660ec5",
+          "url": "https://linuxbrew.bintray.com/bottles/log4cxx-0.10.0_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "apr-util"
+  ],
+  "desc": "Library of C++ classes for flexible logging",
+  "full_name": "log4cxx",
+  "homepage": "https://logging.apache.org/log4cxx/index.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "log4cxx",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.10.0"
+  }
+}

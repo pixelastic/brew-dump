@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9073fb11ae9c20375295c36b5bb6845639ea1f9c17a677c1d93ff206075ff871",
+          "url": "https://linuxbrew.bintray.com/bottles/eventlog-0.2.13.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "be5272b1fb50fb84ba175d4acdbe0632d46444df4e93fb913a9e3ee3ba2d6d33",
+          "url": "https://linuxbrew.bintray.com/bottles/eventlog-0.2.13.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "9d747019f60dfa8fc13472815c18c20c46c2cb2cd53dd754a99e8029afb85cbf",
+          "url": "https://linuxbrew.bintray.com/bottles/eventlog-0.2.13.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "266c920dec2b898e620a5de1bdcbcc68c3b06663c8b4f8d155138ba989958b99",
+          "url": "https://linuxbrew.bintray.com/bottles/eventlog-0.2.13.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "dafbd7123de97b0a29ca89c6e965a2123664ec34851c815b8bd1a616397dc525",
+          "url": "https://linuxbrew.bintray.com/bottles/eventlog-0.2.13.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2bdc1f762ea05e79f486e7e78b8a173ea99a5a76b4bedd28a03a1c8912f39925",
+          "url": "https://linuxbrew.bintray.com/bottles/eventlog-0.2.13.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Replacement for syslog API providing structure to messages",
+  "full_name": "eventlog",
+  "homepage": "https://my.balabit.com/downloads/eventlog/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "eventlog",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.13"
+  }
+}

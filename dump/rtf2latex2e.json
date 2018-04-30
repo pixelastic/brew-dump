@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0aa7144c74e8af3a935a87c2b9c822581c38566e24351a50ae601bbedca4aec3",
+          "url": "https://linuxbrew.bintray.com/bottles/rtf2latex2e-2.2.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b31c9387003920d4c27cb846da71203d69711638ed284825861a12247eeabca9",
+          "url": "https://linuxbrew.bintray.com/bottles/rtf2latex2e-2.2.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bbab54edbb07cbc3e16da33bdb0bd68258a330a3d1e2fceb175d1b753e6b81de",
+          "url": "https://linuxbrew.bintray.com/bottles/rtf2latex2e-2.2.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "dfdb13ccaca3107bd5fb77ace21bee8126911b4eb9473e8a8d51e0f85a2b75be",
+          "url": "https://linuxbrew.bintray.com/bottles/rtf2latex2e-2.2.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Configuration files have been installed to:\n  /home/tim/.linuxbrew/opt/rtf2latex2e/share/rtf2latex2e\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "RTF-to-LaTeX translation",
+  "full_name": "rtf2latex2e",
+  "homepage": "https://rtf2latex2e.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rtf2latex2e",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.3"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "db6dcc0c3c0433de7189d570b871e7d63c484da4a8c4733caac025ccbc2ef179",
+          "url": "https://linuxbrew.bintray.com/bottles/biogeme-2.6a_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0de544ac15c321308098429f277db189a94e724cb2d18595fb982826de542432",
+          "url": "https://linuxbrew.bintray.com/bottles/biogeme-2.6a_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f2d4a89247012c1870d9b042523075c0762c3f3bfe904dcd98bffbb53b44c49a",
+          "url": "https://linuxbrew.bintray.com/bottles/biogeme-2.6a_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python",
+    "gtkmm3"
+  ],
+  "desc": "Maximum likelihood estimation of choice models",
+  "full_name": "biogeme",
+  "homepage": "https://biogeme.epfl.ch/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "biogeme",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.6a"
+  }
+}

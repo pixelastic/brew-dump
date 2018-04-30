@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7bdcd771f852f59915623dae370c8f807cbf20f242dad60d62afa1dc683cdf4a",
+          "url": "https://linuxbrew.bintray.com/bottles/unarj-2.65.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3b7158daf585ed94c61106abb7cbfc956f1a918e4d185ffaa89c755b1c9deba6",
+          "url": "https://linuxbrew.bintray.com/bottles/unarj-2.65.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "d81c8d0e7799847d65e8059eee61bb29f9e33ea3ea501465dee0cc7c68f425ff",
+          "url": "https://linuxbrew.bintray.com/bottles/unarj-2.65.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "ec371113bda90ac0f08a58822a6131934f358a10c9bf2a7e09b066827bbe9c62",
+          "url": "https://linuxbrew.bintray.com/bottles/unarj-2.65.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "44c4722b1e3d30d987bcbd9fc9ccd7015c54d087bedb7da030e50cc84d0a52e6",
+          "url": "https://linuxbrew.bintray.com/bottles/unarj-2.65.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "95794638930505f1d4a23553571d62de07dd3f62da7687ef571c6f7e893bba42",
+          "url": "https://linuxbrew.bintray.com/bottles/unarj-2.65.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "ARJ file archiver",
+  "full_name": "unarj",
+  "homepage": "http://www.arjsoftware.com/files.htm",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "unarj",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.65"
+  }
+}

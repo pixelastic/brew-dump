@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "615ab5a39fcc19a110ebab166c05a614149374e65c5f9a7a4522fa400b8d4118",
+          "url": "https://linuxbrew.bintray.com/bottles/apache-forrest-0.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "66a6c2fb9f2d6db49bae90431d841378b07925d746d33bb77bfa9b41deff7e9e",
+          "url": "https://linuxbrew.bintray.com/bottles/apache-forrest-0.9.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a0e06c41204932f1427e38d47b3c4442dea7f7c3312f959faf1b725d35d85a52",
+          "url": "https://linuxbrew.bintray.com/bottles/apache-forrest-0.9.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9d5b65be3ab328e2861e47e842530cba5d393e7ac2e6a09af0f2f4731fb0e34e",
+          "url": "https://linuxbrew.bintray.com/bottles/apache-forrest-0.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b972b46d2ee37dd0b99b80b71a8e30ea1432df8e8cac5570f987eff84eec0db3",
+          "url": "https://linuxbrew.bintray.com/bottles/apache-forrest-0.9.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "cd0e4ceeb9e01118fe69bee3f80ccff63a951e01bf76c87146185ae6fe474c09",
+          "url": "https://linuxbrew.bintray.com/bottles/apache-forrest-0.9.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Publishing framework providing multiple output formats",
+  "full_name": "apache-forrest",
+  "homepage": "https://forrest.apache.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "apache-forrest",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5a5b34d8e233d9b75648c39f8edada5077c8f6c6466bd3358f3f661062ccbe83",
+          "url": "https://linuxbrew.bintray.com/bottles/generate-json-schema-2.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3461301c038b8bb6e15b8e183661976e95ea7b7e0659d57f0f21ea2c0eb4e67c",
+          "url": "https://linuxbrew.bintray.com/bottles/generate-json-schema-2.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a6ff075810774d44030a59a12032d302c64834d03c7aabeb32efb8dc86d276de",
+          "url": "https://linuxbrew.bintray.com/bottles/generate-json-schema-2.6.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "desc": "Generate a JSON Schema from Sample JSON",
+  "full_name": "generate-json-schema",
+  "homepage": "https://github.com/Nijikokun/generate-schema",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "generate-json-schema",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.6.0"
+  }
+}

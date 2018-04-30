@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9912995702f73e3add877e329b9bd894e9a7f5fe2024161b27b6d81462aeda9d",
+          "url": "https://linuxbrew.bintray.com/bottles/tgif-4.2.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4023a1df9a1b9ee248891d2d54ce00127407ce80f89d2b1edef05fe2e4c8cf1f",
+          "url": "https://linuxbrew.bintray.com/bottles/tgif-4.2.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d96d0bafe9c364642e354a6d80ffce48d532a8ed161372cf549c213b9a0a8a30",
+          "url": "https://linuxbrew.bintray.com/bottles/tgif-4.2.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "df95673872cdb34ca9cccfaa456bdc4a35e29d720b8ffa4875501cf864d399bd",
+          "url": "https://linuxbrew.bintray.com/bottles/tgif-4.2.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Xlib-based interactive 2D drawing tool",
+  "full_name": "tgif",
+  "homepage": "http://bourbon.usc.edu/tgif/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tgif",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.2.5"
+  }
+}

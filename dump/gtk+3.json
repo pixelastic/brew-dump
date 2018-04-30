@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5949596413f77dcdc0e59087ca3b187272af4606011494c5357c481a8f92ce52",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk+3-3.22.30.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ca8e625e7f00fca495c6724d46fac0b384b61d449d4f1e0a687ea86273a41dd7",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk+3-3.22.30.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a0f6f6f21e84bf16e15b284bdac7c06ae0acbffccf076bfbfd0db96e39344cf0",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk+3-3.22.30.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "gdk-pixbuf",
+    "atk",
+    "libepoxy",
+    "pango",
+    "glib",
+    "hicolor-icon-theme",
+    "gsettings-desktop-schemas",
+    "at-spi2-atk",
+    "cairo"
+  ],
+  "desc": "Toolkit for creating graphical user interfaces",
+  "full_name": "gtk+3",
+  "homepage": "https://gtk.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gtk+3",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without gsettings-desktop-schemas support",
+      "option": "--without-gsettings-desktop-schemas"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "gsettings-desktop-schemas"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.22.30"
+  }
+}

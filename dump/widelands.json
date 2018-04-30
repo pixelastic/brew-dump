@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "abf74bba10675ae62f574acdb284d6f728837b1834e5081465b6be313907ac6b",
+          "url": "https://linuxbrew.bintray.com/bottles/widelands-build19_10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cc3408d4faeb74f226ec9ee7adc6892d19385f7b37bc72d34b03c8339fc078c6",
+          "url": "https://linuxbrew.bintray.com/bottles/widelands-build19_10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "719b60a9176a608876214754dc762fbc55a8de0dca26f55ba5f4e3755d7a55ee",
+          "url": "https://linuxbrew.bintray.com/bottles/widelands-build19_10.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "boost",
+    "libpng",
+    "minizip",
+    "gettext",
+    "sdl2_image",
+    "sdl2_mixer",
+    "sdl2_net",
+    "sdl2_ttf",
+    "doxygen",
+    "glew",
+    "lua",
+    "icu4c"
+  ],
+  "desc": "Free real-time strategy game like Settlers II",
+  "full_name": "widelands",
+  "homepage": "https://wl.widelands.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "widelands",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 10,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "build19"
+  }
+}

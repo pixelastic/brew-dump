@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "918f37a73c638999e4655ed0eb51f71ffc4711f9570380098dd310b027fc7aa3",
+          "url": "https://linuxbrew.bintray.com/bottles/fonttools-3.25.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d2ca7d400c54fdc2baa74f0a435a15ada507efdd283e17fe43f0f6b6f92d685b",
+          "url": "https://linuxbrew.bintray.com/bottles/fonttools-3.25.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bde49befe8e90387711ad55b85f30babb50620ce61892b7c13ecedc7d1226eaf",
+          "url": "https://linuxbrew.bintray.com/bottles/fonttools-3.25.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b2b7775585fb9d5380334d0a07e35e8edda4e33622dfe9e4bee4f66fed5dafef",
+          "url": "https://linuxbrew.bintray.com/bottles/fonttools-3.25.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "pygtk"
+  ],
+  "desc": "Library for manipulating fonts",
+  "full_name": "fonttools",
+  "homepage": "https://github.com/fonttools/fonttools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fonttools",
+  "oldname": null,
+  "optional_dependencies": [
+    "pygtk"
+  ],
+  "options": [
+    {
+      "description": "Build with pygtk support for pyftinspect",
+      "option": "--with-pygtk"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.25.0"
+  }
+}

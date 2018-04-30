@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0877d44d105e2ec35e38e2d2e760f6c2973f53f98d784ccf16bed6d47e37db38",
+          "url": "https://linuxbrew.bintray.com/bottles/wwwoffle-2.9j.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "090085b4a39e90929744310494ef3157dfc77f7c2910047dfbdc75c75fe7c8f7",
+          "url": "https://linuxbrew.bintray.com/bottles/wwwoffle-2.9j.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9310fffe992916bf09700c8d6fd018943a14c73c27f28e3c61548f56b7f301d2",
+          "url": "https://linuxbrew.bintray.com/bottles/wwwoffle-2.9j.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Better browsing for computers with intermittent connections",
+  "full_name": "wwwoffle",
+  "homepage": "https://www.gedanken.org.uk/software/wwwoffle/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wwwoffle",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.9j"
+  }
+}

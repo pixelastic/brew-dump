@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ae9ef8eb1f904486ec7267b381d9703608fb7d7420b5e9c05bbae1c9e725085f",
+          "url": "https://linuxbrew.bintray.com/bottles/isc-dhcp-4.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eea8d134e6003550ee99f8e7d81d2869fa0eb73f1986e06073561c630ed2966c",
+          "url": "https://linuxbrew.bintray.com/bottles/isc-dhcp-4.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "461dd0ba33e5d16684db8a65f757cd3e0a1c6e9a5d5ba657a20819ab6acc3ff4",
+          "url": "https://linuxbrew.bintray.com/bottles/isc-dhcp-4.4.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c18196be18b963c6bcbf82004f919bc17ffc87b8e53811546c094c1127c80a37",
+          "url": "https://linuxbrew.bintray.com/bottles/isc-dhcp-4.4.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "This install of dhcpd expects config files to be in /home/tim/.linuxbrew/etc.\nAll state files (leases and pids) are stored in /home/tim/.linuxbrew/var/dhcpd.\n\nDhcpd needs to run as root since it listens on privileged ports.\n\nThere are two plists because a single dhcpd process may do either\nDHCPv4 or DHCPv6 but not both. Use one or both as needed.\n\nNote that you must create the appropriate config files before starting\nthe services or dhcpd will refuse to run.\n  DHCPv4: /home/tim/.linuxbrew/etc/dhcpd.conf\n  DHCPv6: /home/tim/.linuxbrew/etc/dhcpd6.conf\n\nSample config files may be found in /home/tim/.linuxbrew/etc.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Production-grade DHCP solution",
+  "full_name": "isc-dhcp",
+  "homepage": "https://www.isc.org/software/dhcp",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "isc-dhcp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.4.1"
+  }
+}

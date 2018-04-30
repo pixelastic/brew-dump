@@ -1,0 +1,97 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2d5ab0009439996f203485b09a029dc7e5ad44c9a09470f1e0994e1b12fe2a33",
+          "url": "https://linuxbrew.bintray.com/bottles/mariadb@10.1-10.1.32.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bf5fa3b8addadec3735f735e081ad210aeb8119c912c8790d0bca3ac08fd4ab1",
+          "url": "https://linuxbrew.bintray.com/bottles/mariadb@10.1-10.1.32.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e47914c78c48cd04ba2a72383efe8c39f999ce32f36c0292df16f8f1fef8eec7",
+          "url": "https://linuxbrew.bintray.com/bottles/mariadb@10.1-10.1.32.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e69dc25e70529c7f0e6dd7c5130eac8e4301fc6835479b84b6bd53a38722cde1",
+          "url": "https://linuxbrew.bintray.com/bottles/mariadb@10.1-10.1.32.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": "A \"/etc/my.cnf\" from another install may interfere with a Homebrew-built\nserver starting up correctly.\n\nMySQL is configured to only allow connections from localhost by default\n\nTo connect:\n    mysql -uroot\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "openssl",
+    "bzip2",
+    "ncurses"
+  ],
+  "desc": "Drop-in replacement for MySQL",
+  "full_name": "mariadb@10.1",
+  "homepage": "https://mariadb.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "mariadb@10.1",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Keep test when installing",
+      "option": "--with-test"
+    },
+    {
+      "description": "Keep benchmark app when installing",
+      "option": "--with-bench"
+    },
+    {
+      "description": "Build the embedded server",
+      "option": "--with-embedded"
+    },
+    {
+      "description": "Compile with editline wrapper instead of readline",
+      "option": "--with-libedit"
+    },
+    {
+      "description": "Compile with the ARCHIVE storage engine enabled",
+      "option": "--with-archive-storage-engine"
+    },
+    {
+      "description": "Compile with the BLACKHOLE storage engine enabled",
+      "option": "--with-blackhole-storage-engine"
+    },
+    {
+      "description": "Build with local infile loading support",
+      "option": "--with-local-infile"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "10.1.32"
+  }
+}

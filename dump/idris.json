@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "6e9af20653598297ee21e83c9b7cb44240b7a8797d22bf918548a8cde6f45fdf",
+          "url": "https://linuxbrew.bintray.com/bottles/idris-1.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7d878126d8a6317d8325f3f434884eb52fadb6dd712433e18437979531e1e2df",
+          "url": "https://linuxbrew.bintray.com/bottles/idris-1.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2944aae8e9baf286e1c46814d88e0487f08a0bdd8279859475de0a9128f772df",
+          "url": "https://linuxbrew.bintray.com/bottles/idris-1.2.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cabal-install",
+    "ghc@8.2",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cabal-install",
+    "ghc@8.2",
+    "pkg-config",
+    "libffi"
+  ],
+  "desc": "Pure functional programming language with dependent types",
+  "full_name": "idris",
+  "homepage": "https://www.idris-lang.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "idris",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.0"
+  }
+}

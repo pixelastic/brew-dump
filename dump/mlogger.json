@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e1f78a9ef569085efcac8c41bd2a70feda85e7fcba5eb7b46a9ee5341cf8cb2d",
+          "url": "https://linuxbrew.bintray.com/bottles/mlogger-1.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9eec751c684f9043f667bf5e9d793379ca3a9824a05b359ed91af2d7e41d52b7",
+          "url": "https://linuxbrew.bintray.com/bottles/mlogger-1.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1f7392a3d16a2bf595487a4b35bf5c866fa00c0967629eef46f07cbf6e696ff4",
+          "url": "https://linuxbrew.bintray.com/bottles/mlogger-1.2.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f64331a815b26047bc982340650aae806a568a10060adfc819e25d077059af2e",
+          "url": "https://linuxbrew.bintray.com/bottles/mlogger-1.2.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Log to syslog from the command-line",
+  "full_name": "mlogger",
+  "homepage": "https://github.com/nbrownus/mlogger",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mlogger",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.0"
+  }
+}

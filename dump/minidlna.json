@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "16fb753050582f030bcc16de31ccac3faa74f5ada3d1bed4d17895dd8628f772",
+          "url": "https://linuxbrew.bintray.com/bottles/minidlna-1.2.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ed1b022aaea8beed91a26b9907c8253da9c5c441fa52482ae0255571cd1744ad",
+          "url": "https://linuxbrew.bintray.com/bottles/minidlna-1.2.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5145b3bae1ebb4add544bc8877668a5cea2e80a380a5a0beaba94a6e88cbf33c",
+          "url": "https://linuxbrew.bintray.com/bottles/minidlna-1.2.1_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Simple single-user configuration:\n\nmkdir -p ~/.config/minidlna\ncp /home/tim/.linuxbrew/opt/minidlna/share/minidlna/minidlna.conf ~/.config/minidlna/minidlna.conf\nln -s YOUR_MEDIA_DIR ~/.config/minidlna/media\nminidlnad -f ~/.config/minidlna/minidlna.conf -P ~/.config/minidlna/minidlna.pid\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libexif",
+    "jpeg",
+    "libid3tag",
+    "flac",
+    "libogg",
+    "libvorbis",
+    "sqlite",
+    "ffmpeg"
+  ],
+  "desc": "Media server software, compliant with DLNA/UPnP-AV clients",
+  "full_name": "minidlna",
+  "homepage": "https://sourceforge.net/projects/minidlna/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "minidlna",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.1"
+  }
+}

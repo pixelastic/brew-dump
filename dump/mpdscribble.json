@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3dee2dae7ae29bb1a92db5af951740801be7d7204ac6addad6016e8ec07e9fda",
+          "url": "https://linuxbrew.bintray.com/bottles/mpdscribble-0.22_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0bb89c4d9cac0bd82f40cc7c7907fa150efb1de05ab7da21e7c7d70a6ebb8602",
+          "url": "https://linuxbrew.bintray.com/bottles/mpdscribble-0.22_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0e487444754917082060745ab958e70b1718ea7d1bdd24bc52dbd9823060c114",
+          "url": "https://linuxbrew.bintray.com/bottles/mpdscribble-0.22_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "93d9066107f752b0c18910c5aac8f6f86beaa03cba627fffd6337dda44cf16f9",
+          "url": "https://linuxbrew.bintray.com/bottles/mpdscribble-0.22_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "The configuration file was placed in /home/tim/.linuxbrew/etc/mpdscribble.conf\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib",
+    "libmpdclient"
+  ],
+  "desc": "Last.fm reporting client for mpd",
+  "full_name": "mpdscribble",
+  "homepage": "https://mpd.wikia.com/wiki/Client:Mpdscribble",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mpdscribble",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.22"
+  }
+}

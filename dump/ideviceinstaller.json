@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8821769d4434688cc64aa3e63bb4f426d37d416b2dca3c935f1293ae1bddad22",
+          "url": "https://linuxbrew.bintray.com/bottles/ideviceinstaller-1.1.0_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a67c1699f0c03461f57e2232b44d175f2f38f4288ac3a3db6d92f90e299da786",
+          "url": "https://linuxbrew.bintray.com/bottles/ideviceinstaller-1.1.0_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4651061aec01678c5feb365acc989aa211602cb62e32a1498bd4a52de217aa82",
+          "url": "https://linuxbrew.bintray.com/bottles/ideviceinstaller-1.1.0_4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libimobiledevice",
+    "libzip"
+  ],
+  "desc": "Cross-platform library for communicating with iOS devices",
+  "full_name": "ideviceinstaller",
+  "homepage": "https://www.libimobiledevice.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ideviceinstaller",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.0"
+  }
+}

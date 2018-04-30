@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "fc2b5a70c64bc8cfa74fcfda9b7a9e9f1815c2dcdf8604472306ca7031383456",
+          "url": "https://linuxbrew.bintray.com/bottles/konoha-0.1_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1f644e81d2932ecc8a816d04decc4ec0640649db58b7bda67cb28d03769dbb05",
+          "url": "https://linuxbrew.bintray.com/bottles/konoha-0.1_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c76e500f004558762edfc2fbd45b4d48c946c19861692bd7c32033b4ad5259a8",
+          "url": "https://linuxbrew.bintray.com/bottles/konoha-0.1_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "add66787946b769b3637c7a3067aa1c73e3e459c40c31ae8bb682e9205a24ed1",
+          "url": "https://linuxbrew.bintray.com/bottles/konoha-0.1_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "json-c",
+    "open-mpi",
+    "pcre",
+    "python@2",
+    "sqlite",
+    "curl"
+  ],
+  "desc": "Static scripting language with extensible syntax",
+  "full_name": "konoha",
+  "homepage": "https://github.com/konoha-project/konoha3",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "konoha",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.1"
+  }
+}

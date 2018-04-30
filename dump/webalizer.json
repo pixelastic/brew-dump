@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "399880f03c0ff58ca1d5af1eb9c8e05524ce807cbbf005eaf846e1bf7bbc3c05",
+          "url": "https://linuxbrew.bintray.com/bottles/webalizer-2.23-08_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e0d7b7a0d740553405a97bc067d52c874cdc89fe6c90510703c89eb8e23e5797",
+          "url": "https://linuxbrew.bintray.com/bottles/webalizer-2.23-08_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3236ad7fcfbef0c64ea2597cfe3e0b84d5c166eb37f20f13258d87dfe9806991",
+          "url": "https://linuxbrew.bintray.com/bottles/webalizer-2.23-08_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "41626cab41b25a410da759240b476403a4e9be91784dd12eb74d7d897abbc663",
+          "url": "https://linuxbrew.bintray.com/bottles/webalizer-2.23-08_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gd",
+    "berkeley-db",
+    "libpng"
+  ],
+  "desc": "Web server log file analysis",
+  "full_name": "webalizer",
+  "homepage": "http://www.webalizer.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "webalizer",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.23-08"
+  }
+}

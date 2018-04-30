@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b1a71d30655833a45b35af8770181fbe3f5df7e66d1b08f491900d5e875acfef",
+          "url": "https://linuxbrew.bintray.com/bottles/libgnomecanvas-2.30.3_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "91610f96cef0504b4be9fb6355cac9f628867cc3bb6b8833aaad48c583f47dea",
+          "url": "https://linuxbrew.bintray.com/bottles/libgnomecanvas-2.30.3_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ed520a02e7ea3cd0bcd48dba1ed262d89921bd5f5518c1d672f43a833c6bd758",
+          "url": "https://linuxbrew.bintray.com/bottles/libgnomecanvas-2.30.3_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "libglade",
+    "libart",
+    "gettext",
+    "gtk+"
+  ],
+  "desc": "Highlevel, structured graphics library",
+  "full_name": "libgnomecanvas",
+  "homepage": "https://developer.gnome.org/libgnomecanvas/2.30/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libgnomecanvas",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.30.3"
+  }
+}

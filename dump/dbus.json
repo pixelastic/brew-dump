@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a01bf4fa6922dd4e5188429a1cf2a3fe615924288284e63a9d9d4179cf9c9747",
+          "url": "https://linuxbrew.bintray.com/bottles/dbus-1.12.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9bc82ed6545a7a91f8980db8cacb00b012ba4d1fc4886be2030eb4fc2b966e0e",
+          "url": "https://linuxbrew.bintray.com/bottles/dbus-1.12.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "189218fb3f274f4088599133f438b2a4c578b9df61e7562ccbde366dbb09dd30",
+          "url": "https://linuxbrew.bintray.com/bottles/dbus-1.12.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "16e27335c1550378f349000aad38f4dd7933440a238c2d1bb424309cee982901",
+          "url": "https://linuxbrew.bintray.com/bottles/dbus-1.12.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "xmlto"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "xmlto",
+    "expat"
+  ],
+  "desc": "Message bus system, providing inter-application communication",
+  "full_name": "dbus",
+  "homepage": "https://wiki.freedesktop.org/www/Software/dbus",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dbus",
+  "oldname": "d-bus",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "1.13.2",
+    "head": "HEAD",
+    "stable": "1.12.4"
+  }
+}

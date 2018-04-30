@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0ca2e4610cdee2171357af542fcc4540a69a0336e278e0e5a30ee7748be174a0",
+          "url": "https://linuxbrew.bintray.com/bottles/s3-backer-1.4.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9621195e9c7b6f019f83cc82f75099cd09a980f483784f2bfb8506fbeb9d4634",
+          "url": "https://linuxbrew.bintray.com/bottles/s3-backer-1.4.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "829b0c2b6d9d2452dc2e31f13d0f7105e28d40452b12f400b0365a89cdfaf1f4",
+          "url": "https://linuxbrew.bintray.com/bottles/s3-backer-1.4.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "openssl"
+  ],
+  "desc": "FUSE-based single file backing store via Amazon S3",
+  "full_name": "s3-backer",
+  "homepage": "https://github.com/archiecobbs/s3backer",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "s3-backer",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.4"
+  }
+}

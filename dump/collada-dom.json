@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "98e726f47020580acc1a10be5366394fb137fc4729e3446e5e0130a69b2d38da",
+          "url": "https://linuxbrew.bintray.com/bottles/collada-dom-2.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "21de8eab55b0011919fff439eeabc87f7dc1fe6a886ef0c2c3205fd21532d338",
+          "url": "https://linuxbrew.bintray.com/bottles/collada-dom-2.4.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "5ddb31dec3a705e99ca17ec2c6ef1bafb101eac16167d451c3e6eda2dc9c0761",
+          "url": "https://linuxbrew.bintray.com/bottles/collada-dom-2.4.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "100e69e1bc65b07f00dcb9d9baf290a727e39ecbf01d27b9a62d26ac14abb59b",
+          "url": "https://linuxbrew.bintray.com/bottles/collada-dom-2.4.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2be8761c8bd277b4cc720c900fff84cedbc2736a55329a9d107ded2712e97d75",
+          "url": "https://linuxbrew.bintray.com/bottles/collada-dom-2.4.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pcre",
+    "boost"
+  ],
+  "desc": "C++ library for loading and saving COLLADA data",
+  "full_name": "collada-dom",
+  "homepage": "https://www.khronos.org/collada/wiki/Portal:COLLADA_DOM",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "collada-dom",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "2.4.4",
+    "head": "HEAD",
+    "stable": "2.4.0"
+  }
+}

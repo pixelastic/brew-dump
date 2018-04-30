@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2e5a483599bcb577bc421db239bc5e53d4c31ad8ca5111c9a264f5c3d71c5266",
+          "url": "https://linuxbrew.bintray.com/bottles/tcc-0.9.27.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6e8aa202c393f2788c2f6c6ff43ee9b515e2eeb7a21118f92ce67a53ad0e8624",
+          "url": "https://linuxbrew.bintray.com/bottles/tcc-0.9.27.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e54350d4d114a0ceabe1d59176d12578e17fc63ebba65fc8c35dc347f02a6daa",
+          "url": "https://linuxbrew.bintray.com/bottles/tcc-0.9.27.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tiny C compiler",
+  "full_name": "tcc",
+  "homepage": "https://bellard.org/tcc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tcc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build all cross compilers",
+      "option": "--with-cross"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.27"
+  }
+}

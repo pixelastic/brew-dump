@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1ca0625ada66ae28f5bc488ecc7ca246d68711ab6b314c4f6998ab47ccba1ec0",
+          "url": "https://linuxbrew.bintray.com/bottles/ncrack-0.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "710a7c1bbc131cce0e0b5ceac7bee02c829362489a56a881b2011df7bcab7dfb",
+          "url": "https://linuxbrew.bintray.com/bottles/ncrack-0.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "887e071b2c1468c82c1d4ab390f0bbb6c03a482f0c39e89a573105d2ce5cb38c",
+          "url": "https://linuxbrew.bintray.com/bottles/ncrack-0.6.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Network authentication cracking tool",
+  "full_name": "ncrack",
+  "homepage": "https://nmap.org/ncrack/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ncrack",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.6.0"
+  }
+}

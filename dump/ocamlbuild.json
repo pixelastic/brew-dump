@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5dcbb2809634080498691ab99a893483e7e9418abcabb552f18109d414b98dc9",
+          "url": "https://linuxbrew.bintray.com/bottles/ocamlbuild-0.12.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d0d918a35040a90011c699b076bbd8a118c2d9e873e927aac75368f79ba4c19b",
+          "url": "https://linuxbrew.bintray.com/bottles/ocamlbuild-0.12.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ef3caa4d73b855fb622459da9196ca63d7c4c00b1e0580a5d32c286c580d1c8b",
+          "url": "https://linuxbrew.bintray.com/bottles/ocamlbuild-0.12.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b246d1a16a6e24cd47e28caf44f1da85b30e8adb5a10fb1f991dfc0e4feb72b9",
+          "url": "https://linuxbrew.bintray.com/bottles/ocamlbuild-0.12.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ocaml"
+  ],
+  "desc": "Generic build tool for OCaml",
+  "full_name": "ocamlbuild",
+  "homepage": "https://github.com/ocaml/ocamlbuild",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ocamlbuild",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.12.0"
+  }
+}

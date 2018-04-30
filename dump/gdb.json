@@ -1,0 +1,95 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "cd89001bcf8c93b5d6425ab91a400aeffe0cd5bbb0eccd8ab38c719ab5ca34ba",
+          "url": "https://linuxbrew.bintray.com/bottles/gdb-8.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "43a6d6cca157ef70d13848f35c04e11d832dc0c96f5bcf53a43330f524b3ac40",
+          "url": "https://linuxbrew.bintray.com/bottles/gdb-8.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fe7c6261f9164e7a744c9c512ba7e5afff0e74e373ece9b5aa19d5da6443bfc2",
+          "url": "https://linuxbrew.bintray.com/bottles/gdb-8.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "42713fc4de4210beb06f195829292b72ca261471d266e35d317bbf27d18f7355",
+          "url": "https://linuxbrew.bintray.com/bottles/gdb-8.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "texinfo"
+  ],
+  "caveats": "gdb requires special privileges to access Mach ports.\nYou will need to codesign the binary. For instructions, see:\n\n  https://sourceware.org/gdb/wiki/BuildingOnDarwin\n\nOn 10.12 (Sierra) or later with SIP, you need to run this:\n\n  echo \"set startup-with-shell off\" >> ~/.gdbinit\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "python@2",
+    "guile@2.0",
+    "texinfo",
+    "ncurses",
+    "expat",
+    "xz"
+  ],
+  "desc": "GNU debugger",
+  "full_name": "gdb",
+  "homepage": "https://www.gnu.org/software/gdb/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gdb",
+  "oldname": null,
+  "optional_dependencies": [
+    "guile@2.0"
+  ],
+  "options": [
+    {
+      "description": "Use the system version of Python; by default Homebrew Python is used",
+      "option": "--without-python"
+    },
+    {
+      "description": "Add a version suffix to program",
+      "option": "--with-version-suffix"
+    },
+    {
+      "description": "Build with support for all targets",
+      "option": "--with-all-targets"
+    },
+    {
+      "description": "Build without python@2 support",
+      "option": "--without-python@2"
+    },
+    {
+      "description": "Build with guile@2.0 support",
+      "option": "--with-guile@2.0"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python@2"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "8.1"
+  }
+}

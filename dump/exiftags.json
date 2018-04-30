@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "47d75e83f89d0db4a54d779d9c9820fbb788c102738824e86b83a441d9a60af8",
+          "url": "https://linuxbrew.bintray.com/bottles/exiftags-1.01.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1ba9c96bf8630f50faf8bb5045bace46c5c24962d439a496a6f606b7bc886a08",
+          "url": "https://linuxbrew.bintray.com/bottles/exiftags-1.01.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "2ca339b45b3ea518ca5b39262b4c68cc54187a2bfca7d7a52eded5685c81b3c9",
+          "url": "https://linuxbrew.bintray.com/bottles/exiftags-1.01.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "d5c5f565b2b7f0d6f7161801680095c6fefb3c7234cb9a9046a263dd8d983cff",
+          "url": "https://linuxbrew.bintray.com/bottles/exiftags-1.01.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7aaa2a8e78b03e4f842c84a46ce7fb5ed8ff1a956ababde1f26bc716431a67e0",
+          "url": "https://linuxbrew.bintray.com/bottles/exiftags-1.01.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "23a94f2c2694d52ef393e751e23a01c4ed23c0ca7004b6597546047310e73f53",
+          "url": "https://linuxbrew.bintray.com/bottles/exiftags-1.01.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Utility to read EXIF tags from a digital camera JPEG file",
+  "full_name": "exiftags",
+  "homepage": "https://johnst.org/sw/exiftags/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "exiftags",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.01"
+  }
+}

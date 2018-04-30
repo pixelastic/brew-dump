@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "66854da0ffbb83f60863c23b985e5522037db4957aca70e2b49346a243a30991",
+          "url": "https://linuxbrew.bintray.com/bottles/libxslt-1.1.32.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "502430d08fb7c8d0462ca5421b66caee4d9b8e39f3c7460c2bfca91be37091f9",
+          "url": "https://linuxbrew.bintray.com/bottles/libxslt-1.1.32.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5d68588f3afbdd93022aeaf81b9c6403c0c6b8aac24e5ba25a195c5ec5bad7e5",
+          "url": "https://linuxbrew.bintray.com/bottles/libxslt-1.1.32.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "30b147ab7a23eb9ab18a9df95d5241fa5f68a078041245893230e04be8f84ff5",
+          "url": "https://linuxbrew.bintray.com/bottles/libxslt-1.1.32.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To allow the nokogiri gem to link against this libxslt run:\n  gem install nokogiri -- --with-xslt-dir=/home/tim/.linuxbrew/opt/libxslt\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libxml2"
+  ],
+  "desc": "C XSLT library for GNOME",
+  "full_name": "libxslt",
+  "homepage": "http://xmlsoft.org/XSLT/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libxslt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.32"
+  }
+}

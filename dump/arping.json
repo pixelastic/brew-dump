@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e60c8221e95db34d5d2a66039d229e242f194b05e22aa4ebdefd7b06cd00fb74",
+          "url": "https://linuxbrew.bintray.com/bottles/arping-2.19.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "10814e4189c25dd909346c39ab9b504244596a8b09dffc9d7ca91272decfded5",
+          "url": "https://linuxbrew.bintray.com/bottles/arping-2.19.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fff7a3fa700564778114ad421446a48fedd06e252074c6be66e2c4102e538ec4",
+          "url": "https://linuxbrew.bintray.com/bottles/arping-2.19.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "aba6c437474b26a0aad22491ace21aedf8463270be36300a86fdfe89b7bd7c2b",
+          "url": "https://linuxbrew.bintray.com/bottles/arping-2.19.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "cca37d86bc0c93413cd9b1d9259113c21e7b512c780f1e74da71f981e3986c8b",
+          "url": "https://linuxbrew.bintray.com/bottles/arping-2.19.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libnet",
+    "libpcap"
+  ],
+  "desc": "Utility to check whether MAC addresses are already taken on a LAN",
+  "full_name": "arping",
+  "homepage": "https://github.com/ThomasHabets/arping",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "arping",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.19"
+  }
+}

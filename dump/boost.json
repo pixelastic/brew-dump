@@ -1,0 +1,81 @@
+{
+  "aliases": [
+    "boost@1.67"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3f3f687a620f656fe2ac54f01306e00e6bbc0e9797db284a8d272648d427e640",
+          "url": "https://linuxbrew.bintray.com/bottles/boost-1.67.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "265ab8beaa6fa26a7c305ef2e6aec8bd26ca1db105aca0aaca028f32c5245a90",
+          "url": "https://linuxbrew.bintray.com/bottles/boost-1.67.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "567f3e9a294413c1701b698d666a521cfdeec846e256c6e66576d5b70eb26f08",
+          "url": "https://linuxbrew.bintray.com/bottles/boost-1.67.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "23b67cd16e02c99a0a794eaa370cd0060f209ce0fc5d567af1718def0ddcd831",
+          "url": "https://linuxbrew.bintray.com/bottles/boost-1.67.0_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Building of Boost.Log is disabled because it requires newer GCC or Clang.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "icu4c",
+    "bzip2",
+    "zlib"
+  ],
+  "desc": "Collection of portable C++ source libraries",
+  "full_name": "boost",
+  "homepage": "https://www.boost.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "boost",
+  "oldname": null,
+  "optional_dependencies": [
+    "icu4c"
+  ],
+  "options": [
+    {
+      "description": "Build regexp engine with icu support",
+      "option": "--with-icu4c"
+    },
+    {
+      "description": "Disable building single-threading variant",
+      "option": "--without-single"
+    },
+    {
+      "description": "Disable building static library variant",
+      "option": "--without-static"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.67.0"
+  }
+}

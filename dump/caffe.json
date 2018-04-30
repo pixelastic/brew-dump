@@ -1,0 +1,86 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "10256bada9b29f704bfdd881284b5862583bd3a99c168a2cc267f1920d1344bb",
+          "url": "https://linuxbrew.bintray.com/bottles/caffe-1.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "82daa7416902f8a56007eff36a80d970dac59c46a2b5323def706872cce2c90a",
+          "url": "https://linuxbrew.bintray.com/bottles/caffe-1.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9d325092d5f966659075a6691a63f7855ad1ec224e51486975be95fe2ccfbde3",
+          "url": "https://linuxbrew.bintray.com/bottles/caffe-1.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "boost",
+    "gflags",
+    "glog",
+    "hdf5",
+    "protobuf",
+    "szip",
+    "leveldb",
+    "lmdb",
+    "opencv"
+  ],
+  "desc": "Fast open framework for deep learning",
+  "full_name": "caffe",
+  "homepage": "https://caffe.berkeleyvision.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "caffe",
+  "oldname": null,
+  "optional_dependencies": [
+    "leveldb",
+    "lmdb",
+    "opencv"
+  ],
+  "options": [
+    {
+      "description": "Build with leveldb support",
+      "option": "--with-leveldb"
+    },
+    {
+      "description": "Build with lmdb support",
+      "option": "--with-lmdb"
+    },
+    {
+      "description": "Build with opencv support",
+      "option": "--with-opencv"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0"
+  }
+}

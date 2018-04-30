@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "621487b12c93a9b37e1330041f979a28d3d310c1d8c9efecf274808d081d510e",
+          "url": "https://linuxbrew.bintray.com/bottles/lcs-4.07.4b.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5b640b7b87dfe6603670addce1b6af77b0cd7ebbda10c445fddc6d365960e761",
+          "url": "https://linuxbrew.bintray.com/bottles/lcs-4.07.4b.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a8fa614ec5adc3ee2d7417a024bf5e9c78e9f8d4e043e0b916dc5a99f1bb1d9c",
+          "url": "https://linuxbrew.bintray.com/bottles/lcs-4.07.4b.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9ca23650e17e177c4c9fa5352dc81a9f415bc3778b2fd8a55330936eb4d7d28c",
+          "url": "https://linuxbrew.bintray.com/bottles/lcs-4.07.4b.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "subversion",
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "subversion",
+    "autoconf",
+    "automake"
+  ],
+  "desc": "Satirical console-based political role-playing/strategy game",
+  "full_name": "lcs",
+  "homepage": "https://sourceforge.net/projects/lcsgame/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lcs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.07.4b"
+  }
+}

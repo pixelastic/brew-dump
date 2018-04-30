@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7e607252679cd1648e6c9f48ebbeaa2379ce089ad87815bd6636e65dcedebc7b",
+          "url": "https://linuxbrew.bintray.com/bottles/cidrmerge-1.5.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "61d2b647e77f706f53ef22dcb1ad362d39bed01f2bed08270bc6110824233146",
+          "url": "https://linuxbrew.bintray.com/bottles/cidrmerge-1.5.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "89b2d5b31bd190e0aa8837b84f3a684cf01b4501321e898507e5d8dd809f09d7",
+          "url": "https://linuxbrew.bintray.com/bottles/cidrmerge-1.5.3.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "c4d8b6b3a17f6117b9df0c9159cc55b11d060b3abf475cbd1962b35d0ef3292a",
+          "url": "https://linuxbrew.bintray.com/bottles/cidrmerge-1.5.3.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8f2cf233141b0ea465c05d3487718176bb40023a05ecf7c275fdae9c36a5eef1",
+          "url": "https://linuxbrew.bintray.com/bottles/cidrmerge-1.5.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "20c6f57fc6081c8d27d2e68b81e3d4c5cd68e7c799dc30e076f45ee71b42e69d",
+          "url": "https://linuxbrew.bintray.com/bottles/cidrmerge-1.5.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "CIDR merging with white listing (network exclusion)",
+  "full_name": "cidrmerge",
+  "homepage": "https://cidrmerge.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cidrmerge",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.3"
+  }
+}

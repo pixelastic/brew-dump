@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "91378980884269d4cdd3f4b78ce625ff6fca01882a23ce0baf9e74e105ca77fc",
+          "url": "https://linuxbrew.bintray.com/bottles/cfengine-3.11.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "33e36292909af1f1bc2846e6f19b8109970c97a81b75a234d7c89626ec3d8e46",
+          "url": "https://linuxbrew.bintray.com/bottles/cfengine-3.11.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1eb3449cdf367e647bd31af2fa0987645db990bed26a97532d3eb89e13d95ef7",
+          "url": "https://linuxbrew.bintray.com/bottles/cfengine-3.11.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libxml2",
+    "pcre",
+    "lmdb",
+    "openssl"
+  ],
+  "desc": "Help manage and understand IT infrastructure",
+  "full_name": "cfengine",
+  "homepage": "https://cfengine.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cfengine",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.11.0"
+  }
+}

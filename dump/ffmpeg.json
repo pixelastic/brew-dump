@@ -1,0 +1,334 @@
+{
+  "aliases": [
+    "ffmpeg@4"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1f642ce937d45b32737d7983790ff2f97133efa31c4e3d13268ca6e475c925cc",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmpeg-4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "81e41ed56f44fdceec52d14a2815abd0ec14415c0ce2ca8136df6d4b6d02a818",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmpeg-4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f0d43e35dd75d0c8069e2ebbd0710667793c00f5f9fef3094f651c3c22fd4fd3",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmpeg-4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "36d86ffe6027b0bf9c680828bbdc4b71d142ecae85c9b916eff9ce536a879a55",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmpeg-4.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "nasm",
+    "pkg-config",
+    "texi2html"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "nasm",
+    "pkg-config",
+    "texi2html",
+    "lame",
+    "x264",
+    "xvid",
+    "zlib",
+    "bzip2",
+    "xz",
+    "chromaprint",
+    "fdk-aac",
+    "fontconfig",
+    "freetype",
+    "frei0r",
+    "game-music-emu",
+    "libass",
+    "libbluray",
+    "libbs2b",
+    "libcaca",
+    "libgsm",
+    "libmodplug",
+    "librsvg",
+    "libsoxr",
+    "libssh",
+    "libvidstab",
+    "libvorbis",
+    "libvpx",
+    "opencore-amr",
+    "openh264",
+    "openjpeg",
+    "openssl",
+    "opus",
+    "rtmpdump",
+    "rubberband",
+    "sdl2",
+    "snappy",
+    "speex",
+    "tesseract",
+    "theora",
+    "two-lame",
+    "wavpack",
+    "webp",
+    "x265",
+    "zeromq",
+    "zimg"
+  ],
+  "desc": "Play, record, convert, and stream audio and video",
+  "full_name": "ffmpeg",
+  "homepage": "https://ffmpeg.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ffmpeg",
+  "oldname": null,
+  "optional_dependencies": [
+    "chromaprint",
+    "fdk-aac",
+    "fontconfig",
+    "freetype",
+    "frei0r",
+    "game-music-emu",
+    "libass",
+    "libbluray",
+    "libbs2b",
+    "libcaca",
+    "libgsm",
+    "libmodplug",
+    "librsvg",
+    "libsoxr",
+    "libssh",
+    "libvidstab",
+    "libvorbis",
+    "libvpx",
+    "opencore-amr",
+    "openh264",
+    "openjpeg",
+    "openssl",
+    "opus",
+    "rtmpdump",
+    "rubberband",
+    "sdl2",
+    "snappy",
+    "speex",
+    "tesseract",
+    "theora",
+    "two-lame",
+    "wavpack",
+    "webp",
+    "x265",
+    "xz",
+    "zeromq",
+    "zimg"
+  ],
+  "options": [
+    {
+      "description": "Enable the Chromaprint audio fingerprinting library",
+      "option": "--with-chromaprint"
+    },
+    {
+      "description": "Enable the Fraunhofer FDK AAC library",
+      "option": "--with-fdk-aac"
+    },
+    {
+      "description": "Enable ASS/SSA subtitle format",
+      "option": "--with-libass"
+    },
+    {
+      "description": "Enable SVG files as inputs via librsvg",
+      "option": "--with-librsvg"
+    },
+    {
+      "description": "Enable the soxr resample library",
+      "option": "--with-libsoxr"
+    },
+    {
+      "description": "Enable SFTP protocol via libssh",
+      "option": "--with-libssh"
+    },
+    {
+      "description": "Enable the tesseract OCR engine",
+      "option": "--with-tesseract"
+    },
+    {
+      "description": "Enable vid.stab support for video stabilization",
+      "option": "--with-libvidstab"
+    },
+    {
+      "description": "Enable Opencore AMR NR/WB audio format",
+      "option": "--with-opencore-amr"
+    },
+    {
+      "description": "Enable OpenH264 library",
+      "option": "--with-openh264"
+    },
+    {
+      "description": "Enable JPEG 2000 image format",
+      "option": "--with-openjpeg"
+    },
+    {
+      "description": "Enable SSL support",
+      "option": "--with-openssl"
+    },
+    {
+      "description": "Enable RTMP protocol",
+      "option": "--with-rtmpdump"
+    },
+    {
+      "description": "Enable rubberband library",
+      "option": "--with-rubberband"
+    },
+    {
+      "description": "Enable FFplay media player",
+      "option": "--with-sdl2"
+    },
+    {
+      "description": "Enable Snappy library",
+      "option": "--with-snappy"
+    },
+    {
+      "description": "Enable additional FFmpeg tools",
+      "option": "--with-tools"
+    },
+    {
+      "description": "Enable using libwebp to encode WEBP images",
+      "option": "--with-webp"
+    },
+    {
+      "description": "Enable x265 encoder",
+      "option": "--with-x265"
+    },
+    {
+      "description": "Enable decoding of LZMA-compressed TIFF files",
+      "option": "--with-xz"
+    },
+    {
+      "description": "Enable using libzeromq to receive commands sent through a libzeromq client",
+      "option": "--with-zeromq"
+    },
+    {
+      "description": "Enable z.lib zimg library",
+      "option": "--with-zimg"
+    },
+    {
+      "description": "Disable MP3 encoder",
+      "option": "--without-lame"
+    },
+    {
+      "description": "Disable deprecated QuickTime framework",
+      "option": "--without-qtkit"
+    },
+    {
+      "description": "Disable use of SecureTransport",
+      "option": "--without-securetransport"
+    },
+    {
+      "description": "Disable H.264 encoder",
+      "option": "--without-x264"
+    },
+    {
+      "description": "Disable Xvid MPEG-4 video encoder",
+      "option": "--without-xvid"
+    },
+    {
+      "description": "Disable building GPL licensed parts of FFmpeg",
+      "option": "--without-gpl"
+    },
+    {
+      "description": "Build without xz support",
+      "option": "--without-xz"
+    },
+    {
+      "description": "Build with fontconfig support",
+      "option": "--with-fontconfig"
+    },
+    {
+      "description": "Build with freetype support",
+      "option": "--with-freetype"
+    },
+    {
+      "description": "Build with frei0r support",
+      "option": "--with-frei0r"
+    },
+    {
+      "description": "Build with game-music-emu support",
+      "option": "--with-game-music-emu"
+    },
+    {
+      "description": "Build with libbluray support",
+      "option": "--with-libbluray"
+    },
+    {
+      "description": "Build with libbs2b support",
+      "option": "--with-libbs2b"
+    },
+    {
+      "description": "Build with libcaca support",
+      "option": "--with-libcaca"
+    },
+    {
+      "description": "Build with libgsm support",
+      "option": "--with-libgsm"
+    },
+    {
+      "description": "Build with libmodplug support",
+      "option": "--with-libmodplug"
+    },
+    {
+      "description": "Build with libvorbis support",
+      "option": "--with-libvorbis"
+    },
+    {
+      "description": "Build with libvpx support",
+      "option": "--with-libvpx"
+    },
+    {
+      "description": "Build with opus support",
+      "option": "--with-opus"
+    },
+    {
+      "description": "Build with speex support",
+      "option": "--with-speex"
+    },
+    {
+      "description": "Build with theora support",
+      "option": "--with-theora"
+    },
+    {
+      "description": "Build with two-lame support",
+      "option": "--with-two-lame"
+    },
+    {
+      "description": "Build with wavpack support",
+      "option": "--with-wavpack"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "lame",
+    "x264",
+    "xvid",
+    "xz"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.0"
+  }
+}

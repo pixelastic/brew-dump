@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b0accfedd2582109acec3297878bb943360282520a31b0d1c16c4ec1aa70a362",
+          "url": "https://linuxbrew.bintray.com/bottles/msgpuck-2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "50197e08a5b55fbe804109ad01dfa815a6dde2b11b688d89a58154fed2d8d54f",
+          "url": "https://linuxbrew.bintray.com/bottles/msgpuck-2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6f4011d177bf2e42f94f853bc93283ada6c48df8fdb7269135def453e65e598d",
+          "url": "https://linuxbrew.bintray.com/bottles/msgpuck-2.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "dfd81546c490cf3fb421fa698c647f034cd99095721bf895456a13c0615c8423",
+          "url": "https://linuxbrew.bintray.com/bottles/msgpuck-2.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "A simple and efficient MsgPack binary serialization library",
+  "full_name": "msgpuck",
+  "homepage": "https://rtsisyk.github.io/msgpuck/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "msgpuck",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0"
+  }
+}

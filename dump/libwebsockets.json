@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f4176df2b2d8cf9e23efa30f0e1dbbf8d3b7acd89b2f737272ed105626a9570f",
+          "url": "https://linuxbrew.bintray.com/bottles/libwebsockets-2.4.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "98e839747183274970c3a62fcffe9f6e390405d488f5e7b3c57743f281cd512c",
+          "url": "https://linuxbrew.bintray.com/bottles/libwebsockets-2.4.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "87878e4c44ba0dbf6608675f20afc1f0c272c2e8d4f61fbd6110a3130ad83a95",
+          "url": "https://linuxbrew.bintray.com/bottles/libwebsockets-2.4.2_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libev",
+    "libuv",
+    "libevent",
+    "openssl"
+  ],
+  "desc": "C websockets server library",
+  "full_name": "libwebsockets",
+  "homepage": "https://libwebsockets.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libwebsockets",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.4.2"
+  }
+}

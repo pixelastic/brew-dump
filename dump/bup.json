@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d17a4b3cfa4233179a4828b23fdae5bf19a8bb605080c697b52d548354e797cb",
+          "url": "https://linuxbrew.bintray.com/bottles/bup-0.29.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "364b59cc6d16740e56d5295636670f1084f541027c72f0f4ba18e3a12dba8959",
+          "url": "https://linuxbrew.bintray.com/bottles/bup-0.29.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ffe848617a641266d6915ce1c0fa6713dd02d978f47da33ffb9b91b15adbbe05",
+          "url": "https://linuxbrew.bintray.com/bottles/bup-0.29.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "462b39a188a6fd32d9df4812a629b3bf8692f38439125d98e58e306261277903",
+          "url": "https://linuxbrew.bintray.com/bottles/bup-0.29.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pandoc"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pandoc",
+    "python@2"
+  ],
+  "desc": "Backup tool",
+  "full_name": "bup",
+  "homepage": "https://github.com/bup/bup",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bup",
+  "oldname": null,
+  "optional_dependencies": [
+    "pandoc"
+  ],
+  "options": [
+    {
+      "description": "Build and install the manpages",
+      "option": "--with-pandoc"
+    },
+    {
+      "description": "Run unit tests after compilation",
+      "option": "--with-test"
+    },
+    {
+      "description": "Build without repository access via `bup web`",
+      "option": "--without-web"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.29.1"
+  }
+}

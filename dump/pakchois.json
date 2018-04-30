@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b02057a2cc01daa05754c537820b58d7c77b632fc5fdb2a6f6dcec77341fe65b",
+          "url": "https://linuxbrew.bintray.com/bottles/pakchois-0.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ee7978dad7998e747e468f1b9afaa692304efb2ca857d4c0903945f030841fb7",
+          "url": "https://linuxbrew.bintray.com/bottles/pakchois-0.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "03d6ab9d51bdebf61b3c415908e222467fd31cefc4811200eee9e407c604f7f5",
+          "url": "https://linuxbrew.bintray.com/bottles/pakchois-0.4.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "84a90b245c59676817d4c9100d64d7747068e0d3557fc5c3218d8a83a98f78fe",
+          "url": "https://linuxbrew.bintray.com/bottles/pakchois-0.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "30a06a914f2025d7d23dff48fa8523be455bf925a3282a8c35f56779fd8bd27a",
+          "url": "https://linuxbrew.bintray.com/bottles/pakchois-0.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "PKCS #11 wrapper library",
+  "full_name": "pakchois",
+  "homepage": "http://www.manyfish.co.uk/pakchois/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pakchois",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4"
+  }
+}

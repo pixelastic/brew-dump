@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "HornetQ has been installed to:\n  /home/tim/.linuxbrew/Cellar/hornetq/2.4.0/libexec\n\n`run.sh` and `stop.sh` have been wrapped as`hornet-start` and `hornet-stop`\nto avoid naming conflicts.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Multi-protocol, embeddable, clustered, asynchronous messaging system",
+  "full_name": "hornetq",
+  "homepage": "https://hornetq.jboss.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hornetq",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.0"
+  }
+}

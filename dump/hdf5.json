@@ -1,0 +1,78 @@
+{
+  "aliases": [
+    "hdf5@1.10"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f32565fe894c769fbe5a58360f69b714dbe94b2a4fead9aff2d271107c995f21",
+          "url": "https://linuxbrew.bintray.com/bottles/hdf5-1.10.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fca357b8fa9ea5e17532857d8ded87bd4a0a43cf327334eec2e4b24e78d07c11",
+          "url": "https://linuxbrew.bintray.com/bottles/hdf5-1.10.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b5486518f09c34c102a149f107c07f3df64bad9190bf51e5d8281a8498426722",
+          "url": "https://linuxbrew.bintray.com/bottles/hdf5-1.10.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "774cefc8cca0e40ca32f125409f95dd8c6464d9ba97586cccc60d00b2c86bb0f",
+          "url": "https://linuxbrew.bintray.com/bottles/hdf5-1.10.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "zlib",
+    "autoconf",
+    "automake",
+    "libtool",
+    "gcc",
+    "szip"
+  ],
+  "desc": "File format designed to store large amounts of data",
+  "full_name": "hdf5",
+  "homepage": "https://www.hdfgroup.org/HDF5",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hdf5",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable parallel support",
+      "option": "--with-mpi"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.10.2"
+  }
+}

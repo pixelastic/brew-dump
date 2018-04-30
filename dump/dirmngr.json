@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f48ac053a17ce7a6c4002a5b7fa0a3c480ddfc74086595a4267887d8d3e94dfd",
+          "url": "https://linuxbrew.bintray.com/bottles/dirmngr-1.1.1_3.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3dc85c23309e279305b30f5599cd3078081c4a38cb20fa667fbf8410bae87a29",
+          "url": "https://linuxbrew.bintray.com/bottles/dirmngr-1.1.1_3.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b7bd8f432922e4b5dba79719692494b57b4dfff1da975053075bb5bcc6c569fe",
+          "url": "https://linuxbrew.bintray.com/bottles/dirmngr-1.1.1_3.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "42803096ab9d5c97c43cb06a72096fb03664b10b4e0ba014a42af657a9648ec7",
+          "url": "https://linuxbrew.bintray.com/bottles/dirmngr-1.1.1_3.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libassuan",
+    "libgpg-error",
+    "libgcrypt",
+    "libksba",
+    "pth",
+    "openldap"
+  ],
+  "desc": "Server for managing certificate revocation lists",
+  "full_name": "dirmngr",
+  "homepage": "https://www.gnupg.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "dirmngr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.1"
+  }
+}

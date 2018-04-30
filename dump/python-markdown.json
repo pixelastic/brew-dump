@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1bfa222753f8f3151769b20deed2b00af1d60e0fb6a6eb25a84c6374fab8385e",
+          "url": "https://linuxbrew.bintray.com/bottles/python-markdown-2.6.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1bfa222753f8f3151769b20deed2b00af1d60e0fb6a6eb25a84c6374fab8385e",
+          "url": "https://linuxbrew.bintray.com/bottles/python-markdown-2.6.11.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1bfa222753f8f3151769b20deed2b00af1d60e0fb6a6eb25a84c6374fab8385e",
+          "url": "https://linuxbrew.bintray.com/bottles/python-markdown-2.6.11.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "154ad88a27af8174dffdc7e626df5327f2d318074fffcda828cc67444a2078c5",
+          "url": "https://linuxbrew.bintray.com/bottles/python-markdown-2.6.11.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Python implementation of Markdown",
+  "full_name": "python-markdown",
+  "homepage": "https://pypi.python.org/pypi/Markdown",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "python-markdown",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.6.11"
+  }
+}

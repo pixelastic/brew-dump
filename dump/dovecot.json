@@ -1,0 +1,89 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "655ad80916e6f404014e9338ee691b053eb245dd5719adfffe75ddb82d6d1e83",
+          "url": "https://linuxbrew.bintray.com/bottles/dovecot-2.3.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "45f1715564e702c8219d24089b09b526582cac66fbba92b64a0a3a7ad6fb8adf",
+          "url": "https://linuxbrew.bintray.com/bottles/dovecot-2.3.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "99ba590650def35c3fc895f768fdcb28095fd9297d47040801383e8314ceff62",
+          "url": "https://linuxbrew.bintray.com/bottles/dovecot-2.3.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2ed21c3b183364149a59f6e4efafcdb517258deac960b105fd96990c96bc2efa",
+          "url": "https://linuxbrew.bintray.com/bottles/dovecot-2.3.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "For Dovecot to work, you may need to create a dovecot user\nand group depending on your configuration file options.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "clucene",
+    "bzip2",
+    "sqlite"
+  ],
+  "desc": "IMAP/POP3 server",
+  "full_name": "dovecot",
+  "homepage": "https://dovecot.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dovecot",
+  "oldname": null,
+  "optional_dependencies": [
+    "clucene"
+  ],
+  "options": [
+    {
+      "description": "Build with PAM support",
+      "option": "--with-pam"
+    },
+    {
+      "description": "Add Sieve addon for Dovecot mailserver",
+      "option": "--with-pigeonhole"
+    },
+    {
+      "description": "Build unfinished new Sieve addon features/extensions",
+      "option": "--with-pigeonhole-unfinished-features"
+    },
+    {
+      "description": "Build with libstemmer support",
+      "option": "--with-stemmer"
+    },
+    {
+      "description": "Build with clucene support",
+      "option": "--with-clucene"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.1"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f84991229a6701f9483c79232c5e25f3e4577d2e6748c06b5f49808c0ee8354b",
+          "url": "https://linuxbrew.bintray.com/bottles/sshconfigfs-0.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8a6fe6649349ad9d1f14bcbe96d4bef0039aaab16bc8b320f052c053d468af70",
+          "url": "https://linuxbrew.bintray.com/bottles/sshconfigfs-0.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5e5f5ccfa8356cc53e19bf1a794b0152d6a2083cee84f0777c4e5b9d371e4dfc",
+          "url": "https://linuxbrew.bintray.com/bottles/sshconfigfs-0.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f84991229a6701f9483c79232c5e25f3e4577d2e6748c06b5f49808c0ee8354b",
+          "url": "https://linuxbrew.bintray.com/bottles/sshconfigfs-0.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "FUSE filesystem to dynamically build SSH config",
+  "full_name": "sshconfigfs",
+  "homepage": "https://github.com/markhellewell/sshconfigfs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sshconfigfs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.3"
+  }
+}

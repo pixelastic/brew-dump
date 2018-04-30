@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0bdc868c9b11510e2d9e6551dee970c20406215153906d8bc42790d8510ac429",
+          "url": "https://linuxbrew.bintray.com/bottles/cdpr-2.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ce836a4189c94a1441cb417f36699fca01e3cf30b69bcc5a3ec8307c51d0f66e",
+          "url": "https://linuxbrew.bintray.com/bottles/cdpr-2.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "d23bf22f119337fdb04c7a016046ceb6c724d63015f19620d55c3e4883827f21",
+          "url": "https://linuxbrew.bintray.com/bottles/cdpr-2.4.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c6603372329fd2dc0c60266b3f3eb6c9f7cc5c0ce7f351b05977ab39a18cde7c",
+          "url": "https://linuxbrew.bintray.com/bottles/cdpr-2.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3f0fbd6fe9862b367f64354ad6ce3b2deacd35ae627f8d73d5095739325be378",
+          "url": "https://linuxbrew.bintray.com/bottles/cdpr-2.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "run cdpr sudo'd in order to avoid the error: 'No interfaces found! Make sure pcap is installed.'",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Cisco Discovery Protocol Reporter",
+  "full_name": "cdpr",
+  "homepage": "http://www.monkeymental.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cdpr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4"
+  }
+}

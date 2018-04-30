@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0ae267d7ffcf17769da97275af047dc2a4ba9e5086acdb53dd11ca41f3d40ddb",
+          "url": "https://linuxbrew.bintray.com/bottles/asciitex-0.21.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "28a1327d58e05b74df8382ce37595d8d80decaf5cdbac4739995bc53d9f30ef7",
+          "url": "https://linuxbrew.bintray.com/bottles/asciitex-0.21.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "31518a63d9b06f8e47ff57c5d6d22ca838abc2c1366d59db2bb8967971134d52",
+          "url": "https://linuxbrew.bintray.com/bottles/asciitex-0.21.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "cfcef4a17d2194a111da39891f06694d2056082915858d3cf938d3659b2d1a64",
+          "url": "https://linuxbrew.bintray.com/bottles/asciitex-0.21.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9828783530514218f99ea7eabfad2031caeac979fac90cc9e049de4b4622fb80",
+          "url": "https://linuxbrew.bintray.com/bottles/asciitex-0.21.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ff836eecd95aa223fac118053ba0925d62bc46fb55e896a36f6a4f79e55a4027",
+          "url": "https://linuxbrew.bintray.com/bottles/asciitex-0.21.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e9eadc960e449db67f305c3e1cc8d4f025288967bb8b6a37f5ba4bf5ad58493d",
+          "url": "https://linuxbrew.bintray.com/bottles/asciitex-0.21.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Generate ASCII-art representations of mathematical equations",
+  "full_name": "asciitex",
+  "homepage": "https://asciitex.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "asciitex",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.21"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c8208683e4730233147e6c7153a469cdc1f477aacde0559937f0da93c8ad0345",
+          "url": "https://linuxbrew.bintray.com/bottles/nettoe-1.5.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0349c1335e428d5f0b620043259908b5af60feed84d9dea911033e0d65704488",
+          "url": "https://linuxbrew.bintray.com/bottles/nettoe-1.5.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "49ad705043bdd9f1ab860d877d3ffba584bef5ddbd4c03f6fe43adc49b9c1e5d",
+          "url": "https://linuxbrew.bintray.com/bottles/nettoe-1.5.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "78038d253cd382f5f3a6b3b12c7776828c44c1572f0569bec862763aa5141c2a",
+          "url": "https://linuxbrew.bintray.com/bottles/nettoe-1.5.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tic Tac Toe-like game for the console",
+  "full_name": "nettoe",
+  "homepage": "https://nettoe.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nettoe",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.1"
+  }
+}

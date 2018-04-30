@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3163b67e0fd8a236f8e16331f299c3ef0ea0718693b009a684889731eb007c89",
+          "url": "https://linuxbrew.bintray.com/bottles/flow-0.71.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "94ececc6fb702b46aaceb565cb41f5943bedc03eea3a7d6050d515b93db0a659",
+          "url": "https://linuxbrew.bintray.com/bottles/flow-0.71.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "93b426023afeff6386b872acfd285073aee21ff4208e50754f395e279acc8ba8",
+          "url": "https://linuxbrew.bintray.com/bottles/flow-0.71.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d023376ce37f870d2e0e8e7a29d8234108659ff72d7aa089db782798e8944017",
+          "url": "https://linuxbrew.bintray.com/bottles/flow-0.71.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ocaml",
+    "opam",
+    "m4",
+    "rsync",
+    "unzip"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ocaml",
+    "opam",
+    "m4",
+    "rsync",
+    "unzip",
+    "elfutils"
+  ],
+  "desc": "Static type checker for JavaScript",
+  "full_name": "flow",
+  "homepage": "https://flowtype.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "flow",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.71.0"
+  }
+}

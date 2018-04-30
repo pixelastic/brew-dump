@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "298fbe96efa71f53a4bfb7ae92d0e1cf31b8d9749611300ecc02dcefe20be9d8",
+          "url": "https://linuxbrew.bintray.com/bottles/nanopb-generator-0.3.9.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "298fbe96efa71f53a4bfb7ae92d0e1cf31b8d9749611300ecc02dcefe20be9d8",
+          "url": "https://linuxbrew.bintray.com/bottles/nanopb-generator-0.3.9.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "298fbe96efa71f53a4bfb7ae92d0e1cf31b8d9749611300ecc02dcefe20be9d8",
+          "url": "https://linuxbrew.bintray.com/bottles/nanopb-generator-0.3.9.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a1d7a5a249a8b3736a109311b94dea672ec0696106a3d3aae9d7a4b13e8bea06",
+          "url": "https://linuxbrew.bintray.com/bottles/nanopb-generator-0.3.9.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "mesos"
+  ],
+  "dependencies": [
+    "python@2",
+    "protobuf"
+  ],
+  "desc": "C library for encoding and decoding Protocol Buffer messages",
+  "full_name": "nanopb-generator",
+  "homepage": "https://jpa.kapsi.fi/nanopb/docs/index.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nanopb-generator",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.9.1"
+  }
+}

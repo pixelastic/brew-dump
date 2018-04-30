@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "53e71eff08e868a148f06c1624e94c3156e504cb8e9101aec9db22410fe0101e",
+          "url": "https://linuxbrew.bintray.com/bottles/pgplot-5.2.2_5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fa50b8dc562ae8e2311640f8158564c1552a31cfdc9aed960129e4ec7f1804a1",
+          "url": "https://linuxbrew.bintray.com/bottles/pgplot-5.2.2_5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "511d11937071d598d49eb9ed1ad959bfcd377a378825b63564790b5146b90dee",
+          "url": "https://linuxbrew.bintray.com/bottles/pgplot-5.2.2_5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gcc",
+    "libpng"
+  ],
+  "desc": "Device-independent graphics package for making simple scientific graphs",
+  "full_name": "pgplot",
+  "homepage": "http://www.astro.caltech.edu/~tjp/pgplot/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pgplot",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 5,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.2.2"
+  }
+}

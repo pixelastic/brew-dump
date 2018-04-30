@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2721bafcbe1db12e444f5025bdae81aa3c7cff6572aa7423e401baeb10a43157",
+          "url": "https://linuxbrew.bintray.com/bottles/tree-1.7.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1a9ac89dc194918786c3175bdf439e74d16f7d27bd5fa4be7b006e5d0b077a1e",
+          "url": "https://linuxbrew.bintray.com/bottles/tree-1.7.0.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "0bcb8a1de3ed51295917d6dd997ea492048f90a5ee1084676171a39dbd489654",
+          "url": "https://linuxbrew.bintray.com/bottles/tree-1.7.0.mavericks.bottle.1.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "c3bd091797c487bb1ac5586d0e524da341c6043b0298269a9ded271646274fa3",
+          "url": "https://linuxbrew.bintray.com/bottles/tree-1.7.0.mountain_lion.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f7c8a080435445e17c254ca53b016d9012bf768851df67c3d892ba71fe98e924",
+          "url": "https://linuxbrew.bintray.com/bottles/tree-1.7.0.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0277d4ea1d32885f55a32a026a84da949f0e68a667038f66fbfd7ededd8e5a5f",
+          "url": "https://linuxbrew.bintray.com/bottles/tree-1.7.0.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c1ad4f32c4922cbd1e37aa55b8fa6e0cc8a04c96a24f0d9e7957b50b311d854d",
+          "url": "https://linuxbrew.bintray.com/bottles/tree-1.7.0.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Display directories as trees (with optional color/HTML output)",
+  "full_name": "tree",
+  "homepage": "http://mama.indstate.edu/users/ice/tree/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tree",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.0"
+  }
+}

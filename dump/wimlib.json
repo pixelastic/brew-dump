@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6a2b65020b31dbda4499bffbe773e5596dbc130d6f91ee84c9a7c532dd858594",
+          "url": "https://linuxbrew.bintray.com/bottles/wimlib-1.12.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bf98257d6f32313b3a57713ae6b2ad7c3f72ddd5b1e1ed609436fb337ba51d63",
+          "url": "https://linuxbrew.bintray.com/bottles/wimlib-1.12.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "32a00c25f98932b84ac5304df29eb5f6edea0a2fc3a2b33ee83938e92c488549",
+          "url": "https://linuxbrew.bintray.com/bottles/wimlib-1.12.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1748d0556fccc78106b2b790e13e0a642b794c11a9cb82984d98b213d5985ac0",
+          "url": "https://linuxbrew.bintray.com/bottles/wimlib-1.12.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c26d19bd6a6994fae60000f329d136c991b6a1172141c6c047792175a2c79439",
+          "url": "https://linuxbrew.bintray.com/bottles/wimlib-1.12.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "ntfs-3g",
+    "openssl",
+    "libxml2"
+  ],
+  "desc": "Library to create, extract, and modify Windows Imaging files",
+  "full_name": "wimlib",
+  "homepage": "https://wimlib.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wimlib",
+  "oldname": null,
+  "optional_dependencies": [
+    "ntfs-3g"
+  ],
+  "options": [
+    {
+      "description": "Build with ntfs-3g support",
+      "option": "--with-ntfs-3g"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.12.0"
+  }
+}

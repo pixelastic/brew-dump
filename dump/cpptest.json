@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "216442c844ddb2886e6877cd129fda3c589dadf8ac07572e6aa05c1c3cff4669",
+          "url": "https://linuxbrew.bintray.com/bottles/cpptest-1.1.2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bd7d2b0055d1de9cce94d3695aa7c160fbe3d0780e9650c73a7543bd5726162a",
+          "url": "https://linuxbrew.bintray.com/bottles/cpptest-1.1.2.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c1f68d40bd58366d28846395169868d86a012b8d65473aa8845401619052d568",
+          "url": "https://linuxbrew.bintray.com/bottles/cpptest-1.1.2.mavericks.bottle.1.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "a3f5cf0532bf9b72b73bf2fa52862b88fbc318ebd0ee9712a09771a071371fbc",
+          "url": "https://linuxbrew.bintray.com/bottles/cpptest-1.1.2.mountain_lion.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f243764e911fe4c056f782ebee8cd84316214d961b14322b4cedc92f60478d49",
+          "url": "https://linuxbrew.bintray.com/bottles/cpptest-1.1.2.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e6b364e203c882063362e4a0ef6e6482420ab57b1ec24699b6da31b50f792f14",
+          "url": "https://linuxbrew.bintray.com/bottles/cpptest-1.1.2.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Unit testing framework handling automated tests in C++",
+  "full_name": "cpptest",
+  "homepage": "https://cpptest.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cpptest",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.2"
+  }
+}

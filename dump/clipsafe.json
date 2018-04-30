@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ffd255c6ff1bd4c403bc4040f1751eef61b4ae341c33b226bf9a696b2836b02e",
+          "url": "https://linuxbrew.bintray.com/bottles/clipsafe-1.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "211d670b61c6a68650736df3deb3ae783c320491ba3205e035cc28c014fca705",
+          "url": "https://linuxbrew.bintray.com/bottles/clipsafe-1.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7c894e55e215fffa121aef718dbf7fa0f2c71531cf7970ae8d27f4b5eb939877",
+          "url": "https://linuxbrew.bintray.com/bottles/clipsafe-1.1_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "01dbb7b4cf71ae2b174cfec45cdf4a69e211a5154bc6541fb19e1b5aa20f8389",
+          "url": "https://linuxbrew.bintray.com/bottles/clipsafe-1.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Command-line interface to Password Safe",
+  "full_name": "clipsafe",
+  "homepage": "http://waxandwane.org/clipsafe.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "clipsafe",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

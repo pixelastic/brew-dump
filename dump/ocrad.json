@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "eb1f66d4cfb2c2c6768c89053fca5fc762c12b401b745cbbd1e6faad3ae25dcf",
+          "url": "https://linuxbrew.bintray.com/bottles/ocrad-0.26.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9f6a1c40b39e78418342c54ca981648d0b2fe8db03c1fb81bf44aff3225e1dd9",
+          "url": "https://linuxbrew.bintray.com/bottles/ocrad-0.26.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "219b9bf172b5f7379c849a8e55b04dabd74f054564fdaec2fb40502f7e996967",
+          "url": "https://linuxbrew.bintray.com/bottles/ocrad-0.26.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fb3e7e6ab86d242c309a1bb2eaa83451b6fa7369a63222b8025de70a3dbb8615",
+          "url": "https://linuxbrew.bintray.com/bottles/ocrad-0.26.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "lzip"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "lzip"
+  ],
+  "desc": "Optical character recognition (OCR) program",
+  "full_name": "ocrad",
+  "homepage": "https://www.gnu.org/software/ocrad/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ocrad",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.26"
+  }
+}

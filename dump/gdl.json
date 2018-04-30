@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c366de7b473f8af12cbb38b4a2fabbde7438d76915a8f06663ef1e0703548e6b",
+          "url": "https://linuxbrew.bintray.com/bottles/gdl-3.28.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7395131d564a60d6b225c82f109403aa92bbc5f75a59eccd1ec3f98a13052f6f",
+          "url": "https://linuxbrew.bintray.com/bottles/gdl-3.28.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9267cd085c7e131ffb16b13a3c4f6b39ae5b3093fd16f77925263ea305b3536b",
+          "url": "https://linuxbrew.bintray.com/bottles/gdl-3.28.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "intltool",
+    "gtk+3",
+    "libxml2"
+  ],
+  "desc": "GNOME Docking Library provides docking features for GTK+ 3",
+  "full_name": "gdl",
+  "homepage": "https://developer.gnome.org/gdl/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gdl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.28.0"
+  }
+}

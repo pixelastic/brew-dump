@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "abd3dbef86edde7285bfbb7d66956341e5f2fca7445c876e1d8a525a8754650e",
+          "url": "https://linuxbrew.bintray.com/bottles/ldc-1.8.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "99490b9435a79c78061962991d83d5be2ffd6cdc16512f479024e0035c4e96da",
+          "url": "https://linuxbrew.bintray.com/bottles/ldc-1.8.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c45b6622177a989f9b14f9722ce0cf8406a9b3af4c2a55aa87ca7dfad26eb899",
+          "url": "https://linuxbrew.bintray.com/bottles/ldc-1.8.0_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "libconfig"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libconfig",
+    "llvm@5"
+  ],
+  "desc": "Portable D programming language compiler",
+  "full_name": "ldc",
+  "homepage": "https://wiki.dlang.org/LDC",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ldc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "1.9.0-beta1",
+    "head": "HEAD",
+    "stable": "1.8.0"
+  }
+}

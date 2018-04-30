@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1668ebf91ee98d2d898f2b2eb75adba49f7bb3c8e353f2ac95f722da2858110b",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql++-3.2.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "62551ee383b5c68a1b74f3652e44fafc3ab210b63af765cb2a6318f09695c0b1",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql++-3.2.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "00b0c1e860ed384bb27fbbe53c62ea4cbbec592357a2744e8203ccf000c84c31",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql++-3.2.3_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4826082fb79f47690ec456da8075208afeed60a104ff42e54e43d0c147111892",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql++-3.2.3_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mysql"
+  ],
+  "desc": "C++ wrapper for MySQL's C API",
+  "full_name": "mysql++",
+  "homepage": "https://tangentsoft.com/mysqlpp/home",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mysql++",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.2.3"
+  }
+}

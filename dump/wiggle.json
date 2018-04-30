@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f2b73f0db1e85e3ac79e06eb6407fd1fcd63ca6dbf34b707db78207bcfc59e7a",
+          "url": "https://linuxbrew.bintray.com/bottles/wiggle-1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e9b7905c9b7cf53030b67255642b58bdf671702783278409a7c6059eb88ed9b5",
+          "url": "https://linuxbrew.bintray.com/bottles/wiggle-1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "38ae96a5c3bb1ce68376f8e17ddf915fc7d667bbbd973db54a385085946da16b",
+          "url": "https://linuxbrew.bintray.com/bottles/wiggle-1.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Program for applying patches with conflicting changes",
+  "full_name": "wiggle",
+  "homepage": "https://neil.brown.name/blog/20100324064620",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wiggle",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

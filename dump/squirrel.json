@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0b6dab6fc2a9a9a9d68d8310977041bd20a492cfe91a6daef07638b0cea55aad",
+          "url": "https://linuxbrew.bintray.com/bottles/squirrel-3.1.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c57b21bbdcac5cbaf3d7319d64f08c150d16592138bdf1027e7032f579e10091",
+          "url": "https://linuxbrew.bintray.com/bottles/squirrel-3.1.0.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f4d3e6db56838a29cd7247f0933de64bb35a6dac581a9ade879205cbfc9d93f7",
+          "url": "https://linuxbrew.bintray.com/bottles/squirrel-3.1.0.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "High level, imperative, object-oriented programming language",
+  "full_name": "squirrel",
+  "homepage": "http://www.squirrel-lang.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "squirrel",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.1.0"
+  }
+}

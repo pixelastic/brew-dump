@@ -1,0 +1,69 @@
+{
+  "aliases": [
+    "csvfix"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ba19053a978b57b6b962f8fa24d099d964ceb90cd28304e3a6c2a7fe0d3abc32",
+          "url": "https://linuxbrew.bintray.com/bottles/csv-fix-1.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e02b2cb8929617c91a258c313481097146259a9ed68094bd759c30c3cc75806e",
+          "url": "https://linuxbrew.bintray.com/bottles/csv-fix-1.6.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "0b86933c8e32830d5abd0f26ef83b1a60e0254da67542b695fd50ab1e3ba2e68",
+          "url": "https://linuxbrew.bintray.com/bottles/csv-fix-1.6.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b52224f7cd1dd228ffe751c67993f854a8a59f17d6099d40fca02374f1949d02",
+          "url": "https://linuxbrew.bintray.com/bottles/csv-fix-1.6.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b8dbaf2e14e35cc4c1d7b5d04a5615377f7eeb4d9b1f25fe554b8711511c28f6",
+          "url": "https://linuxbrew.bintray.com/bottles/csv-fix-1.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tool for manipulating CSV data",
+  "full_name": "csv-fix",
+  "homepage": "https://neilb.bitbucket.io/csvfix/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "csv-fix",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6"
+  }
+}

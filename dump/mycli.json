@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "efb1798af243e65cc470d754439b5d82fde609081d5e77b40e0a29ea0d36b5d1",
+          "url": "https://linuxbrew.bintray.com/bottles/mycli-1.16.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0e595019db782a382f315a1c449334391b17630194193b45c61bfdd4e20efeb2",
+          "url": "https://linuxbrew.bintray.com/bottles/mycli-1.16.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a1d590e59cd55c5539032bbb6e3682de3ac687c924418a57875fdac7cc7042c1",
+          "url": "https://linuxbrew.bintray.com/bottles/mycli-1.16.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "620e535375e4574f4b6d8ee5223b36e2a3f7d73be8299c2e3b1b065a50e00efc",
+          "url": "https://linuxbrew.bintray.com/bottles/mycli-1.16.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "openssl",
+    "pkg-config",
+    "libffi"
+  ],
+  "desc": "CLI for MySQL with auto-completion and syntax highlighting",
+  "full_name": "mycli",
+  "homepage": "https://mycli.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mycli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.16.0"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1b6ddaf528253df2e2d5b93e97b6f4ade717ff8f3f6bcf829ed7cf9d9e682539",
+          "url": "https://linuxbrew.bintray.com/bottles/shmcat-1.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ff73e6df8b663b4f382098ce75a9ec4634d4658c5378b3ad122de135e30d44ab",
+          "url": "https://linuxbrew.bintray.com/bottles/shmcat-1.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5ee7bcafe69d653421e29b56cf2e48a55874dc1e092e817a83cb446cda4acf01",
+          "url": "https://linuxbrew.bintray.com/bottles/shmcat-1.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ba5d4d130846537f603b399ea5896daf4125b0d19bd143a130c0b68a4006acee",
+          "url": "https://linuxbrew.bintray.com/bottles/shmcat-1.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gettext"
+  ],
+  "desc": "Tool that dumps shared memory segments (System V and POSIX)",
+  "full_name": "shmcat",
+  "homepage": "https://shmcat.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "shmcat",
+  "oldname": null,
+  "optional_dependencies": [
+    "gettext"
+  ],
+  "options": [
+    {
+      "description": "Build the ftok utility",
+      "option": "--with-ftok"
+    },
+    {
+      "description": "Build with Native Language Support",
+      "option": "--with-gettext"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9"
+  }
+}

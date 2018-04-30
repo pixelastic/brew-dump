@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "75ce68fd95fb502e20ccb25be72f7db12112ac1a4bdf5a70c140cd174ecbacf5",
+          "url": "https://linuxbrew.bintray.com/bottles/terminal-notifier-2.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f112656234f4100d23cc1a41b96f92a09974360a822c2ec0fb6f9970862c1a22",
+          "url": "https://linuxbrew.bintray.com/bottles/terminal-notifier-2.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "210cd525fad70bbaef40f092bc3478b1519f68f73c034990230d8b1cc61a8a7c",
+          "url": "https://linuxbrew.bintray.com/bottles/terminal-notifier-2.0.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Send macOS User Notifications from the command-line",
+  "full_name": "terminal-notifier",
+  "homepage": "https://github.com/julienXX/terminal-notifier",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "terminal-notifier",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.0"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f01ac1d6e94e5d5fabef9dd7c458ebe30cad4ecdde37c188e40bb4c5247cdb1d",
+          "url": "https://linuxbrew.bintray.com/bottles/screen-4.6.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8f49501b0a53d9160060c05b46c2b120334795a19134ac80a021b298c731e864",
+          "url": "https://linuxbrew.bintray.com/bottles/screen-4.6.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6c1a701f2166ccb235bbb961b0ce4e526bad87dd1d923c97fb00fc15cb1fc961",
+          "url": "https://linuxbrew.bintray.com/bottles/screen-4.6.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f0cd206a2f5b37792afcf0c57642e979f5ff80b93da5012de36100bcfb0bed08",
+          "url": "https://linuxbrew.bintray.com/bottles/screen-4.6.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "ncurses"
+  ],
+  "desc": "Terminal multiplexer with VT100/ANSI terminal emulation",
+  "full_name": "screen",
+  "homepage": "https://www.gnu.org/software/screen",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "screen",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.6.2"
+  }
+}

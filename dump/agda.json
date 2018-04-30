@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "dfb13015d80bee654406a639a907f004c422aa87c102fc6db2cddf48c460615f",
+          "url": "https://linuxbrew.bintray.com/bottles/agda-2.5.3_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6506de625f9f04509c0e36b2b5659764c511d96a6c321f3f49d5034f09630ba4",
+          "url": "https://linuxbrew.bintray.com/bottles/agda-2.5.3_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6f901334a92e1f22593bb9bf058f981b71359153bb922017364626e7d7f0ce5a",
+          "url": "https://linuxbrew.bintray.com/bottles/agda-2.5.3_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cabal-install"
+  ],
+  "caveats": "To use the Agda standard library by default:\n  mkdir -p ~/.agda\n  echo /home/tim/.linuxbrew/lib/agda/standard-library.agda-lib >>~/.agda/libraries\n  echo standard-library >>~/.agda/defaults\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ghc@8.2",
+    "cabal-install",
+    "emacs"
+  ],
+  "desc": "Dependently typed functional programming language",
+  "full_name": "agda",
+  "homepage": "http://wiki.portal.chalmers.se/agda/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "agda",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't install the Agda standard library",
+      "option": "--without-stdlib"
+    },
+    {
+      "description": "Disable the GHC backend",
+      "option": "--without-ghc@8.2"
+    },
+    {
+      "description": "Build without emacs support",
+      "option": "--without-emacs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "ghc@8.2",
+    "emacs"
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.5.3"
+  }
+}

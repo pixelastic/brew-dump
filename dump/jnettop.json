@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d5e07a56ee0fc93972f31dc878558d9d4348a4a3dd4e9b06a8c858008541657b",
+          "url": "https://linuxbrew.bintray.com/bottles/jnettop-0.13.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "080fb7eb6cdc86c32d899a99acef5f509c35204b794bd920f19c31ed5887727a",
+          "url": "https://linuxbrew.bintray.com/bottles/jnettop-0.13.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "90ebc909ac301d2ec5c9595581c796a15200e0f8439f353148bff0b214aafb26",
+          "url": "https://linuxbrew.bintray.com/bottles/jnettop-0.13.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib"
+  ],
+  "desc": "View hosts/ports taking up the most network traffic",
+  "full_name": "jnettop",
+  "homepage": "https://web.archive.org/web/20161127214942/jnettop.kubs.info/wiki/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jnettop",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.13.0"
+  }
+}

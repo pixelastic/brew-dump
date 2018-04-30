@@ -1,0 +1,88 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7b0dafa8d25adac387410d0bd064c2645d4fb8826c0b24b840c71e3e783eaa3b",
+          "url": "https://linuxbrew.bintray.com/bottles/gloox-1.0.20.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d6acd544200f6524e6c6c4b4c12747e855abb0fb6129628e86166b921035dc39",
+          "url": "https://linuxbrew.bintray.com/bottles/gloox-1.0.20.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8268b106a2de45233f339630793ebdb46c501925faa758f0d61eb7485ced1c87",
+          "url": "https://linuxbrew.bintray.com/bottles/gloox-1.0.20.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d0e17df776f6c8554363dcefdd2cb331eba426472ec3ef65b03f4c92121d862c",
+          "url": "https://linuxbrew.bintray.com/bottles/gloox-1.0.20.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "12fa240ab11bad334840099b0a8574b6cce0064647b06bb433f3600669bd6cda",
+          "url": "https://linuxbrew.bintray.com/bottles/gloox-1.0.20.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "openssl",
+    "gnutls",
+    "libidn"
+  ],
+  "desc": "C++ Jabber/XMPP library that handles the low-level protocol",
+  "full_name": "gloox",
+  "homepage": "https://camaya.net/gloox/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gloox",
+  "oldname": null,
+  "optional_dependencies": [
+    "gnutls",
+    "libidn"
+  ],
+  "options": [
+    {
+      "description": "Build without openssl support",
+      "option": "--without-openssl"
+    },
+    {
+      "description": "Build with gnutls support",
+      "option": "--with-gnutls"
+    },
+    {
+      "description": "Build with libidn support",
+      "option": "--with-libidn"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "openssl"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.20"
+  }
+}

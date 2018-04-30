@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a730f21ffa4e9503f15d8b3ecd51c846cac5e79581ef5ec86297c4c10739e4a3",
+          "url": "https://linuxbrew.bintray.com/bottles/geographiclib-1.49.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "69f55b7d549bf61aa3867cd5451a3df11ca71f823c5baef79631ed9edfc32417",
+          "url": "https://linuxbrew.bintray.com/bottles/geographiclib-1.49.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d583748cacffdef26dca690a0f8e87d02166ce7ef1907e9bbf282f7e0c099b1c",
+          "url": "https://linuxbrew.bintray.com/bottles/geographiclib-1.49.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "86ad06557d841ccf504504b2c02eba547b668ce49d84503c6f0f7afd745585ad",
+          "url": "https://linuxbrew.bintray.com/bottles/geographiclib-1.49.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "C++ geography library",
+  "full_name": "geographiclib",
+  "homepage": "https://geographiclib.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "geographiclib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.49"
+  }
+}

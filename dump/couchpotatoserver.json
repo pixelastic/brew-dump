@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "CouchPotatoServer defaults to port 5050.",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Download movies automatically",
+  "full_name": "couchpotatoserver",
+  "homepage": "https://couchpota.to",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "couchpotatoserver",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.0.1"
+  }
+}

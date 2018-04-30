@@ -1,0 +1,98 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "7c81cf90d3b5caf999aaced6dfdd11a56dac0c70353a3c44faf540037e2633cc",
+          "url": "https://linuxbrew.bintray.com/bottles/r-3.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5f925d72acd24d2530fdfed24753009a263517ebd69f7af95c097d9856f2fc0b",
+          "url": "https://linuxbrew.bintray.com/bottles/r-3.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "038bbe72345839605641a854c505a13b47aaa6bb672501f0635deb358d3215db",
+          "url": "https://linuxbrew.bintray.com/bottles/r-3.5.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gcc",
+    "gettext",
+    "jpeg",
+    "libpng",
+    "pcre",
+    "readline",
+    "xz",
+    "openblas",
+    "cairo",
+    "curl",
+    "tcl-tk",
+    "linuxbrew/xorg/xorg"
+  ],
+  "desc": "Software environment for statistical computing",
+  "full_name": "r",
+  "homepage": "https://www.r-project.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "r",
+  "oldname": null,
+  "optional_dependencies": [
+    "openblas",
+    "tcl-tk"
+  ],
+  "options": [
+    {
+      "description": "Build with openblas support",
+      "option": "--with-openblas"
+    },
+    {
+      "description": "Build with java support",
+      "option": "--with-java"
+    },
+    {
+      "description": "Build with tcl-tk support",
+      "option": "--with-tcl-tk"
+    },
+    {
+      "description": "Build without xorg support",
+      "option": "--without-xorg"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "linuxbrew/xorg/xorg"
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.5.0"
+  }
+}

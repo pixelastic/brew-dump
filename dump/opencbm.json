@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "6ba3fc869e59f002f6ae897cbb34b4ece023c11371c3d611453b330714b65cba",
+          "url": "https://linuxbrew.bintray.com/bottles/opencbm-0.4.99.99.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d9555da83fc70f801663f13cfc4ed34241feec72d29125fb12a2105fce414210",
+          "url": "https://linuxbrew.bintray.com/bottles/opencbm-0.4.99.99.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6ff076233d442f7f15e22595623cf46c38cf1024997240bd48db1e4bb01c44c2",
+          "url": "https://linuxbrew.bintray.com/bottles/opencbm-0.4.99.99.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cc65"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cc65",
+    "libusb-compat"
+  ],
+  "desc": "Provides access to various floppy drive formats",
+  "full_name": "opencbm",
+  "homepage": "https://spiro.trikaliotis.net/opencbm-alpha",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "opencbm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.99.99"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "17fd021e2103853590c081d33ee166f3bfac899d720e2c5c5227d1b688e01b15",
+          "url": "https://linuxbrew.bintray.com/bottles/pazpar2-1.13.0_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e33724b4d63916aca0c3cac89e517e15b67ee0e3630af3cd460d39507949f0df",
+          "url": "https://linuxbrew.bintray.com/bottles/pazpar2-1.13.0_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f45fe2c1eb88ee197322f058e3b17f25e4b8538bec79eb91c90a41da563e07fb",
+          "url": "https://linuxbrew.bintray.com/bottles/pazpar2-1.13.0_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "icu4c",
+    "yaz"
+  ],
+  "desc": "Metasearching middleware webservice",
+  "full_name": "pazpar2",
+  "homepage": "https://www.indexdata.com/pazpar2",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pazpar2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without icu4c support",
+      "option": "--without-icu4c"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "icu4c"
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.13.0"
+  }
+}

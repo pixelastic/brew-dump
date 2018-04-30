@@ -1,0 +1,70 @@
+{
+  "aliases": [
+    "stack"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d303035dc4e8fcdc8d1aecd5c0c56a8db0421cd21cc5d168442289b9d2e10168",
+          "url": "https://linuxbrew.bintray.com/bottles/haskell-stack-1.7.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fda2391548b3ff62866e09f584458fa7e4b894273c77024134a99f90b56850e6",
+          "url": "https://linuxbrew.bintray.com/bottles/haskell-stack-1.7.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e02d867825d757031ea0dc945f598b794d097b3398fb202b0de8ba9684198d1e",
+          "url": "https://linuxbrew.bintray.com/bottles/haskell-stack-1.7.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cabal-install",
+    "ghc"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cabal-install",
+    "ghc",
+    "zlib"
+  ],
+  "desc": "The Haskell Tool Stack",
+  "full_name": "haskell-stack",
+  "homepage": "https://haskellstack.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "haskell-stack",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't bootstrap a stage 2 stack",
+      "option": "--without-bootstrap"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.7.1"
+  }
+}

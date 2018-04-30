@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3b1eeb563a56a67b8335bcfe94359482b068d12b9a34b033158ee642a2536056",
+          "url": "https://linuxbrew.bintray.com/bottles/mlkit-4.3.9.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "506bb73d7421593ea3bd76f8958ce61d161c9a7e724c525b1b32bedae61fa8dd",
+          "url": "https://linuxbrew.bintray.com/bottles/mlkit-4.3.9.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2f6e573272e385556c38437c83017ce3ffb9279b091bdd3f6d815d6ef401940b",
+          "url": "https://linuxbrew.bintray.com/bottles/mlkit-4.3.9.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "mlton"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "mlton",
+    "gmp"
+  ],
+  "desc": "Compiler for the Standard ML programming language",
+  "full_name": "mlkit",
+  "homepage": "https://melsman.github.io/mlkit",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mlkit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.3.9"
+  }
+}

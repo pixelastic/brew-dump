@@ -1,0 +1,50 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Hadoop, Hive, HBase and ZooKeeper must be installed and configured\nfor Sqoop to work.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "hadoop",
+    "hbase",
+    "hive",
+    "zookeeper",
+    "coreutils"
+  ],
+  "desc": "Transfer bulk data between Hadoop and structured datastores",
+  "full_name": "sqoop",
+  "homepage": "https://sqoop.apache.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sqoop",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.6"
+  }
+}

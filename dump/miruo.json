@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8a5402f68bcb73e22f13fb0b049caea5d186520e81bf77889c91a558d9988c59",
+          "url": "https://linuxbrew.bintray.com/bottles/miruo-0.9.6b.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "36df62e0454d4b7e5743a002a2ff3293e087a9fb607c369f3d23732d87330e4e",
+          "url": "https://linuxbrew.bintray.com/bottles/miruo-0.9.6b.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "3b5a390dae561d3ac554cbd6f16c1af6019677c3846985b116ce8fd1de649bd1",
+          "url": "https://linuxbrew.bintray.com/bottles/miruo-0.9.6b.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dbe92dd3ab515528597eb76aa986f4e9d8dd512504d76ca60b86b5dc5dc70449",
+          "url": "https://linuxbrew.bintray.com/bottles/miruo-0.9.6b.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f39aa9336ac2ec07ec0bd25bc7f7d3ae1b7a76c8af8c4d5e1f7e0ffdcfcbc9fe",
+          "url": "https://linuxbrew.bintray.com/bottles/miruo-0.9.6b.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Pretty-print TCP session monitor/analyzer",
+  "full_name": "miruo",
+  "homepage": "https://github.com/KLab/miruo/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "miruo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.6b"
+  }
+}

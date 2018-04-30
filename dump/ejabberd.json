@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bd8ab1e7b90c84deb8f383e2a10b8a40c95e4903a40f866505678ff8947968ab",
+          "url": "https://linuxbrew.bintray.com/bottles/ejabberd-18.03.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "51e4b5ec56674844bf385ec14dabb3e5cf338d24960e9e35daa9c62436c41b93",
+          "url": "https://linuxbrew.bintray.com/bottles/ejabberd-18.03.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9eafe8585cb38b7a70a8608010a8191f1c9c1a9da975e3d8332d7751e095df75",
+          "url": "https://linuxbrew.bintray.com/bottles/ejabberd-18.03.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "If you face nodedown problems, concat your machine name to:\n  /private/etc/hosts\nafter 'localhost'.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "erlang",
+    "gd",
+    "libyaml",
+    "imagemagick"
+  ],
+  "desc": "XMPP application server",
+  "full_name": "ejabberd",
+  "homepage": "https://www.ejabberd.im",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ejabberd",
+  "oldname": null,
+  "optional_dependencies": [
+    "imagemagick"
+  ],
+  "options": [
+    {
+      "description": "Build with imagemagick support",
+      "option": "--with-imagemagick"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "18.03"
+  }
+}

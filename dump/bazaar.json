@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "bzr"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6d1409dc49d838c0209bc59ebeb4ec5b70c5c1caef3b27b97f0ebedd6d8ff515",
+          "url": "https://linuxbrew.bintray.com/bottles/bazaar-2.7.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "102d9ec9fbed0c83402195d77f20bbcf94210face42bcddf98c3feda6c9587f7",
+          "url": "https://linuxbrew.bintray.com/bottles/bazaar-2.7.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4a927398b0b1fc8ce43e16a227f40c63409a752338fd36600d05b907d960cab5",
+          "url": "https://linuxbrew.bintray.com/bottles/bazaar-2.7.0_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1eab82e2e5d2235a590ab39089d5cf665a67d627d69a3afaeb005b81f0ab8012",
+          "url": "https://linuxbrew.bintray.com/bottles/bazaar-2.7.0_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Friendly powerful distributed version control system",
+  "full_name": "bazaar",
+  "homepage": "https://bazaar.canonical.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bazaar",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.7.0"
+  }
+}

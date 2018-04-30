@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "de7e18c61774eff595acafeeaa22733c13269face211a179f3a46c0b6aa7dc60",
+          "url": "https://linuxbrew.bintray.com/bottles/mitie-0.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d73f3db219902d12a9321273adb0be485156d870e43cbf0106db550cef210cbe",
+          "url": "https://linuxbrew.bintray.com/bottles/mitie-0.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e3776d82c4712cd1532a2a54456e61c67f08b23b90ef946d475952dc4cb0f308",
+          "url": "https://linuxbrew.bintray.com/bottles/mitie-0.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Library and tools for information extraction",
+  "full_name": "mitie",
+  "homepage": "https://github.com/mit-nlp/MITIE/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mitie",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't download the v0.2 models (~415MB)",
+      "option": "--without-models"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5"
+  }
+}

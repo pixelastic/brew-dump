@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "88ce1c875c760dbe9ee5cff7c435c4253c2e366403862ab0d053679fe115d7d6",
+          "url": "https://linuxbrew.bintray.com/bottles/osm2pgrouting-2.3.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "470c02534c55675c79c76e1b9e7434c751c02458847c7a37c124d7ff5640ef5c",
+          "url": "https://linuxbrew.bintray.com/bottles/osm2pgrouting-2.3.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1d9816373d3be292775229ede1d9413d36bb71de11334a2473e8e5356a97f27a",
+          "url": "https://linuxbrew.bintray.com/bottles/osm2pgrouting-2.3.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "boost",
+    "expat",
+    "libpqxx",
+    "pgrouting",
+    "postgis",
+    "postgresql"
+  ],
+  "desc": "Import OSM data into pgRouting database",
+  "full_name": "osm2pgrouting",
+  "homepage": "http://pgrouting.org/docs/tools/osm2pgrouting.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "osm2pgrouting",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.3.4"
+  }
+}

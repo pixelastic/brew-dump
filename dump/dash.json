@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "807944242d102a2ab60498cd18377092e4055bbc6a68b950a76b11f013431aa4",
+          "url": "https://linuxbrew.bintray.com/bottles/dash-0.5.9.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6bbb2ddfda0414be7bc04f4128e24c616321f50a24bb5474a8823ec334b104d3",
+          "url": "https://linuxbrew.bintray.com/bottles/dash-0.5.9.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a5706775cbe31c1571a6634d36b3ac6383ed4a4e7334772bae9c49f375ed678c",
+          "url": "https://linuxbrew.bintray.com/bottles/dash-0.5.9.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "adf06475d603bef0a015b41ec2683c09629b6f2b80210e3660c2115d093fb92d",
+          "url": "https://linuxbrew.bintray.com/bottles/dash-0.5.9.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "dd1cccafe8f7a004d396bccf8382e0049aa472be062281cbf75902e2258a91c4",
+          "url": "https://linuxbrew.bintray.com/bottles/dash-0.5.9.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "POSIX-compliant descendant of NetBSD's ash (the Almquist SHell)",
+  "full_name": "dash",
+  "homepage": "https://packages.debian.org/source/sid/shells/dash",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dash",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5.9.1"
+  }
+}

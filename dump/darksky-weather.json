@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "84edfbcabc9a4feb3e433cdbef16fd64cb800b9f7cb95cbb77a59018aafb9a82",
+          "url": "https://linuxbrew.bintray.com/bottles/darksky-weather-0.15.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "46e049d61c74e6c48628891f673ce423c3804aab701970a2a57e1c9388215b07",
+          "url": "https://linuxbrew.bintray.com/bottles/darksky-weather-0.15.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "540bed62bdf4b2d62492aa1599d18d5ce11d19114c8101fe994b713bd75a0854",
+          "url": "https://linuxbrew.bintray.com/bottles/darksky-weather-0.15.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "42ef1dfcf478a7793f19ed1d0f18de8a4b2ce62eda100c1466187d194a2ea9d9",
+          "url": "https://linuxbrew.bintray.com/bottles/darksky-weather-0.15.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Command-line weather from the darksky.net API",
+  "full_name": "darksky-weather",
+  "homepage": "https://github.com/genuinetools/weather",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "darksky-weather",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.15.0"
+  }
+}

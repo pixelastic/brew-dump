@@ -1,0 +1,103 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "062df74d0def4530f280ca9a9affe82d819ba73f076de164262b152ecc83e7ce",
+          "url": "https://linuxbrew.bintray.com/bottles/mutt-1.9.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "34f2d81ebe67fe3049a22a9ee31111575c708db2307b974bfaa046af4a2bcbdf",
+          "url": "https://linuxbrew.bintray.com/bottles/mutt-1.9.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "96e72bfbfcc89e66037b98cf1d6a262d697e99a9c18a6d3390864a97f91c4593",
+          "url": "https://linuxbrew.bintray.com/bottles/mutt-1.9.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c63fdb8fe605cbaaab2f354806442f5729774b13edeb1379b983fdfa91ac7e6c",
+          "url": "https://linuxbrew.bintray.com/bottles/mutt-1.9.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "tin"
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "openssl",
+    "tokyo-cabinet",
+    "gettext",
+    "gpgme",
+    "libidn",
+    "s-lang",
+    "bzip2",
+    "zlib",
+    "krb5",
+    "ncurses"
+  ],
+  "desc": "Mongrel of mail user agents (part elm, pine, mush, mh, etc.)",
+  "full_name": "mutt",
+  "homepage": "http://www.mutt.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mutt",
+  "oldname": null,
+  "optional_dependencies": [
+    "gettext",
+    "gpgme",
+    "libidn",
+    "s-lang"
+  ],
+  "options": [
+    {
+      "description": "Build with debug option enabled",
+      "option": "--with-debug"
+    },
+    {
+      "description": "Build against slang instead of ncurses",
+      "option": "--with-s-lang"
+    },
+    {
+      "description": "Build with gettext support",
+      "option": "--with-gettext"
+    },
+    {
+      "description": "Build with gpgme support",
+      "option": "--with-gpgme"
+    },
+    {
+      "description": "Build with libidn support",
+      "option": "--with-libidn"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.9.5"
+  }
+}

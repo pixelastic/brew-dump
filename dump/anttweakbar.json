@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "417278abe012967efcf22b0276527187f6472dd5fd4d271b1ea32604816d46c9",
+          "url": "https://linuxbrew.bintray.com/bottles/anttweakbar-1.16.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "393b87de789337afebed9196404af46fa660fea3b476d874d77b48bb35c8079b",
+          "url": "https://linuxbrew.bintray.com/bottles/anttweakbar-1.16.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "d1298b92cf6a7498c3b357adf6e696d0b24374e758853783fa228a8af5eecddc",
+          "url": "https://linuxbrew.bintray.com/bottles/anttweakbar-1.16.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "af510970b310b01ee52528e816cdd53e2d4a4e2cfc76e426b1710f758bc99d20",
+          "url": "https://linuxbrew.bintray.com/bottles/anttweakbar-1.16.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a2e29104a5ef51621faaebd72ccc39bd5fe7bd6e977af74a358c5cc83c65c2c2",
+          "url": "https://linuxbrew.bintray.com/bottles/anttweakbar-1.16.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "C/C++ library for adding GUIs to OpenGL apps",
+  "full_name": "anttweakbar",
+  "homepage": "https://anttweakbar.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "anttweakbar",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.16"
+  }
+}

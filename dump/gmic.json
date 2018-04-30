@@ -1,0 +1,104 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "db45390cb89c9a1d1280f05543555917d161be399223e79d99f6fcacae6532bf",
+          "url": "https://linuxbrew.bintray.com/bottles/gmic-2.1.5_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "13ccaf356dc8be85d6d60078c5c10ad3ae6fd515169c396b6cb1c28b2a348c15",
+          "url": "https://linuxbrew.bintray.com/bottles/gmic-2.1.5_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7ed192f9ad04036d236cbe9b854ea54325bb366ec392d4cb977e227167ce1ebf",
+          "url": "https://linuxbrew.bintray.com/bottles/gmic-2.1.5_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "jpeg",
+    "libpng",
+    "fftw",
+    "opencv@2",
+    "ffmpeg",
+    "libtiff",
+    "openexr"
+  ],
+  "desc": "Full-Featured Open-Source Framework for Image Processing",
+  "full_name": "gmic",
+  "homepage": "https://gmic.eu/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gmic",
+  "oldname": null,
+  "optional_dependencies": [
+    "opencv@2",
+    "ffmpeg",
+    "libtiff",
+    "openexr"
+  ],
+  "options": [
+    {
+      "description": "Build without jpeg support",
+      "option": "--without-jpeg"
+    },
+    {
+      "description": "Build without libpng support",
+      "option": "--without-libpng"
+    },
+    {
+      "description": "Build without fftw support",
+      "option": "--without-fftw"
+    },
+    {
+      "description": "Build with opencv@2 support",
+      "option": "--with-opencv@2"
+    },
+    {
+      "description": "Build with ffmpeg support",
+      "option": "--with-ffmpeg"
+    },
+    {
+      "description": "Build with libtiff support",
+      "option": "--with-libtiff"
+    },
+    {
+      "description": "Build with openexr support",
+      "option": "--with-openexr"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "jpeg",
+    "libpng",
+    "fftw"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.5"
+  }
+}

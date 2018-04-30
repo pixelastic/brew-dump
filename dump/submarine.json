@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a01b0ed5b8bebd9c6619267d2a1f405d139f2f5fb77e55e1a6dcd7c21cb1ecfe",
+          "url": "https://linuxbrew.bintray.com/bottles/submarine-0.1.7b_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b8ad1b8a4b3da401d17bd7e05765dcd50b552e95e753bbca9d05ccf8d0181e14",
+          "url": "https://linuxbrew.bintray.com/bottles/submarine-0.1.7b_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c274540c9b0662f09251420b3237538025e6f68587d330fcd31589683d065550",
+          "url": "https://linuxbrew.bintray.com/bottles/submarine-0.1.7b_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e16a0bbc21e4018564e7cc781860427fb234f7360e16b32bba5d7cc91c5ce4cf",
+          "url": "https://linuxbrew.bintray.com/bottles/submarine-0.1.7b_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config",
+    "vala"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "vala",
+    "glib",
+    "libgee",
+    "libsoup",
+    "libarchive"
+  ],
+  "desc": "Search and download subtitles",
+  "full_name": "submarine",
+  "homepage": "https://github.com/rastersoft/submarine",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "submarine",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.1.7b"
+  }
+}

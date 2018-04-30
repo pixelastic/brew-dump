@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a485feb6b215857d7870d56c21bceab55e16bfd85ad48d296f3a79842388d7e8",
+          "url": "https://linuxbrew.bintray.com/bottles/micropython-1.9.3_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e071d65ec654f528a26cf020a94072b17aeaf08385115d524e6c6139d16b6ab3",
+          "url": "https://linuxbrew.bintray.com/bottles/micropython-1.9.3_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "14cd46105046e82ede775f2fd1eab21dbb4a8a7506361f5de98845791b56b106",
+          "url": "https://linuxbrew.bintray.com/bottles/micropython-1.9.3_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "849fd358bdad84c6143c83c8fb13fc4d3b4ac6104975cb902c6a9ef4ed9346f5",
+          "url": "https://linuxbrew.bintray.com/bottles/micropython-1.9.3_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libffi",
+    "python"
+  ],
+  "desc": "Python implementation for microcontrollers and constrained systems",
+  "full_name": "micropython",
+  "homepage": "https://www.micropython.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "micropython",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9.3"
+  }
+}

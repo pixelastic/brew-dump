@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "Node.js utility to dump the local homebrew registry to JSON files.",
   "scripts": {
-    "start": "node lib/index.js"
+    "start": "node lib/index.js",
+    "dump": "npm run start -- --dir=./dump"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "algoliasearch": "^3.26.0",
     "any-observable": "^0.2.0",
     "execa": "^0.10.0",
+    "json-stable-stringify": "1.0.1",
     "listr": "^0.14.0",
     "mkdirp": "^0.5.1",
     "p-map": "^1.2.0",

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f362694f30021c32557e23b5add36ac4bdfbcabc6056996c5d23fc125527d85d",
+          "url": "https://linuxbrew.bintray.com/bottles/wait_on-1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ca2dfaf2a1449ae1066826846cbdc9963efb837277f258c57304669f8615ad0f",
+          "url": "https://linuxbrew.bintray.com/bottles/wait_on-1.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "91acf6c588980ddfa44f17778a82eac20e0b1cc8401f21d2c145060a83fae97b",
+          "url": "https://linuxbrew.bintray.com/bottles/wait_on-1.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "31a21b915c4f8d901ed5d51d14f3f2f81993ed07891832fdbfb314b7cc8599e5",
+          "url": "https://linuxbrew.bintray.com/bottles/wait_on-1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1719c6f8843af24cc8a985ee3e246fd10c6fe7b08297a1086e0636ed437199fd",
+          "url": "https://linuxbrew.bintray.com/bottles/wait_on-1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bsdmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bsdmake"
+  ],
+  "desc": "Provides shell scripts with access to kqueue(3)",
+  "full_name": "wait_on",
+  "homepage": "https://www.freshports.org/sysutils/wait_on/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wait_on",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

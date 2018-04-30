@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "743399859c237fb673ee9dec339d660215d92db2383f31c3208f726116adeb1d",
+          "url": "https://linuxbrew.bintray.com/bottles/unpaper-6.1_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "064acb1292a5a948eb3963be07c400d8fe0e7fa008afec78bfdd659392e45871",
+          "url": "https://linuxbrew.bintray.com/bottles/unpaper-6.1_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f35014bc991ee89bc5af4a4f25034bf525220a13a8925518424a5a423273a1cc",
+          "url": "https://linuxbrew.bintray.com/bottles/unpaper-6.1_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "ffmpeg"
+  ],
+  "desc": "Post-processing for scanned/photocopied books",
+  "full_name": "unpaper",
+  "homepage": "https://www.flameeyes.eu/projects/unpaper",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "unpaper",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.1"
+  }
+}

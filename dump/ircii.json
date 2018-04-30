@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bd98e7588df62ead1c94d09b2fb200475f4c09a0950a572ae527f13f6443107e",
+          "url": "https://linuxbrew.bintray.com/bottles/ircii-20170704.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d459c638c8c9d2e0f88b4382f592b4cd28d815b0455c799a9f89fba6c6b95496",
+          "url": "https://linuxbrew.bintray.com/bottles/ircii-20170704.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e8168dd5f7bb02880b0f8d199326fb81d7cf068cd2960d10aadd698d645bfa5a",
+          "url": "https://linuxbrew.bintray.com/bottles/ircii-20170704.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2bc24641161180093f7ea30ddbe7692afda55f1bbf9d46ed59b7773acf8137de",
+          "url": "https://linuxbrew.bintray.com/bottles/ircii-20170704.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "IRC and ICB client",
+  "full_name": "ircii",
+  "homepage": "http://www.eterna.com.au/ircii/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ircii",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20170704"
+  }
+}

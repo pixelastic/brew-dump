@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f5244a065b7aafe3ba60077de0072e9b5d231a7fd1eb348cd7f6583a69a08ad3",
+          "url": "https://linuxbrew.bintray.com/bottles/ent-1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "61cac8b0bcf0c511e6c77760cc9441ec7b4d981392f98d37bd8a40fd281620df",
+          "url": "https://linuxbrew.bintray.com/bottles/ent-1.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "cb4bd5766cdb804092f73a908921e034da352b890fdc34f5cc1f0d56a27d3c3a",
+          "url": "https://linuxbrew.bintray.com/bottles/ent-1.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9f20aba355ecd3310d5e4cd425fe69d88e20e9e1bc128a4b6a97c5d98a828135",
+          "url": "https://linuxbrew.bintray.com/bottles/ent-1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "072e3e71ee3b6813dafb15e53e8b474c1d15f26865b9cd05652e46c220e3926d",
+          "url": "https://linuxbrew.bintray.com/bottles/ent-1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Pseudorandom number sequence test program",
+  "full_name": "ent",
+  "homepage": "https://www.fourmilab.ch/random/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ent",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c38ab2e4dbe8d780728009be89ad9ad8f82f57f99df5a4e2d8f882bb8238bb81",
+          "url": "https://linuxbrew.bintray.com/bottles/libmspub-0.1.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "476947737c06403e92921a9ecf813fd2cc0d9d2b0c7e8a37607f136279dafe71",
+          "url": "https://linuxbrew.bintray.com/bottles/libmspub-0.1.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "25f898033a28e8f110f49b18ec1f178d6164ea81288bdbd1e3824216c040cd10",
+          "url": "https://linuxbrew.bintray.com/bottles/libmspub-0.1.4_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1590115e88dc2a5343048031953d29ce5fa2480d40933e585e789120a10d925d",
+          "url": "https://linuxbrew.bintray.com/bottles/libmspub-0.1.4_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "boost",
+    "libwpg"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "boost",
+    "libwpg",
+    "libwpd",
+    "icu4c",
+    "librevenge"
+  ],
+  "desc": "Interpret and import Microsoft Publisher content",
+  "full_name": "libmspub",
+  "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libmspub",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libmspub",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.4"
+  }
+}

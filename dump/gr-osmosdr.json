@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ce73204234a4b56739e28fbcdbd6c8ca1c44ada096f30a7b78a56056706811ac",
+          "url": "https://linuxbrew.bintray.com/bottles/gr-osmosdr-0.1.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c53bb7dca86390de755fd994452bca8b225b628d0467756ba7a77451efd2f378",
+          "url": "https://linuxbrew.bintray.com/bottles/gr-osmosdr-0.1.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a4a62d458c37f5a46641a9c66622c079b0168c4e117878ceb0707f28b08fd93b",
+          "url": "https://linuxbrew.bintray.com/bottles/gr-osmosdr-0.1.4_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "swig"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "swig",
+    "airspy",
+    "boost",
+    "gnuradio",
+    "hackrf",
+    "librtlsdr",
+    "python",
+    "uhd"
+  ],
+  "desc": "Osmocom GNU Radio Blocks",
+  "full_name": "gr-osmosdr",
+  "homepage": "https://osmocom.org/projects/sdr/wiki/GrOsmoSDR",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gr-osmosdr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.4"
+  }
+}

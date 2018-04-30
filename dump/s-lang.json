@@ -1,0 +1,82 @@
+{
+  "aliases": [
+    "slang"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c3dfe3de137e3ab1d26da0b20bd7e9fffae181f3ba9fbf159cf04b8e92707b38",
+          "url": "https://linuxbrew.bintray.com/bottles/s-lang-2.3.1a.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ffe303b001b8d560961a6d5112978cc6419ac1795202fb5da0a40b7ae99728c0",
+          "url": "https://linuxbrew.bintray.com/bottles/s-lang-2.3.1a.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aa8fa7cfaaa44eac118cd9f365ecc81a9a16c41637add489d10416f4a4169d9e",
+          "url": "https://linuxbrew.bintray.com/bottles/s-lang-2.3.1a.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c13c7f1fcb5b1bc826709c619477cea1020d7bc152e912797db8fd7fc7e2f918",
+          "url": "https://linuxbrew.bintray.com/bottles/s-lang-2.3.1a.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d96458487649104eeaf01ff36dbd9fd4142130bfbc71f47490e69f532fbf3ffa",
+          "url": "https://linuxbrew.bintray.com/bottles/s-lang-2.3.1a.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libpng",
+    "pcre",
+    "oniguruma"
+  ],
+  "desc": "Library for creating multi-platform software",
+  "full_name": "s-lang",
+  "homepage": "https://www.jedsoft.org/slang/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "s-lang",
+  "oldname": null,
+  "optional_dependencies": [
+    "pcre",
+    "oniguruma"
+  ],
+  "options": [
+    {
+      "description": "Build with pcre support",
+      "option": "--with-pcre"
+    },
+    {
+      "description": "Build with oniguruma support",
+      "option": "--with-oniguruma"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.1a"
+  }
+}

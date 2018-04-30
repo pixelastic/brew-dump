@@ -1,0 +1,50 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "kubernetes-cli"
+  ],
+  "desc": "Tool that can switch between kubectl contexts easily and create aliases",
+  "full_name": "kubectx",
+  "homepage": "https://github.com/ahmetb/kubectx",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "kubectx",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "link as \"kctx\" and \"kns\" instead",
+      "option": "--with-short-names"
+    },
+    {
+      "description": "Build without kubernetes-cli support",
+      "option": "--without-kubernetes-cli"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "kubernetes-cli"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5.0"
+  }
+}

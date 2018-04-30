@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5ad0e936fa7f53926838964c434e34c303bb540f676fb42b03d37845ace86940",
+          "url": "https://linuxbrew.bintray.com/bottles/wavpack-5.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3c474a8b2b524f596888089a374aa733c09615e4a861a11b7317204ef42c8c25",
+          "url": "https://linuxbrew.bintray.com/bottles/wavpack-5.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "caaf7a9f778270e2f445c4a4f864afbdbc5c410531866c06a5bfe9d0b10dbc36",
+          "url": "https://linuxbrew.bintray.com/bottles/wavpack-5.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ee253b38d81e19ab66a7820275a44c71c17a65b06e5ac67d636a8146e5cf11fb",
+          "url": "https://linuxbrew.bintray.com/bottles/wavpack-5.1.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "14d36c9f2f704d8d1181f63ad965690a4594444394ce42d2cfaf63cbfc981051",
+          "url": "https://linuxbrew.bintray.com/bottles/wavpack-5.1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Hybrid lossless audio compression",
+  "full_name": "wavpack",
+  "homepage": "http://www.wavpack.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wavpack",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.1.0"
+  }
+}

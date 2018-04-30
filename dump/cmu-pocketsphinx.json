@@ -1,0 +1,72 @@
+{
+  "aliases": [
+    "pocketsphinx"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2f1f4738dbcf7641a530b82c4dc6447ecadb5f9b60cd2484c33c379efb5c46e5",
+          "url": "https://linuxbrew.bintray.com/bottles/cmu-pocketsphinx-0.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "628d162751962337c769090867c3f9921d10b09f704f8f208b63abbefef205eb",
+          "url": "https://linuxbrew.bintray.com/bottles/cmu-pocketsphinx-0.8.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "9d49cd11915d906db23021eeaed8bed1ee5e565eaad03a1a96cbb03448ae6867",
+          "url": "https://linuxbrew.bintray.com/bottles/cmu-pocketsphinx-0.8.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "12abc8b527906e7ed0d2f6f0a6b6cb5c00f548fe94fcce995bdc80f43b4cf17b",
+          "url": "https://linuxbrew.bintray.com/bottles/cmu-pocketsphinx-0.8.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "dea4e6a8e131f68c94a6b9fb783a0445476354a90629001d5007fe3b4e5247bd",
+          "url": "https://linuxbrew.bintray.com/bottles/cmu-pocketsphinx-0.8.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cmu-sphinxbase"
+  ],
+  "desc": "Lightweight speech recognition engine for mobile devices",
+  "full_name": "cmu-pocketsphinx",
+  "homepage": "https://cmusphinx.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cmu-pocketsphinx",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8"
+  }
+}

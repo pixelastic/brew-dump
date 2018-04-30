@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "adcf854d3ed46bdd19c10f04537239991a9ca96e06c078f16c1d8f303f411561",
+          "url": "https://linuxbrew.bintray.com/bottles/open-mesh-6.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a2673ca1b0233e480d9c7e682714ce73371282dae666f29bc723e42d64b3729e",
+          "url": "https://linuxbrew.bintray.com/bottles/open-mesh-6.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "676e75669a5b5d754bb4bfcb44ae218ee19e51a2ee337a73d02d7afa3975dbd4",
+          "url": "https://linuxbrew.bintray.com/bottles/open-mesh-6.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3ea01760dd5aed9a42c1961aaf020e146a0b9a57fcaab1181803a17525fca1b9",
+          "url": "https://linuxbrew.bintray.com/bottles/open-mesh-6.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Generic data structure to represent and manipulate polygonal meshes",
+  "full_name": "open-mesh",
+  "homepage": "https://openmesh.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "open-mesh",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.3"
+  }
+}

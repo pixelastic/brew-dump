@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To configure, copy the default config to your HOME and edit it:\n  cp /home/tim/.linuxbrew/Cellar/todo-txt/2.11.0/todo.cfg ~/.todo.cfg\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Minimal, todo.txt-focused editor",
+  "full_name": "todo-txt",
+  "homepage": "http://todotxt.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "todo-txt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.11.0"
+  }
+}

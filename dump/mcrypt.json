@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "libmcrypt"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3cac7c430b1673877ba52bada82c3f710024dbd9f8dd0ff230c17c4623987beb",
+          "url": "https://linuxbrew.bintray.com/bottles/mcrypt-2.6.8.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "892bc8fe3e910389a4499a3466e240740d9eba2eae92974cb0d8c7ba0182d635",
+          "url": "https://linuxbrew.bintray.com/bottles/mcrypt-2.6.8.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "6c060224061c43733929524f3e45010192d5fc4ece1972fbce7259f96f514fa2",
+          "url": "https://linuxbrew.bintray.com/bottles/mcrypt-2.6.8.mavericks.bottle.1.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "b6dd5f1210d4b0fffa7b14e4fce445c11d6245840fd38f08255149b6e27832c2",
+          "url": "https://linuxbrew.bintray.com/bottles/mcrypt-2.6.8.mountain_lion.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c2d358a3e8b7c547c2b136bcd8c7e53c095ca9902ccc81c7af56cc007bfd1202",
+          "url": "https://linuxbrew.bintray.com/bottles/mcrypt-2.6.8.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d7b36cbc7affc0e1851861381e92677abce2b011f184ab39234ff6cfbf021413",
+          "url": "https://linuxbrew.bintray.com/bottles/mcrypt-2.6.8.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mhash"
+  ],
+  "desc": "Replacement for the old crypt package and crypt(1) command",
+  "full_name": "mcrypt",
+  "homepage": "https://mcrypt.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mcrypt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.6.8"
+  }
+}

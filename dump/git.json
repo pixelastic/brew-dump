@@ -1,0 +1,108 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b25864491b600776a662ff2ec6332d7b7cf788f9a0b5136b945b2ebae09bb565",
+          "url": "https://linuxbrew.bintray.com/bottles/git-2.17.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "afaaaff6d415d09fce5d624f0c883672fff7f1b9b710f862be8c8a30e7e1ab2b",
+          "url": "https://linuxbrew.bintray.com/bottles/git-2.17.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a79c0cb609eba78071bdebd168f3cb70cb2eb4943c8712a4af5d722a217aaef3",
+          "url": "https://linuxbrew.bintray.com/bottles/git-2.17.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c24c7173fa461216013c7228cac30bc709899388d63e802ccdf2edb5c944177d",
+          "url": "https://linuxbrew.bintray.com/bottles/git-2.17.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pcre2",
+    "gettext",
+    "curl",
+    "expat",
+    "openssl",
+    "tcl-tk",
+    "zlib",
+    "perl"
+  ],
+  "desc": "Distributed revision control system",
+  "full_name": "git",
+  "homepage": "https://git-scm.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git",
+  "oldname": null,
+  "optional_dependencies": [
+    "pcre2",
+    "gettext",
+    "tcl-tk",
+    "perl"
+  ],
+  "options": [
+    {
+      "description": "Compile with the block-optimized SHA1 implementation",
+      "option": "--with-blk-sha1"
+    },
+    {
+      "description": "Disable bash/zsh completions from 'contrib' directory",
+      "option": "--without-completions"
+    },
+    {
+      "description": "Use Homebrew's version of SVN",
+      "option": "--with-subversion"
+    },
+    {
+      "description": "Build git-remote-persistent-https from 'contrib' directory",
+      "option": "--with-persistent-https"
+    },
+    {
+      "description": "Build with pcre2 support",
+      "option": "--with-pcre2"
+    },
+    {
+      "description": "Build with gettext support",
+      "option": "--with-gettext"
+    },
+    {
+      "description": "Build with tcl-tk support",
+      "option": "--with-tcl-tk"
+    },
+    {
+      "description": "Build against Homebrew's Perl rather than system default",
+      "option": "--with-perl"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.17.0"
+  }
+}

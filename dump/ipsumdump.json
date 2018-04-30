@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a98b6116340b9b459f53310c030e99b8022f546c78cda7fcb040ea87c6e2a5f6",
+          "url": "https://linuxbrew.bintray.com/bottles/ipsumdump-1.86.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "16c995a9158257d8390cda7223f4d0620b6189c331177336b81f81077ee81620",
+          "url": "https://linuxbrew.bintray.com/bottles/ipsumdump-1.86.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "96148641aa0430d8b80cb3ebad8994d1911d61cad9557155172490579e210eaf",
+          "url": "https://linuxbrew.bintray.com/bottles/ipsumdump-1.86.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "83b145e153aa8e0680e9329035fb9ad55ce8875a2a6c8d35879821f51e394c7e",
+          "url": "https://linuxbrew.bintray.com/bottles/ipsumdump-1.86.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Summarizes TCP/IP dump files into a self-describing ASCII format",
+  "full_name": "ipsumdump",
+  "homepage": "http://www.read.seas.harvard.edu/~kohler/ipsumdump/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ipsumdump",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.86"
+  }
+}

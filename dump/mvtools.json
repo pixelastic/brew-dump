@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0da949dba3b2e7fffee8cc70b4848bb0dea404476636333db22f889347b0b6aa",
+          "url": "https://linuxbrew.bintray.com/bottles/mvtools-19.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3dd4f5e61df28a742322bc13a0b4c8390cb544ec9dd74e9d2699be9a3522ea3d",
+          "url": "https://linuxbrew.bintray.com/bottles/mvtools-19.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a1e8772b4d9306f46c6639d37668565ccadbe7bd702190a252275d4d98e70095",
+          "url": "https://linuxbrew.bintray.com/bottles/mvtools-19.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "yasm",
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": "MVTools will not be autoloaded in your VapourSynth scripts. To use it\nuse the following code in your scripts:\n\n  core.std.LoadPlugin(path=\"/home/tim/.linuxbrew/lib/libmvtools.dylib\")\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "yasm",
+    "vapoursynth",
+    "fftw",
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "desc": "Filters for motion estimation and compensation",
+  "full_name": "mvtools",
+  "homepage": "https://github.com/dubhater/vapoursynth-mvtools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mvtools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "19"
+  }
+}

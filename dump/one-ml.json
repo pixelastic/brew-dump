@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1d3496b1f0cc6d06d1a9b68a53c0d5d182cbc791a3795c61605e1b406d2eb394",
+          "url": "https://linuxbrew.bintray.com/bottles/one-ml-0.1_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5a2d9a7208f81348718cc0eb2870a13ffac837bceadc9a56a7f1ea19299285cf",
+          "url": "https://linuxbrew.bintray.com/bottles/one-ml-0.1_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "97fd29ed2044756e418c6ae09c70796b112c5677d716c5032e7b77f002c3a658",
+          "url": "https://linuxbrew.bintray.com/bottles/one-ml-0.1_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "56b07d769075b148d0a9b77a8e9b76ecda668f27cf1a618b7afae8ac6fb3e386",
+          "url": "https://linuxbrew.bintray.com/bottles/one-ml-0.1_2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c1052202350991040d99b3316a18cc808d8e16f75bb475edad18a73cc71da902",
+          "url": "https://linuxbrew.bintray.com/bottles/one-ml-0.1_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ocaml"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ocaml"
+  ],
+  "desc": "Reboot of ML, unifying its core and (now first-class) module layers",
+  "full_name": "one-ml",
+  "homepage": "https://www.mpi-sws.org/~rossberg/1ml/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "one-ml",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1"
+  }
+}

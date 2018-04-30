@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c90c8fb7641960727299f576812dd38d88f836f9d3b99a21fdf652d2032acb52",
+          "url": "https://linuxbrew.bintray.com/bottles/amap-5.4_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e20c8c6cfa0221a47164565fd4b4484dd4c653d646a8bdbf7f2330ef99c5079e",
+          "url": "https://linuxbrew.bintray.com/bottles/amap-5.4_2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "18d4464b634e7aec9fefc45079dd97d0867b956ee71f189dc7f0393e77f7dba7",
+          "url": "https://linuxbrew.bintray.com/bottles/amap-5.4_2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "81ff7d4c48a2bb6e0ba15ef0dbcbf31f98f1a1410d65bd53cd60ffc0e8d8c9d1",
+          "url": "https://linuxbrew.bintray.com/bottles/amap-5.4_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0ab42765f948fe016bc38c8d6005e66a86e93b4e93b073615baaf0fa0f0e95dc",
+          "url": "https://linuxbrew.bintray.com/bottles/amap-5.4_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Perform application protocol detection",
+  "full_name": "amap",
+  "homepage": "https://www.thc.org/thc-amap/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "amap",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.4"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "high_sierra": {
+          "sha256": "80628451ce3f7d10b52fedca68488f9f9d79aa87d41c96a16af1d2d98972121c",
+          "url": "https://linuxbrew.bintray.com/bottles/fibjs-0.23.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "575b15fdaa9e83a5cfd3b5359e70aece2d5b6b716275ee3f3889ea82e4abe592",
+          "url": "https://linuxbrew.bintray.com/bottles/fibjs-0.23.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "JavaScript on Fiber",
+  "full_name": "fibjs",
+  "homepage": "http://fibjs.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fibjs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.23.0"
+  }
+}

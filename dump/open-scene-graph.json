@@ -1,0 +1,121 @@
+{
+  "aliases": [
+    "openscenegraph"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "665ffa5bb902daee0b54b97d68a104b763fc02ed04299c6eb71065daa66a4145",
+          "url": "https://linuxbrew.bintray.com/bottles/open-scene-graph-3.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1c347539e968f1920c78b8570e1ff32ed60e741c02adbd6a9d5cfa5834e413a5",
+          "url": "https://linuxbrew.bintray.com/bottles/open-scene-graph-3.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e65d17f485dbfeca6c4709712b4ac197f70bcc78766ca78381b633be551d76e0",
+          "url": "https://linuxbrew.bintray.com/bottles/open-scene-graph-3.6.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "jpeg",
+    "gtkglext",
+    "freetype",
+    "sdl",
+    "gdal",
+    "jasper",
+    "openexr",
+    "dcmtk",
+    "librsvg",
+    "collada-dom",
+    "gnuplot",
+    "ffmpeg"
+  ],
+  "desc": "3D graphics toolkit",
+  "full_name": "open-scene-graph",
+  "homepage": "https://github.com/openscenegraph/OpenSceneGraph",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "open-scene-graph",
+  "oldname": null,
+  "optional_dependencies": [
+    "gdal",
+    "jasper",
+    "openexr",
+    "dcmtk",
+    "librsvg",
+    "collada-dom",
+    "gnuplot",
+    "ffmpeg"
+  ],
+  "options": [
+    {
+      "description": "Build the documentation with Doxygen and Graphviz",
+      "option": "--with-docs"
+    },
+    {
+      "description": "Build with gdal support",
+      "option": "--with-gdal"
+    },
+    {
+      "description": "Build with jasper support",
+      "option": "--with-jasper"
+    },
+    {
+      "description": "Build with openexr support",
+      "option": "--with-openexr"
+    },
+    {
+      "description": "Build with dcmtk support",
+      "option": "--with-dcmtk"
+    },
+    {
+      "description": "Build with librsvg support",
+      "option": "--with-librsvg"
+    },
+    {
+      "description": "Build with collada-dom support",
+      "option": "--with-collada-dom"
+    },
+    {
+      "description": "Build with gnuplot support",
+      "option": "--with-gnuplot"
+    },
+    {
+      "description": "Build with ffmpeg support",
+      "option": "--with-ffmpeg"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.6.0"
+  }
+}

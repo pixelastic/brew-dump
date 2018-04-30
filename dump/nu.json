@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "183c89418f6803a6f1395545739da9012b4e049d160038d6d5c00e242243284a",
+          "url": "https://linuxbrew.bintray.com/bottles/nu-2.2.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2b2b032b705ea26fc837bb621ce54a319594112708ce2c960ee2d440723667b3",
+          "url": "https://linuxbrew.bintray.com/bottles/nu-2.2.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1508d2c0376f54e1108568f79fa907244877f1d3981bbe6db69c6efcc7460c54",
+          "url": "https://linuxbrew.bintray.com/bottles/nu-2.2.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ba5bd173433144dbf6141cfced1c04f17f81c1cb014ea2f794090e6c5a5f8f4b",
+          "url": "https://linuxbrew.bintray.com/bottles/nu-2.2.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Nu.framework was installed to:\n  /home/tim/.linuxbrew/Cellar/nu/2.2.2/Frameworks/Nu.framework\n\nYou may want to symlink this Framework to a standard macOS location,\nsuch as:\n  ln -s \"/home/tim/.linuxbrew/Cellar/nu/2.2.2/Frameworks/Nu.framework\" /Library/Frameworks\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pcre"
+  ],
+  "desc": "Object-oriented, Lisp-like programming language",
+  "full_name": "nu",
+  "homepage": "http://programming.nu",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nu",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.2"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "yubico-pam"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "102680d53f9ef736089e1e4a4eeaab60962fbbf4156c1fb3e77d82f425b0eed7",
+          "url": "https://linuxbrew.bintray.com/bottles/pam_yubico-2.26.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a9a21d8b84d95c76d13118d1c525b93f9bbdf5c49b8aae5304df966d1a1ea669",
+          "url": "https://linuxbrew.bintray.com/bottles/pam_yubico-2.26.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7b0027b330f0f2bb6da798a7b405d80e09db71892c403206ba6c31bed5a3c804",
+          "url": "https://linuxbrew.bintray.com/bottles/pam_yubico-2.26.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libyubikey",
+    "ykclient",
+    "ykpers"
+  ],
+  "desc": "Yubico pluggable authentication module",
+  "full_name": "pam_yubico",
+  "homepage": "https://developers.yubico.com/yubico-pam/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pam_yubico",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.26"
+  }
+}

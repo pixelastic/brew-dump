@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d9aca9b48babc73f9b6c17effd1b71c0ad630a0830779ac844959a353315805f",
+          "url": "https://linuxbrew.bintray.com/bottles/innotop-1.11.4_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7b33804b2996a3684fe2a652a7e12c1de2874121076113265e1e02f5df71109c",
+          "url": "https://linuxbrew.bintray.com/bottles/innotop-1.11.4_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2637481998479373702bd1e4cecb7f8884356aa12ecfd5b9814d108b71efecfb",
+          "url": "https://linuxbrew.bintray.com/bottles/innotop-1.11.4_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mysql",
+    "openssl"
+  ],
+  "desc": "Top clone for MySQL",
+  "full_name": "innotop",
+  "homepage": "https://github.com/innotop/innotop/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "innotop",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.11.4"
+  }
+}

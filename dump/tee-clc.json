@@ -1,0 +1,47 @@
+{
+  "aliases": [
+    "team-explorer-everywhere"
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "tiny-fugue"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Microsoft Team Explorer Everywhere command-line Client",
+  "full_name": "tee-clc",
+  "homepage": "https://github.com/Microsoft/team-explorer-everywhere",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tee-clc",
+  "oldname": "team-explorer-everywhere",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "14.134.0"
+  }
+}

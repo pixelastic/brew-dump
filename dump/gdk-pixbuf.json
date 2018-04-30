@@ -1,0 +1,87 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bba846fded156d40a4921ce17e69579735875e9b4cd58953abb5206d04b8e120",
+          "url": "https://linuxbrew.bintray.com/bottles/gdk-pixbuf-2.36.12.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ffac03d4a01258c3d552a1edbd94da33197d252d4439d97cba6c4321654c0d4b",
+          "url": "https://linuxbrew.bintray.com/bottles/gdk-pixbuf-2.36.12.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c2504014e5e54d6052c50f741869ce09ef5480c718f155e65f62cca41f162c32",
+          "url": "https://linuxbrew.bintray.com/bottles/gdk-pixbuf-2.36.12.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "226800778c4e038da2669ea467d528834fe5eb563555150e84fd8b1f06e0387c",
+          "url": "https://linuxbrew.bintray.com/bottles/gdk-pixbuf-2.36.12.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "glib",
+    "jpeg",
+    "libtiff",
+    "libpng",
+    "jasper",
+    "shared-mime-info"
+  ],
+  "desc": "Toolkit for image loading and pixel buffer manipulation",
+  "full_name": "gdk-pixbuf",
+  "homepage": "https://gtk.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gdk-pixbuf",
+  "oldname": null,
+  "optional_dependencies": [
+    "jasper"
+  ],
+  "options": [
+    {
+      "description": "Disable dynamic module loading",
+      "option": "--without-modules"
+    },
+    {
+      "description": "Build the specified loaders into gdk-pixbuf",
+      "option": "--with-included-loaders="
+    },
+    {
+      "description": "Build with jasper support",
+      "option": "--with-jasper"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.36.12"
+  }
+}

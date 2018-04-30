@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "42e177bd72cba3b27750308aeeaf8afa0ec8cc553b8a9acf1a02a6d5a698ce14",
+          "url": "https://linuxbrew.bintray.com/bottles/scm-manager-1.59.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "42e177bd72cba3b27750308aeeaf8afa0ec8cc553b8a9acf1a02a6d5a698ce14",
+          "url": "https://linuxbrew.bintray.com/bottles/scm-manager-1.59.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "42e177bd72cba3b27750308aeeaf8afa0ec8cc553b8a9acf1a02a6d5a698ce14",
+          "url": "https://linuxbrew.bintray.com/bottles/scm-manager-1.59.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Manage Git, Mercurial, and Subversion repos over HTTP",
+  "full_name": "scm-manager",
+  "homepage": "https://www.scm-manager.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "scm-manager",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "caskroom/versions/java8",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.59"
+  }
+}

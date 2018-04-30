@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "fd51cb760ed8afb8a9e3dd5d05c8efa832361b238ad95410fb2864c91c081825",
+          "url": "https://linuxbrew.bintray.com/bottles/abnfgen-0.20.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3a62e72bec09b9bfff637710db366f713abc95de45437aeadbfa87a87dfc040c",
+          "url": "https://linuxbrew.bintray.com/bottles/abnfgen-0.20.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0d69f39473838a8e46fb02009329e05be6eeaed579ff5533a09cbbecd8d46a2d",
+          "url": "https://linuxbrew.bintray.com/bottles/abnfgen-0.20.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Quickly generate random documents that match an ABFN grammar",
+  "full_name": "abnfgen",
+  "homepage": "http://www.quut.com/abnfgen/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "abnfgen",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.20"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "aa76cbdcef93ac7d4af39b9cbcb1b841fa08f2dd11cf7542c5fa4f4ae365b0cc",
+          "url": "https://linuxbrew.bintray.com/bottles/ebook-tools-0.2.2_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fce5577098322a2b4f6fd73a4a18077f77100adf1f15d9a494594e416354d1cc",
+          "url": "https://linuxbrew.bintray.com/bottles/ebook-tools-0.2.2_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cc01e2bcdd26e6e9b0852e604f2bd56c31bde00ff42eb73fca45d2661fbab159",
+          "url": "https://linuxbrew.bintray.com/bottles/ebook-tools-0.2.2_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libzip"
+  ],
+  "desc": "Access and convert several ebook formats",
+  "full_name": "ebook-tools",
+  "homepage": "https://sourceforge.net/projects/ebook-tools/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ebook-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.2"
+  }
+}

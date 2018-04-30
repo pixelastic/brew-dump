@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1700c0b67f337a9089de95ded89391be790ad440336b252be1d109b9b8352cc7",
+          "url": "https://linuxbrew.bintray.com/bottles/mtr-0.92.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3e426bdf04070ab31f2e70fae91a5b576ced3072733d5e9a0b617c75e97202bf",
+          "url": "https://linuxbrew.bintray.com/bottles/mtr-0.92.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0558426657c36a32f26d65c96b6111753f7189b5b198715df33b9a4f64e25732",
+          "url": "https://linuxbrew.bintray.com/bottles/mtr-0.92.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "90aa1e5d224e98d572525b09715390f0fbf2b72954cd3c0b87b9cd6af6ff8ac2",
+          "url": "https://linuxbrew.bintray.com/bottles/mtr-0.92.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "automake",
+    "autoconf",
+    "pkg-config"
+  ],
+  "caveats": "mtr requires root privileges so you will need to run `sudo mtr`.\nYou should be certain that you trust any software you grant root privileges.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "automake",
+    "autoconf",
+    "pkg-config",
+    "gtk+",
+    "glib"
+  ],
+  "desc": "'traceroute' and 'ping' in a single tool",
+  "full_name": "mtr",
+  "homepage": "https://www.bitwizard.nl/mtr/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mtr",
+  "oldname": null,
+  "optional_dependencies": [
+    "gtk+",
+    "glib"
+  ],
+  "options": [
+    {
+      "description": "Build with gtk+ support",
+      "option": "--with-gtk+"
+    },
+    {
+      "description": "Build with glib support",
+      "option": "--with-glib"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.92"
+  }
+}

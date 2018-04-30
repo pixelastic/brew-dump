@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9114eadfce8e890ea003ef9ea763905dcd47e6a9dc72e8388071721ebabd1820",
+          "url": "https://linuxbrew.bintray.com/bottles/vimpc-0.09.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cfbf82448637f02a2df18f3e48cae13d693335a8c18ceda70178cee16cf263ce",
+          "url": "https://linuxbrew.bintray.com/bottles/vimpc-0.09.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b82c822bb057772a0edce2c5a8f61863efd130b682b67eae3c27c287674b3839",
+          "url": "https://linuxbrew.bintray.com/bottles/vimpc-0.09.1_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2cdc5fc0899ac53a35ae1e1ee99eb0e282750277a407699d37afe419068ffce3",
+          "url": "https://linuxbrew.bintray.com/bottles/vimpc-0.09.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "boost"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "boost",
+    "taglib",
+    "libmpdclient",
+    "pcre"
+  ],
+  "desc": "Ncurses based mpd client with vi like key bindings",
+  "full_name": "vimpc",
+  "homepage": "https://sourceforge.net/projects/vimpc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vimpc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.09.1"
+  }
+}

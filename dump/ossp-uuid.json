@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ac4456fc1c29db7e0d565ebdd392cf827be315b52c9eb3abcd113c4c7b981f25",
+          "url": "https://linuxbrew.bintray.com/bottles/ossp-uuid-1.6.2_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a04214b22c58bd5167778925cb9e55b98f28330bcc6c6a37929e6085ea3a0162",
+          "url": "https://linuxbrew.bintray.com/bottles/ossp-uuid-1.6.2_2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "5253f4fab035aca3ca3b867ce0d081812eb17fe0dcaab6599087abaa385c478d",
+          "url": "https://linuxbrew.bintray.com/bottles/ossp-uuid-1.6.2_2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3c15cd0e25e3039e0d05b94d14b714745cec3033863d5dc7a6d9ddd7cacc1c71",
+          "url": "https://linuxbrew.bintray.com/bottles/ossp-uuid-1.6.2_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c6cfa39816d19fa8d4586d6a364cd17e3a089ea018242875dc371731578a4ac7",
+          "url": "https://linuxbrew.bintray.com/bottles/ossp-uuid-1.6.2_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "ISO-C API and CLI for generating UUIDs",
+  "full_name": "ossp-uuid",
+  "homepage": "http://www.ossp.org/pkg/lib/uuid/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ossp-uuid",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.2"
+  }
+}

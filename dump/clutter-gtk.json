@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ce3e5e2f2a6107b17b521812fe7ab985e8d6e1cf57b8a3aa84a19cb760809e16",
+          "url": "https://linuxbrew.bintray.com/bottles/clutter-gtk-1.8.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "20e4d6eafb36559b56406f5e26e8989d7d636945cabe9f6d4aa29a1661e46500",
+          "url": "https://linuxbrew.bintray.com/bottles/clutter-gtk-1.8.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2b0b873bc1f679f76216ee07ebc79fa0dffb8a0be3f7239868141f342e2a700e",
+          "url": "https://linuxbrew.bintray.com/bottles/clutter-gtk-1.8.4_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "glib",
+    "gdk-pixbuf",
+    "gtk+3",
+    "clutter"
+  ],
+  "desc": "GTK+ integration library for Clutter",
+  "full_name": "clutter-gtk",
+  "homepage": "https://wiki.gnome.org/Projects/Clutter",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "clutter-gtk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.4"
+  }
+}

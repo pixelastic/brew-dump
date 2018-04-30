@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "89a3b36ff587c3eeaa7ba51471ba3d0bc294bdeb66abccd0a3ce446cf6f57e1b",
+          "url": "https://linuxbrew.bintray.com/bottles/libfixposix-0.4.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eaf5641bda4184e3092f7f2b0c9e61afa120df85df837377ead98de643a7e21e",
+          "url": "https://linuxbrew.bintray.com/bottles/libfixposix-0.4.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "024855892877fd868e04eb8b0d2ef71485ffc48b2f441f88ceb61bcc57a56aea",
+          "url": "https://linuxbrew.bintray.com/bottles/libfixposix-0.4.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "113836f08b22930e58fa1565f0a2e512dbee6bb1db52faa13636e3d5d570ee08",
+          "url": "https://linuxbrew.bintray.com/bottles/libfixposix-0.4.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "desc": "Thin wrapper over POSIX syscalls",
+  "full_name": "libfixposix",
+  "homepage": "https://github.com/sionescu/libfixposix",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libfixposix",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.3"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6d36f52b4d4aff69ea5a4599f1e8830a7cf9487e39d169d11155f915953ae51b",
+          "url": "https://linuxbrew.bintray.com/bottles/gif2png-2.5.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "beb6b9105619530cad31b7204952a49aa5e1c36409f2a349398399038947afa2",
+          "url": "https://linuxbrew.bintray.com/bottles/gif2png-2.5.11.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "fefb1fb3cea89f455dd7b37ead607bdeeaf0c3a3c7c342e053f2f02bac323960",
+          "url": "https://linuxbrew.bintray.com/bottles/gif2png-2.5.11.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4aaa6b47a33b58d52ebd3635ec71198e1fbb75dc06234a4e482852c73ef83339",
+          "url": "https://linuxbrew.bintray.com/bottles/gif2png-2.5.11.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "51e3d439570ad14778998aa06367be48a60a2d9b278ae865fa502f60307b501f",
+          "url": "https://linuxbrew.bintray.com/bottles/gif2png-2.5.11.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libpng"
+  ],
+  "desc": "Convert GIFs to PNGs",
+  "full_name": "gif2png",
+  "homepage": "http://www.catb.org/~esr/gif2png/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gif2png",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5.11"
+  }
+}

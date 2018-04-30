@@ -1,0 +1,81 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "20249bea63ab70e0daafd8d398b26638cc2941caab4773360828bf775506c0f6",
+          "url": "https://linuxbrew.bintray.com/bottles/pkcs11-helper-1.22.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ca5771cd93df0806db6938324c5726948111690190a34fed5ea972f4e7a181b9",
+          "url": "https://linuxbrew.bintray.com/bottles/pkcs11-helper-1.22.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5b23024c360d1bb3bd84887d4983354d1b335fc84d693f7505e5633ee23b2411",
+          "url": "https://linuxbrew.bintray.com/bottles/pkcs11-helper-1.22.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e37790f0d0ca3f4fe29b0ecb88fe8c2e6711a5e020c96c2ffbd73a2aae3eec31",
+          "url": "https://linuxbrew.bintray.com/bottles/pkcs11-helper-1.22.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "openssl"
+  ],
+  "desc": "Library to simplify the interaction with PKCS#11",
+  "full_name": "pkcs11-helper",
+  "homepage": "https://github.com/OpenSC/OpenSC/wiki/pkcs11-helper",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pkcs11-helper",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without threading support",
+      "option": "--without-threading"
+    },
+    {
+      "description": "Build without slotevent support",
+      "option": "--without-slotevent"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.22"
+  }
+}

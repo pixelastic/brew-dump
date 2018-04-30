@@ -1,0 +1,84 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b118c9000eaf4c64d8e2faedae20b9309c46c84042bb011c20c28786b507398b",
+          "url": "https://linuxbrew.bintray.com/bottles/fastd-18_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e2ffc27c91c3f114e3aee16fa984508285ac470206987f57acbd71300f44c79f",
+          "url": "https://linuxbrew.bintray.com/bottles/fastd-18_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c4003d1015702e51335a6c283031427c8ba46297f70ea24173070276d5d47505",
+          "url": "https://linuxbrew.bintray.com/bottles/fastd-18_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "bison",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libuecc",
+    "libsodium",
+    "bison",
+    "pkg-config",
+    "json-c",
+    "openssl"
+  ],
+  "desc": "Fast and Secure Tunnelling Daemon",
+  "full_name": "fastd",
+  "homepage": "https://projects.universe-factory.net/projects/fastd",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fastd",
+  "oldname": null,
+  "optional_dependencies": [
+    "openssl"
+  ],
+  "options": [
+    {
+      "description": "Build with openssl support",
+      "option": "--with-openssl"
+    },
+    {
+      "description": "Build with tuntap support",
+      "option": "--with-tuntap"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "tuntap",
+      "download": null,
+      "name": "tuntap"
+    }
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "18"
+  }
+}

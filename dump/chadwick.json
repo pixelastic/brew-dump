@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9b62dbf5675819d3ba2f770ab04086702d22054133c37096582a744624c41fce",
+          "url": "https://linuxbrew.bintray.com/bottles/chadwick-0.6.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9696854624d829ac76b9185425c9d123495f4905ad40d9a82cf25908cab66c0c",
+          "url": "https://linuxbrew.bintray.com/bottles/chadwick-0.6.5.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f1d8a2d60be50146451c1581e536e5f22929c8846d8c6e625ee9ee2910348a35",
+          "url": "https://linuxbrew.bintray.com/bottles/chadwick-0.6.5.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9e861062afe571d353e11df00146c5eafb3bad33cc747bc0b63b2441f1d52d10",
+          "url": "https://linuxbrew.bintray.com/bottles/chadwick-0.6.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3975fe87dde078bf3fe1bfa23738e81dc2da185f8ea021a536e653749e33f944",
+          "url": "https://linuxbrew.bintray.com/bottles/chadwick-0.6.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tools for parsing Retrosheet MLB play-by-play files",
+  "full_name": "chadwick",
+  "homepage": "https://chadwick.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "chadwick",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.5"
+  }
+}

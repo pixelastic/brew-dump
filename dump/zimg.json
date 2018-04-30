@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "79ced4a944ed9cd14df5f691b7cb4aba544b559123387d8983758914da5adfd4",
+          "url": "https://linuxbrew.bintray.com/bottles/zimg-2.7.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ca9c8e759ef76b65a44e03ccf978fec1ee435d5ec31ca8057a1b34a6231c8c68",
+          "url": "https://linuxbrew.bintray.com/bottles/zimg-2.7.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "24a6502b1ca5b15b991cc3df1f6f4dff7c1966da91560f6e03e03a61f0659787",
+          "url": "https://linuxbrew.bintray.com/bottles/zimg-2.7.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c8c4aa905693ee12629c55978b6b94d657b2776d0528fdfc4f11bef3be573ad1",
+          "url": "https://linuxbrew.bintray.com/bottles/zimg-2.7.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "desc": "Scaling, colorspace conversion, and dithering library",
+  "full_name": "zimg",
+  "homepage": "https://github.com/sekrit-twc/zimg",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zimg",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.7.4"
+  }
+}

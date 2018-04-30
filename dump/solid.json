@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "217b3ce0111e94edfbbae5f82c07d3a8c129e7c5733a7707eb592b80eeb94a75",
+          "url": "https://linuxbrew.bintray.com/bottles/solid-3.5.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "010d867aa6dfba7ae6ff9b5aa1a504285d45ccd9b682d512f70bc79cde208f8a",
+          "url": "https://linuxbrew.bintray.com/bottles/solid-3.5.6.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b22bde511d5fa7a1112ef122fa70e5260ac6491bdfd3f8eeb19848b5b769621d",
+          "url": "https://linuxbrew.bintray.com/bottles/solid-3.5.6.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "db9bd9a409bc447657f759852aa02feb0bc19cd84c552b9c16dfed130c2a3829",
+          "url": "https://linuxbrew.bintray.com/bottles/solid-3.5.6.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a79692fbc3d3c150bedef4cbb5455ca175f9534703da91bc27abaac157f1414d",
+          "url": "https://linuxbrew.bintray.com/bottles/solid-3.5.6.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e54bf158f4e91171c55d5514abe6fd36ca358e39e8271985f446be4002b6a5e7",
+          "url": "https://linuxbrew.bintray.com/bottles/solid-3.5.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Collision detection library for geometric objects in 3D space",
+  "full_name": "solid",
+  "homepage": "http://www.dtecta.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "solid",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Use internal double precision floats",
+      "option": "--with-doubles"
+    },
+    {
+      "description": "Use rounding error tracer",
+      "option": "--with-tracer"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.5.6"
+  }
+}

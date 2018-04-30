@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3452a355c8e4ef25714be7105d8946e01319e7760ffe97f7df3fc9dd21c89c76",
+          "url": "https://linuxbrew.bintray.com/bottles/hub-2.2.9_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1f000de1097dfd51b978193a32793aa29d7e9e040418bf2459565cb1f3a670bb",
+          "url": "https://linuxbrew.bintray.com/bottles/hub-2.2.9_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6c23abd1255f04855fc1dfb8d44706337b728b5785e5b79f2319637575be93c7",
+          "url": "https://linuxbrew.bintray.com/bottles/hub-2.2.9_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3537169b856ae2cc7f4932deb8318f71701513bbba8b5948cc89756eef187bac",
+          "url": "https://linuxbrew.bintray.com/bottles/hub-2.2.9_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3f116b4c0587ab5d2a87d9d2f013ea058407ac2f9e845461d4970f36548e6be4",
+          "url": "https://linuxbrew.bintray.com/bottles/hub-2.2.9_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "ruby"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "ruby"
+  ],
+  "desc": "Add GitHub support to git on the command-line",
+  "full_name": "hub",
+  "homepage": "https://hub.github.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hub",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Disable bash/zsh completions",
+      "option": "--without-completions"
+    },
+    {
+      "description": "Don't install man pages",
+      "option": "--without-docs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "2.3.0-pre10",
+    "head": "HEAD",
+    "stable": "2.2.9"
+  }
+}

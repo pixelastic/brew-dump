@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "532c3f14debcd59028285dad1d6fe41dbad481718cc1752b1b9e7c05fd82e27f",
+          "url": "https://linuxbrew.bintray.com/bottles/a2ps-4.14.el_capitan.bottle.3.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "99646196c8b9e6d5a7b67ecca1589160749d690128bb89aace3b79d4c355dfde",
+          "url": "https://linuxbrew.bintray.com/bottles/a2ps-4.14.high_sierra.bottle.3.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5a1c466a3f833797710464dd1aaf4ad6c9ff0a47de33ab3b2ba9cf0c2be36bfd",
+          "url": "https://linuxbrew.bintray.com/bottles/a2ps-4.14.sierra.bottle.3.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f14fd4a117e48b7378150d8e7deaa9c49f432bb870fad1ba46742084afbed6e0",
+          "url": "https://linuxbrew.bintray.com/bottles/a2ps-4.14.x86_64_linux.bottle.3.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 3,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gperf"
+  ],
+  "desc": "Any-to-PostScript filter",
+  "full_name": "a2ps",
+  "homepage": "https://www.gnu.org/software/a2ps/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "a2ps",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.14"
+  }
+}

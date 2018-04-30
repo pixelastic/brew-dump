@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "high_sierra": {
+          "sha256": "480511fd7cbb50613bae01ab7024e45b814c95e3a4de2c5edbaaea295f8b9395",
+          "url": "https://linuxbrew.bintray.com/bottles/bartycrouch-3.11.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bd731dd092bb8ab15ab65650aa43a29234dfb48cfecdec8c2f6ac7e2927c2104",
+          "url": "https://linuxbrew.bintray.com/bottles/bartycrouch-3.11.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Incrementally update your Strings files",
+  "full_name": "bartycrouch",
+  "homepage": "https://github.com/Flinesoft/BartyCrouch",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bartycrouch",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.11.2"
+  }
+}

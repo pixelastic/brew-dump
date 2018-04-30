@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c274701a545e5a4885995718f5f01ca6df2f9c6b9a143d4ffcf46b1771ac4cbc",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-gen-0.7.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "42d2757b01271ef6c14de5441b3c65507538388db1e00e69f322272a5ba5b59c",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-gen-0.7.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "222a5586670fec7643e9e7651f0b1fa82ff012048bd29b959ac720743f1a1a4f",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-gen-0.7.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Generate files from docker container metadata",
+  "full_name": "docker-gen",
+  "homepage": "https://github.com/jwilder/docker-gen",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "docker-gen",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.4"
+  }
+}

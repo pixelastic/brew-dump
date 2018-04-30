@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "628fc21556d7cade65245e204db567ba929307a91637391a583698d3c281b129",
+          "url": "https://linuxbrew.bintray.com/bottles/yelp-tools-3.28.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "628fc21556d7cade65245e204db567ba929307a91637391a583698d3c281b129",
+          "url": "https://linuxbrew.bintray.com/bottles/yelp-tools-3.28.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "628fc21556d7cade65245e204db567ba929307a91637391a583698d3c281b129",
+          "url": "https://linuxbrew.bintray.com/bottles/yelp-tools-3.28.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gettext",
+    "intltool",
+    "itstool",
+    "libxml2",
+    "libxslt",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gettext",
+    "gtk+3",
+    "intltool",
+    "itstool",
+    "libxml2",
+    "libxslt",
+    "pkg-config"
+  ],
+  "desc": "Tools that help create and edit Mallard or DocBook documentation",
+  "full_name": "yelp-tools",
+  "homepage": "https://github.com/GNOME/yelp-tools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yelp-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.28.0"
+  }
+}

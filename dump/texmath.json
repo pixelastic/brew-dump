@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a79acdbf08387619c9a20b8367b2fc42618e99ba5feac401e77c4ab154c7f049",
+          "url": "https://linuxbrew.bintray.com/bottles/texmath-0.10.1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "989b22c79bfda29a7a477e5f6348b605db9e2dbaf5abdd09b8d3c6ef6a7427e6",
+          "url": "https://linuxbrew.bintray.com/bottles/texmath-0.10.1.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5b3065e5e4ce285ec4ad84ca69f897774451d63ed930c3c43626bb606cd1ef26",
+          "url": "https://linuxbrew.bintray.com/bottles/texmath-0.10.1.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ghc",
+    "cabal-install"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ghc",
+    "cabal-install"
+  ],
+  "desc": "Haskell library for converting LaTeX math to MathML",
+  "full_name": "texmath",
+  "homepage": "https://johnmacfarlane.net/texmath.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "texmath",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.10.1.2"
+  }
+}

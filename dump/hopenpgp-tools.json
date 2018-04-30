@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "dae07e2177b17e9a015f080c1f98463534e25d7b8ac6ed83b80949a6747c48ae",
+          "url": "https://linuxbrew.bintray.com/bottles/hopenpgp-tools-0.20.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9279dd18f73815ebf36a2fb730b10e394795892969a9282a49779c223828859c",
+          "url": "https://linuxbrew.bintray.com/bottles/hopenpgp-tools-0.20.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "86228ad6e121d664e761c4458a5436c714b7bac53e1cafc23f7d084030570751",
+          "url": "https://linuxbrew.bintray.com/bottles/hopenpgp-tools-0.20.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ghc@8.2",
+    "cabal-install",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ghc@8.2",
+    "cabal-install",
+    "pkg-config",
+    "nettle"
+  ],
+  "desc": "Command-line tools for OpenPGP-related operations",
+  "full_name": "hopenpgp-tools",
+  "homepage": "https://hackage.haskell.org/package/hopenpgp-tools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hopenpgp-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.20.1"
+  }
+}

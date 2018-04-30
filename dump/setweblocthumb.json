@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2a9c327d5d594d00d7d283d6627a5eeef160731616aec9d62bab017b52d71f1a",
+          "url": "https://linuxbrew.bintray.com/bottles/setweblocthumb-1.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8d7536c3ba30dc46c4e3a0f2e4be411d3e8b06be939a5130c67d2094da0cef4e",
+          "url": "https://linuxbrew.bintray.com/bottles/setweblocthumb-1.0.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "fa6ca731192b7645165ab28c148122688e5e584e2de1c8b500371d1c36cf9dda",
+          "url": "https://linuxbrew.bintray.com/bottles/setweblocthumb-1.0.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "563620905a209f198f30bbffc9177294b224cee3098719af6da8cfca74092157",
+          "url": "https://linuxbrew.bintray.com/bottles/setweblocthumb-1.0.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f55cbbabd19c245e42249b8d75c51b4fcec05d6d08674a448bf6e7a3da70aae5",
+          "url": "https://linuxbrew.bintray.com/bottles/setweblocthumb-1.0.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Assigns custom icons to webloc files",
+  "full_name": "setweblocthumb",
+  "homepage": "http://hasseg.org/setWeblocThumb",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "setweblocthumb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "969a9baf73b31c8ec36758f721342ea1143b30a54d28ed1645ce45b1adedb958",
+          "url": "https://linuxbrew.bintray.com/bottles/haproxy-1.8.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3b3235039c8eb6d47bcb2ffc505be845229810dda4dac26e3d6199d04a993446",
+          "url": "https://linuxbrew.bintray.com/bottles/haproxy-1.8.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3fd16eb92ac3e942ed2f328b46fd2d7bd289c7c9f1efc4010da2f6664e27fdd8",
+          "url": "https://linuxbrew.bintray.com/bottles/haproxy-1.8.8.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ec3f8213782315aa68652d7f47fa4454deb2b3aee5387c57e96a07500dbb6225",
+          "url": "https://linuxbrew.bintray.com/bottles/haproxy-1.8.8.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "pcre",
+    "lua"
+  ],
+  "desc": "Reliable, high performance TCP/HTTP load balancer",
+  "full_name": "haproxy",
+  "homepage": "https://www.haproxy.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "haproxy",
+  "oldname": null,
+  "optional_dependencies": [
+    "lua"
+  ],
+  "options": [
+    {
+      "description": "Build with lua support",
+      "option": "--with-lua"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.8"
+  }
+}

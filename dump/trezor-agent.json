@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2da90be8d971b100a37ad9b6e64d64e3ced33a86c79a940e2e912f86d1bc4682",
+          "url": "https://linuxbrew.bintray.com/bottles/trezor-agent-0.9.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ff4b2a030026867a0895f99d63a5a1010cf8b1699b093c91e99b92e1d2cd8744",
+          "url": "https://linuxbrew.bintray.com/bottles/trezor-agent-0.9.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a9c354d429d49c1fabd255f18548f03967f086f136de8ab8a7bef0eb4e7efbb8",
+          "url": "https://linuxbrew.bintray.com/bottles/trezor-agent-0.9.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libusb",
+    "python"
+  ],
+  "desc": "Hardware-based SSH/GPG agent",
+  "full_name": "trezor-agent",
+  "homepage": "https://github.com/romanz/trezor-agent",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "trezor-agent",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.2"
+  }
+}

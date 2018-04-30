@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "aadfb9ec8717221b59cad02eb1eec3464e75e8c05ff3f695f07291b8a9b87fdb",
+          "url": "https://linuxbrew.bintray.com/bottles/vegeta-6.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "db26954bbe7b4daa945ca7dbed49d629579416da33fe16333fd36a6e11bbce0d",
+          "url": "https://linuxbrew.bintray.com/bottles/vegeta-6.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "47e1b8f045671f42701a959baac1d37e967b6be0196dff6b8c088df5763a2a5f",
+          "url": "https://linuxbrew.bintray.com/bottles/vegeta-6.3.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4e449d903b750dbbe063b024cd06ba82edb1490db4774fdda9c4e228df8256be",
+          "url": "https://linuxbrew.bintray.com/bottles/vegeta-6.3.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "HTTP load testing tool and library",
+  "full_name": "vegeta",
+  "homepage": "https://github.com/tsenart/vegeta",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vegeta",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.3.0"
+  }
+}

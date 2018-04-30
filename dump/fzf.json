@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c32dd7988d5c606fb790f59fe57f9cca9c40eddf8c187ff7a95c56f81b1c02f8",
+          "url": "https://linuxbrew.bintray.com/bottles/fzf-0.17.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "81658f0f3113ff48873fe7bbc79338f1f50284c5a2f2da456047670d4350221b",
+          "url": "https://linuxbrew.bintray.com/bottles/fzf-0.17.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f430afe26c931e0d5b210793cd2daa98a24551868fc16501c67209042535c5c2",
+          "url": "https://linuxbrew.bintray.com/bottles/fzf-0.17.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "47d35830ef172c097e9331d840a8aa32134537a72b207d9bb545cbd148593498",
+          "url": "https://linuxbrew.bintray.com/bottles/fzf-0.17.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "glide",
+    "go"
+  ],
+  "caveats": "To install useful keybindings and fuzzy completion:\n  /home/tim/.linuxbrew/opt/fzf/install\n\nTo use fzf in Vim, add the following line to your .vimrc:\n  set rtp+=/home/tim/.linuxbrew/opt/fzf\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "glide",
+    "go",
+    "ncurses"
+  ],
+  "desc": "Command-line fuzzy finder written in Go",
+  "full_name": "fzf",
+  "homepage": "https://github.com/junegunn/fzf",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fzf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.17.3"
+  }
+}

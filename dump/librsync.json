@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "490c2360a7e502ef4cbe1899c93618e72d298d61f5cc2496f8d8c59725fb15d9",
+          "url": "https://linuxbrew.bintray.com/bottles/librsync-2.0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "493b63f3dbda84ef940589a68dfd841ff26d704c472c02e717476de142ab4f1f",
+          "url": "https://linuxbrew.bintray.com/bottles/librsync-2.0.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "70369dce43e726a4b9561087cf5b2e8617c095dd240d9d4136318bbb9dab8802",
+          "url": "https://linuxbrew.bintray.com/bottles/librsync-2.0.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "adeee7454907e0c6572487d53c054c4a167df80d39893e0d08ae274cd39ebd81",
+          "url": "https://linuxbrew.bintray.com/bottles/librsync-2.0.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "popt"
+  ],
+  "desc": "Library that implements the rsync remote-delta algorithm",
+  "full_name": "librsync",
+  "homepage": "https://librsync.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "librsync",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.2"
+  }
+}

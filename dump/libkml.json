@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "57b9693cdf9a6abaeeea9648cd84a81d17ba0f056bd8d8e8442e68d97dbc7828",
+          "url": "https://linuxbrew.bintray.com/bottles/libkml-1.2.0.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "31d567e2e0d87794adea3507cb34ace0483309de7ba5b32fc98bc1ca59a461c5",
+          "url": "https://linuxbrew.bintray.com/bottles/libkml-1.2.0.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "22c4df9a8f64f8c6ec300cfb268994d739ff41e80db44ca3a72358fc4b70bc05",
+          "url": "https://linuxbrew.bintray.com/bottles/libkml-1.2.0.mavericks.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "860294d677de2f8a4c18e4d750d59aeafa2b38801b12eb76b5e951a23a8ec108",
+          "url": "https://linuxbrew.bintray.com/bottles/libkml-1.2.0.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a3cdfca3ed0acbc93949683a8bb2862c36ec8bf06f20b9fe3752ac624667f455",
+          "url": "https://linuxbrew.bintray.com/bottles/libkml-1.2.0.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library to parse, generate and operate on KML",
+  "full_name": "libkml",
+  "homepage": "https://code.google.com/archive/p/libkml/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libkml",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.0"
+  }
+}

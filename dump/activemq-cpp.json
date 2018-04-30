@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "799696b515fbff76de2277327d074dc96b74e676df72aa347b23eee12ffbc03b",
+          "url": "https://linuxbrew.bintray.com/bottles/activemq-cpp-3.9.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2a78638d0af4698578ef71cf738571ad6cacaef9b8ed2324148eb1df19816885",
+          "url": "https://linuxbrew.bintray.com/bottles/activemq-cpp-3.9.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eda1e1feb50e5ffdceb93e3161eab96b389aaa65d64961c6803406176c89f198",
+          "url": "https://linuxbrew.bintray.com/bottles/activemq-cpp-3.9.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "87d76f6f4e2c6f8c6081f3308a8724b3ed47ae3b0b184386893bd65715b45a98",
+          "url": "https://linuxbrew.bintray.com/bottles/activemq-cpp-3.9.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "openssl",
+    "apr"
+  ],
+  "desc": "C++ API for message brokers such as Apache ActiveMQ",
+  "full_name": "activemq-cpp",
+  "homepage": "https://activemq.apache.org/cms/index.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "activemq-cpp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.9.4"
+  }
+}

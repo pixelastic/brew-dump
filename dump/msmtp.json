@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "115ce90fcc11a1fbda6bf4496200b50e89d4cccdb32f999cf6b3b749635f8e3e",
+          "url": "https://linuxbrew.bintray.com/bottles/msmtp-1.6.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e9161f534cfa50edb5beae511d7689fe02a53b68f90623ebc751a41ba34b4037",
+          "url": "https://linuxbrew.bintray.com/bottles/msmtp-1.6.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d0b8a2a76d7ee8ed6beda0c383acd28d7a85d9d677c8d89a8a2e6b717055fe70",
+          "url": "https://linuxbrew.bintray.com/bottles/msmtp-1.6.6.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6f5227576bf8ac42fed7190c22f2e62b0fb2a3af59fa085e783426661c606758",
+          "url": "https://linuxbrew.bintray.com/bottles/msmtp-1.6.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "openssl",
+    "gsasl"
+  ],
+  "desc": "SMTP client that can be used as an SMTP plugin for Mutt",
+  "full_name": "msmtp",
+  "homepage": "https://msmtp.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "msmtp",
+  "oldname": null,
+  "optional_dependencies": [
+    "gsasl"
+  ],
+  "options": [
+    {
+      "description": "Use GNU SASL authentication library",
+      "option": "--with-gsasl"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.6"
+  }
+}

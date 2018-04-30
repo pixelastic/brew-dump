@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "fbe092bfc501d4abf8b0df052e26307219ea4bb9fb4eddb20df8b7734ff7fdf5",
+          "url": "https://linuxbrew.bintray.com/bottles/mdf2iso-0.3.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b41429cb8a4191a705b656b627a375cc32aaf8992cb241e30fe6c66c4ab56c9c",
+          "url": "https://linuxbrew.bintray.com/bottles/mdf2iso-0.3.1.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8a755700501039ec87145fa6acd0d37e9ecaacd538481bf556e7ed69330bd085",
+          "url": "https://linuxbrew.bintray.com/bottles/mdf2iso-0.3.1.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bc1358412281b1e486d9d1b6d25ae5665b02ac14f93f03603a966bd44ffda1d7",
+          "url": "https://linuxbrew.bintray.com/bottles/mdf2iso-0.3.1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "aab6c1b85c8f863016f7db7ca6b35c56cc7442a6bdf6876f7b9b8ba24b58e5a6",
+          "url": "https://linuxbrew.bintray.com/bottles/mdf2iso-0.3.1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tool to convert MDF (Alcohol 120% images) images to ISO images",
+  "full_name": "mdf2iso",
+  "homepage": "https://packages.debian.org/sid/mdf2iso",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mdf2iso",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.1"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "31ccf6792cab3c5022530ef4576ea53e6dedd4855b939d11212fea0d7fa294dc",
+          "url": "https://linuxbrew.bintray.com/bottles/grepcidr-2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7266be7b9262d50ab08d63529cf9858764573784ab63918010454ec2d76363b6",
+          "url": "https://linuxbrew.bintray.com/bottles/grepcidr-2.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c4ed3ba91b4acd41f51850b143ea9826275b221fc8f041098dfe5f5a429a0289",
+          "url": "https://linuxbrew.bintray.com/bottles/grepcidr-2.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "12dfa49026bffb77ed1c4a08e9b60b56859eb183bbf791754d0b1d476ba6d795",
+          "url": "https://linuxbrew.bintray.com/bottles/grepcidr-2.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d0024b81610b4a698de415aef87958e2a61f74a9f1f2b7acf875f2f3d50ecc05",
+          "url": "https://linuxbrew.bintray.com/bottles/grepcidr-2.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Filter IP addresses matching IPv4 CIDR/network specification",
+  "full_name": "grepcidr",
+  "homepage": "http://www.pc-tools.net/unix/grepcidr/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "grepcidr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0"
+  }
+}

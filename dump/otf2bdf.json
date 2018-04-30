@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "018d348c6fb0b0a413c85bd575d93837f4bb03c654243f1c6ce9d54e417d77e9",
+          "url": "https://linuxbrew.bintray.com/bottles/otf2bdf-3.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "aad843a1a425fe06c2c32b8eb85f4389b749d0ccd92c0b38a9c9282ac5c1f055",
+          "url": "https://linuxbrew.bintray.com/bottles/otf2bdf-3.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "70fb9d592eaa1cbc1f3e2a448c023988ea5e86035633d387c959de8c725a98f8",
+          "url": "https://linuxbrew.bintray.com/bottles/otf2bdf-3.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1bc1ef42c5ffaf8faf3e5f6e58e8678d9992d5bc5ea4ed607bf6c71f35dc6165",
+          "url": "https://linuxbrew.bintray.com/bottles/otf2bdf-3.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "751f5243a8be995963d1b4e20bea3d52823fdcbadb727d0eab20e6715277db40",
+          "url": "https://linuxbrew.bintray.com/bottles/otf2bdf-3.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "freetype"
+  ],
+  "desc": "OpenType to BDF font converter",
+  "full_name": "otf2bdf",
+  "homepage": "https://www.math.nmsu.edu/~mleisher/Software/otf2bdf/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "otf2bdf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.1"
+  }
+}

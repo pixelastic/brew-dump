@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "eb11d04e8ec032d590412ac97cbb383cf4dc56c0131deaa00b5f3cae11a9f094",
+          "url": "https://linuxbrew.bintray.com/bottles/buildifier-0.11.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5fc7d8ae503324794a736f0a333a3e8fb1319b21d3a3b240330cfec4eb1758dc",
+          "url": "https://linuxbrew.bintray.com/bottles/buildifier-0.11.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0e726f1dac64b0c08c33be268d5ef728687856e99731facb3d99a49181c6c4a5",
+          "url": "https://linuxbrew.bintray.com/bottles/buildifier-0.11.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fa44481a8b8a5f2c658beae366cc6b48091c0f80bf7353882bafccc7937be816",
+          "url": "https://linuxbrew.bintray.com/bottles/buildifier-0.11.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Format bazel BUILD files with a standard convention",
+  "full_name": "buildifier",
+  "homepage": "https://github.com/bazelbuild/buildtools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "buildifier",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.11.1"
+  }
+}

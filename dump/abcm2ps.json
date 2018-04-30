@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "01c01fb4a7dd14403caa5f2afa8b829b4ab86fa4b08196dd80f34f49422d75b5",
+          "url": "https://linuxbrew.bintray.com/bottles/abcm2ps-8.13.20.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ade517e102ad2d430cebf2314653f4d8bb159cae705d07165f4bdb0bc20f8f80",
+          "url": "https://linuxbrew.bintray.com/bottles/abcm2ps-8.13.20.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "88edc60e906b7ef549b1bc88191ad4978841fe2000c048f6fbf96b4228c57087",
+          "url": "https://linuxbrew.bintray.com/bottles/abcm2ps-8.13.20.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9c88d4724a55683e55dfd84473e624d970aab2a2399286762835b2d5a9663da9",
+          "url": "https://linuxbrew.bintray.com/bottles/abcm2ps-8.13.20.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "pango"
+  ],
+  "desc": "ABC music notation software",
+  "full_name": "abcm2ps",
+  "homepage": "http://moinejf.free.fr",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "abcm2ps",
+  "oldname": null,
+  "optional_dependencies": [
+    "pango"
+  ],
+  "options": [
+    {
+      "description": "Build with pango support",
+      "option": "--with-pango"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "8.13.20"
+  }
+}

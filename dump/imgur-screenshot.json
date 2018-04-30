@@ -1,0 +1,46 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "terminal-notifier"
+  ],
+  "desc": "Take screenshot selection, upload to imgur. + more cool things",
+  "full_name": "imgur-screenshot",
+  "homepage": "https://github.com/jomo/imgur-screenshot",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "imgur-screenshot",
+  "oldname": null,
+  "optional_dependencies": [
+    "terminal-notifier"
+  ],
+  "options": [
+    {
+      "description": "Needed for macOS Notifications",
+      "option": "--with-terminal-notifier"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.7.4"
+  }
+}

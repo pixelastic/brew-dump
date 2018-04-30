@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6e4ef55130d531e2e24226379f70c6ea59e62caf4fcc8fabffdecf8b2a0d018e",
+          "url": "https://linuxbrew.bintray.com/bottles/libassuan-2.5.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a05af2506efccbd153b216c2ed6b17c7b28b1c50fce16489166782877695b8ee",
+          "url": "https://linuxbrew.bintray.com/bottles/libassuan-2.5.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3aefafdbaf62a8319b618c73654aef88f9ebe8b9cba51a304aebaa09bfc92c4c",
+          "url": "https://linuxbrew.bintray.com/bottles/libassuan-2.5.1_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ecd72b3ee211005723b01a867b38fe96a2f7bf3c460250eba4bf57f370b2adee",
+          "url": "https://linuxbrew.bintray.com/bottles/libassuan-2.5.1_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libgpg-error"
+  ],
+  "desc": "Assuan IPC Library",
+  "full_name": "libassuan",
+  "homepage": "https://www.gnupg.org/related_software/libassuan/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libassuan",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5.1"
+  }
+}

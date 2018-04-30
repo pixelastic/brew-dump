@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1f059d8322cf7a0c6d7da2d342cd731586eba09654d264a5262b67ab1b3fe9f5",
+          "url": "https://linuxbrew.bintray.com/bottles/sile-0.9.5-alpha_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "025f5c7b9073e61b21d3451d7add001613b78c22f4a880ae303249a5675c7ee6",
+          "url": "https://linuxbrew.bintray.com/bottles/sile-0.9.5-alpha_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f1492a384c604a8bc9c652b08b4e981c7d6cefa1a3e2d6a8fcdddc4d14df9d9c",
+          "url": "https://linuxbrew.bintray.com/bottles/sile-0.9.5-alpha_4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "automake",
+    "autoconf",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "automake",
+    "autoconf",
+    "libtool",
+    "pkg-config",
+    "harfbuzz",
+    "fontconfig",
+    "libpng",
+    "lua",
+    "icu4c"
+  ],
+  "desc": "Modern typesetting system inspired by TeX",
+  "full_name": "sile",
+  "homepage": "http://www.sile-typesetter.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sile",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.5-alpha"
+  }
+}

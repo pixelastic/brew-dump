@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "551c2949f58da9f864e19a088f421785792bb51bbebecc3b457155846a2dd69f",
+          "url": "https://linuxbrew.bintray.com/bottles/binwalk-2.1.1_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8c5c20fa4f9744e2461882c2c7a77b8532885583e10c0f943d3a92c1299450b1",
+          "url": "https://linuxbrew.bintray.com/bottles/binwalk-2.1.1_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eb564bd84ee2d904ccc6e054e66c3d3f2d9f40f62845fbe84c426536ba8b71f8",
+          "url": "https://linuxbrew.bintray.com/bottles/binwalk-2.1.1_4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "swig"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "swig",
+    "gcc",
+    "p7zip",
+    "python@2",
+    "ssdeep",
+    "xz"
+  ],
+  "desc": "Searches a binary image for embedded files and executable code",
+  "full_name": "binwalk",
+  "homepage": "https://github.com/devttys0/binwalk",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "binwalk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable disasm options via capstone",
+      "option": "--with-capstone"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.1"
+  }
+}

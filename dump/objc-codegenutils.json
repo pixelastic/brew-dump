@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d7b945db595b07ee5677902586e01002ba555affdcae366f1fcbe919a6013772",
+          "url": "https://linuxbrew.bintray.com/bottles/objc-codegenutils-1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "118c03e858a60fa17c71fbc84fb5a8b9c5f778a0c68531e3df576e1d85d9c91a",
+          "url": "https://linuxbrew.bintray.com/bottles/objc-codegenutils-1.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "46d389e6ec12462dfbdd97822ce7c6e8156bbe9fac7a3baf04c20cb1991d9f75",
+          "url": "https://linuxbrew.bintray.com/bottles/objc-codegenutils-1.0.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "b2a970d293782e5dc6cdf2902df97c89dfa3552aeb5994c7b035a256e5659868",
+          "url": "https://linuxbrew.bintray.com/bottles/objc-codegenutils-1.0.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d7b3d3d26970add3af78b0820f3ef8b5e0290f1b2114f5bf06acddcd8d6bdb34",
+          "url": "https://linuxbrew.bintray.com/bottles/objc-codegenutils-1.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Three small tools to help work with XCode",
+  "full_name": "objc-codegenutils",
+  "homepage": "https://github.com/square/objc-codegenutils",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "objc-codegenutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0"
+  }
+}

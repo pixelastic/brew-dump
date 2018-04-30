@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ff70d09071d0dc18d576e352c6d2e46a22110ef2dc86c25ad5eb67b679ca6da8",
+          "url": "https://linuxbrew.bintray.com/bottles/git-sizer-1.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "72d013557dd6f12350f6eaf0b392dbae2f6b13dc0b9aa79944647eb0a83ec41e",
+          "url": "https://linuxbrew.bintray.com/bottles/git-sizer-1.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "493dc4b2fbd95814967a3b38db9d7b4c989246f22e3ede39b4c08945a2f0939e",
+          "url": "https://linuxbrew.bintray.com/bottles/git-sizer-1.2.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Compute various size metrics for a Git repository",
+  "full_name": "git-sizer",
+  "homepage": "https://github.com/github/git-sizer",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git-sizer",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.0"
+  }
+}

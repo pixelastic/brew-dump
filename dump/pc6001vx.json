@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6eda162bac3e367d087bcfcdafcfb1a67b9a3acb2de4a9b53956d1f4f113cc0b",
+          "url": "https://linuxbrew.bintray.com/bottles/pc6001vx-2.32.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2a840ab69b0189419ab029ac7211bfe80331771496aa9145636dcbf26bd5a314",
+          "url": "https://linuxbrew.bintray.com/bottles/pc6001vx-2.32.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2a840ab69b0189419ab029ac7211bfe80331771496aa9145636dcbf26bd5a314",
+          "url": "https://linuxbrew.bintray.com/bottles/pc6001vx-2.32.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "qt",
+    "sdl2",
+    "ffmpeg"
+  ],
+  "desc": "PC-6001 emulator",
+  "full_name": "pc6001vx",
+  "homepage": "http://eighttails.seesaa.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pc6001vx",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.32.0"
+  }
+}

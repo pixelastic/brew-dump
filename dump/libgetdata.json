@@ -1,0 +1,89 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "88055dcabc5ed8b6cc068e244f8174eb798fd778e67a27867b3a0b33b3453121",
+          "url": "https://linuxbrew.bintray.com/bottles/libgetdata-0.10.0_1.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "13e9d36f7ee8156ad9b5ffaa646588084e9212238aafbab50849f60c6cad0ab9",
+          "url": "https://linuxbrew.bintray.com/bottles/libgetdata-0.10.0_1.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9a96ebcf2d456594b5205c2ff0918dc7bcfff29be358fd6e369131f941e02f75",
+          "url": "https://linuxbrew.bintray.com/bottles/libgetdata-0.10.0_1.sierra.bottle.2.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "58282cea595279e7caeb57a47ff320194e9724d9e127ab5400000bcdac22ad37",
+          "url": "https://linuxbrew.bintray.com/bottles/libgetdata-0.10.0_1.x86_64_linux.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtool",
+    "gcc",
+    "libzzip",
+    "perl",
+    "xz"
+  ],
+  "desc": "Reference implementation of the Dirfile Standards",
+  "full_name": "libgetdata",
+  "homepage": "https://getdata.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libgetdata",
+  "oldname": null,
+  "optional_dependencies": [
+    "gcc",
+    "libzzip",
+    "perl",
+    "xz"
+  ],
+  "options": [
+    {
+      "description": "Build Fortran bindings",
+      "option": "--with-gcc"
+    },
+    {
+      "description": "Build with zzip compression support",
+      "option": "--with-libzzip"
+    },
+    {
+      "description": "Build against Homebrew's Perl rather than system default",
+      "option": "--with-perl"
+    },
+    {
+      "description": "Build with LZMA compression support",
+      "option": "--with-xz"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.10.0"
+  }
+}

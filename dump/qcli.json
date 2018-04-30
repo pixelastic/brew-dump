@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6464309db798ca82199a26bb43bdddeced1bb279b4a05b6b7602d9852191c2e6",
+          "url": "https://linuxbrew.bintray.com/bottles/qcli-0.9.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1bae0695d9e4e0dd947b78481f25011efb0b832a063ad158f101e8ce855214d7",
+          "url": "https://linuxbrew.bintray.com/bottles/qcli-0.9.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b817acbcfae33eca85e88208a64561d6eacbda6a6faaf77b571a87d31e721102",
+          "url": "https://linuxbrew.bintray.com/bottles/qcli-0.9.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "qwt",
+    "qt",
+    "ffmpeg"
+  ],
+  "desc": "Report audiovisual metrics via libavfilter",
+  "full_name": "qcli",
+  "homepage": "https://bavc.org/preserve-media/preservation-tools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qcli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.1"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "50cafb3e1545d93f0ad248a2696b83b90fa3fbb6e5afc731d72779ddab0bf6a0",
+          "url": "https://linuxbrew.bintray.com/bottles/nrpe-3.2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "98eb09fe948052448134155aad5cc16892f9cffeba075cfc9afeb38219047806",
+          "url": "https://linuxbrew.bintray.com/bottles/nrpe-3.2.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d589496fa3b62e1425f93ebf928234bcfec81cf342837e7b741c9def56ea3e28",
+          "url": "https://linuxbrew.bintray.com/bottles/nrpe-3.2.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "nagios-plugins",
+    "openssl"
+  ],
+  "desc": "Nagios remote plugin executor",
+  "full_name": "nrpe",
+  "homepage": "https://www.nagios.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nrpe",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.2.1"
+  }
+}

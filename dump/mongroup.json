@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8e801dac08ad7a776d698dc8bfc170f1df2fcb621561b86c789cc0e8098b1b38",
+          "url": "https://linuxbrew.bintray.com/bottles/mongroup-0.4.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "230996b629ff1a72b405ba6c7fbb8cdd0fd06292b16bacf124bc2e30c5f9917e",
+          "url": "https://linuxbrew.bintray.com/bottles/mongroup-0.4.1.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f7db89622f5575404e2ccbb1d0aca159f06b82766f27ac28bd41492d498128a7",
+          "url": "https://linuxbrew.bintray.com/bottles/mongroup-0.4.1.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d3065cb969df510f29b742e1d6606151328af2afe3542bb3ff3462e7551ade9b",
+          "url": "https://linuxbrew.bintray.com/bottles/mongroup-0.4.1.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mon"
+  ],
+  "desc": "Monitor a group of processes with mon",
+  "full_name": "mongroup",
+  "homepage": "https://github.com/jgallen23/mongroup",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mongroup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.1"
+  }
+}

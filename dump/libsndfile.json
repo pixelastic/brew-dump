@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "49d17fa55815680936b529b7bbb8e5cf180c98722c7f8b45d763bfe2d1f0a5de",
+          "url": "https://linuxbrew.bintray.com/bottles/libsndfile-1.0.28.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d06bf0bf936cde67857ac3d3599944d2050ea8dc6237bad8b4c27ef86ac2eb3c",
+          "url": "https://linuxbrew.bintray.com/bottles/libsndfile-1.0.28.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4e4bde6464cfbefcf7f2a9001af0ea34c6273b466ffa71ac953b2bb41eb619ec",
+          "url": "https://linuxbrew.bintray.com/bottles/libsndfile-1.0.28.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c68c5c4eb7176e632a84c72ebd0f9a7269d4a3272dd852356fed0e5da33fa6b6",
+          "url": "https://linuxbrew.bintray.com/bottles/libsndfile-1.0.28.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9df59790751d64c7f61682233a733030de9e6406682f3a15e30e708103930038",
+          "url": "https://linuxbrew.bintray.com/bottles/libsndfile-1.0.28.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool",
+    "flac",
+    "libogg",
+    "libvorbis"
+  ],
+  "desc": "C library for files containing sampled sound",
+  "full_name": "libsndfile",
+  "homepage": "http://www.mega-nerd.com/libsndfile/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libsndfile",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.28"
+  }
+}

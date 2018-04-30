@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ad94200826b7f07ea53609402bf0261fdd415c0f0d136b37e953a07674751473",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkdatabox-0.9.3.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2e24b55c41bd70931fb64ea6abf237b28b33fe600303642830debfebe9414ba9",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkdatabox-0.9.3.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "64252cc92bb8c58a94ca90fce495d838ebc0b64cbfd697663e61ef162d3113ac",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkdatabox-0.9.3.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gtk+"
+  ],
+  "desc": "Widget for live display of large amounts of changing data",
+  "full_name": "gtkdatabox",
+  "homepage": "https://sourceforge.net/projects/gtkdatabox/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gtkdatabox",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.3.0"
+  }
+}

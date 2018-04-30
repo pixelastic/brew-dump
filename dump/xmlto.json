@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7b12ea43ff42eb5acdf91a1b2390af62cb95abd80e0a651581653c3d2b470b60",
+          "url": "https://linuxbrew.bintray.com/bottles/xmlto-0.0.28.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "924329e251704206fb5fecafbe78d0445e014d401f5184ea3b5f2f9c6ae8adc6",
+          "url": "https://linuxbrew.bintray.com/bottles/xmlto-0.0.28.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e6c35d8216b36e13a890d839296f51989d58fbf6e35666ee161dcae6f1e5fcd3",
+          "url": "https://linuxbrew.bintray.com/bottles/xmlto-0.0.28.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "124e3cab671ff0adaf212ebad0bc3fc1bfef6125a1dc06a241915a1ac25c6620",
+          "url": "https://linuxbrew.bintray.com/bottles/xmlto-0.0.28.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b0042227a7b6f00c5e4f7eb0e9b0ce6959ff401035d0914a8be60d685929c4a4",
+          "url": "https://linuxbrew.bintray.com/bottles/xmlto-0.0.28.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "docbook",
+    "docbook-xsl",
+    "gnu-getopt",
+    "libxslt"
+  ],
+  "desc": "Convert XML to another format (based on XSL or other tools)",
+  "full_name": "xmlto",
+  "homepage": "https://pagure.io/xmlto/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xmlto",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.0.28"
+  }
+}

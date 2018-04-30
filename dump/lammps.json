@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "86a671f178fb13b0987c7df713c0d6827e6a8fa4b7b6b1b149e6a70a5c8d6815",
+          "url": "https://linuxbrew.bintray.com/bottles/lammps-2017-08-11_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ad363ec98b52dd5ae5ee0d4d4995ff80e2cbf28e953317282c708555b6178913",
+          "url": "https://linuxbrew.bintray.com/bottles/lammps-2017-08-11_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1758c9f5dac4e7b26a77895f47f1bc80ddd11b0ea76d664a828c8cad107cc681",
+          "url": "https://linuxbrew.bintray.com/bottles/lammps-2017-08-11_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "fftw",
+    "gcc",
+    "jpeg",
+    "libpng",
+    "open-mpi"
+  ],
+  "desc": "Molecular Dynamics Simulator",
+  "full_name": "lammps",
+  "homepage": "http://lammps.sandia.gov/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lammps",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2017-08-11"
+  }
+}

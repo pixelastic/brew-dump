@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b7c134dc23431dfaa3f402b859b7154cab5e176711363bd884dc82ce896d7c7a",
+          "url": "https://linuxbrew.bintray.com/bottles/mailcheck-1.91.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c630704fee3dea86402e7486295a13601077bd991e45f23d3ac841c95a9c4474",
+          "url": "https://linuxbrew.bintray.com/bottles/mailcheck-1.91.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "32b40cf41ec15bcd0efbfb90858534e4b84056915ceacd6914d71d8acdffeb6f",
+          "url": "https://linuxbrew.bintray.com/bottles/mailcheck-1.91.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8d33e3b08eef4dfaa7fa3d2c4e5f4a697cd2e5eb950c963f1f0845c0651da5ea",
+          "url": "https://linuxbrew.bintray.com/bottles/mailcheck-1.91.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "bf25c7173600f92fb766d88b1a85e8662ced6c32c58410fc08fa519351fa2375",
+          "url": "https://linuxbrew.bintray.com/bottles/mailcheck-1.91.2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "242b05a6e9b8ccc1ac70e22cbf89bc33a885e726d32509fad6b34a3bee123945",
+          "url": "https://linuxbrew.bintray.com/bottles/mailcheck-1.91.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Check multiple mailboxes/maildirs for mail",
+  "full_name": "mailcheck",
+  "homepage": "https://mailcheck.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mailcheck",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.91.2"
+  }
+}

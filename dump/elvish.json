@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "95790ba99de1ef6e2fcdd10019a2fcf72ed703e0e0292bec0ab8ad3089c140aa",
+          "url": "https://linuxbrew.bintray.com/bottles/elvish-0.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8900fd1eeaeacf2125d852ef1b3296b0c5ea4db260d1ae3575da46e3853bb4ca",
+          "url": "https://linuxbrew.bintray.com/bottles/elvish-0.11.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "807d836f433fe94e3bc87e85eb30c33070acec97304fa25d90a0f305b0931ebf",
+          "url": "https://linuxbrew.bintray.com/bottles/elvish-0.11.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6a403752e8e6766a436d46d1ca9ebd3cf4560359941a1cb896fb6e8bb392b182",
+          "url": "https://linuxbrew.bintray.com/bottles/elvish-0.11.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Friendly and expressive shell",
+  "full_name": "elvish",
+  "homepage": "https://github.com/elves/elvish",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "elvish",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.11"
+  }
+}

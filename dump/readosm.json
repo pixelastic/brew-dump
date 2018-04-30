@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3637140ac264e9fc4e7cd8e78e1754d5b6861ef98d7ae38ba7e70c9825241069",
+          "url": "https://linuxbrew.bintray.com/bottles/readosm-1.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "953aeb6917d8ad465d11d2832ac4ba20fd673c694562fdca9ccf7cef0346d280",
+          "url": "https://linuxbrew.bintray.com/bottles/readosm-1.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "98fc0238ad218a95df4bea4a3520f84fc66f9dc8bba3e0b6ad7fa774813f16e8",
+          "url": "https://linuxbrew.bintray.com/bottles/readosm-1.1.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Extract valid data from an Open Street Map input file",
+  "full_name": "readosm",
+  "homepage": "https://www.gaia-gis.it/fossil/readosm/index",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "readosm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.0"
+  }
+}

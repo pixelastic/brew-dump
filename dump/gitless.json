@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "feba1a601beb7152accaa1e734047d7355f05c0cc5c0fffd4fa2304657f06507",
+          "url": "https://linuxbrew.bintray.com/bottles/gitless-0.8.6_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9b9600e54e5f4a7a5ba81b6dfdc5a4c7006d7f62542a7bc0d7205ce571e26949",
+          "url": "https://linuxbrew.bintray.com/bottles/gitless-0.8.6_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3c2768fc2ea8b90d01e114c2d8fdbd403232b0eee0da7450df2f7c55f847c882",
+          "url": "https://linuxbrew.bintray.com/bottles/gitless-0.8.6_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "libgit2"
+  ],
+  "desc": "Simplified version control system on top of git",
+  "full_name": "gitless",
+  "homepage": "http://gitless.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gitless",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.6"
+  }
+}

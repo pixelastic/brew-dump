@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d37febee18ba355a3d536c50dec03c51cb9cabb43cc76859ee2a772f6545e9f3",
+          "url": "https://linuxbrew.bintray.com/bottles/libdaemon-0.14.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ef99499ba07c5d7e633071441933000b7da731db8e1c884e89cc3b484487a696",
+          "url": "https://linuxbrew.bintray.com/bottles/libdaemon-0.14.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "107d695ff51e515e6b8eb1c619a51efea5006d2df8d0dc5b0d32873994b3f936",
+          "url": "https://linuxbrew.bintray.com/bottles/libdaemon-0.14.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5a0acd70817e89a53d3c1855ab6f2d46911f1e5c284f05f187671fd4365879d1",
+          "url": "https://linuxbrew.bintray.com/bottles/libdaemon-0.14.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "48de2498d199a800418e557b7fa70c5834094a60b76936d2541e0e242ffc25ec",
+          "url": "https://linuxbrew.bintray.com/bottles/libdaemon-0.14.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "C library that eases writing UNIX daemons",
+  "full_name": "libdaemon",
+  "homepage": "http://0pointer.de/lennart/projects/libdaemon/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libdaemon",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.14"
+  }
+}

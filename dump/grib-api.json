@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "5e7fd7ef2dfc7529399fc07cd33222693ed01c5b3934c14aad5ee1da62646c7f",
+          "url": "https://linuxbrew.bintray.com/bottles/grib-api-1.26.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "gcc",
+    "numpy",
+    "jasper",
+    "libpng"
+  ],
+  "desc": "Encode and decode grib messages (editions 1 and 2)",
+  "full_name": "grib-api",
+  "homepage": "https://software.ecmwf.int/wiki/display/GRIB/Home",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "grib-api",
+  "oldname": null,
+  "optional_dependencies": [
+    "libpng"
+  ],
+  "options": [
+    {
+      "description": "Build static instead of shared library.",
+      "option": "--with-static"
+    },
+    {
+      "description": "Build without jasper support",
+      "option": "--without-jasper"
+    },
+    {
+      "description": "Build with libpng support",
+      "option": "--with-libpng"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "jasper"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.26.1"
+  }
+}

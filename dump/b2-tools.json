@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a15207e3615b4865877c8d48976708c926e0d095303b4c95a49b196e14acda04",
+          "url": "https://linuxbrew.bintray.com/bottles/b2-tools-1.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "94ddeb7d56a0c164120429cf819001d950cce3ec7996f8057a7a1e20bf33f99b",
+          "url": "https://linuxbrew.bintray.com/bottles/b2-tools-1.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6210536251b3a1a4066a7b2cd0bc3e7a0b0173525a792da2e4003b917799b4d7",
+          "url": "https://linuxbrew.bintray.com/bottles/b2-tools-1.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b8de0b2e2025f7bc5766e1b6e2c67e76d8ccf9263c8b742c79f765daad61644f",
+          "url": "https://linuxbrew.bintray.com/bottles/b2-tools-1.1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "boost-build"
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "B2 Cloud Storage Command-Line Tools",
+  "full_name": "b2-tools",
+  "homepage": "https://github.com/Backblaze/B2_Command_Line_Tool",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "b2-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.0"
+  }
+}

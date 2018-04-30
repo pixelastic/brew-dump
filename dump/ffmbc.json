@@ -1,0 +1,86 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "54eb992aee2503bbfdb90ec483ed92a8c3606245692ea587af27f6a6c7af9e41",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmbc-0.7.2_6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "42c6aeb47134046a3aff40034342233f86fe21c834cfba6d35cc0846a79a32d1",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmbc-0.7.2_6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c6cc044c9ef2a89a5f8ab81e57bc9cb55c0f7a77561188d53b9045c83a5bb5d1",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmbc-0.7.2_6.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "texi2html",
+    "yasm"
+  ],
+  "caveats": "Due to naming conflicts with other FFmpeg forks, this formula installs\nonly static binaries - no shared libraries are built.\n\nThe `ffprobe` program has been renamed to `ffprobe-bc` to avoid name\nconflicts with the FFmpeg executable of the same name.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "texi2html",
+    "yasm",
+    "faac",
+    "lame",
+    "x264",
+    "xvid",
+    "libvorbis",
+    "libvpx",
+    "theora"
+  ],
+  "desc": "FFmpeg customized for broadcast and professional usage",
+  "full_name": "ffmbc",
+  "homepage": "https://code.google.com/p/ffmbc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ffmbc",
+  "oldname": null,
+  "optional_dependencies": [
+    "libvorbis",
+    "libvpx",
+    "theora"
+  ],
+  "options": [
+    {
+      "description": "Build with libvorbis support",
+      "option": "--with-libvorbis"
+    },
+    {
+      "description": "Build with libvpx support",
+      "option": "--with-libvpx"
+    },
+    {
+      "description": "Build with theora support",
+      "option": "--with-theora"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 6,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.2"
+  }
+}

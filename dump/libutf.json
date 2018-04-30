@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4be39969572bec265a41d1ff6bc8f6d04b6d2b4f514cfd58c3362bc3434b3807",
+          "url": "https://linuxbrew.bintray.com/bottles/libutf-20110530.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "02a474d5bf79d0e962955e9ae8e4910c3c95b520903b3c4fba99a9b958dd985f",
+          "url": "https://linuxbrew.bintray.com/bottles/libutf-20110530.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "36a420b96d2d8bebc33a10edfce866c576664a8001136e4440609138b892db30",
+          "url": "https://linuxbrew.bintray.com/bottles/libutf-20110530.mavericks.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8c651ed5e6351c24b6307da28be65e3b12ced599ef141c020588bc6883d9f1c7",
+          "url": "https://linuxbrew.bintray.com/bottles/libutf-20110530.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "db18dd0a20318d3f07f2eb195cb6ec345976136d5d2eddfb71c3e426fe4c1162",
+          "url": "https://linuxbrew.bintray.com/bottles/libutf-20110530.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Port of Plan 9's support library for UTF-8 and Unicode",
+  "full_name": "libutf",
+  "homepage": "https://swtch.com/plan9port/unix/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libutf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20110530"
+  }
+}

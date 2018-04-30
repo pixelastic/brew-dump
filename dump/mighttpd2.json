@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "53b61f1044d2ef60b1dde3ebe5b5adcce01838c6c962fac14e9ba1e92b123d31",
+          "url": "https://linuxbrew.bintray.com/bottles/mighttpd2-3.4.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "20b0a49d9442615903fb9532cd2ba070d5936b2cea69b9e5db2ca7be1052c47f",
+          "url": "https://linuxbrew.bintray.com/bottles/mighttpd2-3.4.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5d21c1640f273f3a57c9509c52750da51830fa21c79e6a69015001ed8f6f1f98",
+          "url": "https://linuxbrew.bintray.com/bottles/mighttpd2-3.4.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ee26f4d72f211abc9fe21ba0b8d2c21900d17cf070ef45616b1f169bc974957e",
+          "url": "https://linuxbrew.bintray.com/bottles/mighttpd2-3.4.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ghc",
+    "cabal-install"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ghc",
+    "cabal-install"
+  ],
+  "desc": "HTTP server",
+  "full_name": "mighttpd2",
+  "homepage": "https://www.mew.org/~kazu/proj/mighttpd/en/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mighttpd2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.4.3"
+  }
+}

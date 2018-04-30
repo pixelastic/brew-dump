@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c0d981769811bf1c265e11702ea0d26bcf87102ac92896c04c14a91fbed1cc8c",
+          "url": "https://linuxbrew.bintray.com/bottles/tty-clock-2.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b3d2a19cdb38e0e156be552d6f9ca8926097300f17bbe6628b7443934d3e1cb1",
+          "url": "https://linuxbrew.bintray.com/bottles/tty-clock-2.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9b0e056ec6d86d9ba9cbd2abc02236607a6ad5601e7a656d10cad20182564315",
+          "url": "https://linuxbrew.bintray.com/bottles/tty-clock-2.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9341fb07070b665dc5f9593c1b4811ec734f7221afbde2547cee55fc9102aa1e",
+          "url": "https://linuxbrew.bintray.com/bottles/tty-clock-2.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config"
+  ],
+  "desc": "Digital clock in ncurses",
+  "full_name": "tty-clock",
+  "homepage": "https://github.com/xorg62/tty-clock",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tty-clock",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.3"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "98169ac6af3d395dac47522d17759ac165af24158dbc403ccc88603921f6528c",
+          "url": "https://linuxbrew.bintray.com/bottles/riak-2.2.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "163efe4af2492bd3885aebeafb894c2ec5f6c3cbc08cdfaf78de07deaf645336",
+          "url": "https://linuxbrew.bintray.com/bottles/riak-2.2.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "07304227841afc17ee201ccaed0fc8607f55c05c2f7920d5785cfda3c0979cf1",
+          "url": "https://linuxbrew.bintray.com/bottles/riak-2.2.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "803da1ba13fca2ff1c5ed1d341c064218a03697d8114e40c325553a430920653",
+          "url": "https://linuxbrew.bintray.com/bottles/riak-2.2.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "erlang@17"
+  ],
+  "desc": "Distributed database",
+  "full_name": "riak",
+  "homepage": "http://basho.com/products/riak-kv/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "riak",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "arch"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.3"
+  }
+}

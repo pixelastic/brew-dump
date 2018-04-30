@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9660443356a1f9571b39ea496349482e17f7c0d06829dd06945ca7680291c0bf",
+          "url": "https://linuxbrew.bintray.com/bottles/qprint-1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "57950dba66674d62c84076374427f6c3de6d8cda81448c50b579c11b1b1959e4",
+          "url": "https://linuxbrew.bintray.com/bottles/qprint-1.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "fbf2eadbf60b30557e3741e28545070bb377602aa8f1c1c49b5f65375381a2c4",
+          "url": "https://linuxbrew.bintray.com/bottles/qprint-1.1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "9c3ac1e5f9b8275be6ce9c9d47471dca3b08f02e1b269b68e77a5b5bc31d9477",
+          "url": "https://linuxbrew.bintray.com/bottles/qprint-1.1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f26387daf3d025dd45843784dd90fb3bf77609bdf0eb870f1b66782c89571950",
+          "url": "https://linuxbrew.bintray.com/bottles/qprint-1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "92470bcb0bd97c4d13181969ebeb0339faa85338ad139bf4a5ac19550635f5c1",
+          "url": "https://linuxbrew.bintray.com/bottles/qprint-1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Encoder and decoder for quoted-printable encoding",
+  "full_name": "qprint",
+  "homepage": "https://www.fourmilab.ch/webtools/qprint",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qprint",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

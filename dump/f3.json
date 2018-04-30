@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "47474e4cab315cf4f3dd124a133fc17f4547e7cb111d630e79131ea1f572f36f",
+          "url": "https://linuxbrew.bintray.com/bottles/f3-7.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d369cb856bab428b9bf17049f0331ad9c1a7154088433887ec141054bb4bab74",
+          "url": "https://linuxbrew.bintray.com/bottles/f3-7.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e11bf7b13aba7ad198486aca8a3edccae5fbaaedff47d6b51f0147cbac4a5d04",
+          "url": "https://linuxbrew.bintray.com/bottles/f3-7.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "argp-standalone"
+  ],
+  "desc": "Test various flash cards",
+  "full_name": "f3",
+  "homepage": "http://oss.digirati.com.br/f3/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "f3",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "7.0"
+  }
+}

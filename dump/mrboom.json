@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "cd3b7929cc51c07b1c91f01b87253423191fcd5ba5c9f4486ada846f13808d52",
+          "url": "https://linuxbrew.bintray.com/bottles/mrboom-4.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "08a0223ee14790b53bbf08e26d68ce89822143148ff1f590464d2fc6f9087b60",
+          "url": "https://linuxbrew.bintray.com/bottles/mrboom-4.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "084318a953b9733b399f6cc282ebf876975b1d1f8eb5cf889af472690cafc092",
+          "url": "https://linuxbrew.bintray.com/bottles/mrboom-4.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "034d73e5be78599ffa5bc29656f44d363c11c23bf64f8181d7cdd37a8d36a858",
+          "url": "https://linuxbrew.bintray.com/bottles/mrboom-4.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libmodplug",
+    "minizip",
+    "sdl2",
+    "sdl2_mixer"
+  ],
+  "desc": "Eight player Bomberman clone",
+  "full_name": "mrboom",
+  "homepage": "http://mrboom.mumblecore.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mrboom",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.4"
+  }
+}

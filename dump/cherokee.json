@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f6944776619d9338169b1676cc10d9960c27cb7a88b1189a4e02e1f577d4e2d6",
+          "url": "https://linuxbrew.bintray.com/bottles/cherokee-1.2.103.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e149e2a50f0954be520def65943abf020f44460ceeb41d428627c5d65be2d177",
+          "url": "https://linuxbrew.bintray.com/bottles/cherokee-1.2.103.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ef4d94b51cc425dd704d0007cf9980024035406cb00345158fd84b1901c04437",
+          "url": "https://linuxbrew.bintray.com/bottles/cherokee-1.2.103.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "db0adb2f4e099777e5309d1b2ca2102c8ae576eb45a51c827f0e2fb7866b66ed",
+          "url": "https://linuxbrew.bintray.com/bottles/cherokee-1.2.103.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "af00f0cc177c2c16063aa3abe8dfe025568874db126edfacce4a33c8a3fbd5cb",
+          "url": "https://linuxbrew.bintray.com/bottles/cherokee-1.2.103.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Cherokee is setup to run with your user permissions as part of the\nwww group on port 80. This can be changed in the cherokee-admin\nbut be aware the new user will need permissions to write to:\n  /home/tim/.linuxbrew/var/cherokee\nfor logging and runtime files.\n\nBy default, documents will be served out of:\n  /home/tim/.linuxbrew/etc/cherokee/htdocs\n\nAnd CGI scripts from:\n  /home/tim/.linuxbrew/etc/cherokee/cgi-bin\n\n If this is your first install, automatically load on startup with:\n    sudo cp /home/tim/.linuxbrew/Cellar/cherokee/1.2.103/org.cherokee.webserver.plist /Library/LaunchDaemons\n    sudo launchctl load -w /Library/LaunchDaemons/org.cherokee.webserver.plist\n\nIf this is an upgrade and you already have the plist loaded:\n    sudo launchctl unload -w /Library/LaunchDaemons/org.cherokee.webserver.plist\n    sudo cp /home/tim/.linuxbrew/Cellar/cherokee/1.2.103/org.cherokee.webserver.plist /Library/LaunchDaemons\n    sudo launchctl load -w /Library/LaunchDaemons/org.cherokee.webserver.plist\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gettext",
+    "openssl"
+  ],
+  "desc": "Modern, user friendly web server",
+  "full_name": "cherokee",
+  "homepage": "http://cherokee-project.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cherokee",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.103"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d36206d7c4ba1431fb592ad9335e9ae3bea8b983245cec1e65cc24318088bd86",
+          "url": "https://linuxbrew.bintray.com/bottles/timelimit-1.9.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "872dbbd21820c6d08513f29bc0c024f8584c7d7b7b6b4b436553414d08fd6950",
+          "url": "https://linuxbrew.bintray.com/bottles/timelimit-1.9.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5fdeeb6ef9c0306f7195187b8068bc4f84de79d6f6716977a262ce26abb3b1db",
+          "url": "https://linuxbrew.bintray.com/bottles/timelimit-1.9.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "06c8bc26194174d1ac8bf52c7086f76378b469b015bd2ca422ce093290faa578",
+          "url": "https://linuxbrew.bintray.com/bottles/timelimit-1.9.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Limit a process's absolute execution time",
+  "full_name": "timelimit",
+  "homepage": "https://devel.ringlet.net/sysutils/timelimit/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "timelimit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9.0"
+  }
+}

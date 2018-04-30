@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8ce41d927ef6b6cc3e27bfd40bb898efeb069c2314ac9d9a2b349246ec0165e6",
+          "url": "https://linuxbrew.bintray.com/bottles/libvoikko-4.1.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "33c8fc6bc91efd0288cbc470b7c39aa2a9ab47dcfc75a5f7d09ccd493411eafb",
+          "url": "https://linuxbrew.bintray.com/bottles/libvoikko-4.1.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7f734e1e1b0e20858d744b654975c403679ba3833cae41f5214c4e5ae31e4847",
+          "url": "https://linuxbrew.bintray.com/bottles/libvoikko-4.1.1_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c7ed141d50e07c74ad504a852d123080a2ce9b23cf9b11e7ce3e4145a0c444e1",
+          "url": "https://linuxbrew.bintray.com/bottles/libvoikko-4.1.1_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b0f9d5753691aa1af8bb864f5b3ca8cc753da9e2dfdf47f4dad98394f2201811",
+          "url": "https://linuxbrew.bintray.com/bottles/libvoikko-4.1.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "python",
+    "foma"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "python",
+    "foma",
+    "hfstospell"
+  ],
+  "desc": "Linguistic software and Finnish dictionary",
+  "full_name": "libvoikko",
+  "homepage": "https://voikko.puimula.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libvoikko",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.1.1"
+  }
+}

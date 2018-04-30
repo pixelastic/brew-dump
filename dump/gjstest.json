@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c487833143ddbab1244ce53771436683e6fe294d258b41b344331c5311e288e9",
+          "url": "https://linuxbrew.bintray.com/bottles/gjstest-1.0.2_12.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "23787738847f2dfbe0c3d6943c846ec14530b8b1a79441b3af8d118adc5b3671",
+          "url": "https://linuxbrew.bintray.com/bottles/gjstest-1.0.2_12.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "848873eb3f3b770f2e67ffe2747a91b0fcddabda910eb2764bcb1e1ce9060c38",
+          "url": "https://linuxbrew.bintray.com/bottles/gjstest-1.0.2_12.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gflags",
+    "glog",
+    "libxml2",
+    "protobuf",
+    "re2",
+    "v8"
+  ],
+  "desc": "Fast JavaScript unit testing framework that runs on the V8 engine",
+  "full_name": "gjstest",
+  "homepage": "https://github.com/google/gjstest",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gjstest",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 12,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.2"
+  }
+}

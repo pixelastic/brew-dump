@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8d34e825aededd73ab87420e53a537742998f578f0019ddcf7eae9b8d8f6dd55",
+          "url": "https://linuxbrew.bintray.com/bottles/http-server-0.11.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d6a7324d5ed8943d3a63cd570346169206163879dbc9b347f584031ee9423a4a",
+          "url": "https://linuxbrew.bintray.com/bottles/http-server-0.11.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0a693d35ecd6e30295a3c714b51c02fe37dd1b0fba63107fffaecad6827f6850",
+          "url": "https://linuxbrew.bintray.com/bottles/http-server-0.11.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e44fd4a0dd518f16bec6dac861f13e60252770fb36b5dd98f6eb738cd7800ed0",
+          "url": "https://linuxbrew.bintray.com/bottles/http-server-0.11.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "desc": "Simple zero-configuration command-line HTTP server",
+  "full_name": "http-server",
+  "homepage": "https://github.com/indexzero/http-server",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "http-server",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.11.1"
+  }
+}

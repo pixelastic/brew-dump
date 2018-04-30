@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "6c4ff5911171f779b85bda69f07eb7a561ec0911517fe3a48b2cb917c1ff4f92",
+          "url": "https://linuxbrew.bintray.com/bottles/tarsnap-1.0.39.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b152754ed7ef385e4fd816fbf24571322479757c083ce889134903d4b88e0232",
+          "url": "https://linuxbrew.bintray.com/bottles/tarsnap-1.0.39.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7d4da94d575085b3f2c2066ae5b0e83edd589d0238d065fb0f9ba68d916c3868",
+          "url": "https://linuxbrew.bintray.com/bottles/tarsnap-1.0.39.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6cc300ce4d0db123d225b9b2ff1d28625061440484932a9c572282de785d4819",
+          "url": "https://linuxbrew.bintray.com/bottles/tarsnap-1.0.39.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "xz"
+  ],
+  "desc": "Online backups for the truly paranoid",
+  "full_name": "tarsnap",
+  "homepage": "https://www.tarsnap.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tarsnap",
+  "oldname": null,
+  "optional_dependencies": [
+    "xz"
+  ],
+  "options": [
+    {
+      "description": "Build with xz support",
+      "option": "--with-xz"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.39"
+  }
+}

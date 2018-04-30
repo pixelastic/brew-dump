@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4bbad864545de6e4f2a8e914fc20495983c0bde0feb2e2da9353a8169cfaa3fa",
+          "url": "https://linuxbrew.bintray.com/bottles/hh-1.24.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "90be269fa8ed7ed3538f91d34cccc5fe87e4ce3e328b64a6c74f558d5f2d0633",
+          "url": "https://linuxbrew.bintray.com/bottles/hh-1.24.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3a194279a8c4eda33d00398e6c3a2a854c9c15194449d1d0e813e57b17993cae",
+          "url": "https://linuxbrew.bintray.com/bottles/hh-1.24.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "619102f8895f95bbf0d46d6d70aea1d9a410d34ed316a9b4a94d0be16c07cecc",
+          "url": "https://linuxbrew.bintray.com/bottles/hh-1.24.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "readline"
+  ],
+  "desc": "Bash and zsh history suggest box",
+  "full_name": "hh",
+  "homepage": "https://github.com/dvorka/hstr",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hh",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.24"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "33d85c22d7076259782b67188a33feb4b1daa11dd0fcc15d06c934745115e32e",
+          "url": "https://linuxbrew.bintray.com/bottles/latex2rtf-2.3.16.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "79aea66544c01015f1ccbeef789129303eb8536c3ea05dec3c6949274e9cabb1",
+          "url": "https://linuxbrew.bintray.com/bottles/latex2rtf-2.3.16.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f93ad353b24f12c312f2a325dfc1fc20d948a1a02e3fa928b7ec19c7fc216d22",
+          "url": "https://linuxbrew.bintray.com/bottles/latex2rtf-2.3.16.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "801e93dac4cc038e07226c949ab72daa661211303d7a33b7b8c6a86d52501ca6",
+          "url": "https://linuxbrew.bintray.com/bottles/latex2rtf-2.3.16.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Translate LaTeX to RTF",
+  "full_name": "latex2rtf",
+  "homepage": "https://latex2rtf.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "latex2rtf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.16"
+  }
+}

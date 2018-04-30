@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "bs"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "da9449bb2e23980a881b443136b497f77abde1bace26415678bccd75cbce735b",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-server-3.5.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "923f0184b88f4f65294dca620a89802a2c6d7019069b23a3635095f67e724c83",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-server-3.5.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d15d06f49c17dae4e06eae578178646816cf3b34a2f96c85f43628d11676bf90",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-server-3.5.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "libbitcoin-node",
+    "zeromq"
+  ],
+  "desc": "Bitcoin Full Node and Query Server",
+  "full_name": "libbitcoin-server",
+  "homepage": "https://github.com/libbitcoin/libbitcoin-server",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libbitcoin-server",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.5.0"
+  }
+}

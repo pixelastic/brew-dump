@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "de784ae7a8154369d33eb13cd6fdca5979e2144cc1561ab4a3c85118b0cbbb20",
+          "url": "https://linuxbrew.bintray.com/bottles/libgit2-glib-0.26.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "20e1cf8538d46014cf5533510d52c2bb4e98cbfbf6e7a56817fc2e072466200c",
+          "url": "https://linuxbrew.bintray.com/bottles/libgit2-glib-0.26.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fc9f0fa31794d7f4c0b67fd68ff0378de0c1f5668b1bc093937ee0c94a7808a8",
+          "url": "https://linuxbrew.bintray.com/bottles/libgit2-glib-0.26.4_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "adef50d7cb46361d259ae2eeaff60b837f1b0760a2a75163211fe173b10b5c33",
+          "url": "https://linuxbrew.bintray.com/bottles/libgit2-glib-0.26.4_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "meson-internal",
+    "ninja",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "meson-internal",
+    "ninja",
+    "pkg-config",
+    "gettext",
+    "libgit2",
+    "glib"
+  ],
+  "desc": "Glib wrapper library around libgit2 git access library",
+  "full_name": "libgit2-glib",
+  "homepage": "https://github.com/GNOME/libgit2-glib",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libgit2-glib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.26.4"
+  }
+}

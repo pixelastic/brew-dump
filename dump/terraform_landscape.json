@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b505ec407bdca7dfd380007edc3f97216401a400ff4510cc8033e978f2aae642",
+          "url": "https://linuxbrew.bintray.com/bottles/terraform_landscape-0.1.17_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1359014f1c085eab4504073128620a0f7d15110e5bd486237102a8625795ec8d",
+          "url": "https://linuxbrew.bintray.com/bottles/terraform_landscape-0.1.17_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7591a60f166b102d15c8498e84215f09f3977bd4bfbd0b6142bf3f1af547fad0",
+          "url": "https://linuxbrew.bintray.com/bottles/terraform_landscape-0.1.17_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2872774115086ee8d4dd06dc8eb71dbcd297eabc8c47d0440929154df34c9c3e",
+          "url": "https://linuxbrew.bintray.com/bottles/terraform_landscape-0.1.17_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ruby"
+  ],
+  "desc": "Improve Terraform's plan output",
+  "full_name": "terraform_landscape",
+  "homepage": "https://github.com/coinbase/terraform-landscape",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "terraform_landscape",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.17"
+  }
+}

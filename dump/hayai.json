@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0a9089377b36a1f719966add1fcd01780e27e250db062affb818236e9b8161c6",
+          "url": "https://linuxbrew.bintray.com/bottles/hayai-1.0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c28fb50fbaed6281dafa6b8ec7b2cafc45fe3255bcc57a6678dbac5da67e4dca",
+          "url": "https://linuxbrew.bintray.com/bottles/hayai-1.0.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d2702e169ba0c8a8b79f3df6f83fc2268b95b0b0d2c2c4d11387ea99011800f4",
+          "url": "https://linuxbrew.bintray.com/bottles/hayai-1.0.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "C++ benchmarking framework inspired by the googletest framework",
+  "full_name": "hayai",
+  "homepage": "http://nickbruun.dk/2012/02/07/easy-cpp-benchmarking",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hayai",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.2"
+  }
+}

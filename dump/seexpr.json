@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0a374c2f84169d0b4ab064dfdd2dee856d5f80c9b8b27eee57e3d1614abffaa9",
+          "url": "https://linuxbrew.bintray.com/bottles/seexpr-2.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a5a7e8224eb7669dc0fea2178df7d51be1733f9fb82d4c0bb1851608f18c4722",
+          "url": "https://linuxbrew.bintray.com/bottles/seexpr-2.11.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "2e55d79f1519adbf0f1fdcf566aa67bd5515a60132516e2908250831d8e40355",
+          "url": "https://linuxbrew.bintray.com/bottles/seexpr-2.11.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "762881f740d763d3c2477f5ead9b2fc7c549f38721b39e999f9b6634f5215b68",
+          "url": "https://linuxbrew.bintray.com/bottles/seexpr-2.11.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c023332d27c1977db807f890011688ed756eb130fa1df40aa562776192733ffd",
+          "url": "https://linuxbrew.bintray.com/bottles/seexpr-2.11.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "doxygen"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "doxygen",
+    "libpng"
+  ],
+  "desc": "Embeddable expression evaluation engine",
+  "full_name": "seexpr",
+  "homepage": "https://www.disneyanimation.com/technology/seexpr.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "seexpr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.11"
+  }
+}

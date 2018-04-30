@@ -1,0 +1,67 @@
+{
+  "aliases": [
+    "gtef"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b078e641436811c2a788f0a6a671d98ad38d2a4619c0fd21ead43d7a8946e1be",
+          "url": "https://linuxbrew.bintray.com/bottles/tepl-3.0.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e0ba816839705deacfc0777bb80fe3f4fa600dcd817b6d7245725efaf855e738",
+          "url": "https://linuxbrew.bintray.com/bottles/tepl-3.0.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "03220deb6669b5dc71768a98482ba1e36e168f2bbee80de694e661386de40ce8",
+          "url": "https://linuxbrew.bintray.com/bottles/tepl-3.0.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "gtksourceview3",
+    "uchardet"
+  ],
+  "desc": "GNOME Text Editor Product Line",
+  "full_name": "tepl",
+  "homepage": "https://wiki.gnome.org/Projects/Tepl",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tepl",
+  "oldname": "gtef",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.0"
+  }
+}

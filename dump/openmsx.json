@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0789729f06a73ae5acd2a04df373f839a2ac7d14e5679a380f7a485a777124ff",
+          "url": "https://linuxbrew.bintray.com/bottles/openmsx-0.14.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1fe237fb4200b9f0574de19da59434ba04df35320d3cae9f285a17d7c3f73222",
+          "url": "https://linuxbrew.bintray.com/bottles/openmsx-0.14.0.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "14b2a737d35b8725ac2eff3e4ec02f1eef45542c7795e902d704cbdaf76c1857",
+          "url": "https://linuxbrew.bintray.com/bottles/openmsx-0.14.0.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl",
+    "sdl_ttf",
+    "freetype",
+    "libpng",
+    "glew"
+  ],
+  "desc": "MSX emulator",
+  "full_name": "openmsx",
+  "homepage": "https://openmsx.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openmsx",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Disable OpenGL post-processing renderer",
+      "option": "--without-glew"
+    },
+    {
+      "description": "Enable Laserdisc support",
+      "option": "--with-laserdisc"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "glew"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.14.0"
+  }
+}

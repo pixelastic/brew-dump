@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b167861900fb3f72c9852c2db920a96eb10aeb3b96f075b6f25e90ad99b03ddd",
+          "url": "https://linuxbrew.bintray.com/bottles/imapfilter-2.6.11_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "02803ddbca53c23b2d5cb2a5a8f35ae793345d76edc1950425237fcf988e2b96",
+          "url": "https://linuxbrew.bintray.com/bottles/imapfilter-2.6.11_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "93dc1b7812665fe71b765e12febee6e82d73508e28f151221e25f127af916e2a",
+          "url": "https://linuxbrew.bintray.com/bottles/imapfilter-2.6.11_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You will need to create a ~/.imapfilter/config.lua file.\nSamples can be found in:\n  /home/tim/.linuxbrew/Cellar/imapfilter/2.6.11_1/samples\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "lua",
+    "pcre",
+    "openssl"
+  ],
+  "desc": "IMAP message processor/filter",
+  "full_name": "imapfilter",
+  "homepage": "https://github.com/lefcha/imapfilter/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "imapfilter",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.6.11"
+  }
+}

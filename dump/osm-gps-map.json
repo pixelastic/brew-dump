@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "05bc6efb9676e68162e553bfe41f7467e5f7d8da85cb9cfda5256bf5a79ff884",
+          "url": "https://linuxbrew.bintray.com/bottles/osm-gps-map-1.1.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9b4ff596f15ef4dd79f8a52869ce0f0dc4e104c827f79dd223c3ff3c60631c5c",
+          "url": "https://linuxbrew.bintray.com/bottles/osm-gps-map-1.1.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5303392a0018ff176e67b844d1808834500c1b0ac8dd5362ad5f2a70939d1bc2",
+          "url": "https://linuxbrew.bintray.com/bottles/osm-gps-map-1.1.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "glib",
+    "gtk+3",
+    "gdk-pixbuf",
+    "libsoup"
+  ],
+  "desc": "GTK+ library to embed OpenStreetMap maps",
+  "full_name": "osm-gps-map",
+  "homepage": "https://nzjrs.github.com/osm-gps-map/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "osm-gps-map",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.0"
+  }
+}

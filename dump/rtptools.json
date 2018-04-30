@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3e50750a9e8589b351f0b5d61c2828bd928b053fbcef917b3cd805eeaee349ca",
+          "url": "https://linuxbrew.bintray.com/bottles/rtptools-1.22.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "246c3120540b65eb6da10b3ea57d194e3014a4ab4e653a241676f6540c128607",
+          "url": "https://linuxbrew.bintray.com/bottles/rtptools-1.22.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "923a5b4263afc7903843268745313b854ade82c5c4faa36521fb30209e01e047",
+          "url": "https://linuxbrew.bintray.com/bottles/rtptools-1.22.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Set of tools for processing RTP data",
+  "full_name": "rtptools",
+  "homepage": "https://www.cs.columbia.edu/irt/software/rtptools/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rtptools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.22"
+  }
+}

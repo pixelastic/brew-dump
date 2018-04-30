@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "adeee0423ba54e77da2710f1877e0cbc43733f833abc73ad76465a7d34c829a7",
+          "url": "https://linuxbrew.bintray.com/bottles/dvdauthor-0.7.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c31cd13def25b19f42dc4472ebb7013069aea342d6da18de5b8aa4ce68ddecba",
+          "url": "https://linuxbrew.bintray.com/bottles/dvdauthor-0.7.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "021c04387000c15dfd64763c9cf4eb7dd23ee0bed9e79941c8ff00182bf4e3b2",
+          "url": "https://linuxbrew.bintray.com/bottles/dvdauthor-0.7.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b4c79aab01e4ae32f39107af7ef863fd75f75cf7d9e32731be3f2e2e4d49d782",
+          "url": "https://linuxbrew.bintray.com/bottles/dvdauthor-0.7.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libdvdread",
+    "freetype",
+    "libpng",
+    "libxml2"
+  ],
+  "desc": "DVD-authoring toolset",
+  "full_name": "dvdauthor",
+  "homepage": "https://dvdauthor.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dvdauthor",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.2"
+  }
+}

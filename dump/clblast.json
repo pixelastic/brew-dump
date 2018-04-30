@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6f1ceb76dd369fb8129c8ec252b2c8a54c95572e6e3d02d8df758296ba47e062",
+          "url": "https://linuxbrew.bintray.com/bottles/clblast-1.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8254e3e21d6633170743bf46b035a00df6139ce0181ca58613fbea88b44dd1e6",
+          "url": "https://linuxbrew.bintray.com/bottles/clblast-1.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a80742b7dceee1d82f82b038138bf0a66844b11e67861405faa4999140f689d7",
+          "url": "https://linuxbrew.bintray.com/bottles/clblast-1.3.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Tuned OpenCL BLAS library",
+  "full_name": "clblast",
+  "homepage": "https://github.com/CNugteren/CLBlast",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "clblast",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3.0"
+  }
+}

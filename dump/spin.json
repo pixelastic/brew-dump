@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f64e72a5667316b47f32d7c1af206a7735708bbbb1a02e7d6d752d1e7e63b3ad",
+          "url": "https://linuxbrew.bintray.com/bottles/spin-6.4.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "11dcb2192a287c7bdbdbf7109add8ffb9c33161b12b4342c9feef21fd16269d1",
+          "url": "https://linuxbrew.bintray.com/bottles/spin-6.4.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5d881e899d308eee2c72c19050d61f70c53b439d7cb5b188dd6e104345a6fa35",
+          "url": "https://linuxbrew.bintray.com/bottles/spin-6.4.8.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "225633299209eeaacef8a8fcbde19928388f4931e15b4940f5fea33720669092",
+          "url": "https://linuxbrew.bintray.com/bottles/spin-6.4.8.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bison"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bison"
+  ],
+  "desc": "The efficient verification tool of multi-threaded software",
+  "full_name": "spin",
+  "homepage": "https://spinroot.com/spin/whatispin.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "spin",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.4.8"
+  }
+}

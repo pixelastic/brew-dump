@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b49646f45ef2c0fa1356356541f7608dfb9e748dab2fd88506beb03d000165e4",
+          "url": "https://linuxbrew.bintray.com/bottles/armadillo-8.400.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4122531c5cb8682bb5a578e3848b12a81914ea9495851d9b37bfa62ca7bfd4e4",
+          "url": "https://linuxbrew.bintray.com/bottles/armadillo-8.400.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b5260ab776d214be7da81a720033a02ac3576837b27bc5d8e1925347d33b617a",
+          "url": "https://linuxbrew.bintray.com/bottles/armadillo-8.400.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3ea45a96f36fa95f4f3c2b096e7d214c39a43f9250e5989b37f8a55d7aa89564",
+          "url": "https://linuxbrew.bintray.com/bottles/armadillo-8.400.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "arpack",
+    "hdf5",
+    "superlu"
+  ],
+  "desc": "C++ linear algebra library",
+  "full_name": "armadillo",
+  "homepage": "https://arma.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "armadillo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "8.400.1"
+  }
+}

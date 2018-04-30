@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4aeeb7e3b5a0fcc39a37a80b00ad27520c2852e138a48174d8d60980485faec7",
+          "url": "https://linuxbrew.bintray.com/bottles/packmol-18.104.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ae3a96ca2b9e9c2569f14b5e88e64c9d38f8fefad2369e9eb6873eb805190db5",
+          "url": "https://linuxbrew.bintray.com/bottles/packmol-18.104.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cad4f11bb13d0b5ff296f6dd91e8f79d31dacf7e6020d582bb5930c07b301a28",
+          "url": "https://linuxbrew.bintray.com/bottles/packmol-18.104.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "80c5a5b74e0bc483f35fcd3f1d73f92012912c68bb49e9723f89e52f206e9f8d",
+          "url": "https://linuxbrew.bintray.com/bottles/packmol-18.104.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gcc"
+  ],
+  "desc": "Packing optimization for molecular dynamics simulations",
+  "full_name": "packmol",
+  "homepage": "https://www.ime.unicamp.br/~martinez/packmol/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "packmol",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "18.104"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+    "swig@3.0"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "37bf242aad0c18317cdaef66218483c04fa57e091b7c7f9d72089f5002881338",
+          "url": "https://linuxbrew.bintray.com/bottles/swig-3.0.12.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c0e2656fd10d57281280d20ce8bf9a060cf8714f4283dd1dfde383b3688d9ed1",
+          "url": "https://linuxbrew.bintray.com/bottles/swig-3.0.12.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "68cb1b6bc898f2a1bd39ae24dd0235f68ffa56d04ba8cd4424835335202977d1",
+          "url": "https://linuxbrew.bintray.com/bottles/swig-3.0.12.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d23af3191eaa25dbfe8bc26d2c71d5116b47c523900f6a20ab534656811671c1",
+          "url": "https://linuxbrew.bintray.com/bottles/swig-3.0.12.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3443dbf17f78be0cecb5419772c71bb418caa91763590072224c196a57317717",
+          "url": "https://linuxbrew.bintray.com/bottles/swig-3.0.12.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pcre"
+  ],
+  "desc": "Generate scripting interfaces to C/C++ code",
+  "full_name": "swig",
+  "homepage": "http://www.swig.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "swig",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.12"
+  }
+}

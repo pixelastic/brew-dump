@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "71c77b016f36f2aa46d7aa823b9c7dead64f99d6a7458561caa76bb6c8d1c11f",
+          "url": "https://linuxbrew.bintray.com/bottles/timewarrior-1.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "add032f6bd1e1b67ff81902522473f6c46e232a097d338b711110a8dea7fc622",
+          "url": "https://linuxbrew.bintray.com/bottles/timewarrior-1.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "79da22a5383fdd5e22eff38ac9deb005c745e78764e1278909b8488cc770dd0d",
+          "url": "https://linuxbrew.bintray.com/bottles/timewarrior-1.1.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Command-line time tracking application",
+  "full_name": "timewarrior",
+  "homepage": "https://taskwarrior.org/docs/timewarrior/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "timewarrior",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.1"
+  }
+}

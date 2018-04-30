@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b9db7677c23716a7f8a57ce45d309487a36cc41c1388e2c7990b49c17e2f0bb7",
+          "url": "https://linuxbrew.bintray.com/bottles/glkterm-1.0.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1e7d75d921b11cd91354b2f8acf8a63416709b7875146d095bcf1ce02cc6fdad",
+          "url": "https://linuxbrew.bintray.com/bottles/glkterm-1.0.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b4c65e282b8cf6fce1e32e4e168aef241d6c38f2090448c68ad3ca7157e1d473",
+          "url": "https://linuxbrew.bintray.com/bottles/glkterm-1.0.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "61b75bf1232fb3aacc5966ea13e88fe339da7ffd7c9882bab549456dd816a30a",
+          "url": "https://linuxbrew.bintray.com/bottles/glkterm-1.0.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Terminal-window Glk library",
+  "full_name": "glkterm",
+  "homepage": "https://www.eblong.com/zarf/glk/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "glkterm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.4"
+  }
+}

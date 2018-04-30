@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1b61136446eba909e98195b10340174e3aba0c28264336242408a1c61f4cca90",
+          "url": "https://linuxbrew.bintray.com/bottles/lzip-1.20.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f854fdd0c02100534ebeeba5f120a40524b3e5048665fadb0b2e30519310dbb7",
+          "url": "https://linuxbrew.bintray.com/bottles/lzip-1.20.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8fd74d6652d03e9d5af035e0948e6835f38fd6ca45758c0392f825f232e4b4c6",
+          "url": "https://linuxbrew.bintray.com/bottles/lzip-1.20.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "LZMA-based compression program similar to gzip or bzip2",
+  "full_name": "lzip",
+  "homepage": "https://www.nongnu.org/lzip/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lzip",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.20"
+  }
+}

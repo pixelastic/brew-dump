@@ -1,0 +1,86 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c5c177bb4a290f1e35327b03317dcf3034397db46ae544bebec9fadb9241c86f",
+          "url": "https://linuxbrew.bintray.com/bottles/doxygen-1.8.14.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a241e29223f4004e69c81be8e01476602866103e1467cbe631b3e4ef0aa3a4af",
+          "url": "https://linuxbrew.bintray.com/bottles/doxygen-1.8.14.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c7bda918635189eee83c0716503d43f530b4366deb60639f842a7904debc09e3",
+          "url": "https://linuxbrew.bintray.com/bottles/doxygen-1.8.14.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d503fdf9684ffc256494e04180c1a2753d49d354121ec0bf5bee3df62cab717f",
+          "url": "https://linuxbrew.bintray.com/bottles/doxygen-1.8.14.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "graphviz",
+    "qt",
+    "llvm",
+    "bison",
+    "flex"
+  ],
+  "desc": "Generate documentation for several programming languages",
+  "full_name": "doxygen",
+  "homepage": "http://www.doxygen.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "doxygen",
+  "oldname": null,
+  "optional_dependencies": [
+    "graphviz",
+    "qt",
+    "llvm"
+  ],
+  "options": [
+    {
+      "description": "Build with dot command support from Graphviz.",
+      "option": "--with-graphviz"
+    },
+    {
+      "description": "Build GUI frontend with Qt support.",
+      "option": "--with-qt"
+    },
+    {
+      "description": "Build with libclang support.",
+      "option": "--with-llvm"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.14"
+  }
+}

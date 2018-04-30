@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ce056dd47194966eeddda0bbdc02ca3c8c12feab23b97a46a1044fa323fdbaa6",
+          "url": "https://linuxbrew.bintray.com/bottles/msitools-0.97_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "23ad30b2f5ba7ceac3273dc0148c1855ab3806aae3fb241965eb820d9f8c1bc2",
+          "url": "https://linuxbrew.bintray.com/bottles/msitools-0.97_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a7f930473258e61dfe22e29511bee9a0cc02fdf06bc5bca5bab11779f45d471c",
+          "url": "https://linuxbrew.bintray.com/bottles/msitools-0.97_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "intltool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "intltool",
+    "pkg-config",
+    "e2fsprogs",
+    "gcab",
+    "gettext",
+    "glib",
+    "libgsf",
+    "vala"
+  ],
+  "desc": "Windows installer (.MSI) tool",
+  "full_name": "msitools",
+  "homepage": "https://wiki.gnome.org/msitools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "msitools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.97"
+  }
+}

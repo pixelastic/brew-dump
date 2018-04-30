@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e18aa93ecbd78f5f70607653a1e1c48f73952aeef1a568e2205362368c40ba4c",
+          "url": "https://linuxbrew.bintray.com/bottles/clblas-2.12.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "47e08f87365e11a57d2ffc2fb81a3cfcd8bd784c438c1e08e1fe4116fc774553",
+          "url": "https://linuxbrew.bintray.com/bottles/clblas-2.12.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "22a6cc8252ed5d431ccea7d51631f57bcee3876be7f65a0ac0fbaabfe09a9484",
+          "url": "https://linuxbrew.bintray.com/bottles/clblas-2.12.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ac0d50729480e60afd56862a49f92408cb0ed61967ba91fcdc9e024e06f39917",
+          "url": "https://linuxbrew.bintray.com/bottles/clblas-2.12.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "boost",
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "cmake"
+  ],
+  "desc": "Library containing BLAS functions written in OpenCL",
+  "full_name": "clblas",
+  "homepage": "https://github.com/clMathLibraries/clBLAS",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "clblas",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.12"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a95f0ed48b7a7879128ea8b7d1dfac5d6c736ee504d88a65155c040eff6ea134",
+          "url": "https://linuxbrew.bintray.com/bottles/libestr-0.1.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0413d6b2e350cf0b96ac51277aea7cc138ce848b81091e7172c4cbbb6efd1102",
+          "url": "https://linuxbrew.bintray.com/bottles/libestr-0.1.10.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "5215ffe64cf57a7c95561588e8e117983419fece70fbc3c61d26099a249cf098",
+          "url": "https://linuxbrew.bintray.com/bottles/libestr-0.1.10.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "180b2620f9ba546d062835b15753236a616ecd53fa01bacb07bf6368d4825b64",
+          "url": "https://linuxbrew.bintray.com/bottles/libestr-0.1.10.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "527c833459655f5cd45bea32be982126f84b7eda4e2345436063cbe7daeeaa1d",
+          "url": "https://linuxbrew.bintray.com/bottles/libestr-0.1.10.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b6378b804c98be7a85e665f7f98035446941720f2ae9de94cd1cfedd607a5e10",
+          "url": "https://linuxbrew.bintray.com/bottles/libestr-0.1.10.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config"
+  ],
+  "desc": "C library for string handling (and a bit more)",
+  "full_name": "libestr",
+  "homepage": "http://libestr.adiscon.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libestr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.10"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "df519f90ebaef9a163ea6816695a3868d205530eec4809162c661458cd2004dc",
+          "url": "https://linuxbrew.bintray.com/bottles/lumo-1.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a6fd1d1bbcf42f4f59ba2b94b0c44326fad9847d786be7a7ca6cfcfd06d0d723",
+          "url": "https://linuxbrew.bintray.com/bottles/lumo-1.8.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6b89ef087a38b26840b41a2d6c8046d5fa4f8f2e895693cce8acc9b57d73e161",
+          "url": "https://linuxbrew.bintray.com/bottles/lumo-1.8.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "boot-clj",
+    "node",
+    "yarn"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boot-clj",
+    "node",
+    "yarn"
+  ],
+  "desc": "Fast, cross-platform, standalone ClojureScript environment",
+  "full_name": "lumo",
+  "homepage": "https://github.com/anmonteiro/lumo",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lumo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "caskroom/versions/java8",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.0"
+  }
+}

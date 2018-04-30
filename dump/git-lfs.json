@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2c73e3eb12e01f8d194fd174a31e1be4cafe867d8590d48680da9372fab51d51",
+          "url": "https://linuxbrew.bintray.com/bottles/git-lfs-2.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3c402c41266dd1290c8b87ff011913dc20cc0e2eb772159d14424e25518107f2",
+          "url": "https://linuxbrew.bintray.com/bottles/git-lfs-2.4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "71fd9a8da403714ddc7fba6de9c3fe869532a9c87170c068188e6cfc9f4ef630",
+          "url": "https://linuxbrew.bintray.com/bottles/git-lfs-2.4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "54db5d71fce6dbad00d14749feb0fe37e4abdf42817ccdd01d8f632ccfaf6e8a",
+          "url": "https://linuxbrew.bintray.com/bottles/git-lfs-2.4.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": "Update your git config to finish installation:\n\n  # Update global git config\n  $ git lfs install\n\n  # Update system git config\n  $ git lfs install --system\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "ruby"
+  ],
+  "desc": "Git extension for versioning large files",
+  "full_name": "git-lfs",
+  "homepage": "https://github.com/git-lfs/git-lfs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git-lfs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.0"
+  }
+}

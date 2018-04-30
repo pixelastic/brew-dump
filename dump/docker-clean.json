@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Clean Docker containers, images, networks, and volumes",
+  "full_name": "docker-clean",
+  "homepage": "https://github.com/ZZROTDesign/docker-clean",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "docker-clean",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.4"
+  }
+}

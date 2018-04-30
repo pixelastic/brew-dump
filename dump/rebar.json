@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "rebar@2"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "dc9934c431b8435022a1b47400d04357ef1da4bc579e523c14d9e6ddf9d44715",
+          "url": "https://linuxbrew.bintray.com/bottles/rebar-2.6.4.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d5a5ed085e413f898c5a2f36f0696343b08e592d901bcb01ddc9c41098a8aadf",
+          "url": "https://linuxbrew.bintray.com/bottles/rebar-2.6.4.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9deae896b5a7656fdbbbcdb134f17f776b9ba3b320a007a9ea84c97f1242ea76",
+          "url": "https://linuxbrew.bintray.com/bottles/rebar-2.6.4.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "30b03e9b4d9405d3131cbc4d4303797496d264fafed8f708a7a862e73e2e99ea",
+          "url": "https://linuxbrew.bintray.com/bottles/rebar-2.6.4.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "erlang"
+  ],
+  "desc": "Erlang build tool",
+  "full_name": "rebar",
+  "homepage": "https://github.com/rebar/rebar",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rebar",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.6.4"
+  }
+}

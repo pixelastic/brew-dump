@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "dbc52647ec527a30388c233c1361164b427fc3eefd88c540208f536bded9e8b8",
+          "url": "https://linuxbrew.bintray.com/bottles/ncview-2.1.7_7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fd045c094963d71459d70bdc7cea679810611c4060bf9cbc0a884e71ed5232e4",
+          "url": "https://linuxbrew.bintray.com/bottles/ncview-2.1.7_7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4ecd94086339db2cf56fa2ec9cf95ab31e08a47fe9589fcb1091d49737f14516",
+          "url": "https://linuxbrew.bintray.com/bottles/ncview-2.1.7_7.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "netcdf",
+    "udunits",
+    "linuxbrew/xorg/xorg"
+  ],
+  "desc": "Visual browser for netCDF format files",
+  "full_name": "ncview",
+  "homepage": "http://meteora.ucsd.edu/~pierce/ncview_home_page.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ncview",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 7,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.1.7"
+  }
+}

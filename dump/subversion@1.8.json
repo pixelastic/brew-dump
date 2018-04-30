@@ -1,0 +1,97 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0a39c347943ac7f025af06571378987e5d69805ab45cafd38215b5929a5a3722",
+          "url": "https://linuxbrew.bintray.com/bottles/subversion@1.8-1.8.19.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3a4e79dead2f4d209e06fe631903ed870610ddfc9ac091ec7d734f5025d0642e",
+          "url": "https://linuxbrew.bintray.com/bottles/subversion@1.8-1.8.19.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a3d73ecc8eddacfe764f5a83d5215220b7d3100d694c17ac3bed68089984e863",
+          "url": "https://linuxbrew.bintray.com/bottles/subversion@1.8-1.8.19.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "scons"
+  ],
+  "caveats": "svntools have been installed to:\n  /home/tim/.linuxbrew/opt/subversion@1.8/libexec\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "apr-util",
+    "apr",
+    "sqlite",
+    "python@2",
+    "scons",
+    "openssl",
+    "gpg-agent"
+  ],
+  "desc": "Version control system",
+  "full_name": "subversion@1.8",
+  "homepage": "https://subversion.apache.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "subversion@1.8",
+  "oldname": "subversion18",
+  "optional_dependencies": [
+    "python@2",
+    "gpg-agent"
+  ],
+  "options": [
+    {
+      "description": "Build Java bindings",
+      "option": "--with-java"
+    },
+    {
+      "description": "Build Perl bindings",
+      "option": "--with-perl"
+    },
+    {
+      "description": "Build Ruby bindings",
+      "option": "--with-ruby"
+    },
+    {
+      "description": "Build with support for GPG Agent",
+      "option": "--with-gpg-agent"
+    },
+    {
+      "description": "Build with python@2 support",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.19"
+  }
+}

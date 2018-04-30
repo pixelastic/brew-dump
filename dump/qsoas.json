@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "34be95fb5a3919dad8d41579e1822bd9ba46a553c96b4f8f90268ef3491e228a",
+          "url": "https://linuxbrew.bintray.com/bottles/qsoas-2.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2864c431780caeff59926d6c51d2a5a925814b33d172b03065f8713d2b9d49ee",
+          "url": "https://linuxbrew.bintray.com/bottles/qsoas-2.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8fd2e6ddb2224a9b00218572dc9e6f74ae45df730e468250b8674cf116975471",
+          "url": "https://linuxbrew.bintray.com/bottles/qsoas-2.2.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gsl",
+    "mruby",
+    "qt"
+  ],
+  "desc": "Versatile software for data analysis",
+  "full_name": "qsoas",
+  "homepage": "http://bip.cnrs-mrs.fr/bip06/qsoas/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qsoas",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.0"
+  }
+}

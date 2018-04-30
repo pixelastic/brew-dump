@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b7cf01a3db765e85c0cc38399348822e7f628c43c36561d42fa241f119c5b0f3",
+          "url": "https://linuxbrew.bintray.com/bottles/kafka-1.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b7cf01a3db765e85c0cc38399348822e7f628c43c36561d42fa241f119c5b0f3",
+          "url": "https://linuxbrew.bintray.com/bottles/kafka-1.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b7cf01a3db765e85c0cc38399348822e7f628c43c36561d42fa241f119c5b0f3",
+          "url": "https://linuxbrew.bintray.com/bottles/kafka-1.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "607b867c7776e0bceb9434424fbb8620502fc0a46d4b5a036712f5a9c2f0231a",
+          "url": "https://linuxbrew.bintray.com/bottles/kafka-1.0.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "zookeeper"
+  ],
+  "desc": "Publish-subscribe messaging rethought as a distributed commit log",
+  "full_name": "kafka",
+  "homepage": "https://kafka.apache.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "kafka",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "caskroom/versions/java8",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.0"
+  }
+}

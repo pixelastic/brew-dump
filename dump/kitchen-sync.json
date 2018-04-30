@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "30846fdf73486d98d69d3361a7329a89717e2cb81f3531241ebc4b2dfa2174a4",
+          "url": "https://linuxbrew.bintray.com/bottles/kitchen-sync-0.99.1_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "49ad47bba862b6c73727cb6f0d0d72725c961e6003eca4a81633b31d1f0b5e99",
+          "url": "https://linuxbrew.bintray.com/bottles/kitchen-sync-0.99.1_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "305a5c37197e113074c4ba61265ea28fde9c7560531032611e380ca3204d1d34",
+          "url": "https://linuxbrew.bintray.com/bottles/kitchen-sync-0.99.1_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5350c92e888f403c50c36cc3184426184b8a39035a9739a773373801745e045e",
+          "url": "https://linuxbrew.bintray.com/bottles/kitchen-sync-0.99.1_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "boost",
+    "yaml-cpp",
+    "mysql",
+    "postgresql"
+  ],
+  "desc": "Fast efficiently sync database without dumping & reloading",
+  "full_name": "kitchen-sync",
+  "homepage": "https://github.com/willbryant/kitchen_sync",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "kitchen-sync",
+  "oldname": null,
+  "optional_dependencies": [
+    "postgresql"
+  ],
+  "options": [
+    {
+      "description": "Build without mysql support",
+      "option": "--without-mysql"
+    },
+    {
+      "description": "Build with postgresql support",
+      "option": "--with-postgresql"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "mysql"
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.99.1"
+  }
+}

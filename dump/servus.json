@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "39e8d21f40ecf08f3bf68e565648c9b94e4eb5d1acda854d8ff58676dce9a7dc",
+          "url": "https://linuxbrew.bintray.com/bottles/servus-1.5.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fc9303986cd2dda58a7ed71e96273eef4517120b4e8b32f2956f672f3125e312",
+          "url": "https://linuxbrew.bintray.com/bottles/servus-1.5.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6946b4f5b7151f94cdb6e75ae47fda08a1da867f5690e757ee9d82875836905a",
+          "url": "https://linuxbrew.bintray.com/bottles/servus-1.5.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3f23b83c09997e5e51b0089b7d2fad4ee8d7527fe29633cb6551a239acff59d7",
+          "url": "https://linuxbrew.bintray.com/bottles/servus-1.5.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "boost"
+  ],
+  "desc": "Library and Utilities for zeroconf networking",
+  "full_name": "servus",
+  "homepage": "https://github.com/HBPVIS/Servus",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "servus",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.1"
+  }
+}

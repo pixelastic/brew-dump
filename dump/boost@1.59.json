@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1e061c511462de8c8ab16004d34691b70c2ef65ea0e4ca85f099b8960cd99421",
+          "url": "https://linuxbrew.bintray.com/bottles/boost@1.59-1.59.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6566d6a5c983add1b25e56b95ef540ce32b6fff5625aebbda81efbaf1618c9aa",
+          "url": "https://linuxbrew.bintray.com/bottles/boost@1.59-1.59.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8d21c9071cb5229469bef25efd3c598dc8d821c57581f4aa08fdfd265a88a9d9",
+          "url": "https://linuxbrew.bintray.com/bottles/boost@1.59-1.59.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "62161b5048eb58ab7df1a3f7adccd51e4ae5f10a82a01af2afd26186231f6936",
+          "url": "https://linuxbrew.bintray.com/bottles/boost@1.59-1.59.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Building of Boost.Log is disabled because it requires newer GCC or Clang.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "icu4c"
+  ],
+  "desc": "Collection of portable C++ source libraries",
+  "full_name": "boost@1.59",
+  "homepage": "https://www.boost.org",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "boost@1.59",
+  "oldname": "boost159",
+  "optional_dependencies": [
+    "icu4c"
+  ],
+  "options": [
+    {
+      "description": "Build regexp engine with icu support",
+      "option": "--with-icu4c"
+    },
+    {
+      "description": "Disable building single-threading variant",
+      "option": "--without-single"
+    },
+    {
+      "description": "Disable building static library variant",
+      "option": "--without-static"
+    },
+    {
+      "description": "Build using C++11 mode",
+      "option": "--c++11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.59.0"
+  }
+}

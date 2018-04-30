@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d91506a098fa564598b4aecbad97a2fa30728fafd8ad82bf8c4ff4bedb8d6c0a",
+          "url": "https://linuxbrew.bintray.com/bottles/libquvi-0.4.1_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bb5a4201afd814e87ee496b8cefbcf126f0245d7b3c600039e71e7b355115bf7",
+          "url": "https://linuxbrew.bintray.com/bottles/libquvi-0.4.1_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9968d412860717f837082f0e9d225b741d8430a99a3d1c4e12b7a1cdc95cd456",
+          "url": "https://linuxbrew.bintray.com/bottles/libquvi-0.4.1_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "lua@5.1",
+    "curl"
+  ],
+  "desc": "C library to parse flash media stream properties",
+  "full_name": "libquvi",
+  "homepage": "https://quvi.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libquvi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.1"
+  }
+}

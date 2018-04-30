@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "636ba018c57d0cdd2dffe1d1219a63560bb4519f17ec1310138c2a4a479aac02",
+          "url": "https://linuxbrew.bintray.com/bottles/eye-d3-0.8.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4e4493fb6060245ce65054909bc5b64c7600c246e89924ec98dec1772dfa4aa1",
+          "url": "https://linuxbrew.bintray.com/bottles/eye-d3-0.8.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4e4493fb6060245ce65054909bc5b64c7600c246e89924ec98dec1772dfa4aa1",
+          "url": "https://linuxbrew.bintray.com/bottles/eye-d3-0.8.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c351312781fe6c19671de8be057ff4cff1bc2918e5a92aa71248d9785b8eb649",
+          "url": "https://linuxbrew.bintray.com/bottles/eye-d3-0.8.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "libmagic"
+  ],
+  "desc": "Work with ID3 metadata in .mp3 files",
+  "full_name": "eye-d3",
+  "homepage": "http://eyed3.nicfit.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "eye-d3",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.5"
+  }
+}

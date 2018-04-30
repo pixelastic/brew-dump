@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2954e69685502cf87b91ace26ed1d8ac5f7286368bacb38c786cb0f23f3b36dc",
+          "url": "https://linuxbrew.bintray.com/bottles/sickbeard-507.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d9db0e5fd4383ca3c388e597dd09f0240be542e54eab6e70265dca613c62f78e",
+          "url": "https://linuxbrew.bintray.com/bottles/sickbeard-507.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f8a28c1b638f8041a226e8a19606b42cf9e3d000501217f85fb3b024ec50b205",
+          "url": "https://linuxbrew.bintray.com/bottles/sickbeard-507.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6138d1320eeaa59271e29ac77f922054368ce833b1bb913e44c9931b2b112961",
+          "url": "https://linuxbrew.bintray.com/bottles/sickbeard-507.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e6948de6d4e6a4511f16b83d06e6d5c65adfb422a371620ddc90354a270b151f",
+          "url": "https://linuxbrew.bintray.com/bottles/sickbeard-507.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "SickBeard defaults to port 8081.",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "PVR application to search and manage TV shows",
+  "full_name": "sickbeard",
+  "homepage": "http://www.sickbeard.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sickbeard",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "507"
+  }
+}

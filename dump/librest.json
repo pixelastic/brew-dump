@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5333e6b41033827ec7db0fedb3510fe4ab442cd53180c5cd1ebc613b4e1b3bfc",
+          "url": "https://linuxbrew.bintray.com/bottles/librest-0.8.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "677a14fd8dde39e068cc8bb4fe771619a13bdde7e92903756ecb056b79ee69e7",
+          "url": "https://linuxbrew.bintray.com/bottles/librest-0.8.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "79fed6ba59358147b84ee7f793df20542e21c1537f3b7a1ff0572296d5503e20",
+          "url": "https://linuxbrew.bintray.com/bottles/librest-0.8.1_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "glib",
+    "libsoup"
+  ],
+  "desc": "Library to access RESTful web services",
+  "full_name": "librest",
+  "homepage": "https://wiki.gnome.org/Projects/Librest",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "librest",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.1"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "309e0b2978bb79ea627caba23d7f3bbb0cb54d3a6b08836b2cde387a743dae50",
+          "url": "https://linuxbrew.bintray.com/bottles/wine-3.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bf84c0a02b7d7b4fc8814891f5542c0e35c30c922e0d2bcf4af168a1f34e36e4",
+          "url": "https://linuxbrew.bintray.com/bottles/wine-3.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cceea27c906e9e5e7916281a57c36872c943802e998fede387fa7ccbc9d297ac",
+          "url": "https://linuxbrew.bintray.com/bottles/wine-3.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "cmake",
+    "makedepend"
+  ],
+  "caveats": "You may also want winetricks:\n  brew install winetricks\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cmake",
+    "makedepend",
+    "systemd"
+  ],
+  "desc": "Run Windows applications without a copy of Microsoft Windows",
+  "full_name": "wine",
+  "homepage": "https://www.winehq.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wine",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "3.6",
+    "head": "HEAD",
+    "stable": "3.0"
+  }
+}

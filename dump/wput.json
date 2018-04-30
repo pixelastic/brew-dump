@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8e4eeb941d98dc0313b87682b7ae659bbceac59426cf0483c2ae2676cf5b924b",
+          "url": "https://linuxbrew.bintray.com/bottles/wput-0.6.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e01d35805cd00e8f4d9ba1ab989104d66dc4150648a2288f5f49eea5c17b5025",
+          "url": "https://linuxbrew.bintray.com/bottles/wput-0.6.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "3e9c649d134fff0d79d23a2eb575e440354e938b0f261c5fed53efe9d6f3f8c9",
+          "url": "https://linuxbrew.bintray.com/bottles/wput-0.6.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0a8c4296a3e14d8b420f65464293b000dd1bd2e33a802c92e1812f0c267d3f0f",
+          "url": "https://linuxbrew.bintray.com/bottles/wput-0.6.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "97bc045a03ddd01106304530a453a47693fbd5f3419090310c91a187e1d23931",
+          "url": "https://linuxbrew.bintray.com/bottles/wput-0.6.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tiny, wget-like FTP client for uploading files",
+  "full_name": "wput",
+  "homepage": "https://wput.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wput",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.2"
+  }
+}

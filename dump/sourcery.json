@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "high_sierra": {
+          "sha256": "7a9b2c78ce0029175aebcd204dea5f68506328cf9223168b04b7e2bd6df70edf",
+          "url": "https://linuxbrew.bintray.com/bottles/sourcery-0.11.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "08040bff659f7a1cdd8deb115c3a0996413c443f133917d223eb3f7356c7b8ad",
+          "url": "https://linuxbrew.bintray.com/bottles/sourcery-0.11.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Meta-programming for Swift, stop writing boilerplate code",
+  "full_name": "sourcery",
+  "homepage": "https://github.com/krzysztofzablocki/Sourcery",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sourcery",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.11.2"
+  }
+}

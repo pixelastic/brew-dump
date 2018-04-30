@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ffc3b61781ffb2ae04537e34b28a19a4fe33683c534dd2d1504d2ec8d5ef4bef",
+          "url": "https://linuxbrew.bintray.com/bottles/antiword-0.37.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cacd3e8a83231fd139a5b845f17fb99a34f728d10df2eb6289457037ee8c827f",
+          "url": "https://linuxbrew.bintray.com/bottles/antiword-0.37.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "4f4938378ed4cad59dc61d652ec8d33b0410f85dd99ac825f1f86eeeedb07402",
+          "url": "https://linuxbrew.bintray.com/bottles/antiword-0.37.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6456be83a3f867a0df1121b7c7b6c413d94d1e38bc920c9c5fda73851265fb2e",
+          "url": "https://linuxbrew.bintray.com/bottles/antiword-0.37.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "654c7d9f75bd93466f1e7ec505b59d03d14b71f9c5ba1b73db797685bf856965",
+          "url": "https://linuxbrew.bintray.com/bottles/antiword-0.37.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1397c95409d671da764658460eba612b2564d4a0403bfffa667510e05f2fb08a",
+          "url": "https://linuxbrew.bintray.com/bottles/antiword-0.37.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You can install mapping files in ~/.antiword\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Utility to read Word (.doc) files",
+  "full_name": "antiword",
+  "homepage": "http://www.winfield.demon.nl/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "antiword",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.37"
+  }
+}

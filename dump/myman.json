@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d3b66de7eae03edecb2573524d94239bd013ffd57eeb1980411da12f6d2b2b98",
+          "url": "https://linuxbrew.bintray.com/bottles/myman-2009-10-30.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b5f0af51ce1098ea35e48bc50f4097cbb9e647989decd6d7791476b062ef7582",
+          "url": "https://linuxbrew.bintray.com/bottles/myman-2009-10-30.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "376c71ad2f5abcc0233b3873d70cc963e54ac0ca00a552eceb025ac09b931ff6",
+          "url": "https://linuxbrew.bintray.com/bottles/myman-2009-10-30.sierra.bottle.2.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a34e620acc560cb86f943e84762cd51b37c865114ab522bed502cfd8b366fa84",
+          "url": "https://linuxbrew.bintray.com/bottles/myman-2009-10-30.x86_64_linux.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b318e0b227a3ad281afe95edc5a0cc7ab0b1d5e46b1699e6221eb201de869b48",
+          "url": "https://linuxbrew.bintray.com/bottles/myman-2009-10-30.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "coreutils",
+    "gnu-sed",
+    "groff"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "coreutils",
+    "gnu-sed",
+    "groff",
+    "ncurses"
+  ],
+  "desc": "Text-mode videogame inspired by Namco's Pac-Man",
+  "full_name": "myman",
+  "homepage": "https://myman.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "myman",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2009-10-30"
+  }
+}

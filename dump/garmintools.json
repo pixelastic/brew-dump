@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "dd86a8e306d3c4ebb9b94ddd4aaf60fdb79aa06fc7eb56ca95942248db33924e",
+          "url": "https://linuxbrew.bintray.com/bottles/garmintools-0.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9ecdb8294089c84a229db39a395bf3f4817f185f30135a6f92711b95705ab869",
+          "url": "https://linuxbrew.bintray.com/bottles/garmintools-0.10.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "bdd96fdc8cf79cde06b330855d7899539816d08cc3b815a0ee115289cac6e30b",
+          "url": "https://linuxbrew.bintray.com/bottles/garmintools-0.10.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c747a668400406f6625a3832e351a4f27fd1308d8ef840120eba086d3d6adcb4",
+          "url": "https://linuxbrew.bintray.com/bottles/garmintools-0.10.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "62d2b45ae3d7ef7de9a8deaa658e12021f16b14008f1a91e8c747f84b0e803d3",
+          "url": "https://linuxbrew.bintray.com/bottles/garmintools-0.10.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libusb-compat"
+  ],
+  "desc": "Interface to the Garmin Forerunner GPS units",
+  "full_name": "garmintools",
+  "homepage": "https://code.google.com/archive/p/garmintools/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "garmintools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.10"
+  }
+}

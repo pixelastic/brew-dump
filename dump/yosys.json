@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "fc4f502421418d92674b9dcb2bfa976ba3fd5622b2bdde486de653caec075eb5",
+          "url": "https://linuxbrew.bintray.com/bottles/yosys-0.7_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "036989ea352804dc6c0b64f621a4501213fe9cb0dafc18fc3b4130ca9dcc59be",
+          "url": "https://linuxbrew.bintray.com/bottles/yosys-0.7_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b89b1b6ebc570c6f5c0508da8d57a0cdcc9995eba5ceefb0e1a0b69460ad47c5",
+          "url": "https://linuxbrew.bintray.com/bottles/yosys-0.7_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "bison"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python",
+    "libffi",
+    "readline",
+    "pkg-config",
+    "bison"
+  ],
+  "desc": "Framework for Verilog RTL synthesis",
+  "full_name": "yosys",
+  "homepage": "http://www.clifford.at/yosys/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yosys",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without libffi support",
+      "option": "--without-libffi"
+    },
+    {
+      "description": "Build without readline support",
+      "option": "--without-readline"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libffi",
+    "readline"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7"
+  }
+}

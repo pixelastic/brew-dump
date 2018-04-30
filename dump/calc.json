@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0fdea569d70f771ed02cae8ac4b175cb5810db6acfabb14b1f0e3031bf375822",
+          "url": "https://linuxbrew.bintray.com/bottles/calc-2.12.6.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0adef80aadb860be5fd0e01d6b843364df9f4fb38665715bf2428773c28f8385",
+          "url": "https://linuxbrew.bintray.com/bottles/calc-2.12.6.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c5af5a309327a041326026af0b2c56bee4f823bb016fb592d9d47ce3593bdf38",
+          "url": "https://linuxbrew.bintray.com/bottles/calc-2.12.6.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "17b93fcfbfb475abc2c51b1d4a922ecf40ce4593613c86ed5f6d265d2bcad144",
+          "url": "https://linuxbrew.bintray.com/bottles/calc-2.12.6.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bsdmainutils"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "readline",
+    "bsdmainutils"
+  ],
+  "desc": "Arbitrary precision calculator",
+  "full_name": "calc",
+  "homepage": "http://www.isthe.com/chongo/tech/comp/calc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "calc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.12.6.5"
+  }
+}

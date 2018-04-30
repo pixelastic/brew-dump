@@ -1,0 +1,110 @@
+{
+  "aliases": [
+    "erlang@20"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "aa64067d5632b0f6f72d5f5a03439aa1174f18653e0b0788a571702690007f38",
+          "url": "https://linuxbrew.bintray.com/bottles/erlang-20.3.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9b9221248fed8870e74bc945d6c7a4430cc6d30b29ecd54058ecfe515b517dea",
+          "url": "https://linuxbrew.bintray.com/bottles/erlang-20.3.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5fdfda6df67d3c060955c4fe5a017afa34f0660b3f26b6a3e3ca1441c958ef80",
+          "url": "https://linuxbrew.bintray.com/bottles/erlang-20.3.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": "Man pages can be found in:\n  /home/tim/.linuxbrew/opt/erlang/lib/erlang/man\n\nAccess them with `erl -man`, or add this directory to MANPATH.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "openssl",
+    "fop",
+    "wxmac"
+  ],
+  "desc": "Programming language for highly scalable real-time systems",
+  "full_name": "erlang",
+  "homepage": "http://www.erlang.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "erlang",
+  "oldname": null,
+  "optional_dependencies": [
+    "fop"
+  ],
+  "options": [
+    {
+      "description": "Disable building hipe; fails on various macOS systems",
+      "option": "--without-hipe"
+    },
+    {
+      "description": "Enable native library compilation",
+      "option": "--with-native-libs"
+    },
+    {
+      "description": "Enable experimental dirty schedulers",
+      "option": "--with-dirty-schedulers"
+    },
+    {
+      "description": "Build jinterface application",
+      "option": "--with-java"
+    },
+    {
+      "description": "Do not install documentation",
+      "option": "--without-docs"
+    },
+    {
+      "description": "Build with fop support",
+      "option": "--with-fop"
+    },
+    {
+      "description": "Build without wxmac support",
+      "option": "--without-wxmac"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "wxmac"
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "ci"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "20.3.4"
+  }
+}

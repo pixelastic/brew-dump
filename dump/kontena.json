@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "cfc0dc9927c211e1466af5651f43586d24fcb4d95bd19405cdf7125cffa4d381",
+          "url": "https://linuxbrew.bintray.com/bottles/kontena-1.5.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c92862caf4138ce33079802ba274904074fd866767695dbc7c863386c5c27849",
+          "url": "https://linuxbrew.bintray.com/bottles/kontena-1.5.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3acd8e330a508eeda7214bd5bbc18398b9973063c1e853dcf5b6e2242ceeb753",
+          "url": "https://linuxbrew.bintray.com/bottles/kontena-1.5.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1ab2c07bb777b9c5c55f8274fb6a57771ba208b49084d8f55e61ae70e188c500",
+          "url": "https://linuxbrew.bintray.com/bottles/kontena-1.5.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ruby"
+  ],
+  "desc": "Command-line client for Kontena container orchestration platform",
+  "full_name": "kontena",
+  "homepage": "https://kontena.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "kontena",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.5.2"
+  }
+}

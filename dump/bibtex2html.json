@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ba8aa5695eed41c522c20396b8509add1c0a45abead9e32a079e6c4a22507602",
+          "url": "https://linuxbrew.bintray.com/bottles/bibtex2html-1.99.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "145c0eb8c54ea55a3fc9cbfc3cb034791890dc68d1ed267e315fee17300c718a",
+          "url": "https://linuxbrew.bintray.com/bottles/bibtex2html-1.99.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2ac5800e2e29a1471d5ea6ccf3dff76201559f2e2e6471e536e25ec162cd79c3",
+          "url": "https://linuxbrew.bintray.com/bottles/bibtex2html-1.99.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7e6ccc485cef501d26a02d4920708137bbeff2df17a281e2f6165eb63f93f26a",
+          "url": "https://linuxbrew.bintray.com/bottles/bibtex2html-1.99.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ocaml",
+    "hevea"
+  ],
+  "desc": "BibTeX to HTML converter",
+  "full_name": "bibtex2html",
+  "homepage": "https://www.lri.fr/~filliatr/bibtex2html/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bibtex2html",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.99"
+  }
+}

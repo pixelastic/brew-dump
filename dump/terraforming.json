@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "55ae998ef2c0bbcf4f45964136c89eefc477f8ac1992d03c89b6413409846ecc",
+          "url": "https://linuxbrew.bintray.com/bottles/terraforming-0.16.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e0725b2299c049d2ff8e2f05c40b4ed26c4425a2db80edadd522d5a3fe74d02f",
+          "url": "https://linuxbrew.bintray.com/bottles/terraforming-0.16.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9be52ca74b16d7b408370e3cdea144fe8a422cc3678981d13dde72968aedb71b",
+          "url": "https://linuxbrew.bintray.com/bottles/terraforming-0.16.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Export existing AWS resources to Terraform style (tf, tfstate)",
+  "full_name": "terraforming",
+  "homepage": "https://terraforming.dtan4.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "terraforming",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.16.0"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "071188eaf2b8b37f7de944306eddaa632ef7892ef0d9df58fb1aa5fac3bf8b7a",
+          "url": "https://linuxbrew.bintray.com/bottles/nasm-2.13.03.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2fa5bb8d830cb03115cc2f12a03dd15bf49674324604760019f3170b5cc089fd",
+          "url": "https://linuxbrew.bintray.com/bottles/nasm-2.13.03.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0a7e744e56384aae2dd1a9a80c6ae8037fa3c4a0b0481a7c403dbf8db2c1cf19",
+          "url": "https://linuxbrew.bintray.com/bottles/nasm-2.13.03.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "87269e6b2c6637630c0960d6b2497958a2782df310aab1de0149ad098b07c4c4",
+          "url": "https://linuxbrew.bintray.com/bottles/nasm-2.13.03.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Netwide Assembler (NASM) is an 80x86 assembler",
+  "full_name": "nasm",
+  "homepage": "https://www.nasm.us/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nasm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.13.03"
+  }
+}

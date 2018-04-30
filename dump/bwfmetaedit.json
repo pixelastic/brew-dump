@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0c61f8118a0a6ae3eda3c4504ea546504e437b07aed61c51225f75e4a2e700d6",
+          "url": "https://linuxbrew.bintray.com/bottles/bwfmetaedit-1.3.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "85ea1c310484ad3377240e91fccb9945f43f4aee701d51b14e61eb23a32a9bb1",
+          "url": "https://linuxbrew.bintray.com/bottles/bwfmetaedit-1.3.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "79245545f860b2e00d41413bcf6c8f8bb2c6d21e9dc4902e2f69893ee182abee",
+          "url": "https://linuxbrew.bintray.com/bottles/bwfmetaedit-1.3.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9f33d54721ffae26ec7b706e85d715713f7e0bb19df30ecc1e7252f82b634a67",
+          "url": "https://linuxbrew.bintray.com/bottles/bwfmetaedit-1.3.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tool for embedding, validating, and exporting BWF file metadata",
+  "full_name": "bwfmetaedit",
+  "homepage": "https://mediaarea.net/BWFMetaEdit",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bwfmetaedit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3.3"
+  }
+}

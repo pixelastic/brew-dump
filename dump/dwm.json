@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1f900b061eb8c36118c85c494aeb634da01d5dd7e3d6e58f9a1d8d5c53da2208",
+          "url": "https://linuxbrew.bintray.com/bottles/dwm-6.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6cc50618320a56720dd41717990c9cee08b2de731814b6b05275e9d6712cb80c",
+          "url": "https://linuxbrew.bintray.com/bottles/dwm-6.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ab241356f8f38fb9e1ff6bba2dfbb07b8b82a5be0eee7fe75ba128548034115a",
+          "url": "https://linuxbrew.bintray.com/bottles/dwm-6.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0e8c7d9f991b3269569e0d990dbf9fc56e89f9a6274a1abd72d41248253afca8",
+          "url": "https://linuxbrew.bintray.com/bottles/dwm-6.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "In order to use the Mac OS X command key for dwm commands,\nchange the X11 keyboard modifier map using xmodmap (1).\n\ne.g. by running the following command from $HOME/.xinitrc\nxmodmap -e 'remove Mod2 = Meta_L' -e 'add Mod1 = Meta_L'&\n\nSee also https://gist.github.com/311377 for a handful of tips and tricks\nfor running dwm on Mac OS X.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "dmenu"
+  ],
+  "desc": "Dynamic window manager",
+  "full_name": "dwm",
+  "homepage": "https://dwm.suckless.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dwm",
+  "oldname": null,
+  "optional_dependencies": [
+    "dmenu"
+  ],
+  "options": [
+    {
+      "description": "Build with dmenu support",
+      "option": "--with-dmenu"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.1"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "aefc7ac4b27caaf0ebc7919eeb1d06b0bfa2d18ee9a26d9dee99ae9e4f22d788",
+          "url": "https://linuxbrew.bintray.com/bottles/mruby-1.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a2d57a7ffeda0a31012372ef4d039cfbd0ad17e53d7c2fd80157f5cee5e29e37",
+          "url": "https://linuxbrew.bintray.com/bottles/mruby-1.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "54d788bb33206662ed61e08904c1b7259f3f4d0f30794688d4491fe2b065ebf0",
+          "url": "https://linuxbrew.bintray.com/bottles/mruby-1.4.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bison"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bison",
+    "ruby"
+  ],
+  "desc": "Lightweight implementation of the Ruby language",
+  "full_name": "mruby",
+  "homepage": "https://mruby.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mruby",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.1"
+  }
+}

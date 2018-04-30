@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "93ad8024af250d62a0469e9b7d6a871cf7c7acd21ec74460c4990516c335be95",
+          "url": "https://linuxbrew.bintray.com/bottles/vault-0.10.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d95f1776f9244eb4250f9623407f280f4ac4651fd488e54e113e24d7acb9fd85",
+          "url": "https://linuxbrew.bintray.com/bottles/vault-0.10.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c1840e30d25c7e8b6b3aa31b2097c4786ce6e93bfaebf11dd4e985494cd6c928",
+          "url": "https://linuxbrew.bintray.com/bottles/vault-0.10.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "401d6b0dfc9ad160945a871e2f46148c796476cd20b6a5b57404e0a1db8d49d8",
+          "url": "https://linuxbrew.bintray.com/bottles/vault-0.10.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "gox"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "gox"
+  ],
+  "desc": "Secures, stores, and tightly controls access to secrets",
+  "full_name": "vault",
+  "homepage": "https://vaultproject.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vault",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build dynamic binary with CGO_ENABLED=1",
+      "option": "--with-dynamic"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.10.1"
+  }
+}

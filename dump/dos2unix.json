@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "unix2dos"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e0d2b2e99417be33b385a47f847e8838dc75b2ccdb5277b1d9ba031c4fe55b23",
+          "url": "https://linuxbrew.bintray.com/bottles/dos2unix-7.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6aca83a413b4c2b2645e7a17e02dcae91c4f0ae9d2dba430e8083266e5a06482",
+          "url": "https://linuxbrew.bintray.com/bottles/dos2unix-7.4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "51ccc96a8757320d073beb4ed224a65130c454bbe249c58157c5921e8ed9fe2c",
+          "url": "https://linuxbrew.bintray.com/bottles/dos2unix-7.4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6c7f9983c269d948b05063dab227f8895d80210119c2026a887eb9378a78cfd7",
+          "url": "https://linuxbrew.bintray.com/bottles/dos2unix-7.4.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gettext"
+  ],
+  "desc": "Convert text between DOS, UNIX, and Mac formats",
+  "full_name": "dos2unix",
+  "homepage": "https://waterlan.home.xs4all.nl/dos2unix.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dos2unix",
+  "oldname": null,
+  "optional_dependencies": [
+    "gettext"
+  ],
+  "options": [
+    {
+      "description": "Build with Native Language Support",
+      "option": "--with-gettext"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.4.0"
+  }
+}

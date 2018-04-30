@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c82aaf006c1e61742f4b0d01106b34efa0bba4c7b315f31298b6cce1d9616947",
+          "url": "https://linuxbrew.bintray.com/bottles/asciidoc-8.6.10_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c82aaf006c1e61742f4b0d01106b34efa0bba4c7b315f31298b6cce1d9616947",
+          "url": "https://linuxbrew.bintray.com/bottles/asciidoc-8.6.10_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c82aaf006c1e61742f4b0d01106b34efa0bba4c7b315f31298b6cce1d9616947",
+          "url": "https://linuxbrew.bintray.com/bottles/asciidoc-8.6.10_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fef651417eeae42905dcd1da05e413eb23a466fe807aab45da12dff8ae919343",
+          "url": "https://linuxbrew.bintray.com/bottles/asciidoc-8.6.10_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "docbook-xsl",
+    "libxml2",
+    "xmlto",
+    "libxslt"
+  ],
+  "caveats": "If you intend to process AsciiDoc files through an XML stage\n(such as a2x for manpage generation) you need to add something\nlike:\n\n  export XML_CATALOG_FILES=/home/tim/.linuxbrew/etc/xml/catalog\n\nto your shell rc file so that xmllint can find AsciiDoc's\ncatalog files.\n\nSee `man 1 xmllint' for more.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "docbook-xsl",
+    "docbook",
+    "libxml2",
+    "xmlto",
+    "libxslt",
+    "python"
+  ],
+  "desc": "Formatter/translator for text files to numerous formats. Includes a2x",
+  "full_name": "asciidoc",
+  "homepage": "http://asciidoc.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "asciidoc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "8.6.10"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "be77f701f14ecabf655ddbf92eb132aa0cca9413196343783032a665ce2b33c0",
+          "url": "https://linuxbrew.bintray.com/bottles/flint-checker-0.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b1d4e65bc48b267d9d05b31ad5321d534717a5b0122d80a8bf5d483bd4c00662",
+          "url": "https://linuxbrew.bintray.com/bottles/flint-checker-0.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0d246b741b5a09fcb7aa0641ba2322e55db92eb98b755f6528171e0ce82c782e",
+          "url": "https://linuxbrew.bintray.com/bottles/flint-checker-0.1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5dcce77a6426af8579cd283a120f6bb3b8cce384f6d4934c995dc7b23779bc51",
+          "url": "https://linuxbrew.bintray.com/bottles/flint-checker-0.1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Check your project for common sources of contributor friction",
+  "full_name": "flint-checker",
+  "homepage": "https://github.com/pengwynn/flint",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "flint-checker",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.0"
+  }
+}

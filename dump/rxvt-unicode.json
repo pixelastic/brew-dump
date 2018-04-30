@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5d6060cc30061763809d7255b8654309be0a709fccdcda1b799f0fac16fd085d",
+          "url": "https://linuxbrew.bintray.com/bottles/rxvt-unicode-9.22_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "01a97a5842a1507ae1e9c99d973811e300d0aac95b3fb744e8181918b6ac11eb",
+          "url": "https://linuxbrew.bintray.com/bottles/rxvt-unicode-9.22_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2946f3abe2481ad6e4f52be7a9e51259bcd0846f38602e74384343946479eb4a",
+          "url": "https://linuxbrew.bintray.com/bottles/rxvt-unicode-9.22_3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9b674dd3738ab25fa6145680f92ca036df470ced089448abcb6647439320e075",
+          "url": "https://linuxbrew.bintray.com/bottles/rxvt-unicode-9.22_3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config"
+  ],
+  "desc": "Rxvt fork with Unicode support",
+  "full_name": "rxvt-unicode",
+  "homepage": "http://software.schmorp.de/pkg/rxvt-unicode.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rxvt-unicode",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Disable ISO 14775 Shift+Ctrl hotkey",
+      "option": "--without-iso14755"
+    },
+    {
+      "description": "Disable 21-bit Unicode 3 (non-BMP) character support",
+      "option": "--without-unicode3"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "9.22"
+  }
+}

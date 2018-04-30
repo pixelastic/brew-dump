@@ -1,0 +1,85 @@
+{
+  "aliases": [
+    "python3",
+    "python@3"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bccf50de973644608af29652f2660124d033f3213d422fe44a7f012a47643a95",
+          "url": "https://linuxbrew.bintray.com/bottles/python-3.6.5.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7e0fc1b078b51d9478ab08660d5df01611976a7af0f6c24054bda58264bb506c",
+          "url": "https://linuxbrew.bintray.com/bottles/python-3.6.5.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2fe5ca9be0f1596798927c4aa1d4d187ca7f83adc4681483cec2cc52d7c95386",
+          "url": "https://linuxbrew.bintray.com/bottles/python-3.6.5.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9039d65b47b59af13e4de149a030caeb568267bdc9f7ff1387fc0e6a30d519d8",
+          "url": "https://linuxbrew.bintray.com/bottles/python-3.6.5.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "sphinx-doc"
+  ],
+  "caveats": "Python has been installed as\n  /home/tim/.linuxbrew/bin/python3\n\nUnversioned symlinks `python`, `python-config`, `pip` etc. pointing to\n`python3`, `python3-config`, `pip3` etc., respectively, have been installed into\n  /home/tim/.linuxbrew/opt/python/libexec/bin\n\nIf you need Homebrew's Python 2.7 run\n  brew install python@2\n\nPip, setuptools, and wheel have been installed. To update them run\n  pip3 install --upgrade pip setuptools wheel\n\nYou can install Python packages with\n  pip3 install <package>\nThey will install into the site-package directory\n  /home/tim/.linuxbrew/lib/python3.6/site-packages\n\nSee: https://docs.brew.sh/Homebrew-and-Python\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "sphinx-doc",
+    "gdbm",
+    "openssl",
+    "readline",
+    "sqlite",
+    "xz",
+    "tcl-tk",
+    "bzip2",
+    "libffi",
+    "ncurses",
+    "zlib"
+  ],
+  "desc": "Interpreted, interactive, object-oriented programming language",
+  "full_name": "python",
+  "homepage": "https://www.python.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "python",
+  "oldname": "python3",
+  "optional_dependencies": [
+    "tcl-tk"
+  ],
+  "options": [
+    {
+      "description": "Build with tcl-tk support",
+      "option": "--with-tcl-tk"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "3.7.0b3",
+    "head": "HEAD",
+    "stable": "3.6.5"
+  }
+}

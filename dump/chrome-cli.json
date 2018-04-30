@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9bfb2379f8697da91606ea8b6e7c63240e6d20b184d5cdf72c4c7e63a959be16",
+          "url": "https://linuxbrew.bintray.com/bottles/chrome-cli-1.5.0.el_capitan.bottle.4.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "377700e9560a44f93c18af032346e333c944776d972b1d1e2d77f19526db60aa",
+          "url": "https://linuxbrew.bintray.com/bottles/chrome-cli-1.5.0.high_sierra.bottle.4.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "4b40b52e047b6b8db966a75155d94d5c42d293c5b8058d1e887eb294e96129c9",
+          "url": "https://linuxbrew.bintray.com/bottles/chrome-cli-1.5.0.mavericks.bottle.4.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "ccdfa38c03563f671508958ec1be43ef47fa368e3bb7c78743964a809409acba",
+          "url": "https://linuxbrew.bintray.com/bottles/chrome-cli-1.5.0.mountain_lion.bottle.4.tar.gz"
+        },
+        "sierra": {
+          "sha256": "203479f2f1fc35640bdabe89ee6fa038a1e59dfc7a8abec1db79b74c63d0253a",
+          "url": "https://linuxbrew.bintray.com/bottles/chrome-cli-1.5.0.sierra.bottle.4.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "05deec5813a4979652a645737a7ed7868878934f77ee5c4cc27140e11811b2d1",
+          "url": "https://linuxbrew.bintray.com/bottles/chrome-cli-1.5.0.yosemite.bottle.4.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 4,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Control Google Chrome from the command-line",
+  "full_name": "chrome-cli",
+  "homepage": "https://github.com/prasmussen/chrome-cli",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "chrome-cli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.5.0"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "015cfd4803ea86f02429fc9a1f5de59d72012c9d0e32a92c9f996922ef422084",
+          "url": "https://linuxbrew.bintray.com/bottles/ucon64-2.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3fc97894b8edaa28fa90a2cb494976be49fa7a28fb875797bd5f56ddc3b2fd69",
+          "url": "https://linuxbrew.bintray.com/bottles/ucon64-2.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6fe6e1cf1db14e4592eb3486c6629bff06813a42c34b9ae8e188a5ad02745344",
+          "url": "https://linuxbrew.bintray.com/bottles/ucon64-2.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0be67cdf4744ed3839891eea9a4ef87e5677d466cd7ff457faec4180aa71189f",
+          "url": "https://linuxbrew.bintray.com/bottles/ucon64-2.1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You can copy/move your DAT file collection to $HOME/.ucon64/dat\nBe sure to check $HOME/.ucon64rc for configuration after running uCON64\nfor the first time.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "ROM backup tool and emulator's Swiss Army knife program",
+  "full_name": "ucon64",
+  "homepage": "https://ucon64.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ucon64",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.0"
+  }
+}

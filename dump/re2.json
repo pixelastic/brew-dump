@@ -1,0 +1,52 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "e8195c0e0e98823157acbeb746837542d5fdbf20ff37c2c106265bc13012808d",
+          "url": "https://linuxbrew.bintray.com/bottles/re2-20180401.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Alternative to backtracking PCRE-style regular expression engines",
+  "full_name": "re2",
+  "homepage": "https://github.com/google/re2",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "re2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "20180401"
+  }
+}

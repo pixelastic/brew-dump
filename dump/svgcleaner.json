@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4a8e60702be1d8cc7be187f8de0ead26b234d7018c567adbc4bc358b90c1aba0",
+          "url": "https://linuxbrew.bintray.com/bottles/svgcleaner-0.9.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bc7ce28fda3125d1b53d38225cf86b1a72fbfc5bdc6964014ce8a8af96cc9add",
+          "url": "https://linuxbrew.bintray.com/bottles/svgcleaner-0.9.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "141b68daa2335f0ca15ed707e07b239727340942c82943d9619e0b27a072701e",
+          "url": "https://linuxbrew.bintray.com/bottles/svgcleaner-0.9.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d2b2d12c478271b631944c26de0a19a53ede2a89b2161209ae352b50b45b28c4",
+          "url": "https://linuxbrew.bintray.com/bottles/svgcleaner-0.9.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "rust"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "rust"
+  ],
+  "desc": "Cleans your SVG files by removing unnecessary data",
+  "full_name": "svgcleaner",
+  "homepage": "https://github.com/RazrFalcon/svgcleaner",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "svgcleaner",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.5"
+  }
+}

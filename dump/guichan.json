@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ceccf2469c60c0ee7c06d3b7af0a8a43080d857c959dabcb30c74da908318a34",
+          "url": "https://linuxbrew.bintray.com/bottles/guichan-0.8.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ecbd02d365bc8c1dbc1bd2ad8beae89876f34b0082926dd8a465591df04e6ab7",
+          "url": "https://linuxbrew.bintray.com/bottles/guichan-0.8.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3815959a2b29e0d92e8f8e47fb09528c13adff1756df3acf72792092e1e13ef0",
+          "url": "https://linuxbrew.bintray.com/bottles/guichan-0.8.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "472e8b2c7e04d74d2704481e2bb12d228773de400975ecf53c07bbc2823a0ea7",
+          "url": "https://linuxbrew.bintray.com/bottles/guichan-0.8.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl_image"
+  ],
+  "desc": "Small, efficient C++ GUI library designed for games",
+  "full_name": "guichan",
+  "homepage": "https://guichan.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "guichan",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.2"
+  }
+}

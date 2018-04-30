@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b8882074853ecfcbf6d2426361d5baa553380efbb5896777f0c829cac65811a4",
+          "url": "https://linuxbrew.bintray.com/bottles/qdae-0.0.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "60fdb0801b8db3e5b36bc896aca8d4e71278ffe2106019e38f34ffd9605500ec",
+          "url": "https://linuxbrew.bintray.com/bottles/qdae-0.0.10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bf2425bdeea4a4ac407056410f6758d44f2b31a9c9afc13871f96914c1d17651",
+          "url": "https://linuxbrew.bintray.com/bottles/qdae-0.0.10.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1a4eeaff6ff2a86179b673c04837aebe2664ca1eeb065e3081296f653b762cc7",
+          "url": "https://linuxbrew.bintray.com/bottles/qdae-0.0.10.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Data files are located in the following directory:\n  /home/tim/.linuxbrew/Cellar/qdae/0.0.10/share/QDAE\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl",
+    "libxml2"
+  ],
+  "desc": "Quick and Dirty Apricot Emulator",
+  "full_name": "qdae",
+  "homepage": "https://www.seasip.info/Unix/QDAE/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qdae",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.0.10"
+  }
+}

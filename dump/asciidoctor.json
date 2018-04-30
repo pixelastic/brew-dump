@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c7531d673926d06f0dcf3d0143d5cf39e88072f368954f63025df18cca1ef84a",
+          "url": "https://linuxbrew.bintray.com/bottles/asciidoctor-1.5.6.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "706d1a92697057a45787d5e3b31d36bf96d50ca10454f53075038f902fc8164a",
+          "url": "https://linuxbrew.bintray.com/bottles/asciidoctor-1.5.6.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "71c99d6310db8ab951d2c42dbbd3117aae0d8443a5ae1ba4725ed20c81df00a5",
+          "url": "https://linuxbrew.bintray.com/bottles/asciidoctor-1.5.6.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Text processor and publishing toolchain for AsciiDoc",
+  "full_name": "asciidoctor",
+  "homepage": "https://asciidoctor.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "asciidoctor",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.6.2"
+  }
+}

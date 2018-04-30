@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "For ddclient to work, you will need to create a configuration file\nin /home/tim/.linuxbrew/etc/ddclient, a sample configuration can be found in\n/home/tim/.linuxbrew/opt/ddclient/share/doc/ddclient.\n\nNote: don't enable daemon mode in the configuration file; see\nadditional information below.\n\nThe next reboot of the system will automatically start ddclient.\n\nYou can adjust the execution interval by changing the value of\nStartInterval (in seconds) in /Library/LaunchDaemons/homebrew.mxcl.ddclient.plist,\nand then\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Update dynamic DNS entries",
+  "full_name": "ddclient",
+  "homepage": "https://sourceforge.net/p/ddclient/wiki/Home",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ddclient",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.8.3"
+  }
+}

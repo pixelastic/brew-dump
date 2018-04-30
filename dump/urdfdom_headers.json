@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3b937204b1bd92e9c290dfc9df366c2978352be8551a47910ac637d863a6f585",
+          "url": "https://linuxbrew.bintray.com/bottles/urdfdom_headers-1.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3b937204b1bd92e9c290dfc9df366c2978352be8551a47910ac637d863a6f585",
+          "url": "https://linuxbrew.bintray.com/bottles/urdfdom_headers-1.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3b937204b1bd92e9c290dfc9df366c2978352be8551a47910ac637d863a6f585",
+          "url": "https://linuxbrew.bintray.com/bottles/urdfdom_headers-1.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "71ddf5bb27467d3fc6683b06eafc78a635a185d614c3682e17e0c77ae9fc604d",
+          "url": "https://linuxbrew.bintray.com/bottles/urdfdom_headers-1.0.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Headers for Unified Robot Description Format (URDF) parsers",
+  "full_name": "urdfdom_headers",
+  "homepage": "https://wiki.ros.org/urdfdom_headers/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "urdfdom_headers",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.0"
+  }
+}

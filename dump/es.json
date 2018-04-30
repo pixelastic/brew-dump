@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "53f0c0654ddecc62b99135fb96722b6467593248d884c1506ea93681367c611d",
+          "url": "https://linuxbrew.bintray.com/bottles/es-0.9.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b8fdbd8dd642283af492c5f6c72d23b39cc9819f543908c0d3d3c2c71d86151d",
+          "url": "https://linuxbrew.bintray.com/bottles/es-0.9.1_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "14f203383d01f581bdb63e7240ff57d1174553467314351d49ea41d3052148f9",
+          "url": "https://linuxbrew.bintray.com/bottles/es-0.9.1_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7fa9e3a21662d59d5505fda8945435f71331647d6efdae0ce7112bd507af3398",
+          "url": "https://linuxbrew.bintray.com/bottles/es-0.9.1_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "47eb9c54542fdc1f05144632e4d0cb93a50d8ddea973d452b98ad4de527b2d25",
+          "url": "https://linuxbrew.bintray.com/bottles/es-0.9.1_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "bceadf8a0ef4d3231d149f30cc53d2c7fe686cd8fdd0dafe83ceaabc35151d5e",
+          "url": "https://linuxbrew.bintray.com/bottles/es-0.9.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "readline"
+  ],
+  "desc": "Extensible shell with first class functions, lexical scoping, and more",
+  "full_name": "es",
+  "homepage": "https://wryun.github.io/es-shell/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "es",
+  "oldname": null,
+  "optional_dependencies": [
+    "readline"
+  ],
+  "options": [
+    {
+      "description": "Use readline instead of libedit",
+      "option": "--with-readline"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.1"
+  }
+}

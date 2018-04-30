@@ -1,0 +1,90 @@
+{
+  "aliases": [
+    "openmpi"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "35541c62f4741d3ca520984cc7d38d7a5e6c730b8f9a4e0f75fe5b8e801b0bb1",
+          "url": "https://linuxbrew.bintray.com/bottles/open-mpi-3.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0ec480af5e4facf76d8437b3bd095f24ec7e94b9fd0479e58517706a8aefb9a7",
+          "url": "https://linuxbrew.bintray.com/bottles/open-mpi-3.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a7e3dd3ff80c79a47fe7ef03c51275d1022d6b74aed2214d08bc63713f1df790",
+          "url": "https://linuxbrew.bintray.com/bottles/open-mpi-3.0.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "717d2642d6df60b8ef680b91d8e3a1a22f3007cf01a95a0748127107d96a3463",
+          "url": "https://linuxbrew.bintray.com/bottles/open-mpi-3.0.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "mpich",
+    "lcdf-typetools"
+  ],
+  "dependencies": [
+    "gcc",
+    "libevent"
+  ],
+  "desc": "High performance message passing library",
+  "full_name": "open-mpi",
+  "homepage": "https://www.open-mpi.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "open-mpi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable MPI_THREAD_MULTIPLE",
+      "option": "--with-mpi-thread-multiple"
+    },
+    {
+      "description": "Enable C++ MPI bindings (deprecated as of MPI-3.0)",
+      "option": "--with-cxx-bindings"
+    },
+    {
+      "description": "Do not build the Fortran bindings",
+      "option": "--without-fortran"
+    },
+    {
+      "description": "Build with java support",
+      "option": "--with-java"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.0.1"
+  }
+}

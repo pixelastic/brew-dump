@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7437962981be6a10ba6952a07746f0c9e8e165e1e6e647b2cf5fd9042ee89669",
+          "url": "https://linuxbrew.bintray.com/bottles/fs-uae-2.8.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c3248540860a5d3829087227e5e1145bf37727339c6b697441e35748253b2232",
+          "url": "https://linuxbrew.bintray.com/bottles/fs-uae-2.8.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1bbdae6cb275764ebddbbb535095ec51677ce6566877961a60ed2e1b1d2f6471",
+          "url": "https://linuxbrew.bintray.com/bottles/fs-uae-2.8.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c0a2ef6dc723d726e70df915d5a0a8db200743290715acf80ea8fe0d3a344c65",
+          "url": "https://linuxbrew.bintray.com/bottles/fs-uae-2.8.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "sdl2",
+    "libpng",
+    "libmpeg2",
+    "glib",
+    "gettext",
+    "freetype",
+    "glew",
+    "openal-soft"
+  ],
+  "desc": "Amiga emulator",
+  "full_name": "fs-uae",
+  "homepage": "https://fs-uae.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fs-uae",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.8.3"
+  }
+}

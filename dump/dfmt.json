@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f2527134b4bf6cb79934fc94d0f41bd126368a5f5ffeb50020d9fe0dc9f0bba9",
+          "url": "https://linuxbrew.bintray.com/bottles/dfmt-0.7.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "99d38d69c6ed63d1554a60a64e09a01fa36fdaaab76cec95573d5bad9143b16e",
+          "url": "https://linuxbrew.bintray.com/bottles/dfmt-0.7.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0b8463b0eb18ffb37ae6e375a6a548e7895365a462109e7f51d58906d765fbf1",
+          "url": "https://linuxbrew.bintray.com/bottles/dfmt-0.7.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "42370740e4a0f51424c219152c72d96855239ecbc205e30fd5ae21b1c7e91770",
+          "url": "https://linuxbrew.bintray.com/bottles/dfmt-0.7.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "dmd"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "dmd"
+  ],
+  "desc": "Formatter for D source code",
+  "full_name": "dfmt",
+  "homepage": "https://github.com/dlang-community/dfmt",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dfmt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.7.0"
+  }
+}

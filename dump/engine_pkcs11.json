@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "cd24061981fd0cd78e5c82d92c0ef686e2c8eea8a54e49339bf0606b51566b12",
+          "url": "https://linuxbrew.bintray.com/bottles/engine_pkcs11-0.1.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d6aae033f4a43482334c5446b0dc5b21d04492135f8a73bdf10318696667867c",
+          "url": "https://linuxbrew.bintray.com/bottles/engine_pkcs11-0.1.8.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c8fda4c457231986703ffae42ef0033eb6afd05ed891d7b7ede2c38f14dd1105",
+          "url": "https://linuxbrew.bintray.com/bottles/engine_pkcs11-0.1.8.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8fc6fe2cf14c79223c4930c825e4b42435fe87a6c20b87a1e03ad13702eb3d55",
+          "url": "https://linuxbrew.bintray.com/bottles/engine_pkcs11-0.1.8.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "af4873db45f9cec2e7dec281f646addeaac288a6ddf349fd731a8ea2e5809957",
+          "url": "https://linuxbrew.bintray.com/bottles/engine_pkcs11-0.1.8.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libp11",
+    "openssl"
+  ],
+  "desc": "Implementation of OpenSSL engine interface",
+  "full_name": "engine_pkcs11",
+  "homepage": "https://github.com/OpenSC/OpenSC/wiki/OpenSSL-engine-for-PKCS%2311-modules",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "engine_pkcs11",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.1.8"
+  }
+}

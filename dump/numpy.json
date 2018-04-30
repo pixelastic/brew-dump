@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c22afeed38791bce599ff2b1c4263a90ed2ec08177396171e879ab4c70f3c3fb",
+          "url": "https://linuxbrew.bintray.com/bottles/numpy-1.14.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "953c10a547b9af36436e7d31297fe2a15be912e3ae6bd70634957f9935bf6a8e",
+          "url": "https://linuxbrew.bintray.com/bottles/numpy-1.14.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aa3a48369f9869f17cf44fb2f87a49bb76e0adf04fb5cee52a5d5d18e938b999",
+          "url": "https://linuxbrew.bintray.com/bottles/numpy-1.14.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "70486777a78e59a1634e2ad9692f325bf43bfbb20e1679dff3419321bd0c08d4",
+          "url": "https://linuxbrew.bintray.com/bottles/numpy-1.14.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gcc"
+  ],
+  "caveats": "If you use system python (that comes - depending on the OS X version -\nwith older versions of numpy, scipy and matplotlib), you may need to\nensure that the brewed packages come earlier in Python's sys.path with:\n  mkdir -p /home/tim/.local/lib/python2.7/site-packages\n  echo 'import sys; sys.path.insert(1, \"/home/tim/.linuxbrew/lib/python3.6/site-packages\")' >> /home/tim/.local/lib/python2.7/site-packages/homebrew.pth\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gcc",
+    "python@2",
+    "python",
+    "openblas"
+  ],
+  "desc": "Package for scientific computing with Python",
+  "full_name": "numpy",
+  "homepage": "https://www.numpy.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "numpy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without python2 support",
+      "option": "--without-python@2"
+    },
+    {
+      "description": "Build without python support",
+      "option": "--without-python"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python@2",
+    "python"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.14.2"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d9a4634cf2e7759caed69fee95f5f0044e4365cbaaf308a2f5abddfa46f4bec1",
+          "url": "https://linuxbrew.bintray.com/bottles/fragroute-1.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "65ea82f265aeb3018b59f1c24630ad2e88fc8d3c678579f4e83be4f339005450",
+          "url": "https://linuxbrew.bintray.com/bottles/fragroute-1.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "54e5062ef504ba660fa5bbc67a562c7fd9a80fbca511cf37c10ca65d135cefe7",
+          "url": "https://linuxbrew.bintray.com/bottles/fragroute-1.2_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7c1fc2c4a43e91a22b2e999d071424c5b57243820e2293cc4106e4b68ded0323",
+          "url": "https://linuxbrew.bintray.com/bottles/fragroute-1.2_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libdnet",
+    "libevent"
+  ],
+  "desc": "Intercepts, modifies and rewrites egress traffic for a specified host",
+  "full_name": "fragroute",
+  "homepage": "https://www.monkey.org/~dugsong/fragroute/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fragroute",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2"
+  }
+}

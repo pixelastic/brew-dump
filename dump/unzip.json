@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8a2bfa62e728c9a9bc44d7acb9f34698e599b47f8200c45290b62502c682a6ec",
+          "url": "https://linuxbrew.bintray.com/bottles/unzip-6.0_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c69a3531f5c1c834132c89124e11e580cb052870515875240f035dd471977893",
+          "url": "https://linuxbrew.bintray.com/bottles/unzip-6.0_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "72cf9820bc8fe8c008bdb1cf7b231afbb0bc6b48511f4d40e5e4840f5bb5df65",
+          "url": "https://linuxbrew.bintray.com/bottles/unzip-6.0_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fb94d99fcb5f703c3897727a37acdfaa931c75a3c6691bdac757f5e4ae7d3948",
+          "url": "https://linuxbrew.bintray.com/bottles/unzip-6.0_3.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3c69150f5a9ad6d1d1737eb17c06315dd7d0bc02b9c1a11e02ecb281c1e5f37f",
+          "url": "https://linuxbrew.bintray.com/bottles/unzip-6.0_3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bzip2"
+  ],
+  "desc": "Extraction utility for .zip compressed archives",
+  "full_name": "unzip",
+  "homepage": "http://www.info-zip.org/pub/infozip/UnZip.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "unzip",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.0"
+  }
+}

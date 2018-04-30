@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "230ba9ec9cbb40c2c128c1a063152fd07888210f59bf37f1f68bcd2f33d4d863",
+          "url": "https://linuxbrew.bintray.com/bottles/midicsv-1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "737ea2eda70a778d076568af902f16d609aaae4baeb7ada7795c32d4de886f81",
+          "url": "https://linuxbrew.bintray.com/bottles/midicsv-1.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "289d13313a2f5d7dbc8ebf61450ba336bdba9849be352dc5b705c0d2c4b13d3e",
+          "url": "https://linuxbrew.bintray.com/bottles/midicsv-1.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "314a21ac6aaad39594a54bae4bf3ecc64e3ef0cd655e7c18c6ff05ebd72c9b86",
+          "url": "https://linuxbrew.bintray.com/bottles/midicsv-1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f649e02908dee31c35e9b73954b8faad2da70e1c7e621fddb64f18dbad897036",
+          "url": "https://linuxbrew.bintray.com/bottles/midicsv-1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Convert MIDI audio files to human-readable CSV format",
+  "full_name": "midicsv",
+  "homepage": "https://www.fourmilab.ch/webtools/midicsv",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "midicsv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

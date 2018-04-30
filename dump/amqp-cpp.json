@@ -1,0 +1,54 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "56612640fbb412f6d9bc5277206b00dce1e162f990754b0b7f7287ea8e6e9757",
+          "url": "https://linuxbrew.bintray.com/bottles/amqp-cpp-3.0.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "C++ library for communicating with a RabbitMQ message broker",
+  "full_name": "amqp-cpp",
+  "homepage": "https://github.com/CopernicaMarketingSoftware/AMQP-CPP",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "amqp-cpp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.0.1"
+  }
+}

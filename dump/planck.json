@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7b42ed797321162bff92da08bfc4e8f33e3c23cb3f0e76451cafe488199670bb",
+          "url": "https://linuxbrew.bintray.com/bottles/planck-2.13.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "db5fb38a47810381acb9d0de48fe9377ab25ab93313fd2137fcc6e5d31b4828c",
+          "url": "https://linuxbrew.bintray.com/bottles/planck-2.13.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d83f6153b059ad049d2e3a1d1a61505cec415fc451f884b7cfd9cf7c6eb713f5",
+          "url": "https://linuxbrew.bintray.com/bottles/planck-2.13.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "clojure",
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "clojure",
+    "cmake",
+    "pkg-config",
+    "libzip",
+    "icu4c"
+  ],
+  "desc": "Stand-alone ClojureScript REPL",
+  "full_name": "planck",
+  "homepage": "http://planck-repl.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "planck",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.13.0"
+  }
+}

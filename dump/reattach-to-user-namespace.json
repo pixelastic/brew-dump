@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "32e211dc568925e01d410ba4bef4a508d529ee553e9bf2f4d10564d11fb9e550",
+          "url": "https://linuxbrew.bintray.com/bottles/reattach-to-user-namespace-2.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8ced8c1497d56fc6b4c4d85d55ed38cd5c9785ca304083c4c72271776a9c8cba",
+          "url": "https://linuxbrew.bintray.com/bottles/reattach-to-user-namespace-2.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e03dead8ceeaead3e996b30275f9b76ee912f47110037405a3504d94352eeca1",
+          "url": "https://linuxbrew.bintray.com/bottles/reattach-to-user-namespace-2.6.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7e2cfb5efe7a03dd9cbf230034996caaf2206da05f2e5f771b9f289416907e45",
+          "url": "https://linuxbrew.bintray.com/bottles/reattach-to-user-namespace-2.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Reattach process (e.g., tmux) to background",
+  "full_name": "reattach-to-user-namespace",
+  "homepage": "https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "reattach-to-user-namespace",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.6"
+  }
+}

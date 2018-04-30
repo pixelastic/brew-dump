@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "33e4734a8714484a2c506241d91ab45145c19228abe51d355e0cbd60020ee11a",
+          "url": "https://linuxbrew.bintray.com/bottles/musepack-r475.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "717935f1cb28a6f4b19fb8c9e8e606aa3156479539a809ce6e69ebf3016c2166",
+          "url": "https://linuxbrew.bintray.com/bottles/musepack-r475.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "4ff9d23d8631300ff2619d9f1a7d99e07f8636c6e8d8db8dbf1335a21c1f7e27",
+          "url": "https://linuxbrew.bintray.com/bottles/musepack-r475.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "ac50f1100cdb2c91846a5d5a8d364cdb31abaeb7823ccbfc6614829f96540c6d",
+          "url": "https://linuxbrew.bintray.com/bottles/musepack-r475.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "26b774c3ca9b6c43cfdc868d71e635d292bcf218d0577fbc271be5138e8ef3c0",
+          "url": "https://linuxbrew.bintray.com/bottles/musepack-r475.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2e6bad894063f1178ff43b5cd10a899b82baa757228c3a51488793a4a22acdf2",
+          "url": "https://linuxbrew.bintray.com/bottles/musepack-r475.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libcuefile",
+    "libreplaygain"
+  ],
+  "desc": "Audio compression format and tools",
+  "full_name": "musepack",
+  "homepage": "https://www.musepack.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "musepack",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "r475"
+  }
+}

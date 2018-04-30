@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8604a90f9ad0f3b04767c021a4d24dacdcabd788767df56a45e3913231d4336e",
+          "url": "https://linuxbrew.bintray.com/bottles/vmdktool-1.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "276a35d178515782c7a741a2ebd45c6b47aee0d7ecfd725c386f589e69336fdc",
+          "url": "https://linuxbrew.bintray.com/bottles/vmdktool-1.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3fa294be9d6e9e6b56435526520262aaa86f5909cc10b9ccf9d9670ae3ac0e3c",
+          "url": "https://linuxbrew.bintray.com/bottles/vmdktool-1.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f19ae3ac92ae4400c7139771f3a5ec07d32bf2e3ed49bfa7add445f8a680ef0c",
+          "url": "https://linuxbrew.bintray.com/bottles/vmdktool-1.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Converts raw filesystems to VMDK files and vice versa",
+  "full_name": "vmdktool",
+  "homepage": "https://manned.org/vmdktool",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vmdktool",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4"
+  }
+}

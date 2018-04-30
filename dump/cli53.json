@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "80a40487ecd7a8d71531e01a95a4063909ee02bbf5d36f5992314b7a300ecd06",
+          "url": "https://linuxbrew.bintray.com/bottles/cli53-0.8.12.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "54a6761f3ce9942a371cbb0a946e437b91a9e85f8e2d2c883786dab17df5bbb6",
+          "url": "https://linuxbrew.bintray.com/bottles/cli53-0.8.12.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8905b12ce358fa01a303182323f67f84b773199c6c7e2253354969f46931ae5b",
+          "url": "https://linuxbrew.bintray.com/bottles/cli53-0.8.12.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d37ad7fa31d83deca02d3d789f7d65be2ee361a3fc6bd3c0325a79008bec82e6",
+          "url": "https://linuxbrew.bintray.com/bottles/cli53-0.8.12.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Command-line tool for Amazon Route 53",
+  "full_name": "cli53",
+  "homepage": "https://github.com/barnybug/cli53",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cli53",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.12"
+  }
+}

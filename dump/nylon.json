@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "e11dbfcb33533384db298fe84ed065f613db0c3503cd211b4404c586bfd19218",
+          "url": "https://linuxbrew.bintray.com/bottles/nylon-1.21_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ad3ce3dde251f725f9659926ff529ca23e3e052a084221052bb6f4f1bf715abd",
+          "url": "https://linuxbrew.bintray.com/bottles/nylon-1.21_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aea3b5d69a3a6b1046597e7d5b26ff3b2084e7bd47c3f2f44933d2ff351da1d2",
+          "url": "https://linuxbrew.bintray.com/bottles/nylon-1.21_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6bf95ff668064396bae3a677320425eb5ec66e820d2099dff37ed109c2f2dca6",
+          "url": "https://linuxbrew.bintray.com/bottles/nylon-1.21_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libevent"
+  ],
+  "desc": "Proxy server",
+  "full_name": "nylon",
+  "homepage": "https://github.com/smeinecke/nylon",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nylon",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.21"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "df61053537a581ad143cbe56aced800f37ebb2df7686e1468b9d29c4134d3eb1",
+          "url": "https://linuxbrew.bintray.com/bottles/groonga-8.0.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "pcre",
+    "msgpack",
+    "openssl",
+    "glib",
+    "lz4",
+    "mecab",
+    "zeromq",
+    "zstd"
+  ],
+  "desc": "Fulltext search engine and column store",
+  "full_name": "groonga",
+  "homepage": "http://groonga.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "groonga",
+  "oldname": null,
+  "optional_dependencies": [
+    "glib",
+    "lz4",
+    "mecab",
+    "zeromq",
+    "zstd"
+  ],
+  "options": [
+    {
+      "description": "With benchmark program for developer use",
+      "option": "--with-glib"
+    },
+    {
+      "description": "With suggest plugin for suggesting",
+      "option": "--with-zeromq"
+    },
+    {
+      "description": "Build with libstemmer support",
+      "option": "--with-stemmer"
+    },
+    {
+      "description": "Build with lz4 support",
+      "option": "--with-lz4"
+    },
+    {
+      "description": "Build with mecab support",
+      "option": "--with-mecab"
+    },
+    {
+      "description": "Build with zstd support",
+      "option": "--with-zstd"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "8.0.1"
+  }
+}

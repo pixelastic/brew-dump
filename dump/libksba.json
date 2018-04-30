@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "65fbc5b34f507b1bac6d7a3dc926eab3aeb90e028f1e4dad5868039d61dfdf76",
+          "url": "https://linuxbrew.bintray.com/bottles/libksba-1.3.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d4fff673a919dd666e81cf857af1b5fbb32b21e1c35df1e05d299401a08d5334",
+          "url": "https://linuxbrew.bintray.com/bottles/libksba-1.3.5.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a3c9609e2dad2939138cb109ed75903b633f84f3e914ecba1b83de91aa2eccd2",
+          "url": "https://linuxbrew.bintray.com/bottles/libksba-1.3.5.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b7b47004aa87a4464b74992bca866d0fe7960597085f99463598d37264ed2a01",
+          "url": "https://linuxbrew.bintray.com/bottles/libksba-1.3.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1752343c674959aff9c4e6016bf197eedf87487044be81f3f19f10a3f5d03612",
+          "url": "https://linuxbrew.bintray.com/bottles/libksba-1.3.5.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "113e407c5d04392cedbcf901841508d68a9ce8ad858cbff2edf9b2a56eef787a",
+          "url": "https://linuxbrew.bintray.com/bottles/libksba-1.3.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libgpg-error"
+  ],
+  "desc": "X.509 and CMS library",
+  "full_name": "libksba",
+  "homepage": "https://www.gnupg.org/related_software/libksba/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libksba",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3.5"
+  }
+}

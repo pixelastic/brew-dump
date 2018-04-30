@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "29b49f7ac62634261b8e9de9ecd1459d0a9d298a525dbe09091aa8e015b72e7a",
+          "url": "https://linuxbrew.bintray.com/bottles/mtools-4.0.18.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6f51a942eb679aabcad3e9a14ee2afe687421d7837aba20f4f69ca3a296acedb",
+          "url": "https://linuxbrew.bintray.com/bottles/mtools-4.0.18.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9038497db92b296b077c375fb23c56faccd1879877c13088cd5e4c9f17ceaeab",
+          "url": "https://linuxbrew.bintray.com/bottles/mtools-4.0.18.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "multimarkdown"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tools for manipulating MSDOS files",
+  "full_name": "mtools",
+  "homepage": "https://www.gnu.org/software/mtools/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mtools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.0.18"
+  }
+}

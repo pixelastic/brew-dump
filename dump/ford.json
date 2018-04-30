@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "47599cea228882fef8c4efaa0e52e8135ab58d6d3c7bed9efc29a0bd72d46716",
+          "url": "https://linuxbrew.bintray.com/bottles/ford-5.0.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fdf7c838602b5d38b6f12293a8d36100a5c2e879bae2f1d86e14077fd7fa1b19",
+          "url": "https://linuxbrew.bintray.com/bottles/ford-5.0.6.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "2c47a80b78dfec14df17313c888c2828ace07b848859be62b459ff2d60403fcb",
+          "url": "https://linuxbrew.bintray.com/bottles/ford-5.0.6.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c738a796ee8a8adfdcb8358eb93e3a87530523b6260151d82a5003a1ed8af532",
+          "url": "https://linuxbrew.bintray.com/bottles/ford-5.0.6.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "af2a90e3a5af08077676bdcf241c4cf61525c90164b92c5dc137a78237cce3e3",
+          "url": "https://linuxbrew.bintray.com/bottles/ford-5.0.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "graphviz",
+    "python@2"
+  ],
+  "desc": "Automatic documentation generator for modern Fortran programs",
+  "full_name": "ford",
+  "homepage": "https://github.com/cmacmackin/ford/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ford",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Do not install lxml to improve the speed of search  database generation",
+      "option": "--without-lxml"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.0.6"
+  }
+}

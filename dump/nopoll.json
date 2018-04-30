@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "266e0d329c27be6a5c9a202b0dd7c6745d7962be606321b9172c0a57b77b91b8",
+          "url": "https://linuxbrew.bintray.com/bottles/nopoll-0.4.6.b400.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4a3c7a4f2657685b3de1b6700625e8e61087219c3b51868ee45e3ac0924b5eae",
+          "url": "https://linuxbrew.bintray.com/bottles/nopoll-0.4.6.b400.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7695ccb4788ae836ca8e476f0d0f70216cca693e3f014c288edee90c18cb1df5",
+          "url": "https://linuxbrew.bintray.com/bottles/nopoll-0.4.6.b400.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0d29178a46adbfcaf7b3fd5b385ad527f9efbe0f9aabc92ef64410742844c457",
+          "url": "https://linuxbrew.bintray.com/bottles/nopoll-0.4.6.b400.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Open-source C WebSocket toolkit",
+  "full_name": "nopoll",
+  "homepage": "https://www.aspl.es/nopoll/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nopoll",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.6.b400"
+  }
+}

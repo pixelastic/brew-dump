@@ -1,0 +1,55 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "cc25ec7431420ef569135d2482f2b8332fd58d2ecd965a81ee2ebe6afe02ad9b",
+          "url": "https://linuxbrew.bintray.com/bottles/translate-shell-0.9.6.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "By default, text-to-speech functionality is provided by macOS's builtin\n`say' command. This functionality may be improved in certain cases by\ninstalling one of mplayer, mpv, or mpg123, all of which are available\nthrough `brew install'.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "fribidi",
+    "gawk",
+    "rlwrap"
+  ],
+  "desc": "Command-line translator using Google Translate and more",
+  "full_name": "translate-shell",
+  "homepage": "https://www.soimort.org/translate-shell",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "translate-shell",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.6.7"
+  }
+}

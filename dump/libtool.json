@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b7651d0a082e2f103f03ca3a5ed831e2ff5655ccc1044ac0452e4d1825475a35",
+          "url": "https://linuxbrew.bintray.com/bottles/libtool-2.4.6_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ebb50367eb2336ee317841587e24690de124fb2c3e4d346405e9b41c4e6120ae",
+          "url": "https://linuxbrew.bintray.com/bottles/libtool-2.4.6_2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "2e51ef82ef2bd1ad9d921a9016b9e5d7fa82d131849e2c32a3c90daa119e2eda",
+          "url": "https://linuxbrew.bintray.com/bottles/libtool-2.4.6_2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "78a1f6c6644eae01eb5c204ef705f7e48721a0fe8ece492c10c84791061885db",
+          "url": "https://linuxbrew.bintray.com/bottles/libtool-2.4.6_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1efb2596f487af0e666e0a3d236ee8ac83db17d9e8e94066802e000f75b4b045",
+          "url": "https://linuxbrew.bintray.com/bottles/libtool-2.4.6_2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0eb206c0f51e8ce2e3e9340b5ce3c8ecef961ae6696f676073327a7ac04e5c0b",
+          "url": "https://linuxbrew.bintray.com/bottles/libtool-2.4.6_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "m4"
+  ],
+  "caveats": "In order to prevent conflicts with Apple's own libtool we have prepended a \"g\"\nso, you have instead: glibtool and glibtoolize.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "m4"
+  ],
+  "desc": "Generic library support script",
+  "full_name": "libtool",
+  "homepage": "https://www.gnu.org/software/libtool/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libtool",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Do not prepend 'g' to the binary",
+      "option": "--with-default-names"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.6"
+  }
+}

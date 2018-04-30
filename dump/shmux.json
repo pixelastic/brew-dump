@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8686fcd4954ab4cd7cacbbf80306b355c0f0562d0b9917345e4e91396c891ee0",
+          "url": "https://linuxbrew.bintray.com/bottles/shmux-1.0.2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b9c8b089571c7ab0147c5f952822764e0671d9b142672fb1f59811ee8e8081e4",
+          "url": "https://linuxbrew.bintray.com/bottles/shmux-1.0.2.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "29fc7ae776f44efe3b1184bf32b60145e6369d63162183bd042e1bd65bc2b853",
+          "url": "https://linuxbrew.bintray.com/bottles/shmux-1.0.2.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "922ff80b90f7afcbbd19b3f9f5091021e6496536d2c4a14f9feb8a162035735c",
+          "url": "https://linuxbrew.bintray.com/bottles/shmux-1.0.2.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Execute the same command on many hosts in parallel",
+  "full_name": "shmux",
+  "homepage": "https://github.com/shmux/shmux",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "shmux",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.2"
+  }
+}

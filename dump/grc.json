@@ -1,0 +1,42 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "New shell sessions will use GRC if you add the relevant file to your profile e.g.:\n  . /home/tim/.linuxbrew/etc/grc.bashrc\n",
+  "conflicts_with": [
+    "cc65"
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Colorize logfiles and command output",
+  "full_name": "grc",
+  "homepage": "https://korpus.juls.savba.sk/~garabik/software/grc.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "grc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.11.1"
+  }
+}

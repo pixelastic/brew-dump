@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "adc343fd5375908e69fe8c770588128f3e8459b8997aaf62933e0a2229c626d4",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-sed-4.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c90da39dbe361289afdee0ae58c4051fefb1b06be98fe45706def032dd845a9e",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-sed-4.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d72b58ec90566fdc5504b0de2d63cf0963eecd5e1d9cfe1f35408ac5ab5df79d",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-sed-4.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3c8fb888991760ba097dc601acb784778175ae265b67d1ce7f3c580fb877db3f",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-sed-4.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "ssed"
+  ],
+  "dependencies": [
+  ],
+  "desc": "GNU implementation of the famous stream editor",
+  "full_name": "gnu-sed",
+  "homepage": "https://www.gnu.org/software/sed/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnu-sed",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Do not prepend 'g' to the binary",
+      "option": "--with-default-names"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.5"
+  }
+}

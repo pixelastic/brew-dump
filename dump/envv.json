@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3b2fb0b35749280461b3982797ceea34bfa42d63cb5c6547986cf106669ee744",
+          "url": "https://linuxbrew.bintray.com/bottles/envv-1.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "35e2781067a3f5429c36546a20faca9d4762882bf3908122efc58c8b752968e9",
+          "url": "https://linuxbrew.bintray.com/bottles/envv-1.7.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "9ac7617d6475a67c60604fcd72d0ae1a5515df331944e8fb2c2a9223c16e3504",
+          "url": "https://linuxbrew.bintray.com/bottles/envv-1.7.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "333dd38f6cc080740ca155abcb6e9aa40be46d83ccdced16435cb9c5faf8b518",
+          "url": "https://linuxbrew.bintray.com/bottles/envv-1.7.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cc30a2317f78124c609d6313a33cea58c9d428a95903966da4cb42051630ef97",
+          "url": "https://linuxbrew.bintray.com/bottles/envv-1.7.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "90a718606ec61e5a0e494d3e41b7d87048de803567f4ba2c65231fe41880bd97",
+          "url": "https://linuxbrew.bintray.com/bottles/envv-1.7.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Shell-independent handling of environment variables",
+  "full_name": "envv",
+  "homepage": "https://github.com/jakewendt/envv#readme",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "envv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7"
+  }
+}

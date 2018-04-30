@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1566500df3e77700fb6e1f33aa94e6b3fcb36a2ce1ef7a2da829b8b1241b6fb5",
+          "url": "https://linuxbrew.bintray.com/bottles/libraw-0.18.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ccd4ebf23f666b13e3d3dcb95f18fda9f6b035cbb53263c168e8223a09f3e170",
+          "url": "https://linuxbrew.bintray.com/bottles/libraw-0.18.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "810088bc1b41ebfecc49f60c2b80d6565d78f23ed45d8aa9c00752081e1f5b73",
+          "url": "https://linuxbrew.bintray.com/bottles/libraw-0.18.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7ca202360e12bb4eeffaa45b26364fcf64afd3b081e2cc2583cce2dcac17b402",
+          "url": "https://linuxbrew.bintray.com/bottles/libraw-0.18.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "jasper",
+    "jpeg",
+    "little-cms2"
+  ],
+  "desc": "Library for reading RAW files from digital photo cameras",
+  "full_name": "libraw",
+  "homepage": "https://www.libraw.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libraw",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.18.9"
+  }
+}

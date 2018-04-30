@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "996937a030b443cee74e1de1945e3199022fc27514cf9925c332ed5d5804c80a",
+          "url": "https://linuxbrew.bintray.com/bottles/fastjar-0.94.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0884c36bf9d1ea07880caa682fbf64076ae86eb732fb151a5ee42e02a76ff272",
+          "url": "https://linuxbrew.bintray.com/bottles/fastjar-0.94.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "4e1d46c61723a1babbba0841b9dbde5c33388e107202f6ca292adc23ab7149a3",
+          "url": "https://linuxbrew.bintray.com/bottles/fastjar-0.94.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5d03ecf7d89b4c9cd3ca25735692b77f55ae7df83bdb4073e013f5361256c689",
+          "url": "https://linuxbrew.bintray.com/bottles/fastjar-0.94.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d5f4c6b38e23aac6271d80145474c1b4f985beb373988e5b1cb9e631269978e0",
+          "url": "https://linuxbrew.bintray.com/bottles/fastjar-0.94.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "07dd91fef374251b87b1a2987089234a3da225b79313afa4d8a7f502d1a51aae",
+          "url": "https://linuxbrew.bintray.com/bottles/fastjar-0.94.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Implementation of Sun's jar tool",
+  "full_name": "fastjar",
+  "homepage": "https://sourceforge.net/projects/fastjar/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fastjar",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.94"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "53f3003b0da0bfb56ef0919818a35345f5499dc6339ccdc85a90bb149e7f32ce",
+          "url": "https://linuxbrew.bintray.com/bottles/abcde-2.9.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "53f3003b0da0bfb56ef0919818a35345f5499dc6339ccdc85a90bb149e7f32ce",
+          "url": "https://linuxbrew.bintray.com/bottles/abcde-2.9.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "53f3003b0da0bfb56ef0919818a35345f5499dc6339ccdc85a90bb149e7f32ce",
+          "url": "https://linuxbrew.bintray.com/bottles/abcde-2.9.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cd-discid",
+    "cdrtools",
+    "id3v2",
+    "mkcue",
+    "flac",
+    "lame",
+    "vorbis-tools",
+    "glyr"
+  ],
+  "desc": "Better CD Encoder",
+  "full_name": "abcde",
+  "homepage": "https://abcde.einval.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "abcde",
+  "oldname": null,
+  "optional_dependencies": [
+    "flac",
+    "lame",
+    "vorbis-tools",
+    "glyr"
+  ],
+  "options": [
+    {
+      "description": "Build with flac support",
+      "option": "--with-flac"
+    },
+    {
+      "description": "Build with lame support",
+      "option": "--with-lame"
+    },
+    {
+      "description": "Build with vorbis-tools support",
+      "option": "--with-vorbis-tools"
+    },
+    {
+      "description": "Build with glyr support",
+      "option": "--with-glyr"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.9.1"
+  }
+}

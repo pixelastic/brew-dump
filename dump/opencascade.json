@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "12da230c3cfcce0f3eae07fa566f7e3e837ab14142ce26c02a015b907b02e6e6",
+          "url": "https://linuxbrew.bintray.com/bottles/opencascade-7.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "011b4ee523e0f861412343fbdbcd95c31ab14fb57d990e07417e4baed86442c7",
+          "url": "https://linuxbrew.bintray.com/bottles/opencascade-7.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "10901b2b2dac00baa8d0bc0e91e98c850ee252576109414c93405601aaa29fb3",
+          "url": "https://linuxbrew.bintray.com/bottles/opencascade-7.2.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "doxygen"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "doxygen",
+    "freeimage",
+    "freetype",
+    "gl2ps",
+    "tbb"
+  ],
+  "desc": "3D modeling and numerical simulation software for CAD/CAM/CAE",
+  "full_name": "opencascade",
+  "homepage": "https://www.opencascade.com/content/core-technology",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "opencascade",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.2.0"
+  }
+}

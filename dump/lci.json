@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "88603e7d22fa41138940318a9ce703087062a5466e796a17d636f9ca212a9fc3",
+          "url": "https://linuxbrew.bintray.com/bottles/lci-0.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f6a6d06cb581a5b3c00b05f8785ee33b2c9b69d5b920e8a7234aab3374ca988b",
+          "url": "https://linuxbrew.bintray.com/bottles/lci-0.6.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "d9c2381543f5fff02005a66d07f5c8fb925e4c2c40d87392816947c3c1b22816",
+          "url": "https://linuxbrew.bintray.com/bottles/lci-0.6.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "207ba1b6eec2e084af44e03c96a25db72fc6fc6a265824a8aad0550bd3178167",
+          "url": "https://linuxbrew.bintray.com/bottles/lci-0.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b96e9d72694c390a8a8947d2324a2e4bd32da0ed57c80ef0b63460abab047a94",
+          "url": "https://linuxbrew.bintray.com/bottles/lci-0.6.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "46a84d5644606edb37c1f915df039901ac96d6728345bb95d57ed52fe783a34d",
+          "url": "https://linuxbrew.bintray.com/bottles/lci-0.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "lolcode"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Interpreter for the lambda calculus",
+  "full_name": "lci",
+  "homepage": "https://lci.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lci",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6"
+  }
+}

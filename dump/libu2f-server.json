@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "89817d12379495c19e917cd35e288c5c46a2bb5dfe8c16855ff5ce5635b60a80",
+          "url": "https://linuxbrew.bintray.com/bottles/libu2f-server-1.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bd520ddb4ac4b6a55d657b3ad17511f72dafe7b5a1c40b2a92e291db2a1e0c7a",
+          "url": "https://linuxbrew.bintray.com/bottles/libu2f-server-1.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "25226b190bc6af0d7e7ec008d9404b29366d15d742b798cac0ab8e395c506106",
+          "url": "https://linuxbrew.bintray.com/bottles/libu2f-server-1.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ab3efd0ed9045250492528d886a7cf80b0cbb921cab4a50739edfdcbeb3d4bf7",
+          "url": "https://linuxbrew.bintray.com/bottles/libu2f-server-1.1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "check",
+    "gengetopt",
+    "help2man",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "check",
+    "gengetopt",
+    "help2man",
+    "pkg-config",
+    "json-c",
+    "openssl"
+  ],
+  "desc": "Server-side of the Universal 2nd Factor (U2F) protocol",
+  "full_name": "libu2f-server",
+  "homepage": "https://developers.yubico.com/libu2f-server/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libu2f-server",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.0"
+  }
+}

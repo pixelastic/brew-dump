@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "608da3caf3b22380430f27975bd00c240f9b852fb7b2bfa1a06c91ff25bf6245",
+          "url": "https://linuxbrew.bintray.com/bottles/avro-cpp-1.8.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "92474608c57be07c5453914f40ac5579affe1c2852776c99784559028ae61808",
+          "url": "https://linuxbrew.bintray.com/bottles/avro-cpp-1.8.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "319664d5b1f6dcfca5485ca7e30c10b316a6b865658bb4d86e94036312400792",
+          "url": "https://linuxbrew.bintray.com/bottles/avro-cpp-1.8.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "30de5dd8b0328916218197bf57e6d74695c770a9c53194a0ec4d2676934dc27b",
+          "url": "https://linuxbrew.bintray.com/bottles/avro-cpp-1.8.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cmake",
+    "boost"
+  ],
+  "desc": "Data serialization system",
+  "full_name": "avro-cpp",
+  "homepage": "https://avro.apache.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "avro-cpp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.2"
+  }
+}

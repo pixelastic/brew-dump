@@ -1,0 +1,45 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Before you can use these tools you must export a variable to your $SHELL.\n  export AWS_CREDENTIAL_FILE=\"<Path to the credentials file>\"\n\nTo check that your setup works properly, run the following command:\n  rds-describe-db-instances --headers\nYou should see a header line. If you have database instances already configured,\nyou will see a description line for each database instance.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Amazon RDS command-line toolkit",
+  "full_name": "rds-command-line-tools",
+  "homepage": "https://aws.amazon.com/developertools/2928",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rds-command-line-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "1.19.004"
+  }
+}

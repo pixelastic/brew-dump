@@ -1,0 +1,129 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "cheat"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Collection of small bash scripts for heavy terminal users",
+  "full_name": "bash-snippets",
+  "homepage": "https://github.com/alexanderepstein/Bash-Snippets",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bash-snippets",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Install bash-snippets gui",
+      "option": "--with-bash-snippets"
+    },
+    {
+      "description": "Install cheat",
+      "option": "--with-cheat"
+    },
+    {
+      "description": "Install cloudup",
+      "option": "--with-cloudup"
+    },
+    {
+      "description": "Install crypt",
+      "option": "--with-crypt"
+    },
+    {
+      "description": "Install cryptocurrency",
+      "option": "--with-cryptocurrency"
+    },
+    {
+      "description": "Install currency",
+      "option": "--with-currency"
+    },
+    {
+      "description": "Install geo",
+      "option": "--with-geo"
+    },
+    {
+      "description": "Install lyrics",
+      "option": "--with-lyrics"
+    },
+    {
+      "description": "Install meme",
+      "option": "--with-meme"
+    },
+    {
+      "description": "Install movies",
+      "option": "--with-movies"
+    },
+    {
+      "description": "Install newton",
+      "option": "--with-newton"
+    },
+    {
+      "description": "Install pwned",
+      "option": "--with-pwned"
+    },
+    {
+      "description": "Install qrify",
+      "option": "--with-qrify"
+    },
+    {
+      "description": "Install short",
+      "option": "--with-short"
+    },
+    {
+      "description": "Install siteciphers",
+      "option": "--with-siteciphers"
+    },
+    {
+      "description": "Install stocks",
+      "option": "--with-stocks"
+    },
+    {
+      "description": "Install taste",
+      "option": "--with-taste"
+    },
+    {
+      "description": "Install todo",
+      "option": "--with-todo"
+    },
+    {
+      "description": "Install transfer",
+      "option": "--with-transfer"
+    },
+    {
+      "description": "Install weather",
+      "option": "--with-weather"
+    },
+    {
+      "description": "Install ytview",
+      "option": "--with-ytview"
+    },
+    {
+      "description": "Do not install all available snippets",
+      "option": "--without-all-tools"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "1.22.0"
+  }
+}

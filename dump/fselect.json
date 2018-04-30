@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4a6ee623a2d226fe63f316dc52ea9f14ed152a2943122ff40a02f93174f1bd77",
+          "url": "https://linuxbrew.bintray.com/bottles/fselect-0.3.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f766c8896858032abb1d65559ffa4b09b2e508e3de51a570c509abd98aeb7e29",
+          "url": "https://linuxbrew.bintray.com/bottles/fselect-0.3.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dde34dd1ee08a272a40452ee51028fcb06589f0cc817745af811bd2b00707647",
+          "url": "https://linuxbrew.bintray.com/bottles/fselect-0.3.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "rust"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "rust"
+  ],
+  "desc": "Find files with SQL-like queries",
+  "full_name": "fselect",
+  "homepage": "https://github.com/jhspetersson/fselect",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fselect",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.2"
+  }
+}

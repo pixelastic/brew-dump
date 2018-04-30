@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "aa8efa349bbf477746aee3cb977d1b0c430ec05d1947f2bd33667f054d8692cc",
+          "url": "https://linuxbrew.bintray.com/bottles/zpython-00-5.0.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0c575603cf568eaef05ef7de2a0f5f143a08728c97baebf508fc132926028146",
+          "url": "https://linuxbrew.bintray.com/bottles/zpython-00-5.0.5.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "9137eefb79a7a529b016e3c949e24a15d4747e4f35108f91db6ea58441f456a9",
+          "url": "https://linuxbrew.bintray.com/bottles/zpython-00-5.0.5.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6fd2ca965e862af6ebf0b24e158d34bbe66bafc522854adc96efa70e2a0fdb9b",
+          "url": "https://linuxbrew.bintray.com/bottles/zpython-00-5.0.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3f469a0820ec250a6875c97fd50626462b94a6d81ea93888d32391ababcf25bf",
+          "url": "https://linuxbrew.bintray.com/bottles/zpython-00-5.0.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf"
+  ],
+  "caveats": "To use the zpython module in zsh you need to\nadd the following line to your .zshrc:\n\n  module_path=($module_path /home/tim/.linuxbrew/lib/zpython)\n\nIf you want to use this with powerline, make sure you set\nit early in .zshrc, before your prompt gets initialized.\n\nAfter reloading your shell you can test with:\n  zmodload zsh/zpython && zpython 'print \"hello world\"'\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "zsh",
+    "autoconf"
+  ],
+  "desc": "Embeds a Python interpreter into zsh",
+  "full_name": "zpython",
+  "homepage": "https://bitbucket.org/ZyX_I/zsh",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zpython",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "00-5.0.5"
+  }
+}

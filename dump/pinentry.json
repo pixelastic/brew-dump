@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e8c6180d9d86f008d0d9cdf0bc9638f2c119bb426504955ecbd16ef6b108d01d",
+          "url": "https://linuxbrew.bintray.com/bottles/pinentry-1.1.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a1a0e526f622d7dc4e2b3e0dcde061dbb383050b8efbe424d916bf983ae66c74",
+          "url": "https://linuxbrew.bintray.com/bottles/pinentry-1.1.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fd93c11a28d38ba1b78c7fe646f027f98ce29c08ba02c7a0e14e69f355614e35",
+          "url": "https://linuxbrew.bintray.com/bottles/pinentry-1.1.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6d3ee1989b32557f20342212e25d6168e1eb8e3c1a822a3b629a4d0b2ab379b2",
+          "url": "https://linuxbrew.bintray.com/bottles/pinentry-1.1.0_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libgpg-error",
+    "libassuan",
+    "libsecret",
+    "gtk+"
+  ],
+  "desc": "Passphrase entry dialog utilizing the Assuan protocol",
+  "full_name": "pinentry",
+  "homepage": "https://www.gnupg.org/related_software/pinentry/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pinentry",
+  "oldname": null,
+  "optional_dependencies": [
+    "gtk+"
+  ],
+  "options": [
+    {
+      "description": "Build with gtk+ support",
+      "option": "--with-gtk+"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.0"
+  }
+}

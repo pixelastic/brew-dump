@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "bc3f44f331d646a319537b800a75232534c33049ae399d6ff41aa9d3c410b02c",
+          "url": "https://linuxbrew.bintray.com/bottles/py2cairo-1.17.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "64252ff78ad4788c18dd26bbf0b61a20a51082181690e765e509effd1e51805d",
+          "url": "https://linuxbrew.bintray.com/bottles/py2cairo-1.17.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bb9628ce0a22cae5da990abd888f654d426dab7f826ef60131b9a0dcdb2d28a1",
+          "url": "https://linuxbrew.bintray.com/bottles/py2cairo-1.17.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "caea0794d7b545e0cc95b8b05c003820591cb808907c6ffdd10ce059a1c11e4b",
+          "url": "https://linuxbrew.bintray.com/bottles/py2cairo-1.17.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cairo",
+    "python@2"
+  ],
+  "desc": "Python 2 bindings for the Cairo graphics library",
+  "full_name": "py2cairo",
+  "homepage": "https://cairographics.org/pycairo/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "py2cairo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.17.0"
+  }
+}

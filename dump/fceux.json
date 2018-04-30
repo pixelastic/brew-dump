@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "013d1b9b126426b76e814b56a5424281c348333e6a6e69db87cf603362c25397",
+          "url": "https://linuxbrew.bintray.com/bottles/fceux-2.2.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b075151a3db5a502f98f6ee8b5fcbd5ffa05064a88c786c99fa9fa908b85eacf",
+          "url": "https://linuxbrew.bintray.com/bottles/fceux-2.2.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4102c16cb5f5412d36cdcc52f739c98c2f457be7a8d4f0a55aa6f973eeb8c39d",
+          "url": "https://linuxbrew.bintray.com/bottles/fceux-2.2.3_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "scons"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "scons",
+    "sdl",
+    "gtk+3"
+  ],
+  "desc": "The all in one NES/Famicom Emulator",
+  "full_name": "fceux",
+  "homepage": "http://fceux.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fceux",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without gtk+3 support",
+      "option": "--without-gtk+3"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "gtk+3"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.3"
+  }
+}

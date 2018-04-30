@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "80e640febc6fc4a40ff2abcf1e665a644bbed97b8ff0d157de32f48c0fefea72",
+          "url": "https://linuxbrew.bintray.com/bottles/ruby@2.0-2.0.0-p648_6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "654d5bcfe7e6de9d11b56e2e2f74856524b3a1e64dc3b2ab6e6d6435beb5c347",
+          "url": "https://linuxbrew.bintray.com/bottles/ruby@2.0-2.0.0-p648_6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "904af6d6af1c1244c16baad5705a23afd1d9909413697bc06ff68de0e0b6b82d",
+          "url": "https://linuxbrew.bintray.com/bottles/ruby@2.0-2.0.0-p648_6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d742b2aa5e4a68c57af1a8865231e38bf6483b4b717bb98d901896cd250a42be",
+          "url": "https://linuxbrew.bintray.com/bottles/ruby@2.0-2.0.0-p648_6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "By default, binaries installed by gem will be placed into:\n  /home/tim/.linuxbrew/lib/ruby/gems/2.0.0/bin\n\nYou may want to add this to your PATH.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libyaml",
+    "openssl",
+    "readline"
+  ],
+  "desc": "Powerful, clean, object-oriented scripting language",
+  "full_name": "ruby@2.0",
+  "homepage": "https://www.ruby-lang.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "ruby@2.0",
+  "oldname": "ruby20",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 6,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.0-p648"
+  }
+}

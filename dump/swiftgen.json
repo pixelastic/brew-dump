@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "high_sierra": {
+          "sha256": "289c9b93cedd45b74dd2202c19e5cbc6216e52936f0d8f7c6a3875a43dda562a",
+          "url": "https://linuxbrew.bintray.com/bottles/swiftgen-5.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "446700f3feb9651d8a7817f7d28a0f9e4a3990c33d358bfb006724a47431944f",
+          "url": "https://linuxbrew.bintray.com/bottles/swiftgen-5.3.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Swift code generator for assets, storyboards, Localizable.strings, …",
+  "full_name": "swiftgen",
+  "homepage": "https://github.com/SwiftGen/SwiftGen",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "swiftgen",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.3.0"
+  }
+}

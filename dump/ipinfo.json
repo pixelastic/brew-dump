@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ecb331ae035cf5963afc8e8adf371d80f936960bf0d5ba379b18761263a1b040",
+          "url": "https://linuxbrew.bintray.com/bottles/ipinfo-1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c06a0c771b66def2758aad30e8331cc56f751478715e12b25b9e46d9b64090f9",
+          "url": "https://linuxbrew.bintray.com/bottles/ipinfo-1.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "686fe99fef85ecbfdcc9c922f6cda898362d70bb9f5b9b7e1aeba8e30c284196",
+          "url": "https://linuxbrew.bintray.com/bottles/ipinfo-1.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "255c10eb2f0f885ba301fa2977ae3c45b5f7117388739adb58ce4312515ff98f",
+          "url": "https://linuxbrew.bintray.com/bottles/ipinfo-1.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e1ce332c726d060521e97a5402746a60778d91beaf28704d9ce5bb6e17451fb3",
+          "url": "https://linuxbrew.bintray.com/bottles/ipinfo-1.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tool for calculation of IP networks",
+  "full_name": "ipinfo",
+  "homepage": "http://kyberdigi.cz/projects/ipinfo/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ipinfo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2"
+  }
+}

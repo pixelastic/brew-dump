@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7166858aeafbd28075334ede9d60569a282ccd0a87dcf353cb6b56a40ae987c0",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql-utilities-1.6.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "952e22b82a12919d9fb06d5aba5eb7e214b70c3b5d27e3ab1d219e19e2e01ec9",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql-utilities-1.6.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7166858aeafbd28075334ede9d60569a282ccd0a87dcf353cb6b56a40ae987c0",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql-utilities-1.6.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7166858aeafbd28075334ede9d60569a282ccd0a87dcf353cb6b56a40ae987c0",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql-utilities-1.6.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Tools for maintaining and administering MySQL servers",
+  "full_name": "mysql-utilities",
+  "homepage": "https://dev.mysql.com/downloads/utilities/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mysql-utilities",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.5"
+  }
+}

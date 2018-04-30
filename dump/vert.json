@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "534043c69cbd56a22d656ba873e180e628b3a0ace433d8f020b886212afa050e",
+          "url": "https://linuxbrew.bintray.com/bottles/vert-0.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b7c63c671335e19afca83f08091a987c35576eb4cb94f1d7b00490d1448f3e77",
+          "url": "https://linuxbrew.bintray.com/bottles/vert-0.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e189a592a062ef9e2cc19506f99272ffc9f97f3e529a54eddd7287f0c9574935",
+          "url": "https://linuxbrew.bintray.com/bottles/vert-0.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "916f756c60905850e023b2f4ababf182503fca57ea80f811d211e5b77e3cdf1b",
+          "url": "https://linuxbrew.bintray.com/bottles/vert-0.1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "dep",
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "dep",
+    "go"
+  ],
+  "desc": "Command-line version testing",
+  "full_name": "vert",
+  "homepage": "https://github.com/Masterminds/vert",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vert",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.0"
+  }
+}

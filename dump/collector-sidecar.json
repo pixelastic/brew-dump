@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "49e5ce60007e1b18da746c22c81c9bd13120851b19fca1965a4d4167bca270fd",
+          "url": "https://linuxbrew.bintray.com/bottles/collector-sidecar-0.1.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7eb3e32b82e2def6b0d97307e698e4eb3cb15d75c7b3391597b9f48d98b46763",
+          "url": "https://linuxbrew.bintray.com/bottles/collector-sidecar-0.1.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "531790ce4d0f1530cd62a8111fd84b8af6b117d869cc2c8b9f57dedb351bc17b",
+          "url": "https://linuxbrew.bintray.com/bottles/collector-sidecar-0.1.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "glide",
+    "go",
+    "mercurial"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "glide",
+    "go",
+    "mercurial",
+    "filebeat"
+  ],
+  "desc": "Manage log collectors through Graylog",
+  "full_name": "collector-sidecar",
+  "homepage": "https://github.com/Graylog2/collector-sidecar",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "collector-sidecar",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.5"
+  }
+}

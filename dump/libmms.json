@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "61c4dd24598198386342dd9c700e218b6b83c82627efc781daa89acfaca96066",
+          "url": "https://linuxbrew.bintray.com/bottles/libmms-0.6.4.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "adc24aaa1656c02f41b20b4453f6a2deda8f3597c919eed1ae8befb732fc920f",
+          "url": "https://linuxbrew.bintray.com/bottles/libmms-0.6.4.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b55ae55a0d684ba1e3654eee96769d206ce0c22a4ab7bad5241eb1c51bda7778",
+          "url": "https://linuxbrew.bintray.com/bottles/libmms-0.6.4.mavericks.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5319927f799dd20effbfc9f8bb90ebc844b39852c433bf434ab6b36c11c36417",
+          "url": "https://linuxbrew.bintray.com/bottles/libmms-0.6.4.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f915d916dd81ad9f767b6905e166dae07df72e70dc0c844c8011abed9f144252",
+          "url": "https://linuxbrew.bintray.com/bottles/libmms-0.6.4.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib"
+  ],
+  "desc": "Library for parsing mms:// and mmsh:// network streams",
+  "full_name": "libmms",
+  "homepage": "https://sourceforge.net/projects/libmms/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libmms",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.4"
+  }
+}

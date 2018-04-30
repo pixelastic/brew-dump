@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bc2815c8094de5686fb875ceecae6a07b0b066b87593fb6259fb4e038eedc3d6",
+          "url": "https://linuxbrew.bintray.com/bottles/monit-5.25.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7439b6e6d39dbd590a9fac177cd41329c2230309e9be785f4717616e91d989b0",
+          "url": "https://linuxbrew.bintray.com/bottles/monit-5.25.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0b5e3b331ab9cbe1aad86eed9c0b1865484b4879952d96889874ef48e5d095d8",
+          "url": "https://linuxbrew.bintray.com/bottles/monit-5.25.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Manage and monitor processes, files, directories, and devices",
+  "full_name": "monit",
+  "homepage": "https://mmonit.com/monit/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "monit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.25.1"
+  }
+}

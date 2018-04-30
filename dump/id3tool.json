@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b5b4d49b4710a67df5200149873dd8c17131ef4a4eaac722a2095b1445d053ff",
+          "url": "https://linuxbrew.bintray.com/bottles/id3tool-1.2a.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c98d949a63b2d26f6cff9d63d24ecdfbd48196f58111a9a244ec7319d2ea7c21",
+          "url": "https://linuxbrew.bintray.com/bottles/id3tool-1.2a.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "dd989abacf0c1113879b6864a5ca08a59ac766a320897b9c323e5f7eaeeb2e70",
+          "url": "https://linuxbrew.bintray.com/bottles/id3tool-1.2a.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "49ff675bc30c8e195f50c7dcc8f4a52a06ade28e6e84950be3d15048eeacfdd4",
+          "url": "https://linuxbrew.bintray.com/bottles/id3tool-1.2a.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2b7bcf184092881638221c606ae50879d02478bf9d433dc946f63dbe2e68368a",
+          "url": "https://linuxbrew.bintray.com/bottles/id3tool-1.2a.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "348a229d26dd699013d8e3372c5382da10b12d02d286304e61d9f2c71ed77101",
+          "url": "https://linuxbrew.bintray.com/bottles/id3tool-1.2a.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "ID3 editing tool",
+  "full_name": "id3tool",
+  "homepage": "http://nekohako.xware.cx/id3tool/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "id3tool",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2a"
+  }
+}

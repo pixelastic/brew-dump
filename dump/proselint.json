@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1a519abf70fb0ff474a9cb7f1f26cc47ab14db96e0bff2234dde0cf8a21a4162",
+          "url": "https://linuxbrew.bintray.com/bottles/proselint-0.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "348b9735cf0f74e60458401ea04443e1bdee7b16425bbab7dc4dcc22a3b4afe2",
+          "url": "https://linuxbrew.bintray.com/bottles/proselint-0.8.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2b21bf831fb77fb70d54f7df0ec4d17828b6b3dd34fd8067f5e4c0907936f510",
+          "url": "https://linuxbrew.bintray.com/bottles/proselint-0.8.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3251f7ab8536ce8ce27973ae7b3578a404b712688dfa79c4f7d2413d1760ae32",
+          "url": "https://linuxbrew.bintray.com/bottles/proselint-0.8.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Linter for prose",
+  "full_name": "proselint",
+  "homepage": "http://proselint.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "proselint",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8.0"
+  }
+}

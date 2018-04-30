@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a10adbb230ad11abdb044006e740b2bb33023a998b111c62e99aa69d8dad4839",
+          "url": "https://linuxbrew.bintray.com/bottles/ldid-1.2.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2bf739a0271fc467fc18e26d9dd6bb54d824173af0cd45d466aeef3a37031c1b",
+          "url": "https://linuxbrew.bintray.com/bottles/ldid-1.2.1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a10adbb230ad11abdb044006e740b2bb33023a998b111c62e99aa69d8dad4839",
+          "url": "https://linuxbrew.bintray.com/bottles/ldid-1.2.1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fda9d5608ad5e6446ed8fd7b3135d8407fc44b88f628dd4c19391738bd57bf6c",
+          "url": "https://linuxbrew.bintray.com/bottles/ldid-1.2.1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Lets you manipulate the signature block in a Mach-O binary",
+  "full_name": "ldid",
+  "homepage": "https://cydia.saurik.com/info/ldid/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ldid",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.1"
+  }
+}

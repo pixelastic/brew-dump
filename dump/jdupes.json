@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ada6220e0d26d404df7fb4877834c19ee55905e1202f950ab55234f5651aafd5",
+          "url": "https://linuxbrew.bintray.com/bottles/jdupes-1.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fccd81d12aba6799be3b14951dcb1c8a12fecae5a8a03edcb2df17814d482e91",
+          "url": "https://linuxbrew.bintray.com/bottles/jdupes-1.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ec253cb11c9e0085bfda9c3685e88c7a6f09f613d458788fce52a3e392e5a506",
+          "url": "https://linuxbrew.bintray.com/bottles/jdupes-1.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2879b7fd3bb1621371f23a75ab440511113f63fc2b9c92877c5650490de11dfb",
+          "url": "https://linuxbrew.bintray.com/bottles/jdupes-1.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Duplicate file finder and an enhanced fork of 'fdupes'",
+  "full_name": "jdupes",
+  "homepage": "https://github.com/jbruchon/jdupes",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jdupes",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9"
+  }
+}

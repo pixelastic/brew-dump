@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c942d6cae7f20fed26264eb32fda41cade3ca99eb5b5ffa34dd59ceeed3e583f",
+          "url": "https://linuxbrew.bintray.com/bottles/get-flash-videos-1.25.99.02.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f6652be932f9539cf808896ba3877cf6bf1c93681a76bbe9e8c9890b01396774",
+          "url": "https://linuxbrew.bintray.com/bottles/get-flash-videos-1.25.99.02.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "819a546a3f34dd496fec46680b72a6ed672f3be8192978f6531340ddc360d8d0",
+          "url": "https://linuxbrew.bintray.com/bottles/get-flash-videos-1.25.99.02.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "rtmpdump"
+  ],
+  "desc": "Download or play videos from various Flash-based websites",
+  "full_name": "get-flash-videos",
+  "homepage": "https://github.com/monsieurvideo/get-flash-videos",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "get-flash-videos",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.25.99.02"
+  }
+}

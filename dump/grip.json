@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ca87bb2d1714f71754f6d62636fb7086961e4ca1ce9f8d0e031890746cf1e91b",
+          "url": "https://linuxbrew.bintray.com/bottles/grip-4.5.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c17fefc54b9d615a020aedf5919745d636ece4aaf79395ea644161b79cfdb51b",
+          "url": "https://linuxbrew.bintray.com/bottles/grip-4.5.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c908a5b5762f89f1933ee3bc05418636821c616eaf4776d6d495ebb072bf2bcb",
+          "url": "https://linuxbrew.bintray.com/bottles/grip-4.5.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e58742f3bcf028003375c6700c929aba3f072aa6388cf72b4ea0110d59ee0758",
+          "url": "https://linuxbrew.bintray.com/bottles/grip-4.5.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "GitHub Markdown previewer",
+  "full_name": "grip",
+  "homepage": "https://github.com/joeyespo/grip",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "grip",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.5.2"
+  }
+}

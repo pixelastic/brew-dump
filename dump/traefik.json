@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ce504adf3660e038766ba4f795ce7fbc0dfb992de6b5b0b362340be592e972b7",
+          "url": "https://linuxbrew.bintray.com/bottles/traefik-1.5.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a33180715ae28b562b3a3a00baf48a17f3850cfa575bdb8ee743d60b90fbf9fd",
+          "url": "https://linuxbrew.bintray.com/bottles/traefik-1.5.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6015b747e8042458068cd9745ea87337a7a9d1f84fee9af35fdc2240f0016759",
+          "url": "https://linuxbrew.bintray.com/bottles/traefik-1.5.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "go-bindata",
+    "node",
+    "yarn"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "go-bindata",
+    "node",
+    "yarn"
+  ],
+  "desc": "Modern reverse proxy",
+  "full_name": "traefik",
+  "homepage": "https://traefik.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "traefik",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.5.4"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "68b4983cc843e2d57854a263038a965a2dd6c473c98111f482ec1c69d09ace83",
+          "url": "https://linuxbrew.bintray.com/bottles/aften-0.0.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b1b8facf243da3872f4ddf2fbefb4879228cb5b390f883794b8b115d06e4c6a6",
+          "url": "https://linuxbrew.bintray.com/bottles/aften-0.0.8.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b7acaf77ece8e6b51493ce69e713990a4ce13bc5b9d5ad6914cc86c0f745c9d0",
+          "url": "https://linuxbrew.bintray.com/bottles/aften-0.0.8.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "535ef47b08163c8d1d7a66ffda7d3f280c0569a74d9feedbcfc93cd3c55194ca",
+          "url": "https://linuxbrew.bintray.com/bottles/aften-0.0.8.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "146f47a5dfd6ccdc4342e3f71694801c8b4706809b3110982dae3d2062aaed3f",
+          "url": "https://linuxbrew.bintray.com/bottles/aften-0.0.8.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4f785f04a3bbde677452f2c5d1c04f77605e156b4020294c5799c85d0b8586d3",
+          "url": "https://linuxbrew.bintray.com/bottles/aften-0.0.8.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Audio encoder which generates ATSC A/52 compressed audio streams",
+  "full_name": "aften",
+  "homepage": "https://aften.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aften",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.0.8"
+  }
+}

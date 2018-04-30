@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "fca68610ba67c19d8516719d03ed5074a5611ba01941dcb135c87d6d561f3cb1",
+          "url": "https://linuxbrew.bintray.com/bottles/zsh-navigation-tools-2.2.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5122287e2fb30bde73acb7174e1310ea41ef049d201203bc559edf02555a2e33",
+          "url": "https://linuxbrew.bintray.com/bottles/zsh-navigation-tools-2.2.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fca68610ba67c19d8516719d03ed5074a5611ba01941dcb135c87d6d561f3cb1",
+          "url": "https://linuxbrew.bintray.com/bottles/zsh-navigation-tools-2.2.7.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fca68610ba67c19d8516719d03ed5074a5611ba01941dcb135c87d6d561f3cb1",
+          "url": "https://linuxbrew.bintray.com/bottles/zsh-navigation-tools-2.2.7.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To run zsh-navigation-tools, add the following at the end of your .zshrc:\n  source /home/tim/.linuxbrew/share/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh\n\nYou will also need to force reload of your .zshrc:\n  source ~/.zshrc\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Zsh curses-based tools, e.g. multi-word history searcher",
+  "full_name": "zsh-navigation-tools",
+  "homepage": "https://github.com/psprint/zsh-navigation-tools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zsh-navigation-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.7"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "By default, the evidence locker is in:\n  /home/tim/.linuxbrew/var/lib/autopsy\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sleuthkit",
+    "afflib",
+    "libewf"
+  ],
+  "desc": "Graphical interface to Sleuth Kit investigation tools",
+  "full_name": "autopsy",
+  "homepage": "https://www.sleuthkit.org/autopsy/index.php",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "autopsy",
+  "oldname": null,
+  "optional_dependencies": [
+    "afflib",
+    "libewf"
+  ],
+  "options": [
+    {
+      "description": "Build with afflib support",
+      "option": "--with-afflib"
+    },
+    {
+      "description": "Build with libewf support",
+      "option": "--with-libewf"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "2.24"
+  }
+}

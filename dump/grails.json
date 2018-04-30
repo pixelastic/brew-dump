@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "The GRAILS_HOME directory is:\n  /home/tim/.linuxbrew/opt/grails/libexec\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Web application framework for the Groovy language",
+  "full_name": "grails",
+  "homepage": "https://grails.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "grails",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "3.3.5"
+  }
+}

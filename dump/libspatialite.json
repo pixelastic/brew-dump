@@ -1,0 +1,85 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "eff5f3de6139cfe0adff6ec2fe306c7f11ee1f7b9195089d514902b11b0675d0",
+          "url": "https://linuxbrew.bintray.com/bottles/libspatialite-4.3.0a_6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2a41b0baab67ec8b35f3c68b392439907a1b003a84437b8437b3ca3ecdcf35f4",
+          "url": "https://linuxbrew.bintray.com/bottles/libspatialite-4.3.0a_6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4b73791b59c7766a4e20d9ca77502d2866f7d07fb7aeba660bf38e41077ba60e",
+          "url": "https://linuxbrew.bintray.com/bottles/libspatialite-4.3.0a_6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8e68dcdf23ad93553116094213594dd07800fe72855255e7183e312de1657e79",
+          "url": "https://linuxbrew.bintray.com/bottles/libspatialite-4.3.0a_6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "proj",
+    "geos",
+    "sqlite",
+    "libxml2",
+    "freexl"
+  ],
+  "desc": "Adds spatial SQL capabilities to SQLite",
+  "full_name": "libspatialite",
+  "homepage": "https://www.gaia-gis.it/fossil/libspatialite/index",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libspatialite",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without support for reading Excel files",
+      "option": "--without-freexl"
+    },
+    {
+      "description": "Disable support for xml parsing (parsing needed by spatialite-gui)",
+      "option": "--without-libxml2"
+    },
+    {
+      "description": "Build without OGC GeoPackage support",
+      "option": "--without-geopackage"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libxml2",
+    "freexl"
+  ],
+  "requirements": [
+  ],
+  "revision": 6,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.3.0a"
+  }
+}

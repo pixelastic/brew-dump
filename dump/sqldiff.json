@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "de9b4a4e23eadd99cfffb15685a22dd820b21ff759ffb20aeff89771c8f5eef0",
+          "url": "https://linuxbrew.bintray.com/bottles/sqldiff-3.23.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5d05461e2599fd293f762e535e240890345e856bb0964ec2e133b4ab690afe59",
+          "url": "https://linuxbrew.bintray.com/bottles/sqldiff-3.23.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6067e5f249724c8c0e0b51e3ee06597b17620f4351a75d442896d2b6d66b342e",
+          "url": "https://linuxbrew.bintray.com/bottles/sqldiff-3.23.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Displays the differences between SQLite databases",
+  "full_name": "sqldiff",
+  "homepage": "https://www.sqlite.org/sqldiff.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sqldiff",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.23.1"
+  }
+}

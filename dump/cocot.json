@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "60cbdadb074b019535319e5089d5c55c43b68e0b52a73b01cec3a9a8311e51a4",
+          "url": "https://linuxbrew.bintray.com/bottles/cocot-1.2-20171118.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0070eb38e06043e3c1a4ad1b77205a6ed978ed300e8d0bb407391fecb191b050",
+          "url": "https://linuxbrew.bintray.com/bottles/cocot-1.2-20171118.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a91ba93032e33b6a062b82f2df0b9170d5269cf0312d75eb6f16341fca54f9bd",
+          "url": "https://linuxbrew.bintray.com/bottles/cocot-1.2-20171118.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3ebf62b8bae739c78d96ebe840e53d06d7088421519c7b634deb6c4ed386842c",
+          "url": "https://linuxbrew.bintray.com/bottles/cocot-1.2-20171118.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Code converter on tty",
+  "full_name": "cocot",
+  "homepage": "https://vmi.jp/software/cygwin/cocot.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cocot",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2-20171118"
+  }
+}

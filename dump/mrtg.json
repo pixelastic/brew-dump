@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "2b11f3d52ea65403831ae316e27faf4790272f19cc35a41175f04405174ac370",
+          "url": "https://linuxbrew.bintray.com/bottles/mrtg-2.17.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "31b4ac53af7cc4837fe3d6ff5371d84c809a9b82a88ffe0223c58e1cc7067223",
+          "url": "https://linuxbrew.bintray.com/bottles/mrtg-2.17.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c957f2205d67cd3d35272fcd8ed2a2f61b1938d9541b22e863b55c60fc8b56ee",
+          "url": "https://linuxbrew.bintray.com/bottles/mrtg-2.17.4.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "be4e5079f3f26f05b3f4eea7e9cb69ec4034d2c67b6a30669b07f29b9d5439a4",
+          "url": "https://linuxbrew.bintray.com/bottles/mrtg-2.17.4.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "29cabfb55377881ed481039099a9fdbe172034d50fbcb94be21b161a7581d7b3",
+          "url": "https://linuxbrew.bintray.com/bottles/mrtg-2.17.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8adea0c04d0319c2bc9a68455cb77c83286a0a0ad0eae32ef386966ec6165abb",
+          "url": "https://linuxbrew.bintray.com/bottles/mrtg-2.17.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gd"
+  ],
+  "desc": "Multi router traffic grapher",
+  "full_name": "mrtg",
+  "homepage": "https://oss.oetiker.ch/mrtg/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mrtg",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.17.4"
+  }
+}

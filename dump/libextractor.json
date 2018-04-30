@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "10267b6dd613e42a5335b2ed4b06f47319cfbfcee2a4455f32fe216d9cbd630d",
+          "url": "https://linuxbrew.bintray.com/bottles/libextractor-1.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d547400beebeae3290adfa6d63add9b9c722d4dd65533e77a4be0b8bf315b8c5",
+          "url": "https://linuxbrew.bintray.com/bottles/libextractor-1.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "af73939dbc95fb9f2ed2bfcbf8217cff2b07a9f0716cfedbaaa57c03321f3d16",
+          "url": "https://linuxbrew.bintray.com/bottles/libextractor-1.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6b66615b29708df1c0854291768bf6ee5b943c27a7207a6c232578543b09f795",
+          "url": "https://linuxbrew.bintray.com/bottles/libextractor-1.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "pkcrack"
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libtool",
+    "iso-codes"
+  ],
+  "desc": "Library to extract meta data from files",
+  "full_name": "libextractor",
+  "homepage": "https://www.gnu.org/software/libextractor/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libextractor",
+  "oldname": null,
+  "optional_dependencies": [
+    "iso-codes"
+  ],
+  "options": [
+    {
+      "description": "Build with iso-codes support",
+      "option": "--with-iso-codes"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6"
+  }
+}

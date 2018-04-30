@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3597aef864440d96505a2445348060926cbab9b2ea44af4ee61094e4bc419d4e",
+          "url": "https://linuxbrew.bintray.com/bottles/spiped-1.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f2008c86b377357db0888b384029b54ee9573d73e891ec322018b80dc499d165",
+          "url": "https://linuxbrew.bintray.com/bottles/spiped-1.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "53e5ec39c188fed1d8a762904988490dd6a73f34f6bfcef986063a34a804cd6a",
+          "url": "https://linuxbrew.bintray.com/bottles/spiped-1.6.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d61db0a6cf96273e9564fcd3208ff5836840b0369e0a9c269c79904d9f1d3ab6",
+          "url": "https://linuxbrew.bintray.com/bottles/spiped-1.6.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bsdmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bsdmake",
+    "openssl"
+  ],
+  "desc": "Secure pipe daemon",
+  "full_name": "spiped",
+  "homepage": "https://www.tarsnap.com/spiped.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "spiped",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.0"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9f0ae0a62141e3b28807349cb7a9560e36770acb869f4a4e7a54ea1a28ef8ba5",
+          "url": "https://linuxbrew.bintray.com/bottles/mecab-ipadic-2.7.0-20070801.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ef5cf167b05fd74457d5c31a46750450e8f80720ebc705766ee10df6ed41a861",
+          "url": "https://linuxbrew.bintray.com/bottles/mecab-ipadic-2.7.0-20070801.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "0a9ea36b7cc03f73ae34f72e078b7e84ebe814cf8e1cfbea2d5f876c1893b1c5",
+          "url": "https://linuxbrew.bintray.com/bottles/mecab-ipadic-2.7.0-20070801.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "c70d627c447086a66b6eaca37cd98e1da099f65bfb6b87f2c47d1901d5e4a090",
+          "url": "https://linuxbrew.bintray.com/bottles/mecab-ipadic-2.7.0-20070801.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "33f42c18d7347708a56d8846c0bde5c8291b7685ce06b342e96442bca35f6663",
+          "url": "https://linuxbrew.bintray.com/bottles/mecab-ipadic-2.7.0-20070801.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "55703c812de3e7cff503b9cd1eafa0656b3f17c4885165ce4d8e4d2b2356050e",
+          "url": "https://linuxbrew.bintray.com/bottles/mecab-ipadic-2.7.0-20070801.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To enable mecab-ipadic dictionary, add to /home/tim/.linuxbrew/etc/mecabrc:\n  dicdir = /home/tim/.linuxbrew/lib/mecab/dic/ipadic\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mecab"
+  ],
+  "desc": "IPA dictionary compiled for MeCab",
+  "full_name": "mecab-ipadic",
+  "homepage": "https://taku910.github.io/mecab/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mecab-ipadic",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Select charset: utf8 (default), euc-jp, or sjis",
+      "option": "--with-charset="
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.7.0-20070801"
+  }
+}

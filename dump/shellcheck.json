@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7136c486a8faf29e840b96abc02a68420b641261ba3ed252fbc5ac0da7161721",
+          "url": "https://linuxbrew.bintray.com/bottles/shellcheck-0.4.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4670b4952117677a171f4e3312d5b6660ad6b443c1e2c65aed8fb17fe46b2342",
+          "url": "https://linuxbrew.bintray.com/bottles/shellcheck-0.4.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8eb344f3f20995bd7210f12b337116b0295755bf78990ea824ba160e8e6b0bf9",
+          "url": "https://linuxbrew.bintray.com/bottles/shellcheck-0.4.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "63d97d20715ac34ae29b7bbf32e70fef9a419e938bae2203ef6f5ff2d17d0d18",
+          "url": "https://linuxbrew.bintray.com/bottles/shellcheck-0.4.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cabal-install",
+    "ghc@8.2",
+    "pandoc"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cabal-install",
+    "ghc@8.2",
+    "pandoc"
+  ],
+  "desc": "Static analysis and lint tool, for (ba)sh scripts",
+  "full_name": "shellcheck",
+  "homepage": "https://www.shellcheck.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "shellcheck",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.7"
+  }
+}

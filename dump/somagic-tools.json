@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b73262d08d3ec9e10645290555b5fb0c5fd95492c9d5db2ab451285ccb69eac6",
+          "url": "https://linuxbrew.bintray.com/bottles/somagic-tools-1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "121e3b6667ee8dcd81cf2331342d27b6221b1ebf955f83e00311176fa5fe11ca",
+          "url": "https://linuxbrew.bintray.com/bottles/somagic-tools-1.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "0fad2574c7dbb306c975cb68b84a3c317965d9fab4c5b0e0787533cacf8f7988",
+          "url": "https://linuxbrew.bintray.com/bottles/somagic-tools-1.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b0fa394d0211f43fe5c9da6e7f36b8e3b6ed5086b8a447b06df42e21bf0e30cd",
+          "url": "https://linuxbrew.bintray.com/bottles/somagic-tools-1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0b0b6840133039a9f7c33579d45fbd93e68dc00e6eabe0bd4d36d7d4da56fc06",
+          "url": "https://linuxbrew.bintray.com/bottles/somagic-tools-1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libusb",
+    "libgcrypt"
+  ],
+  "desc": "Tools to extract firmware from EasyCAP",
+  "full_name": "somagic-tools",
+  "homepage": "https://code.google.com/archive/p/easycap-somagic-linux/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "somagic-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

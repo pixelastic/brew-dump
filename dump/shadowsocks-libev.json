@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a7811988ac7c3b2418b6d8c9362494ffbc5bce560b9e180c2b11478e0cad228f",
+          "url": "https://linuxbrew.bintray.com/bottles/shadowsocks-libev-3.1.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2fa13435a11345fa19167a84cc1ee3684278759f8ad53b6b3176992429a37d4c",
+          "url": "https://linuxbrew.bintray.com/bottles/shadowsocks-libev-3.1.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "893a0626a0090207276993ce97cedd3b96cec4d94d40d83fc9927d6f4fdd9c1c",
+          "url": "https://linuxbrew.bintray.com/bottles/shadowsocks-libev-3.1.3_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b12e6e36f7f00c46368c0efd82a9d3b4f4bfa9a2ef639535b4fc3a0db078dced",
+          "url": "https://linuxbrew.bintray.com/bottles/shadowsocks-libev-3.1.3_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "asciidoc",
+    "xmlto"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "asciidoc",
+    "xmlto",
+    "c-ares",
+    "libev",
+    "libsodium",
+    "mbedtls",
+    "pcre",
+    "python"
+  ],
+  "desc": "Libev port of shadowsocks",
+  "full_name": "shadowsocks-libev",
+  "homepage": "https://github.com/shadowsocks/shadowsocks-libev",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "shadowsocks-libev",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.1.3"
+  }
+}

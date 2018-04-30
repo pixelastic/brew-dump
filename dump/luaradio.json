@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4c25ef01c7e0fbd08b924883a0251d6e0808cc23ccd8386d30256675797f4c80",
+          "url": "https://linuxbrew.bintray.com/bottles/luaradio-0.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4edb4fe949e790279a47dbb4fff762852baf034c181b50713f431d16c29e6971",
+          "url": "https://linuxbrew.bintray.com/bottles/luaradio-0.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9d1b4988ac40cde3ec5c689f1bca02d18829828ddec5e6209be102b576948fde",
+          "url": "https://linuxbrew.bintray.com/bottles/luaradio-0.5.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "126631069fc04e1a67bae61ca843f1651c80f43c5a47da59c67dba6933278458",
+          "url": "https://linuxbrew.bintray.com/bottles/luaradio-0.5.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "luajit",
+    "fftw"
+  ],
+  "desc": "Lightweight, embeddable flow graph signal processing framework for SDR",
+  "full_name": "luaradio",
+  "homepage": "http://luaradio.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "luaradio",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without fftw support",
+      "option": "--without-fftw"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "fftw"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5.0"
+  }
+}

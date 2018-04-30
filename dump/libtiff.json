@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d0f870c1226d0bbf13de283c770d73127bbcf34028d58805a35174fde6e89845",
+          "url": "https://linuxbrew.bintray.com/bottles/libtiff-4.0.9_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2338c777aad152907291b35f40f2767771038a4812d2460e045b9ef4a7f3b565",
+          "url": "https://linuxbrew.bintray.com/bottles/libtiff-4.0.9_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "793f26ad5b2120fed7cdd00e1cd8f5b4d7e5f6363b7bc1aa9ef909cc05474579",
+          "url": "https://linuxbrew.bintray.com/bottles/libtiff-4.0.9_4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "186346b6621a2ea39906c01cabcbe93b4a678bb7db56e627fc495c2cc937caf0",
+          "url": "https://linuxbrew.bintray.com/bottles/libtiff-4.0.9_4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "jpeg",
+    "xz",
+    "zlib"
+  ],
+  "desc": "TIFF library and utilities",
+  "full_name": "libtiff",
+  "homepage": "http://libtiff.maptools.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libtiff",
+  "oldname": null,
+  "optional_dependencies": [
+    "xz"
+  ],
+  "options": [
+    {
+      "description": "Include support for LZMA compression",
+      "option": "--with-xz"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.0.9"
+  }
+}

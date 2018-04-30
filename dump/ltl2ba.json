@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "45916a60bb32849e1bc3709d019dcf6ac9d140d92e6f6b65bb5ca05de5c63e3b",
+          "url": "https://linuxbrew.bintray.com/bottles/ltl2ba-1.2b1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9d1e6e9bca1073e604a7aa1e693c2df5a0636c8e6a5b82f85db491929520ae1b",
+          "url": "https://linuxbrew.bintray.com/bottles/ltl2ba-1.2b1.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "75c0b88b4be2658bc02feb02214f833f7b27758381924b3e3a742ee9309579f6",
+          "url": "https://linuxbrew.bintray.com/bottles/ltl2ba-1.2b1.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "151f207ca2627b0916371b49918f3b97174f5c2bab56abab0eb11d17d604037d",
+          "url": "https://linuxbrew.bintray.com/bottles/ltl2ba-1.2b1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d4c93b1f70b126540dae9d77e16f7e0b42e58ff1997fce63f51820621693588d",
+          "url": "https://linuxbrew.bintray.com/bottles/ltl2ba-1.2b1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Translate LTL formulae to Buchi automata",
+  "full_name": "ltl2ba",
+  "homepage": "https://www.lsv.ens-cachan.fr/~gastin/ltl2ba/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ltl2ba",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2b1"
+  }
+}

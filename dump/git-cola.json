@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1ee403537d80c7edf3fc250c5b19bf49d8687c9dbc3d34eda979a7d921aaf9f4",
+          "url": "https://linuxbrew.bintray.com/bottles/git-cola-3.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1ee403537d80c7edf3fc250c5b19bf49d8687c9dbc3d34eda979a7d921aaf9f4",
+          "url": "https://linuxbrew.bintray.com/bottles/git-cola-3.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1ee403537d80c7edf3fc250c5b19bf49d8687c9dbc3d34eda979a7d921aaf9f4",
+          "url": "https://linuxbrew.bintray.com/bottles/git-cola-3.0_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pyqt",
+    "python"
+  ],
+  "desc": "Highly caffeinated git GUI",
+  "full_name": "git-cola",
+  "homepage": "https://git-cola.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git-cola",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build manpages and HTML docs",
+      "option": "--with-docs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.0"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "cc6c60a27cba7bb5f0e1b4a7c8ae3567db4eeaf1e1384488b818da7a1409f837",
+          "url": "https://linuxbrew.bintray.com/bottles/jpegoptim-1.4.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9588bffa63f2041939e480ff8dbce25a004ef2414fc7ea9d5b5177a38bfb8eaf",
+          "url": "https://linuxbrew.bintray.com/bottles/jpegoptim-1.4.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "89b7f8465e95066c6bf19515affed14037841ea5d0a86b8c3d6cf026f507e938",
+          "url": "https://linuxbrew.bintray.com/bottles/jpegoptim-1.4.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "15cbdb13e2c707d908d16f2058ee3d201c325a6fa97e835c9ac353660b686c24",
+          "url": "https://linuxbrew.bintray.com/bottles/jpegoptim-1.4.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "jpeg"
+  ],
+  "desc": "Utility to optimize JPEG files",
+  "full_name": "jpegoptim",
+  "homepage": "https://github.com/tjko/jpegoptim",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jpegoptim",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.6"
+  }
+}

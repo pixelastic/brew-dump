@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "59ddaa5a6d841f436a5d297330ff62b613e446785ad17666c8fb4157d3a7c8db",
+          "url": "https://linuxbrew.bintray.com/bottles/uade-2.13.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "226dc1fbb9535b64f19e04310db19fb9a760024fc0b0c73e3c68cf7c72e508d9",
+          "url": "https://linuxbrew.bintray.com/bottles/uade-2.13.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "807b7f5cb5a83348c778003d781d715cec73d37da537e0b11b8138c93aad4938",
+          "url": "https://linuxbrew.bintray.com/bottles/uade-2.13.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "432a5f95b33416c9bfc29ef4d81ea6d4fab2a568c71c00a9bda034985ed1276b",
+          "url": "https://linuxbrew.bintray.com/bottles/uade-2.13.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "454945f35580b0b2bc8f0c7ddeecfae091634f54ee3a367eb14acce7251e5779",
+          "url": "https://linuxbrew.bintray.com/bottles/uade-2.13.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libao"
+  ],
+  "desc": "Play Amiga tunes through UAE emulation",
+  "full_name": "uade",
+  "homepage": "http://zakalwe.fi/uade/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "uade",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.13"
+  }
+}

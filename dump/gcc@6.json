@@ -1,0 +1,95 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "cfb7468673433e7ef683f1746fb94ce9719c181e9c7e86f4d70453578c1822cc",
+          "url": "https://linuxbrew.bintray.com/bottles/gcc@6-6.4.0_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2d073860c3899b3d61441931ebb230ccb7249e2ac63d957860c408c01ecc081b",
+          "url": "https://linuxbrew.bintray.com/bottles/gcc@6-6.4.0_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c9f0ebfe118e7c43a081e952dd0135e7b6621a9f935426fd08372486fa5ddea9",
+          "url": "https://linuxbrew.bintray.com/bottles/gcc@6-6.4.0_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "dc07b18f01f15c437237aa7c7d2b3018e85bd7bb53ff503fb77361ed491c3183",
+          "url": "https://linuxbrew.bintray.com/bottles/gcc@6-6.4.0_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "zlib",
+    "glibc",
+    "gmp",
+    "libmpc",
+    "mpfr",
+    "isl"
+  ],
+  "desc": "GNU compiler collection",
+  "full_name": "gcc@6",
+  "homepage": "https://gcc.gnu.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gcc@6",
+  "oldname": "gcc6",
+  "optional_dependencies": [
+    "glibc"
+  ],
+  "options": [
+    {
+      "description": "Build the gcj compiler",
+      "option": "--with-java"
+    },
+    {
+      "description": "Enable all compilers and languages, except Ada",
+      "option": "--with-all-languages"
+    },
+    {
+      "description": "Build with native language support (localization)",
+      "option": "--with-nls"
+    },
+    {
+      "description": "Build the jit compiler",
+      "option": "--with-jit"
+    },
+    {
+      "description": "Build without the gfortran compiler",
+      "option": "--without-fortran"
+    },
+    {
+      "description": "Build with glibc support",
+      "option": "--with-glibc"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.4.0"
+  }
+}

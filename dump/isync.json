@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "060669b949a1d59d8d2432d8c169c4b6af457bde209e670bd0056f4efe9ef0d9",
+          "url": "https://linuxbrew.bintray.com/bottles/isync-1.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7b7ffd0c838626b698145a205c8325c6c74051c073fc793db724264a5d841dd3",
+          "url": "https://linuxbrew.bintray.com/bottles/isync-1.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "646490217fc6569fd0c8999aac9e3b7dfd4ae18aaa20cd0c0b99f0dfd350b4de",
+          "url": "https://linuxbrew.bintray.com/bottles/isync-1.3.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "aa064c5df85bfb2248ec3857544ae62da2baaae675ea16357086250bef2a43ac",
+          "url": "https://linuxbrew.bintray.com/bottles/isync-1.3.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "berkeley-db"
+  ],
+  "desc": "Synchronize a maildir with an IMAP server",
+  "full_name": "isync",
+  "homepage": "https://isync.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "isync",
+  "oldname": null,
+  "optional_dependencies": [
+    "berkeley-db"
+  ],
+  "options": [
+    {
+      "description": "Build with berkeley-db support",
+      "option": "--with-berkeley-db"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.3.0"
+  }
+}

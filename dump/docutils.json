@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "823debb7f2b27abbd6e4deb33bcc6cf322c2f79d4b976262b852d95fad36c3dd",
+          "url": "https://linuxbrew.bintray.com/bottles/docutils-0.14.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e54f0dadb8de1059b925dd9f59ff605a04486ddc075459b63bf01b706891aaeb",
+          "url": "https://linuxbrew.bintray.com/bottles/docutils-0.14.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c48f799c313e8c8008ced95c907c902284c289e7f1212ef96d8770f28dd56a01",
+          "url": "https://linuxbrew.bintray.com/bottles/docutils-0.14.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "aaa9d38dce4d7fef184552c873bf67f118f059c699d7ea33b1153776d3727d79",
+          "url": "https://linuxbrew.bintray.com/bottles/docutils-0.14.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "53e168f1335e9198d4948b2d89c434097b8878c835efeb2c6f0f116353212702",
+          "url": "https://linuxbrew.bintray.com/bottles/docutils-0.14.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "zlib"
+  ],
+  "desc": "Text processing system for reStructuredText",
+  "full_name": "docutils",
+  "homepage": "https://docutils.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "docutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.14"
+  }
+}

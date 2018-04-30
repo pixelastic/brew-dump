@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8718c7a6cd3ffed8ee706f6991f2791c6d02f663db93beadd56e592c3edf544d",
+          "url": "https://linuxbrew.bintray.com/bottles/igraph-0.7.1_6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f660cb85c0fc5ad020fca593b311c50078e1345fe85bc2cb5292646d1d0d6fa5",
+          "url": "https://linuxbrew.bintray.com/bottles/igraph-0.7.1_6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "63d5ac34c831bfb3bdcdc89a408a6ad004198fb784a50facb3f898a567f7b9b1",
+          "url": "https://linuxbrew.bintray.com/bottles/igraph-0.7.1_6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "aeb96a80a933e4105c3f386aa8a45bb60b1a5fbebac06dcbb1bbf3455346fd5e",
+          "url": "https://linuxbrew.bintray.com/bottles/igraph-0.7.1_6.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "bf929af83b33d8a00fc52b72fcae9fa0636fcc506ee0cbf2bf7ab267d9ee14d2",
+          "url": "https://linuxbrew.bintray.com/bottles/igraph-0.7.1_6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "glpk",
+    "gmp",
+    "libxml2",
+    "openblas"
+  ],
+  "desc": "Network analysis package",
+  "full_name": "igraph",
+  "homepage": "http://igraph.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "igraph",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 6,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.1"
+  }
+}

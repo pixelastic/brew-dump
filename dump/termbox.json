@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "84820bcc0a8af2ff453330e8155ca467e2794de179fed4b0238b05635e1fe35a",
+          "url": "https://linuxbrew.bintray.com/bottles/termbox-1.1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "338467da37e0f1a93eda52353d50805b84be1a63135e3979120fe660422a9dd8",
+          "url": "https://linuxbrew.bintray.com/bottles/termbox-1.1.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "503690d456e5625825b38dc7513ed8c806e4031de7b22fd66eebe0c66145ec41",
+          "url": "https://linuxbrew.bintray.com/bottles/termbox-1.1.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library for writing text-based user interfaces",
+  "full_name": "termbox",
+  "homepage": "https://code.google.com/p/termbox/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "termbox",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.2"
+  }
+}

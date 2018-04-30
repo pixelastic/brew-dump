@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "019168fe18bb28f596bad5858bfd782473800920d9bb5cf71ce94ac90c4fcf5d",
+          "url": "https://linuxbrew.bintray.com/bottles/dopewars-1.5.12.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "86b78c8cee8505ad3bde0e2d52bf45a60ac388735c034a1450d3be1117937749",
+          "url": "https://linuxbrew.bintray.com/bottles/dopewars-1.5.12.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2cd2bcd5c69422ea725622831b054ce4d75656f085e7e919d2a5a055fed30037",
+          "url": "https://linuxbrew.bintray.com/bottles/dopewars-1.5.12.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "282643cc528cca8f01101c4f908e07889585c07d60b2da31fde88b41a07c1c2c",
+          "url": "https://linuxbrew.bintray.com/bottles/dopewars-1.5.12.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib"
+  ],
+  "desc": "Free rewrite of a game originally based on \"Drug Wars\"",
+  "full_name": "dopewars",
+  "homepage": "https://dopewars.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dopewars",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.12"
+  }
+}

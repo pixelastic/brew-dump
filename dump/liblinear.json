@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ea9543b48babe41506ef52ce61aee5659a50ad61e75ac21eb51832e1d7c8f306",
+          "url": "https://linuxbrew.bintray.com/bottles/liblinear-2.20.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b95e7df876deaac16211dfa14ddc291925372fe2021629ac17827e7ec90c658b",
+          "url": "https://linuxbrew.bintray.com/bottles/liblinear-2.20.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f9caf0fc0bfd566faf7f2076e2a2d903d9ec3fad350b8e19307d13e3783d8f91",
+          "url": "https://linuxbrew.bintray.com/bottles/liblinear-2.20.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library for large linear classification",
+  "full_name": "liblinear",
+  "homepage": "https://www.csie.ntu.edu.tw/~cjlin/liblinear/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "liblinear",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.20"
+  }
+}

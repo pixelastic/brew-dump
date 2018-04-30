@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2d0075b2fca885fb694660a3914362030be255c8e3dfed407bb8ca96c996bbf7",
+          "url": "https://linuxbrew.bintray.com/bottles/tcpkali-1.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b82b2ea3a3d17d3fd464a5e887c9cce14dce8a82bbcb350df5f7bd321893bfdb",
+          "url": "https://linuxbrew.bintray.com/bottles/tcpkali-1.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f73513ed96b6436085e0941865f0cc4fd2ce1009a1d8770c740e8e97d5173cf1",
+          "url": "https://linuxbrew.bintray.com/bottles/tcpkali-1.1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "71573c4926d086721c028e73d9812475fe3a58bd8313a43ef9c6a54918334760",
+          "url": "https://linuxbrew.bintray.com/bottles/tcpkali-1.1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "High performance TCP and WebSocket load generator and sink",
+  "full_name": "tcpkali",
+  "homepage": "https://github.com/machinezone/tcpkali",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tcpkali",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.1"
+  }
+}

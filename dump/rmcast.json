@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4fe0a1745659bb99748972c2fa0640e6b864e92739ba192a89ed12c0614b1372",
+          "url": "https://linuxbrew.bintray.com/bottles/rmcast-2.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d30e495d583d02a5ea74cd7ec82d1bd67b62981248d853ce7138a7997f6b6ed2",
+          "url": "https://linuxbrew.bintray.com/bottles/rmcast-2.0.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "1afd20258226dc16873b567b1b5ab920b9e414f4733bfa99fa917074685f2b8a",
+          "url": "https://linuxbrew.bintray.com/bottles/rmcast-2.0.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9ef73c5d52886029cd89d829cdceccca0d03bce0dc72647d8cce6704d492f080",
+          "url": "https://linuxbrew.bintray.com/bottles/rmcast-2.0.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "502e09994a9b455d9040f8e346419a2a3ef0156a73b0249bc161446448729292",
+          "url": "https://linuxbrew.bintray.com/bottles/rmcast-2.0.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "IP Multicast library",
+  "full_name": "rmcast",
+  "homepage": "http://www.land.ufrj.br/tools/rmcast/rmcast.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rmcast",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.0"
+  }
+}

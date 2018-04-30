@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "fb3c2f20c08d28a563a9d8a0849e0f2492c3a007345c09c81710060d07796054",
+          "url": "https://linuxbrew.bintray.com/bottles/sparkey-1.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "619dd968f275dca8239cf39c7d4f6c571ca883190e84bf2246a45d4e5c944a81",
+          "url": "https://linuxbrew.bintray.com/bottles/sparkey-1.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e19c744556628667d81cfc40c792224b424f545fac1abfd76189d3f675478801",
+          "url": "https://linuxbrew.bintray.com/bottles/sparkey-1.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "48b156245d38237eeffdbdbc46f91365884fdbc4ccf33d2190806bf6ec5760e3",
+          "url": "https://linuxbrew.bintray.com/bottles/sparkey-1.0.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "snappy"
+  ],
+  "desc": "Constant key-value store, best for frequent read/infrequent write uses",
+  "full_name": "sparkey",
+  "homepage": "https://github.com/spotify/sparkey/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sparkey",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.0"
+  }
+}

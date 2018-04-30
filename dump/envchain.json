@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4e34971c35ec6a716995a5e8d491970809bb5ce6c5651676f70d757b4044c834",
+          "url": "https://linuxbrew.bintray.com/bottles/envchain-1.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0d615620e4b69e41aef92971fc1aa9a586be4f75be7813ef73ace103dd182684",
+          "url": "https://linuxbrew.bintray.com/bottles/envchain-1.0.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "97f5160a1a9ec028afbaf25416de61f976ef7d74031a55c0f265d158627d4afd",
+          "url": "https://linuxbrew.bintray.com/bottles/envchain-1.0.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "42419c23d7dd363b9232918f69fa4ea01270b6eb4dc9c4b1c4d5170ff920fda3",
+          "url": "https://linuxbrew.bintray.com/bottles/envchain-1.0.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1de7c8c17e489b1f832078d3e5c403133accd187f2e666b44bb4da5d1d74f9f7",
+          "url": "https://linuxbrew.bintray.com/bottles/envchain-1.0.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Secure your credentials in environment variables",
+  "full_name": "envchain",
+  "homepage": "https://github.com/sorah/envchain",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "envchain",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.1"
+  }
+}

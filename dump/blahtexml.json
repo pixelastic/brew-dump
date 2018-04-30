@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b1788b8622b704c67b11295f6bf84ab881298980f8101b5fed6cb7441b4edc82",
+          "url": "https://linuxbrew.bintray.com/bottles/blahtexml-0.9_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c2696cdaa1724541f0d07900219247365e30061a471df0b80f6469b3bc2b4a14",
+          "url": "https://linuxbrew.bintray.com/bottles/blahtexml-0.9_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bcd628072b5b7d6625e2b2caad1c6f64483807facda1b2eff32795de1b25070f",
+          "url": "https://linuxbrew.bintray.com/bottles/blahtexml-0.9_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5d88f5d4496b22549a57283b33cf3eb95f0a0ec8db5105e6180d48ab59422f01",
+          "url": "https://linuxbrew.bintray.com/bottles/blahtexml-0.9_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "xerces-c"
+  ],
+  "desc": "Converts equations into Math ML",
+  "full_name": "blahtexml",
+  "homepage": "http://gva.noekeon.org/blahtexml/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "blahtexml",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build only blahtex, not blahtexml",
+      "option": "--without-blahtexml"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9"
+  }
+}

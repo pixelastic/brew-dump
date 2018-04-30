@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "fd1cef5484267e02971c4daa1eda42e3a66c77786923b0f76b496007282b10a1",
+          "url": "https://linuxbrew.bintray.com/bottles/pygtk-2.24.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "228a919cbba58afc99747e9b5dc6d01013ef8463de2ede5d81c20103afccbb9f",
+          "url": "https://linuxbrew.bintray.com/bottles/pygtk-2.24.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fce76d2bf1e1748ac110aede98a622e5f8b737390a3a5e22f56872834b73c033",
+          "url": "https://linuxbrew.bintray.com/bottles/pygtk-2.24.0_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib",
+    "gtk+",
+    "atk",
+    "pygobject",
+    "py2cairo",
+    "libglade"
+  ],
+  "desc": "GTK+ bindings for Python",
+  "full_name": "pygtk",
+  "homepage": "http://www.pygtk.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pygtk",
+  "oldname": null,
+  "optional_dependencies": [
+    "libglade"
+  ],
+  "options": [
+    {
+      "description": "Build with libglade support",
+      "option": "--with-libglade"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.24.0"
+  }
+}

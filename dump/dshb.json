@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e0aa0f64ac02e9244fc59773a966d1ac5755dc4a4c91c0dbcd92633c4330f14b",
+          "url": "https://linuxbrew.bintray.com/bottles/dshb-0.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "486fe71444a4a07f3e7a20a0deab2e4029a927514ae70f563ff89b72db44a263",
+          "url": "https://linuxbrew.bintray.com/bottles/dshb-0.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "486fe71444a4a07f3e7a20a0deab2e4029a927514ae70f563ff89b72db44a263",
+          "url": "https://linuxbrew.bintray.com/bottles/dshb-0.2.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "macOS system monitor in Swift",
+  "full_name": "dshb",
+  "homepage": "https://github.com/beltex/dshb",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dshb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.0"
+  }
+}

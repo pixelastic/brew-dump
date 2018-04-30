@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "62c8a72958b6fa8ef0208560ff0ad6abf187aae842715bb84cddb21d46a69d35",
+          "url": "https://linuxbrew.bintray.com/bottles/precomp-0.4.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "83f6d3eec9ce5b05a5cc7197e89fc6fe968c7ecb71c795343ead7ec98edcf758",
+          "url": "https://linuxbrew.bintray.com/bottles/precomp-0.4.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "93eaa1f454f3af8d1c9872c263e3e67b56aac5e6772a65ccce8c9ec493c6989c",
+          "url": "https://linuxbrew.bintray.com/bottles/precomp-0.4.6.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Command-line precompressor to achieve better compression",
+  "full_name": "precomp",
+  "homepage": "http://schnaader.info/precomp.php",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "precomp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.6"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8a8ca9859f928227a15443d4203507bbe0fec28ac1c21938d1298c8180d66b35",
+          "url": "https://linuxbrew.bintray.com/bottles/seqtk-1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a2fcc7104562aeba2bcbbfd43ca2af2d6adc9825d6823776fad2c2332248a66e",
+          "url": "https://linuxbrew.bintray.com/bottles/seqtk-1.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e2c95a305e1a1f0624e909739e6c27ac4e4665790101c5d3d7ca1086f37b59c6",
+          "url": "https://linuxbrew.bintray.com/bottles/seqtk-1.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0c5eb8a331a9d6681cf4e9d06f07f7184a055326b00fb940fbe8c4e73552f611",
+          "url": "https://linuxbrew.bintray.com/bottles/seqtk-1.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "zlib"
+  ],
+  "desc": "Toolkit for processing sequences in FASTA/Q formats",
+  "full_name": "seqtk",
+  "homepage": "https://github.com/lh3/seqtk",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "seqtk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2"
+  }
+}

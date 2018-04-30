@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3eada5e4cb665257ea7f4dc244e8fe4dac54f279cc9ab2bd4ccfce486b010356",
+          "url": "https://linuxbrew.bintray.com/bottles/zboy-0.60.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5eb884e02583dd9b50e554a6dfae805849dbd620bb90d10b721937cb4f35fa50",
+          "url": "https://linuxbrew.bintray.com/bottles/zboy-0.60.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "85d55fa04126008eb3a72d8cba9afa52b64231807306340c70414649ec56aca1",
+          "url": "https://linuxbrew.bintray.com/bottles/zboy-0.60.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ea5ce73b9e6dccb7e96e7a9eb8e7f7c75c54b89d00bded0a0f13bccbc22a7808",
+          "url": "https://linuxbrew.bintray.com/bottles/zboy-0.60.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl2"
+  ],
+  "desc": "GameBoy emulator",
+  "full_name": "zboy",
+  "homepage": "https://zboy.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zboy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.60"
+  }
+}

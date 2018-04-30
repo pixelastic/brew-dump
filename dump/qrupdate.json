@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7615aa35c9399e47ee37a61a2431cde51c7976f1343e4bd85a55b1ea06075784",
+          "url": "https://linuxbrew.bintray.com/bottles/qrupdate-1.1.2_7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "840232d0b89e23401a97fab779ccc7ac4ebbe2084dab14885e84af782ae659bd",
+          "url": "https://linuxbrew.bintray.com/bottles/qrupdate-1.1.2_7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "13e312d56e25a4c3af283a09c8e08cee22a4da677e16388d6cc65910a7086ad4",
+          "url": "https://linuxbrew.bintray.com/bottles/qrupdate-1.1.2_7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6abda7f6108d68cb59133b67683973d7649531d54ecd50ad89027b6896f0762b",
+          "url": "https://linuxbrew.bintray.com/bottles/qrupdate-1.1.2_7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gcc",
+    "openblas"
+  ],
+  "desc": "Fast updates of QR and Cholesky decompositions",
+  "full_name": "qrupdate",
+  "homepage": "https://sourceforge.net/projects/qrupdate/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qrupdate",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 7,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.2"
+  }
+}

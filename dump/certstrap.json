@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "dde1e9de937ea5cd7454bc7163a4fddd56ef75209edc7e6036121f57fa47fe23",
+          "url": "https://linuxbrew.bintray.com/bottles/certstrap-1.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2151866d10f1ba703fbdc8b11632da00eb3588d4041be018721fcaf6278fec14",
+          "url": "https://linuxbrew.bintray.com/bottles/certstrap-1.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "58a68f5a88ff0dc4321aeac2aad21fef2edfa85564d6766d3a9149ceebb2cf4b",
+          "url": "https://linuxbrew.bintray.com/bottles/certstrap-1.1.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7f0fcf8f93b763e05540f28c69d2c11affd18febe6d7cd1c5a834d6845d50644",
+          "url": "https://linuxbrew.bintray.com/bottles/certstrap-1.1.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Tools to bootstrap CAs, certificate requests, and signed certificates",
+  "full_name": "certstrap",
+  "homepage": "https://github.com/square/certstrap",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "certstrap",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.1"
+  }
+}

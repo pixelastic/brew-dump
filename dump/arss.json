@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5da45934b19d0cab02c809932fb8c5da3fd76d2f781bc9e2e7a98fa1825989eb",
+          "url": "https://linuxbrew.bintray.com/bottles/arss-0.2.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b848efa3abde7c5fffd18289c1ab51a842cd93e0e97d6af32329acf869909d38",
+          "url": "https://linuxbrew.bintray.com/bottles/arss-0.2.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7159b6b56ad3878bc84b9fdf9d708f0828637db64ae12ef96f39820c2f22d061",
+          "url": "https://linuxbrew.bintray.com/bottles/arss-0.2.3.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2311c31ae2e80905dfc41c8adb9639314664103352540b198f24c54e0c102550",
+          "url": "https://linuxbrew.bintray.com/bottles/arss-0.2.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "268225389842f4952424b17c7b94759b7a3d3009053b50718f1e4155b7eace86",
+          "url": "https://linuxbrew.bintray.com/bottles/arss-0.2.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "fftw"
+  ],
+  "desc": "Analyze a sound file into a spectrogram",
+  "full_name": "arss",
+  "homepage": "https://arss.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "arss",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.3"
+  }
+}

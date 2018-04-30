@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "397edcb9360918833774139e8cf9d11bcb53fc7c763e487a7bec325861b73cd6",
+          "url": "https://linuxbrew.bintray.com/bottles/bibtexconv-1.1.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2b44b8dd4bf60b443c9318e056fdcffaed9218e75d7d907dd6ae5c4679a135e9",
+          "url": "https://linuxbrew.bintray.com/bottles/bibtexconv-1.1.11.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "81c4daa41ddb6837d40b66a883aceeb3470ca03148fcc6fd19386ff623776dd8",
+          "url": "https://linuxbrew.bintray.com/bottles/bibtexconv-1.1.11.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2c478a94b7c511ae824a9dc52d2db5fb7174fa86aff73830820c307d468766b2",
+          "url": "https://linuxbrew.bintray.com/bottles/bibtexconv-1.1.11.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "curl"
+  ],
+  "desc": "BibTeX file converter",
+  "full_name": "bibtexconv",
+  "homepage": "https://www.uni-due.de/~be0001/bibtexconv/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bibtexconv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.11"
+  }
+}

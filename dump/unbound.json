@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "701dbf2f8fbccfee9a8f843814639eb65d8fbcc57a8802a96964077a95f059b8",
+          "url": "https://linuxbrew.bintray.com/bottles/unbound-1.7.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8c7e2cd18ce125440cfc6545de5fb437c4e4a386786211c9b0956406b00169e7",
+          "url": "https://linuxbrew.bintray.com/bottles/unbound-1.7.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9cfd4dc5892ae2a762b5413b2fe61ff18c59aea036a56a6616699e5b992e234b",
+          "url": "https://linuxbrew.bintray.com/bottles/unbound-1.7.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "libevent",
+    "expat",
+    "python@2"
+  ],
+  "desc": "Validating, recursive, caching DNS resolver",
+  "full_name": "unbound",
+  "homepage": "https://www.unbound.net",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "unbound",
+  "oldname": null,
+  "optional_dependencies": [
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Build with python@2 support",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.0"
+  }
+}

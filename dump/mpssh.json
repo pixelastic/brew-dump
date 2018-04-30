@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e5ac485861dfca0be2bb1ca2eb5826b5ca5977c0d2abb12dc58de011c18046f1",
+          "url": "https://linuxbrew.bintray.com/bottles/mpssh-1.3.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1057c47b866d50031a23a0bd244d3bc056b9f12a4d9bf0aeebc0ea292c484638",
+          "url": "https://linuxbrew.bintray.com/bottles/mpssh-1.3.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "60d489a872cb7ed8855c0f95913af4fffe3082b6bee8669b0080c3d30d73249d",
+          "url": "https://linuxbrew.bintray.com/bottles/mpssh-1.3.3.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "a528ce8c03771e3366f5380b18e2a43aba6283e09bb8945234c42dc25116cf41",
+          "url": "https://linuxbrew.bintray.com/bottles/mpssh-1.3.3.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "90d758a0f7accf0b63755c3de8100a880b500e732fc8924123ab2a1c7ce688f8",
+          "url": "https://linuxbrew.bintray.com/bottles/mpssh-1.3.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2b91c9a9dbae19e99b8b8735bb3292cc056dcf8e06472c0b2d354f64896a4186",
+          "url": "https://linuxbrew.bintray.com/bottles/mpssh-1.3.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Mass parallel ssh",
+  "full_name": "mpssh",
+  "homepage": "https://github.com/ndenev/mpssh",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mpssh",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.3.3"
+  }
+}

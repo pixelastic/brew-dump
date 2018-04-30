@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f8a29d74289a555ba7969b8d8f6984de7251393d7d0270e61abf69d36f270fc0",
+          "url": "https://linuxbrew.bintray.com/bottles/icon-naming-utils-0.8.90.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1ab22bc216fc60fe05436993a1d451542a5f57a12ecf835c85f5c850574e54f3",
+          "url": "https://linuxbrew.bintray.com/bottles/icon-naming-utils-0.8.90.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "1e2f32f1e755df8a974482ad56c0cc85f7d537005419b0c0c42013f0f0ab717d",
+          "url": "https://linuxbrew.bintray.com/bottles/icon-naming-utils-0.8.90.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d824a2df63a9615bb242c197af07ce18f6a6a046df9c785fe31d5f39d986f4ed",
+          "url": "https://linuxbrew.bintray.com/bottles/icon-naming-utils-0.8.90.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "22a80ba1d9042481251c8b85aa46dc163abfd9a54d6815ab43a3a5124592be5f",
+          "url": "https://linuxbrew.bintray.com/bottles/icon-naming-utils-0.8.90.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Script to handle icon names in desktop icon themes",
+  "full_name": "icon-naming-utils",
+  "homepage": "https://specifications.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "icon-naming-utils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.90"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "947d0e96fd262e1d493662955b3eb27e247d3fc52ed1e8dc07e58a4fb167892f",
+          "url": "https://linuxbrew.bintray.com/bottles/simple-mtpfs-0.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "799625dbb36244feab3e209487c12d99467960ac14e80017552dbdd6a4f42ab9",
+          "url": "https://linuxbrew.bintray.com/bottles/simple-mtpfs-0.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e73ec4a78592b0fc76d86d3027615e2e8addc8b9a30da9caad433b2d1fced262",
+          "url": "https://linuxbrew.bintray.com/bottles/simple-mtpfs-0.3.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "64c1df0ab967904c00f8b61d41bd4de70ed75f01902d552594ccac990cba5b24",
+          "url": "https://linuxbrew.bintray.com/bottles/simple-mtpfs-0.3.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libmtp"
+  ],
+  "desc": "Simple MTP fuse filesystem driver",
+  "full_name": "simple-mtpfs",
+  "homepage": "https://github.com/phatina/simple-mtpfs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "simple-mtpfs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.0"
+  }
+}

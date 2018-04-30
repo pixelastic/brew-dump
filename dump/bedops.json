@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ac524ad51227b7424026c42a11d2a04db385b3a87e06b6b4036e880002b98cc6",
+          "url": "https://linuxbrew.bintray.com/bottles/bedops-2.4.34.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2fcdbba7e829549668ff85dfd33d281dd09824d6d9b7adc5b7f986c754bf39c0",
+          "url": "https://linuxbrew.bintray.com/bottles/bedops-2.4.34.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e6cb89dd6bb66f40c09b06e3b9c35184b040a0c2334b59c52e0615cca3cc11db",
+          "url": "https://linuxbrew.bintray.com/bottles/bedops-2.4.34.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "047478958c5b125b5059c5d91e15bb4f61a7c16414355498078172db00f6f8d3",
+          "url": "https://linuxbrew.bintray.com/bottles/bedops-2.4.34.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Set and statistical operations on genomic data of arbitrary scale",
+  "full_name": "bedops",
+  "homepage": "https://github.com/bedops/bedops",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bedops",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.34"
+  }
+}

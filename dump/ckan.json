@@ -1,0 +1,41 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To use the CKAN GUI, install the ckan-app cask.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mono"
+  ],
+  "desc": "The Comprehensive Kerbal Archive Network",
+  "full_name": "ckan",
+  "homepage": "https://github.com/KSP-CKAN/CKAN/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ckan",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "1.24.0"
+  }
+}

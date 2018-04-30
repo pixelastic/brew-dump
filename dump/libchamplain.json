@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "77dc11f2f53f414fb94db5a48c60827eeda2d54f296a6608aface2d7d7adcba2",
+          "url": "https://linuxbrew.bintray.com/bottles/libchamplain-0.12.16_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f6164d934f20edac3cce56807031c6398ab4135ac2d1de189fa507d53646d4fe",
+          "url": "https://linuxbrew.bintray.com/bottles/libchamplain-0.12.16_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4cd4422e4ea30fb60d77bee37e96d2a221cf78d5cfbb56c7bd4ddff503dd9e63",
+          "url": "https://linuxbrew.bintray.com/bottles/libchamplain-0.12.16_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "clutter",
+    "libsoup",
+    "gtk+3",
+    "clutter-gtk",
+    "vala"
+  ],
+  "desc": "ClutterActor for displaying maps",
+  "full_name": "libchamplain",
+  "homepage": "https://wiki.gnome.org/Projects/libchamplain",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libchamplain",
+  "oldname": null,
+  "optional_dependencies": [
+    "vala"
+  ],
+  "options": [
+    {
+      "description": "Build with vala support",
+      "option": "--with-vala"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.12.16"
+  }
+}

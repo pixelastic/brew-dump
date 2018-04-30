@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "41faab24b6b7e72dff9719972dd7c2fc16864c2b99a69aa5d6250816b27aa2e3",
+          "url": "https://linuxbrew.bintray.com/bottles/blockhash-0.3_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d93acc3ec087d317d7e0fbe166d83745f516d2f85d32c3acc8fa0a18b764853c",
+          "url": "https://linuxbrew.bintray.com/bottles/blockhash-0.3_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e4cce87334c21ede18f40f74ccb2f00a9d298e3b4f4e46b4aaedeefe0341e95e",
+          "url": "https://linuxbrew.bintray.com/bottles/blockhash-0.3_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "23d136244395d06c2e9bfcec23392090f939c3a83e09951b377a4c5193cdbff3",
+          "url": "https://linuxbrew.bintray.com/bottles/blockhash-0.3_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "imagemagick",
+    "python"
+  ],
+  "desc": "Perceptual image hash calculation tool",
+  "full_name": "blockhash",
+  "homepage": "https://github.com/commonsmachinery/blockhash",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "blockhash",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.3"
+  }
+}

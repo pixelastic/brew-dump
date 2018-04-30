@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "62bed7f56cf23a148407527ff2b1234638ae0b365806ccc79c602ee081eed1dc",
+          "url": "https://linuxbrew.bintray.com/bottles/ironcli-0.1.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c4f4ad82734f93b32a2f64e1adaaf493fa38b4e34cbc9298fbbdc02851003343",
+          "url": "https://linuxbrew.bintray.com/bottles/ironcli-0.1.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "14d4bcd4ac89e89fb09b27994ba372d1e25690724c99b7ffbfb0231466c01bca",
+          "url": "https://linuxbrew.bintray.com/bottles/ironcli-0.1.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1e21387baef4dc4421649413232a17313a831d80702018417ee56892216d05cf",
+          "url": "https://linuxbrew.bintray.com/bottles/ironcli-0.1.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "dep",
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "dep",
+    "go"
+  ],
+  "desc": "Go version of the Iron.io command-line tools",
+  "full_name": "ironcli",
+  "homepage": "https://github.com/iron-io/ironcli",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ironcli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.6"
+  }
+}

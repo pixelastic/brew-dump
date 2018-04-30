@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1806d17ae80b006476a2306ec4efc948712d0f6a2a968410ed3028e28c05eb7f",
+          "url": "https://linuxbrew.bintray.com/bottles/streamlink-0.11.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6a03600dd444d9e2db4beb797ad1fac9e55b4c4ebf923443c839849124a213e0",
+          "url": "https://linuxbrew.bintray.com/bottles/streamlink-0.11.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9bc5a58dc2e3f6c59b775b84fa1d770c521c57955c59afd9f6a90bc29b2d71b4",
+          "url": "https://linuxbrew.bintray.com/bottles/streamlink-0.11.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "CLI for extracting streams from various websites to a video player",
+  "full_name": "streamlink",
+  "homepage": "https://streamlink.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "streamlink",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.11.0"
+  }
+}

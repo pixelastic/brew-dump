@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2f56375783e9365bafc0868d505b54eea315f6dad9a0095decbbd61abeb345ac",
+          "url": "https://linuxbrew.bintray.com/bottles/mruby-cli-0.0.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "267baff54cace7684edd4184625afd6fb788cdb072035e88b9c10e4d274454fe",
+          "url": "https://linuxbrew.bintray.com/bottles/mruby-cli-0.0.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d436b8d717f89db9807338345f4b0f385abcfc45f56e9b0b7decc333d4d05ad6",
+          "url": "https://linuxbrew.bintray.com/bottles/mruby-cli-0.0.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a06806ca6a22d3b015e073a984e832013f2efe729870e2aa6d0b17e91a4b9855",
+          "url": "https://linuxbrew.bintray.com/bottles/mruby-cli-0.0.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Build native command-line applications for Linux, MacOS, and Windows",
+  "full_name": "mruby-cli",
+  "homepage": "https://github.com/hone/mruby-cli",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mruby-cli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.0.4"
+  }
+}

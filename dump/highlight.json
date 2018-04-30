@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1b1977c1f71eaa35962955956e7a440f061f746a66264663d3df1396a5539f42",
+          "url": "https://linuxbrew.bintray.com/bottles/highlight-3.42.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f48af027a4deb24db606fdc9a4aa2d3efe5327c85a86204a8c3eb8c77dc3a8d3",
+          "url": "https://linuxbrew.bintray.com/bottles/highlight-3.42.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8dd037e4bda53d86766dd684ab6d57a84d728c243d50435ac5bc7df6f998d51c",
+          "url": "https://linuxbrew.bintray.com/bottles/highlight-3.42.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4a94e051cbd2f71f765be4bcbb7b3159fe25de4e7c1b66a1734647e1c6afa745",
+          "url": "https://linuxbrew.bintray.com/bottles/highlight-3.42.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "boost",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "pkg-config",
+    "lua"
+  ],
+  "desc": "Convert source code to formatted text with syntax highlighting",
+  "full_name": "highlight",
+  "homepage": "http://www.andre-simon.de/doku/highlight/en/highlight.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "highlight",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.42"
+  }
+}

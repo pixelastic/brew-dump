@@ -1,0 +1,46 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You may want to add the following to your .bash_profile:\n  export GLASSFISH_HOME=/home/tim/.linuxbrew/opt/payara/libexec/glassfish\n  export PATH=${PATH}:${GLASSFISH_HOME}/bin\n",
+  "conflicts_with": [
+    "glassfish"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Java EE application server forked from GlassFish",
+  "full_name": "payara",
+  "homepage": "https://www.payara.fish",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "payara",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "caskroom/versions/java8",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "4.1.2.174"
+  }
+}

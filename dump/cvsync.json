@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f76f09e679c8bfe1454cc0602fe38c119ec94af456716ead97add4244f2eb2b0",
+          "url": "https://linuxbrew.bintray.com/bottles/cvsync-0.24.19.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "77f37d3a029bced4283a805186c371c11525cf678d760cbe0095a248afe6c6a8",
+          "url": "https://linuxbrew.bintray.com/bottles/cvsync-0.24.19.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fcea1a0cb513de493fdf74adca3ca2a6d07ca78638521412d8bc9dbed0c0b5c4",
+          "url": "https://linuxbrew.bintray.com/bottles/cvsync-0.24.19.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Portable CVS repository synchronization utility",
+  "full_name": "cvsync",
+  "homepage": "https://www.cvsync.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cvsync",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.24.19"
+  }
+}

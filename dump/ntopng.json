@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "dc4876dbffa7871f30b899bacad272f721bcedc51019713691790825f867d1f9",
+          "url": "https://linuxbrew.bintray.com/bottles/ntopng-3.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b081d1c51e866004ca67152de76ff3a6fd29ebad435eaaf8b4e7bf233b313b4e",
+          "url": "https://linuxbrew.bintray.com/bottles/ntopng-3.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9806a98d28853c7c8679c90bb2b9d40f62b4c1c3f4132d8aa36a6dc78d206796",
+          "url": "https://linuxbrew.bintray.com/bottles/ntopng-3.2_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "libtool",
+    "json-glib",
+    "zeromq",
+    "gnutls"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "libtool",
+    "json-glib",
+    "zeromq",
+    "gnutls",
+    "json-c",
+    "rrdtool",
+    "geoip",
+    "redis",
+    "mysql"
+  ],
+  "desc": "Next generation version of the original ntop",
+  "full_name": "ntopng",
+  "homepage": "https://www.ntop.org/products/traffic-analysis/ntop/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ntopng",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.2"
+  }
+}

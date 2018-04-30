@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5e960ff486d26d81117533643b008e7e6ee24a9f0432b36833fe259c4c7fa731",
+          "url": "https://linuxbrew.bintray.com/bottles/awscli-1.15.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ee2a6196bfe37b854a03aa8bc4a283175945974ba9f7455b427249c7ebdf0bbd",
+          "url": "https://linuxbrew.bintray.com/bottles/awscli-1.15.10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "38376edccfb5905660521e9fd9d147dfa1ac5433d4a14aa1c2c5339bc9ad8256",
+          "url": "https://linuxbrew.bintray.com/bottles/awscli-1.15.10.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0c24024881a293d96b07e49bd3a2d7ca0214367b5b01ab5bfbb9f6c32e162727",
+          "url": "https://linuxbrew.bintray.com/bottles/awscli-1.15.10.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "The \"examples\" directory has been installed to:\n  /home/tim/.linuxbrew/share/awscli/examples\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python",
+    "libyaml"
+  ],
+  "desc": "Official Amazon AWS command-line interface",
+  "full_name": "awscli",
+  "homepage": "https://aws.amazon.com/cli/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "awscli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.15.10"
+  }
+}

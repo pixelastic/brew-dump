@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3ff3f21def203c8a3d6175b659aa20cb6ed4bcdb8f6922087b4ec9c568e67c75",
+          "url": "https://linuxbrew.bintray.com/bottles/libev-4.24.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d6ff53dbbeb1f78dc213e04b76c7ec033b32022017eb4eb213b68f9bb91d0da1",
+          "url": "https://linuxbrew.bintray.com/bottles/libev-4.24.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f9eace710427fcb1d9c3e821da0ecab3d5ff60e3a00750a7bfd4b17fd3d3d872",
+          "url": "https://linuxbrew.bintray.com/bottles/libev-4.24.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6dcbcb05eecb049d61e29788353c22536f6ea50ecefc84c15cc24aa16cd382ab",
+          "url": "https://linuxbrew.bintray.com/bottles/libev-4.24.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6a41433542500be7a4fc7c350494839add102a73e2c66ef7578c91c73036985b",
+          "url": "https://linuxbrew.bintray.com/bottles/libev-4.24.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Asynchronous event library",
+  "full_name": "libev",
+  "homepage": "http://software.schmorp.de/pkg/libev.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libev",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.24"
+  }
+}

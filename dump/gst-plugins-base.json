@@ -1,0 +1,106 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5c43f575a15843ef1432c9fe59cecea79376619f5abd6edf9da6e18594c89192",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-plugins-base-1.14.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0a82c40cf5b175045cf16a08f53e7ef0eee5ea11c4c1b27bc3d0a210b2de0919",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-plugins-base-1.14.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a7b042843228bc8524ae462214283daa56b2ff9145959d64272698b8db52df34",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-plugins-base-1.14.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "732d4258544bfb347312c70edfee7d0a49992704261164b032f2339b296688cb",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-plugins-base-1.14.0_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "gettext",
+    "gstreamer",
+    "orc",
+    "libogg",
+    "opus",
+    "pango",
+    "theora",
+    "libvorbis"
+  ],
+  "desc": "GStreamer plugins (well-supported, basic set)",
+  "full_name": "gst-plugins-base",
+  "homepage": "https://gstreamer.freedesktop.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gst-plugins-base",
+  "oldname": null,
+  "optional_dependencies": [
+    "libogg",
+    "opus",
+    "theora",
+    "libvorbis"
+  ],
+  "options": [
+    {
+      "description": "Build without orc support",
+      "option": "--without-orc"
+    },
+    {
+      "description": "Build with libogg support",
+      "option": "--with-libogg"
+    },
+    {
+      "description": "Build with opus support",
+      "option": "--with-opus"
+    },
+    {
+      "description": "Build without pango support",
+      "option": "--without-pango"
+    },
+    {
+      "description": "Build with theora support",
+      "option": "--with-theora"
+    },
+    {
+      "description": "Build with libvorbis support",
+      "option": "--with-libvorbis"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "orc",
+    "pango"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.14.0"
+  }
+}

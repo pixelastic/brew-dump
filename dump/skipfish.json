@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b897550f5399004d0082a8a5acb0aa7c4f20c92a9033d486c6172da30bd260d3",
+          "url": "https://linuxbrew.bintray.com/bottles/skipfish-2.10b_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cc7acd7bc34e098a19bb6f86744f87f3a7642a7947ba12246fb61ae6f1e6df84",
+          "url": "https://linuxbrew.bintray.com/bottles/skipfish-2.10b_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ed0cf629f0dd2f23782ff21bb728efe019d8bd84605f9ca85a317ef9841b5d8b",
+          "url": "https://linuxbrew.bintray.com/bottles/skipfish-2.10b_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4ce996b74258ec1ccbf1805f61c4d5e58ffc3f2c1cf208e8bacaf6693f5f2a5f",
+          "url": "https://linuxbrew.bintray.com/bottles/skipfish-2.10b_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a055fdc76fae7fc46cf6c2098ac21b7e88bfcc63c29c88e9727f0ecb83a4e99d",
+          "url": "https://linuxbrew.bintray.com/bottles/skipfish-2.10b_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "NOTE: Skipfish uses dictionary-based probes and will not run until\nyou have specified a dictionary for it to use. Please read:\n  /home/tim/.linuxbrew/Cellar/skipfish/2.10b_1/libexec/doc/dictionaries.txt\ncarefully to make the right choice. This step has a profound impact\non the quality of results later on.\n\nUse this command to print usage information:\n  skipfish -h\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libidn",
+    "pcre",
+    "openssl"
+  ],
+  "desc": "Web application security scanner",
+  "full_name": "skipfish",
+  "homepage": "https://code.google.com/archive/p/skipfish/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "skipfish",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.10b"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "691763e02e7e63b03d2d530447798351ab92d705fb1fd68cc90f9a5ccd131d53",
+          "url": "https://linuxbrew.bintray.com/bottles/libshout-2.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "31b3490184bacfbacc6a537385f7ebc421ae750cd2e466f00d53dc9f78ebf948",
+          "url": "https://linuxbrew.bintray.com/bottles/libshout-2.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a13a78cf64be826de47b9bc0430ead7ac900fa513be146ad408370d412ce3bce",
+          "url": "https://linuxbrew.bintray.com/bottles/libshout-2.4.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3412147c3ebff685e303a54e50806ea32731f72c8b127dcc7665795ee39ff5b5",
+          "url": "https://linuxbrew.bintray.com/bottles/libshout-2.4.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libogg",
+    "libvorbis",
+    "theora",
+    "speex"
+  ],
+  "desc": "Data and connectivity library for the icecast server",
+  "full_name": "libshout",
+  "homepage": "http://www.icecast.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libshout",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.1"
+  }
+}

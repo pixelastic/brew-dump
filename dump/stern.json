@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a859e5e08c7b14c4dc73d0af89327658af4731c9d522929e930741c326adc3f2",
+          "url": "https://linuxbrew.bintray.com/bottles/stern-1.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a68996e613063c260146902daa371db533ae911f96a4836e0ad797f7fcf750df",
+          "url": "https://linuxbrew.bintray.com/bottles/stern-1.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c2499dd1dc239e477cf726824882505bcc8dec9dc88167c3ee8ce5bf97dd4c8e",
+          "url": "https://linuxbrew.bintray.com/bottles/stern-1.6.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "bb9418b43c956ab9cedd45bc0372d405ad619d7c0f6f22aaafd6bc331e920035",
+          "url": "https://linuxbrew.bintray.com/bottles/stern-1.6.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "govendor"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "govendor"
+  ],
+  "desc": "Tail multiple Kubernetes pods & their containers",
+  "full_name": "stern",
+  "homepage": "https://github.com/wercker/stern",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "stern",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.6.0"
+  }
+}

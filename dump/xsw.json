@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b7a6391cf0df4a4d514a33188dc67a8fac551a3f66e82da626c4d4877cfe5274",
+          "url": "https://linuxbrew.bintray.com/bottles/xsw-0.3.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "09e57751cad18711cdc71cf47442366fda1bdb0adf6d156605c0ad2cc49be4fd",
+          "url": "https://linuxbrew.bintray.com/bottles/xsw-0.3.5.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "3bd5da94a5c179f2cb40fdb8f385d0baeaed2a88aceb0f7a3839a9c6c605549f",
+          "url": "https://linuxbrew.bintray.com/bottles/xsw-0.3.5.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "02e0d7c1f309b1743d11555af5601ddbf462c835e81f6188dd3f46835978a86a",
+          "url": "https://linuxbrew.bintray.com/bottles/xsw-0.3.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8652e603fa053db1bfedeebad3699f6c77158a7133b55b37cea9ac33981aec8f",
+          "url": "https://linuxbrew.bintray.com/bottles/xsw-0.3.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl",
+    "sdl_ttf",
+    "sdl_image",
+    "sdl_gfx"
+  ],
+  "desc": "Slide show presentation tool",
+  "full_name": "xsw",
+  "homepage": "https://code.google.com/archive/p/xsw/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xsw",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.5"
+  }
+}

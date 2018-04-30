@@ -1,0 +1,91 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9172af9ae56b649b51f987a2ebee06f0c58ca070d63556fd65260ffbb1f11b76",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl2_image-2.0.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5e85d55eb46958bfba548130aebcccfab0a98f048063b0074980940851fa59a1",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl2_image-2.0.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "feeb2704291485affd5d3c4dee9842d4fdc006b2c0d8a49ab8010f2393dd2580",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl2_image-2.0.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "05077a75c8b20facd3dde01d67cefaf300d3f99ed60f5d7933c6baeee5838fff",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl2_image-2.0.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "sdl2",
+    "jpeg",
+    "libpng",
+    "libtiff",
+    "webp"
+  ],
+  "desc": "Library for loading images as SDL surfaces and textures",
+  "full_name": "sdl2_image",
+  "homepage": "https://www.libsdl.org/projects/SDL_image/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sdl2_image",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without jpeg support",
+      "option": "--without-jpeg"
+    },
+    {
+      "description": "Build without libpng support",
+      "option": "--without-libpng"
+    },
+    {
+      "description": "Build without libtiff support",
+      "option": "--without-libtiff"
+    },
+    {
+      "description": "Build without webp support",
+      "option": "--without-webp"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "jpeg",
+    "libpng",
+    "libtiff",
+    "webp"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.3"
+  }
+}

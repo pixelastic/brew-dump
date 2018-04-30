@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "319f943c77bfd0fd1b6ecebd0bc052e5d11f28d4ae9f6d33ad4f2ccf823c3c2e",
+          "url": "https://linuxbrew.bintray.com/bottles/assh-2.7.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8806717c2c661b8460f208030f2902c91ad24972fcfc337e62f94032c9df96fa",
+          "url": "https://linuxbrew.bintray.com/bottles/assh-2.7.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8858022552599fa0af8807b6bdb760c2011884f904f46a3015efc7bedcbecda7",
+          "url": "https://linuxbrew.bintray.com/bottles/assh-2.7.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "100b488753239611f2bcb833228d2da38603c3d4eca06b821fc19f14dfd52f8f",
+          "url": "https://linuxbrew.bintray.com/bottles/assh-2.7.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Advanced SSH config - Regex, aliases, gateways, includes and dynamic hosts",
+  "full_name": "assh",
+  "homepage": "https://github.com/moul/advanced-ssh-config",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "assh",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.7.0"
+  }
+}

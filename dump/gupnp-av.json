@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d5adf2d8f3eeb96a9910b2c41e0cc732226d5beeb4ad8a3edf091036feb3399d",
+          "url": "https://linuxbrew.bintray.com/bottles/gupnp-av-0.12.10_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "022dbc5e4b3f60c9e32d55315ae2191a49f574172f550b74ad18625ebf326467",
+          "url": "https://linuxbrew.bintray.com/bottles/gupnp-av-0.12.10_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f65e6ee6a9d7e68bd261ccc56501db503088e3e63c9b42277bb07e30ab8cda1f",
+          "url": "https://linuxbrew.bintray.com/bottles/gupnp-av-0.12.10_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "gettext",
+    "gupnp"
+  ],
+  "desc": "Library to help implement UPnP A/V profiles",
+  "full_name": "gupnp-av",
+  "homepage": "https://wiki.gnome.org/GUPnP/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gupnp-av",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.12.10"
+  }
+}

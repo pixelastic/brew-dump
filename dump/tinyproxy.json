@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2ccb9fb5ba5dd782407fa1c6d261d57eaa4189c902e674cbed839c903e39c177",
+          "url": "https://linuxbrew.bintray.com/bottles/tinyproxy-1.8.4.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7e7250cfbda60dcf40e291ce777842953bdfa573023ca28d2b09eefe41c0e523",
+          "url": "https://linuxbrew.bintray.com/bottles/tinyproxy-1.8.4.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f04c44c7119f0eac9c0ec0a9a48044808d9e2fc2f1a8c0ddf197206fa0683e4a",
+          "url": "https://linuxbrew.bintray.com/bottles/tinyproxy-1.8.4.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "asciidoc",
+    "docbook-xsl"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "asciidoc",
+    "docbook-xsl"
+  ],
+  "desc": "HTTP/HTTPS proxy for POSIX systems",
+  "full_name": "tinyproxy",
+  "homepage": "https://www.banu.com/tinyproxy/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tinyproxy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable reverse proxying",
+      "option": "--with-reverse"
+    },
+    {
+      "description": "Enable transparent proxying",
+      "option": "--with-transparent"
+    },
+    {
+      "description": "Enable url filtering",
+      "option": "--with-filter"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.4"
+  }
+}

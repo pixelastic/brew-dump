@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e7b9ed6bef435d7de8e986cedfc76779f2655bfac7ed780afb33a42e92b8d01d",
+          "url": "https://linuxbrew.bintray.com/bottles/iftop-1.0pre4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c582f943657323d52493e9b85d05a9ac5b079dd1bb74075fbcd5952f2758fbd7",
+          "url": "https://linuxbrew.bintray.com/bottles/iftop-1.0pre4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "9563857745dca2db9f91388d3f0d0fae4b6cdc2fc6ff84ffce14325c0cafee0f",
+          "url": "https://linuxbrew.bintray.com/bottles/iftop-1.0pre4.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3a75c5edf29f6cbac19641910661423ed2f0b83f3e0de28c8417be76f4ce5c38",
+          "url": "https://linuxbrew.bintray.com/bottles/iftop-1.0pre4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5ac910598f86716e0dc676f0fd44af51da141ad84dfbaf5535a31f11ab91ffd7",
+          "url": "https://linuxbrew.bintray.com/bottles/iftop-1.0pre4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "iftop requires root privileges so you will need to run `sudo iftop`.\nYou should be certain that you trust any software you grant root privileges.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Display an interface's bandwidth usage",
+  "full_name": "iftop",
+  "homepage": "http://www.ex-parrot.com/~pdw/iftop/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "iftop",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0pre4"
+  }
+}

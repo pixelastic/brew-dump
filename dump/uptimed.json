@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1aa7991db96ff3cb2a2d2e9a62177a724380068ddd5f37501fc0cfa9e87bb0d2",
+          "url": "https://linuxbrew.bintray.com/bottles/uptimed-0.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0cf4e158be10141b759d7cb0edcea6ead489b64e625751dc3df5f8a5b49f3916",
+          "url": "https://linuxbrew.bintray.com/bottles/uptimed-0.4.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "3ce223958f06002df59fc9738b539832a9198a9f574b86f8ceab3c4f38936d6c",
+          "url": "https://linuxbrew.bintray.com/bottles/uptimed-0.4.0.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "ad260249020068e03bf37c944db598799ed08d57f485ae78d7831c3f9f027cf2",
+          "url": "https://linuxbrew.bintray.com/bottles/uptimed-0.4.0.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "35abda91e2e732e28a6e967e421d9e571678c17725149098dd8543c632f8ca0d",
+          "url": "https://linuxbrew.bintray.com/bottles/uptimed-0.4.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "cd0bd1b637357439872b01eeb3b32e10c111dd630b711bbd0ea7488f66c68a64",
+          "url": "https://linuxbrew.bintray.com/bottles/uptimed-0.4.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "desc": "Utility to track your highest uptimes",
+  "full_name": "uptimed",
+  "homepage": "https://github.com/rpodgorny/uptimed/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "uptimed",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.0"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1f854142829a3d1f60871e50d49145e0b90b80832bc64cb000e2f2f5a488988d",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-18.04.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cbadfb1426927ab3643a03aaa36c9d2f9557532d1242c66a49196d56b4347110",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-18.04.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3a891a58beaf58cfd426c8b28de28d40641f7c99d24f3122d423be238a6da4ac",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-18.04.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6f06b96436200876d091e63d4b0d65ed0255e86517f25e0164ddc51757ce6553",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-18.04.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Pack, ship and run any application as a lightweight container",
+  "full_name": "docker",
+  "homepage": "https://www.docker.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "docker",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable experimental features",
+      "option": "--with-experimental"
+    },
+    {
+      "description": "Disable bash/zsh completions",
+      "option": "--without-completions"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "18.04.0"
+  }
+}

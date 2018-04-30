@@ -1,0 +1,105 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "95a8d1f152c57161dee4f0f36a7409ff413631d0ca5afb7fe5d986b13abaf0ae",
+          "url": "https://linuxbrew.bintray.com/bottles/qemu-2.12.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ef4da4274e0e582cff223d46736d386ea78444e7943bcb47f4541bec9e6b7786",
+          "url": "https://linuxbrew.bintray.com/bottles/qemu-2.12.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c896fa77d0b63a9c7fc5e7ad9ee64ab72c3d0995cc1031ef9326b41a3d189240",
+          "url": "https://linuxbrew.bintray.com/bottles/qemu-2.12.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libtool",
+    "jpeg",
+    "gnutls",
+    "glib",
+    "ncurses",
+    "pixman",
+    "libpng",
+    "vde",
+    "sdl2",
+    "gtk+",
+    "libssh2",
+    "libusb"
+  ],
+  "desc": "x86 and PowerPC Emulator",
+  "full_name": "qemu",
+  "homepage": "https://www.qemu.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qemu",
+  "oldname": null,
+  "optional_dependencies": [
+    "vde",
+    "sdl2",
+    "gtk+",
+    "libssh2",
+    "libusb"
+  ],
+  "options": [
+    {
+      "description": "Build without libpng support",
+      "option": "--without-libpng"
+    },
+    {
+      "description": "Build with vde support",
+      "option": "--with-vde"
+    },
+    {
+      "description": "Build with sdl2 support",
+      "option": "--with-sdl2"
+    },
+    {
+      "description": "Build with gtk+ support",
+      "option": "--with-gtk+"
+    },
+    {
+      "description": "Build with libssh2 support",
+      "option": "--with-libssh2"
+    },
+    {
+      "description": "Build with libusb support",
+      "option": "--with-libusb"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libpng"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.12.0"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e44fe1d83cedac0ccf9e22a406e8efac399ac281fbc858dbc20d7b57fe564503",
+          "url": "https://linuxbrew.bintray.com/bottles/userspace-rcu-0.10.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9e3e9a7e4615f206faab5567f4eeab37dfa0aad7bdb9113803716df70abb9e0e",
+          "url": "https://linuxbrew.bintray.com/bottles/userspace-rcu-0.10.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a9e38da39a4afa118c7eeb9cadbb0466caea3f77a8525473a6603297b0d32a9f",
+          "url": "https://linuxbrew.bintray.com/bottles/userspace-rcu-0.10.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "19fb5168b502f234ac08a60a02cfcbf80a016c511afe7190ad019e015454ea5a",
+          "url": "https://linuxbrew.bintray.com/bottles/userspace-rcu-0.10.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library for userspace RCU (read-copy-update)",
+  "full_name": "userspace-rcu",
+  "homepage": "https://lttng.org/urcu",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "userspace-rcu",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.10.1"
+  }
+}

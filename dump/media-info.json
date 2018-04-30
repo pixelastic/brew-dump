@@ -1,0 +1,68 @@
+{
+  "aliases": [
+    "mediainfo"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e39b77f8806962c4244895252d3a6214de9e3eaae5bb7796f23069195824ba09",
+          "url": "https://linuxbrew.bintray.com/bottles/media-info-18.03.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "be8dd1c8bfb6e0f7e9a25ab944a49a8ba833a5977a4748da2e2c00ffcc8e7a12",
+          "url": "https://linuxbrew.bintray.com/bottles/media-info-18.03.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eb7e5952204d280fc5edc5851a75530d5ce1e7d59c6ac5fd68ed69c55e623fdd",
+          "url": "https://linuxbrew.bintray.com/bottles/media-info-18.03.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "eaf2ebf642472fba6f0e2277d9c1e06b193cdd7c05e4969dcf13d68f1622473a",
+          "url": "https://linuxbrew.bintray.com/bottles/media-info-18.03.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "curl"
+  ],
+  "desc": "Unified display of technical and tag data for audio/video",
+  "full_name": "media-info",
+  "homepage": "https://mediaarea.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "media-info",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "18.03.1"
+  }
+}

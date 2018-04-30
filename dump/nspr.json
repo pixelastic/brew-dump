@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "437a7baf3aaddbcfe35b4a51351c3993e92b8f82b1171759a76ea144da3a5100",
+          "url": "https://linuxbrew.bintray.com/bottles/nspr-4.19.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e422c79b0be3e83e776034c41583ff7321b23b627b0e8de577615a1546fcc3b9",
+          "url": "https://linuxbrew.bintray.com/bottles/nspr-4.19.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d58d218efa11c262e774476d5ca85a9b0e239c6c5c01f2b11cb0c43d2c31b0df",
+          "url": "https://linuxbrew.bintray.com/bottles/nspr-4.19.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "91ee6d9f3b909f46ea225f4383340984d5e50ee297b1e7efe2be342d32d2f8bd",
+          "url": "https://linuxbrew.bintray.com/bottles/nspr-4.19.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Platform-neutral API for system-level and libc-like functions",
+  "full_name": "nspr",
+  "homepage": "https://developer.mozilla.org/docs/Mozilla/Projects/NSPR",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nspr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.19"
+  }
+}

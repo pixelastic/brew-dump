@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d0bc5f5a1612ebc7c8c7f87683de9b0b9b18ac4613d1ee86a9c8492e313e49bb",
+          "url": "https://linuxbrew.bintray.com/bottles/gearsystem-2.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7418143c6dbed6394c80db06f9ce28874a3af418af9fc17a4277fe55e7c53349",
+          "url": "https://linuxbrew.bintray.com/bottles/gearsystem-2.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "579a1d3668570bec0a4ce146209de78017cc217502fe0ef554a7fb2d3a02276f",
+          "url": "https://linuxbrew.bintray.com/bottles/gearsystem-2.2_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f1ec02f10552f11a9b134eed2dc6263c625b6af8582a05fdd5ef697032dbeeb1",
+          "url": "https://linuxbrew.bintray.com/bottles/gearsystem-2.2_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "qt",
+    "sdl2"
+  ],
+  "desc": "Sega Master System / Game Gear emulator",
+  "full_name": "gearsystem",
+  "homepage": "https://github.com/drhelius/Gearsystem",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gearsystem",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.2"
+  }
+}

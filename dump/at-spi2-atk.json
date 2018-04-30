@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "01c0e01277843d36e5cacb8b8c07e1096f1a3c53d92ed49aba4af8a96e0e15dc",
+          "url": "https://linuxbrew.bintray.com/bottles/at-spi2-atk-2.26.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fa992dfbe9bcb014cb0d5bc3fa2700cd6cb51d82ff18a3998cde6b9fa3ea75a6",
+          "url": "https://linuxbrew.bintray.com/bottles/at-spi2-atk-2.26.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "958cc79b52ac7917259dd5dd4dd47b770722447843b25ae4c8272b36efa868d8",
+          "url": "https://linuxbrew.bintray.com/bottles/at-spi2-atk-2.26.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a40dd76569b54a4b71fdabacfd66075b67fbbd5bd04ada3aeab8e9462eb7cf02",
+          "url": "https://linuxbrew.bintray.com/bottles/at-spi2-atk-2.26.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "meson-internal",
+    "ninja",
+    "python"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "meson-internal",
+    "ninja",
+    "python",
+    "at-spi2-core",
+    "atk",
+    "libxml2"
+  ],
+  "desc": "Accessibility Toolkit GTK+ module",
+  "full_name": "at-spi2-atk",
+  "homepage": "http://a11y.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "at-spi2-atk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.26.2"
+  }
+}

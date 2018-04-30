@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "db352c9768533ee682c220f25b033284c2bc7a7eda9d3a2a719752ef3670fc80",
+          "url": "https://linuxbrew.bintray.com/bottles/grv-0.1.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "69468692838a2d4c1431bb8d45602301ee9b88118b8d3026ab49c843582d44d0",
+          "url": "https://linuxbrew.bintray.com/bottles/grv-0.1.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d69600ed8ca803e48f28ac57ee9a6bf7a8577bfecf71dd16ca25e79cd16a805a",
+          "url": "https://linuxbrew.bintray.com/bottles/grv-0.1.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "go",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "go",
+    "pkg-config",
+    "readline"
+  ],
+  "desc": "Terminal interface for viewing git repositories",
+  "full_name": "grv",
+  "homepage": "https://github.com/rgburke/grv",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "grv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.1.3"
+  }
+}

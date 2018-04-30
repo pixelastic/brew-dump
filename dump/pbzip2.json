@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "be653d724b6f061cb9939dbdbf457aebc275e16dbf599f598b9ff3999fdd5db3",
+          "url": "https://linuxbrew.bintray.com/bottles/pbzip2-1.1.13.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d72e618d7301937ab6a392e1ef3d9ed1f8d5380cd6516ea17b4e4bde11eea9a7",
+          "url": "https://linuxbrew.bintray.com/bottles/pbzip2-1.1.13.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c15b9c38b5302286033e54ff4be006c3b31ccb179f96641e44f1126958527d7e",
+          "url": "https://linuxbrew.bintray.com/bottles/pbzip2-1.1.13.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f212965d48b2321dde49bded9cc2d6e55e6d5083c5a232025f7bc3c077360eec",
+          "url": "https://linuxbrew.bintray.com/bottles/pbzip2-1.1.13.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ad103aef3e2d72293cfed3fcc42999afee9b4fc332f8319e3c079758215411c9",
+          "url": "https://linuxbrew.bintray.com/bottles/pbzip2-1.1.13.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Parallel bzip2",
+  "full_name": "pbzip2",
+  "homepage": "http://compression.ca/pbzip2/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pbzip2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.13"
+  }
+}

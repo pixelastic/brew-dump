@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1f47eb5329f01e3e898280e71608d6089525919849dc58a9b29d28a56fef3dfb",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-autoar-0.2.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0273f2d8e8e89ab1e3e53ea465ef940ab3641dd1e259b0642866df8e616e4374",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-autoar-0.2.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2b75c73250644bb5e8bdac7bc72d61d08373a25f54081f71e52fd4e71fed727d",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-autoar-0.2.3_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libarchive",
+    "gtk+3"
+  ],
+  "desc": "GNOME library for archive handling",
+  "full_name": "gnome-autoar",
+  "homepage": "https://github.com/GNOME/gnome-autoar",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnome-autoar",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.3"
+  }
+}

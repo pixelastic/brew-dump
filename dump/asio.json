@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "fbb2170a86dcb1af7b899e0a877dd5351ae891abf3a3bc82e0afc7ce3b5dfa24",
+          "url": "https://linuxbrew.bintray.com/bottles/asio-1.12.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "65892f6827794887cb8ace02435bdbce35e213b74e3c8acfc157a9f5ef41f239",
+          "url": "https://linuxbrew.bintray.com/bottles/asio-1.12.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6564529f098c6f936c7b57aaf562c396f89bc4e8b13018b1bf395502616b4b92",
+          "url": "https://linuxbrew.bintray.com/bottles/asio-1.12.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "boost",
+    "openssl"
+  ],
+  "desc": "Cross-platform C++ Library for asynchronous programming",
+  "full_name": "asio",
+  "homepage": "https://think-async.com/Asio",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "asio",
+  "oldname": null,
+  "optional_dependencies": [
+    "boost"
+  ],
+  "options": [
+    {
+      "description": "Use Boost.Coroutine to implement stackful coroutines",
+      "option": "--with-boost-coroutine"
+    },
+    {
+      "description": "Build with boost support",
+      "option": "--with-boost"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.12.1"
+  }
+}

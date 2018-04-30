@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "34d1aca980ed2894b743656b271aa42a36b69a4828763c1c1c5ded1638110570",
+          "url": "https://linuxbrew.bintray.com/bottles/unravel-0.2.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ea6f701ccd6c808661420c77e5c2b2b73b3b3a3a646f18e91e235c3c3843a560",
+          "url": "https://linuxbrew.bintray.com/bottles/unravel-0.2.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9110d228db2cf18125861f289705c135fc7c5ac9b3ebdd01aa69726d7b758ed3",
+          "url": "https://linuxbrew.bintray.com/bottles/unravel-0.2.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "lumo",
+    "node"
+  ],
+  "desc": "Command-line client for Clojure REPLs",
+  "full_name": "unravel",
+  "homepage": "https://github.com/pesterhazy/unravel",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "unravel",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "0.3.0-beta.2",
+    "head": null,
+    "stable": "0.2.2"
+  }
+}

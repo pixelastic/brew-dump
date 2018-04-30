@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d5d87c12f03e64d62421aff27732605801ba70a50c62b2815f468ce737306d9d",
+          "url": "https://linuxbrew.bintray.com/bottles/xml-tooling-c-1.6.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1c3be0d73b48e5e47284623bae7f3a8840e2bc0684d0146f550c637f0aca1b6b",
+          "url": "https://linuxbrew.bintray.com/bottles/xml-tooling-c-1.6.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7bd073591df0e604d227de6a69883ddfa72b2dee9fa2b44c1ab57fd5b4c24276",
+          "url": "https://linuxbrew.bintray.com/bottles/xml-tooling-c-1.6.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ed0dfe1e396c6c57891b453a3605f1ff48ea48218d2851fd5fa775b8daf90d47",
+          "url": "https://linuxbrew.bintray.com/bottles/xml-tooling-c-1.6.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "log4shib",
+    "xerces-c",
+    "xml-security-c",
+    "boost",
+    "openssl",
+    "curl"
+  ],
+  "desc": "Provides a higher level interface to XML processing",
+  "full_name": "xml-tooling-c",
+  "homepage": "https://wiki.shibboleth.net/confluence/display/OpenSAML/XMLTooling-C",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xml-tooling-c",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.4"
+  }
+}

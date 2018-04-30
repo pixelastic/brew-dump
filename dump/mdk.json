@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "89057b07b4bd94ba0b18d0f3c8e22c4b27bf1ba70ab1d7c2f34c0bbb656ecb9d",
+          "url": "https://linuxbrew.bintray.com/bottles/mdk-1.2.9_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2182d170320ab65c99e6ae1cadb466226102aa0efa061688f3ea91cac4a60765",
+          "url": "https://linuxbrew.bintray.com/bottles/mdk-1.2.9_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a3be192cba5f0eee43813911d6204235358a478c64a4f3c4bdd8f083a2abba82",
+          "url": "https://linuxbrew.bintray.com/bottles/mdk-1.2.9_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "intltool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "intltool",
+    "pkg-config",
+    "gtk+",
+    "libglade",
+    "glib",
+    "flex",
+    "guile",
+    "readline"
+  ],
+  "desc": "GNU MIX development kit",
+  "full_name": "mdk",
+  "homepage": "https://www.gnu.org/software/mdk/mdk.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mdk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.9"
+  }
+}

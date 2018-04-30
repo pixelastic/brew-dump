@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "621e5fb3c02c63cff8490b7d104d397b19b9512bdab94217d07f7f5319de1159",
+          "url": "https://linuxbrew.bintray.com/bottles/gbdfed-1.6_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5b4319ca75f1018403e0d2cc8db794d18b317d0cfee6270e6400fa2e4fb9b87f",
+          "url": "https://linuxbrew.bintray.com/bottles/gbdfed-1.6_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "14cb0338597a0c954308d2011a422239005d6ab36f80f2488d71972932bc1d3d",
+          "url": "https://linuxbrew.bintray.com/bottles/gbdfed-1.6_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gtk+"
+  ],
+  "desc": "Bitmap Font Editor",
+  "full_name": "gbdfed",
+  "homepage": "http://sofia.nmsu.edu/~mleisher/Software/gbdfed/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gbdfed",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6"
+  }
+}

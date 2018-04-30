@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "cf0b79bd037b53d985c758b9b1e90c530e6ce4fd976e9ad14595806610f4f248",
+          "url": "https://linuxbrew.bintray.com/bottles/pass-1.7.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cf0b79bd037b53d985c758b9b1e90c530e6ce4fd976e9ad14595806610f4f248",
+          "url": "https://linuxbrew.bintray.com/bottles/pass-1.7.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cf0b79bd037b53d985c758b9b1e90c530e6ce4fd976e9ad14595806610f4f248",
+          "url": "https://linuxbrew.bintray.com/bottles/pass-1.7.1_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "554e5548a9e79f7c5c7ebf0de863699a468d307cfc9761f4fae93a971563dfd1",
+          "url": "https://linuxbrew.bintray.com/bottles/pass-1.7.1_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "qrencode",
+    "tree",
+    "gnu-getopt",
+    "gnupg"
+  ],
+  "desc": "Password manager",
+  "full_name": "pass",
+  "homepage": "https://www.passwordstore.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pass",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.7.1"
+  }
+}

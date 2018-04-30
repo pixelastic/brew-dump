@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "e1e66c950b66c9bd59b43566a4a5919f4f14a0331c7d9aa062d8c6a152e157c4",
+          "url": "https://linuxbrew.bintray.com/bottles/qt@5.5-5.5.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "30c5a19c4c18737d40ab072d27a1b5220e746eb7a549812ceb1799eb07cfd58f",
+          "url": "https://linuxbrew.bintray.com/bottles/qt@5.5-5.5.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f44403a72ab524a6f010bcf86f1414c42729f4763f4e7c2cfb0f6cba2b6135d2",
+          "url": "https://linuxbrew.bintray.com/bottles/qt@5.5-5.5.1_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "debdc797d8314548a7cfc05ac97699d98ceeaf46265180a979bbb96190024d1c",
+          "url": "https://linuxbrew.bintray.com/bottles/qt@5.5-5.5.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "We agreed to the Qt opensource license for you.\nIf this is unacceptable you should uninstall.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Cross-platform application and UI framework",
+  "full_name": "qt@5.5",
+  "homepage": "https://www.qt.io/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "qt@5.5",
+  "oldname": "qt55",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.5.1"
+  }
+}

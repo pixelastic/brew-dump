@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4c3bd277100d597d7b773fe4ef352658cb1c47c9af62d4a832bcb314048e7a7e",
+          "url": "https://linuxbrew.bintray.com/bottles/lwtools-4.15.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "60c533f65bf648768d5f1f3b7187c71c2e4144571f6e24009aabfbd512858146",
+          "url": "https://linuxbrew.bintray.com/bottles/lwtools-4.15.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5519f50965bf8fa7f3f2361eab1ae240f7cfd2ac1c9e0c2fecc045950e14768a",
+          "url": "https://linuxbrew.bintray.com/bottles/lwtools-4.15.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "505f92133c19350b2c32ac2371135618b2b5487a260e5309f5edc65c2b1b875f",
+          "url": "https://linuxbrew.bintray.com/bottles/lwtools-4.15.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Cross-development tools for Motorola 6809 and Hitachi 6309",
+  "full_name": "lwtools",
+  "homepage": "http://lwtools.projects.l-w.ca/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lwtools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.15"
+  }
+}

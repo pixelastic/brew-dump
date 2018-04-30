@@ -1,0 +1,85 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5648c8c74bc0d6e8972f2a6df81a08dd209a902b0cbb72c91a3456178e36b0b4",
+          "url": "https://linuxbrew.bintray.com/bottles/gdcm-2.8.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2bd95f05df6e1d55db4494a8553e95af0efa14c8ed7a811fc809ea44abb89f2b",
+          "url": "https://linuxbrew.bintray.com/bottles/gdcm-2.8.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6e8305b80da7c30655e2c9354fa48c6547156fe06faf2a23590f4d2284309fc9",
+          "url": "https://linuxbrew.bintray.com/bottles/gdcm-2.8.6.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "swig",
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "python",
+    "swig",
+    "cmake",
+    "pkg-config",
+    "openjpeg",
+    "openssl"
+  ],
+  "desc": "Grassroots DICOM library and utilities for medical files",
+  "full_name": "gdcm",
+  "homepage": "https://sourceforge.net/projects/gdcm/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gdcm",
+  "oldname": null,
+  "optional_dependencies": [
+    "python"
+  ],
+  "options": [
+    {
+      "description": "Build without python2 support",
+      "option": "--without-python@2"
+    },
+    {
+      "description": "Build with python support",
+      "option": "--with-python"
+    },
+    {
+      "description": "Build without python support",
+      "option": "--without-python"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python@2",
+    "python"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.8.6"
+  }
+}

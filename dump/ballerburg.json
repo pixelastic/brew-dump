@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "314236d328ffdbaa4ddbcfbe38566ab0669df3935a9a051d3366a8d0e87d3de9",
+          "url": "https://linuxbrew.bintray.com/bottles/ballerburg-1.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "23ecdb1ee06b96cff2e51117b3ff0bf8f0b6f29195e3d2d6323ca8dd72c79074",
+          "url": "https://linuxbrew.bintray.com/bottles/ballerburg-1.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fa38cec8799ff4dcd33735146d4d93c986eb42c72bf6a9f1b3bd997acb5613c1",
+          "url": "https://linuxbrew.bintray.com/bottles/ballerburg-1.2.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "46502878f24bf976bc5798ff74c145059f642ca2e9cb9d8467e296ad5b582f00",
+          "url": "https://linuxbrew.bintray.com/bottles/ballerburg-1.2.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "sdl"
+  ],
+  "desc": "Castle combat game",
+  "full_name": "ballerburg",
+  "homepage": "https://baller.tuxfamily.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ballerburg",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.0"
+  }
+}

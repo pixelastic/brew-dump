@@ -1,0 +1,97 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9a98dacafd9b7be723a9549d4b51709495ab1d3cbf4b1b1c8837045a99735d31",
+          "url": "https://linuxbrew.bintray.com/bottles/libquicktime-1.2.4_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f507d898a0237474e45a9780d08113887e00ddd6ae35934bbac4ef4e65d58dca",
+          "url": "https://linuxbrew.bintray.com/bottles/libquicktime-1.2.4_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9256a6709e81af34e6ad4655436fc533a30471c0ea06a18805c38ab2e086e510",
+          "url": "https://linuxbrew.bintray.com/bottles/libquicktime-1.2.4_4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c72dbe86fec59159f71e2ac1b2e5df919ed6bd212c698b7347a01753eed3eb3d",
+          "url": "https://linuxbrew.bintray.com/bottles/libquicktime-1.2.4_4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gettext",
+    "jpeg",
+    "lame",
+    "schroedinger",
+    "ffmpeg",
+    "libvorbis"
+  ],
+  "desc": "Library for reading and writing quicktime files",
+  "full_name": "libquicktime",
+  "homepage": "https://libquicktime.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libquicktime",
+  "oldname": null,
+  "optional_dependencies": [
+    "jpeg",
+    "lame",
+    "schroedinger",
+    "ffmpeg",
+    "libvorbis"
+  ],
+  "options": [
+    {
+      "description": "Build with jpeg support",
+      "option": "--with-jpeg"
+    },
+    {
+      "description": "Build with lame support",
+      "option": "--with-lame"
+    },
+    {
+      "description": "Build with schroedinger support",
+      "option": "--with-schroedinger"
+    },
+    {
+      "description": "Build with ffmpeg support",
+      "option": "--with-ffmpeg"
+    },
+    {
+      "description": "Build with libvorbis support",
+      "option": "--with-libvorbis"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.4"
+  }
+}

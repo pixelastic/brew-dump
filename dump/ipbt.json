@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3ebaf07effeb98490201a2c8cc38bfdaec25c0db5a6bf3f2936f72b944ee5309",
+          "url": "https://linuxbrew.bintray.com/bottles/ipbt-20170831.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ca5fe4bf38c28b6134ef995643328af82277bac9765064cafa95c7be096cbb51",
+          "url": "https://linuxbrew.bintray.com/bottles/ipbt-20170831.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f9dd24a2a7bd67ee00a4763b6931975f27443d906d91795962ca8a1eb647d269",
+          "url": "https://linuxbrew.bintray.com/bottles/ipbt-20170831.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e34aa3fe17d78357c1d0def0bf80cf5c1b1611ea7692079a55a01310c1956b35",
+          "url": "https://linuxbrew.bintray.com/bottles/ipbt-20170831.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "511b256cd2f9eda3db809f2a46c47ed72c7a4fadef4fb16bb5197766cc966fe9",
+          "url": "https://linuxbrew.bintray.com/bottles/ipbt-20170831.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "desc": "Program for recording a UNIX terminal session",
+  "full_name": "ipbt",
+  "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/ipbt/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ipbt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20170831"
+  }
+}

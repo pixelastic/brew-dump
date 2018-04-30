@@ -1,0 +1,81 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ddefe1801b23dcbfd19c06fa8c85f20bf618e2129ff1db55e4fe252a55acfdca",
+          "url": "https://linuxbrew.bintray.com/bottles/glib-2.56.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ecf8e80be0bfd37f484125c3b433edadbb842fd112335ca1f14c4034fcf040d8",
+          "url": "https://linuxbrew.bintray.com/bottles/glib-2.56.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f121604cc5d37e8c6391043018307b0c2ab28fbc903bfc513c77a52a6bdcc8cc",
+          "url": "https://linuxbrew.bintray.com/bottles/glib-2.56.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4d0e6164d73d56f534fda78f5e0177ae23ccc32aaffde51fbd30af17ac49b28b",
+          "url": "https://linuxbrew.bintray.com/bottles/glib-2.56.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool",
+    "gettext",
+    "libffi",
+    "pcre",
+    "util-linux",
+    "python@2"
+  ],
+  "desc": "Core application library for C",
+  "full_name": "glib",
+  "homepage": "https://developer.gnome.org/glib/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "glib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build a debug build and run tests. NOTE: Not all tests succeed yet",
+      "option": "--with-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.56.1"
+  }
+}

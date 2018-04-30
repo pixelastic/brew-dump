@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "24f385afff1c9074d995cd1374c005e8770a80ef11b06058f6024eee67a9de69",
+          "url": "https://linuxbrew.bintray.com/bottles/podiff-1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c862b6ec4c259c495879fd91dcb143e9768b2cbb12ae5e07506d63350e36cdbb",
+          "url": "https://linuxbrew.bintray.com/bottles/podiff-1.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c3a3b66344303ad473d8c6808eb9e2a2124bb0a801536870b739beba4de3d5ae",
+          "url": "https://linuxbrew.bintray.com/bottles/podiff-1.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "be964cc5259d37f0f4676d5e3a0fac77b42e4f3e7641c7579d47182e4f036e83",
+          "url": "https://linuxbrew.bintray.com/bottles/podiff-1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "21cc248bf36ce685061e234f57c6fc5cbe0d207b201e7a8e485ee7b71d3d21c6",
+          "url": "https://linuxbrew.bintray.com/bottles/podiff-1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To use with git, add this to your .git/config or global git config file:\n\n  [diff \"podiff\"]\n  command = /home/tim/.linuxbrew/bin/podiff -D-u\n\nThen add the following line to the .gitattributes file in\nthe directory with your PO files:\n\n  *.po diff=podiff\n\nSee `man podiff` for more information.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Compare textual information in two PO files",
+  "full_name": "podiff",
+  "homepage": "https://puszcza.gnu.org.ua/software/podiff/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "podiff",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

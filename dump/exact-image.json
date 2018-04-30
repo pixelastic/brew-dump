@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4b5e274b9a97170371e21c26ef2ac783d498b2a8c92b34fd96d458e1ea10796b",
+          "url": "https://linuxbrew.bintray.com/bottles/exact-image-1.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e93a0efc81c5850ed6aae96b412506f619c8a91551131267186f193259b1a730",
+          "url": "https://linuxbrew.bintray.com/bottles/exact-image-1.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "785cbd24bf0673ea2d4870e328e0980dc147b558f91ac430ffe60a8224bf1c5d",
+          "url": "https://linuxbrew.bintray.com/bottles/exact-image-1.0.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libagg",
+    "freetype"
+  ],
+  "desc": "Image processing library",
+  "full_name": "exact-image",
+  "homepage": "https://exactcode.com/opensource/exactimage/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "exact-image",
+  "oldname": null,
+  "optional_dependencies": [
+    "freetype"
+  ],
+  "options": [
+    {
+      "description": "Build with freetype support",
+      "option": "--with-freetype"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.1"
+  }
+}

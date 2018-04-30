@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "835b905b32f65cfd4fe3a82e7ddce7d77536edc949a146bbdff79fce2cf69cce",
+          "url": "https://linuxbrew.bintray.com/bottles/feedgnuplot-1.49.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "33db12a4bdcc89874062b1c591cedb3e44c61013eae0363ce2d5f1d1e68d7d04",
+          "url": "https://linuxbrew.bintray.com/bottles/feedgnuplot-1.49.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6aa7778687e758c348d8e71351d0147d2b46df0668e699d1b197dccd927a28d7",
+          "url": "https://linuxbrew.bintray.com/bottles/feedgnuplot-1.49.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7164e5b28b83c773fe163968ff4ecfbc3e2cdb573213f7e6a411d4685c2acecb",
+          "url": "https://linuxbrew.bintray.com/bottles/feedgnuplot-1.49.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gnuplot"
+  ],
+  "desc": "Tool to plot realtime and stored data from the command-line",
+  "full_name": "feedgnuplot",
+  "homepage": "https://github.com/dkogan/feedgnuplot",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "feedgnuplot",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.49"
+  }
+}

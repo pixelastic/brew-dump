@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "29d37b9fc31a978d0767c4925e88fa9fe3cebf4a9f9278fa82a96baf5caa0db4",
+          "url": "https://linuxbrew.bintray.com/bottles/autojump-22.5.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8e302e0a90b898349749c4b83b3c758f4af76ad415f6ac5e245cc0df9c2c90e6",
+          "url": "https://linuxbrew.bintray.com/bottles/autojump-22.5.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "29d37b9fc31a978d0767c4925e88fa9fe3cebf4a9f9278fa82a96baf5caa0db4",
+          "url": "https://linuxbrew.bintray.com/bottles/autojump-22.5.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "69d2a91aab0d0885a9e1c4521cc36bfa4c59c58c371c45a4833544c9b826bc1f",
+          "url": "https://linuxbrew.bintray.com/bottles/autojump-22.5.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "29d37b9fc31a978d0767c4925e88fa9fe3cebf4a9f9278fa82a96baf5caa0db4",
+          "url": "https://linuxbrew.bintray.com/bottles/autojump-22.5.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Add the following line to your ~/.bash_profile or ~/.zshrc file (and remember\nto source the file to update your current session):\n  [ -f /home/tim/.linuxbrew/etc/profile.d/autojump.sh ] && . /home/tim/.linuxbrew/etc/profile.d/autojump.sh\n\nIf you use the Fish shell then add the following line to your ~/.config/fish/config.fish:\n  [ -f /home/tim/.linuxbrew/share/autojump/autojump.fish ]; and source /home/tim/.linuxbrew/share/autojump/autojump.fish\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Shell extension to jump to frequently used directories",
+  "full_name": "autojump",
+  "homepage": "https://github.com/wting/autojump",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "autojump",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "22.5.1"
+  }
+}

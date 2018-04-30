@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "acbc74c384071aa6be92bea754274c5025de0123afd389d1b174e444a7beec42",
+          "url": "https://linuxbrew.bintray.com/bottles/udptunnel-1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "938663a675b5ef62316fa1f7f4f33895d1b28af656ee722c5f8cf6ba94123f4e",
+          "url": "https://linuxbrew.bintray.com/bottles/udptunnel-1.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8f0051f653f62bef0e85f8ced4806a8bae244a911e05129e4fc2bf05912c9412",
+          "url": "https://linuxbrew.bintray.com/bottles/udptunnel-1.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c129b87c78c3297365d7e78b77985b69deb4def8d030b029d812bb25610b8bb0",
+          "url": "https://linuxbrew.bintray.com/bottles/udptunnel-1.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7b61046eb375d1abe286e360557ee85c7bd697a42317203074dde73819331e12",
+          "url": "https://linuxbrew.bintray.com/bottles/udptunnel-1.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8c4b8fb805fa94098925417a8fa61ced0d546b1b77330fd03cd5a72ee6e43b70",
+          "url": "https://linuxbrew.bintray.com/bottles/udptunnel-1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "desc": "Tunnel UDP packets over a TCP connection",
+  "full_name": "udptunnel",
+  "homepage": "https://web.archive.org/web/20161224191851/www.cs.columbia.edu/~lennox/udptunnel/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "udptunnel",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

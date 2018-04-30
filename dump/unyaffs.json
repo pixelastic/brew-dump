@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "fe8c38e3c09223e9cea5b052a4774b7e502b0a057101c788629727cbf942b786",
+          "url": "https://linuxbrew.bintray.com/bottles/unyaffs-0.9.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a5782b3ff1d562df3fc65956293b9fe51e8d75f1c746b0fd62e1b6dd99573ef5",
+          "url": "https://linuxbrew.bintray.com/bottles/unyaffs-0.9.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "75da4c47cc7a56283d88fc1438a8a91a4d3d4c0e40c3a6e6f228ec69de33c205",
+          "url": "https://linuxbrew.bintray.com/bottles/unyaffs-0.9.7.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Extract files from a YAFFS2 filesystem image",
+  "full_name": "unyaffs",
+  "homepage": "https://github.com/ehlers/unyaffs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "unyaffs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.7"
+  }
+}

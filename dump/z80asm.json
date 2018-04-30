@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "46446e7c3644dc58e1c5cc80b904863298f818d15c4aaad721e36cabae75207c",
+          "url": "https://linuxbrew.bintray.com/bottles/z80asm-1.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "183abd9c47e5050aa9a3fb4f9ddbd8806f0154aedcc239e2d2b716e234e91ce5",
+          "url": "https://linuxbrew.bintray.com/bottles/z80asm-1.8.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ed0e94c25d70c23f537ffbf8440b909b5d652e6000ebacd89be024c7ceee0e3d",
+          "url": "https://linuxbrew.bintray.com/bottles/z80asm-1.8.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2bf9a1b8ebae970b16ad7d4644a028ddcb21d8069f2f5d73d18d69881d7eca27",
+          "url": "https://linuxbrew.bintray.com/bottles/z80asm-1.8.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f52e469f9e8ab4c30c6cce5cde41a52bfbdb06e8db88b8be80fb7c54cbb73a21",
+          "url": "https://linuxbrew.bintray.com/bottles/z80asm-1.8.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Assembler for the Zilog Z80 microprcessor and compatibles",
+  "full_name": "z80asm",
+  "homepage": "https://www.nongnu.org/z80asm/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "z80asm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8"
+  }
+}

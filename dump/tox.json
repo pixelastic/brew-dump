@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "19531803c7100784006f806b1d3801fa2e650a4a2ea3e5b669b7bf445967fc6f",
+          "url": "https://linuxbrew.bintray.com/bottles/tox-3.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6a6718bfb9e0cc41dcb5404ea8bbd326e3962cd9780eb061082226d66565c03b",
+          "url": "https://linuxbrew.bintray.com/bottles/tox-3.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "87b2e154f71e49c52f86d6e1789911ea18b4dceb677e63f9746099743a09fb3a",
+          "url": "https://linuxbrew.bintray.com/bottles/tox-3.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6afea04ff72cdb279c1e01d8f28d5086c5af2263b3c79f081e8564f14b80fa4f",
+          "url": "https://linuxbrew.bintray.com/bottles/tox-3.0.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Generic Python virtualenv management and test command-line tool",
+  "full_name": "tox",
+  "homepage": "https://tox.readthedocs.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tox",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.0"
+  }
+}

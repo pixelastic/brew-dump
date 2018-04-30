@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "54532e8e7629f4eeedbdef400f40997c25558b692755b816f6facc37a4975d4d",
+          "url": "https://linuxbrew.bintray.com/bottles/robodoc-4.99.43.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0fa779e5f937f0e7a4c17a2bbe86ea84178bd5d0739ba3f8429ced46f3c10435",
+          "url": "https://linuxbrew.bintray.com/bottles/robodoc-4.99.43.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "cea580dd90f87075879dc722262668deac629673ed22dc1e2e5a6cb52e2439ca",
+          "url": "https://linuxbrew.bintray.com/bottles/robodoc-4.99.43.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "230f593f9fadd10d98868593e273ad40dfee6ad877b396073042a187f19c60b8",
+          "url": "https://linuxbrew.bintray.com/bottles/robodoc-4.99.43.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a5c2794eb7e02c27707aad1bbea593ddc0d21fbf197f6b4313f8d0ba84fb34a5",
+          "url": "https://linuxbrew.bintray.com/bottles/robodoc-4.99.43.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Source code documentation tool",
+  "full_name": "robodoc",
+  "homepage": "https://www.xs4all.nl/~rfsber/Robo/index.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "robodoc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.99.43"
+  }
+}

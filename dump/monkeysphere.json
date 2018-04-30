@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6feb6d2bbd4a0d49dde32d9d26e17bbef7e48ccadb9ffcb82f1b7899386d1b38",
+          "url": "https://linuxbrew.bintray.com/bottles/monkeysphere-0.41.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4854342d29ac57b1e9c0d040ae7a601065b29332c3e35fde847cee7783e3e37e",
+          "url": "https://linuxbrew.bintray.com/bottles/monkeysphere-0.41.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d0532dad405696179a0e94359cf5908613c1def95e82b8c9cfe88eba7e1843cf",
+          "url": "https://linuxbrew.bintray.com/bottles/monkeysphere-0.41.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7d32f5718f0302eb6b009b030dfb0279ebd471e808cafa3ca264a8fd4817b5ca",
+          "url": "https://linuxbrew.bintray.com/bottles/monkeysphere-0.41.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gnu-sed"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gnu-sed",
+    "libassuan",
+    "libgcrypt",
+    "libgpg-error",
+    "openssl"
+  ],
+  "desc": "Use the OpenPGP web of trust to verify ssh connections",
+  "full_name": "monkeysphere",
+  "homepage": "http://web.monkeysphere.info/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "monkeysphere",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.41"
+  }
+}

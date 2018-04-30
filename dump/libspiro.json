@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ba2ac132368792d5715eb39a7b0e452fba5a222977ec30b9c5ff09728acfd0e0",
+          "url": "https://linuxbrew.bintray.com/bottles/libspiro-0.5.20150702.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1429ee36073ef51e18ef636519122059eccdd17d005e56c28fbb2fe6429b3e5a",
+          "url": "https://linuxbrew.bintray.com/bottles/libspiro-0.5.20150702.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7bbae215d77ea9b5977f066b2fa646821933f5ed4cbc972e4c50fc5a1708725e",
+          "url": "https://linuxbrew.bintray.com/bottles/libspiro-0.5.20150702.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ed2eb6d7502263bbf73b9a85dfeea23ad76238996c06e2a4b729a687537e9584",
+          "url": "https://linuxbrew.bintray.com/bottles/libspiro-0.5.20150702.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fa3195a1713de6bf1dddac515d6a63039b3087c96ec473acc429fa997170ca6c",
+          "url": "https://linuxbrew.bintray.com/bottles/libspiro-0.5.20150702.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "408083484eb78518514bd2613f019bd03ac94e791b8302721187eeaf5c775479",
+          "url": "https://linuxbrew.bintray.com/bottles/libspiro-0.5.20150702.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library to simplify the drawing of curves",
+  "full_name": "libspiro",
+  "homepage": "https://github.com/fontforge/libspiro",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libspiro",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5.20150702"
+  }
+}

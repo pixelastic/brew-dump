@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4a8d696e3532c98b027a6fb9e4b9a8a6472a80800c187902cbd5d37d44579fe7",
+          "url": "https://linuxbrew.bintray.com/bottles/freeradius-server-3.0.17.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "038ea0b2497cf0460473eb660fe8dc770cfa7e1d9fc603015194e6a9c3a8dfd0",
+          "url": "https://linuxbrew.bintray.com/bottles/freeradius-server-3.0.17.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2ef3f4689ca57e28836b3501a520b731b5510e7ec62a601ae6af4f1bec54067d",
+          "url": "https://linuxbrew.bintray.com/bottles/freeradius-server-3.0.17.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "cf1e499abf96f97aec00a50699f25f877c3a1f99ebfd87f4e13bbff722ea8fb6",
+          "url": "https://linuxbrew.bintray.com/bottles/freeradius-server-3.0.17.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "talloc",
+    "perl"
+  ],
+  "desc": "High-performance and highly configurable RADIUS server",
+  "full_name": "freeradius-server",
+  "homepage": "https://freeradius.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "freeradius-server",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.0.17"
+  }
+}

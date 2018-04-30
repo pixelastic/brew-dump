@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bf050ac873b082e36bfb280cd2325c00bc679b54be6ece47d0bfd1135ae7a872",
+          "url": "https://linuxbrew.bintray.com/bottles/libsmi-0.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8c1bba9799c48d5b977dafbbd31a61722cb0aea36c478720cbd67a240b3d42cc",
+          "url": "https://linuxbrew.bintray.com/bottles/libsmi-0.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "92f1085c6337464387892efd275acf3b0eba9947a07ff353d4b02e16f912bce4",
+          "url": "https://linuxbrew.bintray.com/bottles/libsmi-0.5.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "17cbe1247e9f01611b25b546b6343bc5e0c7f5cdb167fb663a822b830c0cfcec",
+          "url": "https://linuxbrew.bintray.com/bottles/libsmi-0.5.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library to Access SMI MIB Information",
+  "full_name": "libsmi",
+  "homepage": "https://www.ibr.cs.tu-bs.de/projects/libsmi/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libsmi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.5.0"
+  }
+}

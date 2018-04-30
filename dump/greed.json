@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "99eef3acefdd2f116d3d3052f11efa9baf848aa4ba6452f07741a922d18779f5",
+          "url": "https://linuxbrew.bintray.com/bottles/greed-4.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "48e748cf4efb284edd099918a7d3015b4d01e50e868ac47ea2d0978cb3255773",
+          "url": "https://linuxbrew.bintray.com/bottles/greed-4.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9778c36a897958eac89c32b7c4ef3fa790a2800e22c03262442530e09474da77",
+          "url": "https://linuxbrew.bintray.com/bottles/greed-4.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2a503ee5dbbf11e7d7627e6535cc4691bd5606d981b0bfc416c20bfe9f393013",
+          "url": "https://linuxbrew.bintray.com/bottles/greed-4.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "High scores will be stored in the following location:\n  /home/tim/.linuxbrew/var/greed/greed.hs\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Game of consumption",
+  "full_name": "greed",
+  "homepage": "http://www.catb.org/~esr/greed/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "greed",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.2"
+  }
+}

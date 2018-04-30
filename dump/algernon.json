@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c4363693589de0212eafa752a271e738e9d4f2082e267576e4627077b14f0a12",
+          "url": "https://linuxbrew.bintray.com/bottles/algernon-1.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e65a775e548ae38c67c3239ff74c103221da38f955b25b1d85663e9e37808256",
+          "url": "https://linuxbrew.bintray.com/bottles/algernon-1.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "40c63d30da16700fb699ae1131090bc022e63c8dd90c60c0a4b0943383fd69e3",
+          "url": "https://linuxbrew.bintray.com/bottles/algernon-1.8.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e7116460860055530b37419495ee1a0ca6b635cd7435910a22d3c19c37c89082",
+          "url": "https://linuxbrew.bintray.com/bottles/algernon-1.8.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Pure Go web server with Lua, Markdown, HTTP/2 and template support",
+  "full_name": "algernon",
+  "homepage": "https://algernon.roboticoverlords.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "algernon",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8"
+  }
+}

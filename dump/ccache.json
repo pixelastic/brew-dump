@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "02fabd715abe67071a46f6fda9f531455bc0d357202b025516c8655349bb614a",
+          "url": "https://linuxbrew.bintray.com/bottles/ccache-3.4.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "279961566bd797e5673c959161079c155044bb9091585890ece18d9ce557de45",
+          "url": "https://linuxbrew.bintray.com/bottles/ccache-3.4.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9d9fd55841f1967739949493c453260243a49d2e78af2ac3d1f24c878096c254",
+          "url": "https://linuxbrew.bintray.com/bottles/ccache-3.4.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1ebe04d0711233af715fb5811a693666172eaacca4e1a92398ffd887ca618a4c",
+          "url": "https://linuxbrew.bintray.com/bottles/ccache-3.4.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To install symlinks for compilers that will automatically use\nccache, prepend this directory to your PATH:\n  /home/tim/.linuxbrew/opt/ccache/libexec\n\nIf this is an upgrade and you have previously added the symlinks to\nyour PATH, you may need to modify it to the path specified above so\nit points to the current version.\n\nNOTE: ccache can prevent some software from compiling.\nALSO NOTE: The brew command, by design, will never use ccache.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "zlib"
+  ],
+  "desc": "Object-file caching compiler wrapper",
+  "full_name": "ccache",
+  "homepage": "https://ccache.samba.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ccache",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.4.2"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4a731d243e6915729240deb75dc99cfee513bb7d0f69169981623b14ce6601c1",
+          "url": "https://linuxbrew.bintray.com/bottles/taktuk-3.7.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9cc466f8a75eea1974143fedecd42547eb14401d772e527776f387aec4832f77",
+          "url": "https://linuxbrew.bintray.com/bottles/taktuk-3.7.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0ffc0bb09703bbf32afbcd302850803f94ecbb311eaa77353275e7dcb1549f62",
+          "url": "https://linuxbrew.bintray.com/bottles/taktuk-3.7.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "209fb6acfe7019c707a7f7e1779c3bfb4cdd0de237145e35970e938e8e88de4a",
+          "url": "https://linuxbrew.bintray.com/bottles/taktuk-3.7.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Deploy commands to (a potentially large set of) remote nodes",
+  "full_name": "taktuk",
+  "homepage": "http://taktuk.gforge.inria.fr/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "taktuk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.7.7"
+  }
+}

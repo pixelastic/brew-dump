@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "abb0e04f1704a2601f613f6ecea3a360425f194084a87f5be0f37ba677b91869",
+          "url": "https://linuxbrew.bintray.com/bottles/miller-5.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c833decfa926e2ba3a1815f2a1d924a1c22b8e87a3e915cf6df843965e967189",
+          "url": "https://linuxbrew.bintray.com/bottles/miller-5.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3242d8648f791da23243f2ba44e081ff9cdb875fb35669e722fc9b2fcf3805f2",
+          "url": "https://linuxbrew.bintray.com/bottles/miller-5.3.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3333fb93f0de86476c41406d3c36f518c7bdf7940fb64eebad272ab49be69007",
+          "url": "https://linuxbrew.bintray.com/bottles/miller-5.3.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "flex"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "flex"
+  ],
+  "desc": "Like sed, awk, cut, join & sort for name-indexed data such as CSV",
+  "full_name": "miller",
+  "homepage": "https://github.com/johnkerl/miller",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "miller",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.3.0"
+  }
+}

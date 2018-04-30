@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6421f8a014f5246fd3261eef0c3d9b1030139081d02c24dad865ba635e601f25",
+          "url": "https://linuxbrew.bintray.com/bottles/tgui-0.7.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "88096b417c5a8b9282cc05a11e2477adf38befa8401869ac84a74cc00f2c7877",
+          "url": "https://linuxbrew.bintray.com/bottles/tgui-0.7.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "07c1e772bd19375796830af0fe28e567b1d05516507ca0a871586afed4eb0b35",
+          "url": "https://linuxbrew.bintray.com/bottles/tgui-0.7.7.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "sfml"
+  ],
+  "desc": "GUI library for use with sfml",
+  "full_name": "tgui",
+  "homepage": "https://tgui.eu",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tgui",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.7"
+  }
+}

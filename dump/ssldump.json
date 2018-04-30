@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a468350638d8d0e66e8fe137b1473a25e300b967cadae1652e062f9cd92f2dbb",
+          "url": "https://linuxbrew.bintray.com/bottles/ssldump-0.9b3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f61685cdc0a75d520d823508f76ad11a3bd6b3f76c2c0da85045f8a47155f4e2",
+          "url": "https://linuxbrew.bintray.com/bottles/ssldump-0.9b3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "61b20e42893e904872f075064323366aa29e05fc3bab4a2d09265e6e05189532",
+          "url": "https://linuxbrew.bintray.com/bottles/ssldump-0.9b3.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "835adb0d5cdf60701acfa0a760653149cc03eff2759e7c1c4766737ee1f64ac7",
+          "url": "https://linuxbrew.bintray.com/bottles/ssldump-0.9b3.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e1b49cff5781b5c030696757f3edba544c2bd58a50486962c8cbf0cd3b005da3",
+          "url": "https://linuxbrew.bintray.com/bottles/ssldump-0.9b3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "714f3e5283285dea18ba6bfc27f3dda2fc9d1317c6fe269fd4ba84aba44fe44c",
+          "url": "https://linuxbrew.bintray.com/bottles/ssldump-0.9b3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "SSLv3/TLS network protocol analyzer",
+  "full_name": "ssldump",
+  "homepage": "https://ssldump.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ssldump",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9b3"
+  }
+}

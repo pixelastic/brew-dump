@@ -1,0 +1,90 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c75e018d69afb7d3cb662ebd129af67607d47f7b7f71ce8ea95be75d66dc502d",
+          "url": "https://linuxbrew.bintray.com/bottles/sphinx-2.2.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b890cf523db9777c7d125842fd6b0a53fe9a7a5a4cb816389ba6f5ee6483c78d",
+          "url": "https://linuxbrew.bintray.com/bottles/sphinx-2.2.11.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "4ec1f1ea71e17b9e924e9f36747d7184114463640f100022cdbb46202e46261f",
+          "url": "https://linuxbrew.bintray.com/bottles/sphinx-2.2.11.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "55ce34bdedf13946fa614bde50839d93135eae720f1021e2c87807d04515ab18",
+          "url": "https://linuxbrew.bintray.com/bottles/sphinx-2.2.11.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f89b43df8735d295a55c74f18d6af4a1a10b9f3ae81df69713c27f9240f78d14",
+          "url": "https://linuxbrew.bintray.com/bottles/sphinx-2.2.11.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "This is not sphinx - the Python Documentation Generator.\nTo install sphinx-python use pip.\n\nSphinx has been compiled with libstemmer support.\n\nSphinx depends on either MySQL or PostreSQL as a datasource.\n\nYou can install these with Homebrew with:\n  brew install mysql\n    For MySQL server.\n\n  brew install mysql-connector-c\n    For MySQL client libraries only.\n\n  brew install postgresql\n    For PostgreSQL server.\n\nWe don't install these for you when you install this formula, as\nwe don't know which datasource you intend to use.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "re2",
+    "mysql",
+    "postgresql"
+  ],
+  "desc": "Full-text search engine",
+  "full_name": "sphinx",
+  "homepage": "http://www.sphinxsearch.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sphinx",
+  "oldname": null,
+  "optional_dependencies": [
+    "re2",
+    "mysql",
+    "postgresql"
+  ],
+  "options": [
+    {
+      "description": "Force compiling against MySQL",
+      "option": "--with-mysql"
+    },
+    {
+      "description": "Force compiling against PostgreSQL",
+      "option": "--with-postgresql"
+    },
+    {
+      "description": "Force compiling with 64-bit ID support",
+      "option": "--with-id64"
+    },
+    {
+      "description": "Build with re2 support",
+      "option": "--with-re2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.2.11"
+  }
+}

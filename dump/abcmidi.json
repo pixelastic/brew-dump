@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8bffd407f559820ed7f0343f5a5c5450437bfa0b0bcf4b730ae5e79b718dfbba",
+          "url": "https://linuxbrew.bintray.com/bottles/abcmidi-2018.04.24.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3ea6fa5236d92d833e920642cf87baf79372163ab188b05d040abcaae3c785d9",
+          "url": "https://linuxbrew.bintray.com/bottles/abcmidi-2018.04.24.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5879de0ce4c6b8c2fbf05d5fb876dca861f5a055c195f5dc7f01386163570d1c",
+          "url": "https://linuxbrew.bintray.com/bottles/abcmidi-2018.04.24.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Converts abc music notation files to MIDI files",
+  "full_name": "abcmidi",
+  "homepage": "https://www.ifdo.ca/~seymour/runabc/top.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "abcmidi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2018.04.24"
+  }
+}

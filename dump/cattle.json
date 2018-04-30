@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "42652ee8648cb83d278d274b149c644f9785a13c281edcd8d9dab9baf293da33",
+          "url": "https://linuxbrew.bintray.com/bottles/cattle-1.2.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "957d2f936937bd3682063bc0e7386b22ade2ee3398ad8ad29700bf395f2bc4f4",
+          "url": "https://linuxbrew.bintray.com/bottles/cattle-1.2.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6387555e1f0f6804d9d9d967af83c370129d3fc7b4f8644b41b50a6d7b10baf9",
+          "url": "https://linuxbrew.bintray.com/bottles/cattle-1.2.2_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "glib"
+  ],
+  "desc": "Brainfuck language toolkit",
+  "full_name": "cattle",
+  "homepage": "https://github.com/andreabolognani/cattle",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cattle",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.2"
+  }
+}

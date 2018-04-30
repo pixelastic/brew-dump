@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "afc8e775f010928d8a8fdcecbce93db32a28200a8f14c2ef9c76fc6521e94eb6",
+          "url": "https://linuxbrew.bintray.com/bottles/weboob-1.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "85ddae53bb28ba122fb115d3930d2109088e7e78884fe67e4b3c385996aca66c",
+          "url": "https://linuxbrew.bintray.com/bottles/weboob-1.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "379c1a8d8069bdd0487f94bded2b7b43c3018e326797a0b03f525e8bad6e3201",
+          "url": "https://linuxbrew.bintray.com/bottles/weboob-1.3_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "freetype",
+    "jpeg",
+    "libyaml",
+    "gnupg"
+  ],
+  "desc": "Web Outside of Browsers",
+  "full_name": "weboob",
+  "homepage": "http://weboob.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "weboob",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.3"
+  }
+}

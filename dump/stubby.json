@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "72723b5aa058b5ccd165cab74f472ac726b8ce860b6a9544542778853b9cf0f3",
+          "url": "https://linuxbrew.bintray.com/bottles/stubby-0.2.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b5bd281d34b4d50884c1c02de667d9eb0e0be97f6c8605950b8c5996372ce2bb",
+          "url": "https://linuxbrew.bintray.com/bottles/stubby-0.2.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "be244926aa3a00bcba605e7f99fa62e82f52ee532b8d74d0c1e75ba05cc898b0",
+          "url": "https://linuxbrew.bintray.com/bottles/stubby-0.2.2_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "009141a1d5a66bd4344d436f4a2990d5a6f6b50a5bc7d263d8b9f166702fb6ef",
+          "url": "https://linuxbrew.bintray.com/bottles/stubby-0.2.2_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "getdns",
+    "libyaml"
+  ],
+  "desc": "DNS privacy enabled stub resolver service based on getdns",
+  "full_name": "stubby",
+  "homepage": "https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "stubby",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.2.2"
+  }
+}

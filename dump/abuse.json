@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "456dfbfb6e7486d0c5a50ac01423efabf5243b08d3235c83477681090a42c652",
+          "url": "https://linuxbrew.bintray.com/bottles/abuse-0.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3fdc2ccd00bf320b994747d982b5cbde4b73c45c094c9a0f89acf13aea3eb847",
+          "url": "https://linuxbrew.bintray.com/bottles/abuse-0.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6971b6eebf4c00eaaed72a1104a49be63861eabc95d679a0c84040398e320059",
+          "url": "https://linuxbrew.bintray.com/bottles/abuse-0.8.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3ca083d0d99c00ad26f306c026ef35ee565a24f0171b94457deb64d5e170edf9",
+          "url": "https://linuxbrew.bintray.com/bottles/abuse-0.8.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": "Game settings and saves will be written to the ~/.abuse folder.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "sdl",
+    "sdl_mixer",
+    "libvorbis"
+  ],
+  "desc": "Dark 2D side-scrolling platform game",
+  "full_name": "abuse",
+  "homepage": "http://abuse.zoy.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "abuse",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8"
+  }
+}

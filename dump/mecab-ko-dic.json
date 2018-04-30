@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "51c5a40a0aad7906cbd83265fbecbc4de3a4f116abceebf9fdb02d17c75f5f69",
+          "url": "https://linuxbrew.bintray.com/bottles/mecab-ko-dic-1.6.1-20140814.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6e7d71dc788c552a2d2e345ff67aad4a6f5c9078eb776056ccf96dd599c63f52",
+          "url": "https://linuxbrew.bintray.com/bottles/mecab-ko-dic-1.6.1-20140814.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "0c958bf826cd358431f144dfb3d2d3da08c67cda59efe1d2998b54a401678515",
+          "url": "https://linuxbrew.bintray.com/bottles/mecab-ko-dic-1.6.1-20140814.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "b932747391e494b10a0fd8cd6002eb857f7a4ccb8e0ea2ea2a3a7b675bf6c237",
+          "url": "https://linuxbrew.bintray.com/bottles/mecab-ko-dic-1.6.1-20140814.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "68715d65e93b56fa18f70579b515b4e69128777e89c069da9af9ab6dd689bc9e",
+          "url": "https://linuxbrew.bintray.com/bottles/mecab-ko-dic-1.6.1-20140814.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "92be006bcc8552fdaddf82d21b9f8f528af010128febc721a5a5ba262eca99ce",
+          "url": "https://linuxbrew.bintray.com/bottles/mecab-ko-dic-1.6.1-20140814.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": "To enable mecab-ko-dic dictionary, add to /home/tim/.linuxbrew/etc/mecabrc:\n  dicdir = /home/tim/.linuxbrew/lib/mecab/dic/mecab-ko-dic\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "mecab-ko"
+  ],
+  "desc": "See mecab",
+  "full_name": "mecab-ko-dic",
+  "homepage": "https://bitbucket.org/eunjeon/mecab-ko-dic",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mecab-ko-dic",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.1-20140814"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b9491c4bf9baeb0e9edc3cb0256f0199256b26fcc2fb76ac15153fd6f74c48f9",
+          "url": "https://linuxbrew.bintray.com/bottles/grap-1.45.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e823c876e7269bfc37bc302ed10a2d93ae7a4631f0464b983daea564ff7d97bb",
+          "url": "https://linuxbrew.bintray.com/bottles/grap-1.45.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "036bb10da8e432b027a2a88714d91e60ba3e297c94b8fe27ab48040e3800760b",
+          "url": "https://linuxbrew.bintray.com/bottles/grap-1.45.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4e4b22198d42beea1e531a6903f4085b67692e7da7bc1b7a3e51f42c235169d1",
+          "url": "https://linuxbrew.bintray.com/bottles/grap-1.45.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "97c15c60c09da87b12c779fde541bff202f96327e76286a591d52a18b1c74d4e",
+          "url": "https://linuxbrew.bintray.com/bottles/grap-1.45.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Language for typesetting graphs",
+  "full_name": "grap",
+  "homepage": "https://www.lunabase.org/~faber/Vault/software/grap/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "grap",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.45"
+  }
+}

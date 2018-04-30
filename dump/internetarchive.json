@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b34a467a732d82a8de7bbda8fc45d416d4ee1294909fbbc216e9b18c04127ab7",
+          "url": "https://linuxbrew.bintray.com/bottles/internetarchive-1.7.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "35098a6977bed08d6de52226f7c6a631016dcd9a79230c517a9f0ab4fc4e1f47",
+          "url": "https://linuxbrew.bintray.com/bottles/internetarchive-1.7.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b97169838678e7237bf8988db9730ee17837e3c6e54f509b86fd6557550e2dbb",
+          "url": "https://linuxbrew.bintray.com/bottles/internetarchive-1.7.7.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Python wrapper for the various Internet Archive APIs",
+  "full_name": "internetarchive",
+  "homepage": "https://github.com/jjjake/internetarchive",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "internetarchive",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.7"
+  }
+}

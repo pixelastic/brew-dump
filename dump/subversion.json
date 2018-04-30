@@ -1,0 +1,110 @@
+{
+  "aliases": [
+    "subversion@1.10",
+    "svn"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "0a67f296c25eb6c6f2d1d8c032b10cd1afcf0a26bfdfd5e0a00a56cd82ee9403",
+          "url": "https://linuxbrew.bintray.com/bottles/subversion-1.10.0_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "swig",
+    "scons"
+  ],
+  "caveats": "svntools have been installed to:\n  /home/tim/.linuxbrew/opt/subversion/libexec\n\nThe perl bindings are located in various subdirectories of:\n  /home/tim/.linuxbrew/opt/subversion/lib/perl5\n\nIf you wish to use the Ruby bindings you may need to add:\n  /home/tim/.linuxbrew/lib/ruby\nto your RUBYLIB.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "swig",
+    "apr-util",
+    "apr",
+    "lz4",
+    "sqlite",
+    "utf8proc",
+    "perl",
+    "scons",
+    "openssl",
+    "python@2",
+    "expat",
+    "libmagic",
+    "zlib",
+    "krb5",
+    "util-linux",
+    "ruby",
+    "gpg-agent",
+    "gettext"
+  ],
+  "desc": "Version control system designed to be a better CVS",
+  "full_name": "subversion",
+  "homepage": "https://subversion.apache.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "subversion",
+  "oldname": null,
+  "optional_dependencies": [
+    "gpg-agent",
+    "gettext"
+  ],
+  "options": [
+    {
+      "description": "Build Java bindings",
+      "option": "--with-java"
+    },
+    {
+      "description": "Build without Ruby bindings",
+      "option": "--without-ruby"
+    },
+    {
+      "description": "Build without Perl bindings",
+      "option": "--without-perl"
+    },
+    {
+      "description": "Build with support for GPG Agent",
+      "option": "--with-gpg-agent"
+    },
+    {
+      "description": "Build without krb5 support",
+      "option": "--without-krb5"
+    },
+    {
+      "description": "Build with gettext support",
+      "option": "--with-gettext"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "perl",
+    "krb5",
+    "ruby"
+  ],
+  "requirements": [
+    {
+      "cask": "caskroom/versions/java8",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.10.0"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "aliases": [
+    "htop-osx"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c53584a82a9d6de21ac49a99f4747580b2a614313f3707318b5ccbd77c7813f8",
+          "url": "https://linuxbrew.bintray.com/bottles/htop-2.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "67d87dbcf3999869beff0dd10916a01aa44cc063873c1b80a1636ad2fc14c894",
+          "url": "https://linuxbrew.bintray.com/bottles/htop-2.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "be217a990dab3c3ebc946cb249ba092ffcba8b6fbd3757323fd7d3c9d129ec54",
+          "url": "https://linuxbrew.bintray.com/bottles/htop-2.2.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "707078b7b08ff824ac3dfd85cc1fcf43987b6b024e6e2c618708dea03d7d5de0",
+          "url": "https://linuxbrew.bintray.com/bottles/htop-2.2.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "python@2",
+    "pkg-config"
+  ],
+  "caveats": "htop requires root privileges to correctly display all running processes,\nso you will need to run `sudo htop`.\nYou should be certain that you trust any software you grant root privileges.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "ncurses",
+    "pkg-config"
+  ],
+  "desc": "Improved top (interactive process viewer)",
+  "full_name": "htop",
+  "homepage": "https://hisham.hm/htop/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "htop",
+  "oldname": "htop-osx",
+  "optional_dependencies": [
+    "ncurses"
+  ],
+  "options": [
+    {
+      "description": "Build with ncurses support",
+      "option": "--with-ncurses"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.2.0"
+  }
+}

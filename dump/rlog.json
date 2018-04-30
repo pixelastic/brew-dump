@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c95d8998639fd75131f923191eaa857bc3ff8f33ee64ca3b5d459ac1979e6fa2",
+          "url": "https://linuxbrew.bintray.com/bottles/rlog-1.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5d85e13db4c6dd2892d136a96af4ac46d72254a39b842559ac9a4f9f3841af3e",
+          "url": "https://linuxbrew.bintray.com/bottles/rlog-1.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "70c1faaac613087604231c7e30ba5dd458183c1dec4cfccb73b25a32fee6c603",
+          "url": "https://linuxbrew.bintray.com/bottles/rlog-1.4.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "51f6586bcfa2235a19b311189ca63431c596c689c7b014850e4a0cef2275074e",
+          "url": "https://linuxbrew.bintray.com/bottles/rlog-1.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "44f3b8ee89802fb13674e3b60e873045a459bf13513b84f3f7b94c8a4444b2eb",
+          "url": "https://linuxbrew.bintray.com/bottles/rlog-1.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Flexible message logging facility for C++",
+  "full_name": "rlog",
+  "homepage": "https://www.arg0.net/rlog",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rlog",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4"
+  }
+}

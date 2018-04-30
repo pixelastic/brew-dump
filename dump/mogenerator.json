@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "eb94c192bb659183c72f970f1230948ce875ed49b53f0e7bb540660e7dae2353",
+          "url": "https://linuxbrew.bintray.com/bottles/mogenerator-1.31.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b5313f7dd8eeb5b379f6c64615104c23250b97c7c05de779427a29c573464f32",
+          "url": "https://linuxbrew.bintray.com/bottles/mogenerator-1.31.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "19c0ec0b7f39deec9c99f4ede5ae1538acad0b3768db7b0557e15660efb41789",
+          "url": "https://linuxbrew.bintray.com/bottles/mogenerator-1.31.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ceedcaabd71b51758c0b03e4b14be0f228e030af83651ad6f774c08d5910123b",
+          "url": "https://linuxbrew.bintray.com/bottles/mogenerator-1.31.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Generate Objective-C code for Core Data custom classes",
+  "full_name": "mogenerator",
+  "homepage": "https://rentzsch.github.io/mogenerator/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mogenerator",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.31"
+  }
+}

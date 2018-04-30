@@ -1,0 +1,45 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You should set GROOVY_HOME:\n  export GROOVY_HOME=/home/tim/.linuxbrew/opt/groovy/libexec\n",
+  "conflicts_with": [
+    "groovysdk"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Java-based scripting language",
+  "full_name": "groovy",
+  "homepage": "http://www.groovy-lang.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "groovy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Install the InvokeDynamic version of Groovy (only works with Java 1.7+)",
+      "option": "--with-invokedynamic"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.14"
+  }
+}

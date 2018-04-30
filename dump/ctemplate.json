@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3cb0314574a76b022e365c293f50eff604def9a9171b45c4e3af1c56f5310927",
+          "url": "https://linuxbrew.bintray.com/bottles/ctemplate-2.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6cddb070bbc9b662305513c142119cb83fac09d1c1579b925f6f2bbddb0773fe",
+          "url": "https://linuxbrew.bintray.com/bottles/ctemplate-2.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "335fb8f9b6ac20aeb09efba90dcdba941b7c0cef2571dcb50fb2040f515386c7",
+          "url": "https://linuxbrew.bintray.com/bottles/ctemplate-2.3.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f2bbb674557034e487ad218f871145c9f27b02b908e10b2fd15f457c960191e0",
+          "url": "https://linuxbrew.bintray.com/bottles/ctemplate-2.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f405ef2681e4e0aff1a034226733e4466d6f916ae540fa7a3a52e3d94f529f26",
+          "url": "https://linuxbrew.bintray.com/bottles/ctemplate-2.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Template language for C++",
+  "full_name": "ctemplate",
+  "homepage": "https://github.com/olafvdspek/ctemplate",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ctemplate",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.3"
+  }
+}

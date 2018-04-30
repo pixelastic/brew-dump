@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "49975a34b6bacad4549871097effce90e376d3cd26ed24b2d7dfd925a199f0f8",
+          "url": "https://linuxbrew.bintray.com/bottles/dfu-util-0.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c1e5f33cee759c8273ed5b9088262c442773342378939cecd374c99889126f8b",
+          "url": "https://linuxbrew.bintray.com/bottles/dfu-util-0.9.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "75c7ffa4e2d5067618c41f999f3d0c8a9aac1080e9eb8cd1f9bec8dd154aa1c1",
+          "url": "https://linuxbrew.bintray.com/bottles/dfu-util-0.9.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3b9f9f6cf990becc1f2979fbec2cf2833d6f0ee2ab1ba3db4979203f1d591ee2",
+          "url": "https://linuxbrew.bintray.com/bottles/dfu-util-0.9.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "776c3ed14def87511f9280201a95490145a9d469e2c1e29873c335e2c39ed279",
+          "url": "https://linuxbrew.bintray.com/bottles/dfu-util-0.9.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libusb"
+  ],
+  "desc": "USB programmer",
+  "full_name": "dfu-util",
+  "homepage": "https://dfu-util.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dfu-util",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9"
+  }
+}

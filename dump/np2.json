@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "969d59ab9401163f14b9c5830f884f0ff9f4d25f81985472f6a41b5b4debcbff",
+          "url": "https://linuxbrew.bintray.com/bottles/np2-0.86.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0d341c9c1da3caccb8c2746e876b578fcdda626cc7d6fe3c071b2a10a2216cb4",
+          "url": "https://linuxbrew.bintray.com/bottles/np2-0.86.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "18f54de6cd5a7b913c9be1af8494cce362d52f94c751c63da9beffcd4f3fc41c",
+          "url": "https://linuxbrew.bintray.com/bottles/np2-0.86.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a7340b1deadb9fdb4e117b9d793e695631d7d9a52ae111703e9bc6ea796c290b",
+          "url": "https://linuxbrew.bintray.com/bottles/np2-0.86.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "subversion"
+  ],
+  "caveats": "A Japanese TTF file named `default.ttf` should be in the working directory.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "subversion",
+    "sdl2",
+    "sdl2_ttf"
+  ],
+  "desc": "Neko Project 2: PC-9801 emulator",
+  "full_name": "np2",
+  "homepage": "https://www.yui.ne.jp/np2/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "np2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.86"
+  }
+}

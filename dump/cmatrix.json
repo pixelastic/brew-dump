@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "da919a1964d6ef0633eac14bd7138ab91f6676d4dfc36fd5e27f956943714d22",
+          "url": "https://linuxbrew.bintray.com/bottles/cmatrix-1.2a.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f5969f9baee33db8614d7fa1b54f3d923474b8516deb7f8d77f31160be174af2",
+          "url": "https://linuxbrew.bintray.com/bottles/cmatrix-1.2a.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8479d25ddc608462c974bbc1a9fb229f6ffa99d19368fcd43f667bc6a6d8493f",
+          "url": "https://linuxbrew.bintray.com/bottles/cmatrix-1.2a.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "49e2833e6d6967528475c3124f4b2927b7169030704d63811b34d20a01ea79e3",
+          "url": "https://linuxbrew.bintray.com/bottles/cmatrix-1.2a.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ae46840a9d0e08909665694d161a3a8e0962a5936c523812057dc39d61eda8fd",
+          "url": "https://linuxbrew.bintray.com/bottles/cmatrix-1.2a.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "14ae5c06eac81783ee61e3547d9de174f6742c688a254e172d7c2e566f14b426",
+          "url": "https://linuxbrew.bintray.com/bottles/cmatrix-1.2a.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Console Matrix",
+  "full_name": "cmatrix",
+  "homepage": "https://www.asty.org/cmatrix/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cmatrix",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2a"
+  }
+}

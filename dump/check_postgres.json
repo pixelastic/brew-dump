@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2cca947a07f41712768a1f50a7fcbabcb35d8585c5faf4564e6470181ff6d786",
+          "url": "https://linuxbrew.bintray.com/bottles/check_postgres-2.22.0_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2cca947a07f41712768a1f50a7fcbabcb35d8585c5faf4564e6470181ff6d786",
+          "url": "https://linuxbrew.bintray.com/bottles/check_postgres-2.22.0_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2cca947a07f41712768a1f50a7fcbabcb35d8585c5faf4564e6470181ff6d786",
+          "url": "https://linuxbrew.bintray.com/bottles/check_postgres-2.22.0_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "06b08d3568e30ba97f73499b65fbaee244fbe9c37d8762ca5e8dc23496b1a625",
+          "url": "https://linuxbrew.bintray.com/bottles/check_postgres-2.22.0_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "postgresql"
+  ],
+  "desc": "Monitor Postgres databases",
+  "full_name": "check_postgres",
+  "homepage": "https://bucardo.org/wiki/Check_postgres",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "check_postgres",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.22.0"
+  }
+}

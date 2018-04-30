@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8488bbb85691e3181243fb0ad2afb84715c684204551e5064bff9846d18be82e",
+          "url": "https://linuxbrew.bintray.com/bottles/fastbit-2.0.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "10b30f7face5fec9926fcc84b1acda1e11edbaf6438ddde8d819a431766adc98",
+          "url": "https://linuxbrew.bintray.com/bottles/fastbit-2.0.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "688a35ebf6323a6323181db1c8fd048c00031b8c3d89f49b2d81586576723541",
+          "url": "https://linuxbrew.bintray.com/bottles/fastbit-2.0.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "iniparser"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Open-source data processing library in NoSQL spirit",
+  "full_name": "fastbit",
+  "homepage": "https://sdm.lbl.gov/fastbit/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fastbit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.3"
+  }
+}

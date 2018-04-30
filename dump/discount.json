@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a8672b207a923a0b681e0abf20ce27b72421dd4c0ddd4fd816b1e63a2acd29c0",
+          "url": "https://linuxbrew.bintray.com/bottles/discount-2.2.3a.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "68cf5d30c76b372b89e9fa1ac9f4b30cf3f19592bbf257e1f792fc6afdc45bc1",
+          "url": "https://linuxbrew.bintray.com/bottles/discount-2.2.3a.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b65dbaa7a1245f7f343707591630dae94449a8f979e766858550b4dbe2841c62",
+          "url": "https://linuxbrew.bintray.com/bottles/discount-2.2.3a.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "markdown",
+    "multimarkdown"
+  ],
+  "dependencies": [
+  ],
+  "desc": "C implementation of Markdown",
+  "full_name": "discount",
+  "homepage": "https://www.pell.portland.or.us/~orc/Code/discount/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "discount",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable Pandoc-style fenced code blocks.",
+      "option": "--with-fenced-code"
+    },
+    {
+      "description": "Install shared library",
+      "option": "--with-shared"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.3a"
+  }
+}

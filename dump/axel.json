@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "10257917ed87edf070064ad51dac4a3685415f969a6999a5a55938aab355f584",
+          "url": "https://linuxbrew.bintray.com/bottles/axel-2.15.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "18d458adef55854c33e4be487ce77eaa294fa9b7c8f09bcd3aff68cea063c2ab",
+          "url": "https://linuxbrew.bintray.com/bottles/axel-2.15.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2ed9747656442072e684c56a6354fcbfd1179b01cd0873cc77760a6e64270662",
+          "url": "https://linuxbrew.bintray.com/bottles/axel-2.15.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f7f088317e990228db4b0411595f0bba3e36b130abcaccd528aa04ac664ccfdd",
+          "url": "https://linuxbrew.bintray.com/bottles/axel-2.15.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "gettext",
+    "openssl"
+  ],
+  "desc": "Light UNIX download accelerator",
+  "full_name": "axel",
+  "homepage": "https://github.com/eribertomota/axel",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "axel",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.15"
+  }
+}

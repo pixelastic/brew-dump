@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "61d7da52fc3ad3e4a83b57e81dc66233a211bd7a850008ac2c7c3226d75b7071",
+          "url": "https://linuxbrew.bintray.com/bottles/huexpress-3.0.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "82e99480094c372b83088649696ee110b20b1f71c11d08f45125c03a7de28a17",
+          "url": "https://linuxbrew.bintray.com/bottles/huexpress-3.0.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0f2ad080284a6cf9076293a4f1f7afa7ca6461f9cb215d618a56a8f9101c2a2e",
+          "url": "https://linuxbrew.bintray.com/bottles/huexpress-3.0.4_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "scons",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "scons",
+    "pkg-config",
+    "sdl2",
+    "sdl2_mixer",
+    "libvorbis",
+    "libzip"
+  ],
+  "desc": "PC Engine emulator",
+  "full_name": "huexpress",
+  "homepage": "https://github.com/kallisti5/huexpress",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "huexpress",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.0.4"
+  }
+}

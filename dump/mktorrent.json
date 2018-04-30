@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6b11723fa40237afee4a17781b51c0cf6be510c3df02bca72cd5f6a299e22f24",
+          "url": "https://linuxbrew.bintray.com/bottles/mktorrent-1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a07987becfcb09c9246a441f5324449b7500c17a6e456a114c0583d43ad1bba1",
+          "url": "https://linuxbrew.bintray.com/bottles/mktorrent-1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9edd5b41e870ca716bad213d2ecf095e1d33b124ff150952fafc8a0d4dfd4560",
+          "url": "https://linuxbrew.bintray.com/bottles/mktorrent-1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d0f3f1d677e34044abcd712163c01008b56391d665daad15911acd446255c88a",
+          "url": "https://linuxbrew.bintray.com/bottles/mktorrent-1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Create BitTorrent metainfo files",
+  "full_name": "mktorrent",
+  "homepage": "https://mktorrent.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mktorrent",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

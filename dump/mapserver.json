@@ -1,0 +1,103 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e1c69d346d18201436a8afdbc40e7ef0b0e6ed80ec8ac47eba6ac5e04f65af8e",
+          "url": "https://linuxbrew.bintray.com/bottles/mapserver-7.0.7_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "861890728eb6d3fb016b9b820f301da7f79136f454820ef8d3eb1387711f8df3",
+          "url": "https://linuxbrew.bintray.com/bottles/mapserver-7.0.7_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "00e9069aba52817cbd8e27ee77113bdfd4f4ac3f0fc6fb89f16b8ae451e53fda",
+          "url": "https://linuxbrew.bintray.com/bottles/mapserver-7.0.7_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fc9e238840eae1aa63e829339d98b8171d4048d523567fd4c82a0ecf61a6f0f6",
+          "url": "https://linuxbrew.bintray.com/bottles/mapserver-7.0.7_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "cmake",
+    "swig"
+  ],
+  "caveats": "The Mapserver CGI executable is /home/tim/.linuxbrew/opt/mapserver/bin/mapserv\n\nIf you built the PHP option:\n  * Add the following line to php.ini:\n    extension=\"/home/tim/.linuxbrew/opt/mapserver/lib/php/extensions/php_mapscript.so\"\n  * Execute \"php -m\"\n  * You should see MapScript in the module list\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cmake",
+    "swig",
+    "freetype",
+    "libpng",
+    "giflib",
+    "gd",
+    "proj",
+    "gdal",
+    "geos",
+    "postgresql",
+    "cairo",
+    "curl"
+  ],
+  "desc": "Publish spatial data and interactive mapping apps to the web",
+  "full_name": "mapserver",
+  "homepage": "http://mapserver.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mapserver",
+  "oldname": null,
+  "optional_dependencies": [
+    "geos",
+    "postgresql",
+    "cairo"
+  ],
+  "options": [
+    {
+      "description": "Build with fastcgi support",
+      "option": "--with-fastcgi"
+    },
+    {
+      "description": "Build support for GEOS spatial operations",
+      "option": "--with-geos"
+    },
+    {
+      "description": "Build PHP MapScript module",
+      "option": "--with-php"
+    },
+    {
+      "description": "Build support for PostgreSQL as a data source",
+      "option": "--with-postgresql"
+    },
+    {
+      "description": "Build with cairo support",
+      "option": "--with-cairo"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.0.7"
+  }
+}

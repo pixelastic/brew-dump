@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c94d7232ff507f387fad5ba5fb0d09b1548e695cf7e1da284846a5ee828f2d03",
+          "url": "https://linuxbrew.bintray.com/bottles/gcal-4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0a1e3ab27fcc8d08d78452074137dcdf281068c41a732a64222e9b5ed235e8fb",
+          "url": "https://linuxbrew.bintray.com/bottles/gcal-4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f120585bc8538eb1ab7c71ec240b150472cbf7b42e7fc6a3f008c15104d81e7c",
+          "url": "https://linuxbrew.bintray.com/bottles/gcal-4.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b50b10e57eea6d6fa84c35769401b0da3bde02bade28e137bc1263d492c60c3f",
+          "url": "https://linuxbrew.bintray.com/bottles/gcal-4.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Program for calculating and printing calendars",
+  "full_name": "gcal",
+  "homepage": "https://www.gnu.org/software/gcal/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gcal",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.1"
+  }
+}

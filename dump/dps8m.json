@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f079087bc567e575f5c7d83890d84cf872a58a3707fb08467b4eda2b6a10ccd7",
+          "url": "https://linuxbrew.bintray.com/bottles/dps8m-1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0c436100ea3f71f5e7fcb2a39ca6d6e08a4981b661117e6e8d18685df3c8d040",
+          "url": "https://linuxbrew.bintray.com/bottles/dps8m-1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eab4df90e0f3573923e9baab97f0685d793a5ae200f167be8f99fc1ec957b60a",
+          "url": "https://linuxbrew.bintray.com/bottles/dps8m-1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2b926d89e82143603bc35550092e373c5c88c47ab6b8a259c6128bfc649e411c",
+          "url": "https://linuxbrew.bintray.com/bottles/dps8m-1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libuv"
+  ],
+  "desc": "Simulator for the Multics dps-8/m mainframe",
+  "full_name": "dps8m",
+  "homepage": "https://ringzero.wikidot.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dps8m",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0"
+  }
+}

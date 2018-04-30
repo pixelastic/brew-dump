@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "71a52e92493c351223aee8cbc69dc21cc0d7cac516296685403c8c4da939111f",
+          "url": "https://linuxbrew.bintray.com/bottles/immortal-0.18.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "deebb8a1f75da45655d196fbb8d3cc557604e8c65b7ae0fcaa1ba1995861a53a",
+          "url": "https://linuxbrew.bintray.com/bottles/immortal-0.18.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a174ec2100bd0f6cd9b685e7baec1e0de0f93e949300631b69bbe05e1d26e11e",
+          "url": "https://linuxbrew.bintray.com/bottles/immortal-0.18.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "dep",
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "dep",
+    "go"
+  ],
+  "desc": "OS agnostic (*nix) cross-platform supervisor",
+  "full_name": "immortal",
+  "homepage": "https://immortal.run/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "immortal",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.18.0"
+  }
+}

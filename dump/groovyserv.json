@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "51aef6e15608021ae127aaa93e2aa39bfaf52cfea688b45841d315b6a04b55aa",
+          "url": "https://linuxbrew.bintray.com/bottles/groovyserv-1.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "30825c3d2f95214cf8e06fbec819f5b3d1ed87f7b5f0dd1c588525dafaf12c41",
+          "url": "https://linuxbrew.bintray.com/bottles/groovyserv-1.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "43388a03d5e69fd6fe8377f8ac51fdfa00ffe0e0276a60f8c7ff2934ab32e2b0",
+          "url": "https://linuxbrew.bintray.com/bottles/groovyserv-1.2.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "groovy"
+  ],
+  "desc": "Speed up Groovy startup time",
+  "full_name": "groovyserv",
+  "homepage": "https://kobo.github.io/groovyserv/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "groovyserv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "caskroom/versions/java8",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.0"
+  }
+}

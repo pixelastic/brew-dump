@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f6ca20b97a651114986b485e950859e733a08384bd9ea08ef12eb8cd29f2e697",
+          "url": "https://linuxbrew.bintray.com/bottles/liblockfile-1.14.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "49db28fa47ee7012be39fbb8ab03948c050a95525808aa27ad2f8521ff8fadc6",
+          "url": "https://linuxbrew.bintray.com/bottles/liblockfile-1.14.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "45b9f5fee9e1a0efa2439027cd72d5bc6fede1ec9391a46d0a9eb024e675b31c",
+          "url": "https://linuxbrew.bintray.com/bottles/liblockfile-1.14.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library providing functions to lock standard mailboxes",
+  "full_name": "liblockfile",
+  "homepage": "https://tracker.debian.org/pkg/liblockfile",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "liblockfile",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.14"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5fc89e642b7d51c0c7965d9a952d1b697f94b4ec16d7711ff37387979ce47f5d",
+          "url": "https://linuxbrew.bintray.com/bottles/ttf2eot-0.0.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7b44ec925ee2bbeeaba775befc77c0c22f2f690ecd94edb72e471c631da80f43",
+          "url": "https://linuxbrew.bintray.com/bottles/ttf2eot-0.0.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "26f40d7a58de2ee396fc04dd47c41e9b65640570fa1ca8b71134dd88e6e88c06",
+          "url": "https://linuxbrew.bintray.com/bottles/ttf2eot-0.0.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8e4f7d96ed88ff6f073c3e990b99adee42fc12681e2fede952f06d4cc4088c14",
+          "url": "https://linuxbrew.bintray.com/bottles/ttf2eot-0.0.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Convert TTF files to EOT",
+  "full_name": "ttf2eot",
+  "homepage": "https://github.com/wget/ttf2eot",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ttf2eot",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.0.3"
+  }
+}

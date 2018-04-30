@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "daa52de0abc98a3d3143239edea0d407d8847e6d8fc3bd5231e7e2df1cf68658",
+          "url": "https://linuxbrew.bintray.com/bottles/stone-soup-0.21.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5f7b2cd8ee4e2c0b08a4ef9c0e6935395062133379eac64df21cdf5af2320505",
+          "url": "https://linuxbrew.bintray.com/bottles/stone-soup-0.21.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c27d34ef368192a7ba8f851224d0daadd5c7f6df626e8560d54fb07450293e5f",
+          "url": "https://linuxbrew.bintray.com/bottles/stone-soup-0.21.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "lua@5.1",
+    "pcre"
+  ],
+  "desc": "Dungeon Crawl Stone Soup: a roguelike game",
+  "full_name": "stone-soup",
+  "homepage": "https://crawl.develz.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "stone-soup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable graphic tiles and sound",
+      "option": "--with-tiles"
+    },
+    {
+      "description": "Disable Lua bindings for user scripts",
+      "option": "--without-lua@5.1"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "lua@5.1"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.21.1"
+  }
+}

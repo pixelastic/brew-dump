@@ -1,0 +1,67 @@
+{
+  "aliases": [
+    "clasp",
+    "gringo"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "7c9b87455116a0538ff4e8de9a2366a7ae7cb0020ef9c8a38450a72efd4903ce",
+          "url": "https://linuxbrew.bintray.com/bottles/clingo-5.2.2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c6d1544f386880a1c16c81f56fddc3bef9efccda62d624dc646e6e785a236301",
+          "url": "https://linuxbrew.bintray.com/bottles/clingo-5.2.2.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "69df2be35e41efc97550deef3f12a66210a77838b4238e9046edf2aab9a38a25",
+          "url": "https://linuxbrew.bintray.com/bottles/clingo-5.2.2.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "doxygen"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "doxygen",
+    "python@2"
+  ],
+  "desc": "ASP system to ground and solve logic programs",
+  "full_name": "clingo",
+  "homepage": "https://potassco.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "clingo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.2.2"
+  }
+}

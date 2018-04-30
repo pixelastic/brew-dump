@@ -1,0 +1,41 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To enable auto-activation add to your profile:\n  if which pyenv-virtualenv-init > /dev/null; then eval \"$(pyenv virtualenv-init -)\"; fi\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pyenv"
+  ],
+  "desc": "Pyenv plugin to manage virtualenv",
+  "full_name": "pyenv-virtualenv",
+  "homepage": "https://github.com/pyenv/pyenv-virtualenv",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pyenv-virtualenv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.1"
+  }
+}

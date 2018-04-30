@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "baadc7c40697b28b46c7541d617f65ee318b78efbdc4156c6527490616fd2dee",
+          "url": "https://linuxbrew.bintray.com/bottles/iat-0.1.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "799764ef75d9efdf93f92a2fbc2beaedecd6037eae45eaaf7ce888c2ef2b3eb3",
+          "url": "https://linuxbrew.bintray.com/bottles/iat-0.1.7.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "31eb7a245b5ee29b983017b572bb6895abda8f32101b402889a96b0f316abe45",
+          "url": "https://linuxbrew.bintray.com/bottles/iat-0.1.7.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "97d378d0b0ee8bb685272d126a54c833ad8d9f7f3ab34631198d054d2f1d0bdf",
+          "url": "https://linuxbrew.bintray.com/bottles/iat-0.1.7.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "db517ebd84afdeabaf2e130faccb88f33f359d13eab3bfbb5e19013051ca7827",
+          "url": "https://linuxbrew.bintray.com/bottles/iat-0.1.7.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Converts many CD-ROM image formats to ISO9660",
+  "full_name": "iat",
+  "homepage": "https://sourceforge.net/projects/iat.berlios/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "iat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.7"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "664c8faf84a8bd6e80ebd8ca175c8e0a4cb6087f867e208cea4d9f8cda643134",
+          "url": "https://linuxbrew.bintray.com/bottles/fontconfig-2.12.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8c9ff65654be03a4003d0e0d9e27fa1f03641aceadebd0f2a1b2f66cc1c2b54a",
+          "url": "https://linuxbrew.bintray.com/bottles/fontconfig-2.12.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cfa65615f05fe6e0547be2738bed94d21f05491df2edf1e246da8a3669225e4d",
+          "url": "https://linuxbrew.bintray.com/bottles/fontconfig-2.12.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8ed515c596c3b8e329f486b884e4fb16eeeea947b842b5ce6dc42d28dd85ea12",
+          "url": "https://linuxbrew.bintray.com/bottles/fontconfig-2.12.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "gperf",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "freetype",
+    "bzip2",
+    "expat",
+    "autoconf",
+    "automake",
+    "gperf",
+    "libtool"
+  ],
+  "desc": "XML-based font configuration API for X Windows",
+  "full_name": "fontconfig",
+  "homepage": "https://wiki.freedesktop.org/www/Software/fontconfig/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fontconfig",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Skip building the fontconfig docs",
+      "option": "--without-docs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.12.6"
+  }
+}

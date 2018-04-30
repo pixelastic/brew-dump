@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2f04a20ef5c05ddd00893198ca5134a455869d1a231893d7931603c60a4dd497",
+          "url": "https://linuxbrew.bintray.com/bottles/nsq-1.0.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bf7029656b4cf5fbefaa252ed1cac50dc49a31139eda7b583165bfcacaec1e42",
+          "url": "https://linuxbrew.bintray.com/bottles/nsq-1.0.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5bb322677d0bbb1f4f5fa7be1584cafbfcec01e67c0063f6ee14a13933389c6e",
+          "url": "https://linuxbrew.bintray.com/bottles/nsq-1.0.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "15550596f79ada963ef773505430dbbb24be91b994694c489ab03b3c3eac56f4",
+          "url": "https://linuxbrew.bintray.com/bottles/nsq-1.0.0_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "gpm"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "gpm"
+  ],
+  "desc": "Realtime distributed messaging platform",
+  "full_name": "nsq",
+  "homepage": "http://nsq.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nsq",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.0"
+  }
+}

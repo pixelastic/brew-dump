@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a492323f12f328e1854a2a2c406cc0c470d5e61e6e4ea152d6a4b38cc54216ff",
+          "url": "https://linuxbrew.bintray.com/bottles/ktoblzcheck-1.49.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "470a6f3ee6499fcdcb8f80177e60f388e37d3085ff936e09b9ed8a672c048b35",
+          "url": "https://linuxbrew.bintray.com/bottles/ktoblzcheck-1.49.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "45ad0c35749f0d557d7300010901b8babfdc1f5d88bc9f5d9c40a05a31be51b0",
+          "url": "https://linuxbrew.bintray.com/bottles/ktoblzcheck-1.49.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "12f5538205d74f95086faeb657eea1f80a62339afa689e00c2e74cb964430dae",
+          "url": "https://linuxbrew.bintray.com/bottles/ktoblzcheck-1.49.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "becae478ba0d094c71ff876db74e9946b51e72df0c6d295e4bfbe0ea337294b0",
+          "url": "https://linuxbrew.bintray.com/bottles/ktoblzcheck-1.49.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library for German banks",
+  "full_name": "ktoblzcheck",
+  "homepage": "https://ktoblzcheck.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ktoblzcheck",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.49"
+  }
+}

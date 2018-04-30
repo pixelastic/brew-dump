@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7927b712f8f9570c0a7e21593786bd41edf0daf2e14b7998886af9a00a8c2ab0",
+          "url": "https://linuxbrew.bintray.com/bottles/gssdp-1.0.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c8ac9c7c755749b7a6ea9790efab2311c9fc3d62a1af62b719968f14a7c25b62",
+          "url": "https://linuxbrew.bintray.com/bottles/gssdp-1.0.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3786f067d3b19ce3021618aaf434fd325862f90d03b7fd5ac12f6f37f8715e42",
+          "url": "https://linuxbrew.bintray.com/bottles/gssdp-1.0.2_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8dc6f41c923529849f43e90d804cd4c548d6b6ea95f1221d2ef6e2d455d78d09",
+          "url": "https://linuxbrew.bintray.com/bottles/gssdp-1.0.2_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "gettext",
+    "glib",
+    "libsoup"
+  ],
+  "desc": "GUPnP library for resource discovery and announcement over SSDP",
+  "full_name": "gssdp",
+  "homepage": "https://wiki.gnome.org/GUPnP/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gssdp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.2"
+  }
+}

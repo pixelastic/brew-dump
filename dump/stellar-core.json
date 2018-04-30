@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "441e28cb07e72faf6d89e15a47b0bfc4469c2faa95ee2671ce33e2184b843914",
+          "url": "https://linuxbrew.bintray.com/bottles/stellar-core-9.2.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "42973d1b0d23fa0d64d27c171a3feeb7256545030e678637b7ba428df6d066ed",
+          "url": "https://linuxbrew.bintray.com/bottles/stellar-core-9.2.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1f6be307febae9e4711669efe0e04f02d88884e10dc6a590e5c8c2e7ade321d5",
+          "url": "https://linuxbrew.bintray.com/bottles/stellar-core-9.2.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pandoc",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pandoc",
+    "pkg-config",
+    "libsodium",
+    "postgresql"
+  ],
+  "desc": "The backbone of the Stellar (XLM) network",
+  "full_name": "stellar-core",
+  "homepage": "https://www.stellar.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "stellar-core",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "9.2.0"
+  }
+}

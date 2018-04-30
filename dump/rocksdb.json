@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "df75d4898fc368444a3fcb4b0cc169f22a5201c60d35912f5c0740bf792bf082",
+          "url": "https://linuxbrew.bintray.com/bottles/rocksdb-5.12.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "51bfc992203681ea1c797d54ddfed850a8f636144ffed2baf51095b0f0cd5d81",
+          "url": "https://linuxbrew.bintray.com/bottles/rocksdb-5.12.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f8acbf443e79406a7d39923360a9960179b748a27b034f771fcd5b783c017cf7",
+          "url": "https://linuxbrew.bintray.com/bottles/rocksdb-5.12.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "snappy",
+    "lz4",
+    "gflags",
+    "bzip2",
+    "zlib"
+  ],
+  "desc": "Embeddable, persistent key-value store for fast storage",
+  "full_name": "rocksdb",
+  "homepage": "https://rocksdb.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rocksdb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "ci"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.12.4"
+  }
+}

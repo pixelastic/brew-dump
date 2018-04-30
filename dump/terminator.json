@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "00e85432871cb5e7df4bcbe8e835cf9ad619f772de9018c41ed781bef4fa6643",
+          "url": "https://linuxbrew.bintray.com/bottles/terminator-0.98_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "00e85432871cb5e7df4bcbe8e835cf9ad619f772de9018c41ed781bef4fa6643",
+          "url": "https://linuxbrew.bintray.com/bottles/terminator-0.98_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "00e85432871cb5e7df4bcbe8e835cf9ad619f772de9018c41ed781bef4fa6643",
+          "url": "https://linuxbrew.bintray.com/bottles/terminator-0.98_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "python@2",
+    "vte",
+    "pygtk",
+    "pygobject",
+    "pango"
+  ],
+  "desc": "Multiple terminals in one window",
+  "full_name": "terminator",
+  "homepage": "https://gnometerminator.blogspot.com/p/introduction.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "terminator",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.98"
+  }
+}

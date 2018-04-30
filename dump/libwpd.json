@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c5368f8e62e66db7f5afcf1fb6b807af0d4a2ac5673863a787b16329e484f457",
+          "url": "https://linuxbrew.bintray.com/bottles/libwpd-0.10.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b240b96a69dc164ef6f4cdc3cdff10339cb1ce5d1593380319e8f41004d82d26",
+          "url": "https://linuxbrew.bintray.com/bottles/libwpd-0.10.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5e7bd127154ff012858b889ab8b40c47498887f7cf5ef5c9d71eb8230d7ac68e",
+          "url": "https://linuxbrew.bintray.com/bottles/libwpd-0.10.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e330196d2d7b5d239c1ccc14b53f9cd769ba2ad8f5134b4c1948f33acbe5753a",
+          "url": "https://linuxbrew.bintray.com/bottles/libwpd-0.10.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib",
+    "libgsf",
+    "librevenge"
+  ],
+  "desc": "General purpose library for reading WordPerfect files",
+  "full_name": "libwpd",
+  "homepage": "https://libwpd.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libwpd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.10.2"
+  }
+}

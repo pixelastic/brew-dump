@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7b01b3ff0af9e60f2887bb45ff5ba2f5823a9a440c2d78e51e69904d3edd80d8",
+          "url": "https://linuxbrew.bintray.com/bottles/png++-0.2.5_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4085580bff1ec2116c321e84a426d195943a002f84b4662c9814a64e5925c627",
+          "url": "https://linuxbrew.bintray.com/bottles/png++-0.2.5_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f2e242ee428f191645418a9897eb2fd729408dd67d04e7af4cefc7dcb5715250",
+          "url": "https://linuxbrew.bintray.com/bottles/png++-0.2.5_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "41785b523dc50e5b237d83d027b34b6532114a6751eff3f409ee0ba9e0730f04",
+          "url": "https://linuxbrew.bintray.com/bottles/png++-0.2.5_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "de37d7fadb7308b45ba0448308256d00bf36442bacbab1e734ee8398aea8a8dd",
+          "url": "https://linuxbrew.bintray.com/bottles/png++-0.2.5_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libpng"
+  ],
+  "desc": "C++ wrapper for libpng library",
+  "full_name": "png++",
+  "homepage": "https://www.nongnu.org/pngpp/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "png++",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.5"
+  }
+}

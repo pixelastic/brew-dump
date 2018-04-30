@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "667fe1a26fdd6e1a36f6e7b263f2f8e3d01f884da9d9edeb182dbb40b08475ab",
+          "url": "https://linuxbrew.bintray.com/bottles/libnatpmp-20150609.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "04c286ebb17bf08728749e390dd9ccabf3fcc4b660ffe4b6f315dcf89012f15a",
+          "url": "https://linuxbrew.bintray.com/bottles/libnatpmp-20150609.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d1aaa97c827918f7d35d121399cb8f59b4442b94c3283a51b7931f0e008ff934",
+          "url": "https://linuxbrew.bintray.com/bottles/libnatpmp-20150609.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "05e5b8a929142a7b6723be3b86c3be5babb36c4fd136866a4b3df7d03b9a64f3",
+          "url": "https://linuxbrew.bintray.com/bottles/libnatpmp-20150609.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "NAT port mapping protocol library",
+  "full_name": "libnatpmp",
+  "homepage": "http://miniupnp.free.fr/libnatpmp.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libnatpmp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20150609"
+  }
+}

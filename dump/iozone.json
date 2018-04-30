@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1d7e34cd91861d25a446ecc5f14106fe189ada84eb2bfc0da61b6daf1d1ae838",
+          "url": "https://linuxbrew.bintray.com/bottles/iozone-3.478.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f695c668b322794f067c2c333f332073d0a14877cd611fa0880c47276643b048",
+          "url": "https://linuxbrew.bintray.com/bottles/iozone-3.478.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "43164b675e0019918cbc8661eedd37682e6c2167aad8ce4408e8c2dc80ab9d45",
+          "url": "https://linuxbrew.bintray.com/bottles/iozone-3.478.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4dfe975392698cd51a6e587343c844f5548636c6815dbcef6a93242c2471d527",
+          "url": "https://linuxbrew.bintray.com/bottles/iozone-3.478.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "File system benchmark tool",
+  "full_name": "iozone",
+  "homepage": "http://www.iozone.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "iozone",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.478"
+  }
+}

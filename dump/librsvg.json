@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "6d7418c2911ce65c4895ce5c39e49ff8cac58e6c424295089533189802c868bc",
+          "url": "https://linuxbrew.bintray.com/bottles/librsvg-2.42.2_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9fbc01305791dd1bcc471457267e3f92a14676c748806afb931077b4a5d7cad0",
+          "url": "https://linuxbrew.bintray.com/bottles/librsvg-2.42.2_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "358ee8bd09767179968af8cf3d2b6fe2f0c881ed1a1ca3f033a7fac59cecd409",
+          "url": "https://linuxbrew.bintray.com/bottles/librsvg-2.42.2_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "rust",
+    "gobject-introspection"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "rust",
+    "gobject-introspection",
+    "cairo",
+    "gdk-pixbuf",
+    "glib",
+    "libcroco",
+    "pango",
+    "gtk+3"
+  ],
+  "desc": "Library to render SVG files using Cairo",
+  "full_name": "librsvg",
+  "homepage": "https://live.gnome.org/LibRsvg",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "librsvg",
+  "oldname": null,
+  "optional_dependencies": [
+    "gtk+3"
+  ],
+  "options": [
+    {
+      "description": "Build with gtk+3 support",
+      "option": "--with-gtk+3"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.42.2"
+  }
+}

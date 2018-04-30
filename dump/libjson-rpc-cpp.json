@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "cfb154a79679e34ec52c03eebf077ebb9d6d81c6bddd4a21d43fb49fee8f812d",
+          "url": "https://linuxbrew.bintray.com/bottles/libjson-rpc-cpp-1.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a0bf45eab53c074d1a7db06b07d208a25eb1f004732fc331854b016af491d757",
+          "url": "https://linuxbrew.bintray.com/bottles/libjson-rpc-cpp-1.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4202093dd4d26177adf295ec6c7e81df4a32be060f5599de80cbeb24b45640e5",
+          "url": "https://linuxbrew.bintray.com/bottles/libjson-rpc-cpp-1.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b6c4bbb8f3bc60abf0b10abcced29ce6f9e123bd37d5de7be3c2026ddc339088",
+          "url": "https://linuxbrew.bintray.com/bottles/libjson-rpc-cpp-1.1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "argtable",
+    "jsoncpp",
+    "libmicrohttpd",
+    "hiredis"
+  ],
+  "desc": "C++ framework for json-rpc",
+  "full_name": "libjson-rpc-cpp",
+  "homepage": "https://github.com/cinemast/libjson-rpc-cpp",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libjson-rpc-cpp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.0"
+  }
+}

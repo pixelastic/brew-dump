@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "30b3e34a46470f11d90ca01aebd2b2d1fbaa6cc8a05c1bcec7067d40fdec75d1",
+          "url": "https://linuxbrew.bintray.com/bottles/libxdg-basedir-1.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f5b940765c84d65ecd0baddcc03eab2bc612a090db48e6309b411f13e7a3c714",
+          "url": "https://linuxbrew.bintray.com/bottles/libxdg-basedir-1.2.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "5c7bfadf4ca8b26c077eea7480df5a4ca3634b5823860a06ce2756050acbe84a",
+          "url": "https://linuxbrew.bintray.com/bottles/libxdg-basedir-1.2.0.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "63250688af20be1cb163530ea3849e4ca8b4ce93e15040904936414995af93f0",
+          "url": "https://linuxbrew.bintray.com/bottles/libxdg-basedir-1.2.0.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "00953ec922b6ebac6e27b1f8e1139fcc1cc5b9f8312dc8d0ebe69778c884c1b7",
+          "url": "https://linuxbrew.bintray.com/bottles/libxdg-basedir-1.2.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7e165b0e949f559789981a5c0e0fd68bbf478943a0c9b03ad3778cecb0219691",
+          "url": "https://linuxbrew.bintray.com/bottles/libxdg-basedir-1.2.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "desc": "C implementation of the XDG Base Directory specifications",
+  "full_name": "libxdg-basedir",
+  "homepage": "https://github.com/devnev/libxdg-basedir",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libxdg-basedir",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.0"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9be378753ee161c47391ce91aa9c3476df906062f6f5ad7dd57e2e8eb77d0921",
+          "url": "https://linuxbrew.bintray.com/bottles/stella-5.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "20531655187c2cc8137714a7df420a701838192fb7cbd83d587300d1c8691471",
+          "url": "https://linuxbrew.bintray.com/bottles/stella-5.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2fb238f5b88ab0b154aa97ef9d2a25ca2176e1205702183b27711b928da04007",
+          "url": "https://linuxbrew.bintray.com/bottles/stella-5.1.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ff66a205c2e82f608662c676b149fbeab1146cc378dbc77fb8993a6a2d934e6c",
+          "url": "https://linuxbrew.bintray.com/bottles/stella-5.1.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl2",
+    "libpng",
+    "zlib"
+  ],
+  "desc": "Atari 2600 VCS emulator",
+  "full_name": "stella",
+  "homepage": "https://stella-emu.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "stella",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.1.1"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "30bb554952cdbcc445b247f570243c31ab4cafebf55bcfe96b9cabcb5ca2f716",
+          "url": "https://linuxbrew.bintray.com/bottles/boost@1.55-1.55.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "268a8123cf956c5f8e79115b4a5d5807a9125891ac5df161357f31f917bbe16f",
+          "url": "https://linuxbrew.bintray.com/bottles/boost@1.55-1.55.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bf89ab11c1ceab224a5ece4629987b4d8d137c5c3506a4577301f70b05d0ea97",
+          "url": "https://linuxbrew.bintray.com/bottles/boost@1.55-1.55.0_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f861f79bde1988282064245c5b1080f66f6a4e034162656b627c2bb8de42ebb2",
+          "url": "https://linuxbrew.bintray.com/bottles/boost@1.55-1.55.0_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Building of Boost.Log is disabled because it requires newer GCC or Clang.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python",
+    "python@2"
+  ],
+  "desc": "Collection of portable C++ source libraries",
+  "full_name": "boost@1.55",
+  "homepage": "https://www.boost.org",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "boost@1.55",
+  "oldname": "boost155",
+  "optional_dependencies": [
+    "python",
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Build regexp engine with icu support",
+      "option": "--with-icu"
+    },
+    {
+      "description": "Disable building single-threading variant",
+      "option": "--without-single"
+    },
+    {
+      "description": "Disable building static library variant",
+      "option": "--without-static"
+    },
+    {
+      "description": "Build using C++11 mode",
+      "option": "--c++11"
+    },
+    {
+      "description": "Build with python support",
+      "option": "--with-python"
+    },
+    {
+      "description": "Build with python@2 support",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.55.0"
+  }
+}

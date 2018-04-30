@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e5f4de22de172dec649fcc453022fe33840d3b0596b2ab830d2a0525d5c02ccd",
+          "url": "https://linuxbrew.bintray.com/bottles/cmark-gfm-0.28.3.gfm.12.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f8fb24d78f6a8e48aef311e5623a98cef25fc0f12c88742964b3ba7194831b60",
+          "url": "https://linuxbrew.bintray.com/bottles/cmark-gfm-0.28.3.gfm.12.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b94090c9e3be2b4699c17059d5c57b2c732c2d274f90d80cadb049c3c1556ab7",
+          "url": "https://linuxbrew.bintray.com/bottles/cmark-gfm-0.28.3.gfm.12.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d7ee02a83de9ff94c930e754b5c70c3119b23bc9675ab25d20df52232bedb5d1",
+          "url": "https://linuxbrew.bintray.com/bottles/cmark-gfm-0.28.3.gfm.12.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "python"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "cmark"
+  ],
+  "dependencies": [
+    "cmake",
+    "python"
+  ],
+  "desc": "C implementation of GitHub Flavored Markdown",
+  "full_name": "cmark-gfm",
+  "homepage": "https://github.com/github/cmark",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cmark-gfm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.28.3.gfm.12"
+  }
+}

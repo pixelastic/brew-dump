@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2d9a9b5f875b91c78378e7f3df12595528d8e4b9ec9e321131b7f9f78f30acd8",
+          "url": "https://linuxbrew.bintray.com/bottles/xmlstarlet-1.6.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "56ce0e3190080e6e1111ebb31aa06aea53f16cde50359a356c24ff86a4df72b3",
+          "url": "https://linuxbrew.bintray.com/bottles/xmlstarlet-1.6.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7004b98b4dd9195a35f736ba3f6282369a2c63397a710056c5d1ae71d149fa3a",
+          "url": "https://linuxbrew.bintray.com/bottles/xmlstarlet-1.6.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4958bf868beefb9a2b391c0fe05f5289b67a4cded708d71c4cc5fced130bac55",
+          "url": "https://linuxbrew.bintray.com/bottles/xmlstarlet-1.6.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "88b419a7af11d19f44e0450b8f50ae1c56a75d4b04124ad612e2ea15db557f3f",
+          "url": "https://linuxbrew.bintray.com/bottles/xmlstarlet-1.6.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "525eafe6cab96cc6e04fef756e25316119b3c96cb61e5f7f51770cd062ad1bec",
+          "url": "https://linuxbrew.bintray.com/bottles/xmlstarlet-1.6.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libxslt"
+  ],
+  "desc": "XML command-line utilities",
+  "full_name": "xmlstarlet",
+  "homepage": "https://xmlstar.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xmlstarlet",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.1"
+  }
+}

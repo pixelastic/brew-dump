@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "high_sierra": {
+          "sha256": "b5731e67f8155038764e927d6363c16f04cce69edc3c25bff78d9c39beaae4f9",
+          "url": "https://linuxbrew.bintray.com/bottles/plank-1.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "374262fdc60398fdf217c8bb2e458641ce683eb5dc6c5979cea84f0a5a4adc82",
+          "url": "https://linuxbrew.bintray.com/bottles/plank-1.4.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Framework for generating immutable model objects",
+  "full_name": "plank",
+  "homepage": "https://pinterest.github.io/plank/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "plank",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.1"
+  }
+}

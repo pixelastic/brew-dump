@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "56bd3750bfa55261fc43cb13144d3b81db7ae6743eb14ab0d2efa0783efb7e26",
+          "url": "https://linuxbrew.bintray.com/bottles/zsxd-1.11.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "771e8ae2db1b6ab59d0ecaceee0265540a9a9d7f46b0be1fc7017842e743158a",
+          "url": "https://linuxbrew.bintray.com/bottles/zsxd-1.11.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cf2a0976c81fd8e06116d7728804ce266265447ebede2f80182f9f07071ec2da",
+          "url": "https://linuxbrew.bintray.com/bottles/zsxd-1.11.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "03135d1568d306d2c7918c643f4cca1071cf463fb62ce1af28b3fcca8ed5b4cb",
+          "url": "https://linuxbrew.bintray.com/bottles/zsxd-1.11.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "solarus"
+  ],
+  "desc": "Zelda Mystery of Solarus XD",
+  "full_name": "zsxd",
+  "homepage": "http://www.solarus-games.org/games/zelda-mystery-of-solarus-xd/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zsxd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.11.0"
+  }
+}

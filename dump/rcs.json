@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4681c5fae05b4f4b267a9bccc9032de2b216437105d591ec5de7a10ca31e0441",
+          "url": "https://linuxbrew.bintray.com/bottles/rcs-5.9.4_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f43c9160cbc605578af4473892f71f733dc05a9ab836d280400acece9cb75708",
+          "url": "https://linuxbrew.bintray.com/bottles/rcs-5.9.4_1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f082af49e1b1570892fa76b91bed0246e9ad63e59f953e0388b20dbf55edc485",
+          "url": "https://linuxbrew.bintray.com/bottles/rcs-5.9.4_1.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "GNU revision control system",
+  "full_name": "rcs",
+  "homepage": "https://www.gnu.org/software/rcs/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rcs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.9.4"
+  }
+}

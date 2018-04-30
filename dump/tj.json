@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "37a1cc78f74344b31c8e85dc32213f42b9bd43bb5cc015afee749254042906fa",
+          "url": "https://linuxbrew.bintray.com/bottles/tj-6.0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "05fa676f8b78bdeb2b782d696dd0e7b0dc1aafaf4597f1bc259fc8ccd3b3f168",
+          "url": "https://linuxbrew.bintray.com/bottles/tj-6.0.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "26edd5e1c71f587c3aa9be749e2d18852cde5ad406c91a9402ecba7cf3ada798",
+          "url": "https://linuxbrew.bintray.com/bottles/tj-6.0.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Line timestamping tool",
+  "full_name": "tj",
+  "homepage": "https://github.com/sgreben/tj",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tj",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.0.2"
+  }
+}

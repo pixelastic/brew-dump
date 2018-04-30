@@ -1,0 +1,54 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "NOTE:\nThis formula provides components that were removed from XCode in the 4.2\nrelease. There is no reason to install this formula if you are using a\nversion of XCode prior to 4.2.\n\nThis formula contains compilers built from Apple's GCC sources, build\n5666.3, available from:\n\n  https://opensource.apple.com/tarballs/gcc\n\nAll compilers have a `-4.2` suffix. A GFortran compiler is also included.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "GNU compiler collection",
+  "full_name": "apple-gcc42",
+  "homepage": "https://r.research.att.com/tools/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "apple-gcc42",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Provide gfortran symlinks",
+      "option": "--with-gfortran-symlink"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "maximummacos"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "4.2.1-5666.3"
+  }
+}

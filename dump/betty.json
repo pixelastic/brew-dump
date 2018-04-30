@@ -1,0 +1,41 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ruby"
+  ],
+  "desc": "English-like interface for the command-line",
+  "full_name": "betty",
+  "homepage": "https://github.com/pickhardt/betty",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "betty",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.7"
+  }
+}

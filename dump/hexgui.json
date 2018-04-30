@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6f3b7e06bd291e264d37d3d6d2118e34f8ce417d056a2b47d0a9a30add3c3491",
+          "url": "https://linuxbrew.bintray.com/bottles/hexgui-0.9.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2cc22dcd291b736c4f3924282bffe306b80192ada7b52dca936d06080eef017a",
+          "url": "https://linuxbrew.bintray.com/bottles/hexgui-0.9.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9aa7e7d783c781df16193ce402675ffb5cd6d652a91fb52adc08f64e87949c30",
+          "url": "https://linuxbrew.bintray.com/bottles/hexgui-0.9.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d65b66b60e2aa05daf90732381b8f3778dfd66476f004a420c5a8ff2f7b6b0f3",
+          "url": "https://linuxbrew.bintray.com/bottles/hexgui-0.9.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ant"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ant"
+  ],
+  "desc": "GUI for playing Hex over Hex Text Protocol",
+  "full_name": "hexgui",
+  "homepage": "https://sourceforge.net/p/benzene/hexgui/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hexgui",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.1"
+  }
+}

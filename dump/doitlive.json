@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "574b15c2cbdbaaefe888871397fc3954601f8a1992f4321921e93965bebaad2a",
+          "url": "https://linuxbrew.bintray.com/bottles/doitlive-3.0.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eff7506bb16d20d86cbf59f2148eb2b462dcbbeacb882b21aa4dae9823bdb16d",
+          "url": "https://linuxbrew.bintray.com/bottles/doitlive-3.0.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "20330ac92368bca03cc9b13732599ae1e81de2120aff978a1f5d1045caea91b6",
+          "url": "https://linuxbrew.bintray.com/bottles/doitlive-3.0.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2d382ebc05ef4a104184ed4d7d592a96ace4220f4251ae4be5b4c769c74e1e04",
+          "url": "https://linuxbrew.bintray.com/bottles/doitlive-3.0.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Replay stored shell commands for live presentations",
+  "full_name": "doitlive",
+  "homepage": "https://doitlive.readthedocs.io/en/latest/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "doitlive",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.3"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "dab6c9480077541aff39c6ba5b27a91bbc557faedd713178e9f6e8ea7daa5371",
+          "url": "https://linuxbrew.bintray.com/bottles/git-multipush-2.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "edd99d5ec177bccf061f7424aa595a5515fa5728aec649594f42964cec1f371e",
+          "url": "https://linuxbrew.bintray.com/bottles/git-multipush-2.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "cc6bb7672b79860ae50c06633c28913b5fadb25e2815c5b3e432d4039746f16c",
+          "url": "https://linuxbrew.bintray.com/bottles/git-multipush-2.3.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "81d0a4bc4808ab5a31b043640c2ec861cbe6a5fead1a76eda0ffa7bff8ae6158",
+          "url": "https://linuxbrew.bintray.com/bottles/git-multipush-2.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "83355d6549e7cf7d4a9d037cc44895487bb97019e5b810b42266af458302ce7d",
+          "url": "https://linuxbrew.bintray.com/bottles/git-multipush-2.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "asciidoc"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "asciidoc"
+  ],
+  "desc": "Push a branch to multiple remotes in one command",
+  "full_name": "git-multipush",
+  "homepage": "https://github.com/gavinbeatty/git-multipush",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git-multipush",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "2.4.rc2",
+    "head": "HEAD",
+    "stable": "2.3"
+  }
+}

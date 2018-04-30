@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "31707ebe92ad5ade0adcf48754dd93822e2c95a0817526629ce9547e7130aee7",
+          "url": "https://linuxbrew.bintray.com/bottles/goose-2.1.0.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4389bdce9a88f2b7aca8e95539262f56e46720a54c956a79aba7bbf59134cee5",
+          "url": "https://linuxbrew.bintray.com/bottles/goose-2.1.0.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b7596059b7e270e7c41016eaac43052f3ceae1e628b32c6924f1de77ecf33705",
+          "url": "https://linuxbrew.bintray.com/bottles/goose-2.1.0.sierra.bottle.2.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9385a86b879ee7f0c33ef990efc3c64d28dc8df97385dfbb2cec5a98a56d2877",
+          "url": "https://linuxbrew.bintray.com/bottles/goose-2.1.0.x86_64_linux.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "dep",
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "dep",
+    "go"
+  ],
+  "desc": "Go Language's command-line interface for database migrations",
+  "full_name": "goose",
+  "homepage": "https://github.com/pressly/goose",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "goose",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.1.0"
+  }
+}

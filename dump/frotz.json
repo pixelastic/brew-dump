@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "6506ec53859a859eb71ab33511a11e9c957e0749cb25efa06d63d6c80d000b4a",
+          "url": "https://linuxbrew.bintray.com/bottles/frotz-2.44.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f1be9afe41e33396475d99511760690d3a46f9362fb2229e42ba48146d92f8f0",
+          "url": "https://linuxbrew.bintray.com/bottles/frotz-2.44.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e190264a540f03ec98b7be45d1edfc73c0bd4946b4d2c4aacdf98521354e4ca0",
+          "url": "https://linuxbrew.bintray.com/bottles/frotz-2.44.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "887efd67a050038ffb15df8c713eaa40fcbfcc69d36f58373981dba3ccae422b",
+          "url": "https://linuxbrew.bintray.com/bottles/frotz-2.44.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Infocom-style interactive fiction player",
+  "full_name": "frotz",
+  "homepage": "https://github.com/DavidGriffith/frotz",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "frotz",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.44"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2e3e40ebdb98e11d783fd5e8e9f5c7c553ae06c739b47a4cf3aa3c4c9483cdf2",
+          "url": "https://linuxbrew.bintray.com/bottles/wdiff-1.2.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1c0d329ea782f64396dcef2420b9c90517dd8e8203fbddc924c37a5211e34a4d",
+          "url": "https://linuxbrew.bintray.com/bottles/wdiff-1.2.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "6cf8260aaa5f0da951bf405f3ed05e1660f8ca7d585c11324319b0c1e6371d56",
+          "url": "https://linuxbrew.bintray.com/bottles/wdiff-1.2.2.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "06da8b4a640ef51d0dd884b436d3909c4bd2c5c00ea5da9e81158554a00f0dbe",
+          "url": "https://linuxbrew.bintray.com/bottles/wdiff-1.2.2.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aaeab2c70d214deb69451922276ea6d5450b78784cdea803c9cd1220a47998ed",
+          "url": "https://linuxbrew.bintray.com/bottles/wdiff-1.2.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5c4cc3ef60bd26652cf8c5b1317221dfccb96fdeafa8ed11b635ef7110969290",
+          "url": "https://linuxbrew.bintray.com/bottles/wdiff-1.2.2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1e34ac95a5aa21146f93c5bd0d7d1b22c48941101dc684d019d6d9700da90e8f",
+          "url": "https://linuxbrew.bintray.com/bottles/wdiff-1.2.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "texinfo"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "montage"
+  ],
+  "dependencies": [
+    "gettext",
+    "texinfo",
+    "ncurses"
+  ],
+  "desc": "Display word differences between text files",
+  "full_name": "wdiff",
+  "homepage": "https://www.gnu.org/software/wdiff/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wdiff",
+  "oldname": null,
+  "optional_dependencies": [
+    "gettext"
+  ],
+  "options": [
+    {
+      "description": "Build with gettext support",
+      "option": "--with-gettext"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.2"
+  }
+}

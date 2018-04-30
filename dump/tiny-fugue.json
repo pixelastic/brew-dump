@@ -1,0 +1,73 @@
+{
+  "aliases": [
+    "tinyfugue"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "8b87d1b3de3a1ed16b2c587897c1716b00d011d152476ecdaa922a1406f2846a",
+          "url": "https://linuxbrew.bintray.com/bottles/tiny-fugue-5.0b8.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "870605dd7981a86165e8af6c79e18b5ac556bd5f933a46ff6ef000be50a87714",
+          "url": "https://linuxbrew.bintray.com/bottles/tiny-fugue-5.0b8.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "0d7db7bf7a3744de5cb572c013da516e98b5d6ed911a2f3bf4e0a028a160fd04",
+          "url": "https://linuxbrew.bintray.com/bottles/tiny-fugue-5.0b8.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f4df3ef186829f13f9f4d5512faf3e65e01eaf14aefd42b0f6895aded918fe79",
+          "url": "https://linuxbrew.bintray.com/bottles/tiny-fugue-5.0b8.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fbc2ca2d91d2a3bb3df752a98306f7f7f04756870019eb7f72df06a68efa632e",
+          "url": "https://linuxbrew.bintray.com/bottles/tiny-fugue-5.0b8.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "tee-clc"
+  ],
+  "dependencies": [
+    "libnet",
+    "openssl",
+    "pcre"
+  ],
+  "desc": "Programmable MUD client",
+  "full_name": "tiny-fugue",
+  "homepage": "https://tinyfugue.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tiny-fugue",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.0b8"
+  }
+}

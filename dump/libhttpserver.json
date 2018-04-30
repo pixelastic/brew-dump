@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ee7c3025c9678a97f326c69a8a9faa4963eefc8f972c78096b3f237cf7368945",
+          "url": "https://linuxbrew.bintray.com/bottles/libhttpserver-0.9.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5dc4f569cf86961564e5954220d9049af40ef28796eefa350c12c6df8b32e45e",
+          "url": "https://linuxbrew.bintray.com/bottles/libhttpserver-0.9.0_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "aec3bba3f8db0cb1e9fd99d66aafb1f2ed399197f11af43654f911205b62d5ee",
+          "url": "https://linuxbrew.bintray.com/bottles/libhttpserver-0.9.0_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aac717fe37c9fa0491185e237100288f2d8ebe8544bfc16115f20b13fd242782",
+          "url": "https://linuxbrew.bintray.com/bottles/libhttpserver-0.9.0_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d6ec883a992e348d69b90c37b3c0f1ab2329cc9bae3cb8d1f1db7d112ca65200",
+          "url": "https://linuxbrew.bintray.com/bottles/libhttpserver-0.9.0_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libmicrohttpd",
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "desc": "C++ library of embedded Rest HTTP server",
+  "full_name": "libhttpserver",
+  "homepage": "https://github.com/etr/libhttpserver",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libhttpserver",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.0"
+  }
+}

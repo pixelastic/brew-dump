@@ -1,0 +1,84 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7e6e949fc271a9a788d85a639c077e07408a2bcebed25b4a128e5ccf82acf0f3",
+          "url": "https://linuxbrew.bintray.com/bottles/pypy-5.10.0_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "40d581a2b3e662160b7b3bd5b2131c2e116f2df791e535832916a8fad7b26bfa",
+          "url": "https://linuxbrew.bintray.com/bottles/pypy-5.10.0_1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f8908de47b79985e94b07914bb253d8d5351a899e1a6f3226dc5e395f7eb3603",
+          "url": "https://linuxbrew.bintray.com/bottles/pypy-5.10.0_1.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "A \"distutils.cfg\" has been written to:\n  /home/tim/.linuxbrew/Cellar/pypy/5.10.0_1/libexec/lib-python/2.7/distutils\nspecifying the install-scripts folder as:\n  /home/tim/.linuxbrew/share/pypy\n\nIf you install Python packages via \"pypy setup.py install\", easy_install_pypy,\nor pip_pypy, any provided scripts will go into the install-scripts folder\nabove, so you may want to add it to your PATH *after* /home/tim/.linuxbrew/bin\nso you don't overwrite tools from CPython.\n\nSetuptools and pip have been installed, so you can use easy_install_pypy and\npip_pypy.\nTo update setuptools and pip between pypy releases, run:\n    pip_pypy install --upgrade pip setuptools\n\nSee: https://docs.brew.sh/Homebrew-and-Python\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gdbm",
+    "sqlite",
+    "openssl"
+  ],
+  "desc": "Highly performant implementation of Python 2 in Python",
+  "full_name": "pypy",
+  "homepage": "https://pypy.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pypy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Translate Pypy with system Python instead of downloading a Pypy binary distribution to perform the translation (adds 30-60 minutes to build)",
+      "option": "--without-bootstrap"
+    },
+    {
+      "description": "Build without gdbm support",
+      "option": "--without-gdbm"
+    },
+    {
+      "description": "Build without sqlite support",
+      "option": "--without-sqlite"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "gdbm",
+    "sqlite"
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "arch"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.10.0"
+  }
+}

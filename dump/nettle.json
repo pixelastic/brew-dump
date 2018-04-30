@@ -1,0 +1,68 @@
+{
+  "aliases": [
+    "libnettle"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a8f3221e9f9281d5493e09b9cbbddc7038de24fbb6375e0255294cae822b866a",
+          "url": "https://linuxbrew.bintray.com/bottles/nettle-3.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d5f8ed7557a26c0a2a34031b10a34b12c0c8f518782ed1d17fb13930ecfcdf45",
+          "url": "https://linuxbrew.bintray.com/bottles/nettle-3.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d03831c4b2217900338b2316bf73b0074271b0007c2aaaa8fddf606a5f71d7ee",
+          "url": "https://linuxbrew.bintray.com/bottles/nettle-3.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "52bb94b3c88d0026a263149afd02685ee34a39c97376bcafff2b99d26140d9a6",
+          "url": "https://linuxbrew.bintray.com/bottles/nettle-3.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "m4"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gmp",
+    "m4"
+  ],
+  "desc": "Low-level cryptographic library",
+  "full_name": "nettle",
+  "homepage": "https://www.lysator.liu.se/~nisse/nettle/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nettle",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.4"
+  }
+}

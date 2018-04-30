@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3330aee67c21712979a5e0cca8360f691b3e3bd0dd751fdeb15af998d2e6814c",
+          "url": "https://linuxbrew.bintray.com/bottles/unixodbc-2.3.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cd5a1ea2f0ba6db321b63514b2c33c0c1d74ada9541de8390cca0bc349f4845d",
+          "url": "https://linuxbrew.bintray.com/bottles/unixodbc-2.3.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2ccf3f7384697dd2460631a4afb685465a93c8f64fb0217c7485ab8919606e7d",
+          "url": "https://linuxbrew.bintray.com/bottles/unixodbc-2.3.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "17d3ae4d85f7db8255246e9df382faead0bf53d6cebae49a55edd9fce8ab8b97",
+          "url": "https://linuxbrew.bintray.com/bottles/unixodbc-2.3.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "virtuoso"
+  ],
+  "dependencies": [
+    "libtool"
+  ],
+  "desc": "ODBC 3 connectivity for UNIX",
+  "full_name": "unixodbc",
+  "homepage": "http://www.unixodbc.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "unixodbc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.6"
+  }
+}

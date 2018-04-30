@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "fc4aa3b27ee199034923de841b1e432702036f95b2168502ff148b610880d702",
+          "url": "https://linuxbrew.bintray.com/bottles/s3cmd-2.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b78ccd0c98b3bad7db9e6e5fec6382ae99bc31c692f87a525c1de44db892800e",
+          "url": "https://linuxbrew.bintray.com/bottles/s3cmd-2.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eced51cbc0547a531347011af6720d86f0ecbb3138512c7c01733e9011d18d85",
+          "url": "https://linuxbrew.bintray.com/bottles/s3cmd-2.0.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "dc8b457bba45851984dda5c4c882d80e835b809b732520bd009d2304561314cc",
+          "url": "https://linuxbrew.bintray.com/bottles/s3cmd-2.0.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Command-line tool for the Amazon S3 service",
+  "full_name": "s3cmd",
+  "homepage": "http://s3tools.org/s3cmd",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "s3cmd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.1"
+  }
+}

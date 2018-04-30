@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "4store"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "e19d98e6be69d8f75483403714a639cf21976a9d21b1c10252f5798049690581",
+          "url": "https://linuxbrew.bintray.com/bottles/fourstore-1.1.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "413841f69291b5a871c9fefc96f8bd439348cbb5fe35e03e6670ac74cbe89771",
+          "url": "https://linuxbrew.bintray.com/bottles/fourstore-1.1.6.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b2ad54ba983117388e256212e55ea67e4f9548c0c7d0d1c1b8a420ac025b5f10",
+          "url": "https://linuxbrew.bintray.com/bottles/fourstore-1.1.6.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8f9626f161e1b3f063672cd07cc0d62d476eeaed5ca420aee90882d5efb9424f",
+          "url": "https://linuxbrew.bintray.com/bottles/fourstore-1.1.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6657d873485e29d62bab41c8bf953473c0f959e57ed40e07af6f2425be088351",
+          "url": "https://linuxbrew.bintray.com/bottles/fourstore-1.1.6.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ce5b35020141bbe67afde2d1882ba39cdb00da479d64a833004d0688e9537581",
+          "url": "https://linuxbrew.bintray.com/bottles/fourstore-1.1.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": "Databases will be created at /home/tim/.linuxbrew/var/fourstore.\n\nCreate and start up a database:\n    4s-backend-setup mydb\n    4s-backend mydb\n\nLoad RDF data:\n    4s-import mydb datafile.rdf\n\nStart up HTTP SPARQL server without daemonizing:\n    4s-httpd -p 8000 -D mydb\n\nSee https://4store.danielknoell.de/trac/wiki/Documentation/ for more information.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool",
+    "gettext",
+    "glib",
+    "pcre",
+    "raptor",
+    "rasqal"
+  ],
+  "desc": "Efficient, stable RDF database",
+  "full_name": "fourstore",
+  "homepage": "https://github.com/4store/4store",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fourstore",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.6"
+  }
+}

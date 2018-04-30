@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6c97eaa9a82f7eadb5c1127a0dcf9b0f9f1837e36d3e9978e989471322f42b4a",
+          "url": "https://linuxbrew.bintray.com/bottles/spoof-mac-2.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f7972b66a491d8513262e3bdb9098850fe91e4c8e0e3d7a12efd24994e47dda5",
+          "url": "https://linuxbrew.bintray.com/bottles/spoof-mac-2.1.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f7dc1529dd2c83d8bf8667d170299aa592910bb4918174b23f6a9b7d3555084e",
+          "url": "https://linuxbrew.bintray.com/bottles/spoof-mac-2.1.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "baa45eb53fc9e1a713ca7693351409f66c833834e7c7d0838115bcf5f38df555",
+          "url": "https://linuxbrew.bintray.com/bottles/spoof-mac-2.1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "927644491edf064dcc3145e05107737c3e571b55989ae8d539bf0b499da3685c",
+          "url": "https://linuxbrew.bintray.com/bottles/spoof-mac-2.1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Although spoof-mac can run without root, you must be root to change the MAC.\n\nThe launchdaemon is set to randomize en0.\nYou can find the interfaces available by running:\n    \"spoof-mac list\"\n\nIf you wish to change interface randomized at startup change the plist line:\n    <string>en0</string>\nto e.g.:\n    <string>en1</string>\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Spoof your MAC address in macOS",
+  "full_name": "spoof-mac",
+  "homepage": "https://github.com/feross/SpoofMAC",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "spoof-mac",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.1"
+  }
+}

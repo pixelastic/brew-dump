@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7edb311fcaaf95c46bcd4c50846ea00423bb91ca11f50c07555a371ff0e05318",
+          "url": "https://linuxbrew.bintray.com/bottles/nyancat-1.5.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "39ee4366d3f00c794c4b9225faea19f3901d38e7dc9622eb710d2aa3c35e0ad7",
+          "url": "https://linuxbrew.bintray.com/bottles/nyancat-1.5.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "4e6af8e2d8c954b4008a53bc25707ce0c7ff0c913b4ecfe8e7ee9526b6aa581b",
+          "url": "https://linuxbrew.bintray.com/bottles/nyancat-1.5.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "089bfd3ca2a9b55dc36780e1bf2613b58c73062d275f852f8e40ab1e9691f230",
+          "url": "https://linuxbrew.bintray.com/bottles/nyancat-1.5.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d9c2f795fb32f1201ddd421911d6d36e7f5318f410fb543fb4bda39d731454c8",
+          "url": "https://linuxbrew.bintray.com/bottles/nyancat-1.5.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Renders an animated, color, ANSI-text loop of the Poptart Cat",
+  "full_name": "nyancat",
+  "homepage": "https://github.com/klange/nyancat",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nyancat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.1"
+  }
+}

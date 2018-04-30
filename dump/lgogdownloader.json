@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "faad3335e0a60363fa890c823700fb934e323226aee405587042d1fb61a55dc3",
+          "url": "https://linuxbrew.bintray.com/bottles/lgogdownloader-3.3_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1951f964ade47905f12ea91fd479ae8a32925b1319438ee6539d33d726aeebd4",
+          "url": "https://linuxbrew.bintray.com/bottles/lgogdownloader-3.3_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8a1dbf21474f6d9957f6e43db1bb2b3023a773ae8d197a28a56bbc405190384d",
+          "url": "https://linuxbrew.bintray.com/bottles/lgogdownloader-3.3_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "help2man",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "help2man",
+    "pkg-config",
+    "boost",
+    "htmlcxx",
+    "jsoncpp",
+    "liboauth",
+    "rhash",
+    "tinyxml2"
+  ],
+  "desc": "Unofficial downloader for GOG.com games",
+  "full_name": "lgogdownloader",
+  "homepage": "https://sites.google.com/site/gogdownloader/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lgogdownloader",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.3"
+  }
+}

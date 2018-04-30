@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "00de9088a3e7471026430cf17a7cc7d3d9787496398662c2e2c6a7c766c212cd",
+          "url": "https://linuxbrew.bintray.com/bottles/snort-2.9.11.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ac8a7b3007b307d8368da7e3879e3c6cd6c718746b9443d544f5e8adcb286be6",
+          "url": "https://linuxbrew.bintray.com/bottles/snort-2.9.11.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b152a9869efd30d40e0d3750a0fd12f825360bf7c1d7cb39156320d32381a649",
+          "url": "https://linuxbrew.bintray.com/bottles/snort-2.9.11.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "For snort to be functional, you need to update the permissions for /dev/bpf*\nso that they can be read by non-root users.  This can be done manually using:\n    sudo chmod o+r /dev/bpf*\nor you could create a startup item to do this for you.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "luajit",
+    "daq",
+    "libdnet",
+    "pcre",
+    "openssl"
+  ],
+  "desc": "Flexible Network Intrusion Detection System",
+  "full_name": "snort",
+  "homepage": "https://www.snort.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "snort",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Compile Snort with debug options enabled",
+      "option": "--with-debug"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.9.11.1"
+  }
+}

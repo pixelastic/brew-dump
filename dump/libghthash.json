@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e889f34ca4f1978869eff48334f1f55248628fbc586abdeb151fe017479d220e",
+          "url": "https://linuxbrew.bintray.com/bottles/libghthash-0.6.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f9f17a73ef48e31f809d884ce1a419fe4568b167bb962cdf07c4197688572d59",
+          "url": "https://linuxbrew.bintray.com/bottles/libghthash-0.6.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "207d07d59447e098c1987286324866ef8b26e0c4c191e4c1c0268ba8d95c5fac",
+          "url": "https://linuxbrew.bintray.com/bottles/libghthash-0.6.2.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "67fa9f1cda39b827ecd318a9f08980e322be034f00f198c0b7c83c2cf9a3d6a8",
+          "url": "https://linuxbrew.bintray.com/bottles/libghthash-0.6.2.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "730eb3945e001efa5ebfc84452c94b69237f3cdf830ef5c58cef8854ed4cd3d6",
+          "url": "https://linuxbrew.bintray.com/bottles/libghthash-0.6.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0487e2e14b14ae288428c474fe9ce3e9baf814d4d73de8b0113ca9cc502ffd63",
+          "url": "https://linuxbrew.bintray.com/bottles/libghthash-0.6.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "libtool",
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtool",
+    "autoconf",
+    "automake"
+  ],
+  "desc": "Generic hash table for C++",
+  "full_name": "libghthash",
+  "homepage": "https://www.bth.se/people/ska/sim_home/libghthash.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libghthash",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.2"
+  }
+}

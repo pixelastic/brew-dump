@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "491a1ea5455d058af9adb607e0e49d95b94e52f0068cd5fb197c1ea71666b524",
+          "url": "https://linuxbrew.bintray.com/bottles/morse-2.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fb58a8af73002f98fe7ff1274c1712eb4bf0cab8b08640d2836fc6951c5cb2e9",
+          "url": "https://linuxbrew.bintray.com/bottles/morse-2.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d779902b961e9ebbfa41b0906d8d41357232fd4da83a393e112cde87f5bcdcaa",
+          "url": "https://linuxbrew.bintray.com/bottles/morse-2.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c89c45cdc2ff59d6ac327188c484659c769fe94a07e5e1f38f4d568f0b1a943d",
+          "url": "https://linuxbrew.bintray.com/bottles/morse-2.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Morse-code training program and QSO generator",
+  "full_name": "morse",
+  "homepage": "http://www.catb.org/~esr/morse/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "morse",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5"
+  }
+}

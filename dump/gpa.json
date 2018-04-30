@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a1828dc36ed112f757f6f6b17917addd9e6356d475747765f58f363ba60bde29",
+          "url": "https://linuxbrew.bintray.com/bottles/gpa-0.9.10_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9fb1dcb581733874ee4b46aa91ac4ed8cd001e2c10c8e5cfb2341dcacff4f4c5",
+          "url": "https://linuxbrew.bintray.com/bottles/gpa-0.9.10_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "89232c9cfa56944493c01cbfd7a1998dedc3c502b656202efddbb6100b9ace3a",
+          "url": "https://linuxbrew.bintray.com/bottles/gpa-0.9.10_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "desktop-file-utils",
+    "gpgme",
+    "gtk+"
+  ],
+  "desc": "Graphical user interface for the GnuPG",
+  "full_name": "gpa",
+  "homepage": "https://www.gnupg.org/related_software/gpa/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gpa",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.10"
+  }
+}

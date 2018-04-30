@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a7fc1782bf06e382a4f240f648e55d09a2294202b7f2a7bedf506823acb67fa4",
+          "url": "https://linuxbrew.bintray.com/bottles/gnustep-make-2.7.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2f9b5760d28e77b0ffc8f51f9adc639ea69f97f3105da2c21cae90d08132b53e",
+          "url": "https://linuxbrew.bintray.com/bottles/gnustep-make-2.7.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7a2905ce98897c3f74f4802b66f27105c095f078074a874335f2286bec1957db",
+          "url": "https://linuxbrew.bintray.com/bottles/gnustep-make-2.7.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7a384adee9547bd68099f050f83ae887e992d8592df2ad2682b9421d0b513162",
+          "url": "https://linuxbrew.bintray.com/bottles/gnustep-make-2.7.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5e005875a2b2b9edd967edcedf14ee4e927312d7e97878ea14d509e10e25186b",
+          "url": "https://linuxbrew.bintray.com/bottles/gnustep-make-2.7.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Basic GNUstep Makefiles",
+  "full_name": "gnustep-make",
+  "homepage": "http://gnustep.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnustep-make",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.7.0"
+  }
+}

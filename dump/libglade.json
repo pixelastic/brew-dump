@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "057e25800e73c6233f353ed97ae4f7dfe1ca1f5eada9858d6527e03d4632ba87",
+          "url": "https://linuxbrew.bintray.com/bottles/libglade-2.6.4_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2639d4af6b770ed782d7080b2b6105a0190eae1d8fdfd8076cdf3d89862b9364",
+          "url": "https://linuxbrew.bintray.com/bottles/libglade-2.6.4_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a26aa0e778ef074f9ba9726945297885fbfd49acab0ab392096990964e844fed",
+          "url": "https://linuxbrew.bintray.com/bottles/libglade-2.6.4_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b34e72cdfe1da22f248c17c28aeab8430dddbd537d0be91f73006c65d25f2849",
+          "url": "https://linuxbrew.bintray.com/bottles/libglade-2.6.4_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libxml2",
+    "gtk+"
+  ],
+  "desc": "RAD tool to help build GTK+ interfaces",
+  "full_name": "libglade",
+  "homepage": "https://glade.gnome.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libglade",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.6.4"
+  }
+}

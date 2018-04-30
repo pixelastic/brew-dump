@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "821f66bcd8991168314bb77f1404b3af6f93fda5c4fdcb3c651d3b7fbdd7f4fe",
+          "url": "https://linuxbrew.bintray.com/bottles/ncftp-3.2.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bd53fba3c13ba333f8e22ce0adc67a9ee3fa0d95e571f9833f4928d0adb0ee30",
+          "url": "https://linuxbrew.bintray.com/bottles/ncftp-3.2.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "25caf7d9c7ac3c1642d3d205fcedfbea05878798033c0ff82cc3b5fbab4674d5",
+          "url": "https://linuxbrew.bintray.com/bottles/ncftp-3.2.6.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ac12f87bb648eb4dde883ad5ccca0c8cf80c60e1437ce03e5fc8d768fcec1bde",
+          "url": "https://linuxbrew.bintray.com/bottles/ncftp-3.2.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "FTP client with an advanced user interface",
+  "full_name": "ncftp",
+  "homepage": "https://www.ncftp.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ncftp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.2.6"
+  }
+}

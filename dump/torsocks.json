@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3b978df65102580b8817d6d92e517ecd3a9f7086970c10af279a8d57fea60cae",
+          "url": "https://linuxbrew.bintray.com/bottles/torsocks-2.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8ab3874d27a0f2e343b2fe19e596ce369d571055b6aae6cbcf5cf33609731262",
+          "url": "https://linuxbrew.bintray.com/bottles/torsocks-2.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aa753c8002d5dbd78aa75b5bfd284646dd724a65f4896cb3f902b1c7283fd96a",
+          "url": "https://linuxbrew.bintray.com/bottles/torsocks-2.2.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7f1fd0440c3775776bddcb55f153108d0715a3ac9ee8a6a13798d168fbd71e41",
+          "url": "https://linuxbrew.bintray.com/bottles/torsocks-2.2.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "desc": "Use SOCKS-friendly applications with Tor",
+  "full_name": "torsocks",
+  "homepage": "https://gitweb.torproject.org/torsocks.git/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "torsocks",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.2.0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b0000acb35f2da01a8cbecb93069d22cc1f340a3517466a7fc210568698c5e86",
+          "url": "https://linuxbrew.bintray.com/bottles/jfrog-cli-go-1.14.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8c027713da67346a3aed3541552fa2a90419f35c4d6da150fbf476571c22b500",
+          "url": "https://linuxbrew.bintray.com/bottles/jfrog-cli-go-1.14.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "977a382852c6204bd5fdc0c31a24f71e44402f2aa435b4c5b9ab56501576bb34",
+          "url": "https://linuxbrew.bintray.com/bottles/jfrog-cli-go-1.14.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "60f63adf7fe7c1a9e1c1b6ef24204c6312f039a6082192677ed585fe7caeb7cc",
+          "url": "https://linuxbrew.bintray.com/bottles/jfrog-cli-go-1.14.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Command-line interface for Jfrog Artifactory and Bintray",
+  "full_name": "jfrog-cli-go",
+  "homepage": "https://github.com/JFrogDev/jfrog-cli-go",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jfrog-cli-go",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.14.0"
+  }
+}

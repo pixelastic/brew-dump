@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1fd5997be54205d6b7825e156eba9ffae51bdd9e651fd3bb269f9f696d95071b",
+          "url": "https://linuxbrew.bintray.com/bottles/hesiod-3.2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "efab462c4b62f2da9d370d5d457a56082ae15a5b1e54bc0a91b2f5e822f33a3c",
+          "url": "https://linuxbrew.bintray.com/bottles/hesiod-3.2.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6b12ee90c4f50d02503a44b68b6b4c95097b299aefc7fbfa68872925a5ca48d5",
+          "url": "https://linuxbrew.bintray.com/bottles/hesiod-3.2.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d8db2bc394437272bfcf0225f435075f71269ee9e41b6e453514463e57501348",
+          "url": "https://linuxbrew.bintray.com/bottles/hesiod-3.2.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "automake",
+    "autoconf",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "automake",
+    "autoconf",
+    "libtool",
+    "libidn"
+  ],
+  "desc": "Library for the simple string lookup service built on top of DNS",
+  "full_name": "hesiod",
+  "homepage": "https://github.com/achernya/hesiod",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hesiod",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.2.1"
+  }
+}

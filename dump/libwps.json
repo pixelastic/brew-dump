@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a5856fdd6440142ed49bf8bcf9c073f33efb16353c2b846fbfff2d6f8076eed6",
+          "url": "https://linuxbrew.bintray.com/bottles/libwps-0.4.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "11c36fe9cef93d57b5d1f94fd4e51777e881a3be854570a1d529653802bcbb20",
+          "url": "https://linuxbrew.bintray.com/bottles/libwps-0.4.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "911b3443d51a221888399a5934194a83f44cf0c6ebfb2a2b3e19cdce73cdc08c",
+          "url": "https://linuxbrew.bintray.com/bottles/libwps-0.4.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2380b50b140243dd0f2583d17a7eb6953ae283f06516272189e9a32c75873bb8",
+          "url": "https://linuxbrew.bintray.com/bottles/libwps-0.4.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "boost"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "boost",
+    "libwpd",
+    "librevenge"
+  ],
+  "desc": "Library to import files in MS Works format",
+  "full_name": "libwps",
+  "homepage": "https://libwps.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libwps",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.9"
+  }
+}

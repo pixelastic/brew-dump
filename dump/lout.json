@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2fbc90ffc3f12312dc11e31996ba94da3b8a4ba1c55f33ca60a5d81aef4e137f",
+          "url": "https://linuxbrew.bintray.com/bottles/lout-3.40.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2de1b1b7526f7427b8a57b6239a5a8c199ee05365ead7ed8d722a9e7e3123a0e",
+          "url": "https://linuxbrew.bintray.com/bottles/lout-3.40.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7cbcdcbf720e5e93c7e8d41861fedbcb0f1b46233414c7897e94671e4e42a9fa",
+          "url": "https://linuxbrew.bintray.com/bottles/lout-3.40.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "9d3b44fdc1f1aa2f01ece78c63ad8084897d27758cf72cfbdef6f876c0c7a0cb",
+          "url": "https://linuxbrew.bintray.com/bottles/lout-3.40.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2cfc68ddba21e6f485a4a57df9e810b6996d5364374c66e77b06d41ce230f060",
+          "url": "https://linuxbrew.bintray.com/bottles/lout-3.40.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "366023d41536d0220a3d226a9f7a5e65b89fcf8ec212bfd6e53f8c2b4110abce",
+          "url": "https://linuxbrew.bintray.com/bottles/lout-3.40.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Text formatting like TeX, but simpler",
+  "full_name": "lout",
+  "homepage": "https://savannah.nongnu.org/projects/lout",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lout",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.40"
+  }
+}

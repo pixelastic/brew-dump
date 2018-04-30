@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "high_sierra": {
+          "sha256": "a333754bfce58f5d9de855afbb47bed72e2f3a6df1382a560598e3cc8fc0f8fe",
+          "url": "https://linuxbrew.bintray.com/bottles/swimat-1.5.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b6900b8712d237bf704bb1c0b218beed0e0d790c290532f6fc806e033105ad8a",
+          "url": "https://linuxbrew.bintray.com/bottles/swimat-1.5.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Command-line tool to help format Swift code",
+  "full_name": "swimat",
+  "homepage": "https://github.com/Jintin/Swimat",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "swimat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.5.1"
+  }
+}

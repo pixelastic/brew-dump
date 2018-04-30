@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "51227b53ae32e062299baf504cabf4ebd9291c07c1a28b620d26493f3019817d",
+          "url": "https://linuxbrew.bintray.com/bottles/editorconfig-0.12.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "af22a9ade368239770c4e31b492755e432d4d588ae5b537fd05b05434fdf9624",
+          "url": "https://linuxbrew.bintray.com/bottles/editorconfig-0.12.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fa30d3abbe6bc2e740050aa7f762de370edeff44b34b2676e77607ab34cc72a0",
+          "url": "https://linuxbrew.bintray.com/bottles/editorconfig-0.12.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pcre"
+  ],
+  "desc": "Maintain consistent coding style between multiple editors",
+  "full_name": "editorconfig",
+  "homepage": "http://editorconfig.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "editorconfig",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.12.2"
+  }
+}

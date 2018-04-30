@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1a559b78e6f1a6594b18a9ba2aa2e9828af2736aacc4aec07911fe7638e80e68",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-tar-1.30.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ad87e1488b6d1a2db804c348abf05143b6b7310402c7928f725305c295599708",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-tar-1.30.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5a04574acb1ff235b2509e70cb207e6379a8c83191986131bba52717c328fc1b",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-tar-1.30.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0a3faa9909699e720cce5322ce865792ac03c9602e350e413f2ac8ab3eca09a5",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-tar-1.30.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "GNU version of the tar archiving utility",
+  "full_name": "gnu-tar",
+  "homepage": "https://www.gnu.org/software/tar/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnu-tar",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Do not prepend 'g' to the binary",
+      "option": "--with-default-names"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.30"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b16b4d3ad4086adbb409cc7b5122cb5002df29f4fcec79510ec1b6b1678139b0",
+          "url": "https://linuxbrew.bintray.com/bottles/pinfo-0.6.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "157eb8d83e00de837d96ffaea390fc7ff0dae3998422349653fd1fb1aecd96b3",
+          "url": "https://linuxbrew.bintray.com/bottles/pinfo-0.6.10.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8accf82707225645802b54c80e2db03b08fae54abe03d86cb94f9244606ce5a0",
+          "url": "https://linuxbrew.bintray.com/bottles/pinfo-0.6.10.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ae8359dabf4e46535b4dcdb5edeab6ed7809a844143f57ce58eac7e030840bdc",
+          "url": "https://linuxbrew.bintray.com/bottles/pinfo-0.6.10.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f17994059227efc06af65d1e7d7be4fcd3a0907c3f64ad58336df61e12dab847",
+          "url": "https://linuxbrew.bintray.com/bottles/pinfo-0.6.10.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "gettext",
+    "readline"
+  ],
+  "desc": "User-friendly, console-based viewer for Info documents",
+  "full_name": "pinfo",
+  "homepage": "https://alioth.debian.org/projects/pinfo/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pinfo",
+  "oldname": null,
+  "optional_dependencies": [
+    "readline"
+  ],
+  "options": [
+    {
+      "description": "Build with readline support",
+      "option": "--with-readline"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.10"
+  }
+}

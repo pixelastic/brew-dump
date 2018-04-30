@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d67b1d85810ffbcd8b638b44cbcce14744e6aff9f72f2e3085047897f3cad0d3",
+          "url": "https://linuxbrew.bintray.com/bottles/pgbadger-9.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a481b5c37d9517b2329493447798188e722f354a4d0309dbecc505f1b0e9bbdf",
+          "url": "https://linuxbrew.bintray.com/bottles/pgbadger-9.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d67b1d85810ffbcd8b638b44cbcce14744e6aff9f72f2e3085047897f3cad0d3",
+          "url": "https://linuxbrew.bintray.com/bottles/pgbadger-9.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d67b1d85810ffbcd8b638b44cbcce14744e6aff9f72f2e3085047897f3cad0d3",
+          "url": "https://linuxbrew.bintray.com/bottles/pgbadger-9.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You must configure your PostgreSQL server before using pgBadger.\nEdit postgresql.conf (in /home/tim/.linuxbrew/var/postgres if you use Homebrew's\nPostgreSQL), set the following parameters, and restart PostgreSQL:\n\n  log_destination = 'stderr'\n  log_line_prefix = '%t [%p]: [%l-1] user=%u,db=%d '\n  log_statement = 'none'\n  log_duration = off\n  log_min_duration_statement = 0\n  log_checkpoints = on\n  log_connections = on\n  log_disconnections = on\n  log_lock_waits = on\n  log_temp_files = 0\n  lc_messages = 'C'\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Log analyzer for PostgreSQL",
+  "full_name": "pgbadger",
+  "homepage": "https://dalibo.github.io/pgbadger/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pgbadger",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "9.2"
+  }
+}

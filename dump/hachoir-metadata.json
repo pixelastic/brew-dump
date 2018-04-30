@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b2a11194217ff9b97338b9c10147fd25f3e83213d0579bc88cef9689895025a3",
+          "url": "https://linuxbrew.bintray.com/bottles/hachoir-metadata-1.3.3.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bdf181593e61e9a545f79f77b10674804f8fb63c14967af927a9211a0c98f422",
+          "url": "https://linuxbrew.bintray.com/bottles/hachoir-metadata-1.3.3.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "73c9aaf96521afa7bac1942ea16a5af6c0baaba1537c399c22e493ea24ae7186",
+          "url": "https://linuxbrew.bintray.com/bottles/hachoir-metadata-1.3.3.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cbc769eacb82b386dd720090cee95538ec14f6c2bc947a248099a66ef6e123e4",
+          "url": "https://linuxbrew.bintray.com/bottles/hachoir-metadata-1.3.3.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "316c9a2496302aef88844f80b8c7f63f69dd991c1f183b46228636b4780c7d7a",
+          "url": "https://linuxbrew.bintray.com/bottles/hachoir-metadata-1.3.3.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Extract metadata from video, music and other files",
+  "full_name": "hachoir-metadata",
+  "homepage": "https://bitbucket.org/haypo/hachoir/wiki/Home",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hachoir-metadata",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3.3"
+  }
+}

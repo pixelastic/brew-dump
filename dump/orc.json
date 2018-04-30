@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c640dd001774b981101cbc223c51e31aafb35a6b8bc2e2fc3fc2c15dbfe3fbae",
+          "url": "https://linuxbrew.bintray.com/bottles/orc-0.4.28.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bc08fab45dc2650b71950bff090bb09e64595778f3810bca442775b7973a43dd",
+          "url": "https://linuxbrew.bintray.com/bottles/orc-0.4.28.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6eafe23ac5c17b765ca6f59eb65c52d782d2858bbca7a4f374b77258dedb828f",
+          "url": "https://linuxbrew.bintray.com/bottles/orc-0.4.28.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a0e7b14ada2475bf53b8ed1fa9dbe1ed42da2b8f44ef6a387f111250bb4ae8ae",
+          "url": "https://linuxbrew.bintray.com/bottles/orc-0.4.28.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Oil Runtime Compiler (ORC)",
+  "full_name": "orc",
+  "homepage": "https://cgit.freedesktop.org/gstreamer/orc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "orc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.28"
+  }
+}

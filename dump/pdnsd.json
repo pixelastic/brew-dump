@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1fa2f1f6ba9fc4fe710c1dc1d5bfb2b9663c557f5cdddf3a2fff8394f138a08f",
+          "url": "https://linuxbrew.bintray.com/bottles/pdnsd-1.2.9a-par.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "be218973e8fe1d807e7d9ec2762cab2a9968ce302fb46fb89974a686c1afcc43",
+          "url": "https://linuxbrew.bintray.com/bottles/pdnsd-1.2.9a-par.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "81c4852b1093820909afc140f052f732cbd94e428d9aff261b90d74cb4935b09",
+          "url": "https://linuxbrew.bintray.com/bottles/pdnsd-1.2.9a-par.sierra.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "This install of \"pdnsd\" expects config files to be in /home/tim/.linuxbrew/etc\nAll state files (status and cache) are stored in /home/tim/.linuxbrew/var/cache/pdnsd.\n\npdnsd needs to run as root since it listens on privileged ports.\n\nSample config file can be found at /home/tim/.linuxbrew/etc/pdnsd.conf.sample.\n\nNote that you must create the config file before starting the service,\nand change ownership to \"root\" or pdnsd will refuse to run:\n  sudo chown root /home/tim/.linuxbrew/etc/pdnsd.conf\n\nFor other related utilities, e.g. pdnsd-ctl, to run, change the ownership\nto the user (default: nobody) running the service:\n  sudo chown -R nobody /home/tim/.linuxbrew/var/log/pdnsd.log /home/tim/.linuxbrew/var/cache/pdnsd\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Proxy DNS server with permanent caching",
+  "full_name": "pdnsd",
+  "homepage": "http://members.home.nl/p.a.rombouts/pdnsd/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pdnsd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.9a-par"
+  }
+}

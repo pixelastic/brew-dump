@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "93022ecf618c41d508175e15bb6cdbc6d24206cebe9e6f77524b8ab066134f2f",
+          "url": "https://linuxbrew.bintray.com/bottles/tcptrack-1.4.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7abe4e7c84ff5d39f3a389056f4412d23dfb711062e1a9abdd1194ba5ff2ad67",
+          "url": "https://linuxbrew.bintray.com/bottles/tcptrack-1.4.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f1d33c99082cbcff0030a40c164f680a6e6e995b9b92c6b414c1e2d4d25d67f6",
+          "url": "https://linuxbrew.bintray.com/bottles/tcptrack-1.4.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f84deb6bc918678e365db7810b3dd3ff2b3dbc0af25bce58f81fe22256951459",
+          "url": "https://linuxbrew.bintray.com/bottles/tcptrack-1.4.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "23ee40e3789155774146fee0e1b99cba1792bef8ddfe0aa9d98864a32545445e",
+          "url": "https://linuxbrew.bintray.com/bottles/tcptrack-1.4.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Run tcptrack as root or via sudo in order for the program\nto obtain permissions on the network interface.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Monitor status of TCP connections on a network interface",
+  "full_name": "tcptrack",
+  "homepage": "https://linux.die.net/man/1/tcptrack",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tcptrack",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.2"
+  }
+}

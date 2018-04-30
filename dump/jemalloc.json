@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1e49d486784c64dccee6e43d61ecb201adf6ac8b5cc02465ac9ea5b492a56d01",
+          "url": "https://linuxbrew.bintray.com/bottles/jemalloc-5.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4046a803c804dac204126e10acd158e5a996c5bc8117917979ff495a5e07fcb3",
+          "url": "https://linuxbrew.bintray.com/bottles/jemalloc-5.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0ae7f33eda0547fd2eacad3f84c3c7cc6ebfb76ea02e8a4bac542ba60ba6ef07",
+          "url": "https://linuxbrew.bintray.com/bottles/jemalloc-5.0.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9026d07786ad063d3b8956d18cca34e5ba09fa252fe80016b2498f9fcd09628b",
+          "url": "https://linuxbrew.bintray.com/bottles/jemalloc-5.0.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "49a8f071338b3ec42cd89280681c338ad2e1d242a389e65f63f64e60257c5733",
+          "url": "https://linuxbrew.bintray.com/bottles/jemalloc-5.0.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "malloc implementation emphasizing fragmentation avoidance",
+  "full_name": "jemalloc",
+  "homepage": "http://jemalloc.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jemalloc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.0.1"
+  }
+}

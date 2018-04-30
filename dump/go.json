@@ -1,0 +1,75 @@
+{
+  "aliases": [
+    "go@1.10",
+    "golang",
+    "google-go"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "343bb3afe9a0cfaee06b657d313a3d56b4c080c717c52a911807f2a01aa60339",
+          "url": "https://linuxbrew.bintray.com/bottles/go-1.10.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "034fd91bd565cb6a1c9aa863949fd1456c97f380df0e194156c0eb258bb8fc09",
+          "url": "https://linuxbrew.bintray.com/bottles/go-1.10.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d3e49a27f34da20f7adfa5add1af9b1a26088dffe95c9bd6330650d20746e256",
+          "url": "https://linuxbrew.bintray.com/bottles/go-1.10.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d5632b2bd73607950c6bd87ee4bd04180d97539ad0737fb490eaa1325319bf29",
+          "url": "https://linuxbrew.bintray.com/bottles/go-1.10.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "A valid GOPATH is required to use the `go get` command.\nIf $GOPATH is not specified, $HOME/go will be used by default:\n  https://golang.org/doc/code.html#GOPATH\n\nYou may wish to add the GOROOT-based install location to your PATH:\n  export PATH=$PATH:/home/tim/.linuxbrew/opt/go/libexec/bin\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Open source programming language to build simple/reliable/efficient software",
+  "full_name": "go",
+  "homepage": "https://golang.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "go",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without cgo (also disables race detector)",
+      "option": "--without-cgo"
+    },
+    {
+      "description": "Build without race detector",
+      "option": "--without-race"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.10.1"
+  }
+}

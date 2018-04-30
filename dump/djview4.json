@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "82c4310f2e0af35fb98fce109660ec79bdc4075205b8f5c053d58b4b87b37099",
+          "url": "https://linuxbrew.bintray.com/bottles/djview4-4.10.6_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8674ef6625416ddcb9d5f7a8a5b50c4e6846d19f04630de7038c759fbef95bac",
+          "url": "https://linuxbrew.bintray.com/bottles/djview4-4.10.6_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8cc214252ddf146d8e4b65210436036197b556ff40b136e2784a1d95c9a4f43e",
+          "url": "https://linuxbrew.bintray.com/bottles/djview4-4.10.6_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "da31d6614920f9d8c5f29a5722878493c156179af7fe02fc1d4600d95977cb72",
+          "url": "https://linuxbrew.bintray.com/bottles/djview4-4.10.6_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "92dec68ad76d1e5a1e158b6b1a700d119f4a651cafd45c8cd4a787ecf31ff402",
+          "url": "https://linuxbrew.bintray.com/bottles/djview4-4.10.6_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "djvulibre",
+    "qt"
+  ],
+  "desc": "Viewer for the DjVu image format",
+  "full_name": "djview4",
+  "homepage": "https://djvu.sourceforge.io/djview4.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "djview4",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.10.6"
+  }
+}

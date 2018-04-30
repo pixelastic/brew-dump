@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "fe6f305bdd7c48fd8963cba835d0751864d9af7aa994f1957e23838178880347",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk-chtheme-0.3.1_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "afdfaeba8db0782720a5cf75e02d47cd2b24f6d25757a555b12770ce977cb013",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk-chtheme-0.3.1_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "85f27174fb3205ce2552125a4ad269f98d8da600c625aaf88c3c1a788643b714",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk-chtheme-0.3.1_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gettext",
+    "gtk+"
+  ],
+  "desc": "GTK+ 2.0 theme changer GUI",
+  "full_name": "gtk-chtheme",
+  "homepage": "http://plasmasturm.org/code/gtk-chtheme/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gtk-chtheme",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.1"
+  }
+}

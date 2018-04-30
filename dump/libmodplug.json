@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "33b8ce4240bd8aa140512ff9ab9729484467bbc5453258d3cfd0c6aebf56200c",
+          "url": "https://linuxbrew.bintray.com/bottles/libmodplug-0.8.9.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6c81a49fbb133f52435bbfc03bba42c98e10e326b427fa92e149581ddc74f135",
+          "url": "https://linuxbrew.bintray.com/bottles/libmodplug-0.8.9.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2a7155e77cf0e272929f29c7490aed863676bea467f8201b15837ceb1c7ccdee",
+          "url": "https://linuxbrew.bintray.com/bottles/libmodplug-0.8.9.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "40cab6ea4c8ed4468881ac5accb80623e34b9399d6654a122aaad74cdeebc850",
+          "url": "https://linuxbrew.bintray.com/bottles/libmodplug-0.8.9.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library from the Modplug-XMMS project",
+  "full_name": "libmodplug",
+  "homepage": "https://modplug-xmms.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libmodplug",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.9.0"
+  }
+}

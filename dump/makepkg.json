@@ -1,0 +1,92 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3052d0fdbd76e5e277f0e463eff423249e9b0c08c126a6d27affa1e5c69335ed",
+          "url": "https://linuxbrew.bintray.com/bottles/makepkg-5.0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ca90cc4b589587fd656ba11bd2445542a551b8c92c0f472419fb47ac42f01d3e",
+          "url": "https://linuxbrew.bintray.com/bottles/makepkg-5.0.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "457411b6d7fd00d32cde12826b55a93fbb6d59552215a19d7289550e64d3880a",
+          "url": "https://linuxbrew.bintray.com/bottles/makepkg-5.0.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "64718b5dff7f979eaabd7f9d6aa18d56156bdfbd90f767820f1de6823361d870",
+          "url": "https://linuxbrew.bintray.com/bottles/makepkg-5.0.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "automake",
+    "autoconf",
+    "asciidoc",
+    "docbook-xsl",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "automake",
+    "autoconf",
+    "asciidoc",
+    "docbook-xsl",
+    "libtool",
+    "pkg-config",
+    "libarchive",
+    "bash",
+    "fakeroot",
+    "gettext",
+    "openssl",
+    "gpgme"
+  ],
+  "desc": "Compile and build packages suitable for installation with pacman",
+  "full_name": "makepkg",
+  "homepage": "https://wiki.archlinux.org/index.php/makepkg",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "makepkg",
+  "oldname": null,
+  "optional_dependencies": [
+    "gpgme"
+  ],
+  "options": [
+    {
+      "description": "Build with gpgme support",
+      "option": "--with-gpgme"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.0.2"
+  }
+}

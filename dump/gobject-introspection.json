@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4b07786d56ecc06fe369c3dcdbb0462e9ada2741a68d8725256f2826ee80c3fe",
+          "url": "https://linuxbrew.bintray.com/bottles/gobject-introspection-1.56.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7e3896225d492382272968eb6eebf0d4fb94e233b1833dc8ef5e2216b846efe0",
+          "url": "https://linuxbrew.bintray.com/bottles/gobject-introspection-1.56.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9446ae0d9ea409e8698886e09ddb77f614dd380f00d4aee7189d03067de19adc",
+          "url": "https://linuxbrew.bintray.com/bottles/gobject-introspection-1.56.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f5dd4c7c1ca852814bb1f104426d7a67ac2cfc887b78e18d63fb140a7280307a",
+          "url": "https://linuxbrew.bintray.com/bottles/gobject-introspection-1.56.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib",
+    "cairo",
+    "libffi",
+    "python@2",
+    "bison",
+    "flex"
+  ],
+  "desc": "Generate introspection data for GObject libraries",
+  "full_name": "gobject-introspection",
+  "homepage": "https://live.gnome.org/GObjectIntrospection",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gobject-introspection",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.56.1"
+  }
+}

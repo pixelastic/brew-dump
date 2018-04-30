@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "53fb18abf4fc93c31ec50ed8d1c6ac51772176846ce7a07674058b9e78e59538",
+          "url": "https://linuxbrew.bintray.com/bottles/pyexiv2-0.3.2_5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2dfb1f1cb5f11fe496f5b873a37d05fee2530da136d6f2df4152ba6263e6f9fd",
+          "url": "https://linuxbrew.bintray.com/bottles/pyexiv2-0.3.2_5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "01d50cbe2ddad34cb412b20de81c6594ff1a9ed5f139894fa14a120717c7b08b",
+          "url": "https://linuxbrew.bintray.com/bottles/pyexiv2-0.3.2_5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "scons"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "scons",
+    "exiv2",
+    "boost",
+    "boost-python"
+  ],
+  "desc": "Python binding to exiv2 for manipulation of image metadata",
+  "full_name": "pyexiv2",
+  "homepage": "https://launchpad.net/pyexiv2",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pyexiv2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 5,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.2"
+  }
+}

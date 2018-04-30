@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "648f30c4fb2db062f4c9f27d3c73cf679181e7183a5b7b83b5670624d88b27d5",
+          "url": "https://linuxbrew.bintray.com/bottles/syntaxerl-0.14.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2b4c6e6d7e7413fe81e5107e80841f5a8c4bbddec9e12f3f53c92bedd5fced3b",
+          "url": "https://linuxbrew.bintray.com/bottles/syntaxerl-0.14.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0e0ac8402dd61720eeca50047b173f7500dc38bd7cceb37915c4425b7492044e",
+          "url": "https://linuxbrew.bintray.com/bottles/syntaxerl-0.14.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "80ea1737253a2115722350d6a6456ba48ae853674bb91f7a8b685e7b8311eb74",
+          "url": "https://linuxbrew.bintray.com/bottles/syntaxerl-0.14.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "erlang"
+  ],
+  "desc": "Syntax checker for Erlang code and config files",
+  "full_name": "syntaxerl",
+  "homepage": "https://github.com/ten0s/syntaxerl",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "syntaxerl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.14.0"
+  }
+}

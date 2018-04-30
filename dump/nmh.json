@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0cfd2f3f5a004515700bec2ddd251ddec754f0d28e62416e7b95072543d56d04",
+          "url": "https://linuxbrew.bintray.com/bottles/nmh-1.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5f1dcf95645d0ce83b947e79726aba3dab1443ea9177d7c8140862c91d632572",
+          "url": "https://linuxbrew.bintray.com/bottles/nmh-1.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "82df837775df9738a632f0364ff87c97790d7b4efb2f92c609f0a66b0eaada1c",
+          "url": "https://linuxbrew.bintray.com/bottles/nmh-1.7.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "The new version of the MH mail handler",
+  "full_name": "nmh",
+  "homepage": "https://www.nongnu.org/nmh/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nmh",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7"
+  }
+}

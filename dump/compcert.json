@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3a5d5d6de9c4ca77739dd44776e664f4b551524a285036343aa6d5b39d1b7571",
+          "url": "https://linuxbrew.bintray.com/bottles/compcert-3.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "365f0f9df5be211dd090d112d659fbcc01b0dc145f2ec493e17301aa8c3b471b",
+          "url": "https://linuxbrew.bintray.com/bottles/compcert-3.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "af8952aa293ca948c04646eaadbf4acbc1c606686e244b1eff47fca447f7bab8",
+          "url": "https://linuxbrew.bintray.com/bottles/compcert-3.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "coq",
+    "menhir",
+    "ocaml"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "coq",
+    "menhir",
+    "ocaml"
+  ],
+  "desc": "Formally verified C compiler",
+  "full_name": "compcert",
+  "homepage": "http://compcert.inria.fr",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "compcert",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build Compcert with ./configure 'x86_64'",
+      "option": "--with-config-x86_64"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.2"
+  }
+}

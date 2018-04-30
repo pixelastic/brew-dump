@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b0548979bc62fadccf1d3f6f13f0df1c851e30e4d282d7ac20f9936f3e4b975f",
+          "url": "https://linuxbrew.bintray.com/bottles/rlwrap-0.43.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a756fa3e95c418932e6791d3d6f4feaa88b4ac3e0da66c38285ce2bc54882063",
+          "url": "https://linuxbrew.bintray.com/bottles/rlwrap-0.43.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "689b716c824586bdd0399f0acce9271417222436b387862567dc9d48aba2ece7",
+          "url": "https://linuxbrew.bintray.com/bottles/rlwrap-0.43.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "50fa31d7a9ab1c0403f6e69fc5311aa40fc0847f3f6777e660791d511d35e2a2",
+          "url": "https://linuxbrew.bintray.com/bottles/rlwrap-0.43.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7b8a163bb614b481b88a627ad9a579e5b0acb24deb736ccea02da2606b6dc8a0",
+          "url": "https://linuxbrew.bintray.com/bottles/rlwrap-0.43.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "readline",
+    "autoconf",
+    "automake"
+  ],
+  "desc": "Readline wrapper: adds readline support to tools that lack it",
+  "full_name": "rlwrap",
+  "homepage": "https://github.com/hanslub42/rlwrap",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rlwrap",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.43"
+  }
+}

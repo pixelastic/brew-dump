@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "11acded7be5d1ba22260d039e3daf4fdc4cac49ebcd234c879da655a1532c22f",
+          "url": "https://linuxbrew.bintray.com/bottles/globe-0.0.20140814.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f61e4026debce10b4611ce963f5387721296b9bd84120eecfcff275facf76f32",
+          "url": "https://linuxbrew.bintray.com/bottles/globe-0.0.20140814.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8ff4dd96c5ab3c846ac61ff66c866e3d4969560611405db6e20436ff75494715",
+          "url": "https://linuxbrew.bintray.com/bottles/globe-0.0.20140814.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "c37aa4067f2d9ce7b5fbed7246e67164d04e500bfbc193a4a1e19fdba741be85",
+          "url": "https://linuxbrew.bintray.com/bottles/globe-0.0.20140814.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "20488fcd0137e0d2a05ea3bfa91adc2f45460f05bb01f26e41005ccafc3e8c54",
+          "url": "https://linuxbrew.bintray.com/bottles/globe-0.0.20140814.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5f82736255bd84015795c9a626ac0c7bf656c288d1deb2732f9808fb914878c0",
+          "url": "https://linuxbrew.bintray.com/bottles/globe-0.0.20140814.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a3ccdf74813e704ab1c8d50bb32f3f9b3f62110c8a6a143e3df85eb6ab7ecd7d",
+          "url": "https://linuxbrew.bintray.com/bottles/globe-0.0.20140814.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Prints ASCII graphic of currently-lit side of the Earth",
+  "full_name": "globe",
+  "homepage": "https://www.acme.com/software/globe/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "globe",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.0.20140814"
+  }
+}

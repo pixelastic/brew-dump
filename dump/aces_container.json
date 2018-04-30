@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "16cf230afdfcb6306c208d169549cf8773c831c8653d2c852315a048960d7e72",
+          "url": "https://linuxbrew.bintray.com/bottles/aces_container-1.0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4297afa069f1cd305e93038ed43260b3643f0bd27f39e33355061fc111fb7f6f",
+          "url": "https://linuxbrew.bintray.com/bottles/aces_container-1.0.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6b276491297d4052538bd2fd22d5129389f27d90a98f831987236a5b90511b98",
+          "url": "https://linuxbrew.bintray.com/bottles/aces_container-1.0.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ace21c341d22453d12eb11544a2c84e2623c1be01abafa34f697305660f45601",
+          "url": "https://linuxbrew.bintray.com/bottles/aces_container-1.0.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Reference implementation of SMPTE ST2065-4",
+  "full_name": "aces_container",
+  "homepage": "https://github.com/ampas/aces_container",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aces_container",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.2"
+  }
+}

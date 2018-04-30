@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "05959f61b600d6d9f323b29a0085b275442c92499657f7a4750b88a9ec36a60e",
+          "url": "https://linuxbrew.bintray.com/bottles/sylpheed-3.7.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "382c0840297de273c0fb68ecee4462ca4e91cdd6cd7a56b0164a7456d485ff97",
+          "url": "https://linuxbrew.bintray.com/bottles/sylpheed-3.7.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "99c858ab66bba990574fed5a1b4ba6dcc485c75b15983c12e49039f4c624a138",
+          "url": "https://linuxbrew.bintray.com/bottles/sylpheed-3.7.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gpgme",
+    "gtk+",
+    "openssl"
+  ],
+  "desc": "Simple, lightweight email-client",
+  "full_name": "sylpheed",
+  "homepage": "https://sylpheed.sraoss.jp/en/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sylpheed",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.7.0"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "aliases": [
+    "perl@5.26"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c87180da0272ae59e35e39733a5912d490bb5833de7b1600bdeee369a576806a",
+          "url": "https://linuxbrew.bintray.com/bottles/perl-5.26.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "30317077ce9e42f30f9d4c875339ee5ade289cb8de08ddb55953803a52560aec",
+          "url": "https://linuxbrew.bintray.com/bottles/perl-5.26.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4aa888c405e50b43f0fd0191a84c509b3d4403dc02c9631085842f9ed98ed2a6",
+          "url": "https://linuxbrew.bintray.com/bottles/perl-5.26.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fc6bc20c3f17bc4be43b0feaea79ff6419ee6746adb5f4afe50cc462f79fd62d",
+          "url": "https://linuxbrew.bintray.com/bottles/perl-5.26.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "By default non-brewed cpan modules are installed to the Cellar. If you wish\nfor your modules to persist across updates we recommend using `local::lib`.\n\nYou can set that up like this:\n  PERL_MM_OPT=\"INSTALL_BASE=$HOME/perl5\" cpan local::lib\n  echo 'eval \"$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)\"' >> ~/.zshrc\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gdbm",
+    "berkeley-db",
+    "expat"
+  ],
+  "desc": "Highly capable, feature-rich programming language",
+  "full_name": "perl",
+  "homepage": "https://www.perl.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "perl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with DTrace probes",
+      "option": "--with-dtrace"
+    },
+    {
+      "description": "Skip running the build test suite",
+      "option": "--without-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.26.2"
+  }
+}

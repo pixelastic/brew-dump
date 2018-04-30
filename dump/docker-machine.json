@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "263aa459a2fbd1f660d16049202d3e831dd8da7153c2a0c8cb642f57b94ad1af",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-machine-0.14.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0900893dbf62189c7c67785c96d2040beec0f5276f4848bde3a1d2b170682635",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-machine-0.14.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5229f4367948476c5b4c6bb0e5c17c9e6d0e2b2ec2cdc02e14a87e35dc7267ca",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-machine-0.14.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "automake"
+  ],
+  "desc": "Create Docker hosts locally and on cloud providers",
+  "full_name": "docker-machine",
+  "homepage": "https://docs.docker.com/machine",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "docker-machine",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.14.0"
+  }
+}

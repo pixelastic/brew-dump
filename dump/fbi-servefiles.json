@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "567ba0e6e5470c47832d4acfd7a2b61adfece4758e847a7c83955e9973aee16b",
+          "url": "https://linuxbrew.bintray.com/bottles/fbi-servefiles-2.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bf639c9734a1ae31d6b699d16dd2e385dcb299b270cd58a370056e74695ecad3",
+          "url": "https://linuxbrew.bintray.com/bottles/fbi-servefiles-2.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "87f57b317f8da416795cad01c810a9a6bd902ae3c2d629669eb6c880b31fe828",
+          "url": "https://linuxbrew.bintray.com/bottles/fbi-servefiles-2.5.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1e3491ee3928eef55c392f5a62c907cd881e0af7848916f8ca1a6f6dc8abd61d",
+          "url": "https://linuxbrew.bintray.com/bottles/fbi-servefiles-2.5.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Serve local files to Nintendo 3DS via FBI remote installer",
+  "full_name": "fbi-servefiles",
+  "homepage": "https://github.com/Steveice10/FBI",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fbi-servefiles",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5.0"
+  }
+}

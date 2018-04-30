@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "30939fd620cff4702d15d61a75774b71e1b226fb7b2b3fab8a3acdf96bdd9b7d",
+          "url": "https://linuxbrew.bintray.com/bottles/wslay-1.0.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "abef717359465afcfdd3004e0b9ba01d727e3980bc1326b0e00ddcb2a779bc82",
+          "url": "https://linuxbrew.bintray.com/bottles/wslay-1.0.0.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "410634e15d5ce6f680ccd5d96b97fc2226aad9530aebe42690d3ceb4d7011e69",
+          "url": "https://linuxbrew.bintray.com/bottles/wslay-1.0.0.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9a442f80a67b037402618b0a76874c3db4d93213081f96f3c3f0b22d79068556",
+          "url": "https://linuxbrew.bintray.com/bottles/wslay-1.0.0.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "294d4646dcf7d352368de8b422a5354e72b3027a8678e993d68ea8d55646388e",
+          "url": "https://linuxbrew.bintray.com/bottles/wslay-1.0.0.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "sphinx-doc",
+    "cunit",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sphinx-doc",
+    "cunit",
+    "pkg-config"
+  ],
+  "desc": "C websocket library",
+  "full_name": "wslay",
+  "homepage": "https://wslay.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wslay",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't generate or install documentation",
+      "option": "--without-docs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.0"
+  }
+}

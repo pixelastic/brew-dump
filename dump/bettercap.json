@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "eb831c4db58c28006068a91c78dc948b41a3dea0d8a251a03b209bdb2cc93b34",
+          "url": "https://linuxbrew.bintray.com/bottles/bettercap-2.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3396790460a1114371a34a3e137584cc34fbd6eb1c9139a67925b1e190ba24d1",
+          "url": "https://linuxbrew.bintray.com/bottles/bettercap-2.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "01d03781a4ee2d0422aa6892d924d1a1f55ea0bae1fe863212fd87aeaafc7dac",
+          "url": "https://linuxbrew.bintray.com/bottles/bettercap-2.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "dep",
+    "go"
+  ],
+  "caveats": "bettercap requires root privileges so you will need to run `sudo bettercap`.\nYou should be certain that you trust any software you grant root privileges.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "dep",
+    "go"
+  ],
+  "desc": "Swiss army knife for network attacks and monitoring",
+  "full_name": "bettercap",
+  "homepage": "https://www.bettercap.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bettercap",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5"
+  }
+}

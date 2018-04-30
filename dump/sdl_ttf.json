@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "981960db1d2539b57bc42deb12ab59e163214d881612c1fffea72e4927e1c82a",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl_ttf-2.0.11_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "544d9fe4053cf2a83f9c34b91773518b8bffefeea6337f5d293f6064c3260972",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl_ttf-2.0.11_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "22972859bc6ab2f2a6fd8a4cf5394e647336e4b83d982b02e7015ceb7799e59a",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl_ttf-2.0.11_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "69a109b9c2030506f1d667c6f57080cb5287470d731d4d4cb2e89c16739ff284",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl_ttf-2.0.11_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "cea0e7f2cb248778bc3af4cab3f3ddd7469d4b24d72780891d2cd54dbc9d7216",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl_ttf-2.0.11_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "sdl",
+    "freetype"
+  ],
+  "desc": "Library for using TrueType fonts in SDL applications",
+  "full_name": "sdl_ttf",
+  "homepage": "https://www.libsdl.org/projects/SDL_ttf/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sdl_ttf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.11"
+  }
+}

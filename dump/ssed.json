@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "6c8c5a5547c7c97e59f1f7284083f46d5e61e7ab80ac08ebdfeec4a4b4e95fbb",
+          "url": "https://linuxbrew.bintray.com/bottles/ssed-3.62.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0cc13b472591ed0dab6bcb69f8c08e89cc217342c655355982b44e07a5f7318c",
+          "url": "https://linuxbrew.bintray.com/bottles/ssed-3.62.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "448b2fdfee6f84c3d72fdf29d5ccd042027a9850ea16d75b5f4ee576d8cbadcc",
+          "url": "https://linuxbrew.bintray.com/bottles/ssed-3.62.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "793435451341ea1e475bde0d46745ba233df28c5ed4bd86f7761a2fad3568fba",
+          "url": "https://linuxbrew.bintray.com/bottles/ssed-3.62.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0834fb44e8acc946a9a7030b4313295777c3c9d8808f67c24daaaa2ce6c6a2ed",
+          "url": "https://linuxbrew.bintray.com/bottles/ssed-3.62.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7e313ca41f3a8e37bc91ab4a9d8c7acbf508cd7a89ac605df7cee3adcf108510",
+          "url": "https://linuxbrew.bintray.com/bottles/ssed-3.62.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "gnu-sed"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Super sed stream editor",
+  "full_name": "ssed",
+  "homepage": "https://sed.sourceforge.io/grabbag/ssed/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ssed",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.62"
+  }
+}

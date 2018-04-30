@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7a57232a020ccc409205f0399fb9c9f74598cc156251123010d057626fd73297",
+          "url": "https://linuxbrew.bintray.com/bottles/libfreehand-0.1.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a18f70bde76f22ee23ced4ff30f5e03fb4bf6aae041e0fc1bbd653799c10dd81",
+          "url": "https://linuxbrew.bintray.com/bottles/libfreehand-0.1.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "64159caee4e12e31776695bcafc497a9cc449538903632c11ef7c146d6a608e6",
+          "url": "https://linuxbrew.bintray.com/bottles/libfreehand-0.1.2_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "boost"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "boost",
+    "icu4c",
+    "librevenge",
+    "little-cms2"
+  ],
+  "desc": "Interpret and import Aldus/Macromedia/Adobe FreeHand documents",
+  "full_name": "libfreehand",
+  "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libfreehand",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libfreehand",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.2"
+  }
+}

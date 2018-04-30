@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c33b30a90c2f801987349a3f958bb6b1e35e44b4d3fe7ecbd9016eb3c32f0020",
+          "url": "https://linuxbrew.bintray.com/bottles/scrcpy-1.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b46f843a8569c69e1b99301e0a69335f443c870df3eead3ad78fa3c141b93a21",
+          "url": "https://linuxbrew.bintray.com/bottles/scrcpy-1.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4bdcb5d23d7b1852aec8e181001af014fd255be58176e58a9b5eb9bf2e68733f",
+          "url": "https://linuxbrew.bintray.com/bottles/scrcpy-1.1_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "caveats": "At runtime, adb must be accessible from your PATH.\n\nYou can install adb from Homebrew Cask:\n  brew cask install android-platform-tools\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config",
+    "ffmpeg",
+    "sdl2"
+  ],
+  "desc": "Display and control your Android device",
+  "full_name": "scrcpy",
+  "homepage": "https://github.com/Genymobile/scrcpy",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "scrcpy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

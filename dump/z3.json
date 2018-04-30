@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c351bed3d338b1eff6801956915d22b86f8b00fb056b1048c8c88983aa724748",
+          "url": "https://linuxbrew.bintray.com/bottles/z3-4.6.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c2493989f46145689553af054cf41a7c21995fcdb5f84ab5992e2f3cc73f6e65",
+          "url": "https://linuxbrew.bintray.com/bottles/z3-4.6.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "356863daa6b6701579e1840b5c069fe021a013e2cdef293e91e8984867c87804",
+          "url": "https://linuxbrew.bintray.com/bottles/z3-4.6.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4b7644fb7f585910d17118ac7a5c648371fa7605dc875345a44eeb89a9302a90",
+          "url": "https://linuxbrew.bintray.com/bottles/z3-4.6.0_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "python"
+  ],
+  "desc": "High-performance theorem prover",
+  "full_name": "z3",
+  "homepage": "https://github.com/Z3Prover/z3",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "z3",
+  "oldname": null,
+  "optional_dependencies": [
+    "python"
+  ],
+  "options": [
+    {
+      "description": "Build without python 2 support",
+      "option": "--without-python@2"
+    },
+    {
+      "description": "Build with python support",
+      "option": "--with-python"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python@2"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.6.0"
+  }
+}

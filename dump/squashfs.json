@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "192a9b40b56ded7b5d97c1ae9a587173f4380e0a71ec8332dc475d9c5beeb5e1",
+          "url": "https://linuxbrew.bintray.com/bottles/squashfs-4.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "06c8d10e167295f91684c9c5bb596143189f4de5f4e1cba7b3f45ab0ee9ed1cb",
+          "url": "https://linuxbrew.bintray.com/bottles/squashfs-4.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cbf0fba9b2b73aff6465c8611453b832886159c6e12191eb27ab39e58e9ef577",
+          "url": "https://linuxbrew.bintray.com/bottles/squashfs-4.3_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "lzo",
+    "xz",
+    "lz4"
+  ],
+  "desc": "Compressed read-only file system for Linux",
+  "full_name": "squashfs",
+  "homepage": "https://squashfs.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "squashfs",
+  "oldname": null,
+  "optional_dependencies": [
+    "lz4"
+  ],
+  "options": [
+    {
+      "description": "Build with lz4 support",
+      "option": "--with-lz4"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.3"
+  }
+}

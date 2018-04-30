@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ebcab68ba8d0aa9c6aacae94d43a67ce016dcdd219c5770c3b7d6d9c3590ef9f",
+          "url": "https://linuxbrew.bintray.com/bottles/dgen-1.33.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bac08b08f7cfb9c108ccf0bfe2d4623324e5038f01e508c1fb5da6b3c4d58dff",
+          "url": "https://linuxbrew.bintray.com/bottles/dgen-1.33.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "50383807ec76387aa156cf6157ea537465bf20ad35e4e9eddda7d34685ded635",
+          "url": "https://linuxbrew.bintray.com/bottles/dgen-1.33.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "53f1fc72dbaab000eae45e143ca46a054a6ff655f91190d6aa30e71e8e505494",
+          "url": "https://linuxbrew.bintray.com/bottles/dgen-1.33.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "If some keyboard inputs do not work, try modifying configuration:\n  ~/.dgen/dgenrc\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl",
+    "libarchive"
+  ],
+  "desc": "Sega Genesis / Mega Drive emulator",
+  "full_name": "dgen",
+  "homepage": "https://dgen.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dgen",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build documentation",
+      "option": "--with-docs"
+    },
+    {
+      "description": "Enable debugger",
+      "option": "--with-debugger"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.33"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "aab3f5d4909908af856a96eafd11087ae775d06b416e6deaf4777d6f738a72d5",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-editing-services-1.14.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4e2e03a93ce8016174b938050675bde833a48ed73008d8464c8b50de9bd790ad",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-editing-services-1.14.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "121dfe755996c0aeb88a4c239be99ea1c831e8ab655886418721b4f47588401c",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-editing-services-1.14.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gstreamer",
+    "gst-plugins-base"
+  ],
+  "desc": "GStreamer Editing Services",
+  "full_name": "gst-editing-services",
+  "homepage": "https://gstreamer.freedesktop.org/modules/gst-editing-services.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gst-editing-services",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.14.0"
+  }
+}

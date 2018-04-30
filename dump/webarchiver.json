@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "63b8f54ff998596d2fab065f616f38d0c72dee9a48ae80a06c433a78813b4b11",
+          "url": "https://linuxbrew.bintray.com/bottles/webarchiver-0.9.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "589ff1af350f78b387e96e5b121f03271e12b0cb67d22a2c17e227e4da02d797",
+          "url": "https://linuxbrew.bintray.com/bottles/webarchiver-0.9.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "404f9ffdf69b13cd1e89a51c331b4f8478400944eaf109a5d6f380dcf97bbddb",
+          "url": "https://linuxbrew.bintray.com/bottles/webarchiver-0.9.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d62bc4e985e7fe36519af669c626f5fdd3ef56b17ddaaba5d5fdad2505c8277d",
+          "url": "https://linuxbrew.bintray.com/bottles/webarchiver-0.9.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0c86758734efe96b1f6d0fc8294691ff62e4d191d97312b614511d20b0f989f3",
+          "url": "https://linuxbrew.bintray.com/bottles/webarchiver-0.9.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Allows you to create Safari .webarchive files",
+  "full_name": "webarchiver",
+  "homepage": "https://github.com/newzealandpaul/webarchiver",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "webarchiver",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9"
+  }
+}

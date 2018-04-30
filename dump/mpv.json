@@ -1,0 +1,169 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "301203ddeb374ecce692a47b59ff8396b63e2f40530f6f82dc037992a53a0ebc",
+          "url": "https://linuxbrew.bintray.com/bottles/mpv-0.28.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1dee05ae50b43c059c11c667a2e70b51bccfb373248ad8f877eeef9a8afe7c67",
+          "url": "https://linuxbrew.bintray.com/bottles/mpv-0.28.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9c43d85b504b5edd2cbcf87ed219dc7a75c771b763e66fd64305b93c5070c993",
+          "url": "https://linuxbrew.bintray.com/bottles/mpv-0.28.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "python"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "python",
+    "libass",
+    "ffmpeg",
+    "lua@5.1",
+    "jpeg",
+    "little-cms2",
+    "youtube-dl",
+    "jack",
+    "libaacs",
+    "libarchive",
+    "libbluray",
+    "libcaca",
+    "libdvdnav",
+    "libdvdread",
+    "pulseaudio",
+    "rubberband",
+    "uchardet",
+    "vapoursynth"
+  ],
+  "desc": "Media player based on MPlayer and mplayer2",
+  "full_name": "mpv",
+  "homepage": "https://mpv.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mpv",
+  "oldname": null,
+  "optional_dependencies": [
+    "jack",
+    "libaacs",
+    "libarchive",
+    "libbluray",
+    "libcaca",
+    "libdvdnav",
+    "libdvdread",
+    "pulseaudio",
+    "rubberband",
+    "uchardet",
+    "vapoursynth"
+  ],
+  "options": [
+    {
+      "description": "Enable compilation of the .app bundle.",
+      "option": "--with-bundle"
+    },
+    {
+      "description": "Build without jpeg support",
+      "option": "--without-jpeg"
+    },
+    {
+      "description": "Build without little-cms2 support",
+      "option": "--without-little-cms2"
+    },
+    {
+      "description": "Build without youtube-dl support",
+      "option": "--without-youtube-dl"
+    },
+    {
+      "description": "Build with jack support",
+      "option": "--with-jack"
+    },
+    {
+      "description": "Build with libaacs support",
+      "option": "--with-libaacs"
+    },
+    {
+      "description": "Build with libarchive support",
+      "option": "--with-libarchive"
+    },
+    {
+      "description": "Build with libbluray support",
+      "option": "--with-libbluray"
+    },
+    {
+      "description": "Build with libcaca support",
+      "option": "--with-libcaca"
+    },
+    {
+      "description": "Build with libdvdnav support",
+      "option": "--with-libdvdnav"
+    },
+    {
+      "description": "Build with libdvdread support",
+      "option": "--with-libdvdread"
+    },
+    {
+      "description": "Build with pulseaudio support",
+      "option": "--with-pulseaudio"
+    },
+    {
+      "description": "Build with rubberband support",
+      "option": "--with-rubberband"
+    },
+    {
+      "description": "Build with uchardet support",
+      "option": "--with-uchardet"
+    },
+    {
+      "description": "Build with vapoursynth support",
+      "option": "--with-vapoursynth"
+    },
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "jpeg",
+    "little-cms2",
+    "youtube-dl"
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.28.2"
+  }
+}

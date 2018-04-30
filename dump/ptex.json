@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "fd5994b3ab6f116c242a997a186a39a149a4ad2318d43cc587456f8e12797d87",
+          "url": "https://linuxbrew.bintray.com/bottles/ptex-2.1.28.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9d1e1f6639ef3339990cb8e55bb1ec3e8d9246b84296d8fbb0ccb027ac2954b1",
+          "url": "https://linuxbrew.bintray.com/bottles/ptex-2.1.28.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ef6b1d4b5969dd1512299cdc9e00e520464792ca37081a16ea4d77abcb253dcb",
+          "url": "https://linuxbrew.bintray.com/bottles/ptex-2.1.28.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "38572ce52fb672e652c3ac27a9704eebabef60b673e6e7a21d11ae14b565a75e",
+          "url": "https://linuxbrew.bintray.com/bottles/ptex-2.1.28.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "71d3eee613d7825583ee7eb673928e6ad6a8876310f6628cb70f8ecb82ff53fb",
+          "url": "https://linuxbrew.bintray.com/bottles/ptex-2.1.28.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Texture mapping system",
+  "full_name": "ptex",
+  "homepage": "http://ptex.us",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ptex",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.1.28"
+  }
+}

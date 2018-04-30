@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "36c96e48b025d7b483dab3d9bc7283d677885e1db23ad5c3c8947e49c34ccdb5",
+          "url": "https://linuxbrew.bintray.com/bottles/getxbook-1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fe6eb0a45995aafd518535671a6c7e17e3a8611e2c5444d0a420045d23e8006b",
+          "url": "https://linuxbrew.bintray.com/bottles/getxbook-1.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "00f0f25a3d3440b0c7f98b2881c0750c9e568cfa685de2f89dbc43f58e667fce",
+          "url": "https://linuxbrew.bintray.com/bottles/getxbook-1.2.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "74b03216052c58cfe830e69c169342ae6eba9fb24a92b25f3fa3794a015564d2",
+          "url": "https://linuxbrew.bintray.com/bottles/getxbook-1.2.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "16cdf74891b198e58f17345425ad29bc678c0164acb223872a618f0929a934f0",
+          "url": "https://linuxbrew.bintray.com/bottles/getxbook-1.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b0b609d26eb1faeba89e929f6f6099297d14957d22653720adb61fbed9e492da",
+          "url": "https://linuxbrew.bintray.com/bottles/getxbook-1.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Tools to download ebooks from various sources",
+  "full_name": "getxbook",
+  "homepage": "https://njw.name/getxbook",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "getxbook",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build the GUI",
+      "option": "--with-gui"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2"
+  }
+}

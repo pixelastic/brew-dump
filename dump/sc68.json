@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d5ac5c810d4f3505230f2cdb9bc3f9f8c14394e1663f30f8d601fe4a559f99c8",
+          "url": "https://linuxbrew.bintray.com/bottles/sc68-2.2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b3e4809754847ca52468463ed60293032efeecf42f24acd3026bb03d369a91d9",
+          "url": "https://linuxbrew.bintray.com/bottles/sc68-2.2.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8834ebed226bb20898b91be054fbd54491f524ea780c6559eba1c97166bf7e7d",
+          "url": "https://linuxbrew.bintray.com/bottles/sc68-2.2.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0b5a0931d6f72700ca691436ed69d467cc043aea9b3454d628050886ccd12141",
+          "url": "https://linuxbrew.bintray.com/bottles/sc68-2.2.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b6b3fb845e14cd2c35212911b261bb4a15f38c528522789fd5905e762b7d0bfc",
+          "url": "https://linuxbrew.bintray.com/bottles/sc68-2.2.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Play music originally designed for Atari ST and Amiga computers",
+  "full_name": "sc68",
+  "homepage": "http://sc68.atari.org/project.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sc68",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.1"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "030dc0a7c3ea623eb3d8e11374f744ad79f8aee8b7b75210f1a183b4d6d978de",
+          "url": "https://linuxbrew.bintray.com/bottles/knock-0.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "06b02ba999daee09e6588a8edb4af78a41b8ab135ac1b618b4ab2b02b7646acf",
+          "url": "https://linuxbrew.bintray.com/bottles/knock-0.7.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "eb180c87d84707199ef6279a4709d76630a2089b331fb9ebc6c2bf58389fc921",
+          "url": "https://linuxbrew.bintray.com/bottles/knock-0.7.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "3a60938c215acb144bff30f63eba43c79c471c090f8dd05171365396b64faf12",
+          "url": "https://linuxbrew.bintray.com/bottles/knock-0.7.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5f29acd295f83fadd436423f61c58ad8a2682dd9f9a3f89740eeee1eb55c6373",
+          "url": "https://linuxbrew.bintray.com/bottles/knock-0.7.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "aac645d3c392386d99cb19200465a439639c8d3e7f8eac7021dbb677939cf155",
+          "url": "https://linuxbrew.bintray.com/bottles/knock-0.7.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Port-knock server",
+  "full_name": "knock",
+  "homepage": "http://www.zeroflux.org/projects/knock",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "knock",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.7"
+  }
+}

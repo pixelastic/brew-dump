@@ -1,0 +1,81 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f39f707ccb48ba9a05959f3390bc4be94f3d64117914d11b6c3db996f32eed79",
+          "url": "https://linuxbrew.bintray.com/bottles/shogun-6.1.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "10de56b1bc9e966da1b0fa4d05072436dacfe6d1a543eefe5e9c94af6fa52cbb",
+          "url": "https://linuxbrew.bintray.com/bottles/shogun-6.1.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2c2a094c9b5b3430cb76c7fcd11ce98d4578b80aeb352fd724595f196ad6208e",
+          "url": "https://linuxbrew.bintray.com/bottles/shogun-6.1.3_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config",
+    "swig"
+  ],
+  "caveats": "If you use system python (that comes - depending on the macOS version -\nwith an old version of numpy), you may need to ensure that the brewed\npackages come earlier in Python's sys.path with:\n  mkdir -p /home/tim/.local/lib/python2.7/site-packages\n  echo 'import sys; sys.path.insert(1, \"/home/tim/.linuxbrew/lib/python3.6/site-packages\")' >> /home/tim/.local/lib/python2.7/site-packages/homebrew.pth\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "swig",
+    "arpack",
+    "eigen",
+    "glpk",
+    "hdf5",
+    "json-c",
+    "lzo",
+    "nlopt",
+    "python@2",
+    "snappy",
+    "xz"
+  ],
+  "desc": "Large scale machine learning toolbox",
+  "full_name": "shogun",
+  "homepage": "http://www.shogun-toolbox.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "shogun",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.1.3"
+  }
+}

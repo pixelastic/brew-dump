@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "cbd9145484b4792f23b3da4f8da672af188ae8fbf294d20266d39a669d0a4b29",
+          "url": "https://linuxbrew.bintray.com/bottles/clipper-1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fe416ac6365e397532b5c16f472a1b526cb990404582b1f0f7289bbc24338755",
+          "url": "https://linuxbrew.bintray.com/bottles/clipper-1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8fdbf7ebc996d137fe3fef2132c47e050b81fc8a0bb0e01d693b75d6c0e9d1b5",
+          "url": "https://linuxbrew.bintray.com/bottles/clipper-1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8b4b2452f5e8058c3bb6d929de8681812a95e350208deb66aa28b076c05b8d1a",
+          "url": "https://linuxbrew.bintray.com/bottles/clipper-1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Share macOS clipboard with tmux and other local and remote apps",
+  "full_name": "clipper",
+  "homepage": "https://wincent.com/products/clipper",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "clipper",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0"
+  }
+}

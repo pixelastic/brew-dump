@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a5d1f8bedf157664f7f5c2cff9c5845d3e802cde6e6e6b6a2d91b1736bc01e28",
+          "url": "https://linuxbrew.bintray.com/bottles/librem-0.5.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "176dde5c993f519d96ba01353c834656967e1d3e1aad45ac42a94876ad70fa64",
+          "url": "https://linuxbrew.bintray.com/bottles/librem-0.5.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b2858cd7240e339c5a475b100a6ea1218458288a9e5a12f2fb5e00cb1b3a1e02",
+          "url": "https://linuxbrew.bintray.com/bottles/librem-0.5.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "850a75efeff5b065bf3cb62a2cbc40b66e38d44e84fe15babb99c0544d835a51",
+          "url": "https://linuxbrew.bintray.com/bottles/librem-0.5.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libre"
+  ],
+  "desc": "Toolkit library for real-time audio and video processing",
+  "full_name": "librem",
+  "homepage": "http://www.creytiv.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "librem",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.5.3"
+  }
+}

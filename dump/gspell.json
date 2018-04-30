@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b7ed4c9b5c87e732b3e12836e26c7857bc9bae6b16ee32ba4925d70bf3799c0a",
+          "url": "https://linuxbrew.bintray.com/bottles/gspell-1.8.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "93988c5f834bb7485e0e1e9aa394b31a42e38e6d5f915fc3e3a06eb92d63a99a",
+          "url": "https://linuxbrew.bintray.com/bottles/gspell-1.8.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e704f22fa44a09aff7554fe5c21496586069034c8a8a913f2394032214db5305",
+          "url": "https://linuxbrew.bintray.com/bottles/gspell-1.8.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "gtk-doc",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "gtk-doc",
+    "libtool",
+    "pkg-config",
+    "enchant",
+    "gtk+3",
+    "iso-codes",
+    "vala"
+  ],
+  "desc": "Flexible API to implement spellchecking in GTK+ applications",
+  "full_name": "gspell",
+  "homepage": "https://wiki.gnome.org/Projects/gspell",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gspell",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without vala support",
+      "option": "--without-vala"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "vala"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.0"
+  }
+}

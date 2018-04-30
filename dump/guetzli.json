@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a77327b3964a88a84879943171e0d10d6661cc72c5ceaa12ee2091f02930da1a",
+          "url": "https://linuxbrew.bintray.com/bottles/guetzli-1.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1b3a1b5544b7a8c30553b2e8ac669d8e924d0164feb5355b0a7c2ef5807aca46",
+          "url": "https://linuxbrew.bintray.com/bottles/guetzli-1.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c059346fa601885f550b50752d6d1a23eced66388b18e1c1db5169a0951dcad6",
+          "url": "https://linuxbrew.bintray.com/bottles/guetzli-1.0.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "04864f5c52c77f2d382247a57bf082052599a2bc9bd8fa28592ab17657342b08",
+          "url": "https://linuxbrew.bintray.com/bottles/guetzli-1.0.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libpng"
+  ],
+  "desc": "Perceptual JPEG encoder",
+  "full_name": "guetzli",
+  "homepage": "https://github.com/google/guetzli",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "guetzli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.1"
+  }
+}

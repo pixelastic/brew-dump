@@ -1,0 +1,84 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b88890787abd2c0f692a7c371e363ac2c0bed49f361b597ce1557f102ec94b67",
+          "url": "https://linuxbrew.bintray.com/bottles/minbif-1.0.5-20150505_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "350bac71d2c91bb9026924d8e2ce09a34e364961045560ede2c59c059b999d9b",
+          "url": "https://linuxbrew.bintray.com/bottles/minbif-1.0.5-20150505_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "110ae4736afaadcacb084d5aaad29f340297758c58958b57cc54fca700cf9c9b",
+          "url": "https://linuxbrew.bintray.com/bottles/minbif-1.0.5-20150505_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "cmake"
+  ],
+  "caveats": "Minbif must be passed its config as first argument:\n    minbif /home/tim/.linuxbrew/etc/minbif/minbif.conf\n\nLearn more about minbif: https://symlink.me/projects/minbif/wiki/Quick_start\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cmake",
+    "glib",
+    "gettext",
+    "pidgin",
+    "gnutls",
+    "imlib2",
+    "libcaca"
+  ],
+  "desc": "IRC-to-other-IM-networks gateway using Pidgin library",
+  "full_name": "minbif",
+  "homepage": "https://symlink.me/projects/minbif/wiki/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "minbif",
+  "oldname": null,
+  "optional_dependencies": [
+    "imlib2",
+    "libcaca"
+  ],
+  "options": [
+    {
+      "description": "Build with PAM support, patching for OSX PAM headers",
+      "option": "--with-pam"
+    },
+    {
+      "description": "Build with imlib2 support",
+      "option": "--with-imlib2"
+    },
+    {
+      "description": "Build with libcaca support",
+      "option": "--with-libcaca"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.5-20150505"
+  }
+}

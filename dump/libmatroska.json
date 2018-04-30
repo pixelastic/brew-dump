@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8df1a83ae264b0597d714f843e2b3d322be80a30ea0f0400dc86fed6b5d6c0ee",
+          "url": "https://linuxbrew.bintray.com/bottles/libmatroska-1.4.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "04ec9b92408b8b08f201ae9e31da5d9abd0383a468938b999007ec51530fa50d",
+          "url": "https://linuxbrew.bintray.com/bottles/libmatroska-1.4.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8f8b94c254e55a0c79aae5d9ad6a3ea60e16caca379594d8613c5d92f9e8dc00",
+          "url": "https://linuxbrew.bintray.com/bottles/libmatroska-1.4.9.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libebml"
+  ],
+  "desc": "Extensible, open standard container format for audio/video",
+  "full_name": "libmatroska",
+  "homepage": "https://www.matroska.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libmatroska",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.9"
+  }
+}

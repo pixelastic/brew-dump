@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e19aec49f4d56c6f9c062f3a107c2e55c470de49ee760c8087d9b432aaea796f",
+          "url": "https://linuxbrew.bintray.com/bottles/rsstail-2.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fb3c48324e30829c9fdd8e3199db2a603edd19154c5e69b48ada19fef0349ed5",
+          "url": "https://linuxbrew.bintray.com/bottles/rsstail-2.0.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "98f3b9fee8f7dc9e48a141bc9347c4a23eeca1ede249f5763a73835539c485db",
+          "url": "https://linuxbrew.bintray.com/bottles/rsstail-2.0.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9737f574d1c6d123b9c215dfdcd6eda682e9c46b76728b0e7e3cf1b523c5d53a",
+          "url": "https://linuxbrew.bintray.com/bottles/rsstail-2.0.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e118045780d62ac16ef413fe826be97afadd48390d6bba5b0d1ad221291507bb",
+          "url": "https://linuxbrew.bintray.com/bottles/rsstail-2.0.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libmrss"
+  ],
+  "desc": "Monitors an RSS feed and emits new entries when detected",
+  "full_name": "rsstail",
+  "homepage": "https://www.vanheusden.com/rsstail/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rsstail",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0"
+  }
+}

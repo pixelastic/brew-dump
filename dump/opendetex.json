@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4cc67ed6010d4b4ac0c0df288af9fe66e55ab7446a297b1fa65bf5e78c7d769b",
+          "url": "https://linuxbrew.bintray.com/bottles/opendetex-2.8.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "39f296a67d7bb776673c7bf967612c0978f3d9a9bae6f96604e8ac1e18c76cbf",
+          "url": "https://linuxbrew.bintray.com/bottles/opendetex-2.8.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a5e9edb249ef5d97a72afaa586effbdd4ef7b48ff4b1fb0d0078615849bbea27",
+          "url": "https://linuxbrew.bintray.com/bottles/opendetex-2.8.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5ba7f261e7e22ce61f5fdf8beb7353f8203a33df7ad550933ed8baa031ff7906",
+          "url": "https://linuxbrew.bintray.com/bottles/opendetex-2.8.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "flex"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "flex"
+  ],
+  "desc": "Tool to strip TeX or LaTeX commands from documents",
+  "full_name": "opendetex",
+  "homepage": "https://github.com/pkubowicz/opendetex",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "opendetex",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.8.3"
+  }
+}

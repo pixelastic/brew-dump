@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "high_sierra": {
+          "sha256": "ba2295e65433001d24d1001638aeb86565467d6ca690105c9382c4573766c42c",
+          "url": "https://linuxbrew.bintray.com/bottles/mednafen-1.21.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "88644723477cfc5087df7b8d7f386fd4c85b70fb7d15616277de742ea3921ac6",
+          "url": "https://linuxbrew.bintray.com/bottles/mednafen-1.21.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a20bde08af2ac472795c6248a69636c501d14749121950937b91a000bb2561e0",
+          "url": "https://linuxbrew.bintray.com/bottles/mednafen-1.21.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "sdl2",
+    "libsndfile",
+    "gettext",
+    "zlib",
+    "linuxbrew/xorg/glu",
+    "linuxbrew/xorg/mesa"
+  ],
+  "desc": "Multi-system emulator",
+  "full_name": "mednafen",
+  "homepage": "https://mednafen.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mednafen",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.21.2"
+  }
+}

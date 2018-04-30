@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "59557ef1caeb042d7a729cf308b20d70fbeb2a2e13bfa72b32c49ee4357e80a4",
+          "url": "https://linuxbrew.bintray.com/bottles/libphonenumber-8.9.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8cf27501c887625d5ae17a9b2609c4d376aec61e94e89eabfaf3e5ec5c34dfd2",
+          "url": "https://linuxbrew.bintray.com/bottles/libphonenumber-8.9.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c4e6e9bce446ef714ac8dfb28b23017984cb80c8777aafd3694c97987e4b2cf1",
+          "url": "https://linuxbrew.bintray.com/bottles/libphonenumber-8.9.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "icu4c",
+    "protobuf",
+    "boost",
+    "re2"
+  ],
+  "desc": "C++ Phone Number library by Google",
+  "full_name": "libphonenumber",
+  "homepage": "https://github.com/googlei18n/libphonenumber",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libphonenumber",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "8.9.4"
+  }
+}

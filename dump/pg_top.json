@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6d0104d461d7187ad02e1085098f2dad4fa00c4f2db93b1b910a6a072517ca54",
+          "url": "https://linuxbrew.bintray.com/bottles/pg_top-3.7.0_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "32637c635d8da78d4910df2dabd474f4115c31cba57890ad053b3a43cb38a758",
+          "url": "https://linuxbrew.bintray.com/bottles/pg_top-3.7.0_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5f06ae8b8ef1c979143e19c0527c31c8d649d23e1e9612c63bc6c5ff05bf8276",
+          "url": "https://linuxbrew.bintray.com/bottles/pg_top-3.7.0_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "34eb7a2bba5ff1956b47e5f8bf4309743eb7629bc32fb3ea75713075b5b6ed86",
+          "url": "https://linuxbrew.bintray.com/bottles/pg_top-3.7.0_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "postgresql"
+  ],
+  "desc": "Monitor PostgreSQL processes",
+  "full_name": "pg_top",
+  "homepage": "https://git.postgresql.org/gitweb/?p=pg_top.git",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pg_top",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.7.0"
+  }
+}

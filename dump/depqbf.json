@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3229005d870984af6beee544d5178094fc859525bd96552ac42301860c175f5b",
+          "url": "https://linuxbrew.bintray.com/bottles/depqbf-6.03.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7c956f3b4e86d6f60e90dde3e25f6b5ce75f2ba75e756c9e4dd6debe46d2ddea",
+          "url": "https://linuxbrew.bintray.com/bottles/depqbf-6.03.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fea1eb8ca62fccc5ce43b0a645fb67feffbf97c5a343d0ea6c9a015c37e24ccc",
+          "url": "https://linuxbrew.bintray.com/bottles/depqbf-6.03.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "42229ac07c7d7c12f9feb7078fa28b318c4ce52892940056a79a9baa70e79f6a",
+          "url": "https://linuxbrew.bintray.com/bottles/depqbf-6.03.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2e56b8bac22dbf77677e825ee6242fea35545c2714859c4f22872c1c0fb056e3",
+          "url": "https://linuxbrew.bintray.com/bottles/depqbf-6.03.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Solver for quantified boolean formulae (QBF)",
+  "full_name": "depqbf",
+  "homepage": "https://lonsing.github.io/depqbf/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "depqbf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.03"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4219127df13bbb8e30b71b32b12625299032bf4391bc9d91aef6c587f34b1481",
+          "url": "https://linuxbrew.bintray.com/bottles/fping-4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "53457b87ed119384c1df102a3c7e1d98191a0da8ce38cdf2cd4a551aa432486f",
+          "url": "https://linuxbrew.bintray.com/bottles/fping-4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8353b269dbf24bbee719a40b66ee3aa96a1dec70493158f933c3915c98d5321e",
+          "url": "https://linuxbrew.bintray.com/bottles/fping-4.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "049fcd3af217fe04df09a55d3eee85608dabc16d307a5213235431008bd1cadb",
+          "url": "https://linuxbrew.bintray.com/bottles/fping-4.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Scriptable ping program for checking if multiple hosts are up",
+  "full_name": "fping",
+  "homepage": "https://fping.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fping",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.0"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c86706fc3141fdd2ed22188de2e49481c83b1fdb61c9c26f53fe5fdcd2b29638",
+          "url": "https://linuxbrew.bintray.com/bottles/macvim-8.0-146_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9150724774b95837fabbcd245e992119bd7c00d88c6a2b41a345c0471ed4b831",
+          "url": "https://linuxbrew.bintray.com/bottles/macvim-8.0-146_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b8ff3db922ebc801bce4d998082c0cdfc76dc82bbcd55fcef840298bc1c4df97",
+          "url": "https://linuxbrew.bintray.com/bottles/macvim-8.0-146_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cscope",
+    "python",
+    "lua",
+    "luajit",
+    "python@2"
+  ],
+  "desc": "GUI for vim, made for macOS",
+  "full_name": "macvim",
+  "homepage": "https://github.com/macvim-dev/macvim",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "macvim",
+  "oldname": null,
+  "optional_dependencies": [
+    "lua",
+    "luajit",
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Override system vim",
+      "option": "--with-override-system-vim"
+    },
+    {
+      "description": "Build without cscope support",
+      "option": "--without-cscope"
+    },
+    {
+      "description": "Build without python support",
+      "option": "--without-python"
+    },
+    {
+      "description": "Build with lua support",
+      "option": "--with-lua"
+    },
+    {
+      "description": "Build with luajit support",
+      "option": "--with-luajit"
+    },
+    {
+      "description": "Build with python@2 support",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "cscope",
+    "python"
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "8.0-146"
+  }
+}

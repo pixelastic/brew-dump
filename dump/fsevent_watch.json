@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d9ff549a7f9f5b31ffe923beddc1a8ab123c11e76bb833fb882785342d119768",
+          "url": "https://linuxbrew.bintray.com/bottles/fsevent_watch-0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ef2fd8cd9dc6804e6b48d99f3ef517b397c01ea205b80ec9415147cc211c4e9e",
+          "url": "https://linuxbrew.bintray.com/bottles/fsevent_watch-0.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "900dff7d67ce9b31c9e1a3884315d8ed407cbd89358aed68fda283f7782ff2c6",
+          "url": "https://linuxbrew.bintray.com/bottles/fsevent_watch-0.1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "fb7163be62f68a7eeea7b67da63d5313dc56c88c28f785f4276308ee14d2bdd1",
+          "url": "https://linuxbrew.bintray.com/bottles/fsevent_watch-0.1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "63d964a1a42e46191b76fb86a955a56e989c7df86fb4787f6341fc1b8c99a91a",
+          "url": "https://linuxbrew.bintray.com/bottles/fsevent_watch-0.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "085b1a0cdc155ec6833d782ebd86e8109f6a4529ff3719f3605fce5779925456",
+          "url": "https://linuxbrew.bintray.com/bottles/fsevent_watch-0.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "macOS FSEvents client",
+  "full_name": "fsevent_watch",
+  "homepage": "https://github.com/proger/fsevent_watch",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fsevent_watch",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.1"
+  }
+}

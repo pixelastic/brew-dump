@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "e36620881bb6a6bc53683708b2189083be8c6cc21e1ec7b377a6010c8a8c0c63",
+          "url": "https://linuxbrew.bintray.com/bottles/rawtoaces-1.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "966afd878bb5e6fd3e7fa494b6b75a551df8d32dd75eca1303cc26b4b7b0e1e3",
+          "url": "https://linuxbrew.bintray.com/bottles/rawtoaces-1.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fa253177e28a4ff685c7ca513cd7a85010a51f752c67feca2faddc7496434af0",
+          "url": "https://linuxbrew.bintray.com/bottles/rawtoaces-1.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "aces_container",
+    "boost",
+    "ceres-solver",
+    "ilmbase",
+    "libraw"
+  ],
+  "desc": "RAW to ACES Utility",
+  "full_name": "rawtoaces",
+  "homepage": "https://github.com/ampas/rawtoaces",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rawtoaces",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0"
+  }
+}

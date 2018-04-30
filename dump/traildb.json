@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "901e2214b9ddcd214b857db69569c12f85041e6cd087df00ef1c0d624605effe",
+          "url": "https://linuxbrew.bintray.com/bottles/traildb-0.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b383a6635462acd29d12473520ff1cf70920c429f0ed9a010cf2860bf7df3180",
+          "url": "https://linuxbrew.bintray.com/bottles/traildb-0.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e84323b169f8a2d3ccadadb65d968c99265f37f581d9fe002c259b76b180776e",
+          "url": "https://linuxbrew.bintray.com/bottles/traildb-0.6.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "381ac2503006105329e6b915501cf8bfdd787121df79c23da4721e04a8b838a9",
+          "url": "https://linuxbrew.bintray.com/bottles/traildb-0.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libarchive",
+    "pkg-config"
+  ],
+  "desc": "Blazingly-fast database for log-structured data",
+  "full_name": "traildb",
+  "homepage": "http://traildb.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "traildb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6"
+  }
+}

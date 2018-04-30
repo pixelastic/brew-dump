@@ -1,0 +1,52 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "yuicompressor",
+    "closure-compiler"
+  ],
+  "desc": "Minify HTML or XML",
+  "full_name": "htmlcompressor",
+  "homepage": "https://code.google.com/archive/p/htmlcompressor/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "htmlcompressor",
+  "oldname": null,
+  "optional_dependencies": [
+    "yuicompressor",
+    "closure-compiler"
+  ],
+  "options": [
+    {
+      "description": "Use YUICompressor for JS/CSS compression",
+      "option": "--with-yuicompressor"
+    },
+    {
+      "description": "Use Closure Compiler for JS optimization",
+      "option": "--with-closure-compiler"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.3"
+  }
+}

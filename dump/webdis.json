@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "07d2d4499db3ad6dcccb16261d8c45e74a8ec4b9d23ecad9e60f31a06ca56559",
+          "url": "https://linuxbrew.bintray.com/bottles/webdis-0.1.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "58a95727b9e25d21fbdd5d4547ec6a419fbde87990e6ce2cfc24b6707a512534",
+          "url": "https://linuxbrew.bintray.com/bottles/webdis-0.1.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "19f382600f096b6787d6bacf561edf8e68100ff275bc4c4df157afaa91d8aa3b",
+          "url": "https://linuxbrew.bintray.com/bottles/webdis-0.1.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "102e1b2a88158fb3ada215c432b1dbbf3d1f1d8a692e784baa9b5277f717dce9",
+          "url": "https://linuxbrew.bintray.com/bottles/webdis-0.1.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libevent"
+  ],
+  "desc": "Redis HTTP interface with JSON output",
+  "full_name": "webdis",
+  "homepage": "https://webd.is/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "webdis",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.3"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "aliases": [
+    "sqlite3"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "2324970c4848106ec567ab4dd1ca06bf528ab9b6318809194edcc532aa3ece93",
+          "url": "https://linuxbrew.bintray.com/bottles/sqlite-3.23.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0b5f0e6d1096fbed10367e53c13c0e1300841f8f47739a0874abba8cc769a6d7",
+          "url": "https://linuxbrew.bintray.com/bottles/sqlite-3.23.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "75bf05c73a9b51101ea166742eb9baf285eda857fd98ea1d50a3abf0d81bd978",
+          "url": "https://linuxbrew.bintray.com/bottles/sqlite-3.23.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "111c7c256c71a111fcf6ecb02719a0efdc83d4456b619eef3c16e242a2718dec",
+          "url": "https://linuxbrew.bintray.com/bottles/sqlite-3.23.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "readline",
+    "icu4c"
+  ],
+  "desc": "Command-line interface for SQLite",
+  "full_name": "sqlite",
+  "homepage": "https://sqlite.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sqlite",
+  "oldname": null,
+  "optional_dependencies": [
+    "icu4c"
+  ],
+  "options": [
+    {
+      "description": "Install HTML documentation",
+      "option": "--with-docs"
+    },
+    {
+      "description": "Disable the R*Tree index module",
+      "option": "--without-rtree"
+    },
+    {
+      "description": "Enable the FTS3 module",
+      "option": "--with-fts"
+    },
+    {
+      "description": "Enable the FTS5 module (experimental)",
+      "option": "--with-fts5"
+    },
+    {
+      "description": "Defaults secure_delete to on",
+      "option": "--with-secure-delete"
+    },
+    {
+      "description": "Enable the unlock notification feature",
+      "option": "--with-unlock-notify"
+    },
+    {
+      "description": "Enable the ICU module",
+      "option": "--with-icu4c"
+    },
+    {
+      "description": "Enable more math and string functions for SQL queries",
+      "option": "--with-functions"
+    },
+    {
+      "description": "Enable the 'dbstat' virtual table",
+      "option": "--with-dbstat"
+    },
+    {
+      "description": "Enable the JSON1 extension",
+      "option": "--with-json1"
+    },
+    {
+      "description": "Enable the session extension",
+      "option": "--with-session"
+    },
+    {
+      "description": "Enable the SOUNDEX function",
+      "option": "--with-soundex"
+    },
+    {
+      "description": "Build without readline support",
+      "option": "--without-readline"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "readline"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.23.1"
+  }
+}

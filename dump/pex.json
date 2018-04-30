@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ed1429f15df1e663735f27b1c7660e289953494b84a84bdd919a7eb077576a72",
+          "url": "https://linuxbrew.bintray.com/bottles/pex-1.20140409_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ed1429f15df1e663735f27b1c7660e289953494b84a84bdd919a7eb077576a72",
+          "url": "https://linuxbrew.bintray.com/bottles/pex-1.20140409_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ed1429f15df1e663735f27b1c7660e289953494b84a84bdd919a7eb077576a72",
+          "url": "https://linuxbrew.bintray.com/bottles/pex-1.20140409_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0cbbe967cc7eaa7d8afa90225df6cec8a5a4c2505391ae20678bf69b7ecb872b",
+          "url": "https://linuxbrew.bintray.com/bottles/pex-1.20140409_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "If installing for the first time, perform the following in order to setup the necessary directory structure:\n  pex init\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "postgresql"
+  ],
+  "desc": "Package manager for PostgreSQL",
+  "full_name": "pex",
+  "homepage": "https://github.com/petere/pex",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pex",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.20140409"
+  }
+}

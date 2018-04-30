@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a48149e166ef1dd135c004d1e4ac78fba00f0301791d7f34f0ea4e6f70f438e0",
+          "url": "https://linuxbrew.bintray.com/bottles/gtksourceviewmm3-3.18.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ccb5f2ea996f30d6f2e441f3fd53e41253c46201af2b790a6f004a9db05512ea",
+          "url": "https://linuxbrew.bintray.com/bottles/gtksourceviewmm3-3.18.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "66a25ab58e6bf7ae30014d4081b2d25f6160a4323eb7b9dadeaee975fb24bed3",
+          "url": "https://linuxbrew.bintray.com/bottles/gtksourceviewmm3-3.18.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gtksourceview3",
+    "pkg-config",
+    "gtkmm3"
+  ],
+  "desc": "C++ bindings for gtksourceview3",
+  "full_name": "gtksourceviewmm3",
+  "homepage": "https://developer.gnome.org/gtksourceviewmm/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gtksourceviewmm3",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.18.0"
+  }
+}

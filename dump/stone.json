@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9d4038c7882d2fe256d77340b5e0ec52a551697b9869fb61f3a22b0be917e92b",
+          "url": "https://linuxbrew.bintray.com/bottles/stone-2.3e.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "579a9dee4b6fb57f0f1313a656250b00a428bdff7c2401431bb96d0ef0496c25",
+          "url": "https://linuxbrew.bintray.com/bottles/stone-2.3e.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ab43aca5038bdf014c1a5aaadb9e526626c9c4369dcaeac045b9dce6514b30bc",
+          "url": "https://linuxbrew.bintray.com/bottles/stone-2.3e.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "540bd64b2264bfe03d88ad620a7138a1d96742d6810eec301fd7e5ea63970ee9",
+          "url": "https://linuxbrew.bintray.com/bottles/stone-2.3e.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e01e391d43da23b477186a54f96b0d20bb67c24e1503e20408dc12d025f04def",
+          "url": "https://linuxbrew.bintray.com/bottles/stone-2.3e.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "TCP/IP packet repeater in the application layer",
+  "full_name": "stone",
+  "homepage": "http://www.gcd.org/sengoku/stone/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "stone",
+  "oldname": null,
+  "optional_dependencies": [
+    "openssl"
+  ],
+  "options": [
+    {
+      "description": "Build with openssl support",
+      "option": "--with-openssl"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3e"
+  }
+}

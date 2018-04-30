@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "96b09b4ac7951ba465dc7322b680168c03828cb69443d84b5013df74ed7f4771",
+          "url": "https://linuxbrew.bintray.com/bottles/charm-2.2.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d2d00519f4268e0a280c566a8c7f8802c9665fdcbc1a1cad601b764dc2a708d0",
+          "url": "https://linuxbrew.bintray.com/bottles/charm-2.2.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "76bdfc5df35c1502e0f8453c5421c93e81477e081edb0b08cbfef96ea8ea2ae0",
+          "url": "https://linuxbrew.bintray.com/bottles/charm-2.2.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c481bd0654206c94e2bd9422e48712d27842ec02a2c6befef3bad64641bb26f3",
+          "url": "https://linuxbrew.bintray.com/bottles/charm-2.2.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "bazaar"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "bazaar"
+  ],
+  "desc": "Tool for managing Juju Charms",
+  "full_name": "charm",
+  "homepage": "https://github.com/juju/charmstore-client",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "charm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.3"
+  }
+}

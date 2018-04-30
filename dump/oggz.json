@@ -1,0 +1,76 @@
+{
+  "aliases": [
+    "liboggz"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4c1819dbc134981faf5e2e03dc69d210deb8dabd59b71969c1f479fa32322635",
+          "url": "https://linuxbrew.bintray.com/bottles/oggz-1.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f444304f94866179ffcbe6322d6f25193b4fcd2dc49ad71f9c9527b0d85934de",
+          "url": "https://linuxbrew.bintray.com/bottles/oggz-1.1.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a3aa5e741dd3e7a9aebb65748f80f45947549a79915b68161a79f12cb37b4b12",
+          "url": "https://linuxbrew.bintray.com/bottles/oggz-1.1.1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "41d7d2c9b6ab027579d2040579441973cc0301d6103b71d52441e02993ea3198",
+          "url": "https://linuxbrew.bintray.com/bottles/oggz-1.1.1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a0fad22ba18930be45c7226f2db0fe8b39c988c84c392807ddc75e2d40b3a9ad",
+          "url": "https://linuxbrew.bintray.com/bottles/oggz-1.1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c6076111f111c5d77dc608bcb4892f10dffb84e5b4f5ebdfba311ec332fa6623",
+          "url": "https://linuxbrew.bintray.com/bottles/oggz-1.1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libogg"
+  ],
+  "desc": "Command-line tool for manipulating Ogg files",
+  "full_name": "oggz",
+  "homepage": "https://www.xiph.org/oggz/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "oggz",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.1"
+  }
+}

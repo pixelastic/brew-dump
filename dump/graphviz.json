@@ -1,0 +1,114 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "cab27f92a59d543e2f2c1494c28c7563a4c2d7e0dce4c4fbc22587db91cafc5b",
+          "url": "https://linuxbrew.bintray.com/bottles/graphviz-2.40.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b592ce51c2a929c3da82e96ec856571ebfc54cf4dac90c2924cd3845078d7082",
+          "url": "https://linuxbrew.bintray.com/bottles/graphviz-2.40.1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "41b5811054f03978db12525919540fe41e073fb2c20e899247ed9c2a191f7a66",
+          "url": "https://linuxbrew.bintray.com/bottles/graphviz-2.40.1.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4713489ba984e5f76ee886ba0c1d0c891945516fe42159dc05787ab705165127",
+          "url": "https://linuxbrew.bintray.com/bottles/graphviz-2.40.1.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6bd4c01e724cfc965871e1aad9a4fb2a6afef90a1e254d81e2fe33a997f50aaa",
+          "url": "https://linuxbrew.bintray.com/bottles/graphviz-2.40.1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libtool",
+    "pango",
+    "gts",
+    "librsvg",
+    "freetype",
+    "gd",
+    "libpng"
+  ],
+  "desc": "Graph visualization software from AT&T and Bell Labs",
+  "full_name": "graphviz",
+  "homepage": "https://graphviz.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "graphviz",
+  "oldname": null,
+  "optional_dependencies": [
+    "pango",
+    "gts",
+    "librsvg",
+    "freetype"
+  ],
+  "options": [
+    {
+      "description": "Build Perl/Python/Ruby/etc. bindings",
+      "option": "--with-bindings"
+    },
+    {
+      "description": "Build with Pango/Cairo for alternate PDF output",
+      "option": "--with-pango"
+    },
+    {
+      "description": "Build GraphViz.app (requires full XCode install)",
+      "option": "--with-app"
+    },
+    {
+      "description": "Build with GNU GTS support (required by prism)",
+      "option": "--with-gts"
+    },
+    {
+      "description": "Build with librsvg support",
+      "option": "--with-librsvg"
+    },
+    {
+      "description": "Build with freetype support",
+      "option": "--with-freetype"
+    },
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.40.1"
+  }
+}

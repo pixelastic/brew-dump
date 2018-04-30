@@ -1,0 +1,94 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "19bc19c9cf84a6c1d708e254171b276e68844865fb64cd72f78c972a464680b6",
+          "url": "https://linuxbrew.bintray.com/bottles/pqiv-2.10.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "166f6366be6e5964f5b3f32fec1fc13b9dc28a27a048023f62b323c5f0f80f21",
+          "url": "https://linuxbrew.bintray.com/bottles/pqiv-2.10.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ff5eb4b2f1da1865f0e825e199f705b52cf1cfc8074a85848b5a194c58fcc449",
+          "url": "https://linuxbrew.bintray.com/bottles/pqiv-2.10.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gtk+3",
+    "libspectre",
+    "poppler",
+    "imagemagick",
+    "libarchive",
+    "webp",
+    "libtiff"
+  ],
+  "desc": "Powerful image viewer with minimal UI",
+  "full_name": "pqiv",
+  "homepage": "https://github.com/phillipberndt/pqiv",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pqiv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without libspectre support",
+      "option": "--without-libspectre"
+    },
+    {
+      "description": "Build without poppler support",
+      "option": "--without-poppler"
+    },
+    {
+      "description": "Build without imagemagick support",
+      "option": "--without-imagemagick"
+    },
+    {
+      "description": "Build without libarchive support",
+      "option": "--without-libarchive"
+    },
+    {
+      "description": "Build without webp support",
+      "option": "--without-webp"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libspectre",
+    "poppler",
+    "imagemagick",
+    "libarchive",
+    "webp"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.10.4"
+  }
+}

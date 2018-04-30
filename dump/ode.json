@@ -1,0 +1,91 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4f2986f5867bd16da6836dc9a580f1ca2a01f4d7177fd3308b4fcea41443ac7e",
+          "url": "https://linuxbrew.bintray.com/bottles/ode-0.15.2_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d392aba8c14119ee6072c2677835e928d9a9cca95d4b3c0ef0b82aedf1bc0147",
+          "url": "https://linuxbrew.bintray.com/bottles/ode-0.15.2_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "34670979e3b841475cbbef0038203bae036baa753a6c03af179a0aff7b27d168",
+          "url": "https://linuxbrew.bintray.com/bottles/ode-0.15.2_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9308edfbb62275157c40b45d8c9bdda292412273afbec9b862906e75f8b267fd",
+          "url": "https://linuxbrew.bintray.com/bottles/ode-0.15.2_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "libccd",
+    "linuxbrew/xorg/xorg"
+  ],
+  "desc": "Simulating articulated rigid body dynamics",
+  "full_name": "ode",
+  "homepage": "http://www.ode.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ode",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Compile ODE with double precision",
+      "option": "--with-double-precision"
+    },
+    {
+      "description": "Compile ODE with shared library support",
+      "option": "--with-shared"
+    },
+    {
+      "description": "Build the drawstuff library and demos",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.15.2"
+  }
+}

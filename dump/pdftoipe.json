@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7c9157ee4f0c0c206a67fa8031f917907dee884d6f8f71113b5983b971314d68",
+          "url": "https://linuxbrew.bintray.com/bottles/pdftoipe-7.2.7_11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d770af375e7da8ea4eb4a138b828630fb71ff482382c7b519aa4e584e0a110ad",
+          "url": "https://linuxbrew.bintray.com/bottles/pdftoipe-7.2.7_11.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "785d69dfcf0b2d7ed88b4b275f115eb930ca6faae31b16498a912b825daf6376",
+          "url": "https://linuxbrew.bintray.com/bottles/pdftoipe-7.2.7_11.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "poppler"
+  ],
+  "desc": "Reads arbitrary PDF files and generates an XML file readable by Ipe",
+  "full_name": "pdftoipe",
+  "homepage": "https://github.com/otfried/ipe-tools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pdftoipe",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 11,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.2.7"
+  }
+}

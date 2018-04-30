@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4556713b40bfd3846c7c03a02c174bff2a771fba4084721b6faed88437c3c1a2",
+          "url": "https://linuxbrew.bintray.com/bottles/ht-2.1.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8c604066c63fa1eba3bb547626bbc280ea4446bb2961cb54e8b4fc7b829af5c4",
+          "url": "https://linuxbrew.bintray.com/bottles/ht-2.1.0.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "197a62339202dd45529bbf42b67addc35939dbae43cc9704ff15d75e5ad62d01",
+          "url": "https://linuxbrew.bintray.com/bottles/ht-2.1.0.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "lzo"
+  ],
+  "desc": "Viewer/editor/analyzer for executables",
+  "full_name": "ht",
+  "homepage": "https://hte.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ht",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.1.0"
+  }
+}

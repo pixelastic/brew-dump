@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "738a1b9437b4fa18d607d9b385e83c5065c683da3aee3d88b7b30c06a85b7960",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf@2.5-2.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "57b751631332e48464f3547d6608b24422001d7e98f50eb67bc8594f3dfc6284",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf@2.5-2.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2666bcf184708bdd23c1df2c209f3bf6fcdfe4769e02db878632be3b2267a106",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf@2.5-2.5.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "18c6d55b58fa0e9b8d36738f937a86cb2583b7eeb66412905ffe4870f7e5b60b",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf@2.5-2.5.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Editor support and examples have been installed to:\n  /home/tim/.linuxbrew/Cellar/protobuf@2.5/2.5.0/share/doc/protobuf@2.5\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Protocol buffers (Google's data interchange format)",
+  "full_name": "protobuf@2.5",
+  "homepage": "https://github.com/google/protobuf",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "protobuf@2.5",
+  "oldname": "protobuf250",
+  "optional_dependencies": [
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Run build-time check",
+      "option": "--with-test"
+    },
+    {
+      "description": "Build using C++11 mode",
+      "option": "--c++11"
+    },
+    {
+      "description": "Build with python@2 support",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5.0"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ef18bc7d2dadb87582ea22cec0d64ee272f8570cde1157700ce88fd3a4631002",
+          "url": "https://linuxbrew.bintray.com/bottles/neko-2.2.0_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d2cc6078ee557511a9b942a11235f6f1de35bb0b4a192e3bdf2c06225a1739fa",
+          "url": "https://linuxbrew.bintray.com/bottles/neko-2.2.0_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "87da62afced4e6a0b68669069752ff4e960618e4e8d243cc3bfef648cbbc3a23",
+          "url": "https://linuxbrew.bintray.com/bottles/neko-2.2.0_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "ninja",
+    "pkg-config"
+  ],
+  "caveats": "You must add the following line to your .bashrc or equivalent:\n  export NEKOPATH=\"/home/tim/.linuxbrew/lib/neko\"\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "ninja",
+    "pkg-config",
+    "mbedtls",
+    "bdw-gc",
+    "pcre",
+    "openssl",
+    "apr",
+    "apr-util",
+    "httpd",
+    "gtk+",
+    "pango",
+    "sqlite"
+  ],
+  "desc": "High-level, dynamically typed programming language",
+  "full_name": "neko",
+  "homepage": "https://nekovm.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "neko",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.2.0"
+  }
+}

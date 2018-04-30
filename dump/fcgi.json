@@ -1,0 +1,69 @@
+{
+  "aliases": [
+    "fastcgi"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "27b723d2451b163cf1c5b8c461b6b550b9c4fcdd8dfd9e9f9c20477cb50d3da7",
+          "url": "https://linuxbrew.bintray.com/bottles/fcgi-2.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d5ebce52eefded7c5e911c1bd4771316cc8110da4644d86077b2c66551b2d3dc",
+          "url": "https://linuxbrew.bintray.com/bottles/fcgi-2.4.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "58b93f834db071aac4831e73d7f34f59a73759a453676ca66b187135e8da7f36",
+          "url": "https://linuxbrew.bintray.com/bottles/fcgi-2.4.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a8062d977c2e8b1d63557b703eac13ce75ce8331f16dc68de153309cfd7b2166",
+          "url": "https://linuxbrew.bintray.com/bottles/fcgi-2.4.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ad01d3980edafd7330a41b008e95e4af24708ac0a6b8bb625160635d6f36c4a3",
+          "url": "https://linuxbrew.bintray.com/bottles/fcgi-2.4.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Protocol for interfacing interactive programs with a web server",
+  "full_name": "fcgi",
+  "homepage": "https://fastcgi-archives.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fcgi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.0"
+  }
+}

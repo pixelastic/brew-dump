@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9fe6bd03378eb760c4253a36d3f41f5403e117fa8abe4e263a0190310f65a6de",
+          "url": "https://linuxbrew.bintray.com/bottles/openldap-2.4.46.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2094541bf0f0b265e6cc1518aa5ac223b75834f0aa12bec8e00b6c9469e9b5d9",
+          "url": "https://linuxbrew.bintray.com/bottles/openldap-2.4.46.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f8912be8188c34e398b61ff7c1f922eb1d4294b21555de55b0763f8424cd0eaa",
+          "url": "https://linuxbrew.bintray.com/bottles/openldap-2.4.46.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "cd7f465c6b43876e5dbab2bbebd3af8f081e6dd39d2a2d34437b69dad488aac2",
+          "url": "https://linuxbrew.bintray.com/bottles/openldap-2.4.46.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "groff"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "berkeley-db@4",
+    "openssl",
+    "groff",
+    "util-linux"
+  ],
+  "desc": "Open source suite of directory software",
+  "full_name": "openldap",
+  "homepage": "https://www.openldap.org/software/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openldap",
+  "oldname": null,
+  "optional_dependencies": [
+    "berkeley-db@4"
+  ],
+  "options": [
+    {
+      "description": "Enable server side sorting and virtual list view",
+      "option": "--with-sssvlv"
+    },
+    {
+      "description": "Build with berkeley-db@4 support",
+      "option": "--with-berkeley-db@4"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.46"
+  }
+}

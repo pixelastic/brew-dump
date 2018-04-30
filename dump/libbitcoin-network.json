@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d83849347ad9b982027380b3777371d9d3703ac9577dc3f2b8abe44a4e3cfdbf",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-network-3.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "84059bf2b3557d112a30d5cee534c60c2e852a34ec65bd3e847ef88b118802f0",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-network-3.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "34f9af49bdbfb835bd917e92aa24aef2a129c587a44188f711c278ed9009eeec",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-network-3.5.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "libbitcoin"
+  ],
+  "desc": "Bitcoin P2P Network Library",
+  "full_name": "libbitcoin-network",
+  "homepage": "https://github.com/libbitcoin/libbitcoin-network",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libbitcoin-network",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.5.0"
+  }
+}

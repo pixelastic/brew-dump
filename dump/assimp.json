@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5991caf1877f8193889d0929399aa24790e8eeab96736c3c1d28800966d75169",
+          "url": "https://linuxbrew.bintray.com/bottles/assimp-4.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2a3c4f77532717d3cd6b8de75a4cdb033b26fc4d64736f17e90d836e11b90fe4",
+          "url": "https://linuxbrew.bintray.com/bottles/assimp-4.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "632ab4d0bd3f3aaa002945ace7e90362b396154ef3c4536b884872f82f3dd30d",
+          "url": "https://linuxbrew.bintray.com/bottles/assimp-4.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "34fca9c38ea7453d7a6daae2f88e8fe17ecc190f77a25af09c7bcb15825b8685",
+          "url": "https://linuxbrew.bintray.com/bottles/assimp-4.1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "boost"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "boost",
+    "zlib"
+  ],
+  "desc": "Portable library for importing many well-known 3D model formats",
+  "full_name": "assimp",
+  "homepage": "http://www.assimp.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "assimp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Compile without thread safe logging or multithreaded computation if boost isn't installed",
+      "option": "--without-boost"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "boost"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.1.0"
+  }
+}

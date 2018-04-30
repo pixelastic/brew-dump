@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To activate the autosuggestions, add the following at the end of your .zshrc:\n\n  source /home/tim/.linuxbrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh\n\nYou will also need to force reload of your .zshrc:\n\n  source ~/.zshrc\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Fish-like fast/unobtrusive autosuggestions for zsh",
+  "full_name": "zsh-autosuggestions",
+  "homepage": "https://github.com/zsh-users/zsh-autosuggestions",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zsh-autosuggestions",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.2"
+  }
+}

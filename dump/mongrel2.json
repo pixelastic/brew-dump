@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7a6880cbc814b084a3ac91e379b7a720438951e31a18119c232f976fded229c3",
+          "url": "https://linuxbrew.bintray.com/bottles/mongrel2-1.11.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "67696f654ab1d878ac7c2a3fa254b0ee86c1d444578045997a971ca44189b2fe",
+          "url": "https://linuxbrew.bintray.com/bottles/mongrel2-1.11.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "dd07092a2384c243fcd8c54ed67f2a728f3da698276540fc1c9b201eb3c5cbbb",
+          "url": "https://linuxbrew.bintray.com/bottles/mongrel2-1.11.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "293b0edc8bcc0b7e3a97748a6accbc5000916ed145fd467aeb809303438a207a",
+          "url": "https://linuxbrew.bintray.com/bottles/mongrel2-1.11.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ba23cfd286e198728a95b4d44c7466c2c8acba12e2951d88dd8eb4c7e996ed3a",
+          "url": "https://linuxbrew.bintray.com/bottles/mongrel2-1.11.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0b2926fe3d79ab934e95f0e5c067e8bb23b6900b99255482defee9388a0dee07",
+          "url": "https://linuxbrew.bintray.com/bottles/mongrel2-1.11.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "zeromq",
+    "sqlite"
+  ],
+  "desc": "Application, language, and network architecture agnostic web server",
+  "full_name": "mongrel2",
+  "homepage": "https://mongrel2.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mongrel2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.11.0"
+  }
+}

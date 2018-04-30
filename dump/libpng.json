@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0c17ca28357c801a0fb81667ba69c1ed820d0348ca7728766ea16e3bd9b0ff19",
+          "url": "https://linuxbrew.bintray.com/bottles/libpng-1.6.34.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d38a64089526ecc1413acbc22373821fd181442b80ffccfd8322a5724dc09759",
+          "url": "https://linuxbrew.bintray.com/bottles/libpng-1.6.34.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d587603b3079fb7ad5cecdd451ee7fdf88f80a8b88f457ed199270d85753208c",
+          "url": "https://linuxbrew.bintray.com/bottles/libpng-1.6.34.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "76a29bcb0b9054229a141e65e4ec92914aea542d6698990a6453e79b9550a58e",
+          "url": "https://linuxbrew.bintray.com/bottles/libpng-1.6.34.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "zlib"
+  ],
+  "desc": "Library for manipulating PNG images",
+  "full_name": "libpng",
+  "homepage": "http://www.libpng.org/pub/png/libpng.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libpng",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.6.34"
+  }
+}

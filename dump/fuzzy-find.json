@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7db1b187adfcb7ce37842891ffca5eec3ca25bed5441944cbeb1e08bc6d52a66",
+          "url": "https://linuxbrew.bintray.com/bottles/fuzzy-find-0.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b3f47d3bfd49f76960e5979fd4ef898c848e73f7f8da758b71c7eefe3f585fe0",
+          "url": "https://linuxbrew.bintray.com/bottles/fuzzy-find-0.6.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "75aa5bedb0bd3e2869f24f1363b02ddf88f7612549c97b8f93f5d7aae0e42e63",
+          "url": "https://linuxbrew.bintray.com/bottles/fuzzy-find-0.6.0.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "8262f63ca68495d17b24aa74e3bad1b1f1b4c538375cc05e02639685f3942f51",
+          "url": "https://linuxbrew.bintray.com/bottles/fuzzy-find-0.6.0.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "feefa3913b9b1df2d8b283fdd55abd1de9ee924633d8e157142cce4980572ffb",
+          "url": "https://linuxbrew.bintray.com/bottles/fuzzy-find-0.6.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4e08ef4ee1babfa0d28d9b541b565b5866541b5e14f92e1fcf88876cbd3362ca",
+          "url": "https://linuxbrew.bintray.com/bottles/fuzzy-find-0.6.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1b447f73c929866935af122bec4c15390f0001f049a0c737880fcfd4d7bafdb2",
+          "url": "https://linuxbrew.bintray.com/bottles/fuzzy-find-0.6.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Fuzzy filename finder matching across directories as well as files",
+  "full_name": "fuzzy-find",
+  "homepage": "https://github.com/silentbicycle/ff",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fuzzy-find",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.6.0"
+  }
+}

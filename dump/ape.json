@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "259b19e211ff6d6ffc376db0b3696a912a6ac48dca83cbcbe525c78e56755c82",
+          "url": "https://linuxbrew.bintray.com/bottles/ape-1.1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "54387a0a2a38314a0def581f67c517d9ff7f82efd431e9811cf774cf235850a3",
+          "url": "https://linuxbrew.bintray.com/bottles/ape-1.1.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "83c7ef23309dec2e7bd4bec3ae75b6f0e04fcfecbda489c90810b6948eb3bb28",
+          "url": "https://linuxbrew.bintray.com/bottles/ape-1.1.2.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "136d65f58cb956b95a6ccb9517a5affe69c3491d283478708ca88091abb3103f",
+          "url": "https://linuxbrew.bintray.com/bottles/ape-1.1.2.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dd095fa1465e0a20613481720e26a5917c08882b340a18ab4d351a95e5eb3a3e",
+          "url": "https://linuxbrew.bintray.com/bottles/ape-1.1.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "917659b43365eba970711505af1414fe3ce276e20d40c2a405b181c1a8393e78",
+          "url": "https://linuxbrew.bintray.com/bottles/ape-1.1.2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3859216e566e6faaccc7183d737527dd4785260a698c8344520e7951baebca76",
+          "url": "https://linuxbrew.bintray.com/bottles/ape-1.1.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "The default configuration file is stored in /home/tim/.linuxbrew/etc. You should load aped with:\n  aped --cfg /home/tim/.linuxbrew/etc/ape.conf\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Ajax Push Engine",
+  "full_name": "ape",
+  "homepage": "http://www.ape-project.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ape",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.2"
+  }
+}

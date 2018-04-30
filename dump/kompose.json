@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "95fa1bbf6a2a06d9d532d47401fb129bbf73d8fd87b559b8a8843f2b7a07e6cc",
+          "url": "https://linuxbrew.bintray.com/bottles/kompose-1.12.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b6c2983763304c0b808aa1c84e71961d504bce84239f411ee8b6aa35ca1c07f2",
+          "url": "https://linuxbrew.bintray.com/bottles/kompose-1.12.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "17ac2b693de679ae5c9941ae8b6f7b4a0c0c3f3ff6071069a338bee009fbdc55",
+          "url": "https://linuxbrew.bintray.com/bottles/kompose-1.12.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "64552d7efcd09be288593a253a1d2739a21abfe65990f6e6121923fad6aaf472",
+          "url": "https://linuxbrew.bintray.com/bottles/kompose-1.12.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Tool to move from `docker-compose` to Kubernetes",
+  "full_name": "kompose",
+  "homepage": "http://kompose.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "kompose",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.12.0"
+  }
+}

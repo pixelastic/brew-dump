@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "48cc4b33c63c410b4d5827f689ccf6ea59608deee4735f84edea90c2ddc394f1",
+          "url": "https://linuxbrew.bintray.com/bottles/prefixsuffix-0.6.9_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0a0937d3ebef51cf2c39007ea99e31f75490c07f7b6b441f64f7a87bbda54a7c",
+          "url": "https://linuxbrew.bintray.com/bottles/prefixsuffix-0.6.9_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "68a7a15fe3b8ea30c1f09e90dfbf8d95348367f74e497b9c1b31ac1795e71211",
+          "url": "https://linuxbrew.bintray.com/bottles/prefixsuffix-0.6.9_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "gtkmm3"
+  ],
+  "desc": "GUI batch renaming utility",
+  "full_name": "prefixsuffix",
+  "homepage": "https://github.com/murraycu/prefixsuffix",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "prefixsuffix",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.9"
+  }
+}

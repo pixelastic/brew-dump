@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ccc110c3c8f008abc615f96358119e8400c03190d785681197badd5f10e0a978",
+          "url": "https://linuxbrew.bintray.com/bottles/fswatch-1.11.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a9850136df474bb8d70499236285e61e8aa6a17557168d6107506e507cc22b8e",
+          "url": "https://linuxbrew.bintray.com/bottles/fswatch-1.11.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8fe64e87fe1269d8497d520aafb0f4543ac286656990a4a6785b526437adc9bd",
+          "url": "https://linuxbrew.bintray.com/bottles/fswatch-1.11.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "065306d90c3f82865a1f95e277591dcdf03652c0fc6f35cf9e54f1d731d401d3",
+          "url": "https://linuxbrew.bintray.com/bottles/fswatch-1.11.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Monitor a directory for changes and run a shell command",
+  "full_name": "fswatch",
+  "homepage": "https://github.com/emcrisostomo/fswatch",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fswatch",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.11.2"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d2b59c4b0326bd4d4b2de6da0310e1d5228cc63d57adb9eb37c5f5c5a9471131",
+          "url": "https://linuxbrew.bintray.com/bottles/ghi-1.2.0_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9289e061f8a249130950ec212042e3d9adfaa96e3591f0eb2d6038c28ff0e6d6",
+          "url": "https://linuxbrew.bintray.com/bottles/ghi-1.2.0_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d2b59c4b0326bd4d4b2de6da0310e1d5228cc63d57adb9eb37c5f5c5a9471131",
+          "url": "https://linuxbrew.bintray.com/bottles/ghi-1.2.0_4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9a6ddc8d9c63ba0fe0d6417dae8cbf6b7f53fec7ded853799dcfa6579c1d8961",
+          "url": "https://linuxbrew.bintray.com/bottles/ghi-1.2.0_4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ruby"
+  ],
+  "desc": "Work on GitHub issues on the command-line",
+  "full_name": "ghi",
+  "homepage": "https://github.com/stephencelis/ghi",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ghi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.0"
+  }
+}

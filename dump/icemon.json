@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7422122b9818ac86761695845bb7e4a63abfd483d9959b26570f9624569442c3",
+          "url": "https://linuxbrew.bintray.com/bottles/icemon-3.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "091c0de73c69ae36a5bff744e7cf81b2321630f3499d67de139cea5782e3b0a0",
+          "url": "https://linuxbrew.bintray.com/bottles/icemon-3.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8f4bb166755f10d04f3a20e5792ed108c86286e4451a7e87b79864835732e78d",
+          "url": "https://linuxbrew.bintray.com/bottles/icemon-3.1.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "icecream",
+    "lzo",
+    "qt"
+  ],
+  "desc": "Icecream GUI Monitor",
+  "full_name": "icemon",
+  "homepage": "https://github.com/icecc/icemon",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "icemon",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.1.0"
+  }
+}

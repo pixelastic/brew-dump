@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f383578fa258ff336c1045f3fb9dc752fa6d74c0f9e6650554f853aa585409a8",
+          "url": "https://linuxbrew.bintray.com/bottles/gjs-1.52.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f49db17dd1f920fb8325f35799ba501777201e7be20bd511ee4fd3e715447a32",
+          "url": "https://linuxbrew.bintray.com/bottles/gjs-1.52.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5e0fde236bc3e0bdeb5a4c2ed2898d07e1dccc504639e73754cc294c6cf72bf5",
+          "url": "https://linuxbrew.bintray.com/bottles/gjs-1.52.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "autoconf@2.13"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "autoconf@2.13",
+    "gobject-introspection",
+    "nspr",
+    "readline",
+    "gtk+3"
+  ],
+  "desc": "JavaScript Bindings for GNOME",
+  "full_name": "gjs",
+  "homepage": "https://wiki.gnome.org/Projects/Gjs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gjs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without gtk+3 support",
+      "option": "--without-gtk+3"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "gtk+3"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.52.2"
+  }
+}

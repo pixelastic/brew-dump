@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9b80c3841426b29cba608e2ee68ed8949920f6af191cd4a0dd6e7a3d356ad310",
+          "url": "https://linuxbrew.bintray.com/bottles/aha-0.4.10.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f87de808467a91c6dcaba9b600cadbcd03e309c1b4541278ae11f73c0b402a16",
+          "url": "https://linuxbrew.bintray.com/bottles/aha-0.4.10.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9bae4d54f930969df6a87f101d40c061523ee72c6d47b649cb47388c3f3abd5b",
+          "url": "https://linuxbrew.bintray.com/bottles/aha-0.4.10.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "14371fcc5bc383bcf7e489abe15feb5609371bce3e9d75bba11a74973c53e595",
+          "url": "https://linuxbrew.bintray.com/bottles/aha-0.4.10.6.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5adf1e9f8d20ffe6f646748f63dca21dcc150d3df2bdff60b97bfb1c4c68bdb4",
+          "url": "https://linuxbrew.bintray.com/bottles/aha-0.4.10.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "ANSI HTML adapter",
+  "full_name": "aha",
+  "homepage": "https://github.com/theZiz/aha",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aha",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.10.6"
+  }
+}

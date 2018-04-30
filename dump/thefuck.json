@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d1672d807d302f5fbdc17ea110e4b937f60accd8c99d74875909bf793b853557",
+          "url": "https://linuxbrew.bintray.com/bottles/thefuck-3.26.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "62e136ff802e3320f722a391f128c963d3e8b1a99e019514bdda662fea1209ce",
+          "url": "https://linuxbrew.bintray.com/bottles/thefuck-3.26.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "198d244f48534c38faa299ebc05ba28f602bf8399d1d2ebbe401e39bbbd6bbb6",
+          "url": "https://linuxbrew.bintray.com/bottles/thefuck-3.26.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "11ed87af38cb0d63fd99dc4297efd9dcddf2d3c8d2d7e3c0eaf1ba9cb995e251",
+          "url": "https://linuxbrew.bintray.com/bottles/thefuck-3.26.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Add the following to your .bash_profile, .bashrc or .zshrc:\n\n  eval $(thefuck --alias)\n\nFor other shells, check https://github.com/nvbn/thefuck/wiki/Shell-aliases\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Programatically correct mistyped console commands",
+  "full_name": "thefuck",
+  "homepage": "https://github.com/nvbn/thefuck",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "thefuck",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.26"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9f4167b1c41e72ae86ec7df56520b11f42f38216c49152698fb888aae30d106d",
+          "url": "https://linuxbrew.bintray.com/bottles/libbpg-0.9.7_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "16282d6e4cf9e52744b8e7cbc9c0f7e154a306481ffae05f5419dde6e652a24d",
+          "url": "https://linuxbrew.bintray.com/bottles/libbpg-0.9.7_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d8f4592c6b4f08a707ec68d6e3632c9cb4fee0a04d5ef5a7b802cbca1fa3db2b",
+          "url": "https://linuxbrew.bintray.com/bottles/libbpg-0.9.7_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "77a695f988e9da935a326964aa8f833ec6a9370e22895d107e6d05b750ee4b6f",
+          "url": "https://linuxbrew.bintray.com/bottles/libbpg-0.9.7_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "yasm"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "yasm",
+    "libpng",
+    "jpeg"
+  ],
+  "desc": "Image format meant to improve on JPEG quality and file size",
+  "full_name": "libbpg",
+  "homepage": "https://bellard.org/bpg/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libbpg",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable built-in JCTVC encoder - Mono threaded, slower but produce smaller file",
+      "option": "--with-jctvc"
+    },
+    {
+      "description": "Disable built-in x265 encoder - Multi threaded, faster but produce bigger file",
+      "option": "--without-x265"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.7"
+  }
+}

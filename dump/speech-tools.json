@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a0794d1d7f424833d2fe92726d26b6ebcc8dcf63b7f9700b19e1119ed7e2ca62",
+          "url": "https://linuxbrew.bintray.com/bottles/speech-tools-2.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b43389631b881f76529aa4458442b819dc5be784afbf5569f9e526ce3dc7e028",
+          "url": "https://linuxbrew.bintray.com/bottles/speech-tools-2.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4d3681ee2194a92fcbad96371c499f5c2a71c59cfe8798b8092f0e57f793fca3",
+          "url": "https://linuxbrew.bintray.com/bottles/speech-tools-2.5.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "align"
+  ],
+  "dependencies": [
+  ],
+  "desc": "C++ speech software library from the University of Edinburgh",
+  "full_name": "speech-tools",
+  "homepage": "http://festvox.org/docs/speech_tools-2.4.0/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "speech-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5.0"
+  }
+}

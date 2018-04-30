@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "896d3acc7e60648410ff86b1f8e744059bb71015900360fc18b3a75537e2c13e",
+          "url": "https://linuxbrew.bintray.com/bottles/xspin-5.2.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f35ea74745fac858274f01c76d879c3713a9ca35e8282ced5c080276f2934580",
+          "url": "https://linuxbrew.bintray.com/bottles/xspin-5.2.5.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a1b19b1227fc19b6ea00cfea5a49955a82d180521e8df29d68842b465e5b4b89",
+          "url": "https://linuxbrew.bintray.com/bottles/xspin-5.2.5.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "493d8bfac9052ece7d96eaed9b70792d7fe41b7566de2a523dd86664e3a3debb",
+          "url": "https://linuxbrew.bintray.com/bottles/xspin-5.2.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2ff10f844a1c09cc99bf8e630bde4e191a450697ab6ea286c85bfb66670db405",
+          "url": "https://linuxbrew.bintray.com/bottles/xspin-5.2.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "spin"
+  ],
+  "desc": "Software verification tool (developed at Bell Labs)",
+  "full_name": "xspin",
+  "homepage": "https://spinroot.com/spin/Src/index.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xspin",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.2.5"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b5efc9bd423c11b952887a8b1b5e51821573c7c85f7a321cee0a7a3e91347b53",
+          "url": "https://linuxbrew.bintray.com/bottles/gupnp-1.0.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "20be1bfad4695855653002badcb5a48c0d69868496898ea331656d0590a8b3e9",
+          "url": "https://linuxbrew.bintray.com/bottles/gupnp-1.0.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e8b43cc1b881108f2ee3447a4da9e80e842cc495ba9b2b778817034d8db63fd8",
+          "url": "https://linuxbrew.bintray.com/bottles/gupnp-1.0.2_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2ee45d827e5c7afad5ac8d7f61ef4e7b042c6e78e1d27575a1a2e405bc3cc898",
+          "url": "https://linuxbrew.bintray.com/bottles/gupnp-1.0.2_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "gettext",
+    "glib",
+    "libsoup",
+    "gssdp"
+  ],
+  "desc": "Framework for creating UPnP devices and control points",
+  "full_name": "gupnp",
+  "homepage": "https://wiki.gnome.org/Projects/GUPnP",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gupnp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.2"
+  }
+}

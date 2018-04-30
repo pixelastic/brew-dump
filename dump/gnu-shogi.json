@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "49ff431036e172362b24dc7eca426a638ec2953ea014c67e4cae239e9175bf27",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-shogi-1.4.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "20895a9d3fe87357df4dad1aaae16fee4d7a0c70e95119756c8ab2928817c161",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-shogi-1.4.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "677531c9eb7bdd01f22862c24d5ab144f7b78bd672223854fc169d103a9924e2",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-shogi-1.4.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1fbc9bf567ea4c50c5bb12fda953e18ce8617298d474ed8a56ca2b9dd24b2726",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-shogi-1.4.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "GNU Shogi (Japanese Chess)",
+  "full_name": "gnu-shogi",
+  "homepage": "https://www.gnu.org/software/gnushogi/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnu-shogi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.2"
+  }
+}

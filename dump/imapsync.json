@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "159df486c3ea16ae209b7dbfd487dad0d8fd79571adaf25102f253ed13abe314",
+          "url": "https://linuxbrew.bintray.com/bottles/imapsync-1.836.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c405d6b723342e7c0f2cac4c787248ae3711d695bca522acf64f6c87933f0a29",
+          "url": "https://linuxbrew.bintray.com/bottles/imapsync-1.836.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0efae72d9a685e85d849c687c7442f7c9a58cf9e803c74775c66c0c6119fdc5a",
+          "url": "https://linuxbrew.bintray.com/bottles/imapsync-1.836.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Migrate or backup IMAP mail accounts",
+  "full_name": "imapsync",
+  "homepage": "http://ks.lamiral.info/imapsync/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "imapsync",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.836"
+  }
+}

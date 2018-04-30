@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "de8ab34d71e40db90fe53ea2c311351f73598063eebd82cdcd467f6d93143626",
+          "url": "https://linuxbrew.bintray.com/bottles/ant@1.9-1.9.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e5c63d1ca61047baee2f0edebea21508782460c98a1d325727e376cfc7e1cbef",
+          "url": "https://linuxbrew.bintray.com/bottles/ant@1.9-1.9.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c61398b93dc90ac3b56df0eca3fb3d7059fa81ce3bd2e4c18bb2701b5455d839",
+          "url": "https://linuxbrew.bintray.com/bottles/ant@1.9-1.9.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a515be5b2a82999571396c8630a6cbbda8501a34aefb130537e9d32ca7221df7",
+          "url": "https://linuxbrew.bintray.com/bottles/ant@1.9-1.9.9.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "de8ab34d71e40db90fe53ea2c311351f73598063eebd82cdcd467f6d93143626",
+          "url": "https://linuxbrew.bintray.com/bottles/ant@1.9-1.9.9.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Java build tool",
+  "full_name": "ant@1.9",
+  "homepage": "https://ant.apache.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "ant@1.9",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9.9"
+  }
+}

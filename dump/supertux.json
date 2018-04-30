@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c66b6e14fc23160f5024ad7790286ec0bcb7f8ed262ce6c400dc8757c1c16ba8",
+          "url": "https://linuxbrew.bintray.com/bottles/supertux-0.5.1_3.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "66385b85ba64e6ce35f5d74e9c2304e73795b977b75f814ff4eeb55cbfccba0b",
+          "url": "https://linuxbrew.bintray.com/bottles/supertux-0.5.1_3.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fbde2e2249a89401fd9893b095857b283c4a7a3a4ab9dec47b8c30d2030d0268",
+          "url": "https://linuxbrew.bintray.com/bottles/supertux-0.5.1_3.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config",
+    "boost"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "boost",
+    "sdl2",
+    "sdl2_image",
+    "sdl2_mixer",
+    "libogg",
+    "libvorbis",
+    "glew"
+  ],
+  "desc": "Classic 2D jump'n run sidescroller game",
+  "full_name": "supertux",
+  "homepage": "https://supertuxproject.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "supertux",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5.1"
+  }
+}

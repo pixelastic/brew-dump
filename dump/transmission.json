@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ba5967f2f272d2376f14b1c0043853f0d103877cb865546fe919b8ae74316982",
+          "url": "https://linuxbrew.bintray.com/bottles/transmission-2.93.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "753d56b0ecb6e70ed2841b1abc23247c1b02666e2b95c5a6ac32e9815a0c6131",
+          "url": "https://linuxbrew.bintray.com/bottles/transmission-2.93.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5e190bda32de9a3ab3dbd7909a23cf79b1fbd891c10f9a537469a29a7d85d6dd",
+          "url": "https://linuxbrew.bintray.com/bottles/transmission-2.93.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5b57b9088e2512f629467bb1805d2ef38363eca51b8cf86316779b8e1e82b195",
+          "url": "https://linuxbrew.bintray.com/bottles/transmission-2.93.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "This formula only installs the command line utilities.\n\nTransmission.app can be downloaded directly from the website:\n  https://www.transmissionbt.com/\n\nAlternatively, install with Homebrew-Cask:\n  brew cask install transmission\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libevent",
+    "curl"
+  ],
+  "desc": "Lightweight BitTorrent client",
+  "full_name": "transmission",
+  "homepage": "https://www.transmissionbt.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "transmission",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with native language support",
+      "option": "--with-nls"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.93"
+  }
+}

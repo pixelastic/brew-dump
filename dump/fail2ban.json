@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bec9fda21d0e11efd2fa52930b13ecbca598d9f0dfc522c0c2a1b54a5d7c7b59",
+          "url": "https://linuxbrew.bintray.com/bottles/fail2ban-0.10.3.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dd979343b0371718a514dfdca9cfca9b5166740f94ab76af2fa81afb6402b3f3",
+          "url": "https://linuxbrew.bintray.com/bottles/fail2ban-0.10.3.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "acaefca421f5398fc61bdae2eaffd29ce70cbd03ec5af2be4a1e8d13eec080d4",
+          "url": "https://linuxbrew.bintray.com/bottles/fail2ban-0.10.3.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a36bd6a7934e786ae0152cc39a96f8f3c51166a187a2a70f4e25ff13f05b29e6",
+          "url": "https://linuxbrew.bintray.com/bottles/fail2ban-0.10.3.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "help2man",
+    "sphinx-doc"
+  ],
+  "caveats": "Before using Fail2Ban for the first time you should edit the jail\nconfiguration and enable the jails that you want to use, for instance\nssh-ipfw. Also, make sure that they point to the correct configuration\npath. I.e. on Mountain Lion the sshd logfile should point to\n/var/log/system.log.\n\n  * /home/tim/.linuxbrew/etc/fail2ban/jail.conf\n\nThe Fail2Ban wiki has two pages with instructions for macOS Server that\ndescribes how to set up the Jails for the standard macOS Server\nservices for the respective releases.\n\n  10.4: https://www.fail2ban.org/wiki/index.php/HOWTO_Mac_OS_X_Server_(10.4)\n  10.5: https://www.fail2ban.org/wiki/index.php/HOWTO_Mac_OS_X_Server_(10.5)\n\nPlease do not forget to update your configuration files.\nThey are in /home/tim/.linuxbrew/etc/fail2ban.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "help2man",
+    "sphinx-doc",
+    "python@2"
+  ],
+  "desc": "Scan log files and ban IPs showing malicious signs",
+  "full_name": "fail2ban",
+  "homepage": "https://www.fail2ban.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fail2ban",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.10.3.1"
+  }
+}

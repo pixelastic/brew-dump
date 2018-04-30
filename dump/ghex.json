@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "7e8089a2904c7864315d8b7eca37dd7df04460d7703a084a0924856fa52383be",
+          "url": "https://linuxbrew.bintray.com/bottles/ghex-3.18.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0080cac6bcc11dc849c24bd22a1dda1db0747f523efca1041af9f1e42f029898",
+          "url": "https://linuxbrew.bintray.com/bottles/ghex-3.18.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6f9deaf2bac3fb375bddffe04e43d6eab04c2337aaa7ca08153d97b55208eeaa",
+          "url": "https://linuxbrew.bintray.com/bottles/ghex-3.18.3_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool",
+    "itstool",
+    "libxml2",
+    "python@2"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "itstool",
+    "libxml2",
+    "python@2",
+    "gtk+3",
+    "hicolor-icon-theme"
+  ],
+  "desc": "GNOME hex editor",
+  "full_name": "ghex",
+  "homepage": "https://wiki.gnome.org/Apps/Ghex",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ghex",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.18.3"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0e2dbed131e06e439dfda9ba83b429def82964cb17f6c418adfb321931014c84",
+          "url": "https://linuxbrew.bintray.com/bottles/libwpg-0.3.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3b4dc04c896972980242d47d138cec836921ceb31b4cb09ecfe516b3a263544d",
+          "url": "https://linuxbrew.bintray.com/bottles/libwpg-0.3.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fe76db6238dd00ce05a0ba9c9c80b69cc18b431fa0c7198b23be67cf9e609e76",
+          "url": "https://linuxbrew.bintray.com/bottles/libwpg-0.3.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2b5c1dccd2c420add953a4a79f19806a5abdffac3a021d07bdfb052863399ebf",
+          "url": "https://linuxbrew.bintray.com/bottles/libwpg-0.3.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libwpd",
+    "librevenge"
+  ],
+  "desc": "Library for reading and parsing Word Perfect Graphics format",
+  "full_name": "libwpg",
+  "homepage": "https://libwpg.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libwpg",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.2"
+  }
+}

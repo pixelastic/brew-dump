@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e9992640d7c0e139caef8ccb130af90548f6435b3789b61c8c873f619e55ade9",
+          "url": "https://linuxbrew.bintray.com/bottles/tmpreaper-1.6.13_nmu1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "be0cf74a352a88dc2c6f616ad1bd695e37ff0736826f20007a1727e48ce16b84",
+          "url": "https://linuxbrew.bintray.com/bottles/tmpreaper-1.6.13_nmu1.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "31519a6cd52a36c1eb9f5a65b67b6f893d3a9f3c9d4601051cc6f33061bc8bf5",
+          "url": "https://linuxbrew.bintray.com/bottles/tmpreaper-1.6.13_nmu1.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "44d3eb40f2c063642d57ccd7d65460901e7240abda5bda8b54721d77f731d755",
+          "url": "https://linuxbrew.bintray.com/bottles/tmpreaper-1.6.13_nmu1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a027f222a96bde98ae5f3e271d990871884a89fab8578066cc6b1cdb3a01aa2c",
+          "url": "https://linuxbrew.bintray.com/bottles/tmpreaper-1.6.13_nmu1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Clean up files in directories based on their age",
+  "full_name": "tmpreaper",
+  "homepage": "https://packages.debian.org/sid/tmpreaper",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tmpreaper",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.13_nmu1"
+  }
+}

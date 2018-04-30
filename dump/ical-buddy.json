@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1603d15b5b643a25c98baebc7c7e799bf3176a74a139a3f5dfecb474daf9037d",
+          "url": "https://linuxbrew.bintray.com/bottles/ical-buddy-1.8.10.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fa01f750eeb692d11ae0fa4cb6131e331446ad623bc8fc284b3721cf81621f39",
+          "url": "https://linuxbrew.bintray.com/bottles/ical-buddy-1.8.10.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "44b1bb23023bf91a055f77232b0f2cdb2ad64dc389224a480e2236b308abf9a7",
+          "url": "https://linuxbrew.bintray.com/bottles/ical-buddy-1.8.10.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8dc7ef559702a3c489b2905e5cfdd4c9be18decd9557c9034df920f0ef57761e",
+          "url": "https://linuxbrew.bintray.com/bottles/ical-buddy-1.8.10.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b839dc603deeeaba18efd2c6704e174fc4593fbc4c100c8d655b70f327802407",
+          "url": "https://linuxbrew.bintray.com/bottles/ical-buddy-1.8.10.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Get events and tasks from the macOS calendar database",
+  "full_name": "ical-buddy",
+  "homepage": "http://hasseg.org/icalBuddy/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ical-buddy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.10"
+  }
+}

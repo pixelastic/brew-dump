@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9bbc41eaa943fb9fc3f9500d777a5f1840946359c4c3e24eea58272ad2f1698d",
+          "url": "https://linuxbrew.bintray.com/bottles/mujs-1.0.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cb8b7a3337831dff43fe813a1152fe937b2513a8b3ba4c593a2b997b78c35b9b",
+          "url": "https://linuxbrew.bintray.com/bottles/mujs-1.0.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fc943c10b6dc2e8a43ebee1e61ebe2f258c9c4d3a60779dfbc31bebcd5338452",
+          "url": "https://linuxbrew.bintray.com/bottles/mujs-1.0.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0ed1f15e6cb881bed38881185827317bcc636ea92f7ecc3156fc5b5dbcf30567",
+          "url": "https://linuxbrew.bintray.com/bottles/mujs-1.0.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Embeddable Javascript interpreter",
+  "full_name": "mujs",
+  "homepage": "http://dev.mujs.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mujs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.3"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b2a8b90c9eafdad2a8774dba454e68de4b50776033630e0783d0f0d55abc20d7",
+          "url": "https://linuxbrew.bintray.com/bottles/ntl-11.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dbb4938340e328c471a54b5babf2d0e1818578a27e26c50d3ae6a1575aafa02d",
+          "url": "https://linuxbrew.bintray.com/bottles/ntl-11.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5a7cc515ed1f3f28b1a0fbd347066b04957cc80c316158b0c934d3bf9f0fcf8d",
+          "url": "https://linuxbrew.bintray.com/bottles/ntl-11.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c1e412222df786a778211f66be4512e4fa6e4d3346d1281586a73722bbb394dd",
+          "url": "https://linuxbrew.bintray.com/bottles/ntl-11.0.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gmp"
+  ],
+  "desc": "C++ number theory library",
+  "full_name": "ntl",
+  "homepage": "http://www.shoup.net/ntl",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ntl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "11.0.0"
+  }
+}

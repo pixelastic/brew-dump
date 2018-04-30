@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "20b13125e3312866baed38e6f6ffd706a6f4a0436617e8a6055f1f776a76b9a2",
+          "url": "https://linuxbrew.bintray.com/bottles/lifelines-3.0.62.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "95457e5f439d945c32e65a32a43a5396b8c7f33466f0c83a0671936f095d649a",
+          "url": "https://linuxbrew.bintray.com/bottles/lifelines-3.0.62.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "cbe7743498423c250758271405f0a6a1f8e8b0bed83f91eac8c67041534da399",
+          "url": "https://linuxbrew.bintray.com/bottles/lifelines-3.0.62.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1a974d23d51da7a7d2aedaec195291195a9eb442839a9bb9e5574ed6d8c01199",
+          "url": "https://linuxbrew.bintray.com/bottles/lifelines-3.0.62.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "69108c01987d30c1e82b2928fdaf0817ba2b2883fc6fef886e3e559dd49d29c2",
+          "url": "https://linuxbrew.bintray.com/bottles/lifelines-3.0.62.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Text-based genealogy software",
+  "full_name": "lifelines",
+  "homepage": "https://lifelines.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lifelines",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.62"
+  }
+}

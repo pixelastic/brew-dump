@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4a30f968fa364983e3b9cad81e52bd8f6976ed5f479a23efc02ead1a4b1638c1",
+          "url": "https://linuxbrew.bintray.com/bottles/mpir-3.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5b283d794cac85bbc6524dd2ee29b9e1a82a895b535c4e4231726058e195b7af",
+          "url": "https://linuxbrew.bintray.com/bottles/mpir-3.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "643176aa1607f254fcae6227ebebf3a73e2edbbece37f3c749b240dfd33274f7",
+          "url": "https://linuxbrew.bintray.com/bottles/mpir-3.0.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "yasm"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "yasm"
+  ],
+  "desc": "Multiple Precision Integers and Rationals (fork of GMP)",
+  "full_name": "mpir",
+  "homepage": "http://mpir.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mpir",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.0"
+  }
+}

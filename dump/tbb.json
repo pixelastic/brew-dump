@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "263e771e491b8b012e82d8f9072df83bf5cdf30d395ed07ca8490532c34abc3c",
+          "url": "https://linuxbrew.bintray.com/bottles/tbb-2018_U3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8cbd67c35cacf110d90157d970845b881ae80be2d1c2f5c6498e83dd7c47c620",
+          "url": "https://linuxbrew.bintray.com/bottles/tbb-2018_U3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3a12b35651d80de3db0c34d68d6f9e55d4cdf4315060d0deb2a9c1475edad177",
+          "url": "https://linuxbrew.bintray.com/bottles/tbb-2018_U3_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "swig"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "swig"
+  ],
+  "desc": "Rich and complete approach to parallelism in C++",
+  "full_name": "tbb",
+  "homepage": "https://www.threadingbuildingblocks.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tbb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2018_U3"
+  }
+}

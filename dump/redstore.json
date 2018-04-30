@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5ae64e4a536011ef3f68d2e8b4253624f60995025064de38f3a38308dd005421",
+          "url": "https://linuxbrew.bintray.com/bottles/redstore-0.5.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fbd9814ed5e35fb1c964d6f581edebfc35e7d35cba0b89ea735247131c5559ac",
+          "url": "https://linuxbrew.bintray.com/bottles/redstore-0.5.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "55e35fe682d2bfd5b4e13d7e66302d79033766056e55b0031ce649ad582b30e3",
+          "url": "https://linuxbrew.bintray.com/bottles/redstore-0.5.4.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e507eab072e33f0cee1ca08efb51ab06d65cee3a64248ec6badbd4f601f5c674",
+          "url": "https://linuxbrew.bintray.com/bottles/redstore-0.5.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1c891f4297c26269136c5caa5be3ab721cbb8e5b53c83daf3440082df4edf6a2",
+          "url": "https://linuxbrew.bintray.com/bottles/redstore-0.5.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "redland"
+  ],
+  "desc": "Lightweight RDF triplestore powered by Redland",
+  "full_name": "redstore",
+  "homepage": "https://www.aelius.com/njh/redstore/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "redstore",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.5.4"
+  }
+}

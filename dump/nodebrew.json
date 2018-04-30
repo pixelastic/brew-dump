@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You need to manually run setup_dirs to create directories required by nodebrew:\n  /home/tim/.linuxbrew/opt/nodebrew/bin/nodebrew setup_dirs\n\nAdd path:\n  export PATH=$HOME/.nodebrew/current/bin:$PATH\n\nTo use Homebrew's directories rather than ~/.nodebrew add to your profile:\n  export NODEBREW_ROOT=/home/tim/.linuxbrew/var/nodebrew\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Node.js version manager",
+  "full_name": "nodebrew",
+  "homepage": "https://github.com/hokaccha/nodebrew",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nodebrew",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.0"
+  }
+}

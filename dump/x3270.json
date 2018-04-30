@@ -1,0 +1,86 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c82c4f5ceb379a44acab4592f3d1d9cd05d499541b806397bd656e2152474815",
+          "url": "https://linuxbrew.bintray.com/bottles/x3270-3.6ga5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f67129f6e0d14448939953d4c8966a5770d8a65aecdf42108f43dd4914dda9d8",
+          "url": "https://linuxbrew.bintray.com/bottles/x3270-3.6ga5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "08de119ad4c2626d8f8b5da84976601b89f1428af4274c2f5e1ed48b3805254d",
+          "url": "https://linuxbrew.bintray.com/bottles/x3270-3.6ga5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "IBM 3270 terminal emulator for the X Window System and Windows",
+  "full_name": "x3270",
+  "homepage": "http://x3270.bgp.nu/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "x3270",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Include x3270 (X11-based version)",
+      "option": "--with-x11"
+    },
+    {
+      "description": "Exclude c3270 (curses-based version)",
+      "option": "--without-c3270"
+    },
+    {
+      "description": "Exclude s3270 (displayless version)",
+      "option": "--without-s3270"
+    },
+    {
+      "description": "Exclude tcl3270 (integrated with Tcl)",
+      "option": "--without-tcl3270"
+    },
+    {
+      "description": "Exclude pr3287 (printer emulation)",
+      "option": "--without-pr3287"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.6ga5"
+  }
+}

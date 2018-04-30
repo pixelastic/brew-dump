@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e70ca4633486bd83259989bf62041e5e140401fbecc7bb4e855375229b016312",
+          "url": "https://linuxbrew.bintray.com/bottles/nanomsgxx-0.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b35ef1c194aea9a8b1c59495dadec535d748ad21003843caf1d520743d4e6a88",
+          "url": "https://linuxbrew.bintray.com/bottles/nanomsgxx-0.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "31944634bba1c194586658fd0d7ab9bc5c2564f334a9fbbea3d1af57dc43ef55",
+          "url": "https://linuxbrew.bintray.com/bottles/nanomsgxx-0.2_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "100c9b80bd6d07433fcb0c8d42117e697ea83fa3facef2c050854f6fe7c4d4c7",
+          "url": "https://linuxbrew.bintray.com/bottles/nanomsgxx-0.2_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "python@2"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "python@2",
+    "nanomsg"
+  ],
+  "desc": "Nanomsg binding for C++11",
+  "full_name": "nanomsgxx",
+  "homepage": "https://achille-roussel.github.io/nanomsgxx/doc/nanomsgxx.7.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nanomsgxx",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2"
+  }
+}

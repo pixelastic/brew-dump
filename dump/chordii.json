@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "99c022cf0741bca48fd78d1bc5b5f0488e720321133a1357412d2342527a1dd8",
+          "url": "https://linuxbrew.bintray.com/bottles/chordii-4.5.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "92b70657704a64aa528b4d0171f2e67e57046969b61aeee6c70b174e6d7cc89b",
+          "url": "https://linuxbrew.bintray.com/bottles/chordii-4.5.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5eed38c2781095a1ea852e8407d791ee09c87f06e8d596e49e3abb685f8234ad",
+          "url": "https://linuxbrew.bintray.com/bottles/chordii-4.5.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "02cca7ec07939f7b29f1f2c844d250caaa9b7ba7d19e51f9e3eeb636d51b72d4",
+          "url": "https://linuxbrew.bintray.com/bottles/chordii-4.5.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Text file to music sheet converter",
+  "full_name": "chordii",
+  "homepage": "https://www.vromans.org/johan/projects/Chordii/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "chordii",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.5.3"
+  }
+}

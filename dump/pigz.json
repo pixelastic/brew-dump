@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d0c4ec5ac96ab0262d5e67bd5df5432d7dc40ac1404341962c02835ca8451b5c",
+          "url": "https://linuxbrew.bintray.com/bottles/pigz-2.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "216e716eafd2786ed6fa672daf27bb77b420e05f92a14cfeccab28a6be6b7778",
+          "url": "https://linuxbrew.bintray.com/bottles/pigz-2.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9173b4bdf36c787ad7a3b7d738236e0393430b607ba44d5a32fa387b008a347a",
+          "url": "https://linuxbrew.bintray.com/bottles/pigz-2.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "447fa9c08dd2a52e68ece9408522cfdc6abd940467394de96b91bce20c2b2538",
+          "url": "https://linuxbrew.bintray.com/bottles/pigz-2.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "zlib"
+  ],
+  "desc": "Parallel gzip",
+  "full_name": "pigz",
+  "homepage": "https://zlib.net/pigz/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pigz",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ee9ae01f0ea9fb18d0761151a6d1e386f7a15c34e8d83ebac0aa88eb39d486aa",
+          "url": "https://linuxbrew.bintray.com/bottles/utf8proc-2.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "87cb1cce4137754f0ebf386ab699645de96399bd172fc718c8646948a596aa1a",
+          "url": "https://linuxbrew.bintray.com/bottles/utf8proc-2.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ce61a07cd731b8c3edac281c8d43545bf2b12a96be6b488bb7f4b6b153d2853d",
+          "url": "https://linuxbrew.bintray.com/bottles/utf8proc-2.1.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "91bd623ceb20ce162df2722cb4b622062b429ab3630239398468b8442f7ea2df",
+          "url": "https://linuxbrew.bintray.com/bottles/utf8proc-2.1.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Clean C library for processing UTF-8 Unicode data",
+  "full_name": "utf8proc",
+  "homepage": "https://julialang.org/utf8proc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "utf8proc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.1.1"
+  }
+}

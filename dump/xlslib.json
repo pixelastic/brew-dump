@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a4d5714e19c1d4e44d67bbe9cda064120dc01e9cf207771ae5ef208e76ed2cd9",
+          "url": "https://linuxbrew.bintray.com/bottles/xlslib-2.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bb4b5aa643155d211af17a47b5337d65431b1ade0e233af9770d62dbb7ab1448",
+          "url": "https://linuxbrew.bintray.com/bottles/xlslib-2.5.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b23da4149e9db9bf4152cfc8943ac83d254796d88741592949c3928ae7988149",
+          "url": "https://linuxbrew.bintray.com/bottles/xlslib-2.5.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bcdef576e03aa1cad74d341f6fcc72a1e7944a54542941f96cb8ef8063c2190e",
+          "url": "https://linuxbrew.bintray.com/bottles/xlslib-2.5.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "cfd77ea71da12276124cb9cb08bb9ad51ab38b17e912d4dd8c4fec8a428714a1",
+          "url": "https://linuxbrew.bintray.com/bottles/xlslib-2.5.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "desc": "C++/C library to construct Excel .xls files in code",
+  "full_name": "xlslib",
+  "homepage": "https://sourceforge.net/projects/xlslib",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xlslib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5.0"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9b638e565c841ef3da43bd295b0d0a5cd76883540c2cb2e50eddbbbfdc691192",
+          "url": "https://linuxbrew.bintray.com/bottles/node@6-6.14.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "00b8ea8aee3762410703951ceb8c5ba56ad7cc59bab252bce74bcfb7b2e2b5cd",
+          "url": "https://linuxbrew.bintray.com/bottles/node@6-6.14.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1f82ba7dff3602718581f83db1c125c09591fe05c71457c96f0835646e8de1e4",
+          "url": "https://linuxbrew.bintray.com/bottles/node@6-6.14.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ae13adf05fd6cf83c56a71ac9b4b95e4a90daa782fd23029944f559757c24950",
+          "url": "https://linuxbrew.bintray.com/bottles/node@6-6.14.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "python@2",
+    "pkg-config"
+  ],
+  "caveats": "Please note by default only English locale support is provided. If you need\nfull locale support you should either rebuild with full icu:\n  `brew reinstall node --with-full-icu`\nor add full icu data at runtime following:\n  https://github.com/nodejs/node/wiki/Intl#using-and-customizing-the-small-icu-build\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "pkg-config",
+    "openssl"
+  ],
+  "desc": "Platform built on V8 to build network applications",
+  "full_name": "node@6",
+  "homepage": "https://nodejs.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "node@6",
+  "oldname": "node6-lts",
+  "optional_dependencies": [
+    "openssl"
+  ],
+  "options": [
+    {
+      "description": "Build with debugger hooks",
+      "option": "--with-debug"
+    },
+    {
+      "description": "Build against Homebrew's OpenSSL instead of the bundled OpenSSL",
+      "option": "--with-openssl"
+    },
+    {
+      "description": "npm will not be installed",
+      "option": "--without-npm"
+    },
+    {
+      "description": "npm bash completion will not be installed",
+      "option": "--without-completion"
+    },
+    {
+      "description": "Build with full-icu (all locales) instead of small-icu (English only)",
+      "option": "--with-full-icu"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.14.1"
+  }
+}

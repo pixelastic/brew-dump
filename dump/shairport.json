@@ -1,0 +1,83 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "802bbe38bc98c8fc8174eae3e41c6d00914d551626c051cb9dc7ba6af4edcf18",
+          "url": "https://linuxbrew.bintray.com/bottles/shairport-1.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b49617080692e6dfeb67dd790db849d8672f545f96f80a26861028f74d1c5e28",
+          "url": "https://linuxbrew.bintray.com/bottles/shairport-1.1.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "589f12f2a0b495dafc3536f04c3901aff75da0ec1e99ac8ec5e9916b629c17fd",
+          "url": "https://linuxbrew.bintray.com/bottles/shairport-1.1.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "877331a20e06d9028d4330cbc90772881b60b872aa3191b0b03c8b93f4423123",
+          "url": "https://linuxbrew.bintray.com/bottles/shairport-1.1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b3d9925e0335227f0ac5efc0f5d32d59cc41ea4af08a9db1658f68992e89f30f",
+          "url": "https://linuxbrew.bintray.com/bottles/shairport-1.1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "pulseaudio",
+    "libao",
+    "openssl"
+  ],
+  "desc": "Airtunes emulator",
+  "full_name": "shairport",
+  "homepage": "https://github.com/abrasive/shairport",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "shairport",
+  "oldname": null,
+  "optional_dependencies": [
+    "pulseaudio",
+    "libao"
+  ],
+  "options": [
+    {
+      "description": "Build with pulseaudio support",
+      "option": "--with-pulseaudio"
+    },
+    {
+      "description": "Build with libao support",
+      "option": "--with-libao"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.1"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b54f61f4a00bb1a0fe01b8c1525a48ab6a361497d3d8415cc0267d030c53961e",
+          "url": "https://linuxbrew.bintray.com/bottles/h2o-2.2.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "18a5cc03a32ef932ef0ab7da282b493218f552c7d9fb928957dace5ac343119c",
+          "url": "https://linuxbrew.bintray.com/bottles/h2o-2.2.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2aa8bba21a1ca614e9924a069463710cc48c9a1926300a3e2acd56da0f64974f",
+          "url": "https://linuxbrew.bintray.com/bottles/h2o-2.2.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3c05d1a003f2bfcba052cf9ff115c2324787bf7520244873e7fad75f2c8d3c15",
+          "url": "https://linuxbrew.bintray.com/bottles/h2o-2.2.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": "A basic example configuration file has been placed in /home/tim/.linuxbrew/etc/h2o.\nYou can find fuller, unmodified examples here:\n  https://github.com/h2o/h2o/tree/master/examples/h2o\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "openssl",
+    "libuv",
+    "wslay"
+  ],
+  "desc": "HTTP server with support for HTTP/1.x and HTTP/2",
+  "full_name": "h2o",
+  "homepage": "https://github.com/h2o/h2o/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "h2o",
+  "oldname": null,
+  "optional_dependencies": [
+    "libuv",
+    "wslay"
+  ],
+  "options": [
+    {
+      "description": "Build the H2O library in addition to the executable",
+      "option": "--with-libuv"
+    },
+    {
+      "description": "Don't build the bundled statically-linked mruby",
+      "option": "--without-mruby"
+    },
+    {
+      "description": "Build with wslay support",
+      "option": "--with-wslay"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.4"
+  }
+}

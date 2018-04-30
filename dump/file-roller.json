@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0b2ffcb564df4f03c429f8b8c0f7f19afe7e0e8f73a706471005fdff98a25dee",
+          "url": "https://linuxbrew.bintray.com/bottles/file-roller-3.28.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d7abde518cde71c0560862adee45af2d50ba7680f706969bd4336342a7348d8e",
+          "url": "https://linuxbrew.bintray.com/bottles/file-roller-3.28.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "837a8976176c65b2746324224cc839aa1d06e4acc5b33a1ea182569feaa589ea",
+          "url": "https://linuxbrew.bintray.com/bottles/file-roller-3.28.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "meson",
+    "python",
+    "ninja",
+    "pkg-config",
+    "itstool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "meson",
+    "python",
+    "ninja",
+    "pkg-config",
+    "itstool",
+    "gtk+3",
+    "json-glib",
+    "libmagic",
+    "libarchive",
+    "hicolor-icon-theme",
+    "adwaita-icon-theme"
+  ],
+  "desc": "GNOME archive manager",
+  "full_name": "file-roller",
+  "homepage": "https://wiki.gnome.org/Apps/FileRoller",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "file-roller",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.28.0"
+  }
+}

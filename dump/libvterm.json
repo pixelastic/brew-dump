@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "fdab6481377220ea48474d7af256df3b82ee202d28ba010d644aa5ff200c2fbd",
+          "url": "https://linuxbrew.bintray.com/bottles/libvterm-681.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d9890959bfaffea27748b69bdcd8f84b1ccc104829db37480dcfdd86701fa315",
+          "url": "https://linuxbrew.bintray.com/bottles/libvterm-681.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a3b42686b7e365b71c766cfb44bb564e5d0e157ac85cf9b9ffba6b6d570f3ef8",
+          "url": "https://linuxbrew.bintray.com/bottles/libvterm-681.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1b0e1cd45ec1aa67280fa555c47139d2d0b36d7c28313148bd7d23d85a31178c",
+          "url": "https://linuxbrew.bintray.com/bottles/libvterm-681.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "286613fabae20c98f01b4ac4719bed1aef18cb70c80e8b9d36f4c6a967f310f3",
+          "url": "https://linuxbrew.bintray.com/bottles/libvterm-681.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e74dceb0e58c42be4c8e1ab96867ad71931b9412b7c692cfc40dc5bc924d0daa",
+          "url": "https://linuxbrew.bintray.com/bottles/libvterm-681.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtool"
+  ],
+  "desc": "C99 library which implements a VT220 or xterm terminal emulator",
+  "full_name": "libvterm",
+  "homepage": "http://www.leonerd.org.uk/code/libvterm/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libvterm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "681"
+  }
+}

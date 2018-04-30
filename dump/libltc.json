@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "39c5b5eae78f0abb51a5ac965f9e3f89bf831861ca88347b170f4fd4a9562b6e",
+          "url": "https://linuxbrew.bintray.com/bottles/libltc-1.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ede5ce5a9de5f89bc42c9201da577af1249415435cbab06b5abcb51577ef6902",
+          "url": "https://linuxbrew.bintray.com/bottles/libltc-1.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5ce9e5d2072877c2d7ba32260047aa900b0918a796bd07ecc069c098d0763a6c",
+          "url": "https://linuxbrew.bintray.com/bottles/libltc-1.3.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9e42898755bb3312b42cd61a28e658288a3282801d401f771cfb6236ba4a08aa",
+          "url": "https://linuxbrew.bintray.com/bottles/libltc-1.3.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "POSIX-C Library for handling Linear/Logitudinal Time Code (LTC)",
+  "full_name": "libltc",
+  "homepage": "https://x42.github.io/libltc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libltc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3.0"
+  }
+}

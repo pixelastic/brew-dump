@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "46c458b48728a214b102e724dcee15d8c2f6a25c1ec29ac87c5182529564abca",
+          "url": "https://linuxbrew.bintray.com/bottles/vowpal-wabbit-8.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "aca04f30b22b854907c635cc93f78c51ac37b5da4ccd4cecece365e53cd54d19",
+          "url": "https://linuxbrew.bintray.com/bottles/vowpal-wabbit-8.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7d343e1b5fd2cc0a9510e444b25ba402ae383f7b5b50307408bb3af6436480dd",
+          "url": "https://linuxbrew.bintray.com/bottles/vowpal-wabbit-8.5.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "boost"
+  ],
+  "desc": "Online learning algorithm",
+  "full_name": "vowpal-wabbit",
+  "homepage": "https://github.com/JohnLangford/vowpal_wabbit",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vowpal-wabbit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "8.5.0"
+  }
+}

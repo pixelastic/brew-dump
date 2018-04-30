@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6e18a2f46faa55e99fe070c7fd5e95940d66a5295f694605c9e90b416b577d37",
+          "url": "https://linuxbrew.bintray.com/bottles/dterm-0.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "85085f6142348852c9a5efee30a697fa6b31d9162807a256aee5100e50ff99ea",
+          "url": "https://linuxbrew.bintray.com/bottles/dterm-0.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a0f9f7bfcadc790624975724244e30d4459e0eb3172dc2646db2b58f7643589c",
+          "url": "https://linuxbrew.bintray.com/bottles/dterm-0.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "353231f24cda3e48779652002067ac2650b0182f4e7f69fc86b059139daf4511",
+          "url": "https://linuxbrew.bintray.com/bottles/dterm-0.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Terminal emulator for use with xterm and friends",
+  "full_name": "dterm",
+  "homepage": "http://www.knossos.net.nz/resources/free-software/dterm/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dterm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.5"
+  }
+}

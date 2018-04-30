@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ceec1738779c07c06bd21b5c81816fb66854b728a1a098fe5ac1f37a176ee32f",
+          "url": "https://linuxbrew.bintray.com/bottles/cspice-66.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dac29486067ad080407dfd76641a8902103ce333750d5e2c9723409806f2ab61",
+          "url": "https://linuxbrew.bintray.com/bottles/cspice-66.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5ffb3eec6da9aa84ff58330734d024df9ea1378b1cc93365736b66d4315c47b9",
+          "url": "https://linuxbrew.bintray.com/bottles/cspice-66.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ff72f9d54707e03e86016b286117528720134acd4f23bd6e6b4402c8cd4def73",
+          "url": "https://linuxbrew.bintray.com/bottles/cspice-66.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "openhmd",
+    "libftdi0",
+    "enscript",
+    "fondu"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Observation geometry system for robotic space science missions",
+  "full_name": "cspice",
+  "homepage": "https://naif.jpl.nasa.gov/naif/toolkit.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cspice",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "66"
+  }
+}

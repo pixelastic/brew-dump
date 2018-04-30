@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "761612b6522dffab0ea197e1ff27422bc8d34ffaf080518d148249bf7731e3ed",
+          "url": "https://linuxbrew.bintray.com/bottles/lcdf-typetools-2.107.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bc3f49aef8137633d403aaa90ed1f97e9e0e07ec969b424649fd3a2d8408dd9c",
+          "url": "https://linuxbrew.bintray.com/bottles/lcdf-typetools-2.107.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9875de167b838b6ef49eb83400f1b9c306c0374394a33f46cec6e7cceb0ed066",
+          "url": "https://linuxbrew.bintray.com/bottles/lcdf-typetools-2.107.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f7a95d76120b54ac63d07cf3c886cc0d379ebc75545e40e1e0c1de7ff87d1573",
+          "url": "https://linuxbrew.bintray.com/bottles/lcdf-typetools-2.107.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "open-mpi"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Manipulate OpenType and multiple-master fonts",
+  "full_name": "lcdf-typetools",
+  "homepage": "https://www.lcdf.org/type/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lcdf-typetools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.107"
+  }
+}

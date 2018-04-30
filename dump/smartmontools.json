@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "8868a3b550422f2366878f57fd823d69475880cca6a9ffe7c0324b3f78df3730",
+          "url": "https://linuxbrew.bintray.com/bottles/smartmontools-6.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "555457dd2f346be5471a4297610e6ed7807e7986ecef5bc9e1087a3a831137f8",
+          "url": "https://linuxbrew.bintray.com/bottles/smartmontools-6.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "72708ed71cc68fb23516bc971dc1360ffdd63d20ca191b183f3abc10b976269b",
+          "url": "https://linuxbrew.bintray.com/bottles/smartmontools-6.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f7412f56be84314aba7535e5d599605e34a90fbec2e8b82695f4ecce9c4b7e77",
+          "url": "https://linuxbrew.bintray.com/bottles/smartmontools-6.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "SMART hard drive monitoring",
+  "full_name": "smartmontools",
+  "homepage": "https://www.smartmontools.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "smartmontools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.6"
+  }
+}

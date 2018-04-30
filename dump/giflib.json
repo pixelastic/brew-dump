@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "36dc6bff0a8c5f9569ba2427a5d935388f93efa7701c80727fa4c8e2103860f6",
+          "url": "https://linuxbrew.bintray.com/bottles/giflib-5.1.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "250915de5db6a37044cb2341299d1099a3d6530f8cccd5101f37751ae3aece5c",
+          "url": "https://linuxbrew.bintray.com/bottles/giflib-5.1.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8562233fdcf07c8d1bc8b0a00654c8e344293afa6fa874b11132d3531e1feca2",
+          "url": "https://linuxbrew.bintray.com/bottles/giflib-5.1.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a7eba49aef93e75036c2adfea4c37cc7b07d928b5cea70c7af5cf41064470a8f",
+          "url": "https://linuxbrew.bintray.com/bottles/giflib-5.1.4.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b24a3b1647c0d8184415ee392a5b7f2e6b5046d4aed0ed1b901098b2ac83a9a0",
+          "url": "https://linuxbrew.bintray.com/bottles/giflib-5.1.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library and utilities for processing GIFs",
+  "full_name": "giflib",
+  "homepage": "https://giflib.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "giflib",
+  "oldname": "giflib@5",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.1.4"
+  }
+}

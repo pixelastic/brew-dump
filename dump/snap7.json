@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "45c77c8c6862e3c2b0840c3a32d23a95d53d73b7b35960f747a380bc5563d00e",
+          "url": "https://linuxbrew.bintray.com/bottles/snap7-1.4.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5540f68aadc159b4a590079b1b4f06b042438f0f714456af3f5dfbfc34af47ac",
+          "url": "https://linuxbrew.bintray.com/bottles/snap7-1.4.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "edd667d4018983951999c21da14d1929b95a9dba2a908c88e721ad7febc2fa5d",
+          "url": "https://linuxbrew.bintray.com/bottles/snap7-1.4.2_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "bc9440ea3c7969fe229ebf6b26baccdde4fc53604797efb1d4c602c7f21d3b69",
+          "url": "https://linuxbrew.bintray.com/bottles/snap7-1.4.2_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "p7zip"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "p7zip"
+  ],
+  "desc": "Ethernet communication suite that works natively with Siemens S7 PLCs",
+  "full_name": "snap7",
+  "homepage": "https://snap7.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "snap7",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.2"
+  }
+}

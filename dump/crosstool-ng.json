@@ -1,0 +1,87 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d3aebb66365f24fde4fd67a4ec13eb72c0f21e94904853e39003b7b05c53bad5",
+          "url": "https://linuxbrew.bintray.com/bottles/crosstool-ng-1.23.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "54205dfad10ed81d0cb31692e852b5742a938a6a54b7e116e5820d3a0d6dded2",
+          "url": "https://linuxbrew.bintray.com/bottles/crosstool-ng-1.23.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "185f1d5981772306bac468ca496555140c761137e771955c1d63800dae894559",
+          "url": "https://linuxbrew.bintray.com/bottles/crosstool-ng-1.23.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "help2man",
+    "bison",
+    "flex",
+    "gperf",
+    "texinfo"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "help2man",
+    "autoconf",
+    "automake",
+    "libtool",
+    "binutils",
+    "coreutils",
+    "flex",
+    "gawk",
+    "libelf",
+    "grep",
+    "gnu-sed",
+    "m4",
+    "xz",
+    "make",
+    "bison",
+    "gperf",
+    "texinfo"
+  ],
+  "desc": "Tool for building toolchains",
+  "full_name": "crosstool-ng",
+  "homepage": "http://crosstool-ng.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "crosstool-ng",
+  "oldname": null,
+  "optional_dependencies": [
+    "make"
+  ],
+  "options": [
+    {
+      "description": "Build with make support",
+      "option": "--with-make"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.23.0"
+  }
+}

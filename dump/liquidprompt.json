@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Add the following lines to your bash or zsh config (e.g. ~/.bash_profile):\n  if [ -f /home/tim/.linuxbrew/share/liquidprompt ]; then\n    . /home/tim/.linuxbrew/share/liquidprompt\n  fi\n\nIf you'd like to reconfigure options, you may do so in ~/.liquidpromptrc.\nA sample file you may copy and modify has been installed to\n  /home/tim/.linuxbrew/share/liquidpromptrc-dist\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Adaptive prompt for bash and zsh shells",
+  "full_name": "liquidprompt",
+  "homepage": "https://github.com/nojhan/liquidprompt",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "liquidprompt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.11"
+  }
+}

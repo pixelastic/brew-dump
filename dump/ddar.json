@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3925167c1884bc6dc522d603f216671a897e86faa6eee6c9e34a2bbeaa2d4450",
+          "url": "https://linuxbrew.bintray.com/bottles/ddar-1.0_5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f8fe594bc5a8628495e057b25bcb644b5799ac05ce1b7c0d85fd01ed8d77dc8e",
+          "url": "https://linuxbrew.bintray.com/bottles/ddar-1.0_5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3d9bd53fe084276e7e57ccbb4f4cadfef811182b487bc2e93dd4f373fd3784c5",
+          "url": "https://linuxbrew.bintray.com/bottles/ddar-1.0_5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "bb01afc3ebd42f46e00d00eddbcb8ae000ecbe50a19aa5512a84f7fab5faaf91",
+          "url": "https://linuxbrew.bintray.com/bottles/ddar-1.0_5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "xmltoman"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "xmltoman",
+    "python@2",
+    "protobuf"
+  ],
+  "desc": "De-duplicating archiver",
+  "full_name": "ddar",
+  "homepage": "https://github.com/basak/ddar",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ddar",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 5,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "aliases": [
+    "gtk"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f6117acd04e65a2ec378ad21b8b6519dc0d048f24b398456c09474af74ec2c11",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk+-2.24.32_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f1e4965a3aa5655e628e46c1ffd9421ec1abf9ba4f0757be1ce7b3a8009fec58",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk+-2.24.32_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "77275da434ff045cab02f69e3847b983510bd2f45e022b0af0adb620c6a6821a",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk+-2.24.32_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "gdk-pixbuf",
+    "jasper",
+    "atk",
+    "pango",
+    "hicolor-icon-theme",
+    "cairo"
+  ],
+  "desc": "GUI toolkit",
+  "full_name": "gtk+",
+  "homepage": "https://gtk.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gtk+",
+  "oldname": null,
+  "optional_dependencies": [
+    "jasper"
+  ],
+  "options": [
+    {
+      "description": "Build with jasper support",
+      "option": "--with-jasper"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.24.32"
+  }
+}

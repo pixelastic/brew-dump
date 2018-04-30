@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d4ae8426ee7b26ab5b0ea79df0102ffdc2a670a4e078d9948324ba3529ca3a84",
+          "url": "https://linuxbrew.bintray.com/bottles/gucharmap-10.0.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ce68b7dd70eadd29a809252189b6d6ff5f76aa148df1c483314946fd6991922e",
+          "url": "https://linuxbrew.bintray.com/bottles/gucharmap-10.0.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "620a04f5700067b146dbde3f30ef940a1c718bb8b589fd409d4ff4b7e223155f",
+          "url": "https://linuxbrew.bintray.com/bottles/gucharmap-10.0.4_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool",
+    "itstool",
+    "desktop-file-utils",
+    "coreutils"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "itstool",
+    "desktop-file-utils",
+    "coreutils",
+    "gtk+3"
+  ],
+  "desc": "GNOME Character Map, based on the Unicode Character Database",
+  "full_name": "gucharmap",
+  "homepage": "https://live.gnome.org/Gucharmap",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gucharmap",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "10.0.4"
+  }
+}

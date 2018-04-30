@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "69db51ab48473114449682010dfa7e03c992184a7fea6df1dd4e6c6a6e7ca72a",
+          "url": "https://linuxbrew.bintray.com/bottles/freedink-108.4_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a85e4560ea7be49eddfe43af2f23cc3ad71a99c7c8aacf8a50f671af1a81777a",
+          "url": "https://linuxbrew.bintray.com/bottles/freedink-108.4_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7af81b5a0bdcabd11a7fdd705b3c7bbc0a169513ec26a30b5c57ef82dcd45d97",
+          "url": "https://linuxbrew.bintray.com/bottles/freedink-108.4_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "check",
+    "sdl2_image",
+    "sdl_mixer",
+    "sdl_ttf",
+    "sdl_gfx",
+    "sdl_image",
+    "gettext",
+    "libzip",
+    "fontconfig",
+    "pkg-config"
+  ],
+  "desc": "Portable version of the Dink Smallwood game engine",
+  "full_name": "freedink",
+  "homepage": "https://www.gnu.org/software/freedink/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "freedink",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "108.4"
+  }
+}

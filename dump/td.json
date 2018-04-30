@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e740be06065aac7f578e47d0bbf6ef803993a6246d0d7fa74c90367b5f3ea080",
+          "url": "https://linuxbrew.bintray.com/bottles/td-1.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "91a8beaacb3c67dff0dd12a717c10868df7874d9668a043eb658be4eb180390a",
+          "url": "https://linuxbrew.bintray.com/bottles/td-1.4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "55f7d879795bcf5cde8af98b463f4751c6c5426ceed96a46a0c1531b1324a60f",
+          "url": "https://linuxbrew.bintray.com/bottles/td-1.4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8cfc0fda507f06f4bd6f1983df289196435c43435a3938ffe4731daad5023124",
+          "url": "https://linuxbrew.bintray.com/bottles/td-1.4.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e608e79004fe1cfbefb2f9963ed4a4e86aad8e8c751e12a97ff3a03325bddd2b",
+          "url": "https://linuxbrew.bintray.com/bottles/td-1.4.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Your todo list in your terminal",
+  "full_name": "td",
+  "homepage": "https://github.com/Swatto/td",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "td",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.0"
+  }
+}

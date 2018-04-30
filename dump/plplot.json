@@ -1,0 +1,86 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0e2e7324cec94dcb4d155c955c6423de01ddff1304ef49852d23b01fc38f1005",
+          "url": "https://linuxbrew.bintray.com/bottles/plplot-5.13.0_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e24c2336dc62c973e9d80552790b8273b1a3d3b78b7a50cc28b4efb07960abd8",
+          "url": "https://linuxbrew.bintray.com/bottles/plplot-5.13.0_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f0b74862d8cd905b51ec1bca32c38bcae6dfb1cd85cfc278a146fa7c0d7fad7d",
+          "url": "https://linuxbrew.bintray.com/bottles/plplot-5.13.0_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "cairo",
+    "freetype",
+    "gcc",
+    "pango"
+  ],
+  "desc": "Cross-platform software package for creating scientific plots",
+  "full_name": "plplot",
+  "homepage": "https://plplot.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "plplot",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with java support",
+      "option": "--with-java"
+    },
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    },
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.13.0"
+  }
+}

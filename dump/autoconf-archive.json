@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "10e2660afcbb3d970cd7cac44ad0ebf84f521ab89fd9de25091e752aa0aa9959",
+          "url": "https://linuxbrew.bintray.com/bottles/autoconf-archive-2018.03.13.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "10e2660afcbb3d970cd7cac44ad0ebf84f521ab89fd9de25091e752aa0aa9959",
+          "url": "https://linuxbrew.bintray.com/bottles/autoconf-archive-2018.03.13.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "10e2660afcbb3d970cd7cac44ad0ebf84f521ab89fd9de25091e752aa0aa9959",
+          "url": "https://linuxbrew.bintray.com/bottles/autoconf-archive-2018.03.13.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2c3e2eabcc28168fea974eb5501a9d880b2d4ff2680a3fa4d58aa7c149894099",
+          "url": "https://linuxbrew.bintray.com/bottles/autoconf-archive-2018.03.13.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf"
+  ],
+  "desc": "Collection of over 500 reusable autoconf macros",
+  "full_name": "autoconf-archive",
+  "homepage": "https://savannah.gnu.org/projects/autoconf-archive/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "autoconf-archive",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2018.03.13"
+  }
+}

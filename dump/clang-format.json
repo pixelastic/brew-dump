@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "30767fb6f85073ac7fc58a2d80135c52623d76c9f594087b489164e0df6f901c",
+          "url": "https://linuxbrew.bintray.com/bottles/clang-format-2018-01-11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a8a1eb007f7828790a1605d2647e6848e1f9617c26c8d31bfcf56a075a20bafb",
+          "url": "https://linuxbrew.bintray.com/bottles/clang-format-2018-01-11.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b4db7e4f2623195adaa475b0d5567de7fe3c1bb70449b35888aea69136c66931",
+          "url": "https://linuxbrew.bintray.com/bottles/clang-format-2018-01-11.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "subversion",
+    "cmake",
+    "ninja",
+    "bison"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "subversion",
+    "cmake",
+    "ninja",
+    "bison"
+  ],
+  "desc": "Formatting tools for C, C++, Obj-C, Java, JavaScript, TypeScript",
+  "full_name": "clang-format",
+  "homepage": "https://clang.llvm.org/docs/ClangFormat.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "clang-format",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2018-01-11"
+  }
+}

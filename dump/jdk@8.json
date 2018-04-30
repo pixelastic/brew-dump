@@ -1,0 +1,52 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "5055f79e8b7048e0fd27795131599aa440b195edbb02425dcd7f9171308720d5",
+          "url": "https://linuxbrew.bintray.com/bottles/jdk@8-1.8.0-151.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "By installing and using JDK you agree to the\nOracle Binary Code License Agreement for the Java SE Platform Products and JavaFX\nhttp://www.oracle.com/technetwork/java/javase/terms/license/index.html\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Java Platform, Standard Edition Development Kit (JDK).",
+  "full_name": "jdk@8",
+  "homepage": "http://www.oracle.com/technetwork/java/javase/downloads/index.html",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "jdk@8",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.0-151"
+  }
+}

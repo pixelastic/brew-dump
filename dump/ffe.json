@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "192298bb0e1b0594b64831a943cf4d0e490d17d633b2ea4d3b225fa119705e6a",
+          "url": "https://linuxbrew.bintray.com/bottles/ffe-0.3.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "42240b29cbf5a1f54881c37d1062d8466f763dcefdef56690830012a585c1c5c",
+          "url": "https://linuxbrew.bintray.com/bottles/ffe-0.3.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a023c41a3bbef25ab1eb38b2e7ff202f93b580242df0b883b39e30e82e966d92",
+          "url": "https://linuxbrew.bintray.com/bottles/ffe-0.3.8.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e232fbfe166bc012e4a0c51b5b3e1b5f86992d1a11ab68a91158628bef7a7d5a",
+          "url": "https://linuxbrew.bintray.com/bottles/ffe-0.3.8.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Parse flat file structures and print them in different formats",
+  "full_name": "ffe",
+  "homepage": "https://ff-extractor.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ffe",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.8"
+  }
+}

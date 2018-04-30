@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "48273e1db5b00160de2e06c4bf91316fd6e100547a2ef44b2e654c7f3b672422",
+          "url": "https://linuxbrew.bintray.com/bottles/ubertooth-2017-03-R2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a54024bcd4be30d09776fc854c16d99efbc32866f54f613dbaf70db382f65b4c",
+          "url": "https://linuxbrew.bintray.com/bottles/ubertooth-2017-03-R2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fac20ea8ff4542694b9981becf324613ffcf18017b0d9336543a17e218c2970a",
+          "url": "https://linuxbrew.bintray.com/bottles/ubertooth-2017-03-R2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5b88c567e8fd85a7bed6a064836a9ce09190c0df0f728c2577d5025d6b3ed1ee",
+          "url": "https://linuxbrew.bintray.com/bottles/ubertooth-2017-03-R2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "libbtbb",
+    "libusb"
+  ],
+  "desc": "Host tools for Project Ubertooth",
+  "full_name": "ubertooth",
+  "homepage": "https://github.com/greatscottgadgets/ubertooth/wiki",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ubertooth",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2017-03-R2"
+  }
+}

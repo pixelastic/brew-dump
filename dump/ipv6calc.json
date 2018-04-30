@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "768f3b011dd2c900b2d3030d63eba0d4ae3c417ba6aa5a9f4802a686ef74c562",
+          "url": "https://linuxbrew.bintray.com/bottles/ipv6calc-1.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1f3666901fc9da4e53f0c00d35bcc2bf807ec11a3363122850ef89b9cf45654c",
+          "url": "https://linuxbrew.bintray.com/bottles/ipv6calc-1.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c6bdf091f2496a5ffcb776d18fd1dba83ca1051c9755c45449183e7c22d8814a",
+          "url": "https://linuxbrew.bintray.com/bottles/ipv6calc-1.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5ec332e7151799de16d2106684a623d591f2491dba13ae78f184739774d929a3",
+          "url": "https://linuxbrew.bintray.com/bottles/ipv6calc-1.0.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a129eaac7552df52afc8be73d6644ea4b556847efc9be48baf208fe04ca164e0",
+          "url": "https://linuxbrew.bintray.com/bottles/ipv6calc-1.0.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Small utility for manipulating IPv6 addresses",
+  "full_name": "ipv6calc",
+  "homepage": "https://www.deepspace6.net/projects/ipv6calc.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ipv6calc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.0"
+  }
+}

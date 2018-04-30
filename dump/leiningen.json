@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ff380881c20232aaa4e2dbc81f1ce15ea23da26f65bb753d9571694b4bb1c6a4",
+          "url": "https://linuxbrew.bintray.com/bottles/leiningen-2.8.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ff380881c20232aaa4e2dbc81f1ce15ea23da26f65bb753d9571694b4bb1c6a4",
+          "url": "https://linuxbrew.bintray.com/bottles/leiningen-2.8.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ff380881c20232aaa4e2dbc81f1ce15ea23da26f65bb753d9571694b4bb1c6a4",
+          "url": "https://linuxbrew.bintray.com/bottles/leiningen-2.8.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a9c9ef51522dc7e63ef121f5b0a272e5097e7386e6ab07a58b03613ae1a4b76b",
+          "url": "https://linuxbrew.bintray.com/bottles/leiningen-2.8.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Dependencies will be installed to:\n  $HOME/.m2/repository\nTo play around with Clojure run `lein repl` or `lein help`.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Build tool for Clojure",
+  "full_name": "leiningen",
+  "homepage": "https://github.com/technomancy/leiningen",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "leiningen",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.8.1"
+  }
+}

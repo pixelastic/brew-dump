@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "97a9bd2af91b311445605e77fdb9452a2c432e53c7e14028391b4d8e770f2514",
+          "url": "https://linuxbrew.bintray.com/bottles/npth-1.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e90c7c303db3dc7f636700e247a9e5afa87953b63ad7295f6d251b84ac0e857d",
+          "url": "https://linuxbrew.bintray.com/bottles/npth-1.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b75192b1cfa25b8d0c61525e1a3333a1574f68b8ecbbb6006d0dcf5af38a4770",
+          "url": "https://linuxbrew.bintray.com/bottles/npth-1.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "86ba52afa727426fe749f1387a621dd7faa4a8a9321285a05f70e8b5c0adb9d5",
+          "url": "https://linuxbrew.bintray.com/bottles/npth-1.5.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ad02061ff36a845c25a271924b562973ec3c6bb21845c0b0baa5bf5fe703416a",
+          "url": "https://linuxbrew.bintray.com/bottles/npth-1.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "New GNU portable threads library",
+  "full_name": "npth",
+  "homepage": "https://gnupg.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "npth",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5"
+  }
+}

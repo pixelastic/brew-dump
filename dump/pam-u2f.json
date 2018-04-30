@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ddfb23e7cddf6b47e78c889a8041690aab670d7724ebfcc27ca60018d780d127",
+          "url": "https://linuxbrew.bintray.com/bottles/pam-u2f-1.0.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "afca2620432c6409c74c05964351b689d0ef531bf3f92c03ac4e550fc54841fb",
+          "url": "https://linuxbrew.bintray.com/bottles/pam-u2f-1.0.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5b8df58d53948ff20dd7f6284a6d830f0e4087e573ba210adc526a3b9273ca1c",
+          "url": "https://linuxbrew.bintray.com/bottles/pam-u2f-1.0.6.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "libtool",
+    "autoconf",
+    "automake",
+    "asciidoc"
+  ],
+  "caveats": "To use a U2F key for PAM authentication, specify the full path to the\nmodule (/home/tim/.linuxbrew/opt/pam-u2f/lib/pam/pam_u2f.so) in a PAM\nconfiguration. You can find all PAM configurations in /etc/pam.d.\n\nFor further installation instructions, please visit\nhttps://developers.yubico.com/pam-u2f/#installation.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libtool",
+    "autoconf",
+    "automake",
+    "asciidoc",
+    "libu2f-host",
+    "libu2f-server"
+  ],
+  "desc": "Provides an easy way to use U2F-compliant authenticators with PAM",
+  "full_name": "pam-u2f",
+  "homepage": "https://developers.yubico.com/pam-u2f/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pam-u2f",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.6"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "10c23ab2759830f22ff8080cd4da18252fb719445bd651ab4664e785682c100a",
+          "url": "https://linuxbrew.bintray.com/bottles/libpagemaker-0.0.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "db0f93e5cf4cb6dfe4810b7cb8240db5c2c439a717d09def2f6163e3db6984c6",
+          "url": "https://linuxbrew.bintray.com/bottles/libpagemaker-0.0.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0809994f61c8cd34e4edca3496273f293d314e89da5e8ec2a3df280cf436ba37",
+          "url": "https://linuxbrew.bintray.com/bottles/libpagemaker-0.0.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "boost",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "pkg-config",
+    "librevenge"
+  ],
+  "desc": "Imports file format of Aldus/Adobe PageMaker documents",
+  "full_name": "libpagemaker",
+  "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libpagemaker",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.0.4"
+  }
+}

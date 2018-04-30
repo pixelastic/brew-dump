@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "500a97f229b78ab83b97591d9276f7d9e1e4ce4d392f2530f5c8a9f10543b469",
+          "url": "https://linuxbrew.bintray.com/bottles/eg-1.02.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4955ef20bd0d41b433f077784ca1a9d96a40eb2e6f7840c70f308b60d1fc553d",
+          "url": "https://linuxbrew.bintray.com/bottles/eg-1.02.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "307a0ce0f1514288179dbbc56fdac3de02100c80e8c57b1abedcab5cd0cff458",
+          "url": "https://linuxbrew.bintray.com/bottles/eg-1.02.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "65d2bab2a43912dfd487f817724dc7feee3ba3e226c07d0bd78ad22edcea970c",
+          "url": "https://linuxbrew.bintray.com/bottles/eg-1.02.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "s-lang"
+  ],
+  "desc": "Expert Guide. Norton Guide Reader For GNU/Linux",
+  "full_name": "eg",
+  "homepage": "https://github.com/davep/eg",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "eg",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.02"
+  }
+}

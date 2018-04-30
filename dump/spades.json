@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b987897ae0e825ef61471d32a210fadfe54abf3aa8a785d64699d0f123971537",
+          "url": "https://linuxbrew.bintray.com/bottles/spades-3.11.1_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ac5ba28bf8f5a036fef692e9bac49b0a639498a8cad6a147a60278718d7e2dd5",
+          "url": "https://linuxbrew.bintray.com/bottles/spades-3.11.1_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d76f3eaab06132b2abc7111cc0bddb28b83c5bd587838f369059511887d9fe00",
+          "url": "https://linuxbrew.bintray.com/bottles/spades-3.11.1_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1bea6164c9a61d187b7965275f80a9c3c9a5a828ad16ac08e263d2f131489f7a",
+          "url": "https://linuxbrew.bintray.com/bottles/spades-3.11.1_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "gcc",
+    "python@2"
+  ],
+  "desc": "De novo genome sequence assembly",
+  "full_name": "spades",
+  "homepage": "http://cab.spbu.ru/software/spades/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "spades",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.11.1"
+  }
+}

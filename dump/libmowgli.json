@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "12835d9124733d3308ef989381a22fcc36b19862fccda3433877d96b3d9ff087",
+          "url": "https://linuxbrew.bintray.com/bottles/libmowgli-2.1.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1fcb475b2d5fbf9bbd86efcfd324a91eb45f81929d9ede4acedbb92bef720f49",
+          "url": "https://linuxbrew.bintray.com/bottles/libmowgli-2.1.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d656a2546b58d5549621770dec4a02132e4d2b1d28a879f653129c5db6f8749a",
+          "url": "https://linuxbrew.bintray.com/bottles/libmowgli-2.1.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "83ef78508a66ec10cad646e01e92fbb203e18abf6018db78a51b98ccb742d4d8",
+          "url": "https://linuxbrew.bintray.com/bottles/libmowgli-2.1.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Core framework for Atheme applications",
+  "full_name": "libmowgli",
+  "homepage": "https://github.com/atheme/libmowgli-2",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libmowgli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.3"
+  }
+}

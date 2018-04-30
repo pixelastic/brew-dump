@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d230f778b8ee31b696f8c841ef5bbc39aff183fc8a11ff536cf6f979ffd5508c",
+          "url": "https://linuxbrew.bintray.com/bottles/ttyd-1.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b6d3b9fd532e3b9c0542fc5566969812fbf43b65230beabf8b68d62cc00e8e6c",
+          "url": "https://linuxbrew.bintray.com/bottles/ttyd-1.4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4a943020c1f60c595e67725f0deee077cff693e4228c628f2ff60ebd914d8d72",
+          "url": "https://linuxbrew.bintray.com/bottles/ttyd-1.4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b500f1c2edabd806f4417061a3066b304e9fe02cdb276b03c7e0ef007952c669",
+          "url": "https://linuxbrew.bintray.com/bottles/ttyd-1.4.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "openssl",
+    "json-c",
+    "libwebsockets",
+    "vim"
+  ],
+  "desc": "Command-line tool for sharing terminal over the web",
+  "full_name": "ttyd",
+  "homepage": "https://github.com/tsl0922/ttyd",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ttyd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.0"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "45d2c965a757c50c5b65d929082baeedd045a7794eb933618e10a4371cfc0d90",
+          "url": "https://linuxbrew.bintray.com/bottles/fstrm-0.3.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dbf4398c411303cfe76ca223b38df090eeabf33e5d613c83e232f96cc9acad0f",
+          "url": "https://linuxbrew.bintray.com/bottles/fstrm-0.3.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fb7031a0e06d718a7d345ab21796b0f9b6da6ebf411d24b1f019ba3e526dbfdc",
+          "url": "https://linuxbrew.bintray.com/bottles/fstrm-0.3.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "36ec0bf5368fd0bbcfe7b14302b003f543ef4365fe458d2975998993b2b1f0d8",
+          "url": "https://linuxbrew.bintray.com/bottles/fstrm-0.3.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libevent"
+  ],
+  "desc": "Frame Streams implementation in C",
+  "full_name": "fstrm",
+  "homepage": "https://github.com/farsightsec/fstrm",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fstrm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.3.2"
+  }
+}

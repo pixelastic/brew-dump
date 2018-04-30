@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6f19f936781dae0db248abdd84a72c3e25451c44379706bc3800760f0aa43888",
+          "url": "https://linuxbrew.bintray.com/bottles/libmpc-1.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3b28ec506ab53ef5f3163e87fb72ae735b7f91ee2fc20fe184cf1241481b72a5",
+          "url": "https://linuxbrew.bintray.com/bottles/libmpc-1.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "18d620a1612bc51b1fbd1b3b62c9c73766b90549c746740c5a27d2ab1ec5ede7",
+          "url": "https://linuxbrew.bintray.com/bottles/libmpc-1.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b31648a86228a042aaa8e7d58faba7859059910a427f9ef4211b06bd9152f8c2",
+          "url": "https://linuxbrew.bintray.com/bottles/libmpc-1.1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gmp",
+    "mpfr"
+  ],
+  "desc": "C library for the arithmetic of high precision complex numbers",
+  "full_name": "libmpc",
+  "homepage": "http://www.multiprecision.org/mpc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libmpc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.0"
+  }
+}

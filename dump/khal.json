@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e0bd837784b1f659ea7d1753eeb057500602aa65c3bb79b46af284eeb35544b8",
+          "url": "https://linuxbrew.bintray.com/bottles/khal-0.9.8_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f1101eed34e6af72597a0a48508286ee5200827cc8d169891cad195633619fd5",
+          "url": "https://linuxbrew.bintray.com/bottles/khal-0.9.8_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ae921563d0850bf485daccd2eeaa857bcadaf4f29e295ae2f2e8443791d12723",
+          "url": "https://linuxbrew.bintray.com/bottles/khal-0.9.8_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "CLI calendar application",
+  "full_name": "khal",
+  "homepage": "https://lostpackets.de/khal/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "khal",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.8"
+  }
+}

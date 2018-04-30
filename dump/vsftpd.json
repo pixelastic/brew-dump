@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "108243559f3fea06d140173a3e3cb497c2f22c47d45e85ae108c088c1a1370df",
+          "url": "https://linuxbrew.bintray.com/bottles/vsftpd-3.0.3.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dbfc9b28f5ea49dda09d31fb630d995b72fd63b83b358e04156329252c3ab25b",
+          "url": "https://linuxbrew.bintray.com/bottles/vsftpd-3.0.3.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "22349437bd4d75b1ffd2fddfd90f92367e0a4f478f540b9086457541883f2c3b",
+          "url": "https://linuxbrew.bintray.com/bottles/vsftpd-3.0.3.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "25a9d2e92ca7e3efda6c9882a62ad5927c0c5e450eca4d62d7829c467dd086d9",
+          "url": "https://linuxbrew.bintray.com/bottles/vsftpd-3.0.3.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To use chroot, vsftpd requires root privileges, so you will need to run\n`sudo vsftpd`.\nYou should be certain that you trust any software you grant root privileges.\n\nThe vsftpd.conf file must be owned by root or vsftpd will refuse to start:\n  sudo chown root /home/tim/.linuxbrew/etc/vsftpd.conf\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Secure FTP server for UNIX",
+  "full_name": "vsftpd",
+  "homepage": "https://security.appspot.com/vsftpd.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vsftpd",
+  "oldname": null,
+  "optional_dependencies": [
+    "openssl"
+  ],
+  "options": [
+    {
+      "description": "Build with openssl support",
+      "option": "--with-openssl"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.3"
+  }
+}

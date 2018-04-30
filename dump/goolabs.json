@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4f4676626f0872b4c86f3c35c0b80e2e028cf9f0f0b5fae8bbf655f55f552513",
+          "url": "https://linuxbrew.bintray.com/bottles/goolabs-0.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ab0b7c65238efb2edf103012ad0b13a6738dda0f0caec39d723cf39df6c2a2f7",
+          "url": "https://linuxbrew.bintray.com/bottles/goolabs-0.4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ab0b7c65238efb2edf103012ad0b13a6738dda0f0caec39d723cf39df6c2a2f7",
+          "url": "https://linuxbrew.bintray.com/bottles/goolabs-0.4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "89fb30080f1a46abb146a38ac1dda7138902c3d5638bbf3571da13e1b1089bf7",
+          "url": "https://linuxbrew.bintray.com/bottles/goolabs-0.4.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Command-line tool for morphologically analyzing Japanese language",
+  "full_name": "goolabs",
+  "homepage": "https://pypi.python.org/pypi/goolabs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "goolabs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.0"
+  }
+}

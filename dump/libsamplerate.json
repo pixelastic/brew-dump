@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "97e0ba8a07df0684580bfec1a7fc5760d1f90e9102330ced19cdb7c37c4ae0ca",
+          "url": "https://linuxbrew.bintray.com/bottles/libsamplerate-0.1.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b7e0343483287deebebd335de03c5c3a4597334440cc01dc1dbd5d14cc6505d8",
+          "url": "https://linuxbrew.bintray.com/bottles/libsamplerate-0.1.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "69443b5047dc7e71b74ec29359b1d05e3e6c659751b73a3c2e8e0ad4dd63a6f1",
+          "url": "https://linuxbrew.bintray.com/bottles/libsamplerate-0.1.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "24bf1a39f9ec06be3a70245a2e22b28192d701e1689c5acd1ab9d1759fec6cb8",
+          "url": "https://linuxbrew.bintray.com/bottles/libsamplerate-0.1.9.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5f3623588a4fb9b2d886547719d0a3b68df725882d329152ee1de7c4841404ed",
+          "url": "https://linuxbrew.bintray.com/bottles/libsamplerate-0.1.9.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "Unless this formula is built with libsndfile, the example program,\n\"sndfile-resample\", is broken and hence, removed from installation.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libsndfile",
+    "fftw"
+  ],
+  "desc": "Library for sample rate conversion of audio data",
+  "full_name": "libsamplerate",
+  "homepage": "http://www.mega-nerd.com/SRC",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libsamplerate",
+  "oldname": null,
+  "optional_dependencies": [
+    "libsndfile",
+    "fftw"
+  ],
+  "options": [
+    {
+      "description": "Build with libsndfile support",
+      "option": "--with-libsndfile"
+    },
+    {
+      "description": "Build with fftw support",
+      "option": "--with-fftw"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.9"
+  }
+}

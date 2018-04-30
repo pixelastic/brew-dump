@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "209d7fdd11939267f8a28a5171a55703b3f9588cdbe909bbe2a7800a958d6f98",
+          "url": "https://linuxbrew.bintray.com/bottles/netdata-1.10.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f8b4439a962447ce1435e77941f0dba37efa7d157f4a4549accc7aec46a487af",
+          "url": "https://linuxbrew.bintray.com/bottles/netdata-1.10.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "412b5f85c4a716130452cfe34c19042cfaebcf7dd1cca6941ae19dfca770412d",
+          "url": "https://linuxbrew.bintray.com/bottles/netdata-1.10.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "ossp-uuid"
+  ],
+  "desc": "Distributed real-time performance and health monitoring",
+  "full_name": "netdata",
+  "homepage": "https://my-netdata.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "netdata",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.10.0"
+  }
+}

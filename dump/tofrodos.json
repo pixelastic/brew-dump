@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4a2b22ff08d0fb65c80be7359be2f04d12b70f4e6d490b96cb819ea69b3e3d88",
+          "url": "https://linuxbrew.bintray.com/bottles/tofrodos-1.7.13.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "083975a39eaa51713f2eda153276ac95d8dfc1f038d25c4826be1ddcd540855b",
+          "url": "https://linuxbrew.bintray.com/bottles/tofrodos-1.7.13.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c9759ec570e6a284b250563b8d66076401641f40c1836e293f4eab82cc9fe4ff",
+          "url": "https://linuxbrew.bintray.com/bottles/tofrodos-1.7.13.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3d5363cda2170ce2fbcb7e03c84f715b62ead1e5646000dd06395f5677fd2269",
+          "url": "https://linuxbrew.bintray.com/bottles/tofrodos-1.7.13.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4a5427c6870c3d4822ef4da3ddd8d79c18b91e5b7f14edb4aa449a53da70114e",
+          "url": "https://linuxbrew.bintray.com/bottles/tofrodos-1.7.13.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Converts DOS <-> UNIX text files, alias tofromdos",
+  "full_name": "tofrodos",
+  "homepage": "https://www.thefreecountry.com/tofrodos/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tofrodos",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.13"
+  }
+}

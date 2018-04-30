@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "dd250b9e71156da434f950963b63be79febb88fa30cb382543cc32edf3649ff9",
+          "url": "https://linuxbrew.bintray.com/bottles/dartsim-6.4.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a0a44990bd96b2e408b2410b128919733fdba1966562b3fa7aed15eec73d09d6",
+          "url": "https://linuxbrew.bintray.com/bottles/dartsim-6.4.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ca6ca866d2158fcbe371f997d9257a1a6336ab3d8ec93fe26f3d9e52b0ebf92b",
+          "url": "https://linuxbrew.bintray.com/bottles/dartsim-6.4.0_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "assimp",
+    "boost",
+    "bullet",
+    "eigen",
+    "fcl",
+    "flann",
+    "freeglut",
+    "libccd",
+    "nlopt",
+    "ode",
+    "open-scene-graph",
+    "tinyxml2",
+    "urdfdom"
+  ],
+  "desc": "Dynamic Animation and Robotics Toolkit",
+  "full_name": "dartsim",
+  "homepage": "https://dartsim.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dartsim",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.4.0"
+  }
+}

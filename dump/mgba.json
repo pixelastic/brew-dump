@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6b07074f361f3728d29e66095a7c7861048f65ead7b452d78d61332093c311b0",
+          "url": "https://linuxbrew.bintray.com/bottles/mgba-0.6.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ddb088667f1bcf5f1130c5de881317317c2687682f8148b7ad3190ba6522b89f",
+          "url": "https://linuxbrew.bintray.com/bottles/mgba-0.6.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6d744816f42f52e8670a9f8dfb706229120efc8bdf61fa2fe9173fff82468553",
+          "url": "https://linuxbrew.bintray.com/bottles/mgba-0.6.3_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "ffmpeg",
+    "imagemagick",
+    "libepoxy",
+    "libpng",
+    "libzip",
+    "qt",
+    "sdl2"
+  ],
+  "desc": "Game Boy Advance emulator",
+  "full_name": "mgba",
+  "homepage": "https://mgba.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mgba",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.6.3"
+  }
+}

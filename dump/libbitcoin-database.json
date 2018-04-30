@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ebc1fbfc2da1b6420117dbe3035bdf7a5cce94cf868aa68b75ce3cdf84c912b0",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-database-3.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5f5132764497e84c336da0facabf75b902fcf7c90b61174f91e700c212d2060a",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-database-3.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fdd4829c6ef22a8e971923425d81ecd97820607a91131e05115ae077010de3e7",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-database-3.5.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "libbitcoin"
+  ],
+  "desc": "Bitcoin High Performance Blockchain Database",
+  "full_name": "libbitcoin-database",
+  "homepage": "https://github.com/libbitcoin/libbitcoin-database",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libbitcoin-database",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.5.0"
+  }
+}

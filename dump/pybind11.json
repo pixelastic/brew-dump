@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6dc411ca7b69e89a1abf2ee6c439b7f067fed8ee846dc3220d9e80d4d8f6727a",
+          "url": "https://linuxbrew.bintray.com/bottles/pybind11-2.2.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6dc411ca7b69e89a1abf2ee6c439b7f067fed8ee846dc3220d9e80d4d8f6727a",
+          "url": "https://linuxbrew.bintray.com/bottles/pybind11-2.2.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6dc411ca7b69e89a1abf2ee6c439b7f067fed8ee846dc3220d9e80d4d8f6727a",
+          "url": "https://linuxbrew.bintray.com/bottles/pybind11-2.2.2_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "python"
+  ],
+  "desc": "Seamless operability between C++11 and Python",
+  "full_name": "pybind11",
+  "homepage": "https://github.com/pybind/pybind11",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pybind11",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.2"
+  }
+}

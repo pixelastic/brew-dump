@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "34cf5108ef284fcc23d91d0ee83358623935ffce718f0783912e7b5af05eab8e",
+          "url": "https://linuxbrew.bintray.com/bottles/slowhttptest-1.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8444fd4b1d9504ed908dc5049af4c3ed5f0a271db15d1de5f42b2413413d74bc",
+          "url": "https://linuxbrew.bintray.com/bottles/slowhttptest-1.7.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "45bad60bd26ee4d81a0888658bbc86890331b76a2e8fa071f63e4da8062599fe",
+          "url": "https://linuxbrew.bintray.com/bottles/slowhttptest-1.7.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3d196594ae9da5c8852b2010d6c6e581896f973e06d7f5f2bd48a9ae36b63141",
+          "url": "https://linuxbrew.bintray.com/bottles/slowhttptest-1.7.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "bb7b09c1ac0489afab54737925d869bb67d2754bdec08969879be4d8ed2ee4aa",
+          "url": "https://linuxbrew.bintray.com/bottles/slowhttptest-1.7.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Simulates application layer denial of service attacks",
+  "full_name": "slowhttptest",
+  "homepage": "https://github.com/shekyan/slowhttptest",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "slowhttptest",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.7"
+  }
+}

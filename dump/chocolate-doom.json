@@ -1,0 +1,81 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a853675774b68249fd1aedc56a7c796fbc3177f7b64fbff666d21efd4c711611",
+          "url": "https://linuxbrew.bintray.com/bottles/chocolate-doom-3.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "af7016b2d60ca7dd02d91287994633b2674436587464e824294dc930566ffef1",
+          "url": "https://linuxbrew.bintray.com/bottles/chocolate-doom-3.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "837b44e4c36513df3d615d02ce986119049e1188c975343476d84380e43b0a19",
+          "url": "https://linuxbrew.bintray.com/bottles/chocolate-doom-3.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f9ced92d1e87ff88edb96f6c22303217f72dad16e4160d409f896367ea0d56f9",
+          "url": "https://linuxbrew.bintray.com/bottles/chocolate-doom-3.0.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "Note that this formula only installs a Doom game engine, and no\nactual levels. The original Doom levels are still under copyright,\nso you can copy them over and play them if you already own them.\nOtherwise, there are tons of free levels available online.\nTry starting here:\n  https://www.chocolate-doom.org/\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "sdl2",
+    "sdl2_net",
+    "sdl2_mixer",
+    "libsamplerate",
+    "libpng"
+  ],
+  "desc": "Accurate source port of Doom",
+  "full_name": "chocolate-doom",
+  "homepage": "https://www.chocolate-doom.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "chocolate-doom",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without libsamplerate support",
+      "option": "--without-libsamplerate"
+    },
+    {
+      "description": "Build without libpng support",
+      "option": "--without-libpng"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libsamplerate",
+    "libpng"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.0.0"
+  }
+}

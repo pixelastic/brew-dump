@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a87808f88a90308adfb14cf89b3bd89251580301f40ba18d08816de2df0be632",
+          "url": "https://linuxbrew.bintray.com/bottles/mkhexgrid-0.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "66011c65d0a32036f58b67ae41ca6a61eb307bc92d958dec026f88e180cab972",
+          "url": "https://linuxbrew.bintray.com/bottles/mkhexgrid-0.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d2be4b1376fbeb90429433d0cae9b95b8b927701038156a7cb3d73a49620548f",
+          "url": "https://linuxbrew.bintray.com/bottles/mkhexgrid-0.1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ec463b01aecec2cc76cd6f91761867fa0efbdeddf60f09bc134f45822006889b",
+          "url": "https://linuxbrew.bintray.com/bottles/mkhexgrid-0.1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "gd"
+  ],
+  "desc": "Fully-configurable hex grid generator",
+  "full_name": "mkhexgrid",
+  "homepage": "http://www.nomic.net/~uckelman/mkhexgrid/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mkhexgrid",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.1"
+  }
+}

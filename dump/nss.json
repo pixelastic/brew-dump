@@ -1,0 +1,55 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "aeed321408470e8086da70e2c6fe8e69ccfd752c3410ae0a824b06307b639d9e",
+          "url": "https://linuxbrew.bintray.com/bottles/nss-3.36.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "nspr",
+    "sqlite",
+    "zlib"
+  ],
+  "desc": "Libraries for security-enabled client and server applications",
+  "full_name": "nss",
+  "homepage": "https://developer.mozilla.org/docs/NSS",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "nss",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.36.1"
+  }
+}

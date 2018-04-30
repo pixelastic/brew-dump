@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "8b5f1e6b20f10d5419e27a987f42089dcc26b0b4fe03120747ca034c5ddf91d2",
+          "url": "https://linuxbrew.bintray.com/bottles/libgpg-error-1.29.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "759835f6fc52907db4219d3587ea91a85b87c002d5009de8eecf848016a80250",
+          "url": "https://linuxbrew.bintray.com/bottles/libgpg-error-1.29.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6cf81e0e40734a71ae8e690a8b94196b6f0360df75b1cbf32296582f6e5a2680",
+          "url": "https://linuxbrew.bintray.com/bottles/libgpg-error-1.29.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e9487e57e37743a3ede1b44bac4cfb67fa7f6c280ea85e0decf3ec8985638a34",
+          "url": "https://linuxbrew.bintray.com/bottles/libgpg-error-1.29.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Common error values for all GnuPG components",
+  "full_name": "libgpg-error",
+  "homepage": "https://www.gnupg.org/related_software/libgpg-error/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libgpg-error",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.29"
+  }
+}

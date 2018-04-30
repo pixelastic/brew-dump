@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ce6b2463ddb6a39a2f0d98288913fb54327bd813fb0b9df0c9d156badb6e81c4",
+          "url": "https://linuxbrew.bintray.com/bottles/chakra-1.8.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "83fdc2345ec8b69b2ab99162c59c88229ab8af8763e89448eb64cedb1d622664",
+          "url": "https://linuxbrew.bintray.com/bottles/chakra-1.8.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0c59743b3e0a15edf5c7eee598bb8f5eaecc482b37b34531be689bcad352e599",
+          "url": "https://linuxbrew.bintray.com/bottles/chakra-1.8.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "icu4c"
+  ],
+  "desc": "The core part of the JavaScript engine that powers Microsoft Edge",
+  "full_name": "chakra",
+  "homepage": "https://github.com/Microsoft/ChakraCore",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "chakra",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.3"
+  }
+}

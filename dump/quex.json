@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e5d0e22c8d988408e52ddabcd0b1ddd7e858c6256b1449b919a83f8da5934354",
+          "url": "https://linuxbrew.bintray.com/bottles/quex-0.68.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e5d0e22c8d988408e52ddabcd0b1ddd7e858c6256b1449b919a83f8da5934354",
+          "url": "https://linuxbrew.bintray.com/bottles/quex-0.68.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e5d0e22c8d988408e52ddabcd0b1ddd7e858c6256b1449b919a83f8da5934354",
+          "url": "https://linuxbrew.bintray.com/bottles/quex-0.68.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "234955b11de80a9a59b1fcbd78eab282427bf1a4ef2a341bf92eff4a43f09109",
+          "url": "https://linuxbrew.bintray.com/bottles/quex-0.68.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Generate lexical analyzers",
+  "full_name": "quex",
+  "homepage": "http://quex.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "quex",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.68.2"
+  }
+}

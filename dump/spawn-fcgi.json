@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4e6f999ebcad8b7ce84473379b6358ec569559f9e4b772d31ef1a5b0e01fc865",
+          "url": "https://linuxbrew.bintray.com/bottles/spawn-fcgi-1.6.4.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "31c9d255c30ac65009b0972c7b9fe8a8835f8c305800c1b147471b44113fd285",
+          "url": "https://linuxbrew.bintray.com/bottles/spawn-fcgi-1.6.4.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a19a14cae6fbacdc5aa1a8132f5d290743ba7385c2d76903dbd172ca07b38680",
+          "url": "https://linuxbrew.bintray.com/bottles/spawn-fcgi-1.6.4.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "23140d56da75279d033d123b5cc5a7d50018dd08e6c74e3ed118eac5adbac555",
+          "url": "https://linuxbrew.bintray.com/bottles/spawn-fcgi-1.6.4.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7473e3e2cd5322b2f09011e2b5119622e145d136cd0a8d4ce7adcb255a13d83b",
+          "url": "https://linuxbrew.bintray.com/bottles/spawn-fcgi-1.6.4.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Spawn fast-CGI processes",
+  "full_name": "spawn-fcgi",
+  "homepage": "https://redmine.lighttpd.net/projects/spawn-fcgi",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "spawn-fcgi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without ipv6 support",
+      "option": "--without-ipv6"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.4"
+  }
+}

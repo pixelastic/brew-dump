@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "93138d92e44116c1acd8ad64edcb30e8407a2e1723c4cb6061426fdbf5beafff",
+          "url": "https://linuxbrew.bintray.com/bottles/libunistring-0.9.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6c072527173fa59aa703e5d4ccd4fe7b350de7e0f6091423f7a3973e0bfbc201",
+          "url": "https://linuxbrew.bintray.com/bottles/libunistring-0.9.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "57ddedc5c2277d3cc8ac3f7ec223363ed5ebec048b1b66fd9f29ceaa6ddfa0c8",
+          "url": "https://linuxbrew.bintray.com/bottles/libunistring-0.9.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "63c7a5a610c227d6c3c39d5099cd1cb7e702598857a177c9716f193b3a649523",
+          "url": "https://linuxbrew.bintray.com/bottles/libunistring-0.9.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "C string library for manipulating Unicode strings",
+  "full_name": "libunistring",
+  "homepage": "https://www.gnu.org/software/libunistring/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libunistring",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.9"
+  }
+}

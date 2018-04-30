@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9171b2bf9290804403f96299e981b048d2dee273a0a9bbb352d1d8f30b920510",
+          "url": "https://linuxbrew.bintray.com/bottles/gzip-1.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "789eed948749a668c0ed9d353b85b885f79058672d7479571950220b1edc5b0c",
+          "url": "https://linuxbrew.bintray.com/bottles/gzip-1.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c3c1a97b0df6fdb1b3ca403b6768abf5a52c756bb4a9b29ae4c739b9bfdf2ca9",
+          "url": "https://linuxbrew.bintray.com/bottles/gzip-1.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "15a63e51e2e0608ae1b2e10277a2d325082460013a860c91918e80ea4c2eae73",
+          "url": "https://linuxbrew.bintray.com/bottles/gzip-1.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Popular GNU data compression program",
+  "full_name": "gzip",
+  "homepage": "https://www.gnu.org/software/gzip",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gzip",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9"
+  }
+}

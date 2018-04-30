@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "572e6d081547a2b9fc46afffa994f52ffd5696be884e18858c8c03131a72faec",
+          "url": "https://linuxbrew.bintray.com/bottles/tin-2.4.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e9b2afbdc37d3a349dd8341e7ceb1191466b28fc9e636ef15308d6c5b7075ba4",
+          "url": "https://linuxbrew.bintray.com/bottles/tin-2.4.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7964b2236af4b8c195271238b66a054293d94ce5bda3f10746f0b8e1d06c9f91",
+          "url": "https://linuxbrew.bintray.com/bottles/tin-2.4.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "mutt"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Threaded, NNTP-, and spool-based UseNet newsreader",
+  "full_name": "tin",
+  "homepage": "http://www.tin.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tin",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.2"
+  }
+}

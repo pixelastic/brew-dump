@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "894be0c9cab897e2c5a1d6f8ce2fe5cacc8cf17e4d99ab449fdc56b3e1539d81",
+          "url": "https://linuxbrew.bintray.com/bottles/strongswan-5.6.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "48f2e53c4525ebcd34a0f90e6ff7449ac87e289a79da136d4db2bb1fb2bf92ee",
+          "url": "https://linuxbrew.bintray.com/bottles/strongswan-5.6.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "11b4f357405eb1fcdacd2dc69bc54775170405ff4346e803de511b53d5c5d161",
+          "url": "https://linuxbrew.bintray.com/bottles/strongswan-5.6.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "strongSwan's configuration files are placed in:\n  /home/tim/.linuxbrew/etc\n\nYou will have to run both \"ipsec\" and \"charon-cmd\" with \"sudo\".\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "curl"
+  ],
+  "desc": "VPN based on IPsec",
+  "full_name": "strongswan",
+  "homepage": "https://www.strongswan.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "strongswan",
+  "oldname": null,
+  "optional_dependencies": [
+    "curl"
+  ],
+  "options": [
+    {
+      "description": "Build with libcurl based fetcher",
+      "option": "--with-curl"
+    },
+    {
+      "description": "Build with Suite B support (does not use the IPsec implementation provided by the kernel)",
+      "option": "--with-suite-b"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.6.2"
+  }
+}

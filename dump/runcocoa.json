@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tools to run Cocoa/Objective-C and C code from the command-line",
+  "full_name": "runcocoa",
+  "homepage": "https://github.com/michaeltyson/Commandline-Cocoa",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "runcocoa",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "20120108"
+  }
+}

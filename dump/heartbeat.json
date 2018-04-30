@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d244b789c7163290579b3a526d3f07d6495c2de9dadacf4e77147464d93f5ff0",
+          "url": "https://linuxbrew.bintray.com/bottles/heartbeat-6.2.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e4b90c3ab163e7ed9373b93745d06fa4833acebd084c97424b237a5ad062c074",
+          "url": "https://linuxbrew.bintray.com/bottles/heartbeat-6.2.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0e91314114812dab5c6779a4c7b24c613f6b7ac8b7bbfc4624e0aedd826c73c5",
+          "url": "https://linuxbrew.bintray.com/bottles/heartbeat-6.2.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c642b5f3b2d59d208ac453efc7d0cf9a3a6de63b28f41027391a9a2d1f248693",
+          "url": "https://linuxbrew.bintray.com/bottles/heartbeat-6.2.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "python@2"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "python@2"
+  ],
+  "desc": "Lightweight Shipper for Uptime Monitoring",
+  "full_name": "heartbeat",
+  "homepage": "https://www.elastic.co/products/beats/heartbeat",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "heartbeat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.2.4"
+  }
+}

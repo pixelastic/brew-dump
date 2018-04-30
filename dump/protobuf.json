@@ -1,0 +1,87 @@
+{
+  "aliases": [
+    "protobuf@3.5"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5a0956aa0639b5943bee597942e7c0ab1439f2db6e322423a72a5ad68e28af82",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf-3.5.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "89d3e4a62799951c2a908f102ed305691f0fd0141b27c4337ef9bfe64840d8a9",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf-3.5.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "917abbf787422c4702b3104f5f6fb77f48dae573284f5aa7a9a2ef53793e5834",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf-3.5.1_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "de3b1b0c5ac1187fd59489d37f4cb9a7cd22cc35870dfedda3daece315ef0893",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf-3.5.1_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": "Editor support and examples have been installed to:\n  /home/tim/.linuxbrew/Cellar/protobuf/3.5.1_1/share/doc/protobuf\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "python@2",
+    "python"
+  ],
+  "desc": "Protocol buffers (Google's data interchange format)",
+  "full_name": "protobuf",
+  "homepage": "https://github.com/google/protobuf/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "protobuf",
+  "oldname": null,
+  "optional_dependencies": [
+    "python"
+  ],
+  "options": [
+    {
+      "description": "Run build-time check",
+      "option": "--with-test"
+    },
+    {
+      "description": "Build without python2 support",
+      "option": "--without-python@2"
+    },
+    {
+      "description": "Build with python support",
+      "option": "--with-python"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python@2"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.5.1"
+  }
+}

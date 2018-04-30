@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a772d1ae52d6e4c89fd90339ceb5f9a8739246ecb73acbf50fb292814b9ec36d",
+          "url": "https://linuxbrew.bintray.com/bottles/sslsplit-0.5.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "77fecfb100b0790546886a4aa51af7799505cc656ba2950c6d49b93801aed621",
+          "url": "https://linuxbrew.bintray.com/bottles/sslsplit-0.5.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ea1ed69cb35e34a67e956549ce71ae3043e1ca48bb436c53d244a7cef93534e1",
+          "url": "https://linuxbrew.bintray.com/bottles/sslsplit-0.5.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "check",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "check",
+    "pkg-config",
+    "libevent",
+    "openssl"
+  ],
+  "desc": "Man-in-the-middle attacks against SSL encrypted network connections",
+  "full_name": "sslsplit",
+  "homepage": "https://www.roe.ch/SSLsplit",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sslsplit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5.2"
+  }
+}

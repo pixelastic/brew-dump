@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "75fc993aa8e861092785f6e235adf55eaf49af419f721ed983e633b9afb96bba",
+          "url": "https://linuxbrew.bintray.com/bottles/peg-markdown-0.4.14.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "de2ac88d9fbcb0ffc76c35be5e1f6ffbcf359f823a64d497992d6fe54fb68120",
+          "url": "https://linuxbrew.bintray.com/bottles/peg-markdown-0.4.14.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "67d5b05f4cb166d398f352cfa2a1d9ce97ae6ed1a7da5f8012c1d3544ec496d6",
+          "url": "https://linuxbrew.bintray.com/bottles/peg-markdown-0.4.14.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "81b615979242abe96da6a8657c9357ad6f59d585a2533db1469b2e9ead567d9b",
+          "url": "https://linuxbrew.bintray.com/bottles/peg-markdown-0.4.14.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fe01189854debd593f6106fea4c79cb1f524d377f20d0e23f526e598461fc276",
+          "url": "https://linuxbrew.bintray.com/bottles/peg-markdown-0.4.14.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b08708ff993bc548d38e6c8eadbf3cc4086a15535cd21fe55b48dc2658b90b02",
+          "url": "https://linuxbrew.bintray.com/bottles/peg-markdown-0.4.14.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8b73ccf611b6639935b1fe7b42d5bab2518703f81b182769c537f7224ac1e803",
+          "url": "https://linuxbrew.bintray.com/bottles/peg-markdown-0.4.14.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib"
+  ],
+  "desc": "Markdown implementation based on a PEG grammar",
+  "full_name": "peg-markdown",
+  "homepage": "https://github.com/jgm/peg-markdown",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "peg-markdown",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.14"
+  }
+}

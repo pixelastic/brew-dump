@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "bee09d138e9d8f45c12d6c99b48a3e6891b6e4d3f5c6a6847bfeaa28afc2f362",
+          "url": "https://linuxbrew.bintray.com/bottles/bwa-0.7.17.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "02da3eecd6569c193a55436f705c8d351d052e44b79a43d6afc50f7308603a73",
+          "url": "https://linuxbrew.bintray.com/bottles/bwa-0.7.17.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4db97125930b495fc34b6d161bea57171ac4bf2a5bf48ca1088a69a594874710",
+          "url": "https://linuxbrew.bintray.com/bottles/bwa-0.7.17.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "543858a704eb3d584f464d78d092e92f015b36cb289e2e0949cba3494feccfcc",
+          "url": "https://linuxbrew.bintray.com/bottles/bwa-0.7.17.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "zlib"
+  ],
+  "desc": "Burrow-Wheeler Aligner for pairwise alignment of DNA",
+  "full_name": "bwa",
+  "homepage": "https://github.com/lh3/bwa",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bwa",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.17"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "308e12c8084e3dd179e322320d45b7ebf3393b284cbb6a5754ccde9e577ad90e",
+          "url": "https://linuxbrew.bintray.com/bottles/libunwind-headers-35.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9ec7987285d9e911e70cc55d124d8462ab2987d0fe84ea4638188a7b14fea328",
+          "url": "https://linuxbrew.bintray.com/bottles/libunwind-headers-35.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "2b4ae1b1a438269ae833a52e73cafd6357b0d30dd5e8eb33ef29271cdc259f7c",
+          "url": "https://linuxbrew.bintray.com/bottles/libunwind-headers-35.3.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3dd8d375d7612f42e190cea3f67f6aab1f8d4fe03173ac6c49d8b1c9edb8bfc1",
+          "url": "https://linuxbrew.bintray.com/bottles/libunwind-headers-35.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fffaa8d5069f3f766b035957872195cf96af0822fad701efe34ce8be95d86640",
+          "url": "https://linuxbrew.bintray.com/bottles/libunwind-headers-35.3.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0a920420880c1222c365fb886eaf0cbc215529e7a7be39280520dc770386fe75",
+          "url": "https://linuxbrew.bintray.com/bottles/libunwind-headers-35.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "C API for determining the call-chain of a program",
+  "full_name": "libunwind-headers",
+  "homepage": "https://opensource.apple.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libunwind-headers",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "35.3"
+  }
+}

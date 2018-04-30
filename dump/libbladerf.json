@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9de01abf00d154167160155eb6c64e9c9f83f11f8c0ce2ba862e94db43c9cbe2",
+          "url": "https://linuxbrew.bintray.com/bottles/libbladerf-2016.06_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1aaf3355a29e6c318555afc4a4aff2c76957976c7cf00113af5cacc8a171ab75",
+          "url": "https://linuxbrew.bintray.com/bottles/libbladerf-2016.06_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "711db5a38f3a217cd3fe54c19fe8624bdb6d7b4431176a74541e819414a064d1",
+          "url": "https://linuxbrew.bintray.com/bottles/libbladerf-2016.06_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cmake",
+    "libusb"
+  ],
+  "desc": "bladeRF USB 3.0 Superspeed Software Defined Radio Source",
+  "full_name": "libbladerf",
+  "homepage": "https://nuand.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libbladerf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2016.06"
+  }
+}

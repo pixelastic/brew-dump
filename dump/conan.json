@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f00810821fb336bab4ca61dbe8f7a801b3697c64862062b7d666eaf3bbd4cc6e",
+          "url": "https://linuxbrew.bintray.com/bottles/conan-1.2.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d69c530a1317d92ae981e46f563bb5fabebfeb839fd48d5a82ce75ef5d1d3725",
+          "url": "https://linuxbrew.bintray.com/bottles/conan-1.2.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5c28444d31bb384c337531b4f15fa7e56eab718189d4f91edfe2cbf0d9f961be",
+          "url": "https://linuxbrew.bintray.com/bottles/conan-1.2.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ee56bab77c5f16769aa528175f9cf575700f82d7d1e8bb7a2bbb6d3c50b00223",
+          "url": "https://linuxbrew.bintray.com/bottles/conan-1.2.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libffi",
+    "openssl",
+    "python"
+  ],
+  "desc": "Distributed, open source, package manager for C/C++",
+  "full_name": "conan",
+  "homepage": "https://github.com/conan-io/conan",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "conan",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.3"
+  }
+}

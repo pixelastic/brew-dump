@@ -1,0 +1,67 @@
+{
+  "aliases": [
+    "tutum"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "90b1feb11ccb54a1481a2c23df1c70762b346d0907b7f873296b70fb6774b763",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-cloud-1.0.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "809594637760e2118111760fee5b298ee528dd862f845055a8f0e2a03aee10b5",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-cloud-1.0.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b5337ce18f9053667a61f4873e3d1e8b7f910b0a668505c853531be48b95428a",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-cloud-1.0.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b683caaa05a93da2766af75daf474ef76a488dec1fc7c321e067ffc084f7e388",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-cloud-1.0.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "libyaml"
+  ],
+  "desc": "SaaS to build, deploy and manage Docker-based applications",
+  "full_name": "docker-cloud",
+  "homepage": "https://cloud.docker.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "docker-cloud",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.9"
+  }
+}

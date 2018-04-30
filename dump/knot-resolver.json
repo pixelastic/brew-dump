@@ -1,0 +1,87 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "36733f655b19474e7fd2deca365bbc812edfb745b9adf40bf6087b8e874cef52",
+          "url": "https://linuxbrew.bintray.com/bottles/knot-resolver-2.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dd496ee05149df3956ff847ca3a050b8a37dd4433b9d559b23aa993c36203a0b",
+          "url": "https://linuxbrew.bintray.com/bottles/knot-resolver-2.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ccd5b5cd6ed613292b78b004eaa7086bac2b774e8ab5cdca65ac79b3cf49869b",
+          "url": "https://linuxbrew.bintray.com/bottles/knot-resolver-2.3.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmocka",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmocka",
+    "pkg-config",
+    "gnutls",
+    "knot",
+    "luajit",
+    "libuv",
+    "lmdb",
+    "nettle",
+    "hiredis",
+    "libmemcached"
+  ],
+  "desc": "Minimalistic, caching, DNSSEC-validating DNS resolver",
+  "full_name": "knot-resolver",
+  "homepage": "https://www.knot-resolver.cz",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "knot-resolver",
+  "oldname": null,
+  "optional_dependencies": [
+    "hiredis",
+    "libmemcached"
+  ],
+  "options": [
+    {
+      "description": "Compile without DNS cookies support",
+      "option": "--without-nettle"
+    },
+    {
+      "description": "Compile with Redis cache storage support",
+      "option": "--with-hiredis"
+    },
+    {
+      "description": "Compile with memcached cache storage support",
+      "option": "--with-libmemcached"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "nettle"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.3.0"
+  }
+}

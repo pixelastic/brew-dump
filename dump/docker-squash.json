@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c1622b64db0ec72dcfa723ca4a793b0ae8206098c2a14ecf5fd4ee852e7cba26",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-squash-1.0.6.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c1622b64db0ec72dcfa723ca4a793b0ae8206098c2a14ecf5fd4ee852e7cba26",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-squash-1.0.6.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c1622b64db0ec72dcfa723ca4a793b0ae8206098c2a14ecf5fd4ee852e7cba26",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-squash-1.0.6.sierra.bottle.2.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "94358cfc1972eedce609bfbb739efae2aa92530d22db47f76bf82a2fcc556395",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-squash-1.0.6.x86_64_linux.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "docker",
+    "docker-machine"
+  ],
+  "desc": "Docker image squashing tool",
+  "full_name": "docker-squash",
+  "homepage": "https://github.com/goldmann/docker-squash",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "docker-squash",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without docker support",
+      "option": "--without-docker"
+    },
+    {
+      "description": "Build without docker-machine support",
+      "option": "--without-docker-machine"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "docker",
+    "docker-machine"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.6"
+  }
+}

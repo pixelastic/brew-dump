@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "liblabjackusb"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "fff6236e9b14044090926a48906d3f1a700df3d62587775f0c14064c8cc214ba",
+          "url": "https://linuxbrew.bintray.com/bottles/exodriver-2.5.3.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "66fdf352cfefca64f29fdb41a368f6cf63a21df9ea5125529290dbd32af5f426",
+          "url": "https://linuxbrew.bintray.com/bottles/exodriver-2.5.3.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3f8be0b892a100dbaccb45052274321bf53a6d59c821be109f8b9a853a9d847a",
+          "url": "https://linuxbrew.bintray.com/bottles/exodriver-2.5.3.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libusb"
+  ],
+  "desc": "Thin interface to LabJack devices",
+  "full_name": "exodriver",
+  "homepage": "https://labjack.com/support/linux-and-mac-os-x-drivers",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "exodriver",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.5.3"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3c6e69dcc8a9dd6ad1bef0181b729cf310a8ff36c75f4671f0606272203dbf67",
+          "url": "https://linuxbrew.bintray.com/bottles/git-fixup-1.1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3c6e69dcc8a9dd6ad1bef0181b729cf310a8ff36c75f4671f0606272203dbf67",
+          "url": "https://linuxbrew.bintray.com/bottles/git-fixup-1.1.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3c6e69dcc8a9dd6ad1bef0181b729cf310a8ff36c75f4671f0606272203dbf67",
+          "url": "https://linuxbrew.bintray.com/bottles/git-fixup-1.1.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "edf482126a8b1dc7858a68791a498b1ec87751bc8a1550693674dc608479a17b",
+          "url": "https://linuxbrew.bintray.com/bottles/git-fixup-1.1.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Alias for git commit --fixup <ref>",
+  "full_name": "git-fixup",
+  "homepage": "https://github.com/keis/git-fixup",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git-fixup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.2"
+  }
+}

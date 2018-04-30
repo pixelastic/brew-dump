@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7f0effc75d64fca0f2695b5f7ddb4d8713cc83522d40dcd37842e83c120ac117",
+          "url": "https://linuxbrew.bintray.com/bottles/cuetools-1.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4393d6db857a9568a34de3a09ff049fbec9a55a95b029eacd24e35d6ce792074",
+          "url": "https://linuxbrew.bintray.com/bottles/cuetools-1.4.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "95216c0df3840b2602e61dd3bef7d4c9b65cec0315e5b23ac87329320d9f6be9",
+          "url": "https://linuxbrew.bintray.com/bottles/cuetools-1.4.1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "cc5240434bb054a51ebb4e4bb3adc8e97844da66aa425fc667f54ecf53ad9aa6",
+          "url": "https://linuxbrew.bintray.com/bottles/cuetools-1.4.1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9456e5957a78f993f5a8cef76aa583ac6a42a8298fb05bded243dbaf810f9a44",
+          "url": "https://linuxbrew.bintray.com/bottles/cuetools-1.4.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "81d06ef2e3d98061f332a535b810102c1be0505371c1ac1aed711cf2ae8de5a3",
+          "url": "https://linuxbrew.bintray.com/bottles/cuetools-1.4.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "desc": "Utilities for .cue and .toc files",
+  "full_name": "cuetools",
+  "homepage": "https://github.com/svend/cuetools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cuetools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.1"
+  }
+}

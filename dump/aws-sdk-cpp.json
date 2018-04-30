@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "79f9bc01cd15af3d88fe3554135df1227949fda21315e976bc27cf170adf1921",
+          "url": "https://linuxbrew.bintray.com/bottles/aws-sdk-cpp-1.4.30.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "842f8c6ceefd15582abc7db809f938d69b9e57b8035cfbbc36f4cd2321ea977a",
+          "url": "https://linuxbrew.bintray.com/bottles/aws-sdk-cpp-1.4.30.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a04c7ec3d275286b7ea6278ff8aa9a5b73b2150cc2840d36f06a6c84a2898693",
+          "url": "https://linuxbrew.bintray.com/bottles/aws-sdk-cpp-1.4.30.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "curl"
+  ],
+  "desc": "AWS SDK for C++",
+  "full_name": "aws-sdk-cpp",
+  "homepage": "https://github.com/aws/aws-sdk-cpp",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aws-sdk-cpp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with static linking",
+      "option": "--with-static"
+    },
+    {
+      "description": "Don't include the libcurl HTTP client",
+      "option": "--without-http-client"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "ci"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.30"
+  }
+}

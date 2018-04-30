@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1708125f0ae94cec7d5f5dff0e8353209933eb594b3733b80fe6f0b37f6fd55b",
+          "url": "https://linuxbrew.bintray.com/bottles/jupyter-1.0.0_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "950f7e3399bc3668916b5634e2067d106e5206c0b452db13e89b9dcae781fc23",
+          "url": "https://linuxbrew.bintray.com/bottles/jupyter-1.0.0_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8b868ac865e4005b3b7c7f7912fed224c4f25613a83b6194b40113a333e92ad6",
+          "url": "https://linuxbrew.bintray.com/bottles/jupyter-1.0.0_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Additional kernels can be installed into the shared jupyter directory\n  /home/tim/.linuxbrew/etc/jupyter\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ipython@5",
+    "python@2",
+    "zeromq",
+    "pandoc"
+  ],
+  "desc": "Interactive environments for writing and running code",
+  "full_name": "jupyter",
+  "homepage": "https://jupyter.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jupyter",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Install with Qtconsole",
+      "option": "--with-qtconsole"
+    },
+    {
+      "description": "Install without Jupyter Console",
+      "option": "--without-console"
+    },
+    {
+      "description": "Install without Nbconvert",
+      "option": "--without-nbconvert"
+    },
+    {
+      "description": "Install without Jupyter Notebook",
+      "option": "--without-notebook"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.0"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c0e1cc1710c31f0ec1b9a0cc50c99572743726eeada76493438bbb99e671d22d",
+          "url": "https://linuxbrew.bintray.com/bottles/shyaml-0.5.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "581c62b943b03b8c7693cb960428a1bf900d28bcdd7b10e068e3768b31c30410",
+          "url": "https://linuxbrew.bintray.com/bottles/shyaml-0.5.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "34028bbdca3b61d682520c3821e232bf897cf143c9a5b5946c1952c6da0d56e8",
+          "url": "https://linuxbrew.bintray.com/bottles/shyaml-0.5.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python",
+    "libyaml"
+  ],
+  "desc": "Command-line YAML parser",
+  "full_name": "shyaml",
+  "homepage": "https://github.com/0k/shyaml",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "shyaml",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5.2"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "2feac8f578fd1aa43385ce8714b059c90f4aaf3a0401d8ba825939e8e8ab7b1b",
+          "url": "https://linuxbrew.bintray.com/bottles/a52dec-0.7.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c7485fae127d02a6628186b821d72fc40bc82019ae30ddee0abfacf2b63701dc",
+          "url": "https://linuxbrew.bintray.com/bottles/a52dec-0.7.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "cb40eed81300fa32069bac07244cf7f56363cc04af853ddb75bada292e8d9912",
+          "url": "https://linuxbrew.bintray.com/bottles/a52dec-0.7.4.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "8311a6c00e6213f754062a6cf243bc807ca2c9b6db73f78de3b8149679d7ccc9",
+          "url": "https://linuxbrew.bintray.com/bottles/a52dec-0.7.4.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "150123fdf33421b85f4625d73c015a660300db698a82fd0165475fe8e7081d0b",
+          "url": "https://linuxbrew.bintray.com/bottles/a52dec-0.7.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1ee3d6cdaaa77669cd10c41de60d933187d83fd792e605eee6e8942201cdc6c2",
+          "url": "https://linuxbrew.bintray.com/bottles/a52dec-0.7.4.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "cfe0ddcf275b03d9ad0c626174962601ae18d3f77fa35266228425b818ce4a7f",
+          "url": "https://linuxbrew.bintray.com/bottles/a52dec-0.7.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library for decoding ATSC A/52 streams (AKA 'AC-3')",
+  "full_name": "a52dec",
+  "homepage": "https://liba52.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "a52dec",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.4"
+  }
+}

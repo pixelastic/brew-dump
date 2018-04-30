@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "175e1f127c8c707b0d90c3c7e4399cc5c1e18410bf8b7f6ec9340dbca4c16e4b",
+          "url": "https://linuxbrew.bintray.com/bottles/rpl-1.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "70b23d5ce18f2dfe58e8c782a00e4ab56d88c1e43b135c9e9ba0c8c387bef470",
+          "url": "https://linuxbrew.bintray.com/bottles/rpl-1.4.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b0c4dbf06500053703ee4a8c8e751d43c435f0e3b0e25d2d328d310dcf490c23",
+          "url": "https://linuxbrew.bintray.com/bottles/rpl-1.4.1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "c59b98ff51670e96114daa8aa2c8984e35bd2bc1c2c01db9206bef9728a13624",
+          "url": "https://linuxbrew.bintray.com/bottles/rpl-1.4.1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2c9e55b51762d835db949c20f9eba36e83213082db82c69602658e2f28003b80",
+          "url": "https://linuxbrew.bintray.com/bottles/rpl-1.4.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b2be734558caef95df284a555a3a57ebc6521ad20c04f5d8720da78363b8af51",
+          "url": "https://linuxbrew.bintray.com/bottles/rpl-1.4.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d718355e56dd13c690f1d5a0541b5f051518f65b953aade9c525853a19266a61",
+          "url": "https://linuxbrew.bintray.com/bottles/rpl-1.4.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Text replacement utility",
+  "full_name": "rpl",
+  "homepage": "http://www.laffeycomputer.com/rpl.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rpl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.1"
+  }
+}

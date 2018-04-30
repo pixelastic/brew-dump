@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a1302d922cfb12f36c25ebe6f35438ccb06fe8e7a155d4a9f326f71e8033b644",
+          "url": "https://linuxbrew.bintray.com/bottles/pygobject-2.28.7_2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c442ae4c5065422f9c522c9e1000dd50f1e9bd565d496cba14a0edb0f378bb6c",
+          "url": "https://linuxbrew.bintray.com/bottles/pygobject-2.28.7_2.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d483ec396469442c8efb3a0936db2ac3027c131a70c8117f5a1ef6a97a007b00",
+          "url": "https://linuxbrew.bintray.com/bottles/pygobject-2.28.7_2.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "70b0ede4f615973f1a8401a44fe2aaef078b03e40c515657d8ef4b4fa173e752",
+          "url": "https://linuxbrew.bintray.com/bottles/pygobject-2.28.7_2.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib",
+    "python@2"
+  ],
+  "desc": "GLib/GObject/GIO Python bindings for Python 2",
+  "full_name": "pygobject",
+  "homepage": "https://live.gnome.org/PyGObject",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pygobject",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.28.7"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6f09559eaf287022f280991b44b5f4e86435fafda167c97a78239602183a3758",
+          "url": "https://linuxbrew.bintray.com/bottles/waon-0.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5c3c49f0740bfcf9d34fd9468af3d9caa8f19c53ee1d25f8d69442d63859c9ab",
+          "url": "https://linuxbrew.bintray.com/bottles/waon-0.11.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7469ec9aa8f549c1294ddb362f8ec2473466c5b027007f3c14fb49984353d813",
+          "url": "https://linuxbrew.bintray.com/bottles/waon-0.11.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "bccba5b437852618f1d67fb521dfc2684bb4d70461c61966e97cdd286be40842",
+          "url": "https://linuxbrew.bintray.com/bottles/waon-0.11.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d7fd9859544bf3ccb739942f0db00928469356f4d82ab7848cdba2ae5c5e99e9",
+          "url": "https://linuxbrew.bintray.com/bottles/waon-0.11.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a16c4df918f59a71396d7c4a5806bafe4bda4a89d3aeb2a52d8dfd41ce6c0432",
+          "url": "https://linuxbrew.bintray.com/bottles/waon-0.11.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "fftw",
+    "libsndfile",
+    "pkg-config"
+  ],
+  "desc": "Wave-to-notes transcriber",
+  "full_name": "waon",
+  "homepage": "https://kichiki.github.io/WaoN/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "waon",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.11"
+  }
+}

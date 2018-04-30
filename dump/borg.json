@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f88e6457bfdd91b124d18395f80c988ae0ef4020153f43028ccdfd4e5fdff0e8",
+          "url": "https://linuxbrew.bintray.com/bottles/borg-0.0.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9fe24cedf3b86f48d3d70a22cd161145d690fb0592d6169ccc175e874a89a209",
+          "url": "https://linuxbrew.bintray.com/bottles/borg-0.0.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bd251596f570c3ec103d60ad04f78626c69a79cc20fe99f5bc483ffce12b695f",
+          "url": "https://linuxbrew.bintray.com/bottles/borg-0.0.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4b4c4781a4b90104c1bda9243bb3d8f901eba9e57a3e2f2d923bf573e5065819",
+          "url": "https://linuxbrew.bintray.com/bottles/borg-0.0.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Terminal based search engine for bash commands",
+  "full_name": "borg",
+  "homepage": "https://github.com/ok-borg/borg",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "borg",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.0.3"
+  }
+}

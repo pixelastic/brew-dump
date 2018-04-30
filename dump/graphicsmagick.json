@@ -1,0 +1,146 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2658af1f23bc3d7a7d9aefa3c15cdf47303a556da88070221ca5796bd7225bc3",
+          "url": "https://linuxbrew.bintray.com/bottles/graphicsmagick-1.3.28_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ff12a82870629fe3f6e425aa1500ae4da142809745b5b755a42498504f73f1ee",
+          "url": "https://linuxbrew.bintray.com/bottles/graphicsmagick-1.3.28_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "92457b10f78aa756b3e560bc8be9fbc0fe0706c6d6913d3f30a645ff13ac3eff",
+          "url": "https://linuxbrew.bintray.com/bottles/graphicsmagick-1.3.28_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e4b971662180040d55da915747792105c2cf56cbfdab127abb146fc546de27b2",
+          "url": "https://linuxbrew.bintray.com/bottles/graphicsmagick-1.3.28_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libtool",
+    "jpeg",
+    "libpng",
+    "libtiff",
+    "freetype",
+    "jasper",
+    "little-cms2",
+    "libwmf",
+    "ghostscript",
+    "webp",
+    "bzip2",
+    "libxml2",
+    "zlib",
+    "linuxbrew/xorg/xorg"
+  ],
+  "desc": "Image processing tools collection",
+  "full_name": "graphicsmagick",
+  "homepage": "http://www.graphicsmagick.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "graphicsmagick",
+  "oldname": null,
+  "optional_dependencies": [
+    "little-cms2",
+    "libwmf",
+    "ghostscript",
+    "webp"
+  ],
+  "options": [
+    {
+      "description": "disable build/install of Magick++",
+      "option": "--without-magick-plus-plus"
+    },
+    {
+      "description": "Compile without svg support",
+      "option": "--without-svg"
+    },
+    {
+      "description": "Build PerlMagick; provides the Graphics::Magick module",
+      "option": "--with-perl"
+    },
+    {
+      "description": "Build without jpeg support",
+      "option": "--without-jpeg"
+    },
+    {
+      "description": "Build without libpng support",
+      "option": "--without-libpng"
+    },
+    {
+      "description": "Build without libtiff support",
+      "option": "--without-libtiff"
+    },
+    {
+      "description": "Build without freetype support",
+      "option": "--without-freetype"
+    },
+    {
+      "description": "Build without jasper support",
+      "option": "--without-jasper"
+    },
+    {
+      "description": "Build with little-cms2 support",
+      "option": "--with-little-cms2"
+    },
+    {
+      "description": "Build with libwmf support",
+      "option": "--with-libwmf"
+    },
+    {
+      "description": "Build with ghostscript support",
+      "option": "--with-ghostscript"
+    },
+    {
+      "description": "Build with webp support",
+      "option": "--with-webp"
+    },
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "jpeg",
+    "libpng",
+    "libtiff",
+    "freetype",
+    "jasper"
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.3.28"
+  }
+}

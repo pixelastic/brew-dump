@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b43dbb305fcb6c681d2208456a1f39dd0aa5b97790b629ac907a666869119f20",
+          "url": "https://linuxbrew.bintray.com/bottles/visionmedia-watch-0.3.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8214381e2ca4562345192b1b88a732f2f8fdfbfc3d107649c652e2985be4ef52",
+          "url": "https://linuxbrew.bintray.com/bottles/visionmedia-watch-0.3.1.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "941cd639bf71a7d0e7397b77a3eebce4bd06fbc4ef30aac69147b04b3f6569f8",
+          "url": "https://linuxbrew.bintray.com/bottles/visionmedia-watch-0.3.1.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2d0df99a4e8b377f064c393a4e349cf12374df139a3cf04f76dd8b69f2558d39",
+          "url": "https://linuxbrew.bintray.com/bottles/visionmedia-watch-0.3.1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4d31b501672801394c687aa45a44741f3461fb4730e96fe94197a1e7952fe2e0",
+          "url": "https://linuxbrew.bintray.com/bottles/visionmedia-watch-0.3.1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "watch"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Periodically executes the given command",
+  "full_name": "visionmedia-watch",
+  "homepage": "https://github.com/visionmedia/watch",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "visionmedia-watch",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.3.1"
+  }
+}

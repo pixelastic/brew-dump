@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "fed88dfb217cc0b5fa0a4f7a7aec40342314998624e084921e1b5cc02d08d27d",
+          "url": "https://linuxbrew.bintray.com/bottles/nrg2iso-0.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7fcd88c9587e77ec07210ace97b4432197545ea4d70ff547b1b44977aef8eb8a",
+          "url": "https://linuxbrew.bintray.com/bottles/nrg2iso-0.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a46624bc9fc5f7883e923920dbc96aef720e5bb37b4ac71a281d101b96decee6",
+          "url": "https://linuxbrew.bintray.com/bottles/nrg2iso-0.4.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "7ae80a678e7641b6b7838aac679caad0c5c2213f068c1141e8b8cb01539babb3",
+          "url": "https://linuxbrew.bintray.com/bottles/nrg2iso-0.4.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "01177e7bc064b062c454caad61c24b80deb20768ab2d880c77ba20708ac6e709",
+          "url": "https://linuxbrew.bintray.com/bottles/nrg2iso-0.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "18949f41b9ba386c996a49541875d3320184b88dccb04136846f32b3d681e647",
+          "url": "https://linuxbrew.bintray.com/bottles/nrg2iso-0.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Extract ISO9660 data from Nero nrg files",
+  "full_name": "nrg2iso",
+  "homepage": "http://gregory.kokanosky.free.fr/v4/linux/nrg2iso.en.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nrg2iso",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4"
+  }
+}

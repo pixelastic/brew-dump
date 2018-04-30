@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "43278a7c7ef7720e20fed3179ff8519230678d3fd4e98f4b0e8e796b5fdb40ac",
+          "url": "https://linuxbrew.bintray.com/bottles/convmv-2.05.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "856021a73afb22052e496ced9eb1a7386d810a6d75903aac99feb98298801ea8",
+          "url": "https://linuxbrew.bintray.com/bottles/convmv-2.05.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cc6cf7ff9cfd8909a76e29dd6ddbdddc9ad95638e154b72a36fe6c255e3a367d",
+          "url": "https://linuxbrew.bintray.com/bottles/convmv-2.05.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a13979825940c67173e3fe04fffe23c4e1239b1a808cf365ce7a667eeaaf5bd5",
+          "url": "https://linuxbrew.bintray.com/bottles/convmv-2.05.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Filename encoding conversion tool",
+  "full_name": "convmv",
+  "homepage": "https://www.j3e.de/linux/convmv/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "convmv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.05"
+  }
+}

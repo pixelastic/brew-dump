@@ -1,0 +1,101 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "098d2cb0df8236d49a08a11ff0c3fa77ea8817baa2880ac8c473bb816318bf29",
+          "url": "https://linuxbrew.bintray.com/bottles/dar-2.5.14.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d9d0a90712f3fe179767ea5caf79a46f4b57702a09b8a55e030e99fab002c800",
+          "url": "https://linuxbrew.bintray.com/bottles/dar-2.5.14.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ece73e9dd56771993d6b8aedba32e0035b60866aec58ce85ae70197be1c5d43c",
+          "url": "https://linuxbrew.bintray.com/bottles/dar-2.5.14.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "78e9a64479a37be34dfaf722f80681f9c7839dd8107008d30f9b0662a13e240c",
+          "url": "https://linuxbrew.bintray.com/bottles/dar-2.5.14.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "doxygen",
+    "upx"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "doxygen",
+    "upx",
+    "libgcrypt",
+    "lzo",
+    "xz"
+  ],
+  "desc": "Backup directory tree and files",
+  "full_name": "dar",
+  "homepage": "http://dar.linux.free.fr/doc/index.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dar",
+  "oldname": null,
+  "optional_dependencies": [
+    "doxygen",
+    "upx",
+    "libgcrypt",
+    "lzo",
+    "xz"
+  ],
+  "options": [
+    {
+      "description": "build libdar API documentation and html man page",
+      "option": "--with-doxygen"
+    },
+    {
+      "description": "enable strong encryption support",
+      "option": "--with-libgcrypt"
+    },
+    {
+      "description": "enable lzo compression support",
+      "option": "--with-lzo"
+    },
+    {
+      "description": "make executables compressed at installation time",
+      "option": "--with-upx"
+    },
+    {
+      "description": "Build with xz support",
+      "option": "--with-xz"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5.14"
+  }
+}

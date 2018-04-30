@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f3b55c185807dc431ec0d01693c99fdad34c25f644bd2e9d54225df2610f7734",
+          "url": "https://linuxbrew.bintray.com/bottles/bash-completion@2-2.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cbd57a0d85d776ca61c6d9dbf6ae3a81d1c2f89c98852a355b5b0ccb5dec20dc",
+          "url": "https://linuxbrew.bintray.com/bottles/bash-completion@2-2.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e6f6452c42646f3bc8687ed02811612c8689c34d8b12b6826042ea3b0598f53d",
+          "url": "https://linuxbrew.bintray.com/bottles/bash-completion@2-2.7.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f3b55c185807dc431ec0d01693c99fdad34c25f644bd2e9d54225df2610f7734",
+          "url": "https://linuxbrew.bintray.com/bottles/bash-completion@2-2.7.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Add the following to your ~/.bash_profile:\n  if [ -f /home/tim/.linuxbrew/share/bash-completion/bash_completion ]; then\n    . /home/tim/.linuxbrew/share/bash-completion/bash_completion\n  fi\n",
+  "conflicts_with": [
+    "bash-completion"
+  ],
+  "dependencies": [
+    "bash"
+  ],
+  "desc": "Programmable completion for Bash 4.1+",
+  "full_name": "bash-completion@2",
+  "homepage": "https://github.com/scop/bash-completion",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bash-completion@2",
+  "oldname": "bash-completion2",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.7"
+  }
+}

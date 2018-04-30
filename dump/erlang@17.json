@@ -1,0 +1,99 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e4faf6f98903c5dd7fa4894f7a61f722101119572f6d32ab9000fa47332f148d",
+          "url": "https://linuxbrew.bintray.com/bottles/erlang@17-17.5.6.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "de3143035b8e4861f90f3cdd2e6a518d97bc17f7b1087948026b99bc36b781fe",
+          "url": "https://linuxbrew.bintray.com/bottles/erlang@17-17.5.6.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "819a566e39049cb521e3a26f39746258d333acd4ce9bc91eff2dc8969905f2fc",
+          "url": "https://linuxbrew.bintray.com/bottles/erlang@17-17.5.6.9.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ab5c9f75b67c92c103a7712104edf8dd4f6edb52eda6d0312b50bde0e1f83780",
+          "url": "https://linuxbrew.bintray.com/bottles/erlang@17-17.5.6.9.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": "Man pages can be found in:\n  /home/tim/.linuxbrew/opt/erlang@17/lib/erlang/man\n\nAccess them with `erl -man`, or add this directory to MANPATH.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "openssl",
+    "fop",
+    "wxmac"
+  ],
+  "desc": "Programming language for highly scalable real-time systems",
+  "full_name": "erlang@17",
+  "homepage": "https://www.erlang.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "erlang@17",
+  "oldname": null,
+  "optional_dependencies": [
+    "fop"
+  ],
+  "options": [
+    {
+      "description": "Disable building hipe; fails on various macOS systems",
+      "option": "--without-hipe"
+    },
+    {
+      "description": "Enable native library compilation",
+      "option": "--with-native-libs"
+    },
+    {
+      "description": "Enable experimental dirty schedulers",
+      "option": "--with-dirty-schedulers"
+    },
+    {
+      "description": "Do not install documentation",
+      "option": "--without-docs"
+    },
+    {
+      "description": "Build with fop support",
+      "option": "--with-fop"
+    },
+    {
+      "description": "Build without wxmac support",
+      "option": "--without-wxmac"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "wxmac"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "17.5.6.9"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "62ab34fafd7cd64356c2c6d185f76709539cca3c55b3ca7e41473ee79ddbae7f",
+          "url": "https://linuxbrew.bintray.com/bottles/libflowmanager-3.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "52ebf18a6e9816920a0d44c09e9694c59524854d89e277e87486b81b995a6a60",
+          "url": "https://linuxbrew.bintray.com/bottles/libflowmanager-3.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "56f84519f766ec0c4fcb47401851743070649a46b6f84707650256601e2ed04d",
+          "url": "https://linuxbrew.bintray.com/bottles/libflowmanager-3.0.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtrace"
+  ],
+  "desc": "Flow-based measurement tasks with packet-based inputs",
+  "full_name": "libflowmanager",
+  "homepage": "https://research.wand.net.nz/software/libflowmanager.php",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libflowmanager",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.0"
+  }
+}

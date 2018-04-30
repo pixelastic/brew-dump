@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9bcaa205d33dbb8d44851e5f6c41ab95b322125cfd56215c55ce3abd0ac0b00e",
+          "url": "https://linuxbrew.bintray.com/bottles/libxml++-2.40.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fe685746299e61bd0c20760f3f8ddeb8fb48de99211dc3fde96946620a1e77b6",
+          "url": "https://linuxbrew.bintray.com/bottles/libxml++-2.40.1_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8d120ff026529306553a82ca53c73747ee106b96ceb904d7cca54b807b32c4ff",
+          "url": "https://linuxbrew.bintray.com/bottles/libxml++-2.40.1_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bb44b6bae21b4c6a0b2edfd675582a570e4ed63b71e6e08252a0dcd57b65834c",
+          "url": "https://linuxbrew.bintray.com/bottles/libxml++-2.40.1_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "812826fca25355195d57c7a00e26db274d17976725e2413aa8b40bf8cab2c27b",
+          "url": "https://linuxbrew.bintray.com/bottles/libxml++-2.40.1_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "53f18b1f5fe05dc545a8629292a498615ffd0c546c9fab98e5152be284081cbe",
+          "url": "https://linuxbrew.bintray.com/bottles/libxml++-2.40.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glibmm"
+  ],
+  "desc": "C++ wrapper for libxml",
+  "full_name": "libxml++",
+  "homepage": "https://libxmlplusplus.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libxml++",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.40.1"
+  }
+}

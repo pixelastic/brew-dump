@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1459698f458b67923d07d79ab1afd08e54fda408e31b0c59916b8188fb0ded78",
+          "url": "https://linuxbrew.bintray.com/bottles/modd-0.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e15fd445ef80f9e2b7f3c8a6736beb9bc1b4333b07c34997dc8c1dc3840a3b98",
+          "url": "https://linuxbrew.bintray.com/bottles/modd-0.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "475ede0cbdd203990792dc5d264739cd25c9130a20d6cf44022708de268ed217",
+          "url": "https://linuxbrew.bintray.com/bottles/modd-0.6.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Flexible tool for responding to filesystem changes",
+  "full_name": "modd",
+  "homepage": "https://github.com/cortesi/modd",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "modd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.6"
+  }
+}

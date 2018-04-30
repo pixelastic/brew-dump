@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "35f3e193c1bf0d26c62ea6897721c559191fea64f27d71781a90f670d9a23557",
+          "url": "https://linuxbrew.bintray.com/bottles/lha-1.14i-ac20050924p1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f1dac02888773ade3d6c35eeb69c6cb25e08bf91584ae66fec7a362f80583e78",
+          "url": "https://linuxbrew.bintray.com/bottles/lha-1.14i-ac20050924p1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "bd26a5a48396d06019f7998f4c9bf511a74ef237814fee5f5c8ba9df31b30a37",
+          "url": "https://linuxbrew.bintray.com/bottles/lha-1.14i-ac20050924p1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "3def5e7035ef758428c7e158b93ad5459d6d221ba4698608cc1d14526cbfd5f8",
+          "url": "https://linuxbrew.bintray.com/bottles/lha-1.14i-ac20050924p1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "450fa8188af44eef619302c402860dfd2debab864487424211fbbfa7ff065955",
+          "url": "https://linuxbrew.bintray.com/bottles/lha-1.14i-ac20050924p1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3c3a36157f2adf1bab2014add505dee8b0a0f7b87a8c4b7f37a16fbbe43e2349",
+          "url": "https://linuxbrew.bintray.com/bottles/lha-1.14i-ac20050924p1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9cb516a73d1d117c39f63d16b3211df626783c9bb1a7038f524dd9c36045b1ac",
+          "url": "https://linuxbrew.bintray.com/bottles/lha-1.14i-ac20050924p1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "lhasa"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Utility for creating and opening lzh archives",
+  "full_name": "lha",
+  "homepage": "https://lha.osdn.jp/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lha",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.14i-ac20050924p1"
+  }
+}

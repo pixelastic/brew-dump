@@ -1,0 +1,94 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4b5db4d330a8386085efc7cb24771ae7cb49cc3c523c9babb53e177befce9f3b",
+          "url": "https://linuxbrew.bintray.com/bottles/anjuta-3.28.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e038d342a81ee2f5db084d5ad6d1ff87144194aeae66bef28b3f764b8e0cd6d3",
+          "url": "https://linuxbrew.bintray.com/bottles/anjuta-3.28.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d402812770fad67e94aed33484c6ca12cdcd89a4d290e2d313b27f627caeea07",
+          "url": "https://linuxbrew.bintray.com/bottles/anjuta-3.28.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool",
+    "itstool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "pkg-config",
+    "intltool",
+    "itstool",
+    "gtksourceview3",
+    "libxml2",
+    "libgda",
+    "gdl",
+    "vte3",
+    "hicolor-icon-theme",
+    "adwaita-icon-theme",
+    "gnutls",
+    "shared-mime-info",
+    "vala",
+    "autogen",
+    "gnome-themes-standard"
+  ],
+  "desc": "GNOME Integrated Development Environment",
+  "full_name": "anjuta",
+  "homepage": "http://anjuta.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "anjuta",
+  "oldname": null,
+  "optional_dependencies": [
+    "gnome-themes-standard"
+  ],
+  "options": [
+    {
+      "description": "Build without vala support",
+      "option": "--without-vala"
+    },
+    {
+      "description": "Build without autogen support",
+      "option": "--without-autogen"
+    },
+    {
+      "description": "Build with gnome-themes-standard support",
+      "option": "--with-gnome-themes-standard"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "vala",
+    "autogen"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.28.0"
+  }
+}

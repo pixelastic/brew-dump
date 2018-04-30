@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "639934ea8fd85b8968cf33838be1f399b7479e844fef972d4fca0ba2ab8a4bf4",
+          "url": "https://linuxbrew.bintray.com/bottles/suil-0.10.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "836f6d8ad66cca4de66cd78c45205829627ee370b5485c0ef878bc9473d24ba6",
+          "url": "https://linuxbrew.bintray.com/bottles/suil-0.10.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "babe1c998fd93f29b86a767e01ad1518b95e74e17769b517c092ed4cbc0878bf",
+          "url": "https://linuxbrew.bintray.com/bottles/suil-0.10.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "lv2",
+    "gtk+"
+  ],
+  "desc": "Lightweight C library for loading and wrapping LV2 plugin UIs",
+  "full_name": "suil",
+  "homepage": "https://drobilla.net/software/suil/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "suil",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without gtk+ support",
+      "option": "--without-gtk+"
+    },
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "gtk+"
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.10.0"
+  }
+}

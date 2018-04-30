@@ -1,0 +1,88 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f6ef8ae275a8d0c03969eceb248235dbeafd4316d1c97f6a9b79d8aa4ef71027",
+          "url": "https://linuxbrew.bintray.com/bottles/boost@1.60-1.60.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "50568fe023b32cf9664b023d65d43d7f8e79bfa73415186f63a3faf0b4ae7cc8",
+          "url": "https://linuxbrew.bintray.com/bottles/boost@1.60-1.60.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8ab5b0be67a534c2340b488d27ebc51ccb088c49735949da4c0099359c6ef9f1",
+          "url": "https://linuxbrew.bintray.com/bottles/boost@1.60-1.60.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d727d8b3d4b78e069d75e87e4bfaaffd79d14ab3c30c444e2a9550202220fd47",
+          "url": "https://linuxbrew.bintray.com/bottles/boost@1.60-1.60.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "489a6420dc137a356ad300cb10a519073adbf99573515601f6bb87ff5a6622b3",
+          "url": "https://linuxbrew.bintray.com/bottles/boost@1.60-1.60.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Building of Boost.Log is disabled because it requires newer GCC or Clang.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "icu4c",
+    "bzip2",
+    "zlib"
+  ],
+  "desc": "Collection of portable C++ source libraries",
+  "full_name": "boost@1.60",
+  "homepage": "https://www.boost.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "boost@1.60",
+  "oldname": "boost160",
+  "optional_dependencies": [
+    "icu4c"
+  ],
+  "options": [
+    {
+      "description": "Build regexp engine with icu support",
+      "option": "--with-icu4c"
+    },
+    {
+      "description": "Disable building single-threading variant",
+      "option": "--without-single"
+    },
+    {
+      "description": "Disable building static library variant",
+      "option": "--without-static"
+    },
+    {
+      "description": "Build using C++11 mode",
+      "option": "--c++11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.60.0"
+  }
+}

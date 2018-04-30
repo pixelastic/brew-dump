@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "49ad4ebf6830c1ef3f6899486e711f99bc293d422317f8851f174cf18de2a98f",
+          "url": "https://linuxbrew.bintray.com/bottles/lv-4.51.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "912eaa08af6da7ddba73f4169695073614641d67561f4e632e47960f0c07c6b3",
+          "url": "https://linuxbrew.bintray.com/bottles/lv-4.51.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "6e1894088a741aba921e77a4935d6ad2d11f06f03a4ff775c45e4256728511a4",
+          "url": "https://linuxbrew.bintray.com/bottles/lv-4.51.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "01c44c5b3d18aa1602c00bc3ce8d0b71ae02cee6dfcff66d7e8df74b424b8de8",
+          "url": "https://linuxbrew.bintray.com/bottles/lv-4.51.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f31281558dc9da38402a86b2b3c03efb10ab471561bf72dd556c3cd8df23ba14",
+          "url": "https://linuxbrew.bintray.com/bottles/lv-4.51.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Powerful multi-lingual file viewer/grep",
+  "full_name": "lv",
+  "homepage": "https://web.archive.org/web/20160310122517/www.ff.iij4u.or.jp/~nrt/lv/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.51"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "2a1f0244a125e9028a1d4b99fb45eec5793bc96834696fdbef823fd801c91643",
+          "url": "https://linuxbrew.bintray.com/bottles/paps-0.6.8_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "180eee4688d9289f750afb0b4f763612874c7a42f2bea7ffb228a2e51f4681b9",
+          "url": "https://linuxbrew.bintray.com/bottles/paps-0.6.8_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8fe4408fc505e10a6fabd2d78e7fcefb33cccff53f8f404732771e3249509fb5",
+          "url": "https://linuxbrew.bintray.com/bottles/paps-0.6.8_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "pango",
+    "freetype",
+    "fontconfig",
+    "glib",
+    "gettext"
+  ],
+  "desc": "Pango to PostScript converter",
+  "full_name": "paps",
+  "homepage": "https://paps.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "paps",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.8"
+  }
+}

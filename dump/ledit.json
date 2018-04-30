@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "952162580a2542b7038b2702b8a2ed9223e519ca703b221daf054566723ecd59",
+          "url": "https://linuxbrew.bintray.com/bottles/ledit-2.04.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "55df7d80dfcfb5c04274f9a33a5fc03a4a1b9b2b1fb4f3b08c0cef83759c74a3",
+          "url": "https://linuxbrew.bintray.com/bottles/ledit-2.04.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b7e2b19079d843f9704572bf21de6251e7a6619d809ce230e22be5440517ab57",
+          "url": "https://linuxbrew.bintray.com/bottles/ledit-2.04.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ocaml",
+    "camlp5"
+  ],
+  "desc": "Line editor for interactive commands",
+  "full_name": "ledit",
+  "homepage": "http://pauillac.inria.fr/~ddr/ledit/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ledit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.04"
+  }
+}

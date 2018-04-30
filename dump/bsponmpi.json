@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "10a864ad11ea1145898ae9bcd8897f107c034818e66faf3632d916d51a13a191",
+          "url": "https://linuxbrew.bintray.com/bottles/bsponmpi-0.3_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b80c1f5b34b4530ae8cbf402418693e93bd400aa4fb14b998053a3c07024dd35",
+          "url": "https://linuxbrew.bintray.com/bottles/bsponmpi-0.3_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "caf59320e2eb005dc2de2daa363d15464e3c83519875503e3a498ab8963bb3aa",
+          "url": "https://linuxbrew.bintray.com/bottles/bsponmpi-0.3_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f0fdab74c81db0e65d122e33eb8d325d369ee060a9f395236a8ebd116818def1",
+          "url": "https://linuxbrew.bintray.com/bottles/bsponmpi-0.3_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "scons"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "scons",
+    "open-mpi"
+  ],
+  "desc": "Implements the BSPlib standard on top of MPI",
+  "full_name": "bsponmpi",
+  "homepage": "https://sourceforge.net/projects/bsponmpi/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bsponmpi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c2dc81794aa3bbc933b97196e07292e484f480e69f8fd1aec3b62b12f3902f38",
+          "url": "https://linuxbrew.bintray.com/bottles/fmsx-4.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ef9f89421934556b6c7ade31c4b027afa275e123cd32f2e1f1116cda38b8febb",
+          "url": "https://linuxbrew.bintray.com/bottles/fmsx-4.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8a0005dbba341780f5c384e0b7788e2cb7e0b93b2bb0efa89fccba2407fba619",
+          "url": "https://linuxbrew.bintray.com/bottles/fmsx-4.6.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6fcd0c12e2aa9be7a21e35ad51f307d958abb7cefcec3f57cfe33746fac7777b",
+          "url": "https://linuxbrew.bintray.com/bottles/fmsx-4.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "No sound under OS X due to missing /dev/dsp.\nBundled ROM files are located the following directory:\n  /home/tim/.linuxbrew/Cellar/fmsx/4.6/share/fmsx\nYou may want to use this directory to set `-home` option.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pulseaudio"
+  ],
+  "desc": "MSX emulator",
+  "full_name": "fmsx",
+  "homepage": "https://fms.komkon.org/fMSX/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fmsx",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.6"
+  }
+}

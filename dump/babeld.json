@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7e288b1ce8d4efc3d1a652fbac8a4a702af59cf53dc09edff50a22089f0aabc4",
+          "url": "https://linuxbrew.bintray.com/bottles/babeld-1.8.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9851d9aaecaa46680cf57cde463619dbd9311d85fd9df39de9a26e7aefa0f013",
+          "url": "https://linuxbrew.bintray.com/bottles/babeld-1.8.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d54052f62eed542a4deea14721c0fa731b034e34a17565c72e397403134410b6",
+          "url": "https://linuxbrew.bintray.com/bottles/babeld-1.8.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Loop-avoiding distance-vector routing protocol",
+  "full_name": "babeld",
+  "homepage": "https://www.irif.univ-paris-diderot.fr/~jch/software/babel/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "babeld",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.1"
+  }
+}

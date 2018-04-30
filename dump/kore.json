@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "226f73e82833adaecc36f648c742619b4ae8795f2fb30fc77c6e37cd5c9e73f1",
+          "url": "https://linuxbrew.bintray.com/bottles/kore-2.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "74d9babde97c58bab9e763510d60762b6be89237eb5129073b4820d31a6fe43c",
+          "url": "https://linuxbrew.bintray.com/bottles/kore-2.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "533aba9652749af143e213d66217d4330d7e5829334cd5258c22437266e78468",
+          "url": "https://linuxbrew.bintray.com/bottles/kore-2.0.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d6f89fc8e1527340fe295bc916327b1d41baf97dd5f0c8cd1f3f4b92c39c3da3",
+          "url": "https://linuxbrew.bintray.com/bottles/kore-2.0.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "postgresql"
+  ],
+  "desc": "Web application framework for writing web APIs in C",
+  "full_name": "kore",
+  "homepage": "https://kore.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "kore",
+  "oldname": null,
+  "optional_dependencies": [
+    "postgresql"
+  ],
+  "options": [
+    {
+      "description": "Build with postgresql support",
+      "option": "--with-postgresql"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.0"
+  }
+}

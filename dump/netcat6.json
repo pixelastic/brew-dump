@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "75fd93f36d745618b9c87a1f635a100db7fc2c3d659ecf39e77a282bf0efdb1b",
+          "url": "https://linuxbrew.bintray.com/bottles/netcat6-1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "42c8ecdb7495f55311d806e7dd3695c2dc664c536d5c6c0f7f0a84f150299a44",
+          "url": "https://linuxbrew.bintray.com/bottles/netcat6-1.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7b1d4a701e8fadedea4e5cc89d7cbcb5bf476476557975a71a681850c50bf872",
+          "url": "https://linuxbrew.bintray.com/bottles/netcat6-1.0.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "361c72d301addec6d417b52535da84dd924fdcdf9794889dc5ac0f240bb31b02",
+          "url": "https://linuxbrew.bintray.com/bottles/netcat6-1.0.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "134b64d2bca03d774a1375c9898504b5aba30de50dff543ca37033b7334fcaa5",
+          "url": "https://linuxbrew.bintray.com/bottles/netcat6-1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7020abcd43b4b1714a43e42f468895c6c02ad2a8a214bc36761b6b5f615cd127",
+          "url": "https://linuxbrew.bintray.com/bottles/netcat6-1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Rewrite of netcat that supports IPv6, plus other improvements",
+  "full_name": "netcat6",
+  "homepage": "https://www.deepspace6.net/projects/netcat6.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "netcat6",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Use silence patch from Debian",
+      "option": "--with-silence-patch"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0"
+  }
+}

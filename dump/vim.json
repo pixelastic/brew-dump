@@ -1,0 +1,111 @@
+{
+  "aliases": [
+    "vim@8.0"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "aa2cc10d5c27e19dd68a40dd698a0b7a6b9f7128e945c1634fbe8f79f7ace3b4",
+          "url": "https://linuxbrew.bintray.com/bottles/vim-8.0.1750.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2711f6b3822d388040bb2a6a8646236f99a22c4a42f246544b7588f65eb2309e",
+          "url": "https://linuxbrew.bintray.com/bottles/vim-8.0.1750.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9034af80b8cab01d7c60acff3ee035e2abd4afcae3b4ab2dac290101c41598da",
+          "url": "https://linuxbrew.bintray.com/bottles/vim-8.0.1750.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4229cac52447757efc753f5961e18c96b61735c88e61a79461ed3403af7dec83",
+          "url": "https://linuxbrew.bintray.com/bottles/vim-8.0.1750.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "ex-vi"
+  ],
+  "dependencies": [
+    "perl",
+    "ruby",
+    "python",
+    "gettext",
+    "lua",
+    "luajit",
+    "python@2",
+    "ncurses"
+  ],
+  "desc": "Vi 'workalike' with many additional features",
+  "full_name": "vim",
+  "homepage": "https://www.vim.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vim",
+  "oldname": null,
+  "optional_dependencies": [
+    "gettext",
+    "lua",
+    "luajit",
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Override system vi",
+      "option": "--with-override-system-vi"
+    },
+    {
+      "description": "Build vim with National Language Support (translated messages, keymaps)",
+      "option": "--with-gettext"
+    },
+    {
+      "description": "Enable client/server mode",
+      "option": "--with-client-server"
+    },
+    {
+      "description": "Build vim with python@2 instead of python[3] support",
+      "option": "--with-python@2"
+    },
+    {
+      "description": "Build vim with lua support",
+      "option": "--with-lua"
+    },
+    {
+      "description": "Build vim with tcl support",
+      "option": "--with-tcl"
+    },
+    {
+      "description": "Build vim without python support",
+      "option": "--without-python"
+    },
+    {
+      "description": "Build with luajit support",
+      "option": "--with-luajit"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "8.0.1750"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3aa8bd8510dbde22143fa6d9637d664951c4a48758c840548dcee0ce48f3b95f",
+          "url": "https://linuxbrew.bintray.com/bottles/nzbget-19.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0f508d759d085ea42af708598eba3d2f589614f6025f8ca160b93c6170d5576b",
+          "url": "https://linuxbrew.bintray.com/bottles/nzbget-19.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b2b460f1f4a850d282b3faa56a0cdc66d7d9f2072e34528fe1fc875f615e3705",
+          "url": "https://linuxbrew.bintray.com/bottles/nzbget-19.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f9731421aa1289d62d9f30691c3e643e8548eb066d55c72511ad74d994e826e7",
+          "url": "https://linuxbrew.bintray.com/bottles/nzbget-19.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "openssl",
+    "gcc"
+  ],
+  "desc": "Binary newsgrabber for nzb files",
+  "full_name": "nzbget",
+  "homepage": "https://nzbget.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nzbget",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "19.1"
+  }
+}

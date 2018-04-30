@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6d838378cae0971561da60dff1e887bf03b60d1a0ff198a5d468654ef790d9e9",
+          "url": "https://linuxbrew.bintray.com/bottles/sqtop-2015-02-08.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fe9a704fdf7f24dadba6b4f7cc20f8f07d93c19450701e01b408ea2f7574ec63",
+          "url": "https://linuxbrew.bintray.com/bottles/sqtop-2015-02-08.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f1ab5347b698d2e1221a5111fec52022159afc898e5ad7a5318becb23cd35543",
+          "url": "https://linuxbrew.bintray.com/bottles/sqtop-2015-02-08.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "39b62e9a679009e6dc0106a6e63d229b6c310d222966a0f69b90ec388926102e",
+          "url": "https://linuxbrew.bintray.com/bottles/sqtop-2015-02-08.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "30f51d2886adf914eef22af21dfac92f544c59c88b6e7961972eb6702e48d0c0",
+          "url": "https://linuxbrew.bintray.com/bottles/sqtop-2015-02-08.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "29291fedaa06b7b680e44e1b82f643f7ddffc67435312b7c2f3654df0728cb8b",
+          "url": "https://linuxbrew.bintray.com/bottles/sqtop-2015-02-08.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Display information about active connections for a Squid proxy",
+  "full_name": "sqtop",
+  "homepage": "https://github.com/paleg/sqtop",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sqtop",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2015-02-08"
+  }
+}

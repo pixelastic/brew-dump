@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d111333cf909b0045ae6b9682ab585455d8a6406064fcf218c781fc01bf67230",
+          "url": "https://linuxbrew.bintray.com/bottles/field3d-1.7.2_5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bba6ea534e9cbc76abec76aaa2bfeed7f1fd4e2e11aa24f7110deaf32f0be0e8",
+          "url": "https://linuxbrew.bintray.com/bottles/field3d-1.7.2_5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "58adcfa66e1517f2f2ad093c22c595db7eb637750de7e63bc677764016bcf427",
+          "url": "https://linuxbrew.bintray.com/bottles/field3d-1.7.2_5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "scons"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "scons",
+    "boost",
+    "hdf5",
+    "ilmbase"
+  ],
+  "desc": "Library for storing voxel data on disk and in memory",
+  "full_name": "field3d",
+  "homepage": "https://sites.google.com/site/field3d/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "field3d",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 5,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.2"
+  }
+}

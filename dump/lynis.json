@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9f1cc0d41b264d0427f9fd1f52e57f57086809e4fb720594e96033ad33705391",
+          "url": "https://linuxbrew.bintray.com/bottles/lynis-2.6.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9f1cc0d41b264d0427f9fd1f52e57f57086809e4fb720594e96033ad33705391",
+          "url": "https://linuxbrew.bintray.com/bottles/lynis-2.6.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9f1cc0d41b264d0427f9fd1f52e57f57086809e4fb720594e96033ad33705391",
+          "url": "https://linuxbrew.bintray.com/bottles/lynis-2.6.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "811bc77fdcef47cb42d4782661cdc837f413eed68a4d190b5a02e5455d62e598",
+          "url": "https://linuxbrew.bintray.com/bottles/lynis-2.6.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Security and system auditing tool to harden systems",
+  "full_name": "lynis",
+  "homepage": "https://cisofy.com/lynis/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lynis",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.6.3"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3d973e16cd11550df895d2a9c42e93c883fdceb0edb20d6493fbeb3961e0121b",
+          "url": "https://linuxbrew.bintray.com/bottles/percona-xtrabackup-2.4.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cb72c3a73e3ae5c7bb6e792b938a3a2f6a46548cfc297e2be328815aff13b5a4",
+          "url": "https://linuxbrew.bintray.com/bottles/percona-xtrabackup-2.4.10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "404795f3f2d5e965abc02b0c0cbb4a9beaa057343c182fc5220f1fee664182e8",
+          "url": "https://linuxbrew.bintray.com/bottles/percona-xtrabackup-2.4.10.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "sphinx-doc"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "sphinx-doc",
+    "mysql",
+    "libev",
+    "libgcrypt",
+    "openssl"
+  ],
+  "desc": "Open source hot backup tool for InnoDB and XtraDB databases",
+  "full_name": "percona-xtrabackup",
+  "homepage": "https://www.percona.com/software/mysql-database/percona-xtrabackup",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "percona-xtrabackup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without man pages (which requires python-sphinx)",
+      "option": "--without-docs"
+    },
+    {
+      "description": "Build without bundled Perl DBD::mysql module, to use the database of your choice.",
+      "option": "--without-mysql"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "mysql"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.10"
+  }
+}

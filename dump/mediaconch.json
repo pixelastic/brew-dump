@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b110435077f1d4164238760baa2bfaaa5e63b3a49a9600a86d710cfefc594e89",
+          "url": "https://linuxbrew.bintray.com/bottles/mediaconch-18.03.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d888f17d7347095c3516e1a51238fe01636578c1a2cf1d3e0162bd05e027ed5e",
+          "url": "https://linuxbrew.bintray.com/bottles/mediaconch-18.03.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "07b38dfc6333a72b2333562fc017ccb175a91de98d21c4046c445b62e7dbeb6a",
+          "url": "https://linuxbrew.bintray.com/bottles/mediaconch-18.03.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "203cc65b01f5b273d1bf7aa6e2eebe32804e4ecd51d6e48dce9c959f9ea96034",
+          "url": "https://linuxbrew.bintray.com/bottles/mediaconch-18.03.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "jansson",
+    "libevent",
+    "sqlite",
+    "libxslt",
+    "curl"
+  ],
+  "desc": "Conformance checker and technical metadata reporter",
+  "full_name": "mediaconch",
+  "homepage": "https://mediaarea.net/MediaConch",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mediaconch",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "18.03.2"
+  }
+}

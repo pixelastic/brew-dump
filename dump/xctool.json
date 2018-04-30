@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "cfd03ef1008a4a01b923e72fb7e79209d021d88ffe8bb89ac22307ba6af0cce0",
+          "url": "https://linuxbrew.bintray.com/bottles/xctool-0.3.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5ae94ec75e7d99216d1813fa1ee3a8912da3b4acace28969be3ba33ebaa4a162",
+          "url": "https://linuxbrew.bintray.com/bottles/xctool-0.3.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cd4e7895c40b15d12c5e55d206a29e88b22e5a8dea6107a25b50234fe1710ff0",
+          "url": "https://linuxbrew.bintray.com/bottles/xctool-0.3.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Drop-in replacement for xcodebuild with a few extra features",
+  "full_name": "xctool",
+  "homepage": "https://github.com/facebook/xctool",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xctool",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.3.4"
+  }
+}

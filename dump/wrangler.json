@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "dfa0d430822b57df1c044ab395d347c81311346aaa102e4097e05c7c42f38b32",
+          "url": "https://linuxbrew.bintray.com/bottles/wrangler-1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8203501c2afc2e702b0b164bd750a8fe8ea16c4cb42032e08af265165c279f93",
+          "url": "https://linuxbrew.bintray.com/bottles/wrangler-1.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "6296e18bc0641ba1b20becdb16f4aabc500069999a2a23c487cd98d8309855c2",
+          "url": "https://linuxbrew.bintray.com/bottles/wrangler-1.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "89663c4a49437fdd27f2446d829e1ef7c9ae4452280f8d087d71c3a89e5c319f",
+          "url": "https://linuxbrew.bintray.com/bottles/wrangler-1.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "45df8699e1ba28596cfe6395a321b56213aa5cfd6545ea0a5bafcce39e9574dd",
+          "url": "https://linuxbrew.bintray.com/bottles/wrangler-1.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "erlang"
+  ],
+  "desc": "Refactoring tool for Erlang with emacs and Eclipse integration",
+  "full_name": "wrangler",
+  "homepage": "https://www.cs.kent.ac.uk/projects/wrangler/Wrangler/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wrangler",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2"
+  }
+}

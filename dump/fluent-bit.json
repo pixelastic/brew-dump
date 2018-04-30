@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9c61cd9242df2fc7ad8362a7e2c63ea38bef0eaf6e5d64ad7c00bbd187e5e82c",
+          "url": "https://linuxbrew.bintray.com/bottles/fluent-bit-0.12.19.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "12cb73e8117d81c7ae5b7cd4adafc0dcca0aca3a13219772e56273f6ae39d225",
+          "url": "https://linuxbrew.bintray.com/bottles/fluent-bit-0.12.19.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fcfbe096c94f8f5b5d3b3fa9d69695b70f4ebde416d362b0b4345563895a5eda",
+          "url": "https://linuxbrew.bintray.com/bottles/fluent-bit-0.12.19.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "mbedtls",
+    "msgpack"
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Data Collector for IoT",
+  "full_name": "fluent-bit",
+  "homepage": "https://github.com/fluent/fluent-bit",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fluent-bit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.12.19"
+  }
+}

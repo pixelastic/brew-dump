@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "50200eb6f7cb61be39420d2e127eb4e2af9391a514f7cfbd26fa9203ca137d21",
+          "url": "https://linuxbrew.bintray.com/bottles/compface-1.5.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "15f3ed9a165fa2f4966fde4de5b8b1c62d583425e0c3d9961b26348f6355bfcc",
+          "url": "https://linuxbrew.bintray.com/bottles/compface-1.5.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "3208feb3c0055906ee163662c0d5b5cbe561222128a0979f6e159110973ee3fa",
+          "url": "https://linuxbrew.bintray.com/bottles/compface-1.5.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "092d90367b0fa75ff8a1be3982cda127226fb9805c681170f66fe27c148c8d1b",
+          "url": "https://linuxbrew.bintray.com/bottles/compface-1.5.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4f7a202ead9c7b6ba1498be71c937500d64cad15ae451ec37c54a8fba70816a0",
+          "url": "https://linuxbrew.bintray.com/bottles/compface-1.5.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Convert to and from the X-Face format",
+  "full_name": "compface",
+  "homepage": "https://web.archive.org/web/20170720045032/freecode.com/projects/compface",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "compface",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.2"
+  }
+}

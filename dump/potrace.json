@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "318e2448e2596b9629537edc4e5c408ea4e1f538ec6f1d90b17589aced9836ff",
+          "url": "https://linuxbrew.bintray.com/bottles/potrace-1.15.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f98e3daaed06c6296d446c53087b82a7e100eb3407d41075e706e66327c26f95",
+          "url": "https://linuxbrew.bintray.com/bottles/potrace-1.15.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b71fa6c507b43df9e48dc0259e5dfb803a13c9728ffd6978b9798d03da363e0d",
+          "url": "https://linuxbrew.bintray.com/bottles/potrace-1.15.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "dad163b773ea01123ccefc6a9ddba7d02c234fe384a9a41e6029887c319ececc",
+          "url": "https://linuxbrew.bintray.com/bottles/potrace-1.15.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Convert bitmaps to vector graphics",
+  "full_name": "potrace",
+  "homepage": "https://potrace.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "potrace",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.15"
+  }
+}

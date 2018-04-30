@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d91d9e54d3522a3c6aca928660d6521455fa2ddc21e766e8f386fd58ebaac17b",
+          "url": "https://linuxbrew.bintray.com/bottles/gperftools-2.6.3_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0d36f2291e12318c900358e5c5b38d1322533173d66cc64ec17e404333b40a70",
+          "url": "https://linuxbrew.bintray.com/bottles/gperftools-2.6.3_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "498699638aa7e06c11c7ceee5b7c4bb96eaffa02ef0fe043b22140fe5f22c575",
+          "url": "https://linuxbrew.bintray.com/bottles/gperftools-2.6.3_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "dc18f4881b770a7e02afdb3c359c2d13ce54439f4fe8e1831d161a8348bb7411",
+          "url": "https://linuxbrew.bintray.com/bottles/gperftools-2.6.3_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "xz"
+  ],
+  "desc": "Multi-threaded malloc() and performance analysis tools",
+  "full_name": "gperftools",
+  "homepage": "https://github.com/gperftools/gperftools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gperftools",
+  "oldname": "google-perftools",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.6.3"
+  }
+}

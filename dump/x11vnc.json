@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f4a33301592ef159be8f999fce086875bf88afd6ad2b48d6709c2f32d4ab3be1",
+          "url": "https://linuxbrew.bintray.com/bottles/x11vnc-0.9.13_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3ed573fd3d02c34f407858af3f6e01386d1af2fc9fee16258eea94a4b2c19137",
+          "url": "https://linuxbrew.bintray.com/bottles/x11vnc-0.9.13_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3f840749807f57b4248c9ae202a214209c4bf4c4e7386d47da83b424153abe2a",
+          "url": "https://linuxbrew.bintray.com/bottles/x11vnc-0.9.13_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "38e07e6c3a26cf1e8d60f1a4e7061da400afb9bb2803f0dd79566c5a3bfd0d22",
+          "url": "https://linuxbrew.bintray.com/bottles/x11vnc-0.9.13_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "jpeg"
+  ],
+  "desc": "VNC server for real X displays",
+  "full_name": "x11vnc",
+  "homepage": "http://www.karlrunge.com/x11vnc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "x11vnc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.13"
+  }
+}

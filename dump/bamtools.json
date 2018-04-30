@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "920e533776328d79f47bb562af5cfa00d855223818916e00614ee81d821f211c",
+          "url": "https://linuxbrew.bintray.com/bottles/bamtools-2.5.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cd3886cfb77b71ef9924d5475e4dbae2d42c4c66ef3880de33ca202855ce92b0",
+          "url": "https://linuxbrew.bintray.com/bottles/bamtools-2.5.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5e72d5b1b5b18551bbd91c7f3b7a2dd6e763b13add38b9a3a798bb5a450be64e",
+          "url": "https://linuxbrew.bintray.com/bottles/bamtools-2.5.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a2834fffb6da7861d948cdfe78e9942bff4e88bc17361a506ac5d2058acef3c9",
+          "url": "https://linuxbrew.bintray.com/bottles/bamtools-2.5.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "C++ API and command-line toolkit for BAM data",
+  "full_name": "bamtools",
+  "homepage": "https://github.com/pezmaster31/bamtools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bamtools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.5.1"
+  }
+}

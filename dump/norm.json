@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "985bbdc34e0f8f16f2d377bea4c0442abb0f7cbaf67b56cb40b924bb09c394b5",
+          "url": "https://linuxbrew.bintray.com/bottles/norm-1.5r6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "253fcd48d81db23132b15a295ef822f5d9f02f13a79ff4e906ad7381ca418bc7",
+          "url": "https://linuxbrew.bintray.com/bottles/norm-1.5r6.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b5f802ff09e68b712f472f45aea9b634f6c45868bccaf708d565ff98a95b145e",
+          "url": "https://linuxbrew.bintray.com/bottles/norm-1.5r6.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "e04bed5670762178e4415296b95829b9e3c75da265f9375c6c6efac310b7b3d4",
+          "url": "https://linuxbrew.bintray.com/bottles/norm-1.5r6.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a23a43d211bccabe0df629618f53acf41d6250d1fc85111397d769f007d30b9f",
+          "url": "https://linuxbrew.bintray.com/bottles/norm-1.5r6.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2c165178bfce5879bb6e031b4d54f741cad2868d67b03783f89a13d15503f28d",
+          "url": "https://linuxbrew.bintray.com/bottles/norm-1.5r6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "NACK-Oriented Reliable Multicast",
+  "full_name": "norm",
+  "homepage": "https://www.nrl.navy.mil/itd/ncs/products/norm",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "norm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5r6"
+  }
+}

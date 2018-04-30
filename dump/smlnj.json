@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1b3e5a9a3f7583f3920f36f99726578be29f943eda6bee9e61e08257ea5beab1",
+          "url": "https://linuxbrew.bintray.com/bottles/smlnj-110.82.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4abfb70ad672ac4e14ff71d160800ba393a1ebb18dd94b141151622935d84faf",
+          "url": "https://linuxbrew.bintray.com/bottles/smlnj-110.82.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6778b4e08a5c2cca24180c262ade8c68a15074f5a77f21bb60bde59a6e8ec9bf",
+          "url": "https://linuxbrew.bintray.com/bottles/smlnj-110.82.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Standard ML of New Jersey",
+  "full_name": "smlnj",
+  "homepage": "https://www.smlnj.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "smlnj",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "110.82"
+  }
+}

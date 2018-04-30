@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "866478c27b8a39507fc9afa8aa4793e58e071f81acd45e3e90628a2f95d08e4b",
+          "url": "https://linuxbrew.bintray.com/bottles/lean-3.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6bb7a327d8affe2685a07cb339abf8f49dbf9984b67ce28987d6ae37975470c4",
+          "url": "https://linuxbrew.bintray.com/bottles/lean-3.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8a1979e0ce82b2672100412c3e9a81e89f281128eb820570a429bcada4664db0",
+          "url": "https://linuxbrew.bintray.com/bottles/lean-3.3.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "gmp",
+    "jemalloc"
+  ],
+  "desc": "Theorem prover",
+  "full_name": "lean",
+  "homepage": "https://leanprover.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lean",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.3.0"
+  }
+}

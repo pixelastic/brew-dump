@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3240813838be9e797fd443e5f51d6bb53fc56a8d958dd361cbc865de003619bd",
+          "url": "https://linuxbrew.bintray.com/bottles/json-table-4.3.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2afef9b965070bcde986759dbd03cfd8fe3e77aec5a12158fb4aa189626ab977",
+          "url": "https://linuxbrew.bintray.com/bottles/json-table-4.3.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e5ed8ece1e10ede4417f347703f1e62bb417c65a11f6cac5f10915d44359eb5b",
+          "url": "https://linuxbrew.bintray.com/bottles/json-table-4.3.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ecff6ae31141bf53b9bf2189e38cd23adc69ed679776750aa6a08bdf0a787aeb",
+          "url": "https://linuxbrew.bintray.com/bottles/json-table-4.3.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Transform nested JSON data into tabular data in the shell",
+  "full_name": "json-table",
+  "homepage": "https://github.com/micha/json-table",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "json-table",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.3.3"
+  }
+}

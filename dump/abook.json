@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "fc5e09a73519a20dbe90258d6779bfddb1a02b2fc277fd54b4cd8c80c378539d",
+          "url": "https://linuxbrew.bintray.com/bottles/abook-0.5.6_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3eb9e2e7003ef3501c63d87a5a632791769c84ac4d81a2c5fe1d40c04986e19f",
+          "url": "https://linuxbrew.bintray.com/bottles/abook-0.5.6_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e32cff277928e0b5cd24f201b1b5f94faf5469f263856b48c78f85b539018c86",
+          "url": "https://linuxbrew.bintray.com/bottles/abook-0.5.6_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9184c87dd04a0b78929cb76782bcb0d5fb14424f4bcaf3acaf1d1f111d00ff6a",
+          "url": "https://linuxbrew.bintray.com/bottles/abook-0.5.6_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2f3a8d37fd17ecdda801f8de53e4048f19d824748e11a34c6f9abca0aae06c3b",
+          "url": "https://linuxbrew.bintray.com/bottles/abook-0.5.6_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "readline"
+  ],
+  "desc": "Address book with mutt support",
+  "full_name": "abook",
+  "homepage": "https://abook.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "abook",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "0.6.0pre2",
+    "head": "HEAD",
+    "stable": "0.5.6"
+  }
+}

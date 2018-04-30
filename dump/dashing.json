@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b37d425623bdbb32fe99d58c6d15cbc0753706aad3758aaf95ed229316e2a185",
+          "url": "https://linuxbrew.bintray.com/bottles/dashing-0.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8977385e74741b7e014e971a320f58c360eede59f68894f1539040b5af474a25",
+          "url": "https://linuxbrew.bintray.com/bottles/dashing-0.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "09fb6574fe2cf30bb94197730b7e6d3117929607a571e42058a40a5e7b500e70",
+          "url": "https://linuxbrew.bintray.com/bottles/dashing-0.3.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f568ff02790d9738bf9801e44ea837b529e53909405d5d41baf67faf11c1516c",
+          "url": "https://linuxbrew.bintray.com/bottles/dashing-0.3.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "glide",
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "glide",
+    "go"
+  ],
+  "desc": "Generate Dash documentation from HTML files",
+  "full_name": "dashing",
+  "homepage": "https://github.com/technosophos/dashing",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dashing",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.0"
+  }
+}

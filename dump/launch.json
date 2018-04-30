@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9905b0dd99460cd88d48a1cf4c230ec03db380262001fa7a2ba54cbcbb84fad0",
+          "url": "https://linuxbrew.bintray.com/bottles/launch-1.2.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7ea743ebff2392770ebb7bd7ff0a420ad9a3f6bc50d1181df7518a5fe46a8000",
+          "url": "https://linuxbrew.bintray.com/bottles/launch-1.2.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4fa06c0d934752695a0c823c51569063b50f8826c7fb9cbd302f731b059e4225",
+          "url": "https://linuxbrew.bintray.com/bottles/launch-1.2.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Command-line launcher for macOS, in the spirit of `open`",
+  "full_name": "launch",
+  "homepage": "https://sabi.net/nriley/software/#launch",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "launch",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.5"
+  }
+}

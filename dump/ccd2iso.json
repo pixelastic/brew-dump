@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e74b2779ef3d832bc899422285c2d03ea33aa6ab979ca835914343999b444671",
+          "url": "https://linuxbrew.bintray.com/bottles/ccd2iso-0.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9d33b636be5f43c1e40955323c2f5d4a02d603c990aab2c89e98b5cb16a5cf93",
+          "url": "https://linuxbrew.bintray.com/bottles/ccd2iso-0.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "46facd34e7bbf203fe76dcd6e99bcf066eb245992aef01f1d703a9ce7a69cac3",
+          "url": "https://linuxbrew.bintray.com/bottles/ccd2iso-0.3.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "a1b425ff8a3eca4faa223119b1c5b4bd4cfc4be5a1f8bf953e3776cca4426155",
+          "url": "https://linuxbrew.bintray.com/bottles/ccd2iso-0.3.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c855496f0265a8f806228cddc1c15d5a1d6e7186f4bb43c0a317a6256d8e8e85",
+          "url": "https://linuxbrew.bintray.com/bottles/ccd2iso-0.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "020f198fa4476dc640fa14e8efa7ad04985143e7007c45610b890bdc7db47599",
+          "url": "https://linuxbrew.bintray.com/bottles/ccd2iso-0.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Convert CloneCD images to ISO images",
+  "full_name": "ccd2iso",
+  "homepage": "https://ccd2iso.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ccd2iso",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "078acc418ec19bdfb68c826279ac31dd143a4992d580dcacd9d6c5a33c9e0bd1",
+          "url": "https://linuxbrew.bintray.com/bottles/gxml-0.16.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0908c2bd5015de8acbab29ea0c42d9d274705b830424fb7c31f4c1a6088b5c1e",
+          "url": "https://linuxbrew.bintray.com/bottles/gxml-0.16.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d85960c0109b86ac07a51aea852b5d19bafb75bc55dd360b140ac27aa4de4721",
+          "url": "https://linuxbrew.bintray.com/bottles/gxml-0.16.3_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "gtk-doc",
+    "pkg-config",
+    "intltool",
+    "vala"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "gtk-doc",
+    "pkg-config",
+    "intltool",
+    "vala",
+    "libxml2",
+    "glib",
+    "libgee"
+  ],
+  "desc": "GObject-based XML DOM API",
+  "full_name": "gxml",
+  "homepage": "https://wiki.gnome.org/GXml",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gxml",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.16.3"
+  }
+}

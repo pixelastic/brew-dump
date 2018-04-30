@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2360d92a613c69b69a4b20cc13b081d333c8ee9a48311ffd41ff8a036bc9fcff",
+          "url": "https://linuxbrew.bintray.com/bottles/pdfsandwich-0.1.6_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c9d15595a1464fef2f81fb8407341ade62ad10d0e0c0f02f89a20d0b68fbb55f",
+          "url": "https://linuxbrew.bintray.com/bottles/pdfsandwich-0.1.6_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ed31bc5b7ab23423ae7e94fa26152ae0313061ec5bdfcc2f0cbeaf2a778fa323",
+          "url": "https://linuxbrew.bintray.com/bottles/pdfsandwich-0.1.6_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gawk",
+    "ocaml"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gawk",
+    "ocaml",
+    "exact-image",
+    "ghostscript",
+    "imagemagick",
+    "poppler",
+    "tesseract",
+    "unpaper"
+  ],
+  "desc": "Generate sandwich OCR PDFs from scanned file",
+  "full_name": "pdfsandwich",
+  "homepage": "http://www.tobias-elze.de/pdfsandwich/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pdfsandwich",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.1.6"
+  }
+}

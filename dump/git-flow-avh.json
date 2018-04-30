@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f54736764e21c714e51cab2bb2bda7d8f775fabe6575f57cf31d02ba4f57a673",
+          "url": "https://linuxbrew.bintray.com/bottles/git-flow-avh-1.11.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e48230e7b1bfd53aba1608167e607c3fc9792b05bd3063ef5bb47bebbdb9ddc5",
+          "url": "https://linuxbrew.bintray.com/bottles/git-flow-avh-1.11.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f54736764e21c714e51cab2bb2bda7d8f775fabe6575f57cf31d02ba4f57a673",
+          "url": "https://linuxbrew.bintray.com/bottles/git-flow-avh-1.11.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ae6f961d94d1d020037965069302d457f237941bbcc2bfaa64154ed207a2b02f",
+          "url": "https://linuxbrew.bintray.com/bottles/git-flow-avh-1.11.0_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f54736764e21c714e51cab2bb2bda7d8f775fabe6575f57cf31d02ba4f57a673",
+          "url": "https://linuxbrew.bintray.com/bottles/git-flow-avh-1.11.0_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "git-flow"
+  ],
+  "dependencies": [
+    "gnu-getopt"
+  ],
+  "desc": "AVH edition of git-flow",
+  "full_name": "git-flow-avh",
+  "homepage": "https://github.com/petervanderdoes/gitflow-avh",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git-flow-avh",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.11.0"
+  }
+}

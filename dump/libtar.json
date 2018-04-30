@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "018f1c9897f52b783878db67db39a5933a4863a3f9dedc2af9b6bf13f2161957",
+          "url": "https://linuxbrew.bintray.com/bottles/libtar-1.2.20.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a263cfaa1499f0c82902009964df0a310e7841ddff29409c67ede0a79157c31e",
+          "url": "https://linuxbrew.bintray.com/bottles/libtar-1.2.20.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b8eb40cc1715243eb0ff85eddd2a5f5546e19ca7278ce30b08bd8e1bd3f0682f",
+          "url": "https://linuxbrew.bintray.com/bottles/libtar-1.2.20.mavericks.bottle.2.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "7e79320f86f0fc61f80a041e48aafacc9148403b124dd0543b78c84bdf1b3384",
+          "url": "https://linuxbrew.bintray.com/bottles/libtar-1.2.20.mountain_lion.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "68bdebde24477a815ea03289878ad57e8a1f719b417bef430bf477c2d760cad7",
+          "url": "https://linuxbrew.bintray.com/bottles/libtar-1.2.20.sierra.bottle.2.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "895b12d04e1cda40eb0458d3125a534aa38daed594ff3f68fd65a8e3f5bc86f0",
+          "url": "https://linuxbrew.bintray.com/bottles/libtar-1.2.20.x86_64_linux.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d8d138fb4c1cf8c33aaaf8633cd748e9a423e84f1df886ae1842d4816b1f34a0",
+          "url": "https://linuxbrew.bintray.com/bottles/libtar-1.2.20.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "desc": "C library for manipulating POSIX tar files",
+  "full_name": "libtar",
+  "homepage": "http://repo.or.cz/w/libtar.git",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libtar",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.20"
+  }
+}

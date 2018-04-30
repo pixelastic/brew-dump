@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "804a50262bcbda1317bb3c07b9b1c9dc53da3721c719c94d53278f3190b497f0",
+          "url": "https://linuxbrew.bintray.com/bottles/pdal-1.7.1_2.el_capitan.bottle.tar.gz"
+        },
+        "sierra_or_later": {
+          "sha256": "9fc7e920fb34e5b966b4592c9d649ea6042179e85c6058a2c2f2ea9632f63b10",
+          "url": "https://linuxbrew.bintray.com/bottles/pdal-1.7.1_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "gdal",
+    "hdf5",
+    "laszip",
+    "numpy",
+    "pcl",
+    "postgresql"
+  ],
+  "desc": "Point data abstraction library",
+  "full_name": "pdal",
+  "homepage": "https://www.pdal.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pdal",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.7.1"
+  }
+}

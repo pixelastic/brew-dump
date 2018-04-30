@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "high_sierra": {
+          "sha256": "bb5d11f44ba595f13aa00cfe6439d20e39c84ae78f84a38117cce81150393a30",
+          "url": "https://linuxbrew.bintray.com/bottles/rswift-4.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8638bcbaa77fd1861c6d1978bed6d2ff7cbc2bdc7ae6d25df9471428d53b784d",
+          "url": "https://linuxbrew.bintray.com/bottles/rswift-4.0.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Get strong typed, autocompleted resources like images, fonts and segues",
+  "full_name": "rswift",
+  "homepage": "https://github.com/mac-cain13/R.swift",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rswift",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.0.0"
+  }
+}

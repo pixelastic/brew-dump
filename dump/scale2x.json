@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "033e1adf0430ced99eef1b746842e9ca876b542f6fbd8f050e8f7c7e1b59f692",
+          "url": "https://linuxbrew.bintray.com/bottles/scale2x-4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2a3519bdbba8ff6caa1ca9b48d461866b8121dfd224a2c25da106087bb3cfd61",
+          "url": "https://linuxbrew.bintray.com/bottles/scale2x-4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "771e1b1ea660234e8bea89e774d0d802f7f1cb12c08e100cbb5b83d0a02a61ea",
+          "url": "https://linuxbrew.bintray.com/bottles/scale2x-4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "caa20bd633f2b27b9f781cdb7148ded5edda2877dce1dc2825d17cb5730b976d",
+          "url": "https://linuxbrew.bintray.com/bottles/scale2x-4.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libpng"
+  ],
+  "desc": "Real-time graphics effect",
+  "full_name": "scale2x",
+  "homepage": "https://www.scale2x.it/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "scale2x",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.0"
+  }
+}

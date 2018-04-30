@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "190a11fe9d63b99fe2982a79d83bd7ba59f4c7ef104ce860eb9ae48acb56335b",
+          "url": "https://linuxbrew.bintray.com/bottles/msktutil-1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cba1afff1683efb3d6f6d500047c10691b0f46c904f404d8fbfdbed08200cc54",
+          "url": "https://linuxbrew.bintray.com/bottles/msktutil-1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3bf390f92696706f4f6241230024c9bdb13c78c05c9f81faffc356cbcb4ed443",
+          "url": "https://linuxbrew.bintray.com/bottles/msktutil-1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c88bffcb5bacc334333d1bf614005ce65acb4d40e8c73f249313762e017ee8bb",
+          "url": "https://linuxbrew.bintray.com/bottles/msktutil-1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Active Directory keytab management",
+  "full_name": "msktutil",
+  "homepage": "https://sourceforge.net/projects/msktutil/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "msktutil",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0"
+  }
+}

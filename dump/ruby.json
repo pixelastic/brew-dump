@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "ruby@2.5"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "91f06a229b8f8a89cdb3870517d1f5d22a4ba915e43bc7c2b20d3224778492cd",
+          "url": "https://linuxbrew.bintray.com/bottles/ruby-2.5.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8e0435a0c5b066866799464e6603ceb2afe20f5dc92ed98e1057dd5a319f5cc2",
+          "url": "https://linuxbrew.bintray.com/bottles/ruby-2.5.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3bfecdbe9caf5cf8e13bfccdfb2cf1ad1f8d1ce6efb62152d73717ac63479eaf",
+          "url": "https://linuxbrew.bintray.com/bottles/ruby-2.5.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b331a137121331dbfacb48586dd942700385866531f6ffdd7ad5febbb0d051e4",
+          "url": "https://linuxbrew.bintray.com/bottles/ruby-2.5.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libyaml",
+    "openssl",
+    "readline",
+    "zlib"
+  ],
+  "desc": "Powerful, clean, object-oriented scripting language",
+  "full_name": "ruby",
+  "homepage": "https://www.ruby-lang.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ruby",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "2.6.0-preview1",
+    "head": "HEAD",
+    "stable": "2.5.1"
+  }
+}

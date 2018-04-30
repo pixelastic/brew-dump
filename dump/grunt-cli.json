@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b2d83d0d16fc8e9545d34bf57f3f21902639693df09a4d1ad0ecdc911c29d9a5",
+          "url": "https://linuxbrew.bintray.com/bottles/grunt-cli-1.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9dc85aa193bf41fb6e8b4857264692824643fc248790337523c92e2e736e12ec",
+          "url": "https://linuxbrew.bintray.com/bottles/grunt-cli-1.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "418c56ce7e11dde5606e3e0d01ff93051af7d9391940dddb75cbb480cd9f3837",
+          "url": "https://linuxbrew.bintray.com/bottles/grunt-cli-1.2.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8e1da144c2febcbde826b802f1110c25e27dd1d8a534f19a7171fcf88227a7e0",
+          "url": "https://linuxbrew.bintray.com/bottles/grunt-cli-1.2.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "desc": "JavaScript Task Runner",
+  "full_name": "grunt-cli",
+  "homepage": "https://gruntjs.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "grunt-cli",
+  "oldname": "grunt",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.0"
+  }
+}

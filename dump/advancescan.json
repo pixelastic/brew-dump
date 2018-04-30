@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e4295866cda2370aa37cb1144ff1269ada4df6b76145a25efaf072d7a6b09b5c",
+          "url": "https://linuxbrew.bintray.com/bottles/advancescan-1.18.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d0a8416434aa03573dcbadebd135fbcfa6f4829934622ab8afe68aa496ec5e48",
+          "url": "https://linuxbrew.bintray.com/bottles/advancescan-1.18.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0bc4290c65271b84aec455adbaf85795857b19102e6efb152a64623420ae5757",
+          "url": "https://linuxbrew.bintray.com/bottles/advancescan-1.18.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f91cbe31c7c8072fffffcd0cc8766e20df6f728abc73f66140f97c0a49d6f6c8",
+          "url": "https://linuxbrew.bintray.com/bottles/advancescan-1.18.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Rom manager for AdvanceMAME/MESS",
+  "full_name": "advancescan",
+  "homepage": "https://www.advancemame.it/scan-readme.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "advancescan",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.18"
+  }
+}

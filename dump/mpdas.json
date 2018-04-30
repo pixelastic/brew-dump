@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c9261f50d1d71969474203f6431d7902198c3524d828ed6f690733094444a914",
+          "url": "https://linuxbrew.bintray.com/bottles/mpdas-0.4.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ae319b22981a8cc5ed9a0e0212f2ecdbd7660bcd32182334865a01ac69c2832f",
+          "url": "https://linuxbrew.bintray.com/bottles/mpdas-0.4.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "06fe51aaa95bfd3000f1f9e562709d266ecbf1880d2b96779ff0c9b9d82dea20",
+          "url": "https://linuxbrew.bintray.com/bottles/mpdas-0.4.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libmpdclient"
+  ],
+  "desc": "C++ client to submit tracks to audioscrobbler",
+  "full_name": "mpdas",
+  "homepage": "https://www.50hz.ws/mpdas/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mpdas",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.5"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "44dd6d68e4a150df8eea8ab3c3459574d0971dc59544e42d4f348e659b45dceb",
+          "url": "https://linuxbrew.bintray.com/bottles/debianutils-4.8.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9993f2f595a8d2e7af08ebf4714d60c28033c6ebca36a749bdbf3c37132734ca",
+          "url": "https://linuxbrew.bintray.com/bottles/debianutils-4.8.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "979a2f4b64472fc890fb6cec060bcde6669cbaebac77dd40d12a590ebc790f80",
+          "url": "https://linuxbrew.bintray.com/bottles/debianutils-4.8.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "be050fbd384ace3536e24f065642940fe1b131b13f34c6ae4fd9cd9a4595fc76",
+          "url": "https://linuxbrew.bintray.com/bottles/debianutils-4.8.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Miscellaneous utilities specific to Debian",
+  "full_name": "debianutils",
+  "homepage": "https://packages.debian.org/sid/debianutils",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "debianutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.8.4"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "cc3333f73161a96deb410ae0b8185a74e0c2a5bc8e62018929b17efe6ef732b8",
+          "url": "https://linuxbrew.bintray.com/bottles/libvbucket-1.8.0.4.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bce41a629d7cf6504a1d5fa518d31cc46fcc93b8c82187167d4ab9306f2d593d",
+          "url": "https://linuxbrew.bintray.com/bottles/libvbucket-1.8.0.4.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "920f0656e62f10e6fc6649b0edc4a6f46dc196f931b7c14833608d9e926a4d09",
+          "url": "https://linuxbrew.bintray.com/bottles/libvbucket-1.8.0.4.mavericks.bottle.1.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "e0cd80d589c2375f3b2f4d0f1f7f19b94264f93d603d9539c0da637eb473ce72",
+          "url": "https://linuxbrew.bintray.com/bottles/libvbucket-1.8.0.4.mountain_lion.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "69c96d5758926202939b79930d82da27bd65d50e0ef19d844ac705cacd99ba58",
+          "url": "https://linuxbrew.bintray.com/bottles/libvbucket-1.8.0.4.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "dd69ae3261c461b15bd29e435ab95496441dfde4535cb7d6925527cdfa8c64dd",
+          "url": "https://linuxbrew.bintray.com/bottles/libvbucket-1.8.0.4.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Utility library providing mapping to virtual buckets",
+  "full_name": "libvbucket",
+  "homepage": "https://couchbase.com/develop/c/current",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libvbucket",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.0.4"
+  }
+}

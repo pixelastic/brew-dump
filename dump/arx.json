@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "53e9ec5f8017204e3c97f88c7a57f1701a5243af64e02f00e728625db58ec818",
+          "url": "https://linuxbrew.bintray.com/bottles/arx-0.2.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bc4fc482effff6cf3fa25c359640e7ec9739e7ce048cdaf26b9fda459870c8f6",
+          "url": "https://linuxbrew.bintray.com/bottles/arx-0.2.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f36dbf51a7bd08e5e5b9923c7d39e276c3405ccae326016e70c1ea730fedd7fa",
+          "url": "https://linuxbrew.bintray.com/bottles/arx-0.2.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cabal-install",
+    "ghc"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cabal-install",
+    "ghc"
+  ],
+  "desc": "Bundles files and programs for easy transfer and repeatable execution",
+  "full_name": "arx",
+  "homepage": "https://github.com/solidsnack/arx",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "arx",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.3"
+  }
+}

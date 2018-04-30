@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6cbc1585005c114105d1dfc758b3e522df63970086a79feaefeb8c496bf041e8",
+          "url": "https://linuxbrew.bintray.com/bottles/raine-0.64.13.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5c3d0fa6dcef53ac42e2ca4b54ae91f4cbbdf83e3614056c3c6b58a2b6083db2",
+          "url": "https://linuxbrew.bintray.com/bottles/raine-0.64.13.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "74e67059ae1ba9105c47aef4d46b871273023c2778f2cc939e9e6e2dd9020114",
+          "url": "https://linuxbrew.bintray.com/bottles/raine-0.64.13.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "nasm",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "nasm",
+    "pkg-config"
+  ],
+  "desc": "680x0 arcade emulator",
+  "full_name": "raine",
+  "homepage": "https://raine.1emulation.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "raine",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.64.13"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1521942c30bd7443a79d944c384391cea0944089a0242b89f31c2c2e4dda1e81",
+          "url": "https://linuxbrew.bintray.com/bottles/apollo-1.7.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "48b09eb2c2be0ed37a27b6b4d6835c5db6d80c877ea10e46296ddd17f8e646ba",
+          "url": "https://linuxbrew.bintray.com/bottles/apollo-1.7.1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1d4d6ac835aa8f72d8fb3084780e215986737c6609dff27a552730f2df9f5fc7",
+          "url": "https://linuxbrew.bintray.com/bottles/apollo-1.7.1.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ec8bd2fc4541adb625796c0dd925620c7abf4ede0ce735c2ab3873bde21d379d",
+          "url": "https://linuxbrew.bintray.com/bottles/apollo-1.7.1.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1521942c30bd7443a79d944c384391cea0944089a0242b89f31c2c2e4dda1e81",
+          "url": "https://linuxbrew.bintray.com/bottles/apollo-1.7.1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To create the broker:\n    /home/tim/.linuxbrew/Cellar/apollo/1.7.1/bin/apollo create /home/tim/.linuxbrew/var/apollo\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Multi-protocol messaging broker based on ActiveMQ",
+  "full_name": "apollo",
+  "homepage": "https://activemq.apache.org/apollo",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "apollo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Install without bdb store support",
+      "option": "--without-bdb"
+    },
+    {
+      "description": "Install without MQTT protocol support",
+      "option": "--without-mqtt"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.1"
+  }
+}

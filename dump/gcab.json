@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "87bef1462d6e43615cb099cf8d6c061f52814c257430f2dc0cbbbb69856af99b",
+          "url": "https://linuxbrew.bintray.com/bottles/gcab-1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "89af1288fc8177bc3dd3e4f3c7791cd33ac5d29df158e2ed19928ff10a44b335",
+          "url": "https://linuxbrew.bintray.com/bottles/gcab-1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2bfa5379c2f250514d0309557d972396d48f978c669d446d1032079cba94dbff",
+          "url": "https://linuxbrew.bintray.com/bottles/gcab-1.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e93b8413b8fce2ec6f47905213cb93815b8ad816a9b65179bc2b7493a5274535",
+          "url": "https://linuxbrew.bintray.com/bottles/gcab-1.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "meson-internal",
+    "ninja",
+    "pkg-config",
+    "python",
+    "vala"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "meson-internal",
+    "ninja",
+    "pkg-config",
+    "python",
+    "vala",
+    "glib"
+  ],
+  "desc": "Windows installer (.MSI) tool",
+  "full_name": "gcab",
+  "homepage": "https://wiki.gnome.org/msitools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gcab",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

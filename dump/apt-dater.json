@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a2f37094132e6f5cd8ad9b287bf299eea8acbc99b1d468002dfe875a8a14985d",
+          "url": "https://linuxbrew.bintray.com/bottles/apt-dater-0.9.0.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2263ba095d1b5250428fd765b4c591886a4f7c117b1bb62719df1033a246de32",
+          "url": "https://linuxbrew.bintray.com/bottles/apt-dater-0.9.0.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "026b29a9428c2c1d77e70001c8651f8e8ac20b20dee1ba62a89e0d69e2da570e",
+          "url": "https://linuxbrew.bintray.com/bottles/apt-dater-0.9.0.sierra.bottle.2.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b7859a28dbbbacbee1f5f8b4de50a32d7e3ff722a43f35b3e61a154989380786",
+          "url": "https://linuxbrew.bintray.com/bottles/apt-dater-0.9.0.x86_64_linux.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2ac3ba56f32d018a9af477484d8ad561871f855aca78726dbe8f43f5552f6acc",
+          "url": "https://linuxbrew.bintray.com/bottles/apt-dater-0.9.0.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gettext",
+    "glib",
+    "popt"
+  ],
+  "desc": "Manage package updates on remote hosts using SSH",
+  "full_name": "apt-dater",
+  "homepage": "https://github.com/DE-IBH/apt-dater",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "apt-dater",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.0"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "aliases": [
+    "freetds@1.00"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f6d2610cfe728baf6cb17c616f704662a2fe9b68a15f172968dd661dc1b99165",
+          "url": "https://linuxbrew.bintray.com/bottles/freetds-1.00.91.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e2b7a2f7565b47714430e049543ba5c32c2b890c69c35d81703e26998433b84b",
+          "url": "https://linuxbrew.bintray.com/bottles/freetds-1.00.91.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "560183072d88b347b0225c27d4958df4b8c0b43eb18922619bbdad9e4f8b6533",
+          "url": "https://linuxbrew.bintray.com/bottles/freetds-1.00.91.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "85802a96c31f6b5b99da86b39ab077de979290c3ab852da21fd498f198c4d911",
+          "url": "https://linuxbrew.bintray.com/bottles/freetds-1.00.91.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "unixodbc",
+    "libiodbc",
+    "openssl",
+    "readline"
+  ],
+  "desc": "Libraries to talk to Microsoft SQL Server and Sybase databases",
+  "full_name": "freetds",
+  "homepage": "http://www.freetds.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "freetds",
+  "oldname": null,
+  "optional_dependencies": [
+    "unixodbc",
+    "libiodbc"
+  ],
+  "options": [
+    {
+      "description": "Enable Microsoft behavior in the DB-Library API where it diverges from Sybase's",
+      "option": "--with-msdblib"
+    },
+    {
+      "description": "Enable close compatibility with Sybase's ABI, at the expense of other features",
+      "option": "--with-sybase-compat"
+    },
+    {
+      "description": "Enable odbc wide, prevent unicode - MemoryError's",
+      "option": "--with-odbc-wide"
+    },
+    {
+      "description": "Enable Kerberos support",
+      "option": "--with-krb5"
+    },
+    {
+      "description": "Build with unixodbc support",
+      "option": "--with-unixodbc"
+    },
+    {
+      "description": "Build with libiodbc support",
+      "option": "--with-libiodbc"
+    },
+    {
+      "description": "Build without openssl support",
+      "option": "--without-openssl"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "openssl"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.00.91"
+  }
+}

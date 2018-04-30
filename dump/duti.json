@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "76f7600bdeab56e7d82e1939ad7287564189de62eb4a8e9352cd33dc04c8e697",
+          "url": "https://linuxbrew.bintray.com/bottles/duti-1.5.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2a59aee7e9d902583006de7c7a16fd833d117a18a30d2eb880a2e4cc99a4d232",
+          "url": "https://linuxbrew.bintray.com/bottles/duti-1.5.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "49718973f912e48ab7ee59564b1435fe22b85d395de58070f3089d7f6104bd8d",
+          "url": "https://linuxbrew.bintray.com/bottles/duti-1.5.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf"
+  ],
+  "desc": "Select default apps for documents and URL schemes on macOS",
+  "full_name": "duti",
+  "homepage": "https://github.com/moretension/duti/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "duti",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.5.4"
+  }
+}

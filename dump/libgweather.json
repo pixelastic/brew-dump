@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9e5e4cd5ae1384d401cde7b3ec8b098b914230fdc3bbd584b382cd5fda0c181e",
+          "url": "https://linuxbrew.bintray.com/bottles/libgweather-3.28.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b96a79ab676438c7e657c17e0fbaacae2e3db041fc66254aae58dadf32b11d70",
+          "url": "https://linuxbrew.bintray.com/bottles/libgweather-3.28.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9655e4d9cba44c13e48fa5b661c0c5a121d266ce002e8bcdf32c3c5f30d20b71",
+          "url": "https://linuxbrew.bintray.com/bottles/libgweather-3.28.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "meson-internal",
+    "ninja",
+    "python"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "meson-internal",
+    "ninja",
+    "python",
+    "gtk+3",
+    "geocode-glib",
+    "libsoup",
+    "vala",
+    "glibc"
+  ],
+  "desc": "GNOME library for weather, locations and timezones",
+  "full_name": "libgweather",
+  "homepage": "https://wiki.gnome.org/Projects/LibGWeather",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libgweather",
+  "oldname": null,
+  "optional_dependencies": [
+    "vala"
+  ],
+  "options": [
+    {
+      "description": "Build with vala support",
+      "option": "--with-vala"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.28.1"
+  }
+}

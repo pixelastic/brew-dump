@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "980226be71f7ba16f71e7cd4ba53a4160c03cf9308036d014538b1feb8285d08",
+          "url": "https://linuxbrew.bintray.com/bottles/vgmstream-r1040.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "970428e954d82c2aaef2da083320fabd21ae7ba866fd2055d5fdcdd21f2989b0",
+          "url": "https://linuxbrew.bintray.com/bottles/vgmstream-r1040.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b85d6942270fc9024de56e4fe08618f7ffce1499f4c9faf3f31b246310a17511",
+          "url": "https://linuxbrew.bintray.com/bottles/vgmstream-r1040.sierra.bottle.2.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "07d84f5937c5e50b6a62dff84c97bf44b5e352bb5682eead76fffbbc9c5bea92",
+          "url": "https://linuxbrew.bintray.com/bottles/vgmstream-r1040.x86_64_linux.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mpg123",
+    "libvorbis"
+  ],
+  "desc": "Library for playing streamed audio formats from video games",
+  "full_name": "vgmstream",
+  "homepage": "https://hcs64.com/vgmstream.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vgmstream",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "r1040"
+  }
+}

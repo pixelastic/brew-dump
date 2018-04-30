@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "89b7043d1f51fc6ff7a1e96f8ed23bbac73bbb7196a04851a2cf29475b0803f7",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-complexity-1.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "94558c250d55d6d1c83e682d38481b0d75b12850d46e00dacdf81744be288229",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-complexity-1.10.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "5aba079cba5a07f3e754019cd11ed767ab65cd6c4dcef33eea9e94b94bae19eb",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-complexity-1.10.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3ea1d968a1eaa2ce6655fa8e33b721af3cd631075f960c6595ca68aecd0972c7",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-complexity-1.10.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "35a8ac468a12565af95b82c75d6b45c9c55c27fa769244f0bd87ec69b10742b1",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-complexity-1.10.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autogen",
+    "gcc"
+  ],
+  "desc": "Measures complexity of C source",
+  "full_name": "gnu-complexity",
+  "homepage": "https://www.gnu.org/software/complexity",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnu-complexity",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.10"
+  }
+}

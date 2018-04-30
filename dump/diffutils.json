@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b333804e8f86f2d99ac44c5cee06a3f615b8e69de0b68090792fd48436e8463a",
+          "url": "https://linuxbrew.bintray.com/bottles/diffutils-3.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fd411d030058f27f1ce31cdb5d8a4c338195d43281fa477242100e43bc523e1e",
+          "url": "https://linuxbrew.bintray.com/bottles/diffutils-3.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e25b8b0c5e7cde495e36ab63e7e6d682dbe8039f0de292b85ce7f19b94ea1e41",
+          "url": "https://linuxbrew.bintray.com/bottles/diffutils-3.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "cec13e7a735d8832c242287a605c656f75858ec3bb76f2d48e7b491d90d93646",
+          "url": "https://linuxbrew.bintray.com/bottles/diffutils-3.6.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e5c66fefaabbcbf9149128538bde4935be2bbc60849721c90546b21bca932399",
+          "url": "https://linuxbrew.bintray.com/bottles/diffutils-3.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "File comparison utilities",
+  "full_name": "diffutils",
+  "homepage": "https://www.gnu.org/s/diffutils/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "diffutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.6"
+  }
+}

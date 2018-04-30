@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "999d0a4e5235b9c646047e12ebf48c023f073f66ee7cc9952d2873242a66c8b7",
+          "url": "https://linuxbrew.bintray.com/bottles/libdap-3.19.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "acb605289bb709760f85304a454047adc51bc7c62f789b1a6e994def60320707",
+          "url": "https://linuxbrew.bintray.com/bottles/libdap-3.19.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "643d28d3e211bbca74f1d3a11e3af23128e5da457551d695d6e23fd350bb673c",
+          "url": "https://linuxbrew.bintray.com/bottles/libdap-3.19.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "bison",
+    "flex"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "bison",
+    "libxml2",
+    "openssl",
+    "curl",
+    "flex",
+    "util-linux"
+  ],
+  "desc": "Framework for scientific data networking",
+  "full_name": "libdap",
+  "homepage": "https://www.opendap.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libdap",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Skip build-time tests (Not recommended)",
+      "option": "--without-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.19.1"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "011cd9adbc85589034f69ea15a7cd85c60561792f5366e3d977732a9ef076320",
+          "url": "https://linuxbrew.bintray.com/bottles/heimdal-7.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5b461217a467645afd1653bbbbb0202e9d39b5748ab7e2d5e1566006497a00bb",
+          "url": "https://linuxbrew.bintray.com/bottles/heimdal-7.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ffd6e2ac9328dda17a9614aea905f05e879e9184ec94c7bdb62b14c90267547e",
+          "url": "https://linuxbrew.bintray.com/bottles/heimdal-7.5.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Free Kerberos 5 implementation",
+  "full_name": "heimdal",
+  "homepage": "https://www.h5l.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "heimdal",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.5.0"
+  }
+}

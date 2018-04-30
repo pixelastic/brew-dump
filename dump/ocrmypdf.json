@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c31a6f0cab6a1f86f8b3d676be10ce90111af527bab430980309689bcc159956",
+          "url": "https://linuxbrew.bintray.com/bottles/ocrmypdf-6.1.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8b4a34510efdb80b176a1531434f98ac3a00778d70872e96057c834aef69b76e",
+          "url": "https://linuxbrew.bintray.com/bottles/ocrmypdf-6.1.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "57cbc315da6a6841d86c63d645a1af63bb7333fc078b373fe86e567b80fbac77",
+          "url": "https://linuxbrew.bintray.com/bottles/ocrmypdf-6.1.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "mupdf-tools",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mupdf-tools",
+    "pkg-config",
+    "freetype",
+    "ghostscript",
+    "jpeg",
+    "libpng",
+    "python",
+    "qpdf",
+    "tesseract",
+    "unpaper"
+  ],
+  "desc": "Adds an OCR text layer to scanned PDF files",
+  "full_name": "ocrmypdf",
+  "homepage": "https://github.com/jbarlow83/OCRmyPDF",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ocrmypdf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.1.5"
+  }
+}

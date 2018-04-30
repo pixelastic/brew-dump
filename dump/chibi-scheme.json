@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "283522e8939e5a2b724b476ce3a1830f4bb48e70b778ffef14030498cd877b16",
+          "url": "https://linuxbrew.bintray.com/bottles/chibi-scheme-0.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "532cd642ab70f1e37ed670206fab9828f0a0b3e93dc20fadb786305f50e80a19",
+          "url": "https://linuxbrew.bintray.com/bottles/chibi-scheme-0.8.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c6efeccee97565c675a3f149855dd9550a6f8b7313694b52429e42e4cee9001d",
+          "url": "https://linuxbrew.bintray.com/bottles/chibi-scheme-0.8.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Small footprint Scheme for use as a C Extension Language",
+  "full_name": "chibi-scheme",
+  "homepage": "http://synthcode.com/wiki/chibi-scheme",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "chibi-scheme",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8.0"
+  }
+}

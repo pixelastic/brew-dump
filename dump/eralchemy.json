@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9bd0f4f745b3934599ac0b4286aa96202b3610e224630ecd5fc0870cf23f9d2f",
+          "url": "https://linuxbrew.bintray.com/bottles/eralchemy-1.2.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f94720536c124634d8ffd602459dfca472367deb61ba95258960a0a3bfbae0be",
+          "url": "https://linuxbrew.bintray.com/bottles/eralchemy-1.2.10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4dea4cbf9c81590fef898ae6cc6fc7ad4a1552e843f0cd8c21830de044bda64f",
+          "url": "https://linuxbrew.bintray.com/bottles/eralchemy-1.2.10.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "pkg-config",
+    "graphviz",
+    "openssl",
+    "postgresql"
+  ],
+  "desc": "Simple entity relation (ER) diagrams generation",
+  "full_name": "eralchemy",
+  "homepage": "https://github.com/Alexis-benoist/eralchemy",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "eralchemy",
+  "oldname": null,
+  "optional_dependencies": [
+    "postgresql"
+  ],
+  "options": [
+    {
+      "description": "Build with postgresql support",
+      "option": "--with-postgresql"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.10"
+  }
+}

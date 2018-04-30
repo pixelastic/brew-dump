@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f61418bf5315eb0b346c23b2dbb81f9d62cdb00f173b3b5eee9e25ac96dbe796",
+          "url": "https://linuxbrew.bintray.com/bottles/llvm@3.7-3.7.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e3c4c73ce9b493663d47e104da0117ca8525d834e05d11d3e0b97c731274ef0f",
+          "url": "https://linuxbrew.bintray.com/bottles/llvm@3.7-3.7.1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "086d8f2aee762f69511d25f704579828428dafb37f308ade14cbb2cec106046e",
+          "url": "https://linuxbrew.bintray.com/bottles/llvm@3.7-3.7.1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e006a9164903c96932e43c259cbd909f1316f4172a59e2057f28108e5aa87913",
+          "url": "https://linuxbrew.bintray.com/bottles/llvm@3.7-3.7.1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gnu-sed"
+  ],
+  "caveats": "Extra tools are installed in /home/tim/.linuxbrew/opt/llvm@3.7/share/clang-3.7\n\nTo link to libc++, something like the following is required:\n  CXX=\"clang++-3.7 -stdlib=libc++\"\n  CXXFLAGS=\"$CXXFLAGS -nostdinc++ -I/home/tim/.linuxbrew/opt/llvm@3.7/lib/llvm-3.7/include/c++/v1\"\n  LDFLAGS=\"$LDFLAGS -L/home/tim/.linuxbrew/opt/llvm@3.7/lib/llvm-3.7/lib\"\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gnu-sed",
+    "gmp",
+    "libffi"
+  ],
+  "desc": "Next-gen compiler infrastructure",
+  "full_name": "llvm@3.7",
+  "homepage": "https://llvm.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "llvm@3.7",
+  "oldname": "llvm37",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.7.1"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "252fc874a319092c66cf032d31639674ad9298cf2664363542ba25e037612d44",
+          "url": "https://linuxbrew.bintray.com/bottles/yaws-2.0.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ab5721cc9ab06a514c79620bcf61fb5fd728d7815bf66b3bb69543f020b5ecf8",
+          "url": "https://linuxbrew.bintray.com/bottles/yaws-2.0.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e3a910676bed399eaa98a02ded3cdf1ba42bd5470a1f09f5e9ab9f13e63132d0",
+          "url": "https://linuxbrew.bintray.com/bottles/yaws-2.0.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "erlang"
+  ],
+  "desc": "Webserver for dynamic content (written in Erlang)",
+  "full_name": "yaws",
+  "homepage": "http://yaws.hyber.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yaws",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Omit yaws applications",
+      "option": "--without-yapp"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.5"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b07be5444e34e6916635c598514ebe5ee4ca11ff29374cdf7614c520bccd678f",
+          "url": "https://linuxbrew.bintray.com/bottles/gstreamer-1.14.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2af22666adee2d820aac856533480addf8dd66df2bf55371c0eee31cf14e783e",
+          "url": "https://linuxbrew.bintray.com/bottles/gstreamer-1.14.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "46baf72db10d85bca89a77a09e6ab1a282567eeda2caf6b668ee5ddd74988f5c",
+          "url": "https://linuxbrew.bintray.com/bottles/gstreamer-1.14.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "719ae30bf3571b9f5a21efc8a9015c827e71cf9420d1c6d42951aefbba1c327f",
+          "url": "https://linuxbrew.bintray.com/bottles/gstreamer-1.14.0_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": "Consider also installing gst-plugins-base and gst-plugins-good.\n\nThe gst-plugins-* packages contain gstreamer-video-1.0, gstreamer-audio-1.0,\nand other components needed by most gstreamer applications.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "gettext",
+    "glib",
+    "bison"
+  ],
+  "desc": "Development framework for multimedia applications",
+  "full_name": "gstreamer",
+  "homepage": "https://gstreamer.freedesktop.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gstreamer",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.14.0"
+  }
+}

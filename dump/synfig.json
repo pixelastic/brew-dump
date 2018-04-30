@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b13a93ed2c76add7652425530771183eeeefc1bb8d57b7718aa22f32aee3c3e4",
+          "url": "https://linuxbrew.bintray.com/bottles/synfig-1.0.2_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "23bc8a06b80bec0734a32e694b7a56d81d6b089d7e45550e7070fad931adcafe",
+          "url": "https://linuxbrew.bintray.com/bottles/synfig-1.0.2_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "94545b17928a46d08e22fdfd5959ba46d679284a565dddf2f125bf6bf4849d18",
+          "url": "https://linuxbrew.bintray.com/bottles/synfig-1.0.2_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gettext",
+    "etl",
+    "libsigc++",
+    "libxml++",
+    "libpng",
+    "freetype",
+    "cairo",
+    "pango",
+    "boost",
+    "openexr",
+    "mlt",
+    "libtool"
+  ],
+  "desc": "Command-line renderer",
+  "full_name": "synfig",
+  "homepage": "https://synfig.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "synfig",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.2"
+  }
+}

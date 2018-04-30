@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "fe4b4b7732000b54f6bcc09495920fa27d2f09f31b575d424b9f71b73e32ae6e",
+          "url": "https://linuxbrew.bintray.com/bottles/rsyslog-7.4.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cf810ad399795d9a031783649e1f1d19df652d0e346d9c93b1569a6f8090a95e",
+          "url": "https://linuxbrew.bintray.com/bottles/rsyslog-7.4.5.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "2f41f4e354de6cb6cd95630ed396a2099753adef10a63e0304fba550097f6237",
+          "url": "https://linuxbrew.bintray.com/bottles/rsyslog-7.4.5.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "edf1c58262540bc3d4409d6a74a5784114ce31e9481064c6a147d299d61fa0b3",
+          "url": "https://linuxbrew.bintray.com/bottles/rsyslog-7.4.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4e9602ba28cac83fcf0768ca3aa73263fb5f768fa0d57cd4d32554cd66f0e041",
+          "url": "https://linuxbrew.bintray.com/bottles/rsyslog-7.4.5.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a3434bafdb1c54eb0ea50fcbabbbf87f241dac07dd68be55c4de344db3daa114",
+          "url": "https://linuxbrew.bintray.com/bottles/rsyslog-7.4.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libestr",
+    "json-c",
+    "zlib"
+  ],
+  "desc": "Enhanced, multi-threaded syslogd",
+  "full_name": "rsyslog",
+  "homepage": "https://www.rsyslog.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rsyslog",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.4.5"
+  }
+}

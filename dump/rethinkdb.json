@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d090123ea89626f60caa5517b1416b669d3cacfd51fcedfdcd6f58020e941190",
+          "url": "https://linuxbrew.bintray.com/bottles/rethinkdb-2.3.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eaa4700adc14905f388602c44008cbefcd2ac5c22a4a23e6871058a5f1a2a7ca",
+          "url": "https://linuxbrew.bintray.com/bottles/rethinkdb-2.3.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1f936e43b0cb7b321d9a14a2f2de994154162ca5bb656c8583506ca253eadf6b",
+          "url": "https://linuxbrew.bintray.com/bottles/rethinkdb-2.3.6.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a17c6864cef6dfc7f1e8ab7da2fcd640d85a504991c0d61175e2f6c78e1ba6ee",
+          "url": "https://linuxbrew.bintray.com/bottles/rethinkdb-2.3.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "boost"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "openssl",
+    "curl"
+  ],
+  "desc": "The open-source database for the realtime web",
+  "full_name": "rethinkdb",
+  "homepage": "https://www.rethinkdb.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rethinkdb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.6"
+  }
+}

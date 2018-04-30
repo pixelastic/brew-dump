@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1d90b568db5c0ec1025b0bacb5b06b794b8e24d198cdcf036d2ff81ebd6168da",
+          "url": "https://linuxbrew.bintray.com/bottles/corectl-0.7.18_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "468a78c0f43c9d150313edadd23e4a373fa689243fcd0f6c48af79feb0b1854d",
+          "url": "https://linuxbrew.bintray.com/bottles/corectl-0.7.18_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9b83542911995f649091f49cd839c949e975ae71caa220cdc224dbb86f8fd638",
+          "url": "https://linuxbrew.bintray.com/bottles/corectl-0.7.18_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ae67e7433832ac259736eaa9879e18d7b724f6ffc823f487b31eb1447780f72a",
+          "url": "https://linuxbrew.bintray.com/bottles/corectl-0.7.18_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "ocaml",
+    "aspcud",
+    "opam"
+  ],
+  "caveats": "Starting with 0.7 \"corectl\" has a client/server architecture. So before you\ncan use the \"corectl\" cli, you have to start the server daemon:\n\n$ corectld start\n\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "libev",
+    "ocaml",
+    "aspcud",
+    "opam"
+  ],
+  "desc": "CoreOS over macOS made very simple",
+  "full_name": "corectl",
+  "homepage": "https://github.com/TheNewNormal/corectl",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "corectl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.7.18"
+  }
+}

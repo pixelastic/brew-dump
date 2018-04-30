@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "66b631eb35da4691e489fbecb0cec19707bfd5212d070c589d91310d4292c182",
+          "url": "https://linuxbrew.bintray.com/bottles/systemd-234_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "coreutils",
+    "docbook-xsl",
+    "gettext",
+    "gperf",
+    "intltool",
+    "libtool",
+    "libxslt",
+    "m4",
+    "pkg-config",
+    "libgpg-error"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "coreutils",
+    "docbook-xsl",
+    "gettext",
+    "gperf",
+    "intltool",
+    "libtool",
+    "libxslt",
+    "m4",
+    "pkg-config",
+    "expat",
+    "libcap",
+    "util-linux",
+    "libgpg-error"
+  ],
+  "desc": "System and service manager",
+  "full_name": "systemd",
+  "homepage": "https://wiki.freedesktop.org/www/Software/systemd/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "systemd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "234"
+  }
+}

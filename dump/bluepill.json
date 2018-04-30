@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "high_sierra": {
+          "sha256": "2adc4f65da1ef3d0b523acfad4264a0b7b7eb972dd902f59024eb4b5315e1578",
+          "url": "https://linuxbrew.bintray.com/bottles/bluepill-2.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "07ed950f897b158185b7a43298372d1a20c1c8782f239a493a4f2f915bb09e44",
+          "url": "https://linuxbrew.bintray.com/bottles/bluepill-2.3.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "iOS testing tool that runs UI tests using multiple simulators",
+  "full_name": "bluepill",
+  "homepage": "https://github.com/linkedin/bluepill",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bluepill",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.3.0"
+  }
+}

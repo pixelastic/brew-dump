@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "8c163dd34c4fbde8de02c58ccca743966b4f755be40049740f604509d2135a3c",
+          "url": "https://linuxbrew.bintray.com/bottles/openssh-7.7p1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d378e6ea62cc33ab02df2c7394c8b9dc90fa7ab7d0a54a2f5f9a1db4c6f69dd4",
+          "url": "https://linuxbrew.bintray.com/bottles/openssh-7.7p1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f30f9b4163419d95b59e62dc6b55b956ab0612b49a654ace9fae3f67d18d3198",
+          "url": "https://linuxbrew.bintray.com/bottles/openssh-7.7p1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a4dfb3b6cacda3d3fefa50d56db02199ca56c1f316a198e9bf23303bdb8d9c24",
+          "url": "https://linuxbrew.bintray.com/bottles/openssh-7.7p1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "ldns",
+    "libedit",
+    "krb5",
+    "zlib",
+    "lsof"
+  ],
+  "desc": "OpenBSD freely-licensed SSH connectivity tools",
+  "full_name": "openssh",
+  "homepage": "https://www.openssh.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openssh",
+  "oldname": null,
+  "optional_dependencies": [
+    "ldns"
+  ],
+  "options": [
+    {
+      "description": "Build with ldns support",
+      "option": "--with-ldns"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.7p1"
+  }
+}

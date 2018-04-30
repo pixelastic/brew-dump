@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "399d93ad762d178607ca3da8d766cc4716ac33968c058a849f080d68dea634d7",
+          "url": "https://linuxbrew.bintray.com/bottles/c14-cli-0.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4001f6779bdc27b3e3587e3a0502e65d94f78a6f108efd714b96c2d865bb592d",
+          "url": "https://linuxbrew.bintray.com/bottles/c14-cli-0.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a146090fbcacb6982155419c4f8e38d9ccb8fa6283c5d2611ccf30ea1960ed84",
+          "url": "https://linuxbrew.bintray.com/bottles/c14-cli-0.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4175289250394dfac978b2636552e7d7b7fdf0a6932b44f7d5190ee39ea7bd45",
+          "url": "https://linuxbrew.bintray.com/bottles/c14-cli-0.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Manage your Online C14 archives from the command-line",
+  "full_name": "c14-cli",
+  "homepage": "https://github.com/online-net/c14-cli",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "c14-cli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.3"
+  }
+}

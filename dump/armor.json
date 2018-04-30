@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "315a23504e4f8230065c3bfb36182270f97933c656a72b1999c248ba6f969087",
+          "url": "https://linuxbrew.bintray.com/bottles/armor-0.4.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "31ca2682861bf082be5f7017c9748b9c9a17d33bcecb2ca313774b5e229fe84e",
+          "url": "https://linuxbrew.bintray.com/bottles/armor-0.4.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "71cd49a430ccf9146cf753a2d036e044aac76ab8fdcafb989080a39abe723ac1",
+          "url": "https://linuxbrew.bintray.com/bottles/armor-0.4.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b7cbdea697b3fca825d38a3aaebb65c8d54d32d21d6b597389ba43bb6252ac9e",
+          "url": "https://linuxbrew.bintray.com/bottles/armor-0.4.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Uncomplicated, modern HTTP server",
+  "full_name": "armor",
+  "homepage": "https://github.com/labstack/armor",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "armor",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.7"
+  }
+}

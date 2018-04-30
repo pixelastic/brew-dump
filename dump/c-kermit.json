@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "446776aff790c8f3b6f30be915dc18f4beffa973b92201384682beb7dc714562",
+          "url": "https://linuxbrew.bintray.com/bottles/c-kermit-9.0.302.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b6eae07c8d3365501f4e13af80b54ded073a2b1fc09fa885a445c7f52d96d589",
+          "url": "https://linuxbrew.bintray.com/bottles/c-kermit-9.0.302.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "eebf4b834242dc754c00eb87ee5cee621d39f9369cfe67cdb620a1f81a197f20",
+          "url": "https://linuxbrew.bintray.com/bottles/c-kermit-9.0.302.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b19ecd36ee298cba626b1276c228cdb4ee57726cf5af64166d8ff2800067e926",
+          "url": "https://linuxbrew.bintray.com/bottles/c-kermit-9.0.302.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fe01b123ec7cddfbf46908bbf2071542a92f195d75733230896b5de78d92cdef",
+          "url": "https://linuxbrew.bintray.com/bottles/c-kermit-9.0.302.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Scriptable network and serial communication for UNIX and VMS",
+  "full_name": "c-kermit",
+  "homepage": "http://www.kermitproject.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "c-kermit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "9.0.302"
+  }
+}

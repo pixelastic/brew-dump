@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8e725b2809f539e2382b07a2fb64a551cbb09fdbaad168dd05784142e07ce495",
+          "url": "https://linuxbrew.bintray.com/bottles/audiofile-0.3.6_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cf1f732ca5565a0e5d24a8d90714e554f95b4fbd3662da18ec843c0c356fff16",
+          "url": "https://linuxbrew.bintray.com/bottles/audiofile-0.3.6_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0a6cc39d6cce2c4436008f3d5679dbac6a8e0c0a1a91ea5db34597737fd5fb54",
+          "url": "https://linuxbrew.bintray.com/bottles/audiofile-0.3.6_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b7c1a9815937840419cec79513d908a5e7ddb34699c34d656a6f1f85cb08b90f",
+          "url": "https://linuxbrew.bintray.com/bottles/audiofile-0.3.6_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Reads and writes many common audio file formats",
+  "full_name": "audiofile",
+  "homepage": "https://audiofile.68k.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "audiofile",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Run the test suite during install (~30sec)",
+      "option": "--with-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.3.6"
+  }
+}

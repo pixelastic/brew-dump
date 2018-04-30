@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "57756d7809936ed885ef8fc7a284498ab12a5be6cc1ad41ad148dd45074fc322",
+          "url": "https://linuxbrew.bintray.com/bottles/ucommon-7.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "650bda43b289012df676190269cde7bb3be3e1337f4f2eddc6f472ae38bbda1c",
+          "url": "https://linuxbrew.bintray.com/bottles/ucommon-7.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0546fbc44ac1e17d8757b41a67b2d68b15bc872b4b19fea649e5d7fe54a4d2d4",
+          "url": "https://linuxbrew.bintray.com/bottles/ucommon-7.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a49fe93e60a6eb5b93c6f2c64db995085739c55e715d1c9b5a0f2d0b17c496ae",
+          "url": "https://linuxbrew.bintray.com/bottles/ucommon-7.0.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gnutls"
+  ],
+  "desc": "GNU C++ runtime library for threads, sockets, and parsing",
+  "full_name": "ucommon",
+  "homepage": "https://www.gnu.org/software/commoncpp/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ucommon",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.0.0"
+  }
+}

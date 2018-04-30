@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ed1939b1b0fd106f3e328e310a887cf454b81481f78fdf57ce75c0480a922d7d",
+          "url": "https://linuxbrew.bintray.com/bottles/makefile2graph-1.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "51231ed0ef44fd31a10f4ea0a7500570181332786ddd5a8a9a886958ad1b1408",
+          "url": "https://linuxbrew.bintray.com/bottles/makefile2graph-1.5.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "0de3d4a2492797c3259798493e287ac2403f02254c6cfcf74948a16bcc4bcd0d",
+          "url": "https://linuxbrew.bintray.com/bottles/makefile2graph-1.5.0.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "52dea69b4d18c1c6fa451ab834a43e1ca57ba64d9efb4c63972126a387682040",
+          "url": "https://linuxbrew.bintray.com/bottles/makefile2graph-1.5.0.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "274ee025c45df9757d608249d64105b9314c8e59fc52a81ad6906f807498b67c",
+          "url": "https://linuxbrew.bintray.com/bottles/makefile2graph-1.5.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d9cf1abfadeef69329bed8ebf251753f2aadb18f6955b8869a468a47b76b6f10",
+          "url": "https://linuxbrew.bintray.com/bottles/makefile2graph-1.5.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "37aebae489e0f341f80417ec711e5c2817f5b8097c3493dcc11bc754bdd1b1cf",
+          "url": "https://linuxbrew.bintray.com/bottles/makefile2graph-1.5.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "graphviz"
+  ],
+  "desc": "Create a graph of dependencies from GNU-Make",
+  "full_name": "makefile2graph",
+  "homepage": "https://github.com/lindenb/makefile2graph",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "makefile2graph",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without graphviz support",
+      "option": "--without-graphviz"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "graphviz"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.5.0"
+  }
+}

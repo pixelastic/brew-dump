@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f9f5a3c5e03f4145b30f09b42d8d247aae1f13b86dceee53efeb9f2b16ec0b00",
+          "url": "https://linuxbrew.bintray.com/bottles/wla-dx-9.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "227175578a34d7e37a67c7a1d54f578880b9d433168f2863e8550ea0e8b4dfd5",
+          "url": "https://linuxbrew.bintray.com/bottles/wla-dx-9.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "831b9f5f6b67d9f51ee41d6b9b582506c93a5a677631ca8c996401bffb58961a",
+          "url": "https://linuxbrew.bintray.com/bottles/wla-dx-9.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "293a95cc9ea9ff78c63e7b8d4a465cd7320a029fa6e1875f37950d067b57f2e4",
+          "url": "https://linuxbrew.bintray.com/bottles/wla-dx-9.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Yet another crossassembler package",
+  "full_name": "wla-dx",
+  "homepage": "https://github.com/vhelin/wla-dx",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wla-dx",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "9.7"
+  }
+}

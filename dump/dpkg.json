@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "635a73cdaa0752fe4eb653d4c183286701e6218cac4beba160eb363752fb995e",
+          "url": "https://linuxbrew.bintray.com/bottles/dpkg-1.19.0.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2625583e8129fb3959591f6d7d430c9451eab4038683dcfa0fc7ae4a25959416",
+          "url": "https://linuxbrew.bintray.com/bottles/dpkg-1.19.0.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1b4c89505755fcbeef7ac38c11bfdbc15edc4575b3d26bb9e4bfede8b080c3bc",
+          "url": "https://linuxbrew.bintray.com/bottles/dpkg-1.19.0.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3c871383d03ea8c4ceffd5ba271d98bfbde71f9a77583924bfe7b1034a0a0acc",
+          "url": "https://linuxbrew.bintray.com/bottles/dpkg-1.19.0.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "This installation of dpkg is not configured to install software, so\ncommands such as `dpkg -i`, `dpkg --configure` will fail.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gnu-tar",
+    "gpatch",
+    "perl",
+    "xz",
+    "bzip2",
+    "zlib"
+  ],
+  "desc": "Debian package management system",
+  "full_name": "dpkg",
+  "homepage": "https://wiki.debian.org/Teams/Dpkg",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dpkg",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.19.0.5"
+  }
+}

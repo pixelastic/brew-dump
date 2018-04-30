@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a15f3c6be0c5eb4b38c4801c6151d4a12b2f206ab6e9c7f11dd0cd94ba7f9e9d",
+          "url": "https://linuxbrew.bintray.com/bottles/rfcmarkup-1.119.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2b9456d420623b967415fdbaf84c9499c852b65a901aed0c4a8e74d286c3af57",
+          "url": "https://linuxbrew.bintray.com/bottles/rfcmarkup-1.119.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "5eaeed274aca3e64cbc2407a6b9b531efed736fec325d15109b308bdbea971b4",
+          "url": "https://linuxbrew.bintray.com/bottles/rfcmarkup-1.119.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ceabc26299da811359ca9e1a410e06e9fd3a676249d0501c2436976af1e95462",
+          "url": "https://linuxbrew.bintray.com/bottles/rfcmarkup-1.119.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5eaeed274aca3e64cbc2407a6b9b531efed736fec325d15109b308bdbea971b4",
+          "url": "https://linuxbrew.bintray.com/bottles/rfcmarkup-1.119.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Add HTML markup and links to internet-drafts and RFCs",
+  "full_name": "rfcmarkup",
+  "homepage": "https://tools.ietf.org/tools/rfcmarkup/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rfcmarkup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.119"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ba26a6b34e92b4333d636ae3d9e54d726f6bd3bbabdabbfbdd9c3fec569e10fe",
+          "url": "https://linuxbrew.bintray.com/bottles/gpm-1.4.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cac9f1ce7bb82555763015539417c9e709ca27d414c24f100ed045b593573cee",
+          "url": "https://linuxbrew.bintray.com/bottles/gpm-1.4.0_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "87cf43901daa271a5d27fbea5e6f103c15e287318152f02f0ef14bd77d51cb63",
+          "url": "https://linuxbrew.bintray.com/bottles/gpm-1.4.0_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "816976b12502697adb886dfbee31bbc2cfcbe2cff1302927f8da6cef4e4b08cf",
+          "url": "https://linuxbrew.bintray.com/bottles/gpm-1.4.0_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0ed200c92c086eebf306065403c6a18db6e55e6d2764904cbd53f442f3043179",
+          "url": "https://linuxbrew.bintray.com/bottles/gpm-1.4.0_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Barebones dependency manager for Go",
+  "full_name": "gpm",
+  "homepage": "https://github.com/pote/gpm",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gpm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.0"
+  }
+}

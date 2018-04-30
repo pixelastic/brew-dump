@@ -1,0 +1,86 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "056781a4d7c5fe9a05f30160c059352bda0a4f8a759820df7dde7233aa08cba5",
+          "url": "https://linuxbrew.bintray.com/bottles/speex-1.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "525970161e7c1629b242c91d889201ca368814945695efd5b441d58b5b5dcc75",
+          "url": "https://linuxbrew.bintray.com/bottles/speex-1.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5aa61761fb5426de78297fdc83579515dda1a880f47c925cb3405b7175079b92",
+          "url": "https://linuxbrew.bintray.com/bottles/speex-1.2.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5ffa186c67f07ab749421df3785bd6e778b19f5bc6ed3678029be4979206eca8",
+          "url": "https://linuxbrew.bintray.com/bottles/speex-1.2.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a0b3c91782b8242508adac3ebc0cd86688e75b043ea0d84f4ef7ac9940f8a21b",
+          "url": "https://linuxbrew.bintray.com/bottles/speex-1.2.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libogg",
+    "speexdsp"
+  ],
+  "desc": "Audio codec designed for speech",
+  "full_name": "speex",
+  "homepage": "https://speex.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "speex",
+  "oldname": null,
+  "optional_dependencies": [
+    "speexdsp"
+  ],
+  "options": [
+    {
+      "description": "Build with SSE support",
+      "option": "--with-sse"
+    },
+    {
+      "description": "Build without libogg support",
+      "option": "--without-libogg"
+    },
+    {
+      "description": "Build with speexdsp support",
+      "option": "--with-speexdsp"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libogg"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.0"
+  }
+}

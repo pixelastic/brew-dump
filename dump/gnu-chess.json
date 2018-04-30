@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f2e4587d4a42dbe78a4f7ec70fe5cfa54d46f93bad4a275c4759caa36cdc6688",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-chess-6.2.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "86d69dd816e2c3f4955c7f2af73df5a086c15879cde479f7657b9d2503c9c2b5",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-chess-6.2.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1a741b2a6de01917968ed8074bd6f52153589d3269f833feebba819df80379ef",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-chess-6.2.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "25f04384af5d0e9382155f8e07add35639285f458d71a89445471fff6c8d5e8f",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-chess-6.2.5.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "328ac0deafb88bcfaf23c8ef54d483f3f00ebd2f2e3dbe44f3205636a5f8db1e",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-chess-6.2.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "readline"
+  ],
+  "desc": "GNU Chess",
+  "full_name": "gnu-chess",
+  "homepage": "https://www.gnu.org/software/chess/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnu-chess",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Download the opening book (~25MB)",
+      "option": "--with-book"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.2.5"
+  }
+}

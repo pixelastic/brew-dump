@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "be0ea15d4d139ca270cb09222baed7e0107d5ce406086efe8e849a5b547bb3d0",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk-doc-1.28.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "be0ea15d4d139ca270cb09222baed7e0107d5ce406086efe8e849a5b547bb3d0",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk-doc-1.28.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "be0ea15d4d139ca270cb09222baed7e0107d5ce406086efe8e849a5b547bb3d0",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk-doc-1.28.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "itstool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "itstool",
+    "gettext",
+    "docbook",
+    "docbook-xsl",
+    "libxml2",
+    "python@2",
+    "source-highlight",
+    "python",
+    "libxslt"
+  ],
+  "desc": "GTK+ documentation tool",
+  "full_name": "gtk-doc",
+  "homepage": "https://www.gtk.org/gtk-doc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gtk-doc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.28"
+  }
+}

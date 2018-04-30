@@ -1,0 +1,65 @@
+{
+  "aliases": [
+    "pt"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f3eb248d0506445f80e1ed80ea52e255551612dbcf8e425024ad4dd4b94b849f",
+          "url": "https://linuxbrew.bintray.com/bottles/the_platinum_searcher-2.1.5.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1df209ab319d3dda7050c4f9d63138712bba558193a08cf9bfb39bc06a7af3e4",
+          "url": "https://linuxbrew.bintray.com/bottles/the_platinum_searcher-2.1.5.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bbba09f3a7c2c6af71c778d64a363297c3d4f3f01d99a076d6cf709fc65ac85d",
+          "url": "https://linuxbrew.bintray.com/bottles/the_platinum_searcher-2.1.5.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "godep"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "godep"
+  ],
+  "desc": "Multi-platform code-search similar to ack and ag",
+  "full_name": "the_platinum_searcher",
+  "homepage": "https://github.com/monochromegane/the_platinum_searcher",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "the_platinum_searcher",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.5"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "886f37ab52a92b8cbc82bd6c0be49efbf56c9186903f9d3b3652b0ddb0555329",
+          "url": "https://linuxbrew.bintray.com/bottles/detox-1.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "133b073b5e24308a29cbc63c3a8a2ee02a46c23b66d76b61057f330ea075e558",
+          "url": "https://linuxbrew.bintray.com/bottles/detox-1.2.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a7bc2b7ecd5ae46a389973aab9f1506fa8ce67117bc4fbdead2b38d7eae732ce",
+          "url": "https://linuxbrew.bintray.com/bottles/detox-1.2.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0cc58044463abf09129c9d7a1c49df5ebb51f9d6e675233f8dce404aa6a6c69f",
+          "url": "https://linuxbrew.bintray.com/bottles/detox-1.2.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0e1939ae85d72e1c941c1eb58bce8839b393c052221ef848373b518e3927cc59",
+          "url": "https://linuxbrew.bintray.com/bottles/detox-1.2.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Utility to replace problematic characters in filenames",
+  "full_name": "detox",
+  "homepage": "https://detox.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "detox",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.0"
+  }
+}

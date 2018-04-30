@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "07e0201c1c2ef9b0c820d518987f8c56552eb5748002e9c2f57afd2322396d2a",
+          "url": "https://linuxbrew.bintray.com/bottles/cgrep-6.6.24.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f3468796fdaf43c65bb77d2fc3eb376b434743225b555e235aea01ffd24f2ed6",
+          "url": "https://linuxbrew.bintray.com/bottles/cgrep-6.6.24.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "01a5cca60e69cdbc82bcb8e7923eb7ea9a18ee7f95eee94523d44171ba79da64",
+          "url": "https://linuxbrew.bintray.com/bottles/cgrep-6.6.24.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "77ff75af388fa4dca9b99258205e8e711a6c1ae32d241f0c5d212801171e9058",
+          "url": "https://linuxbrew.bintray.com/bottles/cgrep-6.6.24.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ghc",
+    "cabal-install"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ghc",
+    "cabal-install",
+    "pcre"
+  ],
+  "desc": "Context-aware grep for source code",
+  "full_name": "cgrep",
+  "homepage": "https://github.com/awgn/cgrep",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cgrep",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.6.24"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "aliases": [
+    "libtcnative"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "478df4f9c769f5f904e65938ff961dd24d9d5b9a742ad2545d3ef9e58babe394",
+          "url": "https://linuxbrew.bintray.com/bottles/tomcat-native-1.2.16.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b78686398145610c37d78f93d75cd7e0b28fa28c27a4f2b2731f292b98ed2f55",
+          "url": "https://linuxbrew.bintray.com/bottles/tomcat-native-1.2.16.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1e80549899d29dcd3d9e396bcbd016ee0f01f2f7cd65f98d699748e6c381e8c6",
+          "url": "https://linuxbrew.bintray.com/bottles/tomcat-native-1.2.16.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d0557512c95cb2fcbcd631372528dd195597205cc9994512b1ed0abc90dcfc74",
+          "url": "https://linuxbrew.bintray.com/bottles/tomcat-native-1.2.16.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "libtool"
+  ],
+  "caveats": "In order for tomcat's APR lifecycle listener to find this library, you'll\nneed to add it to java.library.path. This can be done by adding this line\nto $CATALINA_HOME/bin/setenv.sh\n\n  CATALINA_OPTS=\"$CATALINA_OPTS -Djava.library.path=/home/tim/.linuxbrew/opt/tomcat-native/lib\"\n\nIf $CATALINA_HOME/bin/setenv.sh doesn't exist, create it and make it executable.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtool",
+    "tomcat",
+    "openssl",
+    "apr"
+  ],
+  "desc": "Lets Tomcat use some native resources for performance",
+  "full_name": "tomcat-native",
+  "homepage": "https://tomcat.apache.org/native-doc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tomcat-native",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without tomcat support",
+      "option": "--without-tomcat"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "tomcat"
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.16"
+  }
+}

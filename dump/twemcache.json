@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "fd57a26c75cb67d097894a9c757bd50b2799b1a6e8ba20510345a1f1ef5eee61",
+          "url": "https://linuxbrew.bintray.com/bottles/twemcache-2.6.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7992ac700ca1044335e84a77d09152b2b4a214dd595064f462049dd0ad65d92e",
+          "url": "https://linuxbrew.bintray.com/bottles/twemcache-2.6.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cd20b77b8e04478fb459fcd3b31bb49f4c6015362420b8ffd726305af9763895",
+          "url": "https://linuxbrew.bintray.com/bottles/twemcache-2.6.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a8e3738ed8405dfefbaced33ab66472f9da64488eb2f3ab72db95e8f309c2620",
+          "url": "https://linuxbrew.bintray.com/bottles/twemcache-2.6.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libevent"
+  ],
+  "desc": "Twitter fork of memcached",
+  "full_name": "twemcache",
+  "homepage": "https://github.com/twitter/twemcache",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "twemcache",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Debug mode with assertion panics enabled",
+      "option": "--with-debug"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.6.3"
+  }
+}

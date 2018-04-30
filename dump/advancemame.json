@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "e5f14218046ce7f164a270378743aefff119d0fc7c69987bfb78fc8d1105ea7b",
+          "url": "https://linuxbrew.bintray.com/bottles/advancemame-3.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cebd9f5bdee213f0994527f63a3c8ad6d78cb43e377bdd19978fa2d9e03acd15",
+          "url": "https://linuxbrew.bintray.com/bottles/advancemame-3.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3bf6b73863b14621de91fe5908921d322e28e4e26855eae7f5cf3ba15b360c07",
+          "url": "https://linuxbrew.bintray.com/bottles/advancemame-3.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1ce058962e9139a010d08af0da8a89b847c26e3b912d74fb879c10a0b4f52324",
+          "url": "https://linuxbrew.bintray.com/bottles/advancemame-3.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "advancemenu"
+  ],
+  "dependencies": [
+    "sdl",
+    "freetype",
+    "expat",
+    "ncurses"
+  ],
+  "desc": "MAME with advanced video support",
+  "full_name": "advancemame",
+  "homepage": "https://www.advancemame.it/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "advancemame",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.7"
+  }
+}

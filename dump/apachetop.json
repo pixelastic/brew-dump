@@ -1,0 +1,84 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f1dd6f8ac7cb973228227b4cb678ef0bb61f618c482dc8d7d3144acccfebcf5b",
+          "url": "https://linuxbrew.bintray.com/bottles/apachetop-0.12.6_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e41dce58ad184e880c1f198ae1d5c0d0d1f1fc9fd27f1296a02a1b23e33c09cb",
+          "url": "https://linuxbrew.bintray.com/bottles/apachetop-0.12.6_1.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "78aa56c9141cfc658120edfb27e795cf178067d54f66c79fc752536d8e0335ea",
+          "url": "https://linuxbrew.bintray.com/bottles/apachetop-0.12.6_1.mavericks.bottle.1.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "d2383e14241b9af39c197462339393463ae6f8161dae508f49b0753dff846287",
+          "url": "https://linuxbrew.bintray.com/bottles/apachetop-0.12.6_1.mountain_lion.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3a3f3b20db8183a8c642ce732d9ecc3eac68ea1c292cab0594c3d5000c181442",
+          "url": "https://linuxbrew.bintray.com/bottles/apachetop-0.12.6_1.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fcb52fe6f5c4cbe8a3936b6ac2be6ac311e331304d2f639d35d4ae1792491a35",
+          "url": "https://linuxbrew.bintray.com/bottles/apachetop-0.12.6_1.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1cfb399a8548e1ac48d7cb61374e23273aa1eb289e49ba452aa2c55641fe5bae",
+          "url": "https://linuxbrew.bintray.com/bottles/apachetop-0.12.6_1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses",
+    "readline",
+    "pcre"
+  ],
+  "desc": "Top-like display of Apache log",
+  "full_name": "apachetop",
+  "homepage": "https://web.archive.org/web/20170809160553/freecode.com/projects/apachetop",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "apachetop",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without pcre support",
+      "option": "--without-pcre"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "pcre"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.12.6"
+  }
+}

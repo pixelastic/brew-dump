@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "cdb84f723d8178bcebdf8d29161c18b4fd847c18e98c50bdab62981afb22df4c",
+          "url": "https://linuxbrew.bintray.com/bottles/juise-0.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5a19782f9698e150c163163697f2252401d9056e264790d8c5b346c5ad04d8b2",
+          "url": "https://linuxbrew.bintray.com/bottles/juise-0.8.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5fad744e6dea03435e27a673e2652160dd7c5e9543993454f1df57f1132c4ebf",
+          "url": "https://linuxbrew.bintray.com/bottles/juise-0.8.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a45ee7ce8991f0ec54d22c7be9d101d835f12465038ab0451824f123a2b644d7",
+          "url": "https://linuxbrew.bintray.com/bottles/juise-0.8.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtool",
+    "libslax"
+  ],
+  "desc": "JUNOS user interface scripting environment",
+  "full_name": "juise",
+  "homepage": "https://github.com/Juniper/juise/wiki",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "juise",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8.0"
+  }
+}

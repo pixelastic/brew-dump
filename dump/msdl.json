@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "34ba320e82d1ce97fb0a106abd2c5ec848ba16857730ba51cadd0a030bee62ab",
+          "url": "https://linuxbrew.bintray.com/bottles/msdl-1.2.7-r2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5f2922fa4f3b69f3f00cb7e29854c5a43c163e209c87d961253da9c4a7c3ec73",
+          "url": "https://linuxbrew.bintray.com/bottles/msdl-1.2.7-r2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a28059bba6256df7233eacbfdadd9eeec2c3c6ec22038cb06ca49745b347a828",
+          "url": "https://linuxbrew.bintray.com/bottles/msdl-1.2.7-r2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "69b04b6f10ea552b6c862110434cc63dfa6bfccdc8034edd70fed5db0f79e68b",
+          "url": "https://linuxbrew.bintray.com/bottles/msdl-1.2.7-r2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5b8ac26e3adbb19386398a5500a8d5631d426b2e0e951433134b5383b80bb568",
+          "url": "https://linuxbrew.bintray.com/bottles/msdl-1.2.7-r2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Downloader for various streaming protocols",
+  "full_name": "msdl",
+  "homepage": "https://msdl.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "msdl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.7-r2"
+  }
+}

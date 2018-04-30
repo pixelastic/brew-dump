@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "667d3b67033eb93718a83f63eede85f1d48965e2cb729d4ddb33f655c485c936",
+          "url": "https://linuxbrew.bintray.com/bottles/creduce-2.7.0_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fbf09e354c9e1da58a93153eade303df094affe643e52422abb3795971723c79",
+          "url": "https://linuxbrew.bintray.com/bottles/creduce-2.7.0_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f2e4746773e42becc90d3068eaf9aee64701a51dab6349ea44947a88c128b0ee",
+          "url": "https://linuxbrew.bintray.com/bottles/creduce-2.7.0_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "astyle",
+    "delta",
+    "llvm@5"
+  ],
+  "desc": "Reduce a C/C++ program while keeping a property of interest",
+  "full_name": "creduce",
+  "homepage": "https://embed.cs.utah.edu/creduce/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "creduce",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.7.0"
+  }
+}

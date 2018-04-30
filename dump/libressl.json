@@ -1,0 +1,52 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "c6c462bc11de3f843a1336ab6860c2f382277baf0c49041288837e60f6a1045a",
+          "url": "https://linuxbrew.bintray.com/bottles/libressl-2.7.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "A CA file has been bootstrapped using certificates from the SystemRoots\nkeychain. To add additional certificates (e.g. the certificates added in\nthe System keychain), place .pem files in\n  /home/tim/.linuxbrew/etc/libressl/certs\n\nand run\n  /home/tim/.linuxbrew/opt/libressl/bin/openssl certhash /home/tim/.linuxbrew/etc/libressl/certs\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Version of the SSL/TLS protocol forked from OpenSSL",
+  "full_name": "libressl",
+  "homepage": "https://www.libressl.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "libressl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.7.2"
+  }
+}

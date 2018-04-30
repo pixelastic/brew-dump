@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e86ffbdfe686a2f3d7d5d4fd9b7381258fce527b1aa001098c210cf209d32720",
+          "url": "https://linuxbrew.bintray.com/bottles/percona-toolkit-3.0.9_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "feb374fc5c5c3e6c84ae3b4cf04d3ae9df6e4b472e4cabc19d70ee8a1c1ba96d",
+          "url": "https://linuxbrew.bintray.com/bottles/percona-toolkit-3.0.9_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a42104a8276ea1010d0b66fcf550c794e57cdf6e2713ce52433fed8669b2e12c",
+          "url": "https://linuxbrew.bintray.com/bottles/percona-toolkit-3.0.9_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mysql",
+    "openssl"
+  ],
+  "desc": "Percona Toolkit for MySQL",
+  "full_name": "percona-toolkit",
+  "homepage": "https://www.percona.com/software/percona-toolkit/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "percona-toolkit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.0.9"
+  }
+}

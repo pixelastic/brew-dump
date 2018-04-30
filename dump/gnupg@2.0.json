@@ -1,0 +1,90 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d9bd7fce7e528c08a3a10d3440d81b09995434dbe11505dfa9555d947466ffaa",
+          "url": "https://linuxbrew.bintray.com/bottles/gnupg@2.0-2.0.31.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4854e648eb7af8d3dce917c05b82f8f3ff87a078aca95761dad7787efc09a798",
+          "url": "https://linuxbrew.bintray.com/bottles/gnupg@2.0-2.0.31.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d52b7e2fb7951d39f99f17b86ecc69e7e9b98e052ebf4daab67240ffea80eb97",
+          "url": "https://linuxbrew.bintray.com/bottles/gnupg@2.0-2.0.31.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6eb29b50cda0c9c954b37a0b13affb45572ccb2e50e26f83bf46f4c94876d97e",
+          "url": "https://linuxbrew.bintray.com/bottles/gnupg@2.0-2.0.31.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libgpg-error",
+    "libgcrypt",
+    "libksba",
+    "libassuan",
+    "pinentry",
+    "pth",
+    "gpg-agent",
+    "curl",
+    "dirmngr",
+    "libusb-compat",
+    "readline"
+  ],
+  "desc": "GNU Privacy Guard: a free PGP replacement",
+  "full_name": "gnupg@2.0",
+  "homepage": "https://www.gnupg.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "gnupg@2.0",
+  "oldname": null,
+  "optional_dependencies": [
+    "readline"
+  ],
+  "options": [
+    {
+      "description": "Build without dirmngr support",
+      "option": "--without-dirmngr"
+    },
+    {
+      "description": "Build without libusb-compat support",
+      "option": "--without-libusb-compat"
+    },
+    {
+      "description": "Build with readline support",
+      "option": "--with-readline"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "dirmngr",
+    "libusb-compat"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.31"
+  }
+}

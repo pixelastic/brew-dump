@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9e5d1dd706b3b3af1c8fc5cfe42141cf2a023185f9d19bb25dc58f8aced440e2",
+          "url": "https://linuxbrew.bintray.com/bottles/premake-4.4-beta5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b2ad51fca2552a674929ec4d048fc05a88d24373673a701705e3b35c50a8611e",
+          "url": "https://linuxbrew.bintray.com/bottles/premake-4.4-beta5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9e5d1dd706b3b3af1c8fc5cfe42141cf2a023185f9d19bb25dc58f8aced440e2",
+          "url": "https://linuxbrew.bintray.com/bottles/premake-4.4-beta5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "aa6e7f314ec8636d79601dfc5f1ef30861288b238c2cb1f02ec37d9bda773818",
+          "url": "https://linuxbrew.bintray.com/bottles/premake-4.4-beta5.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4b1ce1c63cc3ecca7e195d4c0350fb6f823f659c36ff6c1193fd99023ed25b12",
+          "url": "https://linuxbrew.bintray.com/bottles/premake-4.4-beta5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Write once, build anywhere Lua-based build system",
+  "full_name": "premake",
+  "homepage": "https://premake.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "premake",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": true,
+    "devel": "5.0.0-alpha12",
+    "head": "HEAD",
+    "stable": "4.4-beta5"
+  }
+}

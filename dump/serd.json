@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8c0c40af6e4aaa222c37cd154d2ef80c6b13a50744d97e94139250a5e1a778a0",
+          "url": "https://linuxbrew.bintray.com/bottles/serd-0.28.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0c55076d7655da6d7d5154e24cd3d720fd9afcd610f5e7e9ee5af23859ab85f7",
+          "url": "https://linuxbrew.bintray.com/bottles/serd-0.28.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7c7c1f9317f0fd595bfcdb8214e510c10648f99cdf9be1464b272abd4fa223ea",
+          "url": "https://linuxbrew.bintray.com/bottles/serd-0.28.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config"
+  ],
+  "desc": "C library for RDF syntax",
+  "full_name": "serd",
+  "homepage": "https://drobilla.net/software/serd/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "serd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.28.0"
+  }
+}

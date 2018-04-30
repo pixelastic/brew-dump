@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a05a9f0b56ccb80fd8de1cd2d3921a08599b88bcd9e9770df81a5fddf2163d24",
+          "url": "https://linuxbrew.bintray.com/bottles/wandio-1.0.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b2f80ac0b72c74b74529e7d9dc8e7a9d5ec130e0405c4a9316993c9df44b4bc1",
+          "url": "https://linuxbrew.bintray.com/bottles/wandio-1.0.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "18377dd9738246878e3357ea95e0164e7ec2f66eab9708b662a5961678355873",
+          "url": "https://linuxbrew.bintray.com/bottles/wandio-1.0.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "LibWandio I/O performance will be improved by doing any compression",
+  "full_name": "wandio",
+  "homepage": "https://research.wand.net.nz/software/libwandio.php",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wandio",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.4"
+  }
+}

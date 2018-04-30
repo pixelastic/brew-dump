@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0cd5457528cadfb83a31b83b16e16089816f991c290cfbe5446372a3291c676c",
+          "url": "https://linuxbrew.bintray.com/bottles/libzzip-0.13.69.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "51a753ced0f53de1cf59412783261620f8238eb2a5aa2de9db4e1970a7fdabc6",
+          "url": "https://linuxbrew.bintray.com/bottles/libzzip-0.13.69.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dde8ad2f566db63cddc63cead06e776c3d91f71a00c28a6f3813f75ba5b6c102",
+          "url": "https://linuxbrew.bintray.com/bottles/libzzip-0.13.69.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "xmlto"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "xmlto",
+    "sdl"
+  ],
+  "desc": "Library providing read access on ZIP-archives",
+  "full_name": "libzzip",
+  "homepage": "https://github.com/gdraheim/zziplib",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libzzip",
+  "oldname": null,
+  "optional_dependencies": [
+    "sdl"
+  ],
+  "options": [
+    {
+      "description": "Enable SDL usage and create SDL_rwops_zzip.pc",
+      "option": "--with-sdl"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.13.69"
+  }
+}

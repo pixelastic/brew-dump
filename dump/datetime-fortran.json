@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "39b4cbe4d95db475a36909c9d4241d3726523cab239f3b468c4fef6679abf1a0",
+          "url": "https://linuxbrew.bintray.com/bottles/datetime-fortran-1.6.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "887a64af4a2366598e0e374ddb664a303381c9ce849bff4de6297f522999daae",
+          "url": "https://linuxbrew.bintray.com/bottles/datetime-fortran-1.6.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b3106afade8eeb808df615f809a185ea9e7da4f01974b5ae39f244eb89ca4545",
+          "url": "https://linuxbrew.bintray.com/bottles/datetime-fortran-1.6.0_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "24a1bdffffb92dbafd3270215ee677b12af347af9bdda748147e4a9e570a2894",
+          "url": "https://linuxbrew.bintray.com/bottles/datetime-fortran-1.6.0_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gcc"
+  ],
+  "desc": "Fortran time and date manipulation library",
+  "full_name": "datetime-fortran",
+  "homepage": "https://github.com/milancurcic/datetime-fortran",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "datetime-fortran",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.6.0"
+  }
+}

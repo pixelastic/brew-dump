@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "272761b8757206fe1f31f7cc6b1ea36f7a6a804f6deb06ed14873eea6f894dfe",
+          "url": "https://linuxbrew.bintray.com/bottles/voldemort-1.10.25.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "efab24efd6b897345a5ddb3932e4aa25600feed32a2efea1b66362f29637bed7",
+          "url": "https://linuxbrew.bintray.com/bottles/voldemort-1.10.25.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "76ba2152aec4e7334fbffe43f9597b0c13aca9f039d69b6d44dcf6c162b017a0",
+          "url": "https://linuxbrew.bintray.com/bottles/voldemort-1.10.25.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7364d98e346d5bb358f26674c19116c09b5b8e48e28651e90776307d6c4398fe",
+          "url": "https://linuxbrew.bintray.com/bottles/voldemort-1.10.25.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gradle"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gradle"
+  ],
+  "desc": "Distributed key-value storage system",
+  "full_name": "voldemort",
+  "homepage": "https://www.project-voldemort.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "voldemort",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.10.25"
+  }
+}

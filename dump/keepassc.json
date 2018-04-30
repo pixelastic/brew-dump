@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9f3f0509a17211eec0c2e6764e3170f8bcb2ceddf7926f7bdd3e503f9e1a5d15",
+          "url": "https://linuxbrew.bintray.com/bottles/keepassc-1.7.0_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "61daef5709a634964e674b02eb065143db6bc368c07d2a0199e5c42095eb86ef",
+          "url": "https://linuxbrew.bintray.com/bottles/keepassc-1.7.0_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1174d97328d4a138d1fefe7950ca2af427da4433dee8926d980e24e90e35350b",
+          "url": "https://linuxbrew.bintray.com/bottles/keepassc-1.7.0_4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Curses-based password manager for KeePass v.1.x and KeePassX",
+  "full_name": "keepassc",
+  "homepage": "https://raymontag.github.com/keepassc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "keepassc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.7.0"
+  }
+}

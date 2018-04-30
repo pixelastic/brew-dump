@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a778d0a53f7452e941fb3065a45b5b152a916ec8c521fdbb7cffec7f4c208a47",
+          "url": "https://linuxbrew.bintray.com/bottles/libhdhomerun-20180327.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "207b5043bf3ab3fe71f16fc2593f5ba2107c65c88bf4af1820d8f014ea7fcaf1",
+          "url": "https://linuxbrew.bintray.com/bottles/libhdhomerun-20180327.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "09735702da881d2cc637b26c6696cdb0e884c3bafd573a62138643343dd5cdcf",
+          "url": "https://linuxbrew.bintray.com/bottles/libhdhomerun-20180327.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "C library for controlling SiliconDust HDHomeRun TV tuners",
+  "full_name": "libhdhomerun",
+  "homepage": "https://www.silicondust.com/support/linux/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libhdhomerun",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20180327"
+  }
+}

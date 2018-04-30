@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1701f551254a3e7d1cd76abc881e2080d0431f2d70bd25932653b508a80a8999",
+          "url": "https://linuxbrew.bintray.com/bottles/hledger-1.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "565012c295cccdf2458a7c8b97a753406dce0dff3272a3195f3c9603a93532bf",
+          "url": "https://linuxbrew.bintray.com/bottles/hledger-1.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "783c9ac9f6f52c2980e228f67f5bc27cf06c3bcfe36d6493f47164374a57ed26",
+          "url": "https://linuxbrew.bintray.com/bottles/hledger-1.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1654384c5f1705848011ec390774d46fe2b557605555693e96eb636405831979",
+          "url": "https://linuxbrew.bintray.com/bottles/hledger-1.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cabal-install",
+    "ghc"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cabal-install",
+    "ghc",
+    "ncurses"
+  ],
+  "desc": "Command-line accounting tool",
+  "full_name": "hledger",
+  "homepage": "http://hledger.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hledger",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2add95022eec8b10c91f28bfa209ba1bd866e474a8d65350a965d081211b4584",
+          "url": "https://linuxbrew.bintray.com/bottles/cookiecutter-1.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c41fc38106412dbff9fabc1d996610ffc781e7a620552c8d71a8efed878a2052",
+          "url": "https://linuxbrew.bintray.com/bottles/cookiecutter-1.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a6ff87583db4af994e8987cd6335960bfb2613f820c484af3276e7b42f041a04",
+          "url": "https://linuxbrew.bintray.com/bottles/cookiecutter-1.6.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "51ca979b6e6f7828a8f951e1c944290cf8de16f8dbfa288e2088ff3f5a8b4ff6",
+          "url": "https://linuxbrew.bintray.com/bottles/cookiecutter-1.6.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Utility that creates projects from templates",
+  "full_name": "cookiecutter",
+  "homepage": "https://github.com/audreyr/cookiecutter",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cookiecutter",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.6.0"
+  }
+}

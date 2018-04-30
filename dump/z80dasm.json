@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "35be0cbdb1c9abc7277c740d7da130bb8b8f7bc50f744ae8a8ea3965a228b9ed",
+          "url": "https://linuxbrew.bintray.com/bottles/z80dasm-1.1.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "aa3f2ab337305b4dcbb37e868fcc537e04cac5fd4a2af7c8548347965f26a226",
+          "url": "https://linuxbrew.bintray.com/bottles/z80dasm-1.1.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "527e7f1cd02531e634745086a7b74eafa57fa8e1f676c3ad60d552f0d6d9ef20",
+          "url": "https://linuxbrew.bintray.com/bottles/z80dasm-1.1.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ba13e1e8635045945d2529b4f66efec4913bae4f63b6fdcf8795a1a03c840a4f",
+          "url": "https://linuxbrew.bintray.com/bottles/z80dasm-1.1.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Disassembler for the Zilog Z80 microprocessor and compatibles",
+  "full_name": "z80dasm",
+  "homepage": "https://www.tablix.org/~avian/blog/articles/z80dasm/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "z80dasm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.5"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "fd00a22a9744919520bdfd22f01e2ad07d409fbf76a3470b3a9a4c94f06901ed",
+          "url": "https://linuxbrew.bintray.com/bottles/bonnie++-1.97.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2039ecd2ab2e7a9cef39e603558aa792942f50e27b5ee3054bd39a66a2ba30a3",
+          "url": "https://linuxbrew.bintray.com/bottles/bonnie++-1.97.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3141753fc2d81aba9129baa76946cb4f2c4cef7ca634c30d86a4b284bfe6480a",
+          "url": "https://linuxbrew.bintray.com/bottles/bonnie++-1.97.3_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b4b5652a79eac94ca3b77e77e09f8c660f3c42179756d4626db49a0bfe8048ce",
+          "url": "https://linuxbrew.bintray.com/bottles/bonnie++-1.97.3_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0607ae5fac5e62bdfd04b48a524277768145f7ab7f07e2d2f71b6c4b6b40f9eb",
+          "url": "https://linuxbrew.bintray.com/bottles/bonnie++-1.97.3_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Benchmark suite for file systems and hard drives",
+  "full_name": "bonnie++",
+  "homepage": "https://www.coker.com.au/bonnie++/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bonnie++",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.97.3"
+  }
+}

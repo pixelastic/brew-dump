@@ -1,0 +1,80 @@
+{
+  "aliases": [
+    "ghc@8.4"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4365ffca3f4de1a6c4ed4abd0a60c5ded9eba2ca614650a789139d547944aa04",
+          "url": "https://linuxbrew.bintray.com/bottles/ghc-8.4.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "046e992b76fbf9031de0b28d00a277a8b4539b54fa05b64d3cc23890d777fd59",
+          "url": "https://linuxbrew.bintray.com/bottles/ghc-8.4.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dc92e314a4b3a6f0d2553c8846edbbd8b06bac68b2367648eb8a3e67b7737464",
+          "url": "https://linuxbrew.bintray.com/bottles/ghc-8.4.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7e90c25ccb96f8087c1ee428b3614aa33ce7946d916c95e667964f860e766ba0",
+          "url": "https://linuxbrew.bintray.com/bottles/ghc-8.4.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "sphinx-doc",
+    "m4",
+    "gmp"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sphinx-doc",
+    "m4",
+    "ncurses",
+    "gmp"
+  ],
+  "desc": "Glorious Glasgow Haskell Compilation System",
+  "full_name": "ghc",
+  "homepage": "https://haskell.org/ghc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ghc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Verify the build using the testsuite",
+      "option": "--with-test"
+    },
+    {
+      "description": "Do not build documentation (including man page)",
+      "option": "--without-docs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "8.4.2"
+  }
+}

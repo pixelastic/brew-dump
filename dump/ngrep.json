@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e01abe517e9dca78fe2e89f787ef373be7cf00aef686e221b14a8c9fe2b48355",
+          "url": "https://linuxbrew.bintray.com/bottles/ngrep-1.47.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ca38ebeb13f8eb4bbccd30f73e7dc7fc50147b1be878bdc19440af3ee062ef02",
+          "url": "https://linuxbrew.bintray.com/bottles/ngrep-1.47.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0343c66af5a27bfd98dffd1e81fb73cca734b90996bc2d66761dc942c1ad729d",
+          "url": "https://linuxbrew.bintray.com/bottles/ngrep-1.47.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Network grep",
+  "full_name": "ngrep",
+  "homepage": "https://github.com/jpr5/ngrep",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ngrep",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.47"
+  }
+}

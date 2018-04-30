@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "042cd9e456a4bf894ef9f40a47f1255cba1ab08020b1dc44476a8dea7658bd16",
+          "url": "https://linuxbrew.bintray.com/bottles/chruby-fish-0.8.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3b34f5c1170d17701bebffde714c48679a076dc67293aab04dd5b8d4e7fa66f2",
+          "url": "https://linuxbrew.bintray.com/bottles/chruby-fish-0.8.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "042cd9e456a4bf894ef9f40a47f1255cba1ab08020b1dc44476a8dea7658bd16",
+          "url": "https://linuxbrew.bintray.com/bottles/chruby-fish-0.8.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "042cd9e456a4bf894ef9f40a47f1255cba1ab08020b1dc44476a8dea7658bd16",
+          "url": "https://linuxbrew.bintray.com/bottles/chruby-fish-0.8.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "fish",
+    "chruby"
+  ],
+  "desc": "Thin wrapper around chruby to make it work with the Fish shell",
+  "full_name": "chruby-fish",
+  "homepage": "https://github.com/JeanMertz/chruby-fish#readme",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "chruby-fish",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without fish support",
+      "option": "--without-fish"
+    },
+    {
+      "description": "Build without chruby support",
+      "option": "--without-chruby"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "fish",
+    "chruby"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8.1"
+  }
+}

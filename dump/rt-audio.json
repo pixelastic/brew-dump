@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b47e9e56e72e2e7969f811e8cb11db6a4436e4f5b5363db917043083b8dda612",
+          "url": "https://linuxbrew.bintray.com/bottles/rt-audio-5.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "497769e931f08d51367dae46ad3f7c3ac52f7d87ed79698c4e564aed74433d4d",
+          "url": "https://linuxbrew.bintray.com/bottles/rt-audio-5.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d573b5a8e5e832e4b10445a05fe7502e62d42b5f8ae74796944ef3b30af7c3eb",
+          "url": "https://linuxbrew.bintray.com/bottles/rt-audio-5.0.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "bd1920ca3ad3c0f67e7824b430fa32a4f48085a9bb7233e9157bf292d73bd099",
+          "url": "https://linuxbrew.bintray.com/bottles/rt-audio-5.0.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "API for realtime audio input/output",
+  "full_name": "rt-audio",
+  "homepage": "https://www.music.mcgill.ca/~gary/rtaudio/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rt-audio",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.0.0"
+  }
+}

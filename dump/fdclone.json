@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ed10a0556157aa545c7e01957bd6bd3c4c73370db4ca12ad99a053dce19055b8",
+          "url": "https://linuxbrew.bintray.com/bottles/fdclone-3.01d.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fed1c932c964bab60d0179312e39daa56b0b6c3b80f957045c81cf9179e42412",
+          "url": "https://linuxbrew.bintray.com/bottles/fdclone-3.01d.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1ce21a7ddf48c3ca2aef2e717c464c3c8f3741c5d6c8e75a1cb0107e48a7ceac",
+          "url": "https://linuxbrew.bintray.com/bottles/fdclone-3.01d.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "nkf"
+  ],
+  "caveats": "To install the initial config file:\n    install -c -m 0644 /home/tim/.linuxbrew/Cellar/fdclone/3.01d/share/fd2rc.dist ~/.fd2rc\nTo set application messages to Japanese, edit your .fd2rc:\n    MESSAGELANG=\"ja\"\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "nkf"
+  ],
+  "desc": "Console-based file manager",
+  "full_name": "fdclone",
+  "homepage": "https://hp.vector.co.jp/authors/VA012337/soft/fd/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fdclone",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.01d"
+  }
+}

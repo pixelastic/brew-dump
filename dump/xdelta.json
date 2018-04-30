@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e07f928aadf6a9d8beb8a19fb72cb673cf0ae13c339ccd75c5df134cb3bc5c09",
+          "url": "https://linuxbrew.bintray.com/bottles/xdelta-3.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a65a726ce73eeebb9abfdf8069b08658dc4fad13527d4d162d1119cc32702b11",
+          "url": "https://linuxbrew.bintray.com/bottles/xdelta-3.1.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a0801a8bd9796d03d8c031905e28a6e5f50b155da3102337070ec787ccb5cee9",
+          "url": "https://linuxbrew.bintray.com/bottles/xdelta-3.1.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7f51b76d06a6ac8aae36c10b41776a374d5fafa6b55c4908a885be7a88194676",
+          "url": "https://linuxbrew.bintray.com/bottles/xdelta-3.1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2581a9d0aabf6f6b34d35aae4d7ab07b6aaebdb70fd3b00ef14eff3bd96aa6c7",
+          "url": "https://linuxbrew.bintray.com/bottles/xdelta-3.1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "libtool",
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtool",
+    "autoconf",
+    "automake",
+    "xz"
+  ],
+  "desc": "Binary diff, differential compression tools",
+  "full_name": "xdelta",
+  "homepage": "http://xdelta.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xdelta",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Disable LZMA secondary compression",
+      "option": "--without-xz"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "xz"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.1.0"
+  }
+}

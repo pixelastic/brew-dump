@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "02631fb35a90f64746031700c51f42dfb67a43206754d1f56196360ed8208f4e",
+          "url": "https://linuxbrew.bintray.com/bottles/mpfi-1.5.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e829d1293ff9101516234d9c8d60f05a948da004f684baaa5c8bd9d591aa6156",
+          "url": "https://linuxbrew.bintray.com/bottles/mpfi-1.5.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ee2d9a5b676f12ea283b660f45abf572ca84440ec9b497f4b481a605ba07b209",
+          "url": "https://linuxbrew.bintray.com/bottles/mpfi-1.5.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gmp",
+    "mpfr"
+  ],
+  "desc": "Multiple precision interval arithmetic library",
+  "full_name": "mpfi",
+  "homepage": "https://perso.ens-lyon.fr/nathalie.revol/software.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mpfi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.2"
+  }
+}

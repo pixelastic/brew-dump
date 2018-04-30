@@ -1,0 +1,45 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To activate antigen, add the following to your ~/.zshrc:\n  source /home/tim/.linuxbrew/share/antigen/antigen.zsh\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Plugin manager for zsh, inspired by oh-my-zsh and vundle",
+  "full_name": "antigen",
+  "homepage": "https://antigen.sharats.me/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "antigen",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "zsh"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.2.3"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d8c0781ebec0087401d6fe6c272b0ae83620590db314fc6cea5c5d33aea46725",
+          "url": "https://linuxbrew.bintray.com/bottles/zmap-2.1.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "22797a2a2959ec957c10567d97d35b9bcb6d02d8fbd4e72666ac6e8d29064725",
+          "url": "https://linuxbrew.bintray.com/bottles/zmap-2.1.1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "659f3518abb4023324778a16fa306abc8d8c43b34c9bd16e6bc7e412f1a511d6",
+          "url": "https://linuxbrew.bintray.com/bottles/zmap-2.1.1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "15c8181a1e086b39d88223f3a01bb29d868d9d7d6c3118973250833da96f38cb",
+          "url": "https://linuxbrew.bintray.com/bottles/zmap-2.1.1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "gengetopt",
+    "byacc",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "gengetopt",
+    "byacc",
+    "pkg-config",
+    "gmp",
+    "libdnet",
+    "json-c",
+    "hiredis",
+    "mongo-c-driver"
+  ],
+  "desc": "Network scanner for Internet-wide network studies",
+  "full_name": "zmap",
+  "homepage": "https://zmap.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zmap",
+  "oldname": null,
+  "optional_dependencies": [
+    "hiredis",
+    "mongo-c-driver"
+  ],
+  "options": [
+    {
+      "description": "Build with hiredis support",
+      "option": "--with-hiredis"
+    },
+    {
+      "description": "Build with mongo-c-driver support",
+      "option": "--with-mongo-c-driver"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.1"
+  }
+}

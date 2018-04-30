@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "84d3bfa45582f2816808006f192c7580cedad24de3941a0786b5b36ce29e469c",
+          "url": "https://linuxbrew.bintray.com/bottles/wy60-2.0.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "77fb48cc35956863e1f685b41c885337ca770185edffb250cbed8bd8c5a3070b",
+          "url": "https://linuxbrew.bintray.com/bottles/wy60-2.0.9.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7257f9a9c49d867114209be3d4b4b8537da65f34302fa15266f7ead044947331",
+          "url": "https://linuxbrew.bintray.com/bottles/wy60-2.0.9.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f03706d166cfcc0679e696493bd13df30ad0617a92b602b79e3494ba3b1f46fb",
+          "url": "https://linuxbrew.bintray.com/bottles/wy60-2.0.9.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "80508e33f12142eec20ff0e8866ed191b03facea5b6653a6f5331cb017ff78af",
+          "url": "https://linuxbrew.bintray.com/bottles/wy60-2.0.9.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Wyse 60 compatible terminal emulator",
+  "full_name": "wy60",
+  "homepage": "https://code.google.com/archive/p/wy60/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wy60",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.9"
+  }
+}

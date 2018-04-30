@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3402448d7ec4deb8471c5e5517ba306f766916497f6d1923d4d80030c88e45fd",
+          "url": "https://linuxbrew.bintray.com/bottles/libjwt-1.9.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5d399fa64d2fc9efc33da09ed09bc085ea57202fb32e7240d838f6c826ea926d",
+          "url": "https://linuxbrew.bintray.com/bottles/libjwt-1.9.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "38121827b73b037ba806a02f36f8b55f62eee9f317e2a56132f88c685e4f49f1",
+          "url": "https://linuxbrew.bintray.com/bottles/libjwt-1.9.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d1c0b0187a1cbce3cf7576571da0083f5c45b579a4ebf7fb9f75e5c897c81df6",
+          "url": "https://linuxbrew.bintray.com/bottles/libjwt-1.9.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "jansson",
+    "openssl"
+  ],
+  "desc": "JSON Web Token C library",
+  "full_name": "libjwt",
+  "homepage": "https://github.com/benmcollins/libjwt",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libjwt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9.0"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ab93f46d46f24ea996b3967e8158882da094e366d08b4a92f4e060943a1c726a",
+          "url": "https://linuxbrew.bintray.com/bottles/sysdig-0.21.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "79a27d9234019ebb44a103d6c697c5fe5e47b4790c90bfbac75629f7125577fb",
+          "url": "https://linuxbrew.bintray.com/bottles/sysdig-0.21.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2c33f831dcd89e94b1a232484f5eeb79c9fee3f65be1f7323e366d41e7e1a17a",
+          "url": "https://linuxbrew.bintray.com/bottles/sysdig-0.21.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "jsoncpp",
+    "luajit"
+  ],
+  "desc": "System-level exploration and troubleshooting tool",
+  "full_name": "sysdig",
+  "homepage": "https://www.sysdig.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sysdig",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.21.0"
+  }
+}

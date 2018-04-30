@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e758b4d59d1322b736f247c9ebbabe3c73ad06b324120997c6af784b8a3ab3f7",
+          "url": "https://linuxbrew.bintray.com/bottles/vttest-20140305.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6a3972df6f5ab23fb7480ffda28b8b1e8059854b837f1c947744e5dfb542c6bb",
+          "url": "https://linuxbrew.bintray.com/bottles/vttest-20140305.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "e2faf045a9a09d49e64f104bf65ca7a8fabf4552a50621bd22206e80ef579844",
+          "url": "https://linuxbrew.bintray.com/bottles/vttest-20140305.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "acb979d3b90f828d2b504b9f0872ad4eb3c421d30872ad291df91123038433d4",
+          "url": "https://linuxbrew.bintray.com/bottles/vttest-20140305.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "360d6eaa04e1a147eee360fed7d66ab779acc0a0ab3b51b1916cdf4d4a7f11f1",
+          "url": "https://linuxbrew.bintray.com/bottles/vttest-20140305.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2584fb77678acad877286416b79db38673320ec028e6a6add37b987b150af648",
+          "url": "https://linuxbrew.bintray.com/bottles/vttest-20140305.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Test compatibility of VT100-compatible terminals",
+  "full_name": "vttest",
+  "homepage": "https://invisible-island.net/vttest/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vttest",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20140305"
+  }
+}

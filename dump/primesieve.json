@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "2506d0b7a7a5aa370010b4713bc4725470f4baa7d93f73a6f49ffdbc108c18f4",
+          "url": "https://linuxbrew.bintray.com/bottles/primesieve-7.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1cac8717470a1a7edf3d6512e04be73b7712bc46febcfad05ef90cc2522e85b5",
+          "url": "https://linuxbrew.bintray.com/bottles/primesieve-7.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9d07453e002a227aac81523b06e2a2224e1dd6e3e727350c92c3cdd531685300",
+          "url": "https://linuxbrew.bintray.com/bottles/primesieve-7.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0251310a31463b8bf63ca3d2793450cb32f4a162560069347dc5559102655430",
+          "url": "https://linuxbrew.bintray.com/bottles/primesieve-7.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Fast C/C++ prime number generator",
+  "full_name": "primesieve",
+  "homepage": "https://primesieve.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "primesieve",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.0"
+  }
+}

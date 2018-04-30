@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "664d3e90a8c1e29de94e35b5ec5e5b5a6f6908133e6aca32e4364cf35c0d024b",
+          "url": "https://linuxbrew.bintray.com/bottles/arangodb-3.3.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "279554d96c5a4f3e4016ee1b6e2642c1a73bb88cbe2ebcd26c972e087d32e2bb",
+          "url": "https://linuxbrew.bintray.com/bottles/arangodb-3.3.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dc584c8db6c143153ad0b99b05c78e7722e1c958e865364aa348485a703fbce8",
+          "url": "https://linuxbrew.bintray.com/bottles/arangodb-3.3.8.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "go"
+  ],
+  "caveats": "An empty password has been set. Please change it by executing\n  /home/tim/.linuxbrew/opt/arangodb/sbin/arango-secure-installation\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "go",
+    "openssl"
+  ],
+  "desc": "The Multi-Model NoSQL Database",
+  "full_name": "arangodb",
+  "homepage": "https://www.arangodb.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "arangodb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.3.8"
+  }
+}

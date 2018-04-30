@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ebec8e8c5203ad58ff2ba9b056eb9cdb88a38ba4731878fad01d2f847738b296",
+          "url": "https://linuxbrew.bintray.com/bottles/lmod-7.7.29.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "32bb25485921e3eb2d2b568b7a7ebdd5ac6e56d6cb0283832503d55549cd4205",
+          "url": "https://linuxbrew.bintray.com/bottles/lmod-7.7.29.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d62943d39ca2b1205f54307049db4ae8c43c5b02ff9352abd0f85f9587decb94",
+          "url": "https://linuxbrew.bintray.com/bottles/lmod-7.7.29.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To use Lmod, you should add the init script to the shell you are using.\n\nFor example, the bash setup script is here: /home/tim/.linuxbrew/opt/lmod/init/profile\nand you can source it in your bash setup or link to it.\n\nIf you use fish, use /home/tim/.linuxbrew/opt/lmod/init/fish, such as:\n  ln -s /home/tim/.linuxbrew/opt/lmod/init/fish ~/.config/fish/conf.d/00_lmod.fish\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "lua"
+  ],
+  "desc": "Lua-based environment modules system to modify PATH variable",
+  "full_name": "lmod",
+  "homepage": "https://www.tacc.utexas.edu/research-development/tacc-projects/lmod",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lmod",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.7.29"
+  }
+}

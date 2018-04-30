@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7182b0b044b789e03f99577dc993e0cb9737b9c175dd17815018fa777d0f4214",
+          "url": "https://linuxbrew.bintray.com/bottles/mlton-20180207.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c3712458c252eba59c3b370f99662cc02e06f6aad3b5e0bb5abe6980541bac9c",
+          "url": "https://linuxbrew.bintray.com/bottles/mlton-20180207.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7605c1540d4449fdcda1802ee31dd891dc3d197081747744b575300bebe9000c",
+          "url": "https://linuxbrew.bintray.com/bottles/mlton-20180207.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gmp"
+  ],
+  "desc": "Whole-program, optimizing compiler for Standard ML",
+  "full_name": "mlton",
+  "homepage": "http://mlton.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mlton",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "20180207"
+  }
+}

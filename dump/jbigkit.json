@@ -1,0 +1,81 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "bdec08cd92dd59183b698c6bbd9072881fdfce64b4ecb6182e405e0f2ad26c00",
+          "url": "https://linuxbrew.bintray.com/bottles/jbigkit-2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c8a003d12559b6f506fbd912c3b68163f7ab6022fd53e069bfbd55c813f52df5",
+          "url": "https://linuxbrew.bintray.com/bottles/jbigkit-2.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "0ce925915b984307d2e679622138143c5cc5baf832b0a16003fa1e6111a5df9f",
+          "url": "https://linuxbrew.bintray.com/bottles/jbigkit-2.1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "0afb6297101bc3269f0ebca1590cda66a62cbd90e3fdbec38dc011131711d32b",
+          "url": "https://linuxbrew.bintray.com/bottles/jbigkit-2.1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "831dd1ec7e8013ddc6c23641a21292eae26f397e8b61d95382a6240f18fc5602",
+          "url": "https://linuxbrew.bintray.com/bottles/jbigkit-2.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d7b87245e8682383dc10c4730d5248fabfab9c7ae5b76662da50a24785c0a710",
+          "url": "https://linuxbrew.bintray.com/bottles/jbigkit-2.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "764396342e87b84253aa06f5046f90c778cacca998ce970900cb2fdf1cfdc3fa",
+          "url": "https://linuxbrew.bintray.com/bottles/jbigkit-2.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "netpbm"
+  ],
+  "dependencies": [
+  ],
+  "desc": "JBIG1 data compression standard implementation",
+  "full_name": "jbigkit",
+  "homepage": "https://www.cl.cam.ac.uk/~mgk25/jbigkit/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jbigkit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Verify the library during install",
+      "option": "--with-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1"
+  }
+}

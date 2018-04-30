@@ -1,0 +1,83 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d2719509725f4c1fad3a53c32de18aff5d45685fb35ae352f1d51fc61e566f4a",
+          "url": "https://linuxbrew.bintray.com/bottles/avian-1.2.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ee881641717eed4a61ab64f832ab420401ed7a814fd32e546ae0765b5b27de6b",
+          "url": "https://linuxbrew.bintray.com/bottles/avian-1.2.0.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "20dd7125d138e05021b473d026190d8f4652e807afcfe057614e5c2e66ce0ed1",
+          "url": "https://linuxbrew.bintray.com/bottles/avian-1.2.0.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ef092ec60093190857b558fd9a663ca0c6d0356bb9af7798be21cf466678f27e",
+          "url": "https://linuxbrew.bintray.com/bottles/avian-1.2.0.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4eebce66edee44582178986d2f36e98392b97cf36cf683aaf3b353627cb8cf3a",
+          "url": "https://linuxbrew.bintray.com/bottles/avian-1.2.0.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d002876c03742fc7ec4157fff598e7c11ed1e62f97ce1b217f8b089db87e43ed",
+          "url": "https://linuxbrew.bintray.com/bottles/avian-1.2.0.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "zlib"
+  ],
+  "desc": "Lightweight VM and class library for a subset of Java features",
+  "full_name": "avian",
+  "homepage": "https://readytalk.github.io/avian/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "avian",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.0"
+  }
+}

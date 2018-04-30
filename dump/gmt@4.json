@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a862422e9ee1e2b2347f28f19326a4e507021ad8ab58cdc718dcecd15ccf26de",
+          "url": "https://linuxbrew.bintray.com/bottles/gmt@4-4.5.17_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1881b5ae177fd5a46b998c2b3b91b3f19d9e1f6d3d118e069255d2bd425f3017",
+          "url": "https://linuxbrew.bintray.com/bottles/gmt@4-4.5.17_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d482672713a9cd06c8ea109d4df8ec4c08b315b6b5ddb4def68720773816c696",
+          "url": "https://linuxbrew.bintray.com/bottles/gmt@4-4.5.17_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gdal",
+    "netcdf"
+  ],
+  "desc": "Manipulation of geographic and Cartesian data sets",
+  "full_name": "gmt@4",
+  "homepage": "https://gmt.soest.hawaii.edu/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "gmt@4",
+  "oldname": "gmt4",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.5.17"
+  }
+}

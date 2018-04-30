@@ -1,0 +1,105 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "189967ff2af15f82c5e1ca70ab34e332f8c8c8ce0911f5ccb402baaefa39aba9",
+          "url": "https://linuxbrew.bintray.com/bottles/libprelude-3.1.0_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "libtool",
+    "swig",
+    "perl",
+    "python",
+    "valgrind",
+    "lua"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libtool",
+    "libgcrypt",
+    "libgpg-error",
+    "gnutls",
+    "swig",
+    "perl",
+    "python",
+    "python3",
+    "valgrind",
+    "lua",
+    "ruby"
+  ],
+  "desc": "Universal Security Information & Event Management (SIEM) system",
+  "full_name": "libprelude",
+  "homepage": "https://www.prelude-siem.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libprelude",
+  "oldname": null,
+  "optional_dependencies": [
+    "perl",
+    "lua"
+  ],
+  "options": [
+    {
+      "description": "Build without Ruby bindings",
+      "option": "--without-ruby"
+    },
+    {
+      "description": "Build without swig support",
+      "option": "--without-swig"
+    },
+    {
+      "description": "Build with perl support",
+      "option": "--with-perl"
+    },
+    {
+      "description": "Build without python support",
+      "option": "--without-python"
+    },
+    {
+      "description": "Build without python3 support",
+      "option": "--without-python3"
+    },
+    {
+      "description": "Build without valgrind support",
+      "option": "--without-valgrind"
+    },
+    {
+      "description": "Build with lua support",
+      "option": "--with-lua"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "swig",
+    "python",
+    "python3",
+    "valgrind"
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.1.0"
+  }
+}

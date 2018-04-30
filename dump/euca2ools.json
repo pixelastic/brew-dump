@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1c2cd17c3d6264962ce1e2a056362ecbb3e0007b1a3de8bfff23afe4bf7c0b25",
+          "url": "https://linuxbrew.bintray.com/bottles/euca2ools-3.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "41df1d51edc8fa162cf3f1c0ad60dbda2a3c03ca791a98ae92777c2bfe2accd9",
+          "url": "https://linuxbrew.bintray.com/bottles/euca2ools-3.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7efc52eafdb0791e2fcd47913a2a09b31da507fc6178d002c584b95f975601f9",
+          "url": "https://linuxbrew.bintray.com/bottles/euca2ools-3.4.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "38ea8a3ffad6554b519c4307f32174a58dc46e2cb9d66acdadea50265038ee5f",
+          "url": "https://linuxbrew.bintray.com/bottles/euca2ools-3.4.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Eucalyptus client API tools-works with Amazon EC2 and IAM",
+  "full_name": "euca2ools",
+  "homepage": "https://github.com/eucalyptus/euca2ools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "euca2ools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.4.1"
+  }
+}

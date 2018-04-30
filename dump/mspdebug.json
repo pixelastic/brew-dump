@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "22fc92bc5a594451eb0d0b943bce812619302c795fdad0ca4305c059ccf10a88",
+          "url": "https://linuxbrew.bintray.com/bottles/mspdebug-0.25.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4124d4fbd9e191d941153962bb74aed50cc200c473b5ad5850610a1bc85f87b4",
+          "url": "https://linuxbrew.bintray.com/bottles/mspdebug-0.25.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e16447e04c99d74b8cdc49a063c230c64d09e34402d0221542594f3aacac5940",
+          "url": "https://linuxbrew.bintray.com/bottles/mspdebug-0.25.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8b23c23287fc9ab143921257a1859f8ac0dbb9e093261dfe931ec7d6a3548d97",
+          "url": "https://linuxbrew.bintray.com/bottles/mspdebug-0.25.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You may need to install a kernel extension if you're having trouble with\nRF2500-like devices such as the TI Launchpad:\n  https://dlbeer.co.nz/mspdebug/faq.html#rf2500_osx\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "hidapi",
+    "libusb-compat"
+  ],
+  "desc": "Debugger for use with MSP430 MCUs",
+  "full_name": "mspdebug",
+  "homepage": "https://dlbeer.co.nz/mspdebug/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mspdebug",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.25"
+  }
+}

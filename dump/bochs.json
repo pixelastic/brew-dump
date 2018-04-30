@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "395ce5d3047ee0b98c8eb2130a8661d319a0926c19e7ebf6b31fc01dee0e8edf",
+          "url": "https://linuxbrew.bintray.com/bottles/bochs-2.6.9_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1acbd357ca0d7394d2ca6ac261a7cbecf4d42d73fac2f5a6e237e7b33a01e51d",
+          "url": "https://linuxbrew.bintray.com/bottles/bochs-2.6.9_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8dd191ff5085b435ff26cd53026d8afada7fa9e18d84a985da2a6a9d6b179a64",
+          "url": "https://linuxbrew.bintray.com/bottles/bochs-2.6.9_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b32844f457ead67e1a656a1a6d05c0a67d56cc1b68d0ffb60f86d3c8ec0f50cf",
+          "url": "https://linuxbrew.bintray.com/bottles/bochs-2.6.9_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "sdl2"
+  ],
+  "desc": "Open source IA-32 (x86) PC emulator written in C++",
+  "full_name": "bochs",
+  "homepage": "https://bochs.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bochs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable GDB Stub",
+      "option": "--with-gdb-stub"
+    },
+    {
+      "description": "Disable graphical support",
+      "option": "--without-sdl2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "sdl2"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.6.9"
+  }
+}

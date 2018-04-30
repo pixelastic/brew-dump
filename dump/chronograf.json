@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "19013ed77e9a26dad8c7a0039f71e37f0e528c6ce5d9d0b375fa560924d8d47d",
+          "url": "https://linuxbrew.bintray.com/bottles/chronograf-1.4.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "655feb017004a28c8bbd18052baf57ea16b842ff9540aafb8b982b59a572f19a",
+          "url": "https://linuxbrew.bintray.com/bottles/chronograf-1.4.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ba14166606f0939d4e7e698485da0fb17b7f959e8c1aded4f14e9cbf899934c1",
+          "url": "https://linuxbrew.bintray.com/bottles/chronograf-1.4.4.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "node",
+    "yarn"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "node",
+    "yarn",
+    "influxdb",
+    "kapacitor"
+  ],
+  "desc": "Open source monitoring and visualization UI for the TICK stack",
+  "full_name": "chronograf",
+  "homepage": "https://docs.influxdata.com/chronograf/latest/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "chronograf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without influxdb support",
+      "option": "--without-influxdb"
+    },
+    {
+      "description": "Build without kapacitor support",
+      "option": "--without-kapacitor"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "influxdb",
+    "kapacitor"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.4.1"
+  }
+}

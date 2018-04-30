@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a3a9604162e1dd71c1ec69cfec895e0a92329e57f478a01131a2a00a3c495544",
+          "url": "https://linuxbrew.bintray.com/bottles/darkice-1.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e07c9c9beafe2a9fae19ae6570181ef838da42755b9d9677535f8410768c1e7e",
+          "url": "https://linuxbrew.bintray.com/bottles/darkice-1.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f5acac754cda3888160930ff630d33d5a7f134e455b21ad21a40b41150e12f49",
+          "url": "https://linuxbrew.bintray.com/bottles/darkice-1.3_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "64c3ebd7486589b3e9a216a4be8158ad94b1ceafac15934f97b4b3f3d684ad05",
+          "url": "https://linuxbrew.bintray.com/bottles/darkice-1.3_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libvorbis",
+    "lame",
+    "two-lame",
+    "faac",
+    "libsamplerate",
+    "jack"
+  ],
+  "desc": "Live audio streamer",
+  "full_name": "darkice",
+  "homepage": "http://www.darkice.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "darkice",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3"
+  }
+}

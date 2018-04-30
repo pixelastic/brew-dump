@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3653d5b46e6d484b0d53fb19556db680ab0849c7dd12f30fca0fd007c9edbef2",
+          "url": "https://linuxbrew.bintray.com/bottles/fq-0.10.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f3c055e79684d71db62dbc1ee77c31ef2008d6dc0bef3bfbb712eb78bb7f3ebf",
+          "url": "https://linuxbrew.bintray.com/bottles/fq-0.10.10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "45f97a6b9974bdf11dcc45f65602380f18c1c9da327e85cec40a951d448b356e",
+          "url": "https://linuxbrew.bintray.com/bottles/fq-0.10.10.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "concurrencykit",
+    "jlog",
+    "openssl"
+  ],
+  "desc": "Brokered message queue optimized for performance",
+  "full_name": "fq",
+  "homepage": "https://github.com/circonus-labs/fq",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fq",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.10.10"
+  }
+}

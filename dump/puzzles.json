@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e0420bceeef67f011a6d8bd60d6570163288a6f2106d5f193937e027df18b1cb",
+          "url": "https://linuxbrew.bintray.com/bottles/puzzles-20180426.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cb723ac7e96c498cd3ce60a4db048f4734afae659056fd50999a9243410afca2",
+          "url": "https://linuxbrew.bintray.com/bottles/puzzles-20180426.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9f1b4346940f6e44dfdbd7eb45c386c7a229e10638571bb07e4b6e205f60d441",
+          "url": "https://linuxbrew.bintray.com/bottles/puzzles-20180426.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "halibut"
+  ],
+  "desc": "Collection of one-player puzzle games",
+  "full_name": "puzzles",
+  "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "puzzles",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "20180426"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5f2ecf9a88ebd7b39cf2965359d9609545148d5cae2581fc6887b713968a951d",
+          "url": "https://linuxbrew.bintray.com/bottles/librdkafka-0.11.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "852978d934a2ec27765cdf6bd9b0b26ecff7051620ac54e66163c42f59a04783",
+          "url": "https://linuxbrew.bintray.com/bottles/librdkafka-0.11.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2684881f72662f7957dd793f8cb2191b62d04e0022c74bd41a3df234cff67688",
+          "url": "https://linuxbrew.bintray.com/bottles/librdkafka-0.11.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a0a6424d13c0eed3e3d4cef2c4bdc129a4bc323a66ea4f0ef116c8324d9287a4",
+          "url": "https://linuxbrew.bintray.com/bottles/librdkafka-0.11.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "lzlib",
+    "openssl",
+    "lz4",
+    "python"
+  ],
+  "desc": "The Apache Kafka C/C++ library",
+  "full_name": "librdkafka",
+  "homepage": "https://github.com/edenhill/librdkafka",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "librdkafka",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without lz4 support",
+      "option": "--without-lz4"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "lz4"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.11.4"
+  }
+}

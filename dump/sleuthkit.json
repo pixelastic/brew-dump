@@ -1,0 +1,86 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "dd9aaa5cba9a55db4132a31c308fc111e8bd1b66f7fa1255e045ffa110a7a6ba",
+          "url": "https://linuxbrew.bintray.com/bottles/sleuthkit-4.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d418bac269354588ffd2d16ed9f52bdde27a712333c34dab26ef816c210196c6",
+          "url": "https://linuxbrew.bintray.com/bottles/sleuthkit-4.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cf98bd7df825bb78b3f7066da21fd65f55fe273023e16d08f448bc5c3f69c1c5",
+          "url": "https://linuxbrew.bintray.com/bottles/sleuthkit-4.6.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d11e49fdee232ea5debf75b99f2c4a0ecc0c73e2ae05ed04b995c52763680120",
+          "url": "https://linuxbrew.bintray.com/bottles/sleuthkit-4.6.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "irods",
+    "ffind"
+  ],
+  "dependencies": [
+    "afflib",
+    "libewf"
+  ],
+  "desc": "Forensic toolkit",
+  "full_name": "sleuthkit",
+  "homepage": "https://www.sleuthkit.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sleuthkit",
+  "oldname": null,
+  "optional_dependencies": [
+    "afflib",
+    "libewf"
+  ],
+  "options": [
+    {
+      "description": "Build Sleuthkit with JNI bindings",
+      "option": "--with-jni"
+    },
+    {
+      "description": "Build debug version",
+      "option": "--with-debug"
+    },
+    {
+      "description": "Build with afflib support",
+      "option": "--with-afflib"
+    },
+    {
+      "description": "Build with libewf support",
+      "option": "--with-libewf"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.6.0"
+  }
+}

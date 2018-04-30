@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "38c85e00a1dc54d103713d04a0d458c55cf3f2618d2a7848f5750f66068206d2",
+          "url": "https://linuxbrew.bintray.com/bottles/patchelf-0.9_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c97defd1aa773a8b3a36ce9941f860bd0d4348c47beb97e2c59e43c096234fd6",
+          "url": "https://linuxbrew.bintray.com/bottles/patchelf-0.9_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8994925b02e7d2ce043df104ceb64b959543e1a869dd126b02c00f0f6a20bfd0",
+          "url": "https://linuxbrew.bintray.com/bottles/patchelf-0.9_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "00c02e6c700f4427da40a82e2a5d88427cfb28a79b3ac69f441d69d8377254f4",
+          "url": "https://linuxbrew.bintray.com/bottles/patchelf-0.9_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Modify dynamic ELF executables",
+  "full_name": "patchelf",
+  "homepage": "https://nixos.org/patchelf.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "patchelf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Link statically",
+      "option": "--with-static"
+    },
+    {
+      "description": "Link libstdc++ dynamically",
+      "option": "--without-static-libstdc++"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9"
+  }
+}

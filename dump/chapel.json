@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "821baa3760ace44d3cf06d13af0b20e3471bba0c62a5deda3ec4d7c14b4c5123",
+          "url": "https://linuxbrew.bintray.com/bottles/chapel-1.17.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c6e13af8b2ad7eab4f306a6a72220320c192c1eb031d8cb13ad908e576e161f7",
+          "url": "https://linuxbrew.bintray.com/bottles/chapel-1.17.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "83fbf6e7fc929c3534f792eaa0fa1ff7e1eea9c7c735488196a106247a0ba013",
+          "url": "https://linuxbrew.bintray.com/bottles/chapel-1.17.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Emerging programming language designed for parallel computing",
+  "full_name": "chapel",
+  "homepage": "https://chapel-lang.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "chapel",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.17.0"
+  }
+}

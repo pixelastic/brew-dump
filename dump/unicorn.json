@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3519d8189333c5ae43eb618e18db7b6be4cf9cc288c6a45ca3b618964d62395c",
+          "url": "https://linuxbrew.bintray.com/bottles/unicorn-1.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a12e18a0a334fa19a2dc54a43fc5d56861e31cf5a9ad352cb1150bb6ec61703c",
+          "url": "https://linuxbrew.bintray.com/bottles/unicorn-1.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "81d29e7f28335317dd40976d904636ccd7d0679b71747ad13530dc991f327122",
+          "url": "https://linuxbrew.bintray.com/bottles/unicorn-1.0.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f8c7cb546985c5e34dddb2c2e338314d024e266085fcbdc3f7e52e0f426e4e29",
+          "url": "https://linuxbrew.bintray.com/bottles/unicorn-1.0.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config"
+  ],
+  "desc": "Lightweight multi-architecture CPU emulation framework",
+  "full_name": "unicorn",
+  "homepage": "https://www.unicorn-engine.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "unicorn",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with support for ARM64, Motorola 64k, PowerPC and SPARC",
+      "option": "--with-all"
+    },
+    {
+      "description": "Create a debug build",
+      "option": "--with-debug"
+    },
+    {
+      "description": "Test build",
+      "option": "--with-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.1"
+  }
+}

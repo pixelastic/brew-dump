@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0139ddf8047c88ee6c29abfa8a112dce897150d54a0d83b9d2892d5033829a6d",
+          "url": "https://linuxbrew.bintray.com/bottles/libnotify-0.7.7_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f88f445a6b5719c695aa606da3050d3e24ddc1c7a586f6541186025551d273e6",
+          "url": "https://linuxbrew.bintray.com/bottles/libnotify-0.7.7_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "09166e1efa743eed930b7aca87b084de644735f8af17133bf697e24b70f8018f",
+          "url": "https://linuxbrew.bintray.com/bottles/libnotify-0.7.7_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "gdk-pixbuf"
+  ],
+  "desc": "Library that sends desktop notifications to a notification daemon",
+  "full_name": "libnotify",
+  "homepage": "https://developer.gnome.org/libnotify",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libnotify",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.7"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c1659d82d045517de16860042a53360b5ce061c8d13e57b8ea15db624ad7289f",
+          "url": "https://linuxbrew.bintray.com/bottles/gitup-0.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8a11d7864ef368045ba5ebed1580fe3a22f4e04b24f4f24c9678eefbf186afc7",
+          "url": "https://linuxbrew.bintray.com/bottles/gitup-0.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8a11d7864ef368045ba5ebed1580fe3a22f4e04b24f4f24c9678eefbf186afc7",
+          "url": "https://linuxbrew.bintray.com/bottles/gitup-0.4.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7ddae7fb1f16cfb072c1efe79d90ca35f92b9cd7ac3a885bc0a080cea765d28d",
+          "url": "https://linuxbrew.bintray.com/bottles/gitup-0.4.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Update multiple git repositories at once",
+  "full_name": "gitup",
+  "homepage": "https://github.com/earwig/git-repo-updater",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gitup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.1"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3ecb325a368ef42737e77003e9ecc13a8d402a34da3a25c039b36565fef0b55d",
+          "url": "https://linuxbrew.bintray.com/bottles/ecm-1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "985409c27f6eff735bda8566c07ee787fd2ed4c92ac72c303376076d14e08dd9",
+          "url": "https://linuxbrew.bintray.com/bottles/ecm-1.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c80a78299a5042d8588806066af2b03e9a3a679e8284fb863d9ee15edc690933",
+          "url": "https://linuxbrew.bintray.com/bottles/ecm-1.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "888612dee7486ca5413e2b1e0090a4e1bd5ea7f2fe5cc53fe02bb326ed4f3d4c",
+          "url": "https://linuxbrew.bintray.com/bottles/ecm-1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9eef5eb54af2ad50ab05ee9382efe8d0ca831a6d058fe1fa2679cff87aa0a064",
+          "url": "https://linuxbrew.bintray.com/bottles/ecm-1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Prepare CD image files so they compress better",
+  "full_name": "ecm",
+  "homepage": "https://web.archive.org/web/20140227165748/www.neillcorlett.com/ecm/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ecm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0"
+  }
+}

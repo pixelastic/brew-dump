@@ -1,0 +1,87 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0e8eb571054d13d3abcb06940c481814dd54dbb94104cedcdedbd57c09721743",
+          "url": "https://linuxbrew.bintray.com/bottles/opentsdb-2.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cbf21f845ccb3f79b9f0a31f44c7581de4f59cfedf62283ea8793d740b74c945",
+          "url": "https://linuxbrew.bintray.com/bottles/opentsdb-2.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4ef2e9151ebc7aafccdeb170495d2a3308ce92f8cbac68cf88c71558d4b8aaf7",
+          "url": "https://linuxbrew.bintray.com/bottles/opentsdb-2.3.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "07ba3d636bad55c244e259d5eb619f09367f16b3e14e8caea74bbd19c33f44d5",
+          "url": "https://linuxbrew.bintray.com/bottles/opentsdb-2.3.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "hbase",
+    "lzo",
+    "gnuplot"
+  ],
+  "desc": "Scalable, distributed Time Series Database",
+  "full_name": "opentsdb",
+  "homepage": "http://opentsdb.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "opentsdb",
+  "oldname": null,
+  "optional_dependencies": [
+    "gnuplot"
+  ],
+  "options": [
+    {
+      "description": "Build without lzo support",
+      "option": "--without-lzo"
+    },
+    {
+      "description": "Build with gnuplot support",
+      "option": "--with-gnuplot"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "lzo"
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "hbaselzo"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.0"
+  }
+}

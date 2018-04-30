@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4d55dfb291e53beb8397f88d49121f8fb403c451a5f0eea05b819240449d740e",
+          "url": "https://linuxbrew.bintray.com/bottles/metashell-3.0.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ea62126c211e42451b2272b250b877c2714c470a654d4d81dbf40a26c79fd4f0",
+          "url": "https://linuxbrew.bintray.com/bottles/metashell-3.0.0.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b2ed4c805b490c689c9d2f8f8407b19a936a9d8bcc26b167d3a7727b1d503a5b",
+          "url": "https://linuxbrew.bintray.com/bottles/metashell-3.0.0.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Metaprogramming shell for C++ templates",
+  "full_name": "metashell",
+  "homepage": "http://metashell.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "metashell",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.0"
+  }
+}

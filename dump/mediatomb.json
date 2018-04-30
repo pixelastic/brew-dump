@@ -1,0 +1,99 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "06cb4aaff088fc91d9500b10640d2b1632f8c88c95277f9cface991a06801ad6",
+          "url": "https://linuxbrew.bintray.com/bottles/mediatomb-0.12.1_2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d4dee77311dda28a732947640b2adf9387f477ed9b66bc0640c30feba34b6a1d",
+          "url": "https://linuxbrew.bintray.com/bottles/mediatomb-0.12.1_2.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7022f700071652e20eb3d93b3d0b0a9d5f4cf1485cd350d85116fcbdea1ac104",
+          "url": "https://linuxbrew.bintray.com/bottles/mediatomb-0.12.1_2.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8eb40e0276320c6765b7dbc208afe1c53a06ed13ff5e410e16aee57c366bede7",
+          "url": "https://linuxbrew.bintray.com/bottles/mediatomb-0.12.1_2.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "089217abe05ea91a8dc1df796974495f87b8bcde7b4d80a93b1129e12cfc344d",
+          "url": "https://linuxbrew.bintray.com/bottles/mediatomb-0.12.1_2.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Edit the config file ~/.mediatomb/config.xml before running mediatomb.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libexif",
+    "libmagic",
+    "lzlib",
+    "mp4v2",
+    "spidermonkey",
+    "sqlite",
+    "taglib",
+    "ffmpeg",
+    "ffmpegthumbnailer",
+    "id3lib",
+    "mysql"
+  ],
+  "desc": "Open source (GPL) UPnP MediaServer",
+  "full_name": "mediatomb",
+  "homepage": "https://mediatomb.cc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mediatomb",
+  "oldname": null,
+  "optional_dependencies": [
+    "ffmpeg",
+    "ffmpegthumbnailer",
+    "id3lib",
+    "mysql"
+  ],
+  "options": [
+    {
+      "description": "Build with ffmpeg support",
+      "option": "--with-ffmpeg"
+    },
+    {
+      "description": "Build with ffmpegthumbnailer support",
+      "option": "--with-ffmpegthumbnailer"
+    },
+    {
+      "description": "Build with id3lib support",
+      "option": "--with-id3lib"
+    },
+    {
+      "description": "Build with mysql support",
+      "option": "--with-mysql"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.12.1"
+  }
+}

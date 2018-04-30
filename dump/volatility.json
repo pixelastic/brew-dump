@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a0613ac4dd0a9b06ac6a9dabbc86c77faabe585af2e884d44d264cdaddac2308",
+          "url": "https://linuxbrew.bintray.com/bottles/volatility-2.6_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "45afc584a2c272a157adf218b31609e350025080bfc6bcdf6dde916e1a2dcad4",
+          "url": "https://linuxbrew.bintray.com/bottles/volatility-2.6_1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c6a71814aa288cb111544a727f333b7f3f82c77a07c980f16038275f375835b6",
+          "url": "https://linuxbrew.bintray.com/bottles/volatility-2.6_1.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4d2eea05735cb6fd1554aa54816f8f5c54acb0b33fa0f06b8201a0d8c2a7ab09",
+          "url": "https://linuxbrew.bintray.com/bottles/volatility-2.6_1.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e14faea2003aada9ede7d52c09497ea8eb90b5153853ecfe86c3416a043dc70a",
+          "url": "https://linuxbrew.bintray.com/bottles/volatility-2.6_1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "yara",
+    "jpeg",
+    "freetype",
+    "gmp"
+  ],
+  "desc": "Advanced memory forensics framework",
+  "full_name": "volatility",
+  "homepage": "https://github.com/volatilityfoundation/volatility",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "volatility",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.6"
+  }
+}

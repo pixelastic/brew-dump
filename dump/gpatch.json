@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "bd67af8b9c24fa785a2da2a1d3475305593dbc183331aed657313e4066de3259",
+          "url": "https://linuxbrew.bintray.com/bottles/gpatch-2.7.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "418d7ea9c3948a5d70bdca202bd56e5554eef7f105fc25449f041331db7f4f96",
+          "url": "https://linuxbrew.bintray.com/bottles/gpatch-2.7.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "81e0fb63928b01d60b9d7a1f0bdbf262679888556bd055fd02f4f57a70cb87ad",
+          "url": "https://linuxbrew.bintray.com/bottles/gpatch-2.7.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "70df1fb356ca7ccccd277110fcf467ea9fd0dc7337c93ad8ecd39848b081f95c",
+          "url": "https://linuxbrew.bintray.com/bottles/gpatch-2.7.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Apply a diff file to an original",
+  "full_name": "gpatch",
+  "homepage": "https://savannah.gnu.org/projects/patch/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gpatch",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.7.6"
+  }
+}

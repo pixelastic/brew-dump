@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "e10900677ab6b271c93020a79440173eeb88972e512fd0edf1ea91fc5955bc82",
+          "url": "https://linuxbrew.bintray.com/bottles/fuse-emulator-1.5.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "31b2c28e12d90ad3dc15c10696fbe648a91c1dded6fd7f746b9b882bd6b8b425",
+          "url": "https://linuxbrew.bintray.com/bottles/fuse-emulator-1.5.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9f1bd4787ea78b08319bf4cb10c8e299f4a8d5545b03586d2a83ed24d53a693c",
+          "url": "https://linuxbrew.bintray.com/bottles/fuse-emulator-1.5.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "sdl",
+    "libspectrum",
+    "libpng"
+  ],
+  "desc": "Free Unix Spectrum Emulator",
+  "full_name": "fuse-emulator",
+  "homepage": "https://fuse-emulator.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fuse-emulator",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.5.2"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6a15b6b97fae6971752afbd05aa07e94ccebf1b216c9e36a2ba7bbf6523482bc",
+          "url": "https://linuxbrew.bintray.com/bottles/jhead-3.00_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "91644d47cff25c954cba7ccaa0c243dcbde63e626e9e749571042952d8ab3337",
+          "url": "https://linuxbrew.bintray.com/bottles/jhead-3.00_1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1adb1ef54417bdf4bd235ab907e4c198508bc2cebadcb8602cdec7809bb9e3a6",
+          "url": "https://linuxbrew.bintray.com/bottles/jhead-3.00_1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b1d517e2de29ae9a906636f4ed18c99aa459b221d1bff65fc497f6e86eae53ba",
+          "url": "https://linuxbrew.bintray.com/bottles/jhead-3.00_1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Extract Digicam setting info from EXIF JPEG headers",
+  "full_name": "jhead",
+  "homepage": "http://www.sentex.net/~mwandel/jhead/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jhead",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.00"
+  }
+}

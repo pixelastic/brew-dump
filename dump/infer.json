@@ -1,0 +1,99 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6ad6d697863bc21b468020fa1641247df47e4efc166947c0a30cad7ab2c678ea",
+          "url": "https://linuxbrew.bintray.com/bottles/infer-0.13.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3b5045e2cef780fc9e3e564dbd31ef090d511c39792dd1446bcec6ca9ef37b73",
+          "url": "https://linuxbrew.bintray.com/bottles/infer-0.13.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fe45a7674a34c9dc4fef89467a962db1886126a3544ad54479c4ec1999867986",
+          "url": "https://linuxbrew.bintray.com/bottles/infer-0.13.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "cmake",
+    "libtool",
+    "ocaml",
+    "opam",
+    "pkg-config",
+    "m4",
+    "unzip"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "cmake",
+    "libtool",
+    "ocaml",
+    "opam",
+    "pkg-config",
+    "m4",
+    "unzip",
+    "ncurses",
+    "zlib",
+    "python"
+  ],
+  "desc": "Static analyzer for Java, C, C++, and Objective-C",
+  "full_name": "infer",
+  "homepage": "https://fbinfer.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "infer",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without the C/C++/Objective-C analyzers",
+      "option": "--without-clang"
+    },
+    {
+      "description": "Build without the Java analyzers",
+      "option": "--without-java"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "caskroom/versions/java8",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    },
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.13.1"
+  }
+}

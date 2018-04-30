@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "71e51bb0487289361bb2941af3b7f303e6c92914aa0e62bdc7aaf7810a6ce7c2",
+          "url": "https://linuxbrew.bintray.com/bottles/git-town-7.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b17a93840ab8e6a3eb7a2bfd57e3b2cf17529e628bd2611fadf47a28b2213b56",
+          "url": "https://linuxbrew.bintray.com/bottles/git-town-7.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "120b374ac63bab390dc1ed010cbb88716b58470da2a2e413980bd1f3e87baf23",
+          "url": "https://linuxbrew.bintray.com/bottles/git-town-7.1.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "High-level command-line interface for Git",
+  "full_name": "git-town",
+  "homepage": "https://www.git-town.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git-town",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.1.1"
+  }
+}

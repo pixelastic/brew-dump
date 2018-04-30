@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d811b416c6cc4cee0c770d476a993ab2b2ad9917068f31bb772a0ad3704cdcc1",
+          "url": "https://linuxbrew.bintray.com/bottles/libetonyek-0.1.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f03b400c57d53246843f5bb960be851bbb7a4386174f3fe08d762bf12a3cb806",
+          "url": "https://linuxbrew.bintray.com/bottles/libetonyek-0.1.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4118f35b50634d104c481539e3746d824f31a045538a70881ca6869ecabab784",
+          "url": "https://linuxbrew.bintray.com/bottles/libetonyek-0.1.8.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "boost"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "boost",
+    "librevenge",
+    "glm",
+    "mdds"
+  ],
+  "desc": "Interpret and import Apple Keynote presentations",
+  "full_name": "libetonyek",
+  "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libetonyek",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libetonyek",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.8"
+  }
+}

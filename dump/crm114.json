@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d48449acfcd105d07e11c0ac7c47fdb21b88d3346c0b51377b9e44b8c8726073",
+          "url": "https://linuxbrew.bintray.com/bottles/crm114-20100106.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1871f19d45d9d9d5f84663acde3f7e9177fd9a44bfe50532ed123314e360f690",
+          "url": "https://linuxbrew.bintray.com/bottles/crm114-20100106.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "30c0c390671485747b7fd2e19bd8735ccfe3bfaae8864dc361bf2abe917ba342",
+          "url": "https://linuxbrew.bintray.com/bottles/crm114-20100106.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5e22ac9266e49f8281f3afbd613b3f16eb76113fc1f1e2256206513ab6220d42",
+          "url": "https://linuxbrew.bintray.com/bottles/crm114-20100106.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "43888e087fce5f4ab5cc950624eb59a645abdc54619c175c8fcf93dd02a27fcf",
+          "url": "https://linuxbrew.bintray.com/bottles/crm114-20100106.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "151316bd14f7cfce5cea3b765cf4e7801e31c63b72dd786fb38989d8b9380eb3",
+          "url": "https://linuxbrew.bintray.com/bottles/crm114-20100106.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "tre"
+  ],
+  "desc": "Examine, sort, filter or alter logs or data streams",
+  "full_name": "crm114",
+  "homepage": "https://crm114.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "crm114",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20100106"
+  }
+}

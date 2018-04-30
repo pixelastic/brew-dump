@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ef4b2b224c6404c1ee2c8a0d553e904436891ffd37f3b8e478e609cb7b38c93f",
+          "url": "https://linuxbrew.bintray.com/bottles/conjure-up-2.5.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7a18f4464a63138957a05614beb529f15584518265f442ffc08fed46f82a6adb",
+          "url": "https://linuxbrew.bintray.com/bottles/conjure-up-2.5.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7bb8eb679406e63f9ac02cfb79a3686a2acdbea9bcb4025589eecbb40d63b1ce",
+          "url": "https://linuxbrew.bintray.com/bottles/conjure-up-2.5.6.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libyaml",
+    "juju",
+    "juju-wait",
+    "jq",
+    "redis",
+    "awscli",
+    "pwgen",
+    "python"
+  ],
+  "desc": "Big software deployments so easy it's almost magical",
+  "full_name": "conjure-up",
+  "homepage": "https://conjure-up.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "conjure-up",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5.6"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d0a71d129904ac0529c6f8e789a41307caaeb0e6d9f33f30f23f4b3dbc61456d",
+          "url": "https://linuxbrew.bintray.com/bottles/libbind-6.0.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4cbde1938720903104389cb24f164f5fc3791953984888d62e0831a695dfeb2d",
+          "url": "https://linuxbrew.bintray.com/bottles/libbind-6.0.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f59cf59e14f6192c962592a4411391413d929c8dfff81fdd8b4a82ce7c0d3f02",
+          "url": "https://linuxbrew.bintray.com/bottles/libbind-6.0.mavericks.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b5a4bc4b247b5cce0c637bb96335c5df27e2210c40cc89e19f9957f5aef1cbdb",
+          "url": "https://linuxbrew.bintray.com/bottles/libbind-6.0.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c2eaf992dc37ce98d5936ba7e086c30a5da242bfe834e593dfb40d7d3e546923",
+          "url": "https://linuxbrew.bintray.com/bottles/libbind-6.0.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Original resolver library from ISC",
+  "full_name": "libbind",
+  "homepage": "https://www.isc.org/software/libbind",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libbind",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.0"
+  }
+}

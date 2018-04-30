@@ -1,0 +1,87 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b734cdcbc7ce11c4a716bc96ee7671f3883a5d41dadceac28d994ad2c20292f9",
+          "url": "https://linuxbrew.bintray.com/bottles/plotutils-2.6_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "00796c7f6aa36203eb0fd919ef4f096c6016d3c5973b2032328c95c87b354d92",
+          "url": "https://linuxbrew.bintray.com/bottles/plotutils-2.6_2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "e51b4b5c367e8f9ec533f54e20c9df0b887818ee35c4cde19ba8feb73d4d2ff2",
+          "url": "https://linuxbrew.bintray.com/bottles/plotutils-2.6_2.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "f77398849e9a064feee52712c8c71a60e07dbc7a2d00967ed584e046ff4bc4d7",
+          "url": "https://linuxbrew.bintray.com/bottles/plotutils-2.6_2.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b63f4f051452f8fd9b5ddb50f9d574122c2277c9778e1a56c3f2d59e55c3da73",
+          "url": "https://linuxbrew.bintray.com/bottles/plotutils-2.6_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d8e7784b27bd783017cfc84e90b978c3e110163cee88112ad7f0f8aa8b73248a",
+          "url": "https://linuxbrew.bintray.com/bottles/plotutils-2.6_2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fae89f252628820ac83a0896fa022b1c08cacca6e6234b2fb23c10554f424fd3",
+          "url": "https://linuxbrew.bintray.com/bottles/plotutils-2.6_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libpng",
+    "linuxbrew/xorg/xorg"
+  ],
+  "desc": "C/C++ function library for exporting 2-D vector graphics",
+  "full_name": "plotutils",
+  "homepage": "https://www.gnu.org/software/plotutils/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "plotutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.6"
+  }
+}

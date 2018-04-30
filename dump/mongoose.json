@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "788bd2c11b0edf968e786cb4869b8ca383df694f868c81cc269ca2f3eb7fc5f7",
+          "url": "https://linuxbrew.bintray.com/bottles/mongoose-6.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "569e2ff5b7d5864e3133ac6b5d941f5681006d06b8506b4fee1ac1cfc514ff74",
+          "url": "https://linuxbrew.bintray.com/bottles/mongoose-6.11.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "12e2cdc336a00a9798bd2bc5e278a39ac30fc93055490e3faf069aff1690a7d8",
+          "url": "https://linuxbrew.bintray.com/bottles/mongoose-6.11.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0baebf094c3855fa1980f09130082a4616a8d6bae64b5ffd053c4bb86c4d2ebf",
+          "url": "https://linuxbrew.bintray.com/bottles/mongoose-6.11.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Web server build on top of Libmongoose embedded library",
+  "full_name": "mongoose",
+  "homepage": "https://github.com/cesanta/mongoose",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mongoose",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without openssl support",
+      "option": "--without-openssl"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "openssl"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.11"
+  }
+}

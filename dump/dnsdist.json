@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "009d81af1fcec266485d5706bf9df16850346d5ac0285a75d695c12a3ef49869",
+          "url": "https://linuxbrew.bintray.com/bottles/dnsdist-1.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7aacb96a39ca2fc3f8bf08ca62f2a2bd7bcff290f06cfb0517ba552e9bdf5cdb",
+          "url": "https://linuxbrew.bintray.com/bottles/dnsdist-1.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bf56956092df94ba2ede745dff8ea37fb5059f252593cb4dc7c0699fe3b081ac",
+          "url": "https://linuxbrew.bintray.com/bottles/dnsdist-1.3.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "boost",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "pkg-config",
+    "lua"
+  ],
+  "desc": "Highly DNS-, DoS- and abuse-aware loadbalancer",
+  "full_name": "dnsdist",
+  "homepage": "https://www.dnsdist.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dnsdist",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3.0"
+  }
+}

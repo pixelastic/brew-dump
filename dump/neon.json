@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "2aafd9bf8e7fb42d8cce9b6a7467e8beccc11931b824766e341a8d72331e0c48",
+          "url": "https://linuxbrew.bintray.com/bottles/neon-0.30.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6866235177ca4c311257547ca644e50a5011d5bb60ef3631cfb42a01a0fb7df9",
+          "url": "https://linuxbrew.bintray.com/bottles/neon-0.30.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6f44e5c1db3418612bf871f9551acef119162eac40585f045f02d2612ade356e",
+          "url": "https://linuxbrew.bintray.com/bottles/neon-0.30.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7348fcda6d13a8cba37a98b7ac6c9876a2ffa037714954872832d390c5a475d7",
+          "url": "https://linuxbrew.bintray.com/bottles/neon-0.30.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "openssl"
+  ],
+  "desc": "HTTP and WebDAV client library with a C interface",
+  "full_name": "neon",
+  "homepage": "https://web.archive.org/web/20070925040920/www.webdav.org/neon/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "neon",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.30.2"
+  }
+}

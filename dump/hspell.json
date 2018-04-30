@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f9648fc0bbf530759a8cd7057ebed5310c3b293c5cd2c1e284aef28f55e44ba7",
+          "url": "https://linuxbrew.bintray.com/bottles/hspell-1.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "62cf9605edbaf21775ddc788367d78260d79058fba8c90674620d1ee59c9b273",
+          "url": "https://linuxbrew.bintray.com/bottles/hspell-1.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "50be9b91b5158ce882207622b6a2581185f67a5c999c8f1105d522d800344a37",
+          "url": "https://linuxbrew.bintray.com/bottles/hspell-1.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6ccb57a3f549935b58b3aaa56b0a49b5a7fc41692594d2e4a0d718a5be30fa84",
+          "url": "https://linuxbrew.bintray.com/bottles/hspell-1.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf"
+  ],
+  "desc": "Free Hebrew linguistic project",
+  "full_name": "hspell",
+  "homepage": "http://hspell.ivrix.org.il/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hspell",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4"
+  }
+}

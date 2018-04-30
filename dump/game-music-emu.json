@@ -1,0 +1,67 @@
+{
+  "aliases": [
+    "libgme"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "df8297b2e54ef3a24291d03006a4b0b9e2c7c004e3f9abe1f278a204a0efd031",
+          "url": "https://linuxbrew.bintray.com/bottles/game-music-emu-0.6.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fa5d01d37320f200b61257cabe024ff4e51b801f37fcf217b455ba06abeca197",
+          "url": "https://linuxbrew.bintray.com/bottles/game-music-emu-0.6.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "11069c82318a509cefef8132816ecac1e84d857fcc317532fbfd73b040c1e225",
+          "url": "https://linuxbrew.bintray.com/bottles/game-music-emu-0.6.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b2083ec978c76c9d11590bb3f298e48759ef5af84691583ec9c6b61110980f8a",
+          "url": "https://linuxbrew.bintray.com/bottles/game-music-emu-0.6.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Videogame music file emulator collection",
+  "full_name": "game-music-emu",
+  "homepage": "https://bitbucket.org/mpyne/game-music-emu",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "game-music-emu",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.6.2"
+  }
+}

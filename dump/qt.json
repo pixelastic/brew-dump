@@ -1,0 +1,102 @@
+{
+  "aliases": [
+    "qt5",
+    "qt@5.10"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c0407afba5951df6cc4c6f6c1c315972bd41c99cecb4e029919c4c15ab6f7bdc",
+          "url": "https://linuxbrew.bintray.com/bottles/qt-5.10.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8b4bad005596a5f8790150fe455db998ac2406f4e0f04140d6656205d844d266",
+          "url": "https://linuxbrew.bintray.com/bottles/qt-5.10.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9c488554935fb573554a4e36d36d3c81e47245b7fefc4b61edef894e67ba1740",
+          "url": "https://linuxbrew.bintray.com/bottles/qt-5.10.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7a9513fd600fda9d96d646c4033d0ad030ae2d3d9512f6f751f15075288b2919",
+          "url": "https://linuxbrew.bintray.com/bottles/qt-5.10.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "We agreed to the Qt opensource license for you.\nIf this is unacceptable you should uninstall.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "mysql",
+    "postgresql",
+    "fontconfig",
+    "glib",
+    "icu4c",
+    "libproxy",
+    "pulseaudio",
+    "sqlite",
+    "systemd",
+    "libxkbcommon",
+    "linuxbrew/xorg/mesa",
+    "linuxbrew/xorg/xorg"
+  ],
+  "desc": "Cross-platform application and UI framework",
+  "full_name": "qt",
+  "homepage": "https://www.qt.io/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "qt",
+  "oldname": "qt5",
+  "optional_dependencies": [
+    "mysql",
+    "postgresql"
+  ],
+  "options": [
+    {
+      "description": "Build documentation",
+      "option": "--with-docs"
+    },
+    {
+      "description": "Build examples",
+      "option": "--with-examples"
+    },
+    {
+      "description": "Don't build with proprietary codecs (e.g. mp3)",
+      "option": "--without-proprietary-codecs"
+    },
+    {
+      "description": "Build with mysql support",
+      "option": "--with-mysql"
+    },
+    {
+      "description": "Build with postgresql support",
+      "option": "--with-postgresql"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.10.1"
+  }
+}

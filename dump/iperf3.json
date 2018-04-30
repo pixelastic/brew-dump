@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f151cefe7c21e1a546438afc8d6b10c251da7a1b19f4767ece854df8125294d3",
+          "url": "https://linuxbrew.bintray.com/bottles/iperf3-3.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0833a5d9771ff1365140ee204a9c0ad768cd2676bc29b7642941083302617c91",
+          "url": "https://linuxbrew.bintray.com/bottles/iperf3-3.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "beef7813eb423f34ffb9915c758555197273e3ad0d4553cb168716122e81941c",
+          "url": "https://linuxbrew.bintray.com/bottles/iperf3-3.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8d2961375a0252be67c1cfca61506ae4d531cc779e8da0f745e1511eb10c559c",
+          "url": "https://linuxbrew.bintray.com/bottles/iperf3-3.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Update of iperf: measures TCP, UDP, and SCTP bandwidth",
+  "full_name": "iperf3",
+  "homepage": "https://github.com/esnet/iperf",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "iperf3",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.5"
+  }
+}

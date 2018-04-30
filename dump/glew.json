@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7d4cc74d42072da62ef61737bf28b638f52b4f56b2b8234f4709427eb44a11fe",
+          "url": "https://linuxbrew.bintray.com/bottles/glew-2.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6923b0c452de864a5be7a4d1c47803f434590e9caca1366c57811aead7e5a34b",
+          "url": "https://linuxbrew.bintray.com/bottles/glew-2.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "17d6b3bbb956bd1672a26490eb58a82eaa0e3e1adb926f3e87ba060bdf999cf3",
+          "url": "https://linuxbrew.bintray.com/bottles/glew-2.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b18af3c3b992bcc2f56f43e1f3454b73665a87b07982e0409ccaae8430c35039",
+          "url": "https://linuxbrew.bintray.com/bottles/glew-2.1.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a2f2237afc466ec31735d03c983e962240555e7ad32f2bc7b5cbceb996f48ade",
+          "url": "https://linuxbrew.bintray.com/bottles/glew-2.1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "linuxbrew/xorg/mesa",
+    "freeglut"
+  ],
+  "desc": "OpenGL Extension Wrangler Library",
+  "full_name": "glew",
+  "homepage": "https://glew.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "glew",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.0"
+  }
+}

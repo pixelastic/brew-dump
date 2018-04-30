@@ -1,0 +1,83 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bae5d366a89baaaff691c8bd178092b2b953f6fcd6ea7689aae154fcb15ede60",
+          "url": "https://linuxbrew.bintray.com/bottles/latexila-3.26.1_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "692f383ca261bea02b2853ee77ae398a8efcbb666b25ae758d087f7d1b96263d",
+          "url": "https://linuxbrew.bintray.com/bottles/latexila-3.26.1_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b95d43825b9d4844db8bfc709c61fa447b56c36e7fa5c8b225890044433d1375",
+          "url": "https://linuxbrew.bintray.com/bottles/latexila-3.26.1_4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "intltool",
+    "itstool",
+    "vala"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "intltool",
+    "itstool",
+    "vala",
+    "gtksourceview3",
+    "gspell",
+    "tepl",
+    "libgee",
+    "adwaita-icon-theme",
+    "gnome-themes-standard",
+    "libxml2",
+    "python@2"
+  ],
+  "desc": "LaTeX editor for the GNOME desktop",
+  "full_name": "latexila",
+  "homepage": "https://wiki.gnome.org/Apps/LaTeXila",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "latexila",
+  "oldname": null,
+  "optional_dependencies": [
+    "gnome-themes-standard"
+  ],
+  "options": [
+    {
+      "description": "Build with gnome-themes-standard support",
+      "option": "--with-gnome-themes-standard"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.26.1"
+  }
+}

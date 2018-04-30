@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "600623571d172e9d980500945233e2af293aeea8080e4fce5844932ab37640e6",
+          "url": "https://linuxbrew.bintray.com/bottles/pgpool-ii-3.7.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bc423203bfa50acfc5bf818514fe08cd715cdc1bba1f5bbef634d8eb3a5452b6",
+          "url": "https://linuxbrew.bintray.com/bottles/pgpool-ii-3.7.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b3089005f4794acf571590f7db65476dae7ac0c7c39ce8371ed1fb0b6d37ed52",
+          "url": "https://linuxbrew.bintray.com/bottles/pgpool-ii-3.7.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "88ae063b381a8dff9de1c4ed7421ea49850aa91e13a00a3e835a41945155968e",
+          "url": "https://linuxbrew.bintray.com/bottles/pgpool-ii-3.7.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "postgresql"
+  ],
+  "desc": "PostgreSQL connection pool server",
+  "full_name": "pgpool-ii",
+  "homepage": "https://www.pgpool.net/mediawiki/index.php/Main_Page",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pgpool-ii",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.7.3"
+  }
+}

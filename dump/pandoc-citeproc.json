@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9bc02f6ea655a565c99571a80ceb6f5b22fe57937740c0288e942a72b7ed8e9c",
+          "url": "https://linuxbrew.bintray.com/bottles/pandoc-citeproc-0.14.3.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "27dc266011d69330c6e81d5e5334c158f2e7f03b1f8841047b1085e84030fb18",
+          "url": "https://linuxbrew.bintray.com/bottles/pandoc-citeproc-0.14.3.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bd97c0c7bae22a29036bc4eba70c4a195ff10248f97740bb2919469e6cb159e7",
+          "url": "https://linuxbrew.bintray.com/bottles/pandoc-citeproc-0.14.3.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b98bb05d30907f330b22a9b5027461367c254e56b9957009fcd0abc0eaef78d2",
+          "url": "https://linuxbrew.bintray.com/bottles/pandoc-citeproc-0.14.3.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cabal-install",
+    "ghc",
+    "unzip"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cabal-install",
+    "ghc",
+    "pandoc",
+    "unzip"
+  ],
+  "desc": "Library and executable for using citeproc with pandoc",
+  "full_name": "pandoc-citeproc",
+  "homepage": "https://github.com/jgm/pandoc-citeproc",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pandoc-citeproc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.14.3.1"
+  }
+}

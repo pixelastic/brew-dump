@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1537db5b5475f963a0818228ee8730c5dc80f360d54b598d242a6f974fc1ff5b",
+          "url": "https://linuxbrew.bintray.com/bottles/go@1.8-1.8.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "733f30d527cce89faaddbc72687189dcc802d5c2a5bc31c4f2a43f00e0b61a61",
+          "url": "https://linuxbrew.bintray.com/bottles/go@1.8-1.8.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "692609a4bb340c24339ccab7d582be096324540fde4782e40340bd2965b71fbb",
+          "url": "https://linuxbrew.bintray.com/bottles/go@1.8-1.8.7.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "A valid GOPATH is required to use the `go get` command.\nIf $GOPATH is not specified, $HOME/go will be used by default:\n  https://golang.org/doc/code.html#GOPATH\n\nYou may wish to add the GOROOT-based install location to your PATH:\n  export PATH=$PATH:/home/tim/.linuxbrew/opt/go@1.8/libexec/bin\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Go programming environment (1.8)",
+  "full_name": "go@1.8",
+  "homepage": "https://golang.org",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "go@1.8",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without cgo (also disables race detector)",
+      "option": "--without-cgo"
+    },
+    {
+      "description": "Build without race detector",
+      "option": "--without-race"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.7"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "bd297452f33d081c7720190bc9ef17f1c8b247de5a27c64e78fede64bd871050",
+          "url": "https://linuxbrew.bintray.com/bottles/wu-3.10.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "994a58ca1396928ba5a30189ca784417c510d1563ce64d3866e99f5fdc46c7cf",
+          "url": "https://linuxbrew.bintray.com/bottles/wu-3.10.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5efc0cdf39ff0d7ce0cb70be665118459cea9f8523f9a01bf67a341e1330fb56",
+          "url": "https://linuxbrew.bintray.com/bottles/wu-3.10.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "61b96421517b20e4d6090e37ffe3b52a93ee0934ecc06e8282fd06d0bb457883",
+          "url": "https://linuxbrew.bintray.com/bottles/wu-3.10.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "CLI that retrieves weather data from Weather Underground",
+  "full_name": "wu",
+  "homepage": "https://github.com/sramsay/wu",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wu",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.10.0"
+  }
+}

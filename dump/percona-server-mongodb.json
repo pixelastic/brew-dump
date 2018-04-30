@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "high_sierra": {
+          "sha256": "a968b611a6532ac1739bc61cadbcc4d2e59f8524a876a5cfc17f79cc7b41dd85",
+          "url": "https://linuxbrew.bintray.com/bottles/percona-server-mongodb-3.6.3-1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a5820f428042091854482e2486fdc1d06d715534e664038edd79ed5f19b289e5",
+          "url": "https://linuxbrew.bintray.com/bottles/percona-server-mongodb-3.6.3-1.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "scons"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "mongodb"
+  ],
+  "dependencies": [
+    "boost",
+    "go",
+    "scons",
+    "openssl"
+  ],
+  "desc": "Drop-in MongoDB replacement",
+  "full_name": "percona-server-mongodb",
+  "homepage": "https://www.percona.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "percona-server-mongodb",
+  "oldname": null,
+  "optional_dependencies": [
+    "boost"
+  ],
+  "options": [
+    {
+      "description": "Compile using installed boost, not the version shipped with this formula",
+      "option": "--with-boost"
+    },
+    {
+      "description": "Compile with SASL support",
+      "option": "--with-sasl"
+    },
+    {
+      "description": "Build without openssl support",
+      "option": "--without-openssl"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "openssl"
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.6.3-1.1"
+  }
+}

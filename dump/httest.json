@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "263b8f5d1c78afaff3717258e9d0949bab1eb1a0d0e43d89663bd17ce27c7bc8",
+          "url": "https://linuxbrew.bintray.com/bottles/httest-2.4.23_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "871daf0bb3f8c21e567457bb46b57b5ba5cba1afc9d9df6633a83e44053d87b5",
+          "url": "https://linuxbrew.bintray.com/bottles/httest-2.4.23_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c77a3177e4662908fc013d586239d306f8e672c713431ee3ffc5ff8f07c06e63",
+          "url": "https://linuxbrew.bintray.com/bottles/httest-2.4.23_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "apr",
+    "apr-util",
+    "openssl",
+    "pcre",
+    "lua@5.1",
+    "nghttp2",
+    "spidermonkey"
+  ],
+  "desc": "Provides a large variety of HTTP-related test functionality",
+  "full_name": "httest",
+  "homepage": "https://htt.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "httest",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without lua@5.1 support",
+      "option": "--without-lua@5.1"
+    },
+    {
+      "description": "Build without nghttp2 support",
+      "option": "--without-nghttp2"
+    },
+    {
+      "description": "Build without spidermonkey support",
+      "option": "--without-spidermonkey"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "lua@5.1",
+    "nghttp2",
+    "spidermonkey"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.23"
+  }
+}

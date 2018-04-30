@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "82e828fe2506e43dbcd1e9f5e2095a1296d7cebec671f32f9f0bcd76dc7e0eab",
+          "url": "https://linuxbrew.bintray.com/bottles/sundials-3.1.0_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e2bc6810a0668df7cd7c8e6ca78cafb1c97d449a008465d687408e732f3db964",
+          "url": "https://linuxbrew.bintray.com/bottles/sundials-3.1.0_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0f9086f1325b34d99e9667af3d65218652d2d258ffa55d2415ab006bc1e7281e",
+          "url": "https://linuxbrew.bintray.com/bottles/sundials-3.1.0_4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "844817f69faf26aae0c67f811ba36b28d3b120c1e9ec34e265c7db9a577b2a3a",
+          "url": "https://linuxbrew.bintray.com/bottles/sundials-3.1.0_4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "gcc",
+    "open-mpi",
+    "suite-sparse",
+    "python"
+  ],
+  "desc": "Nonlinear and differential/algebraic equations solver",
+  "full_name": "sundials",
+  "homepage": "https://computation.llnl.gov/casc/sundials/main.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sundials",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable OpenMP multithreading",
+      "option": "--with-openmp"
+    },
+    {
+      "description": "Do not build with MPI",
+      "option": "--without-mpi"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.1.0"
+  }
+}

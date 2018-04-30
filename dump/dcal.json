@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4135558d3a30c78364170daf22dc36f3c22a14b2574754edc27d2483e711b948",
+          "url": "https://linuxbrew.bintray.com/bottles/dcal-0.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "74f5e51d4dca180bf93dc6d6cd1a147245db0b03a49992b4e0850e0af991020e",
+          "url": "https://linuxbrew.bintray.com/bottles/dcal-0.1.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b5a277ca3a307bb47b137a76e2c8ee0fc1420b09819f0055b1010ef4ce5bc7ba",
+          "url": "https://linuxbrew.bintray.com/bottles/dcal-0.1.0.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "7288e5eb42261ff5912b985eb63c438aa03d89a5f09eea676b3088bc92c1dd6c",
+          "url": "https://linuxbrew.bintray.com/bottles/dcal-0.1.0.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e36329914f9b602d565480fbe28e4da3e581fc2d0623465666cb430590cc2519",
+          "url": "https://linuxbrew.bintray.com/bottles/dcal-0.1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f91b680d549342c293d0decae1fcd17d872951cedc20c329dcdd13a7478ed5fa",
+          "url": "https://linuxbrew.bintray.com/bottles/dcal-0.1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "dcal(1) is to cal(1) what ddate(1) is to date(1)",
+  "full_name": "dcal",
+  "homepage": "http://alexeyt.freeshell.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dcal",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.0"
+  }
+}

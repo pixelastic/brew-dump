@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Please note that upstream has asked us to make explicit managing\nnvm via Homebrew is unsupported by them and you should check any\nproblems against the standard nvm install method prior to reporting.\n\nYou should create NVM's working directory if it doesn't exist:\n\n  mkdir ~/.nvm\n\nAdd the following to ~/.zshrc or your desired shell\nconfiguration file:\n\n  export NVM_DIR=\"$HOME/.nvm\"\n  . \"/home/tim/.linuxbrew/opt/nvm/nvm.sh\"\n\nYou can set $NVM_DIR to any location, but leaving it unchanged from\n/home/tim/.linuxbrew/Cellar/nvm/0.33.11 will destroy any nvm-installed Node installations\nupon upgrade/reinstall.\n\nType `nvm help` for further information.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Manage multiple Node.js versions",
+  "full_name": "nvm",
+  "homepage": "https://github.com/creationix/nvm",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nvm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.33.11"
+  }
+}

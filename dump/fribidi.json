@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ad4d83225cc078de5a60c3d5d76224761a712c6c521f548e9913ceea0b62c051",
+          "url": "https://linuxbrew.bintray.com/bottles/fribidi-1.0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "139434ded4f6455fef216b33fb5cdc713cc1692f457ae56058ff512a5d64abc0",
+          "url": "https://linuxbrew.bintray.com/bottles/fribidi-1.0.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0588e9731bf34db77b4bfc4bea72d8d84196bebc9badb2edce6d8c37f02159de",
+          "url": "https://linuxbrew.bintray.com/bottles/fribidi-1.0.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6b567df2a0eaf3699bd79928ed801ea66c5773eddb62ffcb7ca9dc26707a2289",
+          "url": "https://linuxbrew.bintray.com/bottles/fribidi-1.0.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Implementation of the Unicode BiDi algorithm",
+  "full_name": "fribidi",
+  "homepage": "https://github.com/fribidi/fribidi",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fribidi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.2"
+  }
+}

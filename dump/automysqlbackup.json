@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You will have to edit\n  /home/tim/.linuxbrew/etc/automysqlbackup/automysqlbackup.conf\nto set AutoMySQLBackup up to find your database and backup directory.\n\nThe included plist file will run AutoMySQLBackup every day at 04:00.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Automate MySQL backups",
+  "full_name": "automysqlbackup",
+  "homepage": "https://sourceforge.net/projects/automysqlbackup/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "automysqlbackup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "3.0-rc6"
+  }
+}

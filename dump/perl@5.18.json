@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a4400e07a3930625832082f113abbd9069f818dc22c1bac17b23e99edaff66ff",
+          "url": "https://linuxbrew.bintray.com/bottles/perl@5.18-5.18.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bdfac28ec4bf1ea1859b23564e0e4fd80ffe5ec5f7b54efc21cf8f1c47b396b8",
+          "url": "https://linuxbrew.bintray.com/bottles/perl@5.18-5.18.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a73a2bbb48200827c3cca867b2145808735e5f250af55a01580fffd875da983e",
+          "url": "https://linuxbrew.bintray.com/bottles/perl@5.18-5.18.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c3b0508c338b17ea5d7a811d5ba7789a18e98a02823bdf71a54d7da0fef44bed",
+          "url": "https://linuxbrew.bintray.com/bottles/perl@5.18-5.18.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "By default Perl installs modules in your HOME dir. If this is an issue run:\n  /home/tim/.linuxbrew/Cellar/perl@5.18/5.18.4/bin/cpan o conf init\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Highly capable, feature-rich programming language",
+  "full_name": "perl@5.18",
+  "homepage": "https://www.perl.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "perl@5.18",
+  "oldname": "perl518",
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with DTrace probes",
+      "option": "--with-dtrace"
+    },
+    {
+      "description": "Build and run the test suite",
+      "option": "--with-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.18.4"
+  }
+}

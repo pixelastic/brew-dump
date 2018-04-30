@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b70f3ee0e394543e0318a7af42d751a4568f0c3674f83b30d5003eb8961b34d1",
+          "url": "https://linuxbrew.bintray.com/bottles/bro-2.5.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d2757caf4700fb383155632a1527be1236d63a46bf0a218d13cbbc9d1350826a",
+          "url": "https://linuxbrew.bintray.com/bottles/bro-2.5.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "218b72b231601661166910e3c01ed08c9a9ace421df8f5131a136deb8b860b36",
+          "url": "https://linuxbrew.bintray.com/bottles/bro-2.5.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "swig"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "swig",
+    "openssl",
+    "geoip"
+  ],
+  "desc": "Network security monitor",
+  "full_name": "bro",
+  "homepage": "https://www.bro.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bro",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without geoip support",
+      "option": "--without-geoip"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "geoip"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.5.3"
+  }
+}

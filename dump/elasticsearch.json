@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "elasticsearch@6.2"
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Data:    /home/tim/.linuxbrew/var/lib/elasticsearch/elasticsearch_tim/\nLogs:    /home/tim/.linuxbrew/var/log/elasticsearch/elasticsearch_tim.log\nPlugins: /home/tim/.linuxbrew/var/elasticsearch/plugins/\nConfig:  /home/tim/.linuxbrew/etc/elasticsearch/\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Distributed search & analytics engine",
+  "full_name": "elasticsearch",
+  "homepage": "https://www.elastic.co/products/elasticsearch",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "elasticsearch",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "caskroom/versions/java8",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.2.4"
+  }
+}

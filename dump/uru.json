@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c510cfeea72b21ce8928095a53bdc8176fda8210507ac12ac1c04cd55d7f4f43",
+          "url": "https://linuxbrew.bintray.com/bottles/uru-0.8.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "095e47012069ab3116fb5d014367a3407c1fbadc3711bb0e063109924a54943c",
+          "url": "https://linuxbrew.bintray.com/bottles/uru-0.8.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "16b0fee7939e8d14d200ca565f5a977caf17c0c2444f1131320572c6ec7a359f",
+          "url": "https://linuxbrew.bintray.com/bottles/uru-0.8.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "123829f2ee276cde74be11222b7ae9aed54ba3c3708bdb0ec94c2b5cf32b5577",
+          "url": "https://linuxbrew.bintray.com/bottles/uru-0.8.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "505c30f4109b6436c8b27a6118de6fb122e79d24dffe8f6213829a9c307c25a9",
+          "url": "https://linuxbrew.bintray.com/bottles/uru-0.8.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": "Append to ~/.profile on Ubuntu, or to ~/.zshrc on Zsh\n$ echo 'eval \"$(uru_rt admin install)\"' >> ~/.bash_profile\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Use multiple rubies on multiple platforms",
+  "full_name": "uru",
+  "homepage": "https://bitbucket.org/jonforums/uru",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "uru",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.1"
+  }
+}

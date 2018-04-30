@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2633aff1e7cec8bb6c55da5c4daf9f555c74e516ebcc5f3027589588f76d3e17",
+          "url": "https://linuxbrew.bintray.com/bottles/pngcrush-1.8.13.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "db13f642eae1815e00e1a80d363228e0311d85ca510e9c9de94dba8483fa2d87",
+          "url": "https://linuxbrew.bintray.com/bottles/pngcrush-1.8.13.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f648ad0c664699f67bba8ba791358e8b294d0c1d975f026aa67fc1635badbc73",
+          "url": "https://linuxbrew.bintray.com/bottles/pngcrush-1.8.13.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ba6239bf4207630191192d93d9c56e59c7e3ff47bd1dd6a3cdf80154e73d1be1",
+          "url": "https://linuxbrew.bintray.com/bottles/pngcrush-1.8.13.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5505ea179a71996eb4fab04feebd09ebbef7e8ea4c1efba1e0184333c1883d1b",
+          "url": "https://linuxbrew.bintray.com/bottles/pngcrush-1.8.13.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Optimizer for PNG files",
+  "full_name": "pngcrush",
+  "homepage": "https://pmt.sourceforge.io/pngcrush",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pngcrush",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.13"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9fc979ecfa0723d8fb3462e8a9206b88109bcd2252e7696effb5035b4564a408",
+          "url": "https://linuxbrew.bintray.com/bottles/gource-0.48.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7b0c15ecae8a96764432271dc0b79ae68bdfd365a0e90481535d27978571175e",
+          "url": "https://linuxbrew.bintray.com/bottles/gource-0.48.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "63725d87fdd28ac168a8e79f0cba780c7c15f284cc904d8aaab8dac63179254b",
+          "url": "https://linuxbrew.bintray.com/bottles/gource-0.48.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "glm"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glm",
+    "boost",
+    "freetype",
+    "glew",
+    "libpng",
+    "pcre",
+    "sdl2",
+    "sdl2_image"
+  ],
+  "desc": "Version Control Visualization Tool",
+  "full_name": "gource",
+  "homepage": "https://github.com/acaudwell/Gource",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gource",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.48"
+  }
+}

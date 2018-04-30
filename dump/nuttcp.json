@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6b2eab6b736721543d321f9577ac8ee94c3cefd5026bb0d39084c4d721853249",
+          "url": "https://linuxbrew.bintray.com/bottles/nuttcp-8.1.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "80b4a1b94e21a1b94d960fefddfbe235597ccc687f3f815a7aee989fb0d53a07",
+          "url": "https://linuxbrew.bintray.com/bottles/nuttcp-8.1.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "50f44fadb6a471f65fac82065681ed42b44cf1c6ea78680db9e0ade3725577a0",
+          "url": "https://linuxbrew.bintray.com/bottles/nuttcp-8.1.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fe455d806ee9494ad1056c30364c095ac70e0599b849e46bd67a2972d228bac6",
+          "url": "https://linuxbrew.bintray.com/bottles/nuttcp-8.1.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Network performance measurement tool",
+  "full_name": "nuttcp",
+  "homepage": "https://www.nuttcp.net/nuttcp",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nuttcp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "8.1.4"
+  }
+}

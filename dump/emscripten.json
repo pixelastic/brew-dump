@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5b32732451e6b91b6f969bd97f78179666068bfdabb8eef989e95f125bf4f1ba",
+          "url": "https://linuxbrew.bintray.com/bottles/emscripten-1.37.38.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a44c87271c85bbfb3ef49138f1f561454f6f34a842805433dffe6e86997f13c9",
+          "url": "https://linuxbrew.bintray.com/bottles/emscripten-1.37.38.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ef6b9bed0984d8cfd19e18eee63a84843a4b1bc7d46a6739c0aa1d0892034355",
+          "url": "https://linuxbrew.bintray.com/bottles/emscripten-1.37.38.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c058ef24221b6188f33232cb98ae93f6e500b72561936b9bd73f7013133af378",
+          "url": "https://linuxbrew.bintray.com/bottles/emscripten-1.37.38.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": "Manually set LLVM_ROOT to\n  /home/tim/.linuxbrew/opt/emscripten/libexec/llvm/bin\nand comment out BINARYEN_ROOT\nin ~/.emscripten after running `emcc` for the first time.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "cmake",
+    "node",
+    "closure-compiler",
+    "yuicompressor"
+  ],
+  "desc": "LLVM bytecode to JavaScript compiler",
+  "full_name": "emscripten",
+  "homepage": "https://kripken.github.io/emscripten-site/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "emscripten",
+  "oldname": null,
+  "optional_dependencies": [
+    "closure-compiler"
+  ],
+  "options": [
+    {
+      "description": "Build with closure-compiler support",
+      "option": "--with-closure-compiler"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.37.38"
+  }
+}

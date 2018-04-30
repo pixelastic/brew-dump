@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f3b27cb2f45233a981b9a9cd62ab77fb0935857ec4b7b386c17485be1f9f6f39",
+          "url": "https://linuxbrew.bintray.com/bottles/libomp-5.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b979a1127556d48732079825ee9386df0454124b86062a1bbd9dfce4cc15e80c",
+          "url": "https://linuxbrew.bintray.com/bottles/libomp-5.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9e869b95916c6246647f5ff75e0e117d47ba7cdde5c6d408f46e4535c2e848ec",
+          "url": "https://linuxbrew.bintray.com/bottles/libomp-5.0.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": "On Apple Clang, you need to add several options to use OpenMP's front end\ninstead of the standard driver option. This usually looks like\n  -Xpreprocessor -fopenmp -lomp\n\nYou might need to make sure the lib and include directories are discoverable\nif /home/tim/.linuxbrew is not searched:\n\n  -L/home/tim/.linuxbrew/opt/libomp/lib -I/home/tim/.linuxbrew/opt/libomp/include\n\nFor CMake, the following flags will cause the OpenMP::OpenMP_CXX target to\nbe set up correctly:\n  -DOpenMP_CXX_FLAGS=\"-Xpreprocessor -fopenmp -I/home/tim/.linuxbrew/opt/libomp/include\" -DOpenMP_CXX_LIB_NAMES=\"omp\" -DOpenMP_omp_LIBRARY=/home/tim/.linuxbrew/opt/libomp/lib/libomp.dylib\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "LLVM's OpenMP runtime library",
+  "full_name": "libomp",
+  "homepage": "https://openmp.llvm.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libomp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.0.1"
+  }
+}

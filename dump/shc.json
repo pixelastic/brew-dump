@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c54ddaec872f8c3613c53f7b1653250f3a11ad6db789418f8921be96fff6e8a3",
+          "url": "https://linuxbrew.bintray.com/bottles/shc-3.9.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "733638c58c4638ae63dedbcd35ebef1bb20365c74978f7bdbb3059a7a1039e34",
+          "url": "https://linuxbrew.bintray.com/bottles/shc-3.9.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f7c53fd5fa9c86057260ad66961406b4579738b30091d7ca6899eb5349013b0c",
+          "url": "https://linuxbrew.bintray.com/bottles/shc-3.9.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6cdfa9e5a6d85c5363ccf1f938e733b4298369fd7d65c86afb91aa0254c4ada8",
+          "url": "https://linuxbrew.bintray.com/bottles/shc-3.9.6.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0b40ee06c9a5db74e302be41adea362975bf86c9c5e6290da13a623341e4468d",
+          "url": "https://linuxbrew.bintray.com/bottles/shc-3.9.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Shell Script Compiler",
+  "full_name": "shc",
+  "homepage": "https://neurobin.github.io/shc",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "shc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.9.6"
+  }
+}

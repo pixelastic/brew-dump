@@ -1,0 +1,181 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1d376f912b04d799e2fc4a23c272540520737134995ac5025fd1312946b7a8a6",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-plugins-bad-1.14.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "308d9c4c72913fc8765a01448ca32570df1bc502440ff44fbffc340964348b54",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-plugins-bad-1.14.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "84f80a511ddcb9943756c51b7ae6590d1edd56dca35db1db80ec3a525c0de29e",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-plugins-bad-1.14.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtool",
+    "pkg-config",
+    "gettext",
+    "gst-plugins-base",
+    "openssl",
+    "jpeg",
+    "orc",
+    "dirac",
+    "faac",
+    "faad2",
+    "fdk-aac",
+    "gnutls",
+    "gtk+3",
+    "libdvdread",
+    "libexif",
+    "libmms",
+    "libnice",
+    "libvo-aacenc",
+    "opencv@2",
+    "opus",
+    "rtmpdump",
+    "schroedinger",
+    "sound-touch",
+    "srt"
+  ],
+  "desc": "GStreamer plugins less supported, not fully tested",
+  "full_name": "gst-plugins-bad",
+  "homepage": "https://gstreamer.freedesktop.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gst-plugins-bad",
+  "oldname": null,
+  "optional_dependencies": [
+    "dirac",
+    "faac",
+    "faad2",
+    "fdk-aac",
+    "gnutls",
+    "gtk+3",
+    "libdvdread",
+    "libexif",
+    "libmms",
+    "libnice",
+    "libvo-aacenc",
+    "opencv@2",
+    "opus",
+    "rtmpdump",
+    "schroedinger",
+    "sound-touch",
+    "srt"
+  ],
+  "options": [
+    {
+      "description": "Build without jpeg support",
+      "option": "--without-jpeg"
+    },
+    {
+      "description": "Build without orc support",
+      "option": "--without-orc"
+    },
+    {
+      "description": "Build with dirac support",
+      "option": "--with-dirac"
+    },
+    {
+      "description": "Build with faac support",
+      "option": "--with-faac"
+    },
+    {
+      "description": "Build with faad2 support",
+      "option": "--with-faad2"
+    },
+    {
+      "description": "Build with fdk-aac support",
+      "option": "--with-fdk-aac"
+    },
+    {
+      "description": "Build with gnutls support",
+      "option": "--with-gnutls"
+    },
+    {
+      "description": "Build with gtk+3 support",
+      "option": "--with-gtk+3"
+    },
+    {
+      "description": "Build with libdvdread support",
+      "option": "--with-libdvdread"
+    },
+    {
+      "description": "Build with libexif support",
+      "option": "--with-libexif"
+    },
+    {
+      "description": "Build with libmms support",
+      "option": "--with-libmms"
+    },
+    {
+      "description": "Build with libnice support",
+      "option": "--with-libnice"
+    },
+    {
+      "description": "Build with libvo-aacenc support",
+      "option": "--with-libvo-aacenc"
+    },
+    {
+      "description": "Build with opencv@2 support",
+      "option": "--with-opencv@2"
+    },
+    {
+      "description": "Build with opus support",
+      "option": "--with-opus"
+    },
+    {
+      "description": "Build with rtmpdump support",
+      "option": "--with-rtmpdump"
+    },
+    {
+      "description": "Build with schroedinger support",
+      "option": "--with-schroedinger"
+    },
+    {
+      "description": "Build with sound-touch support",
+      "option": "--with-sound-touch"
+    },
+    {
+      "description": "Build with srt support",
+      "option": "--with-srt"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "jpeg",
+    "orc"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.14.0"
+  }
+}

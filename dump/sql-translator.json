@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e90e93b46d07158b9221c55f3a95dc438a8adc0bf965492438a5dc6e66dad22d",
+          "url": "https://linuxbrew.bintray.com/bottles/sql-translator-0.11024.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e18c4a3f9b49dfb99675f12ce82a3762ea34970b741a9c1e3a70936234c0048e",
+          "url": "https://linuxbrew.bintray.com/bottles/sql-translator-0.11024.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ad3e150727e9163fc385a22ff049bac1ab013ec14fc2499be30c558daf5e2078",
+          "url": "https://linuxbrew.bintray.com/bottles/sql-translator-0.11024.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f25da16cbbbbc88e04c9c48d4c19b9b368cbc632f0b4092044520013207bd044",
+          "url": "https://linuxbrew.bintray.com/bottles/sql-translator-0.11024.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Manipulate structured data definitions (SQL and more)",
+  "full_name": "sql-translator",
+  "homepage": "https://github.com/dbsrgits/sql-translator/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sql-translator",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.11024"
+  }
+}

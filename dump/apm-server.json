@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a0be0b0f6241c98bca1de560dfa7ebd1b153ca09708ac34dd19693cc4c5cbba7",
+          "url": "https://linuxbrew.bintray.com/bottles/apm-server-6.2.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8371817897ace0a1c3ed28700f684a555214a6f61acbefa52253f07170902634",
+          "url": "https://linuxbrew.bintray.com/bottles/apm-server-6.2.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1f6ed039a917a43dfd5eebb7e392324e4a63ac05d22516ce2cd6a0f11821ec6c",
+          "url": "https://linuxbrew.bintray.com/bottles/apm-server-6.2.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e633f66cc0a88172841aef0022e85c860efc2dc57a4d2699e0d6761e63f11361",
+          "url": "https://linuxbrew.bintray.com/bottles/apm-server-6.2.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "python@2"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "python@2"
+  ],
+  "desc": "Server for shipping APM metrics to Elasticsearch",
+  "full_name": "apm-server",
+  "homepage": "https://www.elastic.co/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "apm-server",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.2.4"
+  }
+}

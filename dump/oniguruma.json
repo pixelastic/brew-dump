@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ae49cb52498081b003b04c3b7aace56d51eb3f8cd3490362cc75f4a4091a9e5b",
+          "url": "https://linuxbrew.bintray.com/bottles/oniguruma-6.8.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f56c5eadeeef8a6276d60fc76381b41d33a7b0b2a4036a506edacb4be87a1dad",
+          "url": "https://linuxbrew.bintray.com/bottles/oniguruma-6.8.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "194728105a10c8dea861a77455b9c60f35b3950f75a870cb1d598e31587ec87e",
+          "url": "https://linuxbrew.bintray.com/bottles/oniguruma-6.8.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fe2f3e79c8598e10824551ec95d064c2c413c6528fc6ea722153633bad2134b7",
+          "url": "https://linuxbrew.bintray.com/bottles/oniguruma-6.8.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Regular expressions library",
+  "full_name": "oniguruma",
+  "homepage": "https://github.com/kkos/oniguruma/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "oniguruma",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.8.2"
+  }
+}

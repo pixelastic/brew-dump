@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "40e10cadb1dc55904ae6114a13597e7209596e1d274b94db8ac96f1ebf7da979",
+          "url": "https://linuxbrew.bintray.com/bottles/liblastfm-1.0.9_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b064d2c0725d5500cb5c9b3dff12e3e01fc10c0855b1763885dd489ab9c3c034",
+          "url": "https://linuxbrew.bintray.com/bottles/liblastfm-1.0.9_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ed421bdd81c4643de07048e5d73575bb4a6909fce584c5e5b6760a5103cd0617",
+          "url": "https://linuxbrew.bintray.com/bottles/liblastfm-1.0.9_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0d5342788a8f4eb95ea970d2247e829d7dac17db2d43713aacbf4617e742bbba",
+          "url": "https://linuxbrew.bintray.com/bottles/liblastfm-1.0.9_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cmake",
+    "qt",
+    "fftw",
+    "libsamplerate"
+  ],
+  "desc": "Libraries for Last.fm site services",
+  "full_name": "liblastfm",
+  "homepage": "https://github.com/lastfm/liblastfm/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "liblastfm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.9"
+  }
+}

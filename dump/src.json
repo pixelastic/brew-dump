@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7b8177edd573490081ab245c28b9b7d93ad333837d754d6ec444461977f79e3d",
+          "url": "https://linuxbrew.bintray.com/bottles/src-1.18.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7b8177edd573490081ab245c28b9b7d93ad333837d754d6ec444461977f79e3d",
+          "url": "https://linuxbrew.bintray.com/bottles/src-1.18.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7b8177edd573490081ab245c28b9b7d93ad333837d754d6ec444461977f79e3d",
+          "url": "https://linuxbrew.bintray.com/bottles/src-1.18.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "srclib"
+  ],
+  "dependencies": [
+    "rcs"
+  ],
+  "desc": "Simple revision control: RCS reloaded with a modern UI",
+  "full_name": "src",
+  "homepage": "http://www.catb.org/~esr/src/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "src",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.18"
+  }
+}

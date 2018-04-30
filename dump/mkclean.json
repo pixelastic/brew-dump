@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a5db5b2309de19ea395efaafcf828c253e38133464faca623545a221f2b0ba52",
+          "url": "https://linuxbrew.bintray.com/bottles/mkclean-0.8.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eb519c8f3fb9b2773529d5e7a9751cec7e2a7a67a76af92cab0e6b48449dc6de",
+          "url": "https://linuxbrew.bintray.com/bottles/mkclean-0.8.10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "73e502b5331d28da40fc3b94763f6ea30a141e48329bede7eddf3e396991671b",
+          "url": "https://linuxbrew.bintray.com/bottles/mkclean-0.8.10.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d6842897a02e0fc4d4e7ca046e1f41aaefebb13bceb324aabd2fbf1d96f6c024",
+          "url": "https://linuxbrew.bintray.com/bottles/mkclean-0.8.10.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Optimizes Matroska and WebM files",
+  "full_name": "mkclean",
+  "homepage": "https://www.matroska.org/downloads/mkclean.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mkclean",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.10"
+  }
+}

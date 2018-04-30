@@ -1,0 +1,99 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "aef564883d2a92d6cce279c80e36d775af71c7629253166f935de8f91f856cef",
+          "url": "https://linuxbrew.bintray.com/bottles/collectd-5.8.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "637a48e49e734788715da134195794f4c42b9dae7b0d0335bdaaf0ae3008ccef",
+          "url": "https://linuxbrew.bintray.com/bottles/collectd-5.8.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c32a6fd895ded01ae5da1263aa337ecd8a2446d9353a57daecd51acfe3b9f14c",
+          "url": "https://linuxbrew.bintray.com/bottles/collectd-5.8.0_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f47334e2d3e3cfb65ba8504aac95ac3a8f30d6bba9da4269849d393795562551",
+          "url": "https://linuxbrew.bintray.com/bottles/collectd-5.8.0_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libgcrypt",
+    "libtool",
+    "riemann-client",
+    "python@2",
+    "net-snmp",
+    "perl"
+  ],
+  "desc": "Statistics collection and monitoring daemon",
+  "full_name": "collectd",
+  "homepage": "https://collectd.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "collectd",
+  "oldname": null,
+  "optional_dependencies": [
+    "riemann-client",
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Enable Java support",
+      "option": "--with-java"
+    },
+    {
+      "description": "Enable Python support",
+      "option": "--with-python"
+    },
+    {
+      "description": "Enable write_riemann support",
+      "option": "--with-riemann-client"
+    },
+    {
+      "description": "Enable debug support",
+      "option": "--with-debug"
+    },
+    {
+      "description": "Build with python@2 support",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.8.0"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ac9e615919ebd84515022f9650f42194d9ad4b1c1f5f97509e1293962a96e943",
+          "url": "https://linuxbrew.bintray.com/bottles/bwctl-1.5.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6b2ff7de11ab2b22180d8f59349b403f74c5d5321c60e44cb1f493fa25a5e786",
+          "url": "https://linuxbrew.bintray.com/bottles/bwctl-1.5.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f10efbf8f41f526130340cc6087ce3dfad83b71b69d21e0b01c11b3169d88bdd",
+          "url": "https://linuxbrew.bintray.com/bottles/bwctl-1.5.4.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "b60c679e8b498ffc23e697cb025dc6decc4f4d939e2b0874ff36291967eee18d",
+          "url": "https://linuxbrew.bintray.com/bottles/bwctl-1.5.4.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "23f32c2e2b5203c4b4fecfb33e2152e5d732305e60ef5b02e4bbf1a9f7355c73",
+          "url": "https://linuxbrew.bintray.com/bottles/bwctl-1.5.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c8890647536e60b3ed8599eb3239ee59fde0382e9df8b7585ee7eeb20275fc39",
+          "url": "https://linuxbrew.bintray.com/bottles/bwctl-1.5.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "i2util"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "i2util",
+    "iperf3",
+    "thrulay"
+  ],
+  "desc": "Command-line tool and daemon for network measuring tools",
+  "full_name": "bwctl",
+  "homepage": "https://software.internet2.edu/bwctl/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bwctl",
+  "oldname": null,
+  "optional_dependencies": [
+    "iperf3",
+    "thrulay"
+  ],
+  "options": [
+    {
+      "description": "Build with iperf3 support",
+      "option": "--with-iperf3"
+    },
+    {
+      "description": "Build with thrulay support",
+      "option": "--with-thrulay"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.4"
+  }
+}

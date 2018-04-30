@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e202b72984a8d2a0ff76fbba1138ee652ca476a2dc04a5349ab7c7fbb4d7e262",
+          "url": "https://linuxbrew.bintray.com/bottles/lxc-3.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b2d966f4ef3d9948be1ddaedb09c262b66a73d76f607df2255a9fd978d46aee7",
+          "url": "https://linuxbrew.bintray.com/bottles/lxc-3.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ac6f270b8febbe11b9ac6a50bb9666c37cffbb18a5f3e592526f44f33a931098",
+          "url": "https://linuxbrew.bintray.com/bottles/lxc-3.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "330730659ad46660aebf212ff03a42559b7c29399d53733da5fdcebb7ac95797",
+          "url": "https://linuxbrew.bintray.com/bottles/lxc-3.0.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "CLI client for interacting with LXD",
+  "full_name": "lxc",
+  "homepage": "https://linuxcontainers.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lxc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.0"
+  }
+}

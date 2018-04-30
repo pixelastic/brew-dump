@@ -1,0 +1,81 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3a8d91eba9e8342e325e6fe1643b63687429ce2866c61a27bef836928b264c6b",
+          "url": "https://linuxbrew.bintray.com/bottles/mongodb@3.0-3.0.15.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a3c4c9fcf5c44c34f96395923937c65e7cf6cb52bd937ef2878afe91633672fe",
+          "url": "https://linuxbrew.bintray.com/bottles/mongodb@3.0-3.0.15.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "51f78308884b822d7406e12c897b613445cd0cb41add89b4835a203190c658d5",
+          "url": "https://linuxbrew.bintray.com/bottles/mongodb@3.0-3.0.15.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "scons"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "go",
+    "scons",
+    "openssl"
+  ],
+  "desc": "High-performance document-oriented database",
+  "full_name": "mongodb@3.0",
+  "homepage": "https://www.mongodb.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "mongodb@3.0",
+  "oldname": "mongodb30",
+  "optional_dependencies": [
+    "boost",
+    "openssl"
+  ],
+  "options": [
+    {
+      "description": "Compile using installed boost, not the version shipped with mongodb",
+      "option": "--with-boost"
+    },
+    {
+      "description": "Build with openssl support",
+      "option": "--with-openssl"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.15"
+  }
+}

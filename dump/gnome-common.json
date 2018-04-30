@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a5ad22711bdc05e9dbe4c4891ad06f146bc81b4d0d7d737d582f32e36f4e6fc7",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-common-3.18.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1a24d488923e1d73f30e541bf1fcd4956d73e4d0f11c32e5133946cb6a1c546b",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-common-3.18.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a96e5dedc2888b6caa326da0abd8eb7d3f1426407e8bef82a6ba0f41adb7016a",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-common-3.18.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6aae778f648ed18eb63e49a5764fa98431683dcaff1d42280d9cdd464b727312",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-common-3.18.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7e3512e3a7c39f759ab9f3642831961b355f3f83ae6e19a26fdaf91739870e23",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-common-3.18.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Core files for GNOME",
+  "full_name": "gnome-common",
+  "homepage": "https://git.gnome.org/browse/gnome-common/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnome-common",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.18.0"
+  }
+}

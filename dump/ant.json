@@ -1,0 +1,78 @@
+{
+  "aliases": [
+    "ant@1.10"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7fa99046291828733ec8059c716f31074ddb4cb4ecd20216e1594bb28b801364",
+          "url": "https://linuxbrew.bintray.com/bottles/ant-1.10.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7fa99046291828733ec8059c716f31074ddb4cb4ecd20216e1594bb28b801364",
+          "url": "https://linuxbrew.bintray.com/bottles/ant-1.10.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7fa99046291828733ec8059c716f31074ddb4cb4ecd20216e1594bb28b801364",
+          "url": "https://linuxbrew.bintray.com/bottles/ant-1.10.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f3c15f85ed4abdc0be1ed885779e26def8639f073c540a58c446605de069f70e",
+          "url": "https://linuxbrew.bintray.com/bottles/ant-1.10.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Java build tool",
+  "full_name": "ant",
+  "homepage": "https://ant.apache.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ant",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Install ivy dependency manager",
+      "option": "--with-ivy"
+    },
+    {
+      "description": "Install Byte Code Engineering Library",
+      "option": "--with-bcel"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.10.3"
+  }
+}

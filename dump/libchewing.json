@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "88a9b836056148fe60b312550a1e7484bf9b53e8ffad3c16e98032862a3e38f2",
+          "url": "https://linuxbrew.bintray.com/bottles/libchewing-0.5.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "97cabdc8a613af7fddb5331b2c42b847143d4f526bd902cac708e50b2e72c523",
+          "url": "https://linuxbrew.bintray.com/bottles/libchewing-0.5.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a291dd35150e8fb3a170b743f5415191cdcc8559abf0179650765af341d98fcf",
+          "url": "https://linuxbrew.bintray.com/bottles/libchewing-0.5.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0904b10b3636020c7ce81d9917d92a56be5204bbd0aac60760bca8f009e4f07a",
+          "url": "https://linuxbrew.bintray.com/bottles/libchewing-0.5.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "dafa1e3cfcea92190179e5627774df43a045bc7413b571d17576c43089d9dc57",
+          "url": "https://linuxbrew.bintray.com/bottles/libchewing-0.5.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "texinfo"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "texinfo"
+  ],
+  "desc": "Intelligent phonetic input method library",
+  "full_name": "libchewing",
+  "homepage": "http://chewing.im/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libchewing",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5.1"
+  }
+}

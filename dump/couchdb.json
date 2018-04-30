@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5c4d68980434f501b71dc9578b68ded4adfbf0756f5b0a6df8b7addd2770e1b0",
+          "url": "https://linuxbrew.bintray.com/bottles/couchdb-1.7.1_5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9c557e15ee0b340330d014c93df0c4a1cf784b89ef3e3d8370c9a46e15d368b7",
+          "url": "https://linuxbrew.bintray.com/bottles/couchdb-1.7.1_5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "afd477886aa6831e5b3407727134d2560e27405cc6ca6e0431a90fcb6360d26d",
+          "url": "https://linuxbrew.bintray.com/bottles/couchdb-1.7.1_5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To test CouchDB run:\n    curl http://127.0.0.1:5984/\nThe reply should look like:\n    {\"couchdb\":\"Welcome\",\"uuid\":\"....\",\"version\":\"1.7.1\",\"vendor\":{\"version\":\"1.7.1-1\",\"name\":\"Homebrew\"}}\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "erlang@19",
+    "spidermonkey",
+    "icu4c"
+  ],
+  "desc": "Document database server",
+  "full_name": "couchdb",
+  "homepage": "https://couchdb.apache.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "couchdb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with GeoCouch spatial index extension",
+      "option": "--with-geocouch"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 5,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.7.1"
+  }
+}

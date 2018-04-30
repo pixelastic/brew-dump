@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "dcfdcb720aa3704b9103aa01bb8efac42d24327bc8664baa420a9a69d75a98b6",
+          "url": "https://linuxbrew.bintray.com/bottles/atool-0.39.0.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0f28ddbd664675c6b3fe440f6cfba6ac8cc6fc1f97141979bbce485080a759f4",
+          "url": "https://linuxbrew.bintray.com/bottles/atool-0.39.0.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "4eed286344a3a1d4fc6efc908b34062b5cc7c7fdf2449cf85b7767168585fc7a",
+          "url": "https://linuxbrew.bintray.com/bottles/atool-0.39.0.mavericks.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "656b59fcaa79956c81af4ce21afc06dbf9f6ffaecc0ff52b1a063da2c911fe89",
+          "url": "https://linuxbrew.bintray.com/bottles/atool-0.39.0.sierra.bottle.2.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7c908cc1f52028e534fb1c085b492506ea04ecf663a8159b1469d8d13221ee84",
+          "url": "https://linuxbrew.bintray.com/bottles/atool-0.39.0.x86_64_linux.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "efdeeb165e146f4a76477417d2af9c60e2f776d06081bb579ff73ceb296a899d",
+          "url": "https://linuxbrew.bintray.com/bottles/atool-0.39.0.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Archival front-end",
+  "full_name": "atool",
+  "homepage": "https://savannah.nongnu.org/projects/atool/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "atool",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.39.0"
+  }
+}

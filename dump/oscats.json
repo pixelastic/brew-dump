@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ebc36ad36c4943030c7ee58eec176461f93a2a02f8a5d6484239c0968ad94e51",
+          "url": "https://linuxbrew.bintray.com/bottles/oscats-0.6_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0af1c79f43a2d2fd2fe4582477d9d9789b96d9bbb33c2adaa128c70dd7f838ad",
+          "url": "https://linuxbrew.bintray.com/bottles/oscats-0.6_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "756f81c2343a64876be9485bb046cca78030151e7f46e606ce9b68ffa07db63b",
+          "url": "https://linuxbrew.bintray.com/bottles/oscats-0.6_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e83b19660fe00ed2c05e228646a931ad3837dafd74855921da25009833d5f387",
+          "url": "https://linuxbrew.bintray.com/bottles/oscats-0.6_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gsl",
+    "glib",
+    "python@2"
+  ],
+  "desc": "Computerized adaptive testing system",
+  "full_name": "oscats",
+  "homepage": "https://code.google.com/archive/p/oscats/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "oscats",
+  "oldname": null,
+  "optional_dependencies": [
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Build with python@2 support",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6"
+  }
+}

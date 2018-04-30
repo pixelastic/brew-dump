@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "81d9f6f9aca0f92ba3bece2ad22d0b0bca29c719304c6c5e8e59b02a3c8763da",
+          "url": "https://linuxbrew.bintray.com/bottles/ispell-3.4.00.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "67142ae321c800cc9f4941e8d4e665f195dad06cc483cde11d51fed7a0cde426",
+          "url": "https://linuxbrew.bintray.com/bottles/ispell-3.4.00.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f1ee90dcc76682d17c2b758d2a896493448753acc0e556e9b0c8bf7ec0f552df",
+          "url": "https://linuxbrew.bintray.com/bottles/ispell-3.4.00.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "dbbaabbc715f6f16dfb9f2cd05755a88e471b92c63d7f87f79a940a5df8dadfb",
+          "url": "https://linuxbrew.bintray.com/bottles/ispell-3.4.00.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "697a51b2d4e5d568ef18fdfe5943691a534145829522e3d4bb7d25f2f7978c9f",
+          "url": "https://linuxbrew.bintray.com/bottles/ispell-3.4.00.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c8bbcdc12d3e90e63949f6f284d8e8ebc2c723ed53251fe4619d600896345bfb",
+          "url": "https://linuxbrew.bintray.com/bottles/ispell-3.4.00.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ff46baf7aa6daf42fddde68897bd80dbb073922b4556c502e7b0072656b48498",
+          "url": "https://linuxbrew.bintray.com/bottles/ispell-3.4.00.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "desc": "International Ispell",
+  "full_name": "ispell",
+  "homepage": "https://lasr.cs.ucla.edu/geoff/ispell.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ispell",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.4.00"
+  }
+}

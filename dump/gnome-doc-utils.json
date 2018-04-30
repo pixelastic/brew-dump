@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7f90a3db07a45313f84139a416127d24dc37e2e044841d70f643ec53924eecb3",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-doc-utils-0.20.10_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7f90a3db07a45313f84139a416127d24dc37e2e044841d70f643ec53924eecb3",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-doc-utils-0.20.10_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7f90a3db07a45313f84139a416127d24dc37e2e044841d70f643ec53924eecb3",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-doc-utils-0.20.10_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e77f8c9e8f74f99ee4a3a90e55c8752a8d7150de1959b4996c09b445682a91ad",
+          "url": "https://linuxbrew.bintray.com/bottles/gnome-doc-utils-0.20.10_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "python@2",
+    "docbook",
+    "gettext",
+    "libxml2",
+    "libxslt"
+  ],
+  "desc": "Documentation utilities for the GNOME project",
+  "full_name": "gnome-doc-utils",
+  "homepage": "https://wiki.gnome.org/Projects/GnomeDocUtils",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnome-doc-utils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.20.10"
+  }
+}

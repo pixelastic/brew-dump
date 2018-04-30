@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2986387faf275715556b26ca612b8099031a98933d8f760b17e2c0ea4b770fc6",
+          "url": "https://linuxbrew.bintray.com/bottles/lv2-1.14.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "76cdfc151001c6faeb0ca4a8cc9aab877943a96af3a92c0ddf514fafb1e47996",
+          "url": "https://linuxbrew.bintray.com/bottles/lv2-1.14.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9612d259fdbfa42956e58e8b71188b7fe259258453a34a623f3c99af69d87418",
+          "url": "https://linuxbrew.bintray.com/bottles/lv2-1.14.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ffe907619855d73ad683eb5a6136c6b8f4453ce151b3bba0597fee772566dbe7",
+          "url": "https://linuxbrew.bintray.com/bottles/lv2-1.14.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2986387faf275715556b26ca612b8099031a98933d8f760b17e2c0ea4b770fc6",
+          "url": "https://linuxbrew.bintray.com/bottles/lv2-1.14.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Portable plugin standard for audio systems",
+  "full_name": "lv2",
+  "homepage": "http://lv2plug.in",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lv2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.14.0"
+  }
+}

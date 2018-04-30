@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9eb45f4246ed8db8cf639772bb252cedca944b480e7b8bedeeff4e96635a7a97",
+          "url": "https://linuxbrew.bintray.com/bottles/autossh-1.4e.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4840d0f94cc2f432c5aa1460b7e4d4773c704b9692753f1882f8b25c4db853e5",
+          "url": "https://linuxbrew.bintray.com/bottles/autossh-1.4e.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "4c86bc07f832f9ffeffc6542ecd102925fdebb363cfc354903cba2e9faa7900c",
+          "url": "https://linuxbrew.bintray.com/bottles/autossh-1.4e.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aa82735df29eb9635d27b75e1b6aef72ca2014cea20370f2640f13257ce2069e",
+          "url": "https://linuxbrew.bintray.com/bottles/autossh-1.4e.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "737a36e39451d4145a5ad42424517ec7927620ef1111ceb9f531ec13a9c9f64d",
+          "url": "https://linuxbrew.bintray.com/bottles/autossh-1.4e.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5926ad9cc35738f1fc5eebc8dd68770a0cc62f8a1c5344cc01547c246821e7c1",
+          "url": "https://linuxbrew.bintray.com/bottles/autossh-1.4e.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Automatically restart SSH sessions and tunnels",
+  "full_name": "autossh",
+  "homepage": "http://www.harding.motd.ca/autossh/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "autossh",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4e"
+  }
+}

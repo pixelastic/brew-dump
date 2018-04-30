@@ -1,0 +1,67 @@
+{
+  "aliases": [
+    "fishfish"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "017610f146a161b4383b905a675ac935568a721ed042c3f41f97aaa7f4b5037b",
+          "url": "https://linuxbrew.bintray.com/bottles/fish-2.7.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b75d873885ecfe3a6e28e8de9a7f292b03c3fb3ebedd3d6ac7a74219148af04e",
+          "url": "https://linuxbrew.bintray.com/bottles/fish-2.7.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "20e6c49692cef13eaadd8ee94e9831557130d449405fe12bfd9403659865f5b3",
+          "url": "https://linuxbrew.bintray.com/bottles/fish-2.7.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3595d2acb444c2f96b53d8c24fcef41fa39b5224a1f6f1a2c5c11dba53027959",
+          "url": "https://linuxbrew.bintray.com/bottles/fish-2.7.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You will need to add:\n  /home/tim/.linuxbrew/bin/fish\nto /etc/shells.\n\nThen run:\n  chsh -s /home/tim/.linuxbrew/bin/fish\nto make fish your default shell.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pcre2",
+    "ncurses"
+  ],
+  "desc": "User-friendly command-line shell for UNIX-like operating systems",
+  "full_name": "fish",
+  "homepage": "https://fishshell.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fish",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.7.1"
+  }
+}

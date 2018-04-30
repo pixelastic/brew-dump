@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "bb289643030658910e8feebf403d70b93b2a81c3229db2382fed30930506b468",
+          "url": "https://linuxbrew.bintray.com/bottles/bitcoin-0.16.0_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "bsdmainutils"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "berkeley-db@4",
+    "boost",
+    "libevent",
+    "miniupnpc",
+    "openssl",
+    "bsdmainutils",
+    "zeromq"
+  ],
+  "desc": "Decentralized, peer to peer payment network",
+  "full_name": "bitcoin",
+  "homepage": "https://bitcoin.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bitcoin",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.16.0"
+  }
+}

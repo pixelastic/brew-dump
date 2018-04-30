@@ -1,0 +1,85 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7c4601db243f150813f21135c295c6b1aabaad48e7cc89a20fc41e9d060299c4",
+          "url": "https://linuxbrew.bintray.com/bottles/dlib-19.10_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1fa2420f3819ada19ec84bafa18aeee4e78813a3436057b7a0f7091424ee6dc3",
+          "url": "https://linuxbrew.bintray.com/bottles/dlib-19.10_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3df41ce3f850258b9a5e85be484e63b8c5ce37ddc8f2312feb3141142ed0f406",
+          "url": "https://linuxbrew.bintray.com/bottles/dlib-19.10_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "jpeg",
+    "libpng",
+    "openblas",
+    "linuxbrew/xorg/xorg"
+  ],
+  "desc": "C++ library for machine learning",
+  "full_name": "dlib",
+  "homepage": "http://dlib.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dlib",
+  "oldname": null,
+  "optional_dependencies": [
+    "openblas"
+  ],
+  "options": [
+    {
+      "description": "Build with openblas support",
+      "option": "--with-openblas"
+    },
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "19.10"
+  }
+}

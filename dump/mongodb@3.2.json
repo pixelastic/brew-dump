@@ -1,0 +1,85 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3ca894e3ebd3fe11a4438a5e7cad782245fb90f86c74d2898cc111cc87f9affc",
+          "url": "https://linuxbrew.bintray.com/bottles/mongodb@3.2-3.2.19.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8a28e51cfe9578d76f8a3cb2a6bad6349bfebd0b3df56720b76ca20ddd81f7df",
+          "url": "https://linuxbrew.bintray.com/bottles/mongodb@3.2-3.2.19.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d7290078780d7e9f6ee6af5cb9e0595b016f8e07341b116c34f99011110cd17d",
+          "url": "https://linuxbrew.bintray.com/bottles/mongodb@3.2-3.2.19.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "scons"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "go",
+    "scons",
+    "openssl"
+  ],
+  "desc": "High-performance, schema-free, document-oriented database",
+  "full_name": "mongodb@3.2",
+  "homepage": "https://www.mongodb.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "mongodb@3.2",
+  "oldname": "mongodb32",
+  "optional_dependencies": [
+    "boost"
+  ],
+  "options": [
+    {
+      "description": "Compile using installed boost, not the version shipped with mongodb",
+      "option": "--with-boost"
+    },
+    {
+      "description": "Compile with SASL support",
+      "option": "--with-sasl"
+    },
+    {
+      "description": "Build without openssl support",
+      "option": "--without-openssl"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "openssl"
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.2.19"
+  }
+}

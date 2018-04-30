@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "12579e9f34ef57d3979b5a01206b543a67bf313cdb056d6c3e20e0b8cf0842b6",
+          "url": "https://linuxbrew.bintray.com/bottles/libicns-0.8.1_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a2c03e94df9a8291b73c544d188d9e796161f49e0f14b8c88f94da40d3cfa04f",
+          "url": "https://linuxbrew.bintray.com/bottles/libicns-0.8.1_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8fb5848fa2a111b3fc66aaea73c60a0795da6468e2ace92d2de57c9c8a5a3cde",
+          "url": "https://linuxbrew.bintray.com/bottles/libicns-0.8.1_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "008a350b6b14e99a99563f98cb851354601bdb5a676c059c5210c1e54e74f5bb",
+          "url": "https://linuxbrew.bintray.com/bottles/libicns-0.8.1_3.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "aed1a7df05a8f98ea64dcdd8c4a406207239b7b187629fc03ae799308a142a4d",
+          "url": "https://linuxbrew.bintray.com/bottles/libicns-0.8.1_3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "jasper",
+    "libpng"
+  ],
+  "desc": "Library for manipulation of the macOS .icns resource format",
+  "full_name": "libicns",
+  "homepage": "https://icns.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libicns",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.1"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8503ea7d7ca208ca7fe8d0c0b81f9ab9b69d926c58f856ac9de4f9f3600cde17",
+          "url": "https://linuxbrew.bintray.com/bottles/rancher-compose-0.12.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "63f6da5eb59cb86c8f84975b3d3ee41f0bfc1456b239d1a6cc06a648d57e1967",
+          "url": "https://linuxbrew.bintray.com/bottles/rancher-compose-0.12.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "08f3fad4e6c1df545dd908b61afe47ed489e682ad2cadab384066237498a2a04",
+          "url": "https://linuxbrew.bintray.com/bottles/rancher-compose-0.12.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "23291133a0a775210ae1244ae594931ce04fab8e7c0a37ba90431d61d869317b",
+          "url": "https://linuxbrew.bintray.com/bottles/rancher-compose-0.12.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Docker Compose compatible client to deploy to Rancher",
+  "full_name": "rancher-compose",
+  "homepage": "https://github.com/rancher/rancher-compose",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rancher-compose",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.12.5"
+  }
+}

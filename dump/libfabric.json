@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "63bcb93bad276f3881c1bbc2b6fc15cdcf686ee4cdd4d8bdeb3d2300999e7c51",
+          "url": "https://linuxbrew.bintray.com/bottles/libfabric-1.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6a7144a460b1df95ae5abb9b7667074c2c75abfa41f6466f1aabc7109e518ab8",
+          "url": "https://linuxbrew.bintray.com/bottles/libfabric-1.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9444011fbd9790de55db71e01cd99125b7352552416835a746cde86edf612f74",
+          "url": "https://linuxbrew.bintray.com/bottles/libfabric-1.6.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "144997fca9c8133d4ea8e2d3d1910540d6efd8108dbe712daa50e0d2b41ed570",
+          "url": "https://linuxbrew.bintray.com/bottles/libfabric-1.6.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "desc": "OpenFabrics libfabric",
+  "full_name": "libfabric",
+  "homepage": "https://ofiwg.github.io/libfabric/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libfabric",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.6.0"
+  }
+}

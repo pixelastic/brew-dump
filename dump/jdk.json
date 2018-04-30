@@ -1,0 +1,53 @@
+{
+  "aliases": [
+    "jdk@9"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "0701a22799493a1989ce113a5c3e43c0e1a140f33733ff7cc04c91257f456c6d",
+          "url": "https://linuxbrew.bintray.com/bottles/jdk-9.0.1+11.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "By installing and using JDK you agree to the\nOracle Binary Code License Agreement for the Java SE Platform Products and JavaFX\nhttp://www.oracle.com/technetwork/java/javase/terms/license/index.html\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Java Platform, Standard Edition Development Kit (JDK).",
+  "full_name": "jdk",
+  "homepage": "http://www.oracle.com/technetwork/java/javase/downloads/index.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jdk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "9.0.1+11"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "618683020e64ef1ca99d0c2f388262cf32117d93d7f047bf8251461d8af3f04e",
+          "url": "https://linuxbrew.bintray.com/bottles/expat-2.2.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0ef65624ae99120f21c4ef319a8a056697db296efd9bbd662529334711c7bc15",
+          "url": "https://linuxbrew.bintray.com/bottles/expat-2.2.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "653edd989854be055f50853486a4945d68e49cc8f6e944776bf2be67b51ac304",
+          "url": "https://linuxbrew.bintray.com/bottles/expat-2.2.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a8a7a769116d83656c94d42112247f40fad130f78d32a28614649867e28b970a",
+          "url": "https://linuxbrew.bintray.com/bottles/expat-2.2.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libbsd"
+  ],
+  "desc": "XML 1.0 parser",
+  "full_name": "expat",
+  "homepage": "https://libexpat.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "expat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.2.5"
+  }
+}

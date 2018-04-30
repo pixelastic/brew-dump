@@ -1,0 +1,81 @@
+{
+  "aliases": [
+    "xmlsec1"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c59fe51ea068c7c3d4ffa14775192067080f37f78682348776330ba610b07621",
+          "url": "https://linuxbrew.bintray.com/bottles/libxmlsec1-1.2.25.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9698c648420c3a443e7eb3721eac9467b5c41d27e08bf3c2c383c8b3310f5cd6",
+          "url": "https://linuxbrew.bintray.com/bottles/libxmlsec1-1.2.25.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "443057ec59c7f9be61c3983a6660b8423fc0c90ac2210085d1d97b364a33c593",
+          "url": "https://linuxbrew.bintray.com/bottles/libxmlsec1-1.2.25.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0aebde32d859077bf872f5760ac13f29e3257e9a9359920539bf665025711a80",
+          "url": "https://linuxbrew.bintray.com/bottles/libxmlsec1-1.2.25.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libxml2",
+    "openssl",
+    "gnutls",
+    "libgcrypt"
+  ],
+  "desc": "XML security library",
+  "full_name": "libxmlsec1",
+  "homepage": "https://www.aleksey.com/xmlsec/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libxmlsec1",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without openssl support",
+      "option": "--without-openssl"
+    },
+    {
+      "description": "Build without gnutls support",
+      "option": "--without-gnutls"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "openssl",
+    "gnutls"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.25"
+  }
+}

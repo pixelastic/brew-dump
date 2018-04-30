@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a651d45a267206348a36d213620790b0951e5343070d8613548b80066ec5a584",
+          "url": "https://linuxbrew.bintray.com/bottles/ps2eps-1.68.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4e0d89ac5be6cb6357d84988a1adc26e6667f4e9cdd8047071d0204cbecee58e",
+          "url": "https://linuxbrew.bintray.com/bottles/ps2eps-1.68.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "01fbee92f6a8534a4618bb94b9d21913f203b42f7abe41023c7c2b2f68775880",
+          "url": "https://linuxbrew.bintray.com/bottles/ps2eps-1.68.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "4671a8ae732598cbf5c006b7cf6f9924455a8f61dcc660733e14104707974c27",
+          "url": "https://linuxbrew.bintray.com/bottles/ps2eps-1.68.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "55396ec4ff00cfc85c4e34f1f7b872834264d8640677cd430c16b10fe67f2fa9",
+          "url": "https://linuxbrew.bintray.com/bottles/ps2eps-1.68.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "99b3838d2a7135d8794e4f48e428bd8afc0f18db8998f071c74faa449591ad7f",
+          "url": "https://linuxbrew.bintray.com/bottles/ps2eps-1.68.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ghostscript"
+  ],
+  "desc": "Convert PostScript to EPS files",
+  "full_name": "ps2eps",
+  "homepage": "https://www.tm.uka.de/~bless/ps2eps",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ps2eps",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.68"
+  }
+}

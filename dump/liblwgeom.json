@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "94f3335645bf48cadb4069bb57c1c08ec734e8c23dbbe36ec64bcb695807406c",
+          "url": "https://linuxbrew.bintray.com/bottles/liblwgeom-2.4.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "86937c9288bc3954f3884c6cc73bd4289bf0a74aa7da7a84c08d7a4cd50827d8",
+          "url": "https://linuxbrew.bintray.com/bottles/liblwgeom-2.4.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0cf13878c767f7126b61844990317cb3c30898ca9cb52fba966a9b0f065f9c65",
+          "url": "https://linuxbrew.bintray.com/bottles/liblwgeom-2.4.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4fa771cf8974aa17732e3c4991f9c283f07f3cbe4fa82df4283dc23430454bff",
+          "url": "https://linuxbrew.bintray.com/bottles/liblwgeom-2.4.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "gpp"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "gpp",
+    "proj",
+    "geos",
+    "json-c",
+    "libxml2"
+  ],
+  "desc": "Allows SpatiaLite to support ST_MakeValid() like PostGIS",
+  "full_name": "liblwgeom",
+  "homepage": "https://postgis.net/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "liblwgeom",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.4.4"
+  }
+}

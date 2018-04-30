@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "720bcfcc342a16b3c7df9b5a558561d42d09f268f9708fac4f7f24af9fec81df",
+          "url": "https://linuxbrew.bintray.com/bottles/lolcat-99.9.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "46bbfae94cf58c749248b53bbc744230c716d8c863701c277f43db5d159c155b",
+          "url": "https://linuxbrew.bintray.com/bottles/lolcat-99.9.11.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ae227d19279381bb06454be4ab732955f0c98aefe4ec5096af51f89afefb22e2",
+          "url": "https://linuxbrew.bintray.com/bottles/lolcat-99.9.11.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Rainbows and unicorns in your console!",
+  "full_name": "lolcat",
+  "homepage": "https://github.com/busyloop/lolcat",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lolcat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "99.9.11"
+  }
+}

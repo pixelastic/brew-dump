@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "eb188ce5b4aff9025a664e4276f64fba3521b581eb1f13df610b83ae924ddf5d",
+          "url": "https://linuxbrew.bintray.com/bottles/pioneer-20180203.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fe7123f2a61de3bc5a367fbad1f1a61d554c59e3526e7d79e319fefb46d977d3",
+          "url": "https://linuxbrew.bintray.com/bottles/pioneer-20180203.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "24482bf17e5d4294e760a121e93949aa8c2bf6930629995f8693d23a549f13ca",
+          "url": "https://linuxbrew.bintray.com/bottles/pioneer-20180203.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "assimp",
+    "freetype",
+    "sdl2",
+    "sdl2_image",
+    "libsigc++",
+    "libvorbis",
+    "libpng"
+  ],
+  "desc": "Game of lonely space adventure",
+  "full_name": "pioneer",
+  "homepage": "https://pioneerspacesim.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pioneer",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "20180203"
+  }
+}

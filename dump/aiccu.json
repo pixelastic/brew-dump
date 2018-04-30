@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "572e103e9de9c872eb202e18d5c4f352f0b9dc26d284d5979b83ff6fa3daa5b2",
+          "url": "https://linuxbrew.bintray.com/bottles/aiccu-20070115.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9033bb99bd8fbaa3b74abb0fa850b2220c317628851af361180c0c764732d49c",
+          "url": "https://linuxbrew.bintray.com/bottles/aiccu-20070115.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ee19bef55805a8562bddb41a3af66e5bce9589b1e4d96b05348a37b5ada2c091",
+          "url": "https://linuxbrew.bintray.com/bottles/aiccu-20070115.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e4db05626f082c10398f46ac40aa25ec271be6e4372330d6d7c27b2349d0e789",
+          "url": "https://linuxbrew.bintray.com/bottles/aiccu-20070115.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You may also wish to install tuntap:\n\n  The TunTap project provides kernel extensions for macOS that allow\n  creation of virtual network interfaces.\n\n  https://tuntaposx.sourceforge.io/\n\nYou can install tuntap with homebrew using brew install tuntap\n\nUnless it exists already, a aiccu.conf file has been written to:\n  /home/tim/.linuxbrew/etc/aiccu.conf\n\nProtect this file as it will contain your credentials.\n\nThe 'aiccu' command will load this file by default unless told to use\na different one.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Automatic IPv6 Connectivity Client Utility",
+  "full_name": "aiccu",
+  "homepage": "https://www.sixxs.net/tools/aiccu/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aiccu",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20070115"
+  }
+}

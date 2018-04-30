@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d9f4bb9cd64ba31b4786fc848813cf665ff5f37c761cfb0bacd6c70b50fd9a58",
+          "url": "https://linuxbrew.bintray.com/bottles/aspcud-1.9.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "07f0e44c6cf608f20da7a37744d7559c1f7b77fc3151bcd37ea0af9fbd39cde7",
+          "url": "https://linuxbrew.bintray.com/bottles/aspcud-1.9.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c3c886728b9713da9ec4837b7faf19832219636743654f5b94dbe83b09c83bae",
+          "url": "https://linuxbrew.bintray.com/bottles/aspcud-1.9.4_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "boost",
+    "cmake",
+    "re2c"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "cmake",
+    "re2c",
+    "clingo"
+  ],
+  "desc": "Package dependency solver",
+  "full_name": "aspcud",
+  "homepage": "https://potassco.org/aspcud/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aspcud",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9.4"
+  }
+}

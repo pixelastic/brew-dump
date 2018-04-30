@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "573f418b19955f5b25e52eef4aa2664b236089a367e6ed0e58422be45827a3a6",
+          "url": "https://linuxbrew.bintray.com/bottles/corebird-1.7.4_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a52e7fe27f0726138ba11ce89bb9c4e2e079fe0a5ea1d03d67739afdcf74955a",
+          "url": "https://linuxbrew.bintray.com/bottles/corebird-1.7.4_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "98a012c51a4691c53bd648f605fa527fe25f469d1ff149bcaef42714887bb440",
+          "url": "https://linuxbrew.bintray.com/bottles/corebird-1.7.4_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "vala"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "vala",
+    "gtk+3",
+    "librest",
+    "libsoup",
+    "json-glib",
+    "gspell",
+    "gst-plugins-good",
+    "gst-plugins-bad",
+    "gst-plugins-base",
+    "gst-libav"
+  ],
+  "desc": "Native Gtk+ Twitter Client",
+  "full_name": "corebird",
+  "homepage": "https://corebird.baedert.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "corebird",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.4"
+  }
+}

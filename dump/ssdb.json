@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ea82ea4a73dca47ff68b7cfaf205373302709946aaecadd8d71d71741ca02f13",
+          "url": "https://linuxbrew.bintray.com/bottles/ssdb-1.9.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b6682e1b7e93c577e69c60308cc99a0e7124ddc48006207d963888863fb21dd9",
+          "url": "https://linuxbrew.bintray.com/bottles/ssdb-1.9.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "79903c5f68970f2c92716aa357dc7d02842ab9838aed81eb0d10a84a6b7b3277",
+          "url": "https://linuxbrew.bintray.com/bottles/ssdb-1.9.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "24f875e83c5457735183542c8c173c01eb08bcf819dc38042f34f0114d220f3f",
+          "url": "https://linuxbrew.bintray.com/bottles/ssdb-1.9.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf"
+  ],
+  "desc": "NoSQL database supporting many data structures: Redis alternative",
+  "full_name": "ssdb",
+  "homepage": "http://ssdb.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ssdb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.9.4"
+  }
+}

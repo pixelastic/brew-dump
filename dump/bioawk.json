@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "df0810bc087f924cdddcdb73f00faf9772de9475e0e698c7af8a7d036b3a4c91",
+          "url": "https://linuxbrew.bintray.com/bottles/bioawk-1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "023f5cafaa31404e68b8fc6bcfbeee27e63eb5fbcab897d2f406fceda90ec9ff",
+          "url": "https://linuxbrew.bintray.com/bottles/bioawk-1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "154d44dd9ea56db8170127711e991950d487e379ae12df76332e4b7512f79fe8",
+          "url": "https://linuxbrew.bintray.com/bottles/bioawk-1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a07d49e22f1a40df39ff561f21e6c534241c7ff77815a65c48cde505df132960",
+          "url": "https://linuxbrew.bintray.com/bottles/bioawk-1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bison"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bison",
+    "zlib"
+  ],
+  "desc": "AWK modified for biological data",
+  "full_name": "bioawk",
+  "homepage": "https://github.com/lh3/bioawk",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bioawk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4b8d8acc29c2ed8e826be84c9dc777d947033396336885440fb823530460b470",
+          "url": "https://linuxbrew.bintray.com/bottles/soci-3.2.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b6186caa197c5111b9704cc4b4f133f0f5f656727ed3211c7351e2a97302f10f",
+          "url": "https://linuxbrew.bintray.com/bottles/soci-3.2.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "61ac3ada591371a743198251fa35d70a18cc6018d23e4a36e3ec45aa6ec99db2",
+          "url": "https://linuxbrew.bintray.com/bottles/soci-3.2.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b802ee253ceb25ebfd2b5a90ef4dc8b229a90c7b1cae1a33533c9bd2ff9e7d50",
+          "url": "https://linuxbrew.bintray.com/bottles/soci-3.2.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "boost"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "boost",
+    "sqlite"
+  ],
+  "desc": "Database access library for C++",
+  "full_name": "soci",
+  "homepage": "https://soci.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "soci",
+  "oldname": null,
+  "optional_dependencies": [
+    "boost"
+  ],
+  "options": [
+    {
+      "description": "Enable Oracle support.",
+      "option": "--with-oracle"
+    },
+    {
+      "description": "Enable boost support.",
+      "option": "--with-boost"
+    },
+    {
+      "description": "Enable MySQL support.",
+      "option": "--with-mysql"
+    },
+    {
+      "description": "Enable ODBC support.",
+      "option": "--with-odbc"
+    },
+    {
+      "description": "Enable PostgreSQL support.",
+      "option": "--with-pg"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.2.3"
+  }
+}

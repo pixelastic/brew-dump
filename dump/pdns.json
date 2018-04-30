@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1e22069fb9c9b263a75f2361602d87923f72094225fa27ba4662b3a8bd1f2566",
+          "url": "https://linuxbrew.bintray.com/bottles/pdns-4.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "470c9841912c8c2ef96c69c8426b4cfc17d10277c978c193015261d677c87651",
+          "url": "https://linuxbrew.bintray.com/bottles/pdns-4.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "857cb0232f168326f27f696b9ba2c1c1fe6577b21dcbca4f2179cdcae379704d",
+          "url": "https://linuxbrew.bintray.com/bottles/pdns-4.1.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fb5624d1d4dad3e1cda7e60a7cd1a5b6ebb76804eb60a6dac13583aa8ebcd37c",
+          "url": "https://linuxbrew.bintray.com/bottles/pdns-4.1.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "boost",
+    "lua",
+    "openssl",
+    "sqlite",
+    "postgresql"
+  ],
+  "desc": "Authoritative nameserver",
+  "full_name": "pdns",
+  "homepage": "https://www.powerdns.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pdns",
+  "oldname": null,
+  "optional_dependencies": [
+    "postgresql"
+  ],
+  "options": [
+    {
+      "description": "Enable the PostgreSQL backend",
+      "option": "--with-postgresql"
+    },
+    {
+      "description": "enable the Remote backend",
+      "option": "--with-remote"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.1.1"
+  }
+}

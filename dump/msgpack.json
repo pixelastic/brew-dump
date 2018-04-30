@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bd0d61248dbbf8fc6859d22a3ccc3b4a62289f6f5745c4415f129431614ae173",
+          "url": "https://linuxbrew.bintray.com/bottles/msgpack-2.1.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "85933b57f67eaa2f08bdd634bf4615603586775d7c4558d2309f3894bf53a51c",
+          "url": "https://linuxbrew.bintray.com/bottles/msgpack-2.1.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4666095a79d52aafd4f430d107621ce7478bd6a1fc605aa565c5c0fab25f82e3",
+          "url": "https://linuxbrew.bintray.com/bottles/msgpack-2.1.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b00f79fe9d60e909820e3e9e2ccb54866510dc25df6ac95eeb47591f1ca0e1b4",
+          "url": "https://linuxbrew.bintray.com/bottles/msgpack-2.1.5.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f29ea6e3fa33c5ad7b3a6172ad1e993e7ebfd30bc745769da4f093f3283031a3",
+          "url": "https://linuxbrew.bintray.com/bottles/msgpack-2.1.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Library for a binary-based efficient data interchange format",
+  "full_name": "msgpack",
+  "homepage": "https://msgpack.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "msgpack",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.5"
+  }
+}

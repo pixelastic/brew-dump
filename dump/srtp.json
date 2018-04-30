@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "581b4e442ea397d970ccc3e36397bdcf71796d94c4f2ae0fda0aad02ec762249",
+          "url": "https://linuxbrew.bintray.com/bottles/srtp-2.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "02f8d3b4479948c7c90b670b9edabe49def32a80f49739d33fc4eef246465bda",
+          "url": "https://linuxbrew.bintray.com/bottles/srtp-2.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9a3afccfaec1f8bf9d96a7237837b95a971c8aeb44b889a0c35bbdb1898f7717",
+          "url": "https://linuxbrew.bintray.com/bottles/srtp-2.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9d5fd89a90ecf06cac2e76e4c10a1cd8d99dedebaa9505f9ad4272abaa441a9f",
+          "url": "https://linuxbrew.bintray.com/bottles/srtp-2.1.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a1b87e2333a7f32f38c41d4c458b5426a25f9750d505db6655847e3e2429b501",
+          "url": "https://linuxbrew.bintray.com/bottles/srtp-2.1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "openssl"
+  ],
+  "desc": "Implementation of the Secure Real-time Transport Protocol",
+  "full_name": "srtp",
+  "homepage": "https://github.com/cisco/libsrtp",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "srtp",
+  "oldname": null,
+  "optional_dependencies": [
+    "openssl"
+  ],
+  "options": [
+    {
+      "description": "Build with openssl support",
+      "option": "--with-openssl"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.0"
+  }
+}

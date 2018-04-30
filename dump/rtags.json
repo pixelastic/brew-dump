@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "93f92e94bceedb27ca8a96954d2d528ad75f489d30b933b1587bbcd25937e4e8",
+          "url": "https://linuxbrew.bintray.com/bottles/rtags-2.18_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dd57b486974f18f520739dfadbcb3498044f6b5d8cb66ca245e233fae4664fd1",
+          "url": "https://linuxbrew.bintray.com/bottles/rtags-2.18_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2b24a0e6d371991240b1511a9e5286be429936a14d369540b5712457402bc2b8",
+          "url": "https://linuxbrew.bintray.com/bottles/rtags-2.18_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "25a570f67d8b6ef7f10e2c54eeddd13a0b0a648231efec3c00606f979d959bf0",
+          "url": "https://linuxbrew.bintray.com/bottles/rtags-2.18_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "emacs",
+    "llvm",
+    "openssl"
+  ],
+  "desc": "Source code cross-referencer like ctags with a clang frontend",
+  "full_name": "rtags",
+  "homepage": "https://github.com/Andersbakken/rtags",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rtags",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.18"
+  }
+}

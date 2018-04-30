@@ -1,0 +1,92 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a64b9c0df5a3e278382fdefedc538ed95edbc68eb235a085b03691259bdc9795",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql@5.6-5.6.40.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d683940c0440a6c5239d6d813c839f240f76bafeab7e5374abff8a78e4acacb3",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql@5.6-5.6.40.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "98d873b995e0482d00dd73cf8827d79d9930df18d03601d98599ed7c2b8b6beb",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql@5.6-5.6.40.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": "A \"/etc/my.cnf\" from another install may interfere with a Homebrew-built\nserver starting up correctly.\n\nMySQL is configured to only allow connections from localhost by default\n\nTo connect:\n    mysql -uroot\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pidof",
+    "openssl"
+  ],
+  "desc": "Open source relational database management system",
+  "full_name": "mysql@5.6",
+  "homepage": "https://dev.mysql.com/doc/refman/5.6/en/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "mysql@5.6",
+  "oldname": "mysql56",
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with unit tests",
+      "option": "--with-test"
+    },
+    {
+      "description": "Build the embedded server",
+      "option": "--with-embedded"
+    },
+    {
+      "description": "Compile with the ARCHIVE storage engine enabled",
+      "option": "--with-archive-storage-engine"
+    },
+    {
+      "description": "Compile with the BLACKHOLE storage engine enabled",
+      "option": "--with-blackhole-storage-engine"
+    },
+    {
+      "description": "Build with local infile loading support",
+      "option": "--with-local-infile"
+    },
+    {
+      "description": "Enable innodb-memcached support",
+      "option": "--with-memcached"
+    },
+    {
+      "description": "Build with debug support",
+      "option": "--with-debug"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.6.40"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "For Bash or Zsh, put something like this in your $HOME/.bashrc or $HOME/.zshrc:\n  . /home/tim/.linuxbrew/etc/profile.d/z.sh\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tracks most-used directories to make cd smarter",
+  "full_name": "z",
+  "homepage": "https://github.com/rupa/z",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "z",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.9"
+  }
+}

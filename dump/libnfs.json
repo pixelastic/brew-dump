@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "507e2c7199d82a3c057f95f4ccb9210f04e00e43881b5807186d9641edfc9bd3",
+          "url": "https://linuxbrew.bintray.com/bottles/libnfs-2.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fc0e19d4911047e263cd695f056bc38e50517558ac4dec663a9cee4326705989",
+          "url": "https://linuxbrew.bintray.com/bottles/libnfs-2.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fad6dded94a8ad815f99ce5df0116c30798ed30f3dd67272742c61183a15f6f1",
+          "url": "https://linuxbrew.bintray.com/bottles/libnfs-2.0.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e83eac3ac327b5e4da5e6d7aa39668ce7067ee0fa8cab04023f268339977ee1e",
+          "url": "https://linuxbrew.bintray.com/bottles/libnfs-2.0.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "libtool",
+    "automake",
+    "autoconf"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtool",
+    "automake",
+    "autoconf"
+  ],
+  "desc": "C client library for NFS",
+  "full_name": "libnfs",
+  "homepage": "https://github.com/sahlberg/libnfs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libnfs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.0"
+  }
+}

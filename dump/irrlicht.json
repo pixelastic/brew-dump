@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4f75c007fac42d0c5970afcbac919ccf32a2f827ea1d153461a2f6bffb638be8",
+          "url": "https://linuxbrew.bintray.com/bottles/irrlicht-1.8.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "73fd50ff1e1270c213c5395eceb3997d0ab3e535b3f62eb256d99b0f612d5ea4",
+          "url": "https://linuxbrew.bintray.com/bottles/irrlicht-1.8.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bf23da843d21ab650999c6766b20c4940d589caaaaf2b651726a2c09acb472e0",
+          "url": "https://linuxbrew.bintray.com/bottles/irrlicht-1.8.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4eaaf9df3b87d34a4ed562d3bedb4a07bbfe8ff069025f3d28000755c09a4d88",
+          "url": "https://linuxbrew.bintray.com/bottles/irrlicht-1.8.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Realtime 3D engine",
+  "full_name": "irrlicht",
+  "homepage": "https://irrlicht.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "irrlicht",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.4"
+  }
+}

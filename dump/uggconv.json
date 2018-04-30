@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5ab8b271f2ccc17e5229921f01b92ff7b0c297908902c83d24612bb47592af3c",
+          "url": "https://linuxbrew.bintray.com/bottles/uggconv-1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ed41635e3235d763c9dcad68db2e390821af5a62ec6709fca8b9c5e9b5d0b995",
+          "url": "https://linuxbrew.bintray.com/bottles/uggconv-1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a22594f94bf7baa1908bd1225f52f1db3dd01daa17f99038ecfbd60e22d12b5d",
+          "url": "https://linuxbrew.bintray.com/bottles/uggconv-1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a40a8a1adee9286acedba6e8eedf20bc53e4bf291fc73478bd3ba0314792c6ce",
+          "url": "https://linuxbrew.bintray.com/bottles/uggconv-1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Universal Game Genie code convertor",
+  "full_name": "uggconv",
+  "homepage": "https://wyrmcorp.com/software/uggconv/index.shtml",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "uggconv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0"
+  }
+}

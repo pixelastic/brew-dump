@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "44c8742891bf12707b9d3024e4dee0b371e7d91fbd4da12f6e1d21242db6acd5",
+          "url": "https://linuxbrew.bintray.com/bottles/glm-0.9.8.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d4424acb044d7f1de566ab1709d6107ef17f30198a31c988cc80ab80903c257a",
+          "url": "https://linuxbrew.bintray.com/bottles/glm-0.9.8.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "44c8742891bf12707b9d3024e4dee0b371e7d91fbd4da12f6e1d21242db6acd5",
+          "url": "https://linuxbrew.bintray.com/bottles/glm-0.9.8.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7f299d6f1f160fe3d81f5d9472588b89c8cef7131c7954d07f70d2aeb51ae3ca",
+          "url": "https://linuxbrew.bintray.com/bottles/glm-0.9.8.5.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "44c8742891bf12707b9d3024e4dee0b371e7d91fbd4da12f6e1d21242db6acd5",
+          "url": "https://linuxbrew.bintray.com/bottles/glm-0.9.8.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "doxygen",
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "doxygen",
+    "cmake"
+  ],
+  "desc": "C++ mathematics library for graphics software",
+  "full_name": "glm",
+  "homepage": "https://glm.g-truc.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "glm",
+  "oldname": null,
+  "optional_dependencies": [
+    "doxygen"
+  ],
+  "options": [
+    {
+      "description": "Build documentation",
+      "option": "--with-doxygen"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.8.5"
+  }
+}

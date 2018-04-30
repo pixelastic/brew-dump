@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c12d781ab5136a717cb88cadb50b2dfcd1f67cf263b5b668b1e171f562bcb072",
+          "url": "https://linuxbrew.bintray.com/bottles/pdf2image-0.53.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "59ba0fc004f64cafaeb8e9beb6c07964b8df8fb10bf653aeb83713e3610ac182",
+          "url": "https://linuxbrew.bintray.com/bottles/pdf2image-0.53.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "46df7ae58a1bfc73cd1a1c1075de032724514d29995e965169d69f51409cad7e",
+          "url": "https://linuxbrew.bintray.com/bottles/pdf2image-0.53.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a0bb792123e4754d5cf80cf248e8932dd1885616af2c4c9c7f00e35cda962725",
+          "url": "https://linuxbrew.bintray.com/bottles/pdf2image-0.53.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "poppler",
+    "xpdf"
+  ],
+  "dependencies": [
+    "freetype",
+    "ghostscript"
+  ],
+  "desc": "Convert PDFs to images",
+  "full_name": "pdf2image",
+  "homepage": "https://code.google.com/p/pdf2image/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pdf2image",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.53"
+  }
+}

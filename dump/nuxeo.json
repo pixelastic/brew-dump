@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You need to edit /home/tim/.linuxbrew/etc/nuxeo.conf file to configure manually the server.\nAlso, in case of upgrade, run 'nuxeoctl mp-upgrade' to ensure all\ndownloaded addons are up to date.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "poppler",
+    "pdftohtml",
+    "imagemagick",
+    "ghostscript",
+    "ufraw",
+    "libwpd",
+    "exiftool",
+    "ffmpeg"
+  ],
+  "desc": "Enterprise Content Management",
+  "full_name": "nuxeo",
+  "homepage": "https://nuxeo.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nuxeo",
+  "oldname": null,
+  "optional_dependencies": [
+    "pdftohtml",
+    "ffmpeg"
+  ],
+  "options": [
+    {
+      "description": "Build without poppler support",
+      "option": "--without-poppler"
+    },
+    {
+      "description": "Build with pdftohtml support",
+      "option": "--with-pdftohtml"
+    },
+    {
+      "description": "Build with ffmpeg support",
+      "option": "--with-ffmpeg"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "poppler"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "10.1"
+  }
+}

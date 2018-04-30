@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "eb82080478d423e6a8c11b3e65270aa688b7adaf1a757cb16103b3dcaf72eb23",
+          "url": "https://linuxbrew.bintray.com/bottles/elixir-1.6.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "143792ff168495e7068981b7f57a72eb035760dd1397584221fb4bf0ad026d4c",
+          "url": "https://linuxbrew.bintray.com/bottles/elixir-1.6.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cd74ddeb1a77422ebb7a3ffc6c702bb4e86dfda22c00dd4dd0a30f1343c13d5c",
+          "url": "https://linuxbrew.bintray.com/bottles/elixir-1.6.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "erlang"
+  ],
+  "desc": "Functional metaprogramming aware language built on Erlang VM",
+  "full_name": "elixir",
+  "homepage": "https://elixir-lang.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "elixir",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.6.4"
+  }
+}

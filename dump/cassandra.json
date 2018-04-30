@@ -1,0 +1,63 @@
+{
+  "aliases": [
+    "cassandra@3.11"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ff780a2b88ae8a3a619aa0a9429570a94ef6fe40c008392e5b046a7e3799dc2a",
+          "url": "https://linuxbrew.bintray.com/bottles/cassandra-3.11.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9609704a7870ee077dc3edf67da2488a0877f0124542b5a7e80dc7a52d3704e7",
+          "url": "https://linuxbrew.bintray.com/bottles/cassandra-3.11.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3f62e647a3dd80bfcff060e5122df5b6a60440e7fca02ad51b416620698361cf",
+          "url": "https://linuxbrew.bintray.com/bottles/cassandra-3.11.2_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "cython"
+  ],
+  "desc": "Eventually consistent, distributed key-value store",
+  "full_name": "cassandra",
+  "homepage": "https://cassandra.apache.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cassandra",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.11.2"
+  }
+}

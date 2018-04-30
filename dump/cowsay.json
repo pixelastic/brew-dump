@@ -1,0 +1,69 @@
+{
+  "aliases": [
+    "cowthink"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "360390af15a3c4793e07eda95f55f4a5466ffafc766cb6b62f9790146080a62a",
+          "url": "https://linuxbrew.bintray.com/bottles/cowsay-3.04.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9dd1c2263533507d55a6cfc8747ad6a68c0c042c7631512f0611001831dd441c",
+          "url": "https://linuxbrew.bintray.com/bottles/cowsay-3.04.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "185bfafd379cd6f6d6202fdae0750fdd2998cc94f33ea349bd4872a0274cb1dc",
+          "url": "https://linuxbrew.bintray.com/bottles/cowsay-3.04.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "17a1a4620885c9a4b7104b43072ed32348b37f6bb43a1120fe23a46d893e87ea",
+          "url": "https://linuxbrew.bintray.com/bottles/cowsay-3.04.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a622af361a6139bc930b371fbde7cfc54bbe8bebfbbe0782e59248fadb10b95f",
+          "url": "https://linuxbrew.bintray.com/bottles/cowsay-3.04.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Configurable talking characters in ASCII art",
+  "full_name": "cowsay",
+  "homepage": "https://github.com/tnalpgge/rank-amateur-cowsay",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cowsay",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.04"
+  }
+}

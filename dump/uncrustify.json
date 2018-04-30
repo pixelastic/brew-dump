@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a736e794ffde1ad84cdc8d8f259496af608e42d66ef6bb9b2b348f17e34e66f8",
+          "url": "https://linuxbrew.bintray.com/bottles/uncrustify-0.66.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e902a2207489b25f23908161c8695b68a05d30c697621f2233fc03e48ba3960f",
+          "url": "https://linuxbrew.bintray.com/bottles/uncrustify-0.66.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d95da710ae416bfacd68d923455d600132490e688b71d0d99963a082cacfdc66",
+          "url": "https://linuxbrew.bintray.com/bottles/uncrustify-0.66.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3073b3c7d84726c80422cc863420b1b5d8df00eb24583c95948053d306eb443f",
+          "url": "https://linuxbrew.bintray.com/bottles/uncrustify-0.66.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Source code beautifier",
+  "full_name": "uncrustify",
+  "homepage": "https://uncrustify.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "uncrustify",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.66.1"
+  }
+}

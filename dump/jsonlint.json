@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "20de901256ea772ee7bb13745f797e94ad3c9376e2031165c40acf4af747cec5",
+          "url": "https://linuxbrew.bintray.com/bottles/jsonlint-1.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1dbe9eacf1dbff45c1dcd194fc72090791a8ed2b434e783c2783adc28e6f571b",
+          "url": "https://linuxbrew.bintray.com/bottles/jsonlint-1.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4ad85c01eba9de2051b70abdef8c1ba6b922725da2663681ad37e3594ff66768",
+          "url": "https://linuxbrew.bintray.com/bottles/jsonlint-1.6.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c8ea1b10f689263798806fa33d2f004000490b9014393f2a472b0cc76d6e9ac3",
+          "url": "https://linuxbrew.bintray.com/bottles/jsonlint-1.6.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "desc": "JSON parser and validator with a CLI",
+  "full_name": "jsonlint",
+  "homepage": "https://github.com/zaach/jsonlint",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jsonlint",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.0"
+  }
+}

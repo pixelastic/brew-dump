@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "13911a70794917c973d7cd56450f02ec376819542053a5954cb6264ca31c21f5",
+          "url": "https://linuxbrew.bintray.com/bottles/telnet-54.50.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f68d8152cca7ae73a3c598d55d58083ef4795f1ace88794ea949baa21a75c975",
+          "url": "https://linuxbrew.bintray.com/bottles/telnet-54.50.1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "62d5a07da6030b6006f16572ad3b1d17aee0a09d03c8690ffaed964c6bd089ae",
+          "url": "https://linuxbrew.bintray.com/bottles/telnet-54.50.1.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "inetutils"
+  ],
+  "dependencies": [
+  ],
+  "desc": "User interface to the TELNET protocol (built from macOS Sierra sources)",
+  "full_name": "telnet",
+  "homepage": "https://opensource.apple.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "telnet",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "54.50.1"
+  }
+}

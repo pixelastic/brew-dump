@@ -1,0 +1,91 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1cef89278cc1df107d71187bdc0f24d941d4d92d4d773fe0ffe50033a16118f5",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-machine-driver-xhyve-0.3.3.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "826c8da536f8a69110a0b0ad81e94b23449fa0adc5aaa4c4a77f2ed4bc4108b6",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-machine-driver-xhyve-0.3.3.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "407e1ed8a553f39fab89269acf1d94c28f6496e1314d7166d35463178c170640",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-machine-driver-xhyve-0.3.3.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "10bc22b8ece5f7ae8fa190d3c95b6f0f4825a5d1adcb941500c993f4b9ddf2a9",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-machine-driver-xhyve-0.3.3.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "ocaml",
+    "opam"
+  ],
+  "caveats": "This driver requires superuser privileges to access the hypervisor. To\nenable, execute\n    sudo chown root:wheel /home/tim/.linuxbrew/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve\n    sudo chmod u+s /home/tim/.linuxbrew/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "docker-machine",
+    "ocaml",
+    "opam",
+    "libev"
+  ],
+  "desc": "Docker Machine driver for xhyve",
+  "full_name": "docker-machine-driver-xhyve",
+  "homepage": "https://github.com/zchee/docker-machine-driver-xhyve",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "docker-machine-driver-xhyve",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Do not support qcow2 disk image format",
+      "option": "--without-qcow2"
+    },
+    {
+      "description": "Build without docker-machine support",
+      "option": "--without-docker-machine"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "docker-machine"
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.3.3"
+  }
+}

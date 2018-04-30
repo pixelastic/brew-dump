@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c1283252fcb30f5407c22b3c68bf670227f5703459c238deae568f25e5fd77c5",
+          "url": "https://linuxbrew.bintray.com/bottles/freetype-2.9.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "afb5bc6218adcf0c0794ede89e5db330caea397159a92469a188f10cf7835228",
+          "url": "https://linuxbrew.bintray.com/bottles/freetype-2.9.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a58d00c7f3f82776024e146b0ce704edb9125cb493fca553620559389126fce6",
+          "url": "https://linuxbrew.bintray.com/bottles/freetype-2.9.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "70750059de275320553498e06aa7b539fe1b913394242240c46ba18e6459f785",
+          "url": "https://linuxbrew.bintray.com/bottles/freetype-2.9.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libpng",
+    "bzip2",
+    "zlib"
+  ],
+  "desc": "Software library to render fonts",
+  "full_name": "freetype",
+  "homepage": "https://www.freetype.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "freetype",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.9"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "8ec256c413e06d36004f36658abb28e9c71528b46496e46cfc65aab247df58ed",
+          "url": "https://linuxbrew.bintray.com/bottles/newlisp-10.7.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c8b7b1204c175e91cf29f9783fab02e70692de90007cc5a393cfe0345b9d669f",
+          "url": "https://linuxbrew.bintray.com/bottles/newlisp-10.7.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d3d16b3e31f7c47b467a94dc502385b38d4f137afce726a996576c685c557231",
+          "url": "https://linuxbrew.bintray.com/bottles/newlisp-10.7.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4993d9b9cb6b081d9b0790fbd9095af3f68f82afbaccc09d187399585bebd1b5",
+          "url": "https://linuxbrew.bintray.com/bottles/newlisp-10.7.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "If you have brew in a custom prefix, the included examples\nwill need to be be pointed to your newlisp executable.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "readline"
+  ],
+  "desc": "Lisp-like, general-purpose scripting language",
+  "full_name": "newlisp",
+  "homepage": "http://www.newlisp.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "newlisp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without readline support",
+      "option": "--without-readline"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "readline"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "10.7.1"
+  }
+}

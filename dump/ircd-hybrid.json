@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "cb2919d989ee6ae1fa2ed37b4cdc24ff32d10512d436ec29d47218b75ab3f3a3",
+          "url": "https://linuxbrew.bintray.com/bottles/ircd-hybrid-8.2.24.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a3c6846e6cdad9e8615f01d1539b857a4a02aa87b475f0b7e576c29716f9b4e2",
+          "url": "https://linuxbrew.bintray.com/bottles/ircd-hybrid-8.2.24.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1be9a361ecfcadda2db262d7af21b3a4518fa2dbb1400fc9b6bfd21e3b080949",
+          "url": "https://linuxbrew.bintray.com/bottles/ircd-hybrid-8.2.24.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3b0d4691fbe4535f09d875882e15c63dff6398304f96e4b1c7d0532fa61fc34c",
+          "url": "https://linuxbrew.bintray.com/bottles/ircd-hybrid-8.2.24.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You'll more than likely need to edit the default settings in the config file:\n  /home/tim/.linuxbrew/etc/ircd.conf\n",
+  "conflicts_with": [
+    "ircd-irc2"
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "High-performance secure IRC server",
+  "full_name": "ircd-hybrid",
+  "homepage": "http://www.ircd-hybrid.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ircd-hybrid",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "8.2.24"
+  }
+}

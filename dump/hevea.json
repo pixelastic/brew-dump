@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5689cf43754e25c57bfea971d44186e737d73bab0f2489956861a98bcdb065a4",
+          "url": "https://linuxbrew.bintray.com/bottles/hevea-2.31.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b4ed09c5e29b302070a67251c8c87c56bca0817c704438fbd013fa5370bb0fbc",
+          "url": "https://linuxbrew.bintray.com/bottles/hevea-2.31.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "876829b6fea3a803ad583e0939fd7272618f1e82a21da4e73e0b581238dc34e0",
+          "url": "https://linuxbrew.bintray.com/bottles/hevea-2.31.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e995a555fdc13d35ea7212cea5413e58c87b9b9507f815ecd4c3fd827d237c37",
+          "url": "https://linuxbrew.bintray.com/bottles/hevea-2.31.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ocamlbuild"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ocaml",
+    "ocamlbuild",
+    "ghostscript"
+  ],
+  "desc": "LaTeX-to-HTML translator",
+  "full_name": "hevea",
+  "homepage": "http://hevea.inria.fr/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hevea",
+  "oldname": null,
+  "optional_dependencies": [
+    "ghostscript"
+  ],
+  "options": [
+    {
+      "description": "Build with ghostscript support",
+      "option": "--with-ghostscript"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.31"
+  }
+}

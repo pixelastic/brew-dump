@@ -1,0 +1,86 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "27c5e0d7f9bed4219c12267bd459fbd25a143abf0a9e3f5fa12fd0b587f10007",
+          "url": "https://linuxbrew.bintray.com/bottles/sshfs-2.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "283859a4868df7d91fc4a6fcef6ddc590957a661f833fbf81da25f6f2c72a585",
+          "url": "https://linuxbrew.bintray.com/bottles/sshfs-2.10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "534fc64f25ee6757e4fd802988deee9d2df8f1c38604d36c525a12a67b1d23fa",
+          "url": "https://linuxbrew.bintray.com/bottles/sshfs-2.10.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ff62295bd43e46808a23b482a356b060c21ff1e31ddbc0e01c3ae6d2d364e370",
+          "url": "https://linuxbrew.bintray.com/bottles/sshfs-2.10.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "61c578fbd666a6c2b5b452a7429e3fd5a64da153652d428386c41b4ebb6e30fa",
+          "url": "https://linuxbrew.bintray.com/bottles/sshfs-2.10.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool",
+    "glib"
+  ],
+  "desc": "File system client based on SSH File Transfer Protocol",
+  "full_name": "sshfs",
+  "homepage": "https://osxfuse.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sshfs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't compile NODELAY workaround for ssh",
+      "option": "--without-sshnodelay"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.10"
+  }
+}

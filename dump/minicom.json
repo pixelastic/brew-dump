@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "820aae10f1c298350f51f7571d4d6becb4b0cfc876fb77126ea1e43bec8466e4",
+          "url": "https://linuxbrew.bintray.com/bottles/minicom-2.7.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ec4beca9c9816db86a3bb7a11d7507fe0740feb62461341232a425a5156cd4a1",
+          "url": "https://linuxbrew.bintray.com/bottles/minicom-2.7.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "63584b5ee8463dfb6cef69ad32308c51a4e83778dd44b80fc4c1e7c40cb48b2e",
+          "url": "https://linuxbrew.bintray.com/bottles/minicom-2.7.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5f17b6f15c2417acbda3a91b64f7df166b29fd2389adc52f011e2541f1fdbcb9",
+          "url": "https://linuxbrew.bintray.com/bottles/minicom-2.7.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Terminal Compatibility\n======================\nIf minicom doesn't see the LANG variable, it will try to fallback to\nmake the layout more compatible, but uglier. Certain unsupported\nencodings will completely render the UI useless, so if the UI looks\nstrange, try setting the following environment variable:\n\n  LANG=\"en_US.UTF-8\"\n\nText Input Not Working\n======================\nMost development boards require Serial port setup -> Hardware Flow\nControl to be set to \"No\" to input text.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Menu-driven communications program",
+  "full_name": "minicom",
+  "homepage": "https://alioth.debian.org/projects/minicom/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "minicom",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.7.1"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "918ca6d2bca328923ec3ff6e5612e9a0336aad666e993cfb0d1bc42a99758f1c",
+          "url": "https://linuxbrew.bintray.com/bottles/yconalyzer-1.0.4.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4341ba620cc2724608dea783a2ddbd3bde93fd2017cc675e906f233941fb4ab3",
+          "url": "https://linuxbrew.bintray.com/bottles/yconalyzer-1.0.4.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c2c6d2a81a8b13515192b716bac7df7db078e986f8306d37d3b4da5a2f05ccd6",
+          "url": "https://linuxbrew.bintray.com/bottles/yconalyzer-1.0.4.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3bf190ad069a4ee9423e79415907a684320e8e776916329f46d7620274a03434",
+          "url": "https://linuxbrew.bintray.com/bottles/yconalyzer-1.0.4.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e3e3fcebfdd0d25fbdad33c8f2aa13976c70ab4ff4bb81ed1fbae5cb8a7c2ffd",
+          "url": "https://linuxbrew.bintray.com/bottles/yconalyzer-1.0.4.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "TCP traffic analyzer",
+  "full_name": "yconalyzer",
+  "homepage": "https://sourceforge.net/projects/yconalyzer/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yconalyzer",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.4"
+  }
+}

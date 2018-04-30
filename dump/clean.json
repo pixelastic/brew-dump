@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7a433c07eb3c8a3846d352ddf27a6ac32fdc6528b6b2e6212f78318ff0f04a6a",
+          "url": "https://linuxbrew.bintray.com/bottles/clean-3.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d2f22ecaf65e902d6e0f878ec9585dd915f05d58121e95cfb5cff53d7905fad8",
+          "url": "https://linuxbrew.bintray.com/bottles/clean-3.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a847561f68c5d636ee3c0802dccfc7a7b1a5cf66030f026b074c000f6cea258d",
+          "url": "https://linuxbrew.bintray.com/bottles/clean-3.4.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "925b26f91800733aeda229bdaee74ecf4a70e1c94cb4e1b33ac3fc4f3948186d",
+          "url": "https://linuxbrew.bintray.com/bottles/clean-3.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f06ca56bca5a139222603fac5d84555a1af9812a2dd669e44501b2022a16eef8",
+          "url": "https://linuxbrew.bintray.com/bottles/clean-3.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Search for files matching a regex and delete them",
+  "full_name": "clean",
+  "homepage": "https://clean.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "clean",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.4"
+  }
+}

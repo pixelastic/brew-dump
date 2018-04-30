@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d35cfbbea5de989734e9f859531b203dffc870fdf931a5a7f12302adc7354c87",
+          "url": "https://linuxbrew.bintray.com/bottles/cxxtest-4.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b6016aba933e8e047299e4a4dae83549eb8679a9e18e11937d90877b9e94af62",
+          "url": "https://linuxbrew.bintray.com/bottles/cxxtest-4.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "2e8e487aac953d698f38f89ae9946572f8d072ec35b91683aa66bc147cec2fa4",
+          "url": "https://linuxbrew.bintray.com/bottles/cxxtest-4.4.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "de1e98e94198507c65ecb17ae240b995ae8f03dadeafbde27bb704df2e10737c",
+          "url": "https://linuxbrew.bintray.com/bottles/cxxtest-4.4.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "09aa93c60544867a44c3ad711f7ad9207f3f097505ce658e12d4d8ae11287c82",
+          "url": "https://linuxbrew.bintray.com/bottles/cxxtest-4.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6ae4f59bfb97934f5de0477c1d6b9da286ab6ad444b7db6af8051272fb204799",
+          "url": "https://linuxbrew.bintray.com/bottles/cxxtest-4.4.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a69d95d4c027024e6c14a999c679106cf6259e22bb748205d93dbc5d0596a8e3",
+          "url": "https://linuxbrew.bintray.com/bottles/cxxtest-4.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "xUnit-style unit testing framework for C++",
+  "full_name": "cxxtest",
+  "homepage": "https://cxxtest.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cxxtest",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.4"
+  }
+}

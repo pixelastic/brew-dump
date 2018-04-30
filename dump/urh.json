@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "afd5140b76a81e9951673d5ab107c05c3caf97a72a579d1c49885cb8907735d0",
+          "url": "https://linuxbrew.bintray.com/bottles/urh-2.0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e24aed36dddd23bc0d98740580f16f8e90ccb33b0ebb1dcb208c9dc0558d4515",
+          "url": "https://linuxbrew.bintray.com/bottles/urh-2.0.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7a40e03eb74e40c41e2e0983b0d315f7dd04435a83a89cb1fdd2311ae217a66a",
+          "url": "https://linuxbrew.bintray.com/bottles/urh-2.0.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "numpy",
+    "python",
+    "pyqt",
+    "zeromq",
+    "hackrf"
+  ],
+  "desc": "Universal Radio Hacker",
+  "full_name": "urh",
+  "homepage": "https://github.com/jopohl/urh",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "urh",
+  "oldname": null,
+  "optional_dependencies": [
+    "hackrf"
+  ],
+  "options": [
+    {
+      "description": "Build with libhackrf support",
+      "option": "--with-hackrf"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.2"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1158b121a76df10a688d9907ab0843886ce7798f6d54ad8eaf9d21b17cb7b01f",
+          "url": "https://linuxbrew.bintray.com/bottles/lldpd-1.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d770ef1c3507d3d2373f8706acf4f8d3c41ae07f594192db02483184e497c510",
+          "url": "https://linuxbrew.bintray.com/bottles/lldpd-1.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fd38d0022374f5960183ec7afde1a5c9ffc85047c017a667f09b92cda25b1c7a",
+          "url": "https://linuxbrew.bintray.com/bottles/lldpd-1.0.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "readline",
+    "libevent"
+  ],
+  "desc": "Implementation of IEEE 802.1ab (LLDP)",
+  "full_name": "lldpd",
+  "homepage": "https://vincentbernat.github.io/lldpd/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lldpd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build SNMP subagent support",
+      "option": "--with-snmp"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.1"
+  }
+}

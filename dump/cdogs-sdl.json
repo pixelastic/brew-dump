@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c154d6101f4b903488527a604b570e28703a19854da31d56e082444fe5dda1a5",
+          "url": "https://linuxbrew.bintray.com/bottles/cdogs-sdl-0.6.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "aabf4faff2a2da410e14079a9520ea715106a294edf8748edad7bf480cedd605",
+          "url": "https://linuxbrew.bintray.com/bottles/cdogs-sdl-0.6.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b612f4fdf5d7f15e2ff88a5045437d1d411e254e6cda143d3256870bc5b2a30c",
+          "url": "https://linuxbrew.bintray.com/bottles/cdogs-sdl-0.6.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "535668e2f4619dde88da207249a2bbaaecd34d0972ce6f87947868518d7a6a54",
+          "url": "https://linuxbrew.bintray.com/bottles/cdogs-sdl-0.6.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "sdl2",
+    "sdl2_image",
+    "sdl2_mixer"
+  ],
+  "desc": "Classic overhead run-and-gun game",
+  "full_name": "cdogs-sdl",
+  "homepage": "https://cxong.github.io/cdogs-sdl/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cdogs-sdl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.6.2"
+  }
+}

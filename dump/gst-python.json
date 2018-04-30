@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "97edb68319984a8383a4c68ae617aa275f9bc3268c321742c13eb62eac163f88",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-python-1.14.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9544d0be8252c0199884f7a327710bf891369ffe5ab153493f92623bcad5a870",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-python-1.14.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b0adaefeaadac19768117c34698d7ce676296820505cfdee83d4d0cc02e4ce10",
+          "url": "https://linuxbrew.bintray.com/bottles/gst-python-1.14.0_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gst-plugins-base",
+    "python@2",
+    "python",
+    "pygobject3"
+  ],
+  "desc": "Python overrides for gobject-introspection-based pygst bindings",
+  "full_name": "gst-python",
+  "homepage": "https://gstreamer.freedesktop.org/modules/gst-python.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gst-python",
+  "oldname": null,
+  "optional_dependencies": [
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Build without python 3 support",
+      "option": "--without-python"
+    },
+    {
+      "description": "Build with python 2 support",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python"
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.14.0"
+  }
+}

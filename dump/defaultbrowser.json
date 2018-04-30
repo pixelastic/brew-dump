@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f0ccf84abbd31469f80c4d232292dd280a978d3f04a1a6db46079902d9821d1e",
+          "url": "https://linuxbrew.bintray.com/bottles/defaultbrowser-1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d07cc35e06f440584d698cde7ae5f27b09acfeafacc1499d331aa8553e945961",
+          "url": "https://linuxbrew.bintray.com/bottles/defaultbrowser-1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d0279f8c05c0c7828c534517897346fc231864ea8534f0ae04878ecfd51ca72d",
+          "url": "https://linuxbrew.bintray.com/bottles/defaultbrowser-1.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Command-line tool for getting & setting the default browser",
+  "full_name": "defaultbrowser",
+  "homepage": "https://github.com/kerma/defaultbrowser",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "defaultbrowser",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

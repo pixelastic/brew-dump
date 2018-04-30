@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2b984e2ca5c54953f76adae459fbf050e1e12f58b7123f95db5deb2717458e9e",
+          "url": "https://linuxbrew.bintray.com/bottles/rtv-1.22.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f4ee9e26cbfec4dc2df263f93b63e7210105f3cae3446aba871690599016d2a4",
+          "url": "https://linuxbrew.bintray.com/bottles/rtv-1.22.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "beca032c94767a453dc9ac484591509eb8e9c8c401427750f446755721e3071c",
+          "url": "https://linuxbrew.bintray.com/bottles/rtv-1.22.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Command-line Reddit client",
+  "full_name": "rtv",
+  "homepage": "https://github.com/michael-lazar/rtv",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rtv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.22.1"
+  }
+}

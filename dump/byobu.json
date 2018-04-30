@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1f369b8fd147fec07fcee9ea20e1186b4656745f69d236850c7e181caddf3335",
+          "url": "https://linuxbrew.bintray.com/bottles/byobu-5.125.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1f369b8fd147fec07fcee9ea20e1186b4656745f69d236850c7e181caddf3335",
+          "url": "https://linuxbrew.bintray.com/bottles/byobu-5.125.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1f369b8fd147fec07fcee9ea20e1186b4656745f69d236850c7e181caddf3335",
+          "url": "https://linuxbrew.bintray.com/bottles/byobu-5.125.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a9680fc6b47fe291ba7bf67989d07ddf79c2201b492a00e7d0eeb002f5e05be8",
+          "url": "https://linuxbrew.bintray.com/bottles/byobu-5.125.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Add the following to your shell configuration file:\n  export BYOBU_PREFIX=/home/tim/.linuxbrew\n",
+  "conflicts_with": [
+    "ctail"
+  ],
+  "dependencies": [
+    "coreutils",
+    "gnu-sed",
+    "tmux",
+    "newt"
+  ],
+  "desc": "Text-based window manager and terminal multiplexer",
+  "full_name": "byobu",
+  "homepage": "http://byobu.co/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "byobu",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.125"
+  }
+}

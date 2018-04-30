@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "979d1f6ba12aeee68300a657a78a234874707068232934d7f91597621a60253e",
+          "url": "https://linuxbrew.bintray.com/bottles/testdisk-7.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e2643fdb09f3d33b18fb181590fe5fc58f9117a8a02791eb55ba5cce998b6cb0",
+          "url": "https://linuxbrew.bintray.com/bottles/testdisk-7.0.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "d3e8a600a135807b630a4d649c052dc6065270910bd96f6b1f27265251787331",
+          "url": "https://linuxbrew.bintray.com/bottles/testdisk-7.0.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "30784b33a74eaa138c16ddc7cbe56bc542f19759a87cfdea37084691ba5788b4",
+          "url": "https://linuxbrew.bintray.com/bottles/testdisk-7.0.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "13f6481decb5ad3f40f0617351dd9c78a02c3c0694a82cb048adde6ba897703f",
+          "url": "https://linuxbrew.bintray.com/bottles/testdisk-7.0.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Powerful free data recovery utility",
+  "full_name": "testdisk",
+  "homepage": "https://www.cgsecurity.org/wiki/TestDisk",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "testdisk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.0"
+  }
+}

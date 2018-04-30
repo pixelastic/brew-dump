@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d011c19d2e36dd798ffa5723448cfeb1d95c25b7e78ad4b64207f4c79c5be383",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-ls-0.3.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "946e27ec3c35ec19d98c1a8efdf59a809db23926f97d3cd98b195d15c28491cd",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-ls-0.3.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1815a65eab86116dfc1de21331352348d59f391cdbc2ed1454a1847f62b21845",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-ls-0.3.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3fd62c952adeafdfde327184a6a2dc19b129b3c7b358be64a554ea99b95020c9",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-ls-0.3.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Tools for browsing and manipulating docker registries",
+  "full_name": "docker-ls",
+  "homepage": "https://github.com/mayflower/docker-ls",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "docker-ls",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.1"
+  }
+}

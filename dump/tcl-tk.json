@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "79222749d221013eb7d1fb529ace13293a819b43d6633b964d1f8f318ac66f33",
+          "url": "https://linuxbrew.bintray.com/bottles/tcl-tk-8.6.8_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cd4dec2b564dcad86b151803c852142366bc48ec1b13d48a2e495c83fc32a688",
+          "url": "https://linuxbrew.bintray.com/bottles/tcl-tk-8.6.8_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "96144fc3d7eaeec6125ff9f534f0aa21b61b673914dd8cb4898b10ca0530d90e",
+          "url": "https://linuxbrew.bintray.com/bottles/tcl-tk-8.6.8_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "59c148a048b394063fae64f19548b4c8ee4f8ad17f81d2fea536a5ac086de4e4",
+          "url": "https://linuxbrew.bintray.com/bottles/tcl-tk-8.6.8_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "linuxbrew/xorg/xorg",
+    "pkg-config"
+  ],
+  "desc": "Tool Command Language",
+  "full_name": "tcl-tk",
+  "homepage": "https://www.tcl.tk/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tcl-tk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't build tcllib (utility modules)",
+      "option": "--without-tcllib"
+    },
+    {
+      "description": "Don't build the Tk (window toolkit)",
+      "option": "--without-tk"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "8.7a1",
+    "head": null,
+    "stable": "8.6.8"
+  }
+}

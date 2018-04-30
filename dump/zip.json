@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "54ea09b9be1a8c8a20b94e7cadff551ed243f5762a0d8da79f1aaedc4c9492a9",
+          "url": "https://linuxbrew.bintray.com/bottles/zip-3.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d218e0b7d82c7864a1ead12186b5bc09b43c2aa3749651008ac8dbcf32ec0d7c",
+          "url": "https://linuxbrew.bintray.com/bottles/zip-3.0.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "be282c3dfde4da608ab090910b3fe3cbec914d435122854f17acc0f718cc3a15",
+          "url": "https://linuxbrew.bintray.com/bottles/zip-3.0.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "eee82c511bc78167c6bc043a8795f3b7b47e2ba77a595d6234648ae73102efb2",
+          "url": "https://linuxbrew.bintray.com/bottles/zip-3.0.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Compression and file packaging/archive utility",
+  "full_name": "zip",
+  "homepage": "http://www.info-zip.org/Zip.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zip",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0"
+  }
+}

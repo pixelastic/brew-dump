@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8ea83c73d0043e442c32351e84c591a39305abd13745a5968993c43f750c046a",
+          "url": "https://linuxbrew.bintray.com/bottles/quilt-0.65.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6905212919229016ef984a2aca56b424da0057ad3404a9cab0290997838bb785",
+          "url": "https://linuxbrew.bintray.com/bottles/quilt-0.65.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8ea83c73d0043e442c32351e84c591a39305abd13745a5968993c43f750c046a",
+          "url": "https://linuxbrew.bintray.com/bottles/quilt-0.65.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7786c1cdee0778e1d6997f7a3c0603c24f56800920d0c0df9e5530163d5f550f",
+          "url": "https://linuxbrew.bintray.com/bottles/quilt-0.65.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8ea83c73d0043e442c32351e84c591a39305abd13745a5968993c43f750c046a",
+          "url": "https://linuxbrew.bintray.com/bottles/quilt-0.65.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gnu-sed",
+    "coreutils"
+  ],
+  "desc": "Work with series of patches",
+  "full_name": "quilt",
+  "homepage": "https://savannah.nongnu.org/projects/quilt",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "quilt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.65"
+  }
+}

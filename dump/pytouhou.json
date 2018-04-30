@@ -1,0 +1,84 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d3a4f33dbbdf0ebac641375f399ec2a35742ae04785b883a1c7c66952cf3dcd2",
+          "url": "https://linuxbrew.bintray.com/bottles/pytouhou-634_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ec6da97347d1c1446f4c382ae8714db09270cb3dd19d875ded74e969c36ac53c",
+          "url": "https://linuxbrew.bintray.com/bottles/pytouhou-634_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "35f4e2d8fe6a8de9a0219ad246f667cf01b657f63c7e945163907585eab2830f",
+          "url": "https://linuxbrew.bintray.com/bottles/pytouhou-634_4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "mercurial",
+    "pkg-config",
+    "lha"
+  ],
+  "caveats": "The default path for the game data is:\n  /home/tim/.linuxbrew/Cellar/pytouhou/634_4/share/pytouhou/game\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mercurial",
+    "python",
+    "pkg-config",
+    "libepoxy",
+    "sdl2",
+    "sdl2_image",
+    "sdl2_mixer",
+    "sdl2_ttf",
+    "gtk+3",
+    "py3cairo",
+    "pygobject3",
+    "lha"
+  ],
+  "desc": "Libre implementation of Touhou 6 engine",
+  "full_name": "pytouhou",
+  "homepage": "https://pytouhou.linkmauve.fr/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pytouhou",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Install demo version of Touhou 6",
+      "option": "--with-demo"
+    },
+    {
+      "description": "Build without gtk+3 support",
+      "option": "--without-gtk+3"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "gtk+3"
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "634"
+  }
+}

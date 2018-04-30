@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "high_sierra": {
+          "sha256": "c2b7df54c0844ed33993ba110556bb3547423fd8d22b5034af29f65ba7eade15",
+          "url": "https://linuxbrew.bintray.com/bottles/natalie-0.6.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6e101ed8ac70707b8366665bea49d98c9095d9a8f91b3736a772d968c4045ed8",
+          "url": "https://linuxbrew.bintray.com/bottles/natalie-0.6.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Storyboard Code Generator (for Swift)",
+  "full_name": "natalie",
+  "homepage": "https://github.com/krzyzanowskim/Natalie",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "natalie",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.6.5"
+  }
+}

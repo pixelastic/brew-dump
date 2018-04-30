@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "cf0bc6b407f4861b174eddf55ae5da45330d37abc428013ca19f173d36a96d2a",
+          "url": "https://linuxbrew.bintray.com/bottles/mmsrip-0.7.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e7c12a6c8e6ef612d1c789fad3e06c0b21acfe6e4dbac1643ae7797faeafcb35",
+          "url": "https://linuxbrew.bintray.com/bottles/mmsrip-0.7.0.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b4578327661828737b3aa71615806ba6e2781d7c0815a12815023242ac80e598",
+          "url": "https://linuxbrew.bintray.com/bottles/mmsrip-0.7.0.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "07f4c9d5a84bb52e3c799ebe7c395a4939c0c7ac5dff0fb46e2ce84abd9b5417",
+          "url": "https://linuxbrew.bintray.com/bottles/mmsrip-0.7.0.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Client for the MMS:// protocol",
+  "full_name": "mmsrip",
+  "homepage": "https://nbenoit.tuxfamily.org/index.php?page=MMSRIP",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mmsrip",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.0"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "923868f49a8245403e9e2207780d3a9234e29ea12d9861a671fe5675e1fea046",
+          "url": "https://linuxbrew.bintray.com/bottles/afflib-3.7.16.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7a5a2cdf54e81089aeda288185c13dd947af90dab3c32f5ce3017d5251f8ea28",
+          "url": "https://linuxbrew.bintray.com/bottles/afflib-3.7.16.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0a69dea1576c68720739308a0aa66e83c24de8e6b88303f0d3fe371db2f932d4",
+          "url": "https://linuxbrew.bintray.com/bottles/afflib-3.7.16.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7cb9626fd6e2e2168d710b5c7c6ef4d5d2c3a02f7326e25414c175ebe0d50310",
+          "url": "https://linuxbrew.bintray.com/bottles/afflib-3.7.16.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "bbebd8159a1a187405374c9fd34a9fad999c44c9c4af60d7c763b97f99f95ae6",
+          "url": "https://linuxbrew.bintray.com/bottles/afflib-3.7.16.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "openssl",
+    "python@2",
+    "curl",
+    "expat"
+  ],
+  "desc": "Advanced Forensic Format",
+  "full_name": "afflib",
+  "homepage": "https://github.com/sshock/AFFLIBv3",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "afflib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with osxfuse support",
+      "option": "--with-osxfuse"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.7.16"
+  }
+}

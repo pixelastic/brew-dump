@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b122c09b37bf213d9eca36ae852011af1c56210d755dc44103ca11882b4a9b7d",
+          "url": "https://linuxbrew.bintray.com/bottles/htslib-1.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9bbd0f83d2f5e7ea2d9889bfabb6f47aba7ea5d9dfb9070f0566bd7bba9e4f32",
+          "url": "https://linuxbrew.bintray.com/bottles/htslib-1.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5ec146ac61a5e7cff8c8f71f3a4ddf64871d4dd3dcfd043e4b5630292abe39fa",
+          "url": "https://linuxbrew.bintray.com/bottles/htslib-1.8.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b524786a291718f9f345f82ea86cc69504883d95f79fe6b1cbcf963123109e29",
+          "url": "https://linuxbrew.bintray.com/bottles/htslib-1.8.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "xz",
+    "bzip2",
+    "zlib",
+    "curl"
+  ],
+  "desc": "C library for high-throughput sequencing data formats",
+  "full_name": "htslib",
+  "homepage": "https://www.htslib.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "htslib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8"
+  }
+}

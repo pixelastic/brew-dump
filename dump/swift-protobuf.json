@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "high_sierra": {
+          "sha256": "e104dd758571d8f70d4e28c5094b2ecf36c5e93557366c784b33131fa0d7960c",
+          "url": "https://linuxbrew.bintray.com/bottles/swift-protobuf-1.0.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "02cbd1c82a8528ec42ebe1dd24c6544a56ae7ae95946c54c0f024d92d7435cfb",
+          "url": "https://linuxbrew.bintray.com/bottles/swift-protobuf-1.0.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "protobuf-swift"
+  ],
+  "dependencies": [
+    "protobuf"
+  ],
+  "desc": "Plugin and runtime library for using protobuf with Swift",
+  "full_name": "swift-protobuf",
+  "homepage": "https://github.com/apple/swift-protobuf",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "swift-protobuf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.3"
+  }
+}

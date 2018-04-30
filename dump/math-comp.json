@@ -1,0 +1,65 @@
+{
+  "aliases": [
+    "mathcomp",
+    "ssreflect"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6634ee5946a464872dec8a580c4dfcf7431af864e4629d333ad62298f4ef8fd9",
+          "url": "https://linuxbrew.bintray.com/bottles/math-comp-1.7.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b1a765625508585ca3768544628b9a71c9c92e8509f3e8a1019ee56c5691d0a0",
+          "url": "https://linuxbrew.bintray.com/bottles/math-comp-1.7.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "121eaa1a5669511683adf613241dcf2460b75366afb52b3c7f4844b16a10ac10",
+          "url": "https://linuxbrew.bintray.com/bottles/math-comp-1.7.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ocaml"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ocaml",
+    "coq"
+  ],
+  "desc": "Mathematical Components for the Coq proof assistant",
+  "full_name": "math-comp",
+  "homepage": "https://math-comp.github.io/math-comp/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "math-comp",
+  "oldname": "ssreflect",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.7.0"
+  }
+}

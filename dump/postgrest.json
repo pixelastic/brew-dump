@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "557472bb552b83c7c3e13b3df9e9e6f7473dcc91560d53751495f8304d2b59ac",
+          "url": "https://linuxbrew.bintray.com/bottles/postgrest-0.4.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2960819fa37338ac4f610865b0365e2226dd7f4d0956cfcca738770932105ed3",
+          "url": "https://linuxbrew.bintray.com/bottles/postgrest-0.4.4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c332f0905eaa2357110e2f144577dd348cbbf18c8e2ca3f8e47cd3bcbb786ffb",
+          "url": "https://linuxbrew.bintray.com/bottles/postgrest-0.4.4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0f974a736666d01d71b45e9de85f50a6e001eb6e42622fb77ef20d20afbf2759",
+          "url": "https://linuxbrew.bintray.com/bottles/postgrest-0.4.4.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cabal-install",
+    "ghc@8.2"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cabal-install",
+    "ghc@8.2",
+    "postgresql"
+  ],
+  "desc": "Serves a fully RESTful API from any existing PostgreSQL database",
+  "full_name": "postgrest",
+  "homepage": "https://github.com/begriffs/postgrest",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "postgrest",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.4.0"
+  }
+}

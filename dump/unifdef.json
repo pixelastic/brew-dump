@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a89e5cc9b179fa5135077ad0c27e34cebe13a33dc02adccab4969855ba173357",
+          "url": "https://linuxbrew.bintray.com/bottles/unifdef-2.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a7e42f5a8e2c467e84dbf9edc4f14cad362850e324088844d6b11f1cae88ce9f",
+          "url": "https://linuxbrew.bintray.com/bottles/unifdef-2.11.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8533d1ce7b70e51256a3c24d557345b7b7ac0b7e6562de5a0f942c058ae518db",
+          "url": "https://linuxbrew.bintray.com/bottles/unifdef-2.11.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "be948ffc760273a09943faa7c156e4014534da82c78bc2c3c4f2a4a4416e962e",
+          "url": "https://linuxbrew.bintray.com/bottles/unifdef-2.11.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3277bf0977c385e3cf5ccf3355e11f30b057c58d8539a27d5a23531ce7de9542",
+          "url": "https://linuxbrew.bintray.com/bottles/unifdef-2.11.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Selectively process conditional C preprocessor directives",
+  "full_name": "unifdef",
+  "homepage": "https://dotat.at/prog/unifdef/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "unifdef",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.11"
+  }
+}

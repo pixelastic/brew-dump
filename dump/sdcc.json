@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "560804d50e214be12ce4417fd5edc5137d2d987c3d1617d4659284d8b614a1bf",
+          "url": "https://linuxbrew.bintray.com/bottles/sdcc-3.7.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b80bbd646be2fe3f66a46e616537b385211b03b3f22b16fdf85ab92d64dba88e",
+          "url": "https://linuxbrew.bintray.com/bottles/sdcc-3.7.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c9b31ad24400562817d0ec03fd88051e62d1ba434f0f4750388cd1143afb1547",
+          "url": "https://linuxbrew.bintray.com/bottles/sdcc-3.7.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gputils",
+    "boost"
+  ],
+  "desc": "ANSI C compiler for Intel 8051, Maxim 80DS390, and Zilog Z80",
+  "full_name": "sdcc",
+  "homepage": "https://sdcc.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sdcc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enables the AVR port (UNSUPPORTED, MAY FAIL)",
+      "option": "--with-avr-port"
+    },
+    {
+      "description": "Enables the xa51 port (UNSUPPORTED, MAY FAIL)",
+      "option": "--with-xa51-port"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.7.0"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "41947394e3272672e20f2980e4bfbad317fcdaced331d9478322550cc8cd9024",
+          "url": "https://linuxbrew.bintray.com/bottles/bigloo-4.3b.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1b6fce918e35cc37fb6e2c9d10f36b48866cdeaa577026114ff533efc72fb361",
+          "url": "https://linuxbrew.bintray.com/bottles/bigloo-4.3b.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5aef2cf4b59096ddc38cf12698543f18a68b784aa0b12beefb646334c3a89ef4",
+          "url": "https://linuxbrew.bintray.com/bottles/bigloo-4.3b.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "openssl",
+    "gmp"
+  ],
+  "desc": "Scheme implementation with object system, C, and Java interfaces",
+  "full_name": "bigloo",
+  "homepage": "https://www-sop.inria.fr/indes/fp/Bigloo/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bigloo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable JVM support",
+      "option": "--with-jvm"
+    },
+    {
+      "description": "Build without gmp support",
+      "option": "--without-gmp"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "gmp"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.3b"
+  }
+}

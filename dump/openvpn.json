@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2d3b53ff36b06d6e81b4daf2832fdb5ad68002499c9b03638e104c08589ab96c",
+          "url": "https://linuxbrew.bintray.com/bottles/openvpn-2.4.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "518d63d63c46511d417a398db9658bf6ed9dbc3ae137b62d26b3b950ff9255da",
+          "url": "https://linuxbrew.bintray.com/bottles/openvpn-2.4.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a744b2a3940c33c2811b7ff9c5f2fdca0ceab0ea31bc1695519ccb5f8cb230ad",
+          "url": "https://linuxbrew.bintray.com/bottles/openvpn-2.4.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "lzo",
+    "lz4",
+    "openssl"
+  ],
+  "desc": "SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension",
+  "full_name": "openvpn",
+  "homepage": "https://openvpn.net/index.php/download/community-downloads.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openvpn",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.5"
+  }
+}

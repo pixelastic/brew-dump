@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "2d16fc485d3e86ae0d879261984fd2a0cd7725964939a10487ae51e1876716d3",
+          "url": "https://linuxbrew.bintray.com/bottles/pygtkglext-1.1.0_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6b23a741936e9c1642777211397fc59e5e41fa4f34d45c85aad8dd1810ac2aca",
+          "url": "https://linuxbrew.bintray.com/bottles/pygtkglext-1.1.0_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9ca36d2fbeedb1f45c3151c93df3a827d66f7596f2a91b11de72e7edc830cf98",
+          "url": "https://linuxbrew.bintray.com/bottles/pygtkglext-1.1.0_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "pygtk",
+    "gtkglext",
+    "pygobject"
+  ],
+  "desc": "Python bindings to OpenGL GTK+ extension",
+  "full_name": "pygtkglext",
+  "homepage": "https://projects.gnome.org/gtkglext/download.html#pygtkglext",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pygtkglext",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.0"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b5041fc90ace09f0b556072ce5fedfa99ff9025f031a4eb70fdee5b90f9aa438",
+          "url": "https://linuxbrew.bintray.com/bottles/openjpeg-2.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "87762c08c68afefa25166be5d0727a052fd6ad628b25a2d1d57d54b42e3b06d3",
+          "url": "https://linuxbrew.bintray.com/bottles/openjpeg-2.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "66694c288e9c15f54ab8332183d4d15ea204623dd13a5acadb211eef28cd5076",
+          "url": "https://linuxbrew.bintray.com/bottles/openjpeg-2.3.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "12bed67c39b8cd53e02ec931d2d0c611a58606487e3ede8cb7dd414bf44d5146",
+          "url": "https://linuxbrew.bintray.com/bottles/openjpeg-2.3.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "doxygen"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "doxygen",
+    "little-cms2",
+    "libtiff",
+    "libpng"
+  ],
+  "desc": "Library for JPEG-2000 image manipulation",
+  "full_name": "openjpeg",
+  "homepage": "https://www.openjpeg.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openjpeg",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Do not build HTML documentation.",
+      "option": "--without-doxygen"
+    },
+    {
+      "description": "Build a static library.",
+      "option": "--with-static"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "doxygen"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.3.0"
+  }
+}

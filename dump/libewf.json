@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4d0d3cb0aa198dc0ca569b04d748b3d4f92cdb9e0580c70b9ab6a25dc44ca2f9",
+          "url": "https://linuxbrew.bintray.com/bottles/libewf-20140608_1.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c362a1ee13cd7a9208d6d742acf4136a61e71d9de1451140ffae4b82ca108ab4",
+          "url": "https://linuxbrew.bintray.com/bottles/libewf-20140608_1.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5abcb4aaa80ac85b86b3b5d3bc4dce613fe4692d29edff5e48a8e871d2e89225",
+          "url": "https://linuxbrew.bintray.com/bottles/libewf-20140608_1.sierra.bottle.2.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "aefff18d44af41112ec78e3d77f7dc868d66c16114e1e466194afa1ee213faec",
+          "url": "https://linuxbrew.bintray.com/bottles/libewf-20140608_1.x86_64_linux.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "71af7ed8bbc39e690ef8b22adf5a8e0399fec4d6661323dfdda4581f55ca7dbd",
+          "url": "https://linuxbrew.bintray.com/bottles/libewf-20140608_1.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "openssl"
+  ],
+  "desc": "Library for support of the Expert Witness Compression Format",
+  "full_name": "libewf",
+  "homepage": "https://github.com/libyal/libewf",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libewf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "20170703",
+    "head": "HEAD",
+    "stable": "20140608"
+  }
+}

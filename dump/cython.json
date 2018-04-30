@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "abd336bab080f62de1aaf48d99bcff84b179ecef25b99bc360be875509da18c3",
+          "url": "https://linuxbrew.bintray.com/bottles/cython-0.28.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1884d09996daa5777cc5bb79619e6f391103d2a1588abb554e854772890aab7d",
+          "url": "https://linuxbrew.bintray.com/bottles/cython-0.28.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2ffa85bb9bb24b1e0f50da7c9b23ad9dfba712818d61ab94e554eb7e1f941f65",
+          "url": "https://linuxbrew.bintray.com/bottles/cython-0.28.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5958be723750b795d9a9e1564c2b497d62e97f9f6de484b4e2d2ad0536c821ef",
+          "url": "https://linuxbrew.bintray.com/bottles/cython-0.28.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Compiler for writing C extensions for the Python language",
+  "full_name": "cython",
+  "homepage": "http://cython.org",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "cython",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.28.2"
+  }
+}

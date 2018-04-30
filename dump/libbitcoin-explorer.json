@@ -1,0 +1,72 @@
+{
+  "aliases": [
+    "bx"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "dca3ed395418f3f20c1956ece3de05fd384e44ab175c72b009781bf85731f8f1",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-explorer-3.5.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3ddae418ea3aac1c567e041b38275bc49720a8f221ace3c666a0fc6b16895762",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-explorer-3.5.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4b57fd07c6ca90d2f029853fca8b1ff8c1e5989860ed2312e0c062578a6fec20",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-explorer-3.5.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "libbitcoin",
+    "libbitcoin-network",
+    "zeromq"
+  ],
+  "desc": "Bitcoin command-line tool",
+  "full_name": "libbitcoin-explorer",
+  "homepage": "https://github.com/libbitcoin/libbitcoin-explorer",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libbitcoin-explorer",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.5.0"
+  }
+}

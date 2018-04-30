@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2ca18b7fd0fac82caa08db919632dd85f672ea5589036bf072553d0389a49cfb",
+          "url": "https://linuxbrew.bintray.com/bottles/libbi-1.4.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c11f93b6ec2b894b2092be1a92500884b364e700231b8cfccd707813bde746cc",
+          "url": "https://linuxbrew.bintray.com/bottles/libbi-1.4.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c34a9c57526fbcafc9eeae3e736387e1c3c69d8f5f22809dc7e69a062d712448",
+          "url": "https://linuxbrew.bintray.com/bottles/libbi-1.4.0_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "automake",
+    "boost",
+    "gsl",
+    "netcdf",
+    "qrupdate"
+  ],
+  "desc": "Bayesian state-space modelling on parallel computer hardware",
+  "full_name": "libbi",
+  "homepage": "http://libbi.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libbi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.0"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To complete installation, add the following line to your shell's rc file:\n  source /home/tim/.linuxbrew/opt/vf/vf.sh\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Enhanced version of `cd` command",
+  "full_name": "vf",
+  "homepage": "https://github.com/glejeune/vf",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.0.1"
+  }
+}

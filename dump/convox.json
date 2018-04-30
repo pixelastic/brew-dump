@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f0238ef7300cb35424a8bdedb8431964b99b4b2c71e7e68c7c4021cb6e72f075",
+          "url": "https://linuxbrew.bintray.com/bottles/convox-20180425220726.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "59fa9de0f8470537c89fb6ffb68321ed9f97c51bd284750e43014e1b16af4b9b",
+          "url": "https://linuxbrew.bintray.com/bottles/convox-20180425220726.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9e1c009ef4a363c4b131b9cd4b303a9d51161e4577181e95c3dc4f7e776ba2e6",
+          "url": "https://linuxbrew.bintray.com/bottles/convox-20180425220726.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e58bafc75b753dd5737bec1e69a8ffbc59c91e825641b8713d3cd9362ae4981d",
+          "url": "https://linuxbrew.bintray.com/bottles/convox-20180425220726.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Command-line interface for the Rack PaaS on AWS",
+  "full_name": "convox",
+  "homepage": "https://convox.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "convox",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20180425220726"
+  }
+}

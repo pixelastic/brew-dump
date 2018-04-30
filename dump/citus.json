@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "98fc10926a2ad0e6fdb1235373f355ea3bbb7baaf28dcc7e0e8a779814fc1a0c",
+          "url": "https://linuxbrew.bintray.com/bottles/citus-7.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4ed5cc854ba365e6bdc3957cadf9af8c2177392665db5a485abf6f3d1c08a108",
+          "url": "https://linuxbrew.bintray.com/bottles/citus-7.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d5169e5479f2406e32735f448618acc83f3fd0b2cec20d04fc323b59a4f6b46f",
+          "url": "https://linuxbrew.bintray.com/bottles/citus-7.3.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "postgresql",
+    "readline"
+  ],
+  "desc": "PostgreSQL-based distributed RDBMS",
+  "full_name": "citus",
+  "homepage": "https://www.citusdata.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "citus",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "7.3.0"
+  }
+}

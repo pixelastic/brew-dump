@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "73f4f781edd9621d498238d77536dda5fbfa60dbb613bd7f15bb31d72699c986",
+          "url": "https://linuxbrew.bintray.com/bottles/foremost-1.5.7.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "77429923aeac124b53330a69e09c03fcbe75d56f1ed9668db39ddc2e0ddace7a",
+          "url": "https://linuxbrew.bintray.com/bottles/foremost-1.5.7.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1fec9cd62de192dcbd5217cfa2c6c1c1ca056afa85a434114748171bf740ed96",
+          "url": "https://linuxbrew.bintray.com/bottles/foremost-1.5.7.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "039d8f237f0c1247c23309a63ccba896993f4d57dc1a0db2fbc8b0d7fba936ab",
+          "url": "https://linuxbrew.bintray.com/bottles/foremost-1.5.7.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Console program to recover files based on their headers and footers",
+  "full_name": "foremost",
+  "homepage": "https://foremost.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "foremost",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.7"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "675165ce642fa811e1a0a363be0ba66a7b907d46056f89fd20938aa33e7d59f7",
+          "url": "https://linuxbrew.bintray.com/bottles/ninja-1.8.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eeba4fff08b3ed4b308250fb650f7d06630acd18465900ba0e27cecfe925a6cc",
+          "url": "https://linuxbrew.bintray.com/bottles/ninja-1.8.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "90ecf90948f0fa65c82011d79338d7c5ca2a4d0cb7cb8dc3892243f749fbe2eb",
+          "url": "https://linuxbrew.bintray.com/bottles/ninja-1.8.2_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8034d3a23cf8123dfdfdf37a32947dd43c699b1d0a94010630613b4adf1b7fff",
+          "url": "https://linuxbrew.bintray.com/bottles/ninja-1.8.2_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Small build system for use with gyp or CMake",
+  "full_name": "ninja",
+  "homepage": "https://ninja-build.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ninja",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't run build-time tests",
+      "option": "--without-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.2"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4082f505586a99a70dc76516e505ca83d15d794a7c87a87629089d1c50ca44b9",
+          "url": "https://linuxbrew.bintray.com/bottles/sispmctl-4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3ad48ee1db3c177b4f93bedfa6163b0dafa96cfb1b1f349dc5d9682e78d67d98",
+          "url": "https://linuxbrew.bintray.com/bottles/sispmctl-4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c4e130a2484f40a4803e1eccac3c0411fde2c881b64a0220a60dede14bf9fdf7",
+          "url": "https://linuxbrew.bintray.com/bottles/sispmctl-4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4295c1e01def514c96c9c08fc2420011a47cf1cd3e42c5dcb470f98827aa8b66",
+          "url": "https://linuxbrew.bintray.com/bottles/sispmctl-4.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libusb-compat"
+  ],
+  "desc": "Control Gembird SIS-PM programmable power outlet strips",
+  "full_name": "sispmctl",
+  "homepage": "https://sispmctl.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sispmctl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.0"
+  }
+}

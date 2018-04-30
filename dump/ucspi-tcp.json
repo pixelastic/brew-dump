@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a57368e57812063bc4e1450c0bef5cad8392c44e54abf3c8ca950ea51abe7ae9",
+          "url": "https://linuxbrew.bintray.com/bottles/ucspi-tcp-0.88.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b3f2714c61a157eb31ef53915901c29c24ad3dc5cf7d7c3403dcd501399e26b4",
+          "url": "https://linuxbrew.bintray.com/bottles/ucspi-tcp-0.88.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "67eb31db588a2299c5e69a4a60f3c56d07624a58e52e77cff2e58be554085d9f",
+          "url": "https://linuxbrew.bintray.com/bottles/ucspi-tcp-0.88.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "46d324e867e5a35cbb17e8a215ff33f693651d11645eed116e4e4a6c02085b34",
+          "url": "https://linuxbrew.bintray.com/bottles/ucspi-tcp-0.88.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "727e93394b415da772b43ce5028ad54dcb569f695e6c8c4cdf05dc462b2febbe",
+          "url": "https://linuxbrew.bintray.com/bottles/ucspi-tcp-0.88.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tools for building TCP client-server applications",
+  "full_name": "ucspi-tcp",
+  "homepage": "https://cr.yp.to/ucspi-tcp.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ucspi-tcp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.88"
+  }
+}

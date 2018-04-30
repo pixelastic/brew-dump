@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c4884ba21bdcc444dfb2ef3df4ddd8f7f56194c159fec96fcef038092564c794",
+          "url": "https://linuxbrew.bintray.com/bottles/nnn-1.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ff5d1ec8531b1e5994b6b822e94c9c92bfaed8d7918257e08b37c76aa4920d51",
+          "url": "https://linuxbrew.bintray.com/bottles/nnn-1.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8be6a30a848f30382065ffdfcf0aaf17f59ce5239bba5b263f19e69ff3ea3a2d",
+          "url": "https://linuxbrew.bintray.com/bottles/nnn-1.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5b9cf055ab1843d9af54e6d7db4057220ef5d83620defab564b8fbf1ad9f61c4",
+          "url": "https://linuxbrew.bintray.com/bottles/nnn-1.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "readline",
+    "ncurses"
+  ],
+  "desc": "Free, fast, friendly file browser",
+  "full_name": "nnn",
+  "homepage": "https://github.com/jarun/nnn",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nnn",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7"
+  }
+}

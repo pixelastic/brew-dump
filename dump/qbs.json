@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "2b14798255a8c648f7e2ec8009c5b5588005ebd8e8fff9c3954f8c21fa7a2b9f",
+          "url": "https://linuxbrew.bintray.com/bottles/qbs-1.11.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5e2156d7a2941ec00e340f7b3b4b1fea61ee5e2a82bf69494fc77028bbc87017",
+          "url": "https://linuxbrew.bintray.com/bottles/qbs-1.11.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0a540fc267840af5be02253cd9d50bd4ffda6ece094598524779cb3baf108a9d",
+          "url": "https://linuxbrew.bintray.com/bottles/qbs-1.11.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "qt"
+  ],
+  "desc": "Build tool for developing projects across multiple platforms",
+  "full_name": "qbs",
+  "homepage": "https://wiki.qt.io/Qbs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qbs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.11.0"
+  }
+}

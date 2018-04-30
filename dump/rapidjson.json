@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d0b949a9bd043535e2ff3e032b45b26de0083d319bc094db7ccc1edfea6cbdb3",
+          "url": "https://linuxbrew.bintray.com/bottles/rapidjson-1.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4f40efdbe80e8060d03cfcffdcb2e51d3e4d3924272c96825c6966e00a1ee2e2",
+          "url": "https://linuxbrew.bintray.com/bottles/rapidjson-1.1.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "806e4c788a675bbb0cff3cc9af68f8cdf46ac3d5bf49a47a94b331cc67ca0f4d",
+          "url": "https://linuxbrew.bintray.com/bottles/rapidjson-1.1.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9fbe96e76e21457931a5e2fff343833b84941e2387ab02212946ad71665c3f6f",
+          "url": "https://linuxbrew.bintray.com/bottles/rapidjson-1.1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "252ec61e7d5cba129a888bb566d4f2b61bd1bd2886de637f48afa638e6764007",
+          "url": "https://linuxbrew.bintray.com/bottles/rapidjson-1.1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "doxygen"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "doxygen"
+  ],
+  "desc": "JSON parser/generator for C++ with SAX and DOM style APIs",
+  "full_name": "rapidjson",
+  "homepage": "https://miloyip.github.io/rapidjson/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rapidjson",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't build documentation",
+      "option": "--without-docs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.0"
+  }
+}

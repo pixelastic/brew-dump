@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "812042f677b69a24a9aefdbdeb733691813cb46b33ff50d991af97ddfe39fc59",
+          "url": "https://linuxbrew.bintray.com/bottles/glade-3.22.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8b2006714375e4ea9fc74bbd73e6ef41da6551a2b0e2813cece71d8ce4ca661c",
+          "url": "https://linuxbrew.bintray.com/bottles/glade-3.22.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "58616499a9a2b2aef8d6568faf7a7fbac66d7954491e6f00c61acdb2b3ea207d",
+          "url": "https://linuxbrew.bintray.com/bottles/glade-3.22.1_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool",
+    "itstool",
+    "docbook-xsl",
+    "gobject-introspection",
+    "libxslt"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "itstool",
+    "docbook-xsl",
+    "gobject-introspection",
+    "gettext",
+    "libxml2",
+    "adwaita-icon-theme",
+    "hicolor-icon-theme",
+    "gtk+3",
+    "libxslt"
+  ],
+  "desc": "RAD tool for the GTK+ and GNOME environment",
+  "full_name": "glade",
+  "homepage": "https://glade.gnome.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "glade",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.22.1"
+  }
+}

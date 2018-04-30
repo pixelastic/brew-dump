@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0c4970e41a434a33d58395acfdfbadf1269c50fe0c4a986dcf72882200145a72",
+          "url": "https://linuxbrew.bintray.com/bottles/unshield-1.4.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e7352ba9971014d7320e63942231f97443f2b0895742ca9ede3aca2972b9b66a",
+          "url": "https://linuxbrew.bintray.com/bottles/unshield-1.4.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ce0d7256b7fa9194c736f958b84121c5303246721f4d66c13dce9b103de14424",
+          "url": "https://linuxbrew.bintray.com/bottles/unshield-1.4.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "435e0ded27f6febb443d73c238b3f1b198c7881fed943b3b5505cb7c24e40fcc",
+          "url": "https://linuxbrew.bintray.com/bottles/unshield-1.4.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "openssl"
+  ],
+  "desc": "Extract files from InstallShield cabinet files",
+  "full_name": "unshield",
+  "homepage": "https://github.com/twogood/unshield",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "unshield",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.2"
+  }
+}

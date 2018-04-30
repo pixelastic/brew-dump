@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ca321d85ad747dc3565acb82ea3c7b2de3b2fcb196b3d093eafd71267496bac2",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkmm3-3.22.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6e468e40dbe7e4ca10361980514d949f45ff770ddd3e68e2c8f4fd6ee6409f14",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkmm3-3.22.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "abd9eac77cbae6970e31119621ac5cd7e57cde621431525984604b4e2bddc851",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkmm3-3.22.2_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gtk+3",
+    "pangomm",
+    "atkmm"
+  ],
+  "desc": "C++ interfaces for GTK+ and GNOME",
+  "full_name": "gtkmm3",
+  "homepage": "https://www.gtkmm.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gtkmm3",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.22.2"
+  }
+}

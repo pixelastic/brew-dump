@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ddea1c93ea261eb8f49f998deb8769b8b67d44ec955e6dbbe8509d90f5ae9b6e",
+          "url": "https://linuxbrew.bintray.com/bottles/lightning-2.1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ed3fb8e5552f78ef17fa4a5eab54a69068113c28f50723e2a9d9fa68ca9a554d",
+          "url": "https://linuxbrew.bintray.com/bottles/lightning-2.1.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b3898ab467ddc57c03f72615e95fedadf4bbf249ba76ed9de8cc410efe58b114",
+          "url": "https://linuxbrew.bintray.com/bottles/lightning-2.1.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c45d791b33a4c44d6d7a35e5117d3255c3ad69919fda261bf1710711162496bd",
+          "url": "https://linuxbrew.bintray.com/bottles/lightning-2.1.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "binutils"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "binutils"
+  ],
+  "desc": "Generates assembly language code at run-time",
+  "full_name": "lightning",
+  "homepage": "https://www.gnu.org/software/lightning/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lightning",
+  "oldname": null,
+  "optional_dependencies": [
+    "binutils"
+  ],
+  "options": [
+    {
+      "description": "Build with binutils support",
+      "option": "--with-binutils"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.1.2"
+  }
+}

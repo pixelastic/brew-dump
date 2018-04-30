@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1b8117394f6f92485112b50678d82360766739bac5f1dc46d7573bfa97232138",
+          "url": "https://linuxbrew.bintray.com/bottles/hypre-2.11.2_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f8ae3742bdd41548c214a8ac0a4f139b31beb08d7d2cdffd018fff1875a631ca",
+          "url": "https://linuxbrew.bintray.com/bottles/hypre-2.11.2_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a696ab2a3732c1b9970a9a09385e9577aede6131f1848b81abdde487139424bb",
+          "url": "https://linuxbrew.bintray.com/bottles/hypre-2.11.2_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "339f1ccf2f2d9d2e00d942ee61ad42b95c47570ee07e36b89739f35154d901ed",
+          "url": "https://linuxbrew.bintray.com/bottles/hypre-2.11.2_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gcc",
+    "open-mpi",
+    "openblas"
+  ],
+  "desc": "Library featuring parallel multigrid methods for grid problems",
+  "full_name": "hypre",
+  "homepage": "https://computation.llnl.gov/casc/hypre/software.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hypre",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without openblas support",
+      "option": "--without-openblas"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "openblas"
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.11.2"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "df8f478e0c70a118b17f60a2d444d67af7c19aa87dfe4ff20cfcfc1d151e9782",
+          "url": "https://linuxbrew.bintray.com/bottles/pgrouting-2.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "824a6cd6adf3fc9cfe118a3d871bcc995fbc77bed19ec8b0d23d4126ea8b41d0",
+          "url": "https://linuxbrew.bintray.com/bottles/pgrouting-2.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8a104593863d0e0e98e99822bf5b77cc6e51d6f38cbca6c0b1e360d162e24c73",
+          "url": "https://linuxbrew.bintray.com/bottles/pgrouting-2.6.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "boost",
+    "cgal",
+    "gmp",
+    "postgis",
+    "postgresql"
+  ],
+  "desc": "Provides geospatial routing for PostGIS/PostgreSQL database",
+  "full_name": "pgrouting",
+  "homepage": "http://www.pgrouting.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pgrouting",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.6.0"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a09a760ce9c152937146d68e113a99c0869b22b80a6fc9ae634f61c06e609126",
+          "url": "https://linuxbrew.bintray.com/bottles/zbackup-1.4.4_6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e68198033bdb384d3f0988ff641a15ed74eca20b54d99176cd3c95215aa8371e",
+          "url": "https://linuxbrew.bintray.com/bottles/zbackup-1.4.4_6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9669c67980ca07319479ab94197678a1b2357bb8c77457e9886cb82af0a8d708",
+          "url": "https://linuxbrew.bintray.com/bottles/zbackup-1.4.4_6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "251a8f557ce0cda4d993aefab86deda86c2afd305abbce48ce9645a27bb12af8",
+          "url": "https://linuxbrew.bintray.com/bottles/zbackup-1.4.4_6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "openssl",
+    "protobuf",
+    "xz",
+    "lzo"
+  ],
+  "desc": "Globally-deduplicating backup tool (based on ideas in rsync)",
+  "full_name": "zbackup",
+  "homepage": "http://zbackup.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zbackup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 6,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.4"
+  }
+}

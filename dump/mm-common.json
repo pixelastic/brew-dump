@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "42c9654bebbc472d90bc31d14e0832d55367d8d86d6750ab546a129a48de342b",
+          "url": "https://linuxbrew.bintray.com/bottles/mm-common-0.9.12.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "42c9654bebbc472d90bc31d14e0832d55367d8d86d6750ab546a129a48de342b",
+          "url": "https://linuxbrew.bintray.com/bottles/mm-common-0.9.12.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "42c9654bebbc472d90bc31d14e0832d55367d8d86d6750ab546a129a48de342b",
+          "url": "https://linuxbrew.bintray.com/bottles/mm-common-0.9.12.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "85398e2c7a5ab5f48e1e03476b3c774e6afba282a3f4ea7842176838b26efe6c",
+          "url": "https://linuxbrew.bintray.com/bottles/mm-common-0.9.12.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Build utilities for C++ interfaces of GTK+ and GNOME packages",
+  "full_name": "mm-common",
+  "homepage": "https://www.gtkmm.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mm-common",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.12"
+  }
+}

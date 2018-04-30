@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "bison@3.0"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ad8ea27a2a19efa903bbd094bffdc5f80e5e5fc641a31c3649a3a23110b5d455",
+          "url": "https://linuxbrew.bintray.com/bottles/bison-3.0.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5701d6ce4222aac2a510772d6755777bb6162599c5c9169e11781f08fbcebca2",
+          "url": "https://linuxbrew.bintray.com/bottles/bison-3.0.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "790d7ebb2aba8bc5db4efcc19e6e8c89bdf39163ec20168b9f238807b4dc7fa3",
+          "url": "https://linuxbrew.bintray.com/bottles/bison-3.0.4_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7aaa47346b2ecf36eafa2a1f0ef89966656fffd871867ffb477e476148286dc4",
+          "url": "https://linuxbrew.bintray.com/bottles/bison-3.0.4_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "m4"
+  ],
+  "desc": "Parser generator",
+  "full_name": "bison",
+  "homepage": "https://www.gnu.org/software/bison/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bison",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.4"
+  }
+}

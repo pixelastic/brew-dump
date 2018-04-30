@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "964df15660a5c0ec25bedec56aeb128ae93794a8ad721c1c600e377df9be1c2d",
+          "url": "https://linuxbrew.bintray.com/bottles/cronolog-1.6.2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "47a40bdccb74cb45e3df9e73306162ecc7206c26760521c6a9d8760872769b6b",
+          "url": "https://linuxbrew.bintray.com/bottles/cronolog-1.6.2.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "288bcd1671de08659b7d2f67141aa5178d797870597837c569dccfaae460afd8",
+          "url": "https://linuxbrew.bintray.com/bottles/cronolog-1.6.2.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "66ad5bfa0080775875d2b72cc2bbd66bc8ee8de7ca1d482217414ba5b805f977",
+          "url": "https://linuxbrew.bintray.com/bottles/cronolog-1.6.2.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f3f485105f7466422a507bafef3acfd741f18b8ab26438c267d10dbf4701282e",
+          "url": "https://linuxbrew.bintray.com/bottles/cronolog-1.6.2.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Web log rotation",
+  "full_name": "cronolog",
+  "homepage": "https://web.archive.org/web/20140209202032/cronolog.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cronolog",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.2"
+  }
+}

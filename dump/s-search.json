@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "52012e56ffb7738241774572e61c9b8ce9006121bee3d2a5e3af6522949686f2",
+          "url": "https://linuxbrew.bintray.com/bottles/s-search-0.5.12.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2db64264ae9e6504462a08a74daaff6e0d7c69a841480f29c1344a3932203dd4",
+          "url": "https://linuxbrew.bintray.com/bottles/s-search-0.5.12.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "61814289da81d43fccef906d3ecf0069d370beb6a0cf1dccb61d46a551b5b501",
+          "url": "https://linuxbrew.bintray.com/bottles/s-search-0.5.12.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ac0725a088938163fc6856dc406afa5a2304f29cd2fb5830c18b71fc418e699d",
+          "url": "https://linuxbrew.bintray.com/bottles/s-search-0.5.12.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Web search from the terminal",
+  "full_name": "s-search",
+  "homepage": "https://github.com/zquestz/s",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "s-search",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5.12"
+  }
+}

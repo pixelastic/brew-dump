@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2d216793842bb70e954d460282495bfc0af44d386c25495d44e2304ff60d2a6d",
+          "url": "https://linuxbrew.bintray.com/bottles/vis-0.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ffc8d98f7a249059c9783c57fa314f9f32b5365fa61088f393631ce9b47a2f55",
+          "url": "https://linuxbrew.bintray.com/bottles/vis-0.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "23b00a23675b61dc53dc714d78aed4f4cb5fefd89be4d63149fd5adf8787e9e7",
+          "url": "https://linuxbrew.bintray.com/bottles/vis-0.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4a63148d7f42b77fc60dad2b71f0dc4c3b2381e251b532edd017f7667e94fc2d",
+          "url": "https://linuxbrew.bintray.com/bottles/vis-0.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To avoid a name conflict with the macOS system utility /usr/bin/vis,\nthis text editor must be invoked by calling `vise` (\"vis-editor\").\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtermkey",
+    "lua"
+  ],
+  "desc": "Vim-like text editor",
+  "full_name": "vis",
+  "homepage": "https://github.com/martanne/vis",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vis",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5"
+  }
+}

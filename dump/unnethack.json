@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f0e6315f7a8d6135f80290dd20d8e2d80dc8224ad865b073fb71c05771d799eb",
+          "url": "https://linuxbrew.bintray.com/bottles/unnethack-5.1.0-20131208.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7da0d5eada4191f5bfd1d3beb6c9d74ed3bc26c54c3ec0d7ff6620592504c131",
+          "url": "https://linuxbrew.bintray.com/bottles/unnethack-5.1.0-20131208.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2801362d487c397485b6849a2421c080ddb1261563e77bf64d16aa982843d332",
+          "url": "https://linuxbrew.bintray.com/bottles/unnethack-5.1.0-20131208.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a6345197d1067ce08e9220bd74701355d19add9c251794b3f12210cded3dce46",
+          "url": "https://linuxbrew.bintray.com/bottles/unnethack-5.1.0-20131208.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Fork of Nethack",
+  "full_name": "unnethack",
+  "homepage": "https://sourceforge.net/projects/unnethack/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "unnethack",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable lisp graphics (play in Emacs)",
+      "option": "--with-lisp-graphics"
+    },
+    {
+      "description": "Enable curses graphics (play with fanciness)",
+      "option": "--with-curses-graphics"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.1.0-20131208"
+  }
+}

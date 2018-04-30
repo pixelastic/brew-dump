@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "cdad0b612a3236fed1b625be2bab6500e02578ba271552e6a8a19d2cdf12df2e",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-indent-2.2.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f8d8bd7eaa2694912f9f3cd247e252c66d21ed61a98220e768e5919f4572c022",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-indent-2.2.10.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ff3a53ac15b4baaf030f1f1556b24a7f69788175559660ac841e039d7aee996b",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-indent-2.2.10.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6139793b451fdb8d5310729a06286ed66b23aac02d0179bfd27b61df1cc9f931",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-indent-2.2.10.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8e19891033bc8a96894692bf0a27898112d72de5bcc78e269ba505b75b17b64f",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-indent-2.2.10.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gettext"
+  ],
+  "desc": "C code prettifier",
+  "full_name": "gnu-indent",
+  "homepage": "https://www.gnu.org/software/indent/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnu-indent",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Do not prepend 'g' to the binary",
+      "option": "--with-default-names"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.10"
+  }
+}

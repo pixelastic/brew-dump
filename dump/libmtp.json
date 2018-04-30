@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "752d53d11b32a60717d6398c564beeebe2f70eae06d19222e2874e15bde8351b",
+          "url": "https://linuxbrew.bintray.com/bottles/libmtp-1.1.15.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a72d40dc60cea24e65a17ec6b617776522442a07a18e4bd562a240f3596d9090",
+          "url": "https://linuxbrew.bintray.com/bottles/libmtp-1.1.15.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "93a46eef872afe4cc3b784d7c7448d2780fe463c5a80a529e12fd7466e0a58a4",
+          "url": "https://linuxbrew.bintray.com/bottles/libmtp-1.1.15.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libusb-compat"
+  ],
+  "desc": "Implementation of Microsoft's Media Transfer Protocol (MTP)",
+  "full_name": "libmtp",
+  "homepage": "https://libmtp.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libmtp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.15"
+  }
+}

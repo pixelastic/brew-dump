@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1cc4d10a81e062c41d7641d8fc3a7e94a1bf3b9e92ad6c4d70c8bdc730cee1d4",
+          "url": "https://linuxbrew.bintray.com/bottles/packetq-1.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "299409c99a253199b8b5896ecc8f1490ef4989ff72b10abd2651981a0bd47974",
+          "url": "https://linuxbrew.bintray.com/bottles/packetq-1.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eda7fdbbfc232e370b03e762c24551e92c3207f23f66e42db1c9ec10c448e1e1",
+          "url": "https://linuxbrew.bintray.com/bottles/packetq-1.4.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "91fe07fc8e530a3335f6eb079939fa1bb1f1a3f67dc9fadacce33e49f93a7420",
+          "url": "https://linuxbrew.bintray.com/bottles/packetq-1.4.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "SQL-frontend to PCAP-files",
+  "full_name": "packetq",
+  "homepage": "https://www.dns-oarc.net/tools/packetq",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "packetq",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.1"
+  }
+}

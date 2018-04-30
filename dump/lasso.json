@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b36834a1ad4134e0ea4c20f93ea48eba5cbe27daa8f4f74df10bf279c34e41f5",
+          "url": "https://linuxbrew.bintray.com/bottles/lasso-2.5.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5a14339bc65d458ffd1b0024be815cd73b8114dcdb9955ecacb66cf79f4d1589",
+          "url": "https://linuxbrew.bintray.com/bottles/lasso-2.5.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f2e0bc889badb79e430b35c19e8aaf26d23370fb4113c1c1a96d81d0d6296480",
+          "url": "https://linuxbrew.bintray.com/bottles/lasso-2.5.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5d088dabb95573f5b018ef9338ac1cdf0263e8a6178bda2f519b2c684df6d1c1",
+          "url": "https://linuxbrew.bintray.com/bottles/lasso-2.5.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libxmlsec1",
+    "glib",
+    "openssl"
+  ],
+  "desc": "Library for Liberty Alliance and SAML protocols",
+  "full_name": "lasso",
+  "homepage": "https://www.entrouvert.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lasso",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5.1"
+  }
+}

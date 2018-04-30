@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ae0cdc12fcfa0b8a1c4e72532c4bf49697de862017f5a5820093cdd26ac24e06",
+          "url": "https://linuxbrew.bintray.com/bottles/docbook-xsl-1.79.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e80af394f337e21fcdbc8c8f6f0822559bfa71e5aacb192450aa71c5e0dc2257",
+          "url": "https://linuxbrew.bintray.com/bottles/docbook-xsl-1.79.1_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b6166ebd526d11e436d6138d53160774b5ff95c5ff5fe5cd34841185d7529855",
+          "url": "https://linuxbrew.bintray.com/bottles/docbook-xsl-1.79.1_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4e63a12e69dc7cf292c1f4fd8f1c54f544887b809618b80b5fc3fc780f492f77",
+          "url": "https://linuxbrew.bintray.com/bottles/docbook-xsl-1.79.1_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7fcbb1110e8c03ae1504195f3fc96b6692a3bc15b8b959024715654bd4eeb686",
+          "url": "https://linuxbrew.bintray.com/bottles/docbook-xsl-1.79.1_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4390c7e9a0e06aeb05cc950b04991bca819279e1ced05763073b65860867a9a5",
+          "url": "https://linuxbrew.bintray.com/bottles/docbook-xsl-1.79.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "docbook"
+  ],
+  "desc": "XML vocabulary to create presentation-neutral documents",
+  "full_name": "docbook-xsl",
+  "homepage": "https://docbook.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "docbook-xsl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.79.1"
+  }
+}

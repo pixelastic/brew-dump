@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4503b65ec4122d7cb51e8173168dc41dc4e57f978f4246697f9a3bf768f8c9cb",
+          "url": "https://linuxbrew.bintray.com/bottles/gitter-cli-0.8.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8a9a8bea2541bd954d589f4195665c8f2a36090fba16a6b652f88337a029c117",
+          "url": "https://linuxbrew.bintray.com/bottles/gitter-cli-0.8.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6b0c1af334ab94692271f4e88b3f3b44adb8f2e7738cd68cdc20719dbb4f315f",
+          "url": "https://linuxbrew.bintray.com/bottles/gitter-cli-0.8.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d4b1a539db31e5a04e05fc982c6b9961bde7eae94de06d1addc2dc4346f696e9",
+          "url": "https://linuxbrew.bintray.com/bottles/gitter-cli-0.8.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "desc": "Extremely simple Gitter client for terminals",
+  "full_name": "gitter-cli",
+  "homepage": "https://github.com/RodrigoEspinosa/gitter-cli",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gitter-cli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.5"
+  }
+}

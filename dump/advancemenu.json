@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5e4a2e320562c0d92c3d61049f097d0a7ee054b76bacc8dbf81095c2758bed6a",
+          "url": "https://linuxbrew.bintray.com/bottles/advancemenu-2.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8c96b4bef369fe6b52d58c9c6d8025a64450fad965af6209c99c7b1edcec58eb",
+          "url": "https://linuxbrew.bintray.com/bottles/advancemenu-2.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "875396a5eb77a17ee1cda679fc782d5fa15072a206331d15cb186e52bf4d5369",
+          "url": "https://linuxbrew.bintray.com/bottles/advancemenu-2.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f41310ecbbfcba8c1569e6b704b1ea68d39932f7584032bcdbcaa45df1f62a0f",
+          "url": "https://linuxbrew.bintray.com/bottles/advancemenu-2.9.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "543c8592f5f72c1407fac7e29a9bc298b2d5b15529d669b54338d60209409028",
+          "url": "https://linuxbrew.bintray.com/bottles/advancemenu-2.9.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "advancemame"
+  ],
+  "dependencies": [
+    "sdl",
+    "expat"
+  ],
+  "desc": "Frontend for AdvanceMAME/MESS",
+  "full_name": "advancemenu",
+  "homepage": "https://www.advancemame.it/menu-readme.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "advancemenu",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.9"
+  }
+}

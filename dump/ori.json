@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c19677cd17c419810b6389aa7c2815f0f8da16d7035dbdad5e209a96913e1f45",
+          "url": "https://linuxbrew.bintray.com/bottles/ori-0.8.1_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d96b3f8a41b879772d0b2e3f9eff4e43c73cb268b782c0ddbbdd82bd9680d804",
+          "url": "https://linuxbrew.bintray.com/bottles/ori-0.8.1_1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3851019914d6ea9efc9115c100b73d24775b6d5d6c517399aea4259e74097670",
+          "url": "https://linuxbrew.bintray.com/bottles/ori-0.8.1_1.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "scons"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "scons",
+    "boost@1.60",
+    "libevent",
+    "openssl"
+  ],
+  "desc": "Secure distributed file system",
+  "full_name": "ori",
+  "homepage": "http://ori.scs.stanford.edu/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ori",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.1"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5795d3b77a3e115423a4766cfea0845c3eb81265fa2b20d41439e9682d99f6e3",
+          "url": "https://linuxbrew.bintray.com/bottles/fwup-1.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "65333ec43ee41271ef08b1718988d9f6d8f7cf828ce8b82bcb1032e9c7f9f780",
+          "url": "https://linuxbrew.bintray.com/bottles/fwup-1.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ed8421e355a86f97aa1a4ec492aa13104e95385222bd61467ec7e0bef43fd4dd",
+          "url": "https://linuxbrew.bintray.com/bottles/fwup-1.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a82490d2176f9e0a08590838c03c9868848747d07d4d76abb27cdd0b7a29e569",
+          "url": "https://linuxbrew.bintray.com/bottles/fwup-1.0.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "confuse",
+    "libarchive",
+    "libsodium"
+  ],
+  "desc": "Configurable embedded Linux firmware update creator and runner",
+  "full_name": "fwup",
+  "homepage": "https://github.com/fhunleth/fwup",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fwup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.0"
+  }
+}

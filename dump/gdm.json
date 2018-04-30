@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b3f081076a078f90f6a534ff30ff268c89baec38bd02ff11c9e02804755c8c33",
+          "url": "https://linuxbrew.bintray.com/bottles/gdm-1.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f9d1d9d11a51359be57311d0e896dc797637905d0b8e68340a3e5d6ad2dc962d",
+          "url": "https://linuxbrew.bintray.com/bottles/gdm-1.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a5b111a00c19c74400787394eead8b5a209f9ee64125a5365eae97fa3d78d38a",
+          "url": "https://linuxbrew.bintray.com/bottles/gdm-1.4.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1271ce8ff02868997451491819027d10c362a9d6b72d10c9cbdafeb80ebbe747",
+          "url": "https://linuxbrew.bintray.com/bottles/gdm-1.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "03f2d8cbcee0c4e41a00ec222f56b7d3204290b075afafe28afe6ced3458ebd8",
+          "url": "https://linuxbrew.bintray.com/bottles/gdm-1.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Go Dependency Manager (gdm)",
+  "full_name": "gdm",
+  "homepage": "https://github.com/sparrc/gdm",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gdm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4"
+  }
+}

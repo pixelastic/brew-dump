@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2646b2e1bbb97bc7af8f16d30f17ac4e3df0bbc61a460feac6a4278f66cf8311",
+          "url": "https://linuxbrew.bintray.com/bottles/minimal-racket-6.12.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f863ac881446d44be42d60a5e829210fb7f9b120b9814c21494d49005e57f1c4",
+          "url": "https://linuxbrew.bintray.com/bottles/minimal-racket-6.12.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "af1e60551ecb5b89671af7520089fae9e748c1e4f7d17787e936011868ee87da",
+          "url": "https://linuxbrew.bintray.com/bottles/minimal-racket-6.12.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b3506fcde79008d0ca3774d0518fe8efddf11f6e484fcf761aca742dd77fe439",
+          "url": "https://linuxbrew.bintray.com/bottles/minimal-racket-6.12.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "This is a minimal Racket distribution.\nIf you want to build the DrRacket IDE, you may run\n  raco pkg install --auto drracket\n\nThe full Racket distribution is available as a cask:\n  brew cask install racket\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libffi"
+  ],
+  "desc": "Modern programming language in the Lisp/Scheme family",
+  "full_name": "minimal-racket",
+  "homepage": "https://racket-lang.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "minimal-racket",
+  "oldname": "racket",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.12"
+  }
+}

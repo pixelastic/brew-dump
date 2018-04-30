@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "6ccb7fbb44b052d4f6e5b3c27008d46a7772cc6a70266578b067e065ba9d59e3",
+          "url": "https://linuxbrew.bintray.com/bottles/tor-0.3.2.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c9170852c7734a4703d60984d9394e5877a8d0346cad0e124565ede5fef154a4",
+          "url": "https://linuxbrew.bintray.com/bottles/tor-0.3.2.10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "29dc187af55647e455cfb5e7a62bc4da1316f7f1c753c387089d6a17a8940c40",
+          "url": "https://linuxbrew.bintray.com/bottles/tor-0.3.2.10.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "cb1cde9cbc87837cc88d8517214df8ea3173a1f3ac63a573a77d406e952aed19",
+          "url": "https://linuxbrew.bintray.com/bottles/tor-0.3.2.10.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libevent",
+    "openssl",
+    "libscrypt"
+  ],
+  "desc": "Anonymizing overlay network for TCP",
+  "full_name": "tor",
+  "homepage": "https://www.torproject.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tor",
+  "oldname": null,
+  "optional_dependencies": [
+    "libscrypt"
+  ],
+  "options": [
+    {
+      "description": "Build with libscrypt support",
+      "option": "--with-libscrypt"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.2.10"
+  }
+}

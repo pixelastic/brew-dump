@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a4f05bb40d0c699fac50f053500710d486aaf1ca0cb4fc96e75cb2d4b8461931",
+          "url": "https://linuxbrew.bintray.com/bottles/tmux-2.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "673822df46dec9d718fc2b4300fd2b95a261093cf3a256d71286d8fa79c6e4ef",
+          "url": "https://linuxbrew.bintray.com/bottles/tmux-2.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "79e893ee81d2cd2af20f08aa4ba52297ad24bc9fb2c4d729b61a12f83aa2eec8",
+          "url": "https://linuxbrew.bintray.com/bottles/tmux-2.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "22a43a39b44cb8a86d1fb04dcb704dda187c7e80405e42b372e6358a94647a3d",
+          "url": "https://linuxbrew.bintray.com/bottles/tmux-2.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "Example configuration has been installed to:\n  /home/tim/.linuxbrew/opt/tmux/share/tmux\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libevent",
+    "utf8proc",
+    "ncurses"
+  ],
+  "desc": "Terminal multiplexer",
+  "full_name": "tmux",
+  "homepage": "https://tmux.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tmux",
+  "oldname": null,
+  "optional_dependencies": [
+    "utf8proc"
+  ],
+  "options": [
+    {
+      "description": "Build with utf8proc support",
+      "option": "--with-utf8proc"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.7"
+  }
+}

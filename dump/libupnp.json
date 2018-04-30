@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9b660881232e6ce94a375962c1df55f179f69335c7d11907b9a9c5dd81693360",
+          "url": "https://linuxbrew.bintray.com/bottles/libupnp-1.6.25.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cbca37b45cb652c73d4c5ae0ae087338bb4c606f5be4306c5d998c39c382bb4b",
+          "url": "https://linuxbrew.bintray.com/bottles/libupnp-1.6.25.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b870845572dd6d11ed90fedfb367bbd53066f6b9c90e522b97ce88ae53ccddfe",
+          "url": "https://linuxbrew.bintray.com/bottles/libupnp-1.6.25.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9784db62d7c259028796eccedfad89b170d0e0afd05234137b6b92d4cf72d1e4",
+          "url": "https://linuxbrew.bintray.com/bottles/libupnp-1.6.25.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Portable UPnP development kit",
+  "full_name": "libupnp",
+  "homepage": "https://pupnp.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libupnp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Disable IPv6 support",
+      "option": "--without-ipv6"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.25"
+  }
+}

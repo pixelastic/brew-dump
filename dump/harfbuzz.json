@@ -1,0 +1,88 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1c8c7e531d7440afa74a6c40ebe61b0d9c3022d366269da2c62e0185f3da036b",
+          "url": "https://linuxbrew.bintray.com/bottles/harfbuzz-1.7.6_2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "024c2e5e0d1dadb170d524a2a353c103398a4fede77dafe4060fafe8c3b31c10",
+          "url": "https://linuxbrew.bintray.com/bottles/harfbuzz-1.7.6_2.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ddc3631dc7057a086144294106c8c049db39203fbbf86b99a9cdb1b63749411b",
+          "url": "https://linuxbrew.bintray.com/bottles/harfbuzz-1.7.6_2.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a54f2344fd4a21043414943c679b6bc5a51cde13854cb2427ba68d0d7c926488",
+          "url": "https://linuxbrew.bintray.com/bottles/harfbuzz-1.7.6_2.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "gobject-introspection"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gobject-introspection",
+    "freetype",
+    "graphite2",
+    "icu4c",
+    "cairo",
+    "glib"
+  ],
+  "desc": "OpenType text shaping engine",
+  "full_name": "harfbuzz",
+  "homepage": "https://wiki.freedesktop.org/www/Software/HarfBuzz/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "harfbuzz",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without freetype support",
+      "option": "--without-freetype"
+    },
+    {
+      "description": "Build without graphite2 support",
+      "option": "--without-graphite2"
+    },
+    {
+      "description": "Build without icu4c support",
+      "option": "--without-icu4c"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "freetype",
+    "graphite2",
+    "icu4c"
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.7.6"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4b2ae72a3d10c74f1b8c60cd4d13438dfc3a340740ff32fb07db21bf2f3f3edb",
+          "url": "https://linuxbrew.bintray.com/bottles/just-0.3.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dad62ae38d82394db7ff411217adc5bc356112ce8e0d688389884ce3841f5dcd",
+          "url": "https://linuxbrew.bintray.com/bottles/just-0.3.10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d0ad5ed53d328ca6ce27668c3d49bd70c4dd964b9c97a5c27fef6f90e4d36ba6",
+          "url": "https://linuxbrew.bintray.com/bottles/just-0.3.10.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "rust"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "rust"
+  ],
+  "desc": "Handy way to save and run project-specific commands",
+  "full_name": "just",
+  "homepage": "https://github.com/casey/just",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "just",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.10"
+  }
+}

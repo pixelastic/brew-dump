@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1a6d2b71439cb469e92c203fde617c377a01c19e40c7e586d1981f703a829cbc",
+          "url": "https://linuxbrew.bintray.com/bottles/ansible@2.0-2.0.2.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "62a5921f7502f0ae12e51e97474da323688672aecf7f1c5aaceef9c6937d4353",
+          "url": "https://linuxbrew.bintray.com/bottles/ansible@2.0-2.0.2.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c0938129d693dc50ec3489f63e04735c00c8aadfdcdb9ae36cda4555ed2383bc",
+          "url": "https://linuxbrew.bintray.com/bottles/ansible@2.0-2.0.2.0_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "31b81c7b6d6d996cee0e743654f5086fa5d38147d8f17d3ca77d5e39fa70b99c",
+          "url": "https://linuxbrew.bintray.com/bottles/ansible@2.0-2.0.2.0_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "Homebrew writes wrapper scripts that set PYTHONPATH in ansible's\nexecution environment, which is inherited by Python scripts invoked\nby ansible. If this causes problems, you can modify your playbooks\nto invoke python with -E, which causes python to ignore PYTHONPATH.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "python@2",
+    "libyaml",
+    "openssl"
+  ],
+  "desc": "Automate deployment, configuration, and upgrading",
+  "full_name": "ansible@2.0",
+  "homepage": "https://www.ansible.com/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "ansible@2.0",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "2.0.2.0-0.4.rc4",
+    "head": "HEAD",
+    "stable": "2.0.2.0"
+  }
+}

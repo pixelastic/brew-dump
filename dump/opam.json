@@ -1,0 +1,83 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "74f8341302bb5a933276cff7f9dff7240ad59a4d968050674b63869d9963de7e",
+          "url": "https://linuxbrew.bintray.com/bottles/opam-1.2.2_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b5e2621c1bca5f8374ee07ef878e5572e04debf9ba1d3aa4a2e16b8e26728e68",
+          "url": "https://linuxbrew.bintray.com/bottles/opam-1.2.2_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cd52d891272efc754a838e8a08a4a7c5030ff908430c3ed1303a549cd1a4f73d",
+          "url": "https://linuxbrew.bintray.com/bottles/opam-1.2.2_4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "bc6085bb9ed684cf7811b2f3b031a2dc8dc061b6a68e9c64c03853bb9c687702",
+          "url": "https://linuxbrew.bintray.com/bottles/opam-1.2.2_4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "OPAM uses ~/.opam by default for its package database, so you need to\ninitialize it first by running (as a normal user):\n\n$  opam init\n\nRun the following to initialize your environment variables:\n\n$  eval `opam config env`\n\nTo export the needed variables every time, add them to your dotfiles.\n  * On Bash, add them to `~/.bash_profile`.\n  * On Zsh, add them to `~/.zprofile` or `~/.zshrc` instead.\n\nDocumentation and tutorials are available at https://opam.ocaml.org, or\nvia \"man opam\" and \"opam --help\".\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ocaml",
+    "camlp4",
+    "unzip",
+    "aspcud"
+  ],
+  "desc": "Package manager for OCaml",
+  "full_name": "opam",
+  "homepage": "https://opam.ocaml.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "opam",
+  "oldname": null,
+  "optional_dependencies": [
+    "aspcud"
+  ],
+  "options": [
+    {
+      "description": "Build without ocaml support",
+      "option": "--without-ocaml"
+    },
+    {
+      "description": "Build without camlp4 support",
+      "option": "--without-camlp4"
+    },
+    {
+      "description": "Build with aspcud support",
+      "option": "--with-aspcud"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "ocaml",
+    "camlp4"
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.2"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9e6d1a33a9641b2aadc3cc2ca2886d785b2fbeda20299c509ca47928ee6a20de",
+          "url": "https://linuxbrew.bintray.com/bottles/micro-1.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b62c650de130a9e69dd4aacf8aa1e7b20773bac9ca383a9247fb2226592ac0e5",
+          "url": "https://linuxbrew.bintray.com/bottles/micro-1.4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "85c7bf65bf8ba26161536ba05f57b794ccb600719afdad98296080701bda7412",
+          "url": "https://linuxbrew.bintray.com/bottles/micro-1.4.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Modern and intuitive terminal-based text editor",
+  "full_name": "micro",
+  "homepage": "https://github.com/zyedidia/micro",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "micro",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.0"
+  }
+}

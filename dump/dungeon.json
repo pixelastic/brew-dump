@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "930b36aaf10a0f541e641909769f230346ec10752161282d925235bcad2dabc6",
+          "url": "https://linuxbrew.bintray.com/bottles/dungeon-4.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0e6d683ff9e65ebc5dec90c76075666d80979147aede32deb8b0485cda9ada3f",
+          "url": "https://linuxbrew.bintray.com/bottles/dungeon-4.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4c033c6809253783c4070c334cf03dc2a200ae16d4e3d84c9bd615d177ce4bee",
+          "url": "https://linuxbrew.bintray.com/bottles/dungeon-4.0_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gcc"
+  ],
+  "desc": "The classic text adventure",
+  "full_name": "dungeon",
+  "homepage": "https://github.com/GOFAI/dungeon",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dungeon",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.0"
+  }
+}

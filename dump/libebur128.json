@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3fbb561a893cd7e0858ad25e424e66f70a53023865b33d3519fb1fa62ab35bec",
+          "url": "https://linuxbrew.bintray.com/bottles/libebur128-1.2.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "68c4f6d13808ad4d55d0a0f48384e9872286b6041a06f8c3984ccb96083fcbee",
+          "url": "https://linuxbrew.bintray.com/bottles/libebur128-1.2.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d4611c0f7becaf4fbdc34089ddaae18e8017ed6dec859adf4fdadb528f989ae4",
+          "url": "https://linuxbrew.bintray.com/bottles/libebur128-1.2.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d7e3239b29049cf9ddac7227c5ce3a9215b226f5847e48f79f39fd79b561b82c",
+          "url": "https://linuxbrew.bintray.com/bottles/libebur128-1.2.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "speex"
+  ],
+  "desc": "Library implementing the EBU R128 loudness standard",
+  "full_name": "libebur128",
+  "homepage": "https://github.com/jiixyj/libebur128",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libebur128",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without speex support",
+      "option": "--without-speex"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "speex"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.4"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "JVM-based programming language",
+  "full_name": "scala@2.10",
+  "homepage": "https://www.scala-lang.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "scala@2.10",
+  "oldname": "scala210",
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Also install library documentation",
+      "option": "--with-docs"
+    },
+    {
+      "description": "Also install sources for IDE support",
+      "option": "--with-src"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "caskroom/versions/java8",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "2.10.7"
+  }
+}

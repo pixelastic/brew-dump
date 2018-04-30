@@ -1,0 +1,86 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "306e6694538f7fff80f240a7d99156139a931f5fc8f13403a7b8c95fc588df09",
+          "url": "https://linuxbrew.bintray.com/bottles/zsh-5.5.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5629f78ced1b1a592bfd13536d5e9f4c265e22cb825c40992c3eea6d71727c80",
+          "url": "https://linuxbrew.bintray.com/bottles/zsh-5.5.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a78193d233d74739539a258be269c8e66460984de44def032c1856f1a20bdeff",
+          "url": "https://linuxbrew.bintray.com/bottles/zsh-5.5.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "192a8b3dddbaf3b7679ad5ed8e5a127208de29dbc359e31373f6ec157ee91f66",
+          "url": "https://linuxbrew.bintray.com/bottles/zsh-5.5.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gdbm",
+    "pcre",
+    "texinfo",
+    "ncurses"
+  ],
+  "desc": "UNIX shell (command interpreter)",
+  "full_name": "zsh",
+  "homepage": "https://www.zsh.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zsh",
+  "oldname": null,
+  "optional_dependencies": [
+    "gdbm",
+    "pcre"
+  ],
+  "options": [
+    {
+      "description": "Disable the reading of Zsh rc files in /etc",
+      "option": "--without-etcdir"
+    },
+    {
+      "description": "Build with Unicode 9 character width support",
+      "option": "--with-unicode9"
+    },
+    {
+      "description": "Build with gdbm support",
+      "option": "--with-gdbm"
+    },
+    {
+      "description": "Build with pcre support",
+      "option": "--with-pcre"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.5.1"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "bf4048c281332c5cfcae4fc74c0fa233ad84c3fe2c111e633101d593284fe601",
+          "url": "https://linuxbrew.bintray.com/bottles/colorsvn-0.3.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4135712b5dd13e852b9c3ec5b7e95f22f5ec89e28e9f600a9372bd260b2851cf",
+          "url": "https://linuxbrew.bintray.com/bottles/colorsvn-0.3.3_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "2711d058fa4c892f350b6309a82f7eeb85455bc1b336afc75587c467121a553d",
+          "url": "https://linuxbrew.bintray.com/bottles/colorsvn-0.3.3_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5c56662f331161022c31f665d980e077d6a01328864c6c59c137de3b0b57e4f2",
+          "url": "https://linuxbrew.bintray.com/bottles/colorsvn-0.3.3_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "88c79f8a9bc43d118449ce9d97061af4633f15f942a0a48caef5e1b327aea0e5",
+          "url": "https://linuxbrew.bintray.com/bottles/colorsvn-0.3.3_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You probably want to set an alias to svn in your bash profile.\nSo source /home/tim/.linuxbrew/etc/profile.d/colorsvn-env.sh or add the line\n\n    alias svn=colorsvn\n\nto your bash profile.\n\nSo when you type \"svn\" you'll run \"colorsvn\".\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Subversion output colorizer",
+  "full_name": "colorsvn",
+  "homepage": "http://colorsvn.tigris.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "colorsvn",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.3"
+  }
+}

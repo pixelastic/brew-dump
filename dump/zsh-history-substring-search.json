@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To activate the history search, add the following at the end of your .zshrc:\n\n  source /home/tim/.linuxbrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh\n\nYou will also need to force reload of your .zshrc:\n\n  source ~/.zshrc\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Zsh port of Fish shell's history search",
+  "full_name": "zsh-history-substring-search",
+  "homepage": "https://github.com/zsh-users/zsh-history-substring-search",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zsh-history-substring-search",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.1"
+  }
+}

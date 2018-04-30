@@ -1,0 +1,72 @@
+{
+  "aliases": [
+    "ansible@2.5"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9c7e0d7a3a1428716990941a1e7fd13315cc3b321049ca4d85eabda3b318be18",
+          "url": "https://linuxbrew.bintray.com/bottles/ansible-2.5.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "65d22c410092599b894690827a24322cf5f83e0703925e1fbd368087b03797c6",
+          "url": "https://linuxbrew.bintray.com/bottles/ansible-2.5.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "17a3698b62652ec9dad822925bb29083fc7f125222571be99e29859ab30eccd6",
+          "url": "https://linuxbrew.bintray.com/bottles/ansible-2.5.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "89fe4788f0dce283858e1473e8c6e22620159b4ece352ceea88361713ea6095a",
+          "url": "https://linuxbrew.bintray.com/bottles/ansible-2.5.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libyaml",
+    "openssl",
+    "python@2",
+    "libffi",
+    "libxslt"
+  ],
+  "desc": "Automate deployment, configuration, and upgrading",
+  "full_name": "ansible",
+  "homepage": "https://www.ansible.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ansible",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.5.2"
+  }
+}

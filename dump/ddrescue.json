@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "eab68f77a7570e59f007ea4b6fe47b9882c24ad2b626db375f9f42888476cf5c",
+          "url": "https://linuxbrew.bintray.com/bottles/ddrescue-1.23.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cea23ba7f2730135b634d896d835c9c55572900fbc8263993697e1273b67dfb0",
+          "url": "https://linuxbrew.bintray.com/bottles/ddrescue-1.23.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b0759371cbeedf705c56867910da5536f4aa8b6560d2ebdf8fd6c9f2ba71199e",
+          "url": "https://linuxbrew.bintray.com/bottles/ddrescue-1.23.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "lzip"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "lzip"
+  ],
+  "desc": "GNU data recovery tool",
+  "full_name": "ddrescue",
+  "homepage": "https://www.gnu.org/software/ddrescue/ddrescue.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ddrescue",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.23"
+  }
+}

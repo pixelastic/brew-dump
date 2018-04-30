@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "2a9e21b6f57781adb9e3dc673f2e466b817d4a00860b45fa49ded534d4cb0ed4",
+          "url": "https://linuxbrew.bintray.com/bottles/tokyo-dystopia-0.9.15.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3f00b619720603bd0712b52d01a355124604637c44cab5a3132fda942f195e2c",
+          "url": "https://linuxbrew.bintray.com/bottles/tokyo-dystopia-0.9.15.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "231960b2f9d41cc1ee48a66812b1f0fa5977613e39ddd1a62c22a46e21b3feaf",
+          "url": "https://linuxbrew.bintray.com/bottles/tokyo-dystopia-0.9.15.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "a79ed3369dae255bff5344e0aa38039f65a8a25d9ef9f86c0068d49c3a4de009",
+          "url": "https://linuxbrew.bintray.com/bottles/tokyo-dystopia-0.9.15.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0a7da80cf5e8892112986d9a51e8cd3804da2a7436b8a03b472f561b06c35890",
+          "url": "https://linuxbrew.bintray.com/bottles/tokyo-dystopia-0.9.15.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6fa4ed94aace1e4c3b2a9962f31055883325255f8175c63aa08f079a4974eb6e",
+          "url": "https://linuxbrew.bintray.com/bottles/tokyo-dystopia-0.9.15.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "tokyo-cabinet"
+  ],
+  "desc": "Lightweight full-text search system",
+  "full_name": "tokyo-dystopia",
+  "homepage": "http://fallabs.com/tokyodystopia/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tokyo-dystopia",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.15"
+  }
+}

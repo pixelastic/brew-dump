@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "03db2d2fbfdd25788c6b8d44eb51d436bc9a15319ef540e59a72693eb80c2a92",
+          "url": "https://linuxbrew.bintray.com/bottles/podofo-0.9.5_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "047ebd5eb48107fcc54e2e2692cfe8ee55f1b8408ae06b0d5d193e260217ea91",
+          "url": "https://linuxbrew.bintray.com/bottles/podofo-0.9.5_1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1bee565ed640de58ab42229e0b8d87b723e7148006fe18d609e27e78614407c6",
+          "url": "https://linuxbrew.bintray.com/bottles/podofo-0.9.5_1.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e9a1b3f2076bfb869491e0ec91a93654655de5c7f6a3668ec6926e34ad67b7bb",
+          "url": "https://linuxbrew.bintray.com/bottles/podofo-0.9.5_1.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8564686fa0043a7dd94bc00f09f1a2b4bb3ba063cff6ff7e59eee6912a213913",
+          "url": "https://linuxbrew.bintray.com/bottles/podofo-0.9.5_1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libpng",
+    "freetype",
+    "fontconfig",
+    "jpeg",
+    "libtiff",
+    "openssl",
+    "libidn"
+  ],
+  "desc": "Library to work with the PDF file format",
+  "full_name": "podofo",
+  "homepage": "https://podofo.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "podofo",
+  "oldname": null,
+  "optional_dependencies": [
+    "libidn"
+  ],
+  "options": [
+    {
+      "description": "Build with libidn support",
+      "option": "--with-libidn"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.5"
+  }
+}

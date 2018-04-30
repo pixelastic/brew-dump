@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "77ab4eb3bbd5d374020081b3505cd7f18de1500019af148f00ebef13a34e4222",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql-sandbox-3.2.17.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "da11d806c9d472f19514da7520ec448210e410983225a3b41c0459634a823ab7",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql-sandbox-3.2.17.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1829b23da5960830f426300cac7b4820f21a4f801a1260357394b205bb9340a4",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql-sandbox-3.2.17.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8b636037daa88e2fcac76f634a414cae7bbc32fb309b5be9cb2f6d2d2d643bd8",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql-sandbox-3.2.17.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Install one or more MySQL servers",
+  "full_name": "mysql-sandbox",
+  "homepage": "https://mysqlsandbox.net",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mysql-sandbox",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.2.17"
+  }
+}

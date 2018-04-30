@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7c3d9a1af7a3797bd556cc66402c558cfaaffce4d956094fcdd4fcd1b3a4bc3c",
+          "url": "https://linuxbrew.bintray.com/bottles/regex-opt-1.2.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a7f1e5b8eb46eb11388c8eed77f24d547c1448b228cf7ca35f2e5cb0145bab88",
+          "url": "https://linuxbrew.bintray.com/bottles/regex-opt-1.2.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "110befc20e434b5d6294d9f3ad2592cae2bfaedec4e8fa1c3cff7265e83acc27",
+          "url": "https://linuxbrew.bintray.com/bottles/regex-opt-1.2.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8950ed7e0ea57e8aee495d1cc46043cd8448c831239ed46494744c0c0cd61f79",
+          "url": "https://linuxbrew.bintray.com/bottles/regex-opt-1.2.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Perl-compatible regular expression optimizer",
+  "full_name": "regex-opt",
+  "homepage": "https://bisqwit.iki.fi/source/regexopt.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "regex-opt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.4"
+  }
+}

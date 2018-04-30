@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e6fd8da112c87696888788c748b80da3ca5d522c075eecc044c16da0d6229c44",
+          "url": "https://linuxbrew.bintray.com/bottles/dspdfviewer-1.15.1_6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9a8143b03dc182dbae8177ab51d64dd186cf1bfdbb938c899c1139e75c4469de",
+          "url": "https://linuxbrew.bintray.com/bottles/dspdfviewer-1.15.1_6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4fa470a68a5bc15e5e39568204cee8867808c5214f22816c982ecca9ce998813",
+          "url": "https://linuxbrew.bintray.com/bottles/dspdfviewer-1.15.1_6.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "boost",
+    "poppler",
+    "qt"
+  ],
+  "desc": "Dual-Screen PDF Viewer for latex-beamer",
+  "full_name": "dspdfviewer",
+  "homepage": "https://dspdfviewer.danny-edel.de/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dspdfviewer",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 6,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.15.1"
+  }
+}

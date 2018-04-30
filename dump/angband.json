@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "332680a711469ba08246a73bfdea5e82ddac47cad0db0cd9dfedc4c93dfcd3ed",
+          "url": "https://linuxbrew.bintray.com/bottles/angband-4.1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1a601dc2d55ebb76c448068c0e324bded5e9791ca0f9775489cee44985a47cbf",
+          "url": "https://linuxbrew.bintray.com/bottles/angband-4.1.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a1f526b26f8acf8600eca8ef6299fc8920d42cb00c268e1b9e7d68b3d857fdd6",
+          "url": "https://linuxbrew.bintray.com/bottles/angband-4.1.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "desc": "Dungeon exploration game",
+  "full_name": "angband",
+  "homepage": "http://rephial.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "angband",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Install Cocoa app",
+      "option": "--with-cocoa"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.1.2"
+  }
+}

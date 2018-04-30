@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4bef6f92d4fcdf3547e0e7b9d699f392de0ff4764bbed0d8b23ea37e22e33f78",
+          "url": "https://linuxbrew.bintray.com/bottles/quasi88-0.6.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8199a69a8ecad4247752091f3eeaf5181eaa1dd0e4b2670059e21df807c646c6",
+          "url": "https://linuxbrew.bintray.com/bottles/quasi88-0.6.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d9ff4c5657c4179371d60317e0455cbadd59d45d81d0cc71d62d14d681619e95",
+          "url": "https://linuxbrew.bintray.com/bottles/quasi88-0.6.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f9b4ef36396de67507df8148ad22ecca3940505c40468656df03ac685930b2d9",
+          "url": "https://linuxbrew.bintray.com/bottles/quasi88-0.6.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You will need to place ROM and disk files.\nDefault arguments for the directories are:\n  -romdir ~/quasi88/rom/\n  -diskdir ~/quasi88/disk/\n  -tapedir ~/quasi88/tape/\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl"
+  ],
+  "desc": "PC-8801 emulator",
+  "full_name": "quasi88",
+  "homepage": "https://www.eonet.ne.jp/~showtime/quasi88/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "quasi88",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.4"
+  }
+}

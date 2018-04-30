@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "34efcdbf02f61a9740f1ee8d3e71149dd6f311e62eb3dbd282455980ac664bf4",
+          "url": "https://linuxbrew.bintray.com/bottles/nsd-4.1.20.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c424d27cec3fa434513f7c6e259fe7c70ce7f3050f284b6acfa033e753785b6a",
+          "url": "https://linuxbrew.bintray.com/bottles/nsd-4.1.20.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a9d32854dab1a8aa5814c57c4d025f7b5d225350129d75d7179f08133d491f86",
+          "url": "https://linuxbrew.bintray.com/bottles/nsd-4.1.20.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5b67be3f69f739e11038e8e1e7881f0cd014c45e3f08f1e5a5ff32e444953879",
+          "url": "https://linuxbrew.bintray.com/bottles/nsd-4.1.20.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libevent",
+    "openssl"
+  ],
+  "desc": "Name server daemon",
+  "full_name": "nsd",
+  "homepage": "https://www.nlnetlabs.nl/projects/nsd/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nsd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Allow NSD to run as a root name server",
+      "option": "--with-root-server"
+    },
+    {
+      "description": "Enable BIND8-like NSTATS & XSTATS",
+      "option": "--with-bind8-stats"
+    },
+    {
+      "description": "Enable rate limiting",
+      "option": "--with-ratelimit"
+    },
+    {
+      "description": "Enable per-zone statistics",
+      "option": "--with-zone-stats"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.1.20"
+  }
+}

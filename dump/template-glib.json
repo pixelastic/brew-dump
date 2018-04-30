@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c20b6fc9631b3bbf72179a030c6e3ac01829d8513452c8bda55cc8096153491c",
+          "url": "https://linuxbrew.bintray.com/bottles/template-glib-3.28.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e69fb0604b5389c1e52cef2eed885b167a836c251b4bedda056f10a1569e6867",
+          "url": "https://linuxbrew.bintray.com/bottles/template-glib-3.28.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f3c4d2849cf3d95c885a278e4b1db431beae9d5b8099457ca45df55f54e1436e",
+          "url": "https://linuxbrew.bintray.com/bottles/template-glib-3.28.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bison",
+    "meson-internal",
+    "ninja",
+    "pkg-config",
+    "python"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bison",
+    "meson-internal",
+    "ninja",
+    "pkg-config",
+    "python",
+    "glib",
+    "gobject-introspection"
+  ],
+  "desc": "GNOME templating library for GLib",
+  "full_name": "template-glib",
+  "homepage": "https://gitlab.gnome.org/GNOME/template-glib",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "template-glib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.28.0"
+  }
+}

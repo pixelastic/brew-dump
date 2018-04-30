@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0f13329fdaa980ab3e4440f352a70e99aa3afdcfba0ad9bc60e9bc2e828f1b3b",
+          "url": "https://linuxbrew.bintray.com/bottles/makedepend-1.0.5.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "648d18f27ef8ea0067a1d315ac9ffedece1734d950fa1228175ddd6f04c02ecf",
+          "url": "https://linuxbrew.bintray.com/bottles/makedepend-1.0.5.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "afe9b0203383cd9a180c4f247fbf26c2a4bc75a7324963c95f6e9ebc39f1d806",
+          "url": "https://linuxbrew.bintray.com/bottles/makedepend-1.0.5.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9e56751537ccf63d38f7d44c34cdcc565895a774d6f81d844c4900e008399712",
+          "url": "https://linuxbrew.bintray.com/bottles/makedepend-1.0.5.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b20c48a129006cc114fce0a7f8a9ca170c9d9d978a6a8f282b3c844a2e6543a2",
+          "url": "https://linuxbrew.bintray.com/bottles/makedepend-1.0.5.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "18186e2c1dbd9ea5b8107f4987318e9a75c87d2195e98238e216d8554c410138",
+          "url": "https://linuxbrew.bintray.com/bottles/makedepend-1.0.5.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config"
+  ],
+  "desc": "Creates dependencies in makefiles",
+  "full_name": "makedepend",
+  "homepage": "https://x.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "makedepend",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.5"
+  }
+}

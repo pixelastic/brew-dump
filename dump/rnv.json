@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1c1aa519b786f842b39720e33900e92a2f2f8deef403755e79e2d3b518897ff1",
+          "url": "https://linuxbrew.bintray.com/bottles/rnv-1.7.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9bf4571824c6d8e837cfcad7ac5e16c6bfc120d4638f0428cdfb8f14203b8c41",
+          "url": "https://linuxbrew.bintray.com/bottles/rnv-1.7.11.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f9c4575d7384100b1cc97d9f421b5906ea5068f612c346ffa0238db6c8e855be",
+          "url": "https://linuxbrew.bintray.com/bottles/rnv-1.7.11.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8dd3263bb656dcca22605b12faf4c6f54d65e5040e58a7a464c85b69ca19dc99",
+          "url": "https://linuxbrew.bintray.com/bottles/rnv-1.7.11.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6d46cb2e6476e22b8bb04d00f599884aa8e44ba7e199ad860e4f15795b04e83b",
+          "url": "https://linuxbrew.bintray.com/bottles/rnv-1.7.11.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "arx-libertatis"
+  ],
+  "dependencies": [
+    "expat"
+  ],
+  "desc": "Implementation of Relax NG Compact Syntax validator",
+  "full_name": "rnv",
+  "homepage": "https://sourceforge.net/projects/rnv/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rnv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.11"
+  }
+}

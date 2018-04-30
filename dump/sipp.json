@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5409102b801d5a0a5bc2e79ff5707b231b09e95d0a83b73fd5a279433318d0cd",
+          "url": "https://linuxbrew.bintray.com/bottles/sipp-3.5.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9994674701dd3dd16dad079fa7cfe9de0424f489787f9e13cba029db28196e51",
+          "url": "https://linuxbrew.bintray.com/bottles/sipp-3.5.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "49ecb15875bba9a9fa926527aad2f18599d3f4f66cd3b207c7bf6118ed7c4fcf",
+          "url": "https://linuxbrew.bintray.com/bottles/sipp-3.5.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b05bdba460b40aa7317696bcabeefcdeea576cf310e6c3f191b2fe26a1c52d40",
+          "url": "https://linuxbrew.bintray.com/bottles/sipp-3.5.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0e0aaca33a67a4c8b2a371f9f17e46ffb0290633fbda201788ae2f1ba002b10e",
+          "url": "https://linuxbrew.bintray.com/bottles/sipp-3.5.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Traffic generator for the SIP protocol",
+  "full_name": "sipp",
+  "homepage": "https://sipp.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sipp",
+  "oldname": null,
+  "optional_dependencies": [
+    "openssl"
+  ],
+  "options": [
+    {
+      "description": "Build with openssl support",
+      "option": "--with-openssl"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.5.1"
+  }
+}

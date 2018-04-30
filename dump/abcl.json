@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9051f4c2c28fb5329d464fc491bd927cc9119ee3ff4d985d806fc51ce26c1ae2",
+          "url": "https://linuxbrew.bintray.com/bottles/abcl-1.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dd2924e22303ac61cbd984d7f31e9d95f8c582bd2ffda0467cb1c64b7c12b3d8",
+          "url": "https://linuxbrew.bintray.com/bottles/abcl-1.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e66f3785e8d3c018346e8e5b32cacfbcab1be4cd06d601745967037329f5bd80",
+          "url": "https://linuxbrew.bintray.com/bottles/abcl-1.5.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3e727adfe30f0cb60d5ab05c6537db7b4670b519376c4d547e9ca8092c581320",
+          "url": "https://linuxbrew.bintray.com/bottles/abcl-1.5.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ant",
+    "rlwrap"
+  ],
+  "desc": "Armed Bear Common Lisp: a full implementation of Common Lisp",
+  "full_name": "abcl",
+  "homepage": "https://abcl.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "abcl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without rlwrap support",
+      "option": "--without-rlwrap"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "rlwrap"
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.5.0"
+  }
+}

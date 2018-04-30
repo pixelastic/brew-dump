@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "244a27eb03227b1455bea4ffd9f8a73ccd660389c44e9719d62bba1a4247bdf6",
+          "url": "https://linuxbrew.bintray.com/bottles/libkate-0.4.1_1.el_capitan.bottle.3.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "65f687ae05918aa2f2fb4e27f384d6645a0f64231e8dc9343c8435347895d792",
+          "url": "https://linuxbrew.bintray.com/bottles/libkate-0.4.1_1.high_sierra.bottle.3.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e7b6c1288455b12044889d768b4593a7a08beac5c4c2534f24565adb58f4a9b5",
+          "url": "https://linuxbrew.bintray.com/bottles/libkate-0.4.1_1.sierra.bottle.3.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "473e0de088ba513006bb5212fd9ca21390d848c9cd5e33a7951ee3cba24220ac",
+          "url": "https://linuxbrew.bintray.com/bottles/libkate-0.4.1_1.yosemite.bottle.3.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 3,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libpng",
+    "libogg",
+    "wxmac"
+  ],
+  "desc": "Overlay codec for multiplexed audio/video in Ogg",
+  "full_name": "libkate",
+  "homepage": "https://code.google.com/archive/p/libkate/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libkate",
+  "oldname": null,
+  "optional_dependencies": [
+    "wxmac"
+  ],
+  "options": [
+    {
+      "description": "Build documentation",
+      "option": "--with-docs"
+    },
+    {
+      "description": "Build example streams",
+      "option": "--with-examples"
+    },
+    {
+      "description": "Build with wxmac support",
+      "option": "--with-wxmac"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.1"
+  }
+}

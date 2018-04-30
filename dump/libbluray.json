@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d07c0b951f2a4a43e1ca3c349ecac84e7916fc7806100191fba8316b3d1973d5",
+          "url": "https://linuxbrew.bintray.com/bottles/libbluray-1.0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5bca035002a063c9c99a08e3e15f0f15ebac30a94dce6e57116b7d8d44d690c2",
+          "url": "https://linuxbrew.bintray.com/bottles/libbluray-1.0.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "af79492225913a9b9be4653fa8f755183c8775c4be95458fd2a2f9dbb967a9c3",
+          "url": "https://linuxbrew.bintray.com/bottles/libbluray-1.0.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ant",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ant",
+    "pkg-config",
+    "fontconfig",
+    "freetype",
+    "libxml2"
+  ],
+  "desc": "Blu-Ray disc playback library for media players like VLC",
+  "full_name": "libbluray",
+  "homepage": "https://www.videolan.org/developers/libbluray.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libbluray",
+  "oldname": null,
+  "optional_dependencies": [
+    "ant"
+  ],
+  "options": [
+    {
+      "description": "Build with ant support",
+      "option": "--with-ant"
+    },
+    {
+      "description": "Build without freetype support",
+      "option": "--without-freetype"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "freetype"
+  ],
+  "requirements": [
+    {
+      "cask": "caskroom/versions/java8",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.2"
+  }
+}

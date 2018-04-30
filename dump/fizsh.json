@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "334ceff9d649e87f87be9d3f561ee38221f8c87712a3b506b145191dc51fc4bd",
+          "url": "https://linuxbrew.bintray.com/bottles/fizsh-1.0.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7916e571aaf891561a5a6be1ef9708e63ee17ecb41fe60b75129c765d3dad1cb",
+          "url": "https://linuxbrew.bintray.com/bottles/fizsh-1.0.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "334ceff9d649e87f87be9d3f561ee38221f8c87712a3b506b145191dc51fc4bd",
+          "url": "https://linuxbrew.bintray.com/bottles/fizsh-1.0.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d25f3467f58d11b38efac3595c9e9244fcd558823d2d2e64a0a6744c8330099a",
+          "url": "https://linuxbrew.bintray.com/bottles/fizsh-1.0.9.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "334ceff9d649e87f87be9d3f561ee38221f8c87712a3b506b145191dc51fc4bd",
+          "url": "https://linuxbrew.bintray.com/bottles/fizsh-1.0.9.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "zsh"
+  ],
+  "desc": "Fish-like front end for ZSH",
+  "full_name": "fizsh",
+  "homepage": "https://github.com/zsh-users/fizsh",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fizsh",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.9"
+  }
+}

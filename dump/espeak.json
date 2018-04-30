@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5e2829905c793de0ccf38ccca04e03bc504f7f70137952d44177461c16cbf174",
+          "url": "https://linuxbrew.bintray.com/bottles/espeak-1.48.04_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ff4334be449510bdea51a7d853890fec167914658eb4c5167c5a6b40c6621ee2",
+          "url": "https://linuxbrew.bintray.com/bottles/espeak-1.48.04_1.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "4da1cfc5fe126fa8b0fd6b5909a10c9d6dee3536d772fa0d090f399134a5cd5b",
+          "url": "https://linuxbrew.bintray.com/bottles/espeak-1.48.04_1.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ad40b912f2b0cf1b72ab89d53729cd61717a9d9b5bc588950cd6318b63c9e133",
+          "url": "https://linuxbrew.bintray.com/bottles/espeak-1.48.04_1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7fed44fd08e3fbbc193e679d97141cf43facbd9a0661fb6a2991bebb5272864a",
+          "url": "https://linuxbrew.bintray.com/bottles/espeak-1.48.04_1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "portaudio"
+  ],
+  "desc": "Text to speech, software speech synthesizer",
+  "full_name": "espeak",
+  "homepage": "https://espeak.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "espeak",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.48.04"
+  }
+}

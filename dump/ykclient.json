@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "deee73fbd68f44bd86fb07d1f2179313dac4679395d861b821ccf218745ab1c8",
+          "url": "https://linuxbrew.bintray.com/bottles/ykclient-2.15.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3e1459f192f7f1df756e2071c78ee41fd163b3dee1f09254e8e5ffc0442a2205",
+          "url": "https://linuxbrew.bintray.com/bottles/ykclient-2.15.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aec1bc9640c8a84089b1d749d689b59862fce858478d180cd6a34a93a34eb370",
+          "url": "https://linuxbrew.bintray.com/bottles/ykclient-2.15.sierra.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "help2man"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "help2man"
+  ],
+  "desc": "Library to validate YubiKey OTPs against YubiCloud",
+  "full_name": "ykclient",
+  "homepage": "https://developers.yubico.com/yubico-c-client/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ykclient",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.15"
+  }
+}

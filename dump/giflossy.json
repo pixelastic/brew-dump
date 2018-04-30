@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a770a479a8fcd961ceef0274fc8aa75f70fa7b1f4bb8cb34736c0d6902340e1c",
+          "url": "https://linuxbrew.bintray.com/bottles/giflossy-1.91.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b81704f64e9bdac63646b92be361303215e24088f662a24c257a01de7fb4f734",
+          "url": "https://linuxbrew.bintray.com/bottles/giflossy-1.91.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1b720c57508a15ac50a2f6340532115049a455098e2db1e98ea621e175dfd04a",
+          "url": "https://linuxbrew.bintray.com/bottles/giflossy-1.91.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3ea7beb1ba8f3c9629ab0b7958d57c493e1b3fcf91b58c4d1caeda60f0d13335",
+          "url": "https://linuxbrew.bintray.com/bottles/giflossy-1.91.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "gifsicle"
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "desc": "Lossy LZW compression, reduces GIF file sizes by 30-50%",
+  "full_name": "giflossy",
+  "homepage": "https://pornel.net/lossygif",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "giflossy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Install gifview",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.91"
+  }
+}

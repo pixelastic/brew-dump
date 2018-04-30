@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f9b1cd0799ffed7d47cb467d6a9ba606208ec93f263180eb094713ef0bec2bfc",
+          "url": "https://linuxbrew.bintray.com/bottles/w-calc-2.5_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "be1800e5bb6cbf1e8087a0310ba648ec80f5013081d8db1145011c2c826b3c0c",
+          "url": "https://linuxbrew.bintray.com/bottles/w-calc-2.5_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f934e56de20012d05890525117377efd717ee9d1f09feada9cb41068791065ba",
+          "url": "https://linuxbrew.bintray.com/bottles/w-calc-2.5_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gmp",
+    "mpfr"
+  ],
+  "desc": "Very capable calculator",
+  "full_name": "w-calc",
+  "homepage": "https://w-calc.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "w-calc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5"
+  }
+}

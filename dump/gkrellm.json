@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "7cc7e94022669c80d1035efa738388fb264f50e4edaf0720db216f58b0ad3dab",
+          "url": "https://linuxbrew.bintray.com/bottles/gkrellm-2.3.10_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e84742cdd42e7584a6814c9c4cf2b8d7245d48ae0723b77c236f011354ac71e1",
+          "url": "https://linuxbrew.bintray.com/bottles/gkrellm-2.3.10_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "53888d3166533669a8649ef295c28813dcb0c051ed4146a33452f90c860978a8",
+          "url": "https://linuxbrew.bintray.com/bottles/gkrellm-2.3.10_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "atk",
+    "cairo",
+    "fontconfig",
+    "freetype",
+    "gdk-pixbuf",
+    "gettext",
+    "glib",
+    "gtk+",
+    "pango",
+    "openssl"
+  ],
+  "desc": "Extensible GTK system monitoring application",
+  "full_name": "gkrellm",
+  "homepage": "https://billw2.github.io/gkrellm/gkrellm.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gkrellm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.3.10"
+  }
+}

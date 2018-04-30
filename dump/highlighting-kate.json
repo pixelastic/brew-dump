@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "bce28e772d40cc270aa78c376a1d6fed78eaba841ca7b90e4290daad0f72d058",
+          "url": "https://linuxbrew.bintray.com/bottles/highlighting-kate-0.6.4.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5bc082453692f0d95f5e09fdcc85732b987da5a1ce33be520389e957bc2f5393",
+          "url": "https://linuxbrew.bintray.com/bottles/highlighting-kate-0.6.4.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "29ad60e21820b116e4f91c8000e2c890c081f08c4ccfc02340ca44ae9892084b",
+          "url": "https://linuxbrew.bintray.com/bottles/highlighting-kate-0.6.4.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ghc",
+    "cabal-install"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ghc",
+    "cabal-install"
+  ],
+  "desc": "Haskell syntax highlighting library, based on the Kate editor",
+  "full_name": "highlighting-kate",
+  "homepage": "https://github.com/jgm/highlighting-kate",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "highlighting-kate",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.6.4"
+  }
+}

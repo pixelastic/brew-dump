@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "21d36a51b5f5896bfce70e39a815728939a8d875333c3dbdbb672e627b7dd3a5",
+          "url": "https://linuxbrew.bintray.com/bottles/mongo-orchestration-0.6.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6cd36a0183dc892ad08209dbd418f0e337ca5aff993adfb86e17a4a43b63352d",
+          "url": "https://linuxbrew.bintray.com/bottles/mongo-orchestration-0.6.11.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9633282e00a2bdfa3d0ba93b5302177d6a9be34f06f645b6e78edfa8aa6e950c",
+          "url": "https://linuxbrew.bintray.com/bottles/mongo-orchestration-0.6.11.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a34ef34e562414a1a7e9af9f3ea82f67f1f3ba6181af40883caa815566c93959",
+          "url": "https://linuxbrew.bintray.com/bottles/mongo-orchestration-0.6.11.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "REST API to manage MongoDB configurations on a single host",
+  "full_name": "mongo-orchestration",
+  "homepage": "https://github.com/10gen/mongo-orchestration",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mongo-orchestration",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.6.11"
+  }
+}

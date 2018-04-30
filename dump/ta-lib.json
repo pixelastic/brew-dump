@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3b5927cdb5f69cdc57d8ecbdf5b6fc95a5b6aad7c626c79d1893f2d824030e65",
+          "url": "https://linuxbrew.bintray.com/bottles/ta-lib-0.4.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5d53fe57d49e5c60b8ea81e633e502e73569e191f16fa36aabb39085ffe2581a",
+          "url": "https://linuxbrew.bintray.com/bottles/ta-lib-0.4.0.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "da1457eb5a09c71f90da185b954aff3d399e61a20ff78ad0bd9d177ad11ad1b7",
+          "url": "https://linuxbrew.bintray.com/bottles/ta-lib-0.4.0.mavericks.bottle.1.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "d4c5bf3efdaed633acf74d8039d723fd828e52982ebc864a48e09c2e71506311",
+          "url": "https://linuxbrew.bintray.com/bottles/ta-lib-0.4.0.mountain_lion.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0229a85f2bdaa14baabe840b12f50eed8eb88233d13bcdb0424c5ab6fc2a4a6c",
+          "url": "https://linuxbrew.bintray.com/bottles/ta-lib-0.4.0.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "bb40b6d09be26ee497aae27abea5808730af29e6387fa347996eae49c32c448d",
+          "url": "https://linuxbrew.bintray.com/bottles/ta-lib-0.4.0.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tools for market analysis",
+  "full_name": "ta-lib",
+  "homepage": "https://ta-lib.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ta-lib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.0"
+  }
+}

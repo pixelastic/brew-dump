@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "99ea4d0288bda8704830d1c1730d63e27d68a5d4e5c0c2fe2b078ba4c8e39b63",
+          "url": "https://linuxbrew.bintray.com/bottles/regina-rexx-3.9.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "26829912ce6476406e696694d27d1f758bcf3c43841969bc4f4ba4587e1fc2f4",
+          "url": "https://linuxbrew.bintray.com/bottles/regina-rexx-3.9.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "6f42da795be18742801fcbf740714cf9131bcb53ce44aac50a2416b3ec7607d2",
+          "url": "https://linuxbrew.bintray.com/bottles/regina-rexx-3.9.1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "d19717c2d929a7e0d4253e62e4d85751e0d57216d369f965b94c9ce89ff34eb5",
+          "url": "https://linuxbrew.bintray.com/bottles/regina-rexx-3.9.1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9380b7c431fc2bc4cee9f3dc4997c9f7e568bc7884f3dc9aade5c2c73d805dbe",
+          "url": "https://linuxbrew.bintray.com/bottles/regina-rexx-3.9.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4be2121b50a9d988ad30b592c3123ea913a26082a2b1be7ca3ee83ae75b944d3",
+          "url": "https://linuxbrew.bintray.com/bottles/regina-rexx-3.9.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Regina REXX interpreter",
+  "full_name": "regina-rexx",
+  "homepage": "https://regina-rexx.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "regina-rexx",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.9.1"
+  }
+}

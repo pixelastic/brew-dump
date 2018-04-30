@@ -1,0 +1,92 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "48a6f0e5db31c83e6df401877d26b24deaf03fb291c2dc70dafbe3e0c2c0555f",
+          "url": "https://linuxbrew.bintray.com/bottles/mariadb@10.0-10.0.34.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3f5815d04b1c16c228b2d0137875710c3b52ce742064a5c10337ad94865cb954",
+          "url": "https://linuxbrew.bintray.com/bottles/mariadb@10.0-10.0.34.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "758e853f7195330ae0a9a79c93169d041baa790fd851885a0deeb687a19a11fe",
+          "url": "https://linuxbrew.bintray.com/bottles/mariadb@10.0-10.0.34.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": "A \"/etc/my.cnf\" from another install may interfere with a Homebrew-built\nserver starting up correctly.\n\nMySQL is configured to only allow connections from localhost by default\n\nTo connect:\n    mysql -uroot\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pidof",
+    "openssl"
+  ],
+  "desc": "Drop-in replacement for MySQL",
+  "full_name": "mariadb@10.0",
+  "homepage": "https://mariadb.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "mariadb@10.0",
+  "oldname": "mariadb100",
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Keep test when installing",
+      "option": "--with-test"
+    },
+    {
+      "description": "Keep benchmark app when installing",
+      "option": "--with-bench"
+    },
+    {
+      "description": "Build the embedded server",
+      "option": "--with-embedded"
+    },
+    {
+      "description": "Compile with editline wrapper instead of readline",
+      "option": "--with-libedit"
+    },
+    {
+      "description": "Compile with the ARCHIVE storage engine enabled",
+      "option": "--with-archive-storage-engine"
+    },
+    {
+      "description": "Compile with the BLACKHOLE storage engine enabled",
+      "option": "--with-blackhole-storage-engine"
+    },
+    {
+      "description": "Build with local infile loading support",
+      "option": "--with-local-infile"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "10.0.34"
+  }
+}

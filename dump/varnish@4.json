@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "06565d5821f9054953cced9d141765f018b116e57986a470a15142ec6cfb420e",
+          "url": "https://linuxbrew.bintray.com/bottles/varnish@4-4.1.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e9231087ada4329fb23bb4b76afaf6545ecfa2567197abd90584513143edd20e",
+          "url": "https://linuxbrew.bintray.com/bottles/varnish@4-4.1.10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c7b61727e6a392c17fc72eb7683d7699b7f9c5851cd3818647eac9ab2ba67bee",
+          "url": "https://linuxbrew.bintray.com/bottles/varnish@4-4.1.10.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "docutils"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "docutils",
+    "pcre"
+  ],
+  "desc": "High-performance HTTP accelerator",
+  "full_name": "varnish@4",
+  "homepage": "https://www.varnish-cache.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "varnish@4",
+  "oldname": "varnish4",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.1.10"
+  }
+}

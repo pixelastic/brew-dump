@@ -1,0 +1,109 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0ba8b12b715a1259e5fade3ea45238994f0e46f00d8f687e043f47c3474f643c",
+          "url": "https://linuxbrew.bintray.com/bottles/pulseaudio-11.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4c978ad02a720678b6f4e5255d540cb859ba9d9b6ec22dcd9251f9d64df366f4",
+          "url": "https://linuxbrew.bintray.com/bottles/pulseaudio-11.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "65f121b3c8a4d159a9acd803adfb3eb4b2fed82ba5b21d3867fe9dfb08941a5b",
+          "url": "https://linuxbrew.bintray.com/bottles/pulseaudio-11.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5bb2793b457f89c60afb23e118992c86ddf5c250dacef01548b1b4e57ba8c417",
+          "url": "https://linuxbrew.bintray.com/bottles/pulseaudio-11.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "m4"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libtool",
+    "json-c",
+    "libsndfile",
+    "libsoxr",
+    "openssl",
+    "speexdsp",
+    "glib",
+    "gconf",
+    "gtk+3",
+    "jack",
+    "m4",
+    "libcap",
+    "expat"
+  ],
+  "desc": "Sound system for POSIX OSes",
+  "full_name": "pulseaudio",
+  "homepage": "https://wiki.freedesktop.org/www/Software/PulseAudio/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pulseaudio",
+  "oldname": null,
+  "optional_dependencies": [
+    "glib",
+    "gconf",
+    "gtk+3",
+    "jack"
+  ],
+  "options": [
+    {
+      "description": "Build with native language support",
+      "option": "--with-nls"
+    },
+    {
+      "description": "Build without speexdsp support",
+      "option": "--without-speexdsp"
+    },
+    {
+      "description": "Build with glib support",
+      "option": "--with-glib"
+    },
+    {
+      "description": "Build with gconf support",
+      "option": "--with-gconf"
+    },
+    {
+      "description": "Build with gtk+3 support",
+      "option": "--with-gtk+3"
+    },
+    {
+      "description": "Build with jack support",
+      "option": "--with-jack"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "speexdsp"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "11.1"
+  }
+}

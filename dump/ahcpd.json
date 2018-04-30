@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b37143ee365a4a3afd9623d5f49eab0bc4bdf9ac3662d22db9671cffa1078224",
+          "url": "https://linuxbrew.bintray.com/bottles/ahcpd-0.53.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ab3221a9f28ded916f8d2ef4b8377a2a793fa2fee5f891b9a97e3dede0d294ae",
+          "url": "https://linuxbrew.bintray.com/bottles/ahcpd-0.53.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8518f82187d2b8d2bc24648bd072f19073e159abb2bdaf5418ad31e3ab966d0b",
+          "url": "https://linuxbrew.bintray.com/bottles/ahcpd-0.53.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d3a8a4efb712e2c6a8a055276e5d93d3275a638df4231a4dfe8d428a2606d776",
+          "url": "https://linuxbrew.bintray.com/bottles/ahcpd-0.53.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "36907bc1aadc9d9d874ebd74624d8c2c2e8b4057181df1e964720a41f72ccae8",
+          "url": "https://linuxbrew.bintray.com/bottles/ahcpd-0.53.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Autoconfiguration protocol for IPv6 and IPv6/IPv4 networks",
+  "full_name": "ahcpd",
+  "homepage": "https://www.irif.univ-paris-diderot.fr/~jch/software/ahcp/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ahcpd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.53"
+  }
+}

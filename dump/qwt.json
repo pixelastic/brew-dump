@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b486e9d7b4a9d15886b51d9536ea6b32a642262d3acff5a7ea6985d7fd88db1a",
+          "url": "https://linuxbrew.bintray.com/bottles/qwt-6.1.3_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d91a8d16588cd615df09fc8bdf288c1eea5be8c0ad7e0fe894ad70914eb47488",
+          "url": "https://linuxbrew.bintray.com/bottles/qwt-6.1.3_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5e25de79818df25e3dab96795d24c4de066a39ae9d616d77c05f528ace671f6f",
+          "url": "https://linuxbrew.bintray.com/bottles/qwt-6.1.3_4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "81fcb45fea416bc89e99b213d991c08ccb3ed34ef7da67346a273f8a1f203293",
+          "url": "https://linuxbrew.bintray.com/bottles/qwt-6.1.3_4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "qt"
+  ],
+  "desc": "Qt Widgets for Technical Applications",
+  "full_name": "qwt",
+  "homepage": "https://qwt.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qwt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build the qwtmathml library",
+      "option": "--with-qwtmathml"
+    },
+    {
+      "description": "Skip building the Qt Designer plugin",
+      "option": "--without-plugin"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.1.3"
+  }
+}

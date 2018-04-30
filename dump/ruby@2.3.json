@@ -1,0 +1,57 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "32b590d12284920eeb95f8543c8e8074e7f1c9bdaa38ed125cff84a9cc25e2d3",
+          "url": "https://linuxbrew.bintray.com/bottles/ruby@2.3-2.3.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "By default, binaries installed by gem will be placed into:\n  /home/tim/.linuxbrew/lib/ruby/gems/2.3.0/bin\n\nYou may want to add this to your PATH.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libyaml",
+    "openssl",
+    "readline"
+  ],
+  "desc": "Powerful, clean, object-oriented scripting language",
+  "full_name": "ruby@2.3",
+  "homepage": "https://www.ruby-lang.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "ruby@2.3",
+  "oldname": "ruby23",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.7"
+  }
+}

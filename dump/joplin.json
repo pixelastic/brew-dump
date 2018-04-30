@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4478b84cf2bbb5b7b08e2c05f6c0c855687a12d164934d50a1bde9813af55cd1",
+          "url": "https://linuxbrew.bintray.com/bottles/joplin-1.0.106_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "623689379519111d6d9169b788d9037b9fc04c822ab98fbb1775731483558a2c",
+          "url": "https://linuxbrew.bintray.com/bottles/joplin-1.0.106_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "37f80d50bfea27769e8fedab3394e2835868a483e34cdfbb5ddca73a09683c20",
+          "url": "https://linuxbrew.bintray.com/bottles/joplin-1.0.106_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "python@2"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "node",
+    "python@2"
+  ],
+  "desc": "Note taking and to-do application with synchronisation capabilities",
+  "full_name": "joplin",
+  "homepage": "https://joplin.cozic.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "joplin",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.106"
+  }
+}

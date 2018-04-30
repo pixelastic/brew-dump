@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b8ab4c72c7e3f6b8a46fba5af812ebe7f7b1821c44485facd6bec622a1f00300",
+          "url": "https://linuxbrew.bintray.com/bottles/allegro-5.2.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "13e8c8518d9925dd1480b7217233262ac098e40728d5f4f3be6c2dcc6f872340",
+          "url": "https://linuxbrew.bintray.com/bottles/allegro-5.2.4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7b8fdcdbfc49555517f654a9b8ad961bb675509b7e365aa58d5f0b7f6b23024c",
+          "url": "https://linuxbrew.bintray.com/bottles/allegro-5.2.4.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "flac",
+    "freetype",
+    "libogg",
+    "libvorbis",
+    "opusfile",
+    "physfs",
+    "theora",
+    "webp",
+    "dumb"
+  ],
+  "desc": "C/C++ multimedia library for cross-platform game development",
+  "full_name": "allegro",
+  "homepage": "http://liballeg.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "allegro",
+  "oldname": null,
+  "optional_dependencies": [
+    "dumb"
+  ],
+  "options": [
+    {
+      "description": "Build with dumb support",
+      "option": "--with-dumb"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.2.4.0"
+  }
+}

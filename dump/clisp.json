@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c4503ba2f9fcc24cb8415179db6a7437bfa8e1cab25b619fcb7be8e2770e9fe6",
+          "url": "https://linuxbrew.bintray.com/bottles/clisp-2.49_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8c545b817e493f5edfb1928ac8fa1d06571cfb3da135094bd701b22e99c6e423",
+          "url": "https://linuxbrew.bintray.com/bottles/clisp-2.49_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dd77ffe7a77e9bdb8cc57a11d923108c4967229feb214e511a5a1866a1f7ec50",
+          "url": "https://linuxbrew.bintray.com/bottles/clisp-2.49_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7335dec5039d4bf0f56cf75521834d93caca2f36fcf45e42fe489964fa7d0c49",
+          "url": "https://linuxbrew.bintray.com/bottles/clisp-2.49_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libsigsegv",
+    "readline"
+  ],
+  "desc": "GNU CLISP, a Common Lisp implementation",
+  "full_name": "clisp",
+  "homepage": "http://www.clisp.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "clisp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.49"
+  }
+}

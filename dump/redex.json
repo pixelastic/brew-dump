@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6bf545087ea1d01922b9cc5a157b941785b3e1abe339d45a50745ddfdf21d8fd",
+          "url": "https://linuxbrew.bintray.com/bottles/redex-2017.10.31_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3af2c80e3680ee759285ebb1939530b8f5e15315c6a98d64e2334ac6f1abb907",
+          "url": "https://linuxbrew.bintray.com/bottles/redex-2017.10.31_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eeca9a5992edfc721cf08ea9c86d59c4110998af603e447213da01cc84d6216c",
+          "url": "https://linuxbrew.bintray.com/bottles/redex-2017.10.31_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libevent",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libevent",
+    "libtool",
+    "boost",
+    "python",
+    "jsoncpp"
+  ],
+  "desc": "Bytecode optimizer for Android apps",
+  "full_name": "redex",
+  "homepage": "https://fbredex.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "redex",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2017.10.31"
+  }
+}

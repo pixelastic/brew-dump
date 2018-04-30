@@ -1,0 +1,67 @@
+{
+  "aliases": [
+    "faas"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7f5819eef29304a5aae1677e198bc3646ac334ec0402bdf9dd3857a751fdc24e",
+          "url": "https://linuxbrew.bintray.com/bottles/faas-cli-0.6.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "af8e7e191e72303861e731284a2a0120763f95a2889806f15f6aac1af9fc9ea2",
+          "url": "https://linuxbrew.bintray.com/bottles/faas-cli-0.6.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9b9fda5944dff602d5392e8d86064bc260b38fd194432c2fd28ed5d27bcf9dae",
+          "url": "https://linuxbrew.bintray.com/bottles/faas-cli-0.6.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "82c9cafff08187d5904c76a921c18f8732b59f965c3b1fc82fcab010ad978fd0",
+          "url": "https://linuxbrew.bintray.com/bottles/faas-cli-0.6.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "CLI for templating and/or deploying FaaS functions",
+  "full_name": "faas-cli",
+  "homepage": "https://docs.get-faas.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "faas-cli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.7"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0989cb076d13ab1d40a0a581ab56f0891a469de25219677a1f9323b89e728f2d",
+          "url": "https://linuxbrew.bintray.com/bottles/libtins-4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "54376ef52c7368bdf496274148185c317d5afd99d11504aece81ca4468a2140a",
+          "url": "https://linuxbrew.bintray.com/bottles/libtins-4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fc4ff68bca0257330b92d22c2219066ec3f6a7fe3561649b088c9846ef7cf03e",
+          "url": "https://linuxbrew.bintray.com/bottles/libtins-4.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "openssl"
+  ],
+  "desc": "C++ network packet sniffing and crafting library",
+  "full_name": "libtins",
+  "homepage": "https://libtins.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libtins",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.0"
+  }
+}

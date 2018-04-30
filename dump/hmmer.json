@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0f0254bebd48ec9003e6f99e2277e04914073e5dee00e764f5b5fb2ed9a7f1c3",
+          "url": "https://linuxbrew.bintray.com/bottles/hmmer-3.1b2_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "763753541930d4092f6e50fbde1669d9862d0ba4b096d6c6b144eb325019ca44",
+          "url": "https://linuxbrew.bintray.com/bottles/hmmer-3.1b2_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "01707b89414c42564e60609e8a70f464a48bffa84278169cd3f467a885dd17a2",
+          "url": "https://linuxbrew.bintray.com/bottles/hmmer-3.1b2_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0c1405550ce71935affac8692cdda3685e03fa5cf240712d0c6d428892105f81",
+          "url": "https://linuxbrew.bintray.com/bottles/hmmer-3.1b2_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Build profile HMMs and scan against sequence databases",
+  "full_name": "hmmer",
+  "homepage": "http://hmmer.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hmmer",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.1b2"
+  }
+}

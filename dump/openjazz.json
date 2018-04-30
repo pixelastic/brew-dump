@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "02c8a404534878c4321f2f3021a9226d54b4385c1f4b16a60b04f08db8a08786",
+          "url": "https://linuxbrew.bintray.com/bottles/openjazz-20171024.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "62b93e7a0ed388a47d9a1944bd0f6f80494daefe43ea214b954b8765eed52c17",
+          "url": "https://linuxbrew.bintray.com/bottles/openjazz-20171024.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "25a095ffa552d3dda2f45371b496dfe8b774b89447f9f05d1468984bd7b72cd6",
+          "url": "https://linuxbrew.bintray.com/bottles/openjazz-20171024.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config"
+  ],
+  "caveats": "The shareware version of Jazz Jackrabbit has been installed.\nYou can install the full version by copying the game files to:\n  /home/tim/.linuxbrew/Cellar/openjazz/20171024/share/openjazz\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "libmodplug",
+    "sdl"
+  ],
+  "desc": "Open source Jazz Jackrabit engine",
+  "full_name": "openjazz",
+  "homepage": "http://www.alister.eu/jazz/oj/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openjazz",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "20171024"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "63efbc0d92409dbe3fd5e222639a92df0bb54322f62b90d002267ddd2be97b8c",
+          "url": "https://linuxbrew.bintray.com/bottles/opusfile-0.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f71e02c57dc80bbe54d87113dd229aefbbecbd349e371d43a513a40222066fc4",
+          "url": "https://linuxbrew.bintray.com/bottles/opusfile-0.10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "51ab7cca1cb376114f385070b12bba44621d993786323d493bd6643304a6fb93",
+          "url": "https://linuxbrew.bintray.com/bottles/opusfile-0.10.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0d777e4edcd004455744aced6d552a5668c1308f7131beef6caafe43bfc35149",
+          "url": "https://linuxbrew.bintray.com/bottles/opusfile-0.10.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libogg",
+    "openssl",
+    "opus"
+  ],
+  "desc": "API for decoding and seeking in .opus files",
+  "full_name": "opusfile",
+  "homepage": "https://www.opus-codec.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "opusfile",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.10"
+  }
+}

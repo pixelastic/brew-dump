@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "642d8fc5164980908585d73897eea6130ea6708e2859559e8d9f4df1b4392dee",
+          "url": "https://linuxbrew.bintray.com/bottles/zim-0.68_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "642d8fc5164980908585d73897eea6130ea6708e2859559e8d9f4df1b4392dee",
+          "url": "https://linuxbrew.bintray.com/bottles/zim-0.68_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "642d8fc5164980908585d73897eea6130ea6708e2859559e8d9f4df1b4392dee",
+          "url": "https://linuxbrew.bintray.com/bottles/zim-0.68_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gtk+",
+    "python@2",
+    "pygtk",
+    "pygobject",
+    "pygtksourceview",
+    "graphviz"
+  ],
+  "desc": "Graphical text editor used to maintain a collection of wiki pages",
+  "full_name": "zim",
+  "homepage": "http://zim-wiki.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zim",
+  "oldname": null,
+  "optional_dependencies": [
+    "pygtksourceview",
+    "graphviz"
+  ],
+  "options": [
+    {
+      "description": "Build with pygtksourceview support",
+      "option": "--with-pygtksourceview"
+    },
+    {
+      "description": "Build with graphviz support",
+      "option": "--with-graphviz"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.68"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "fe8ab65019c324c13c9024291b3e6288aff3ec28049a0cf321da421b4c28f0f6",
+          "url": "https://linuxbrew.bintray.com/bottles/qtads-2.1.7_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ef218d294d01133003c6e52fc32f9482726d6f237b3b5b90add019960ffe9eb2",
+          "url": "https://linuxbrew.bintray.com/bottles/qtads-2.1.7_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "51fff5c39b8c234bb72b9a3865f7a067fb2dab902316c7943261ba66ed98ab19",
+          "url": "https://linuxbrew.bintray.com/bottles/qtads-2.1.7_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e2383ed761b051e337ed2a4a4162655cb9eaa19ed8ab0666e8a7d1efa236b9b2",
+          "url": "https://linuxbrew.bintray.com/bottles/qtads-2.1.7_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "qt",
+    "sdl2",
+    "sdl2_mixer",
+    "sdl_sound"
+  ],
+  "desc": "TADS multimedia interpreter",
+  "full_name": "qtads",
+  "homepage": "https://qtads.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qtads",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.7"
+  }
+}

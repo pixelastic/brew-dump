@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3ad0d4837be1a01dcf8f1b529320ceeffe29dfd91c63a9e2e90baa7cfeaccc7f",
+          "url": "https://linuxbrew.bintray.com/bottles/libu2f-host-1.1.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "35386868f78aa7140d1c9ed454fca428b029d837c43d8305613665cf950b3ca7",
+          "url": "https://linuxbrew.bintray.com/bottles/libu2f-host-1.1.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ae857c0f76b7c8ed45a84f83e103aac2ca8831ab1d079e66ec9d00cb64970687",
+          "url": "https://linuxbrew.bintray.com/bottles/libu2f-host-1.1.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "hidapi",
+    "json-c"
+  ],
+  "desc": "Host-side of the Universal 2nd Factor (U2F) protocol",
+  "full_name": "libu2f-host",
+  "homepage": "https://developers.yubico.com/libu2f-host/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libu2f-host",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.5"
+  }
+}

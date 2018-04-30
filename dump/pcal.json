@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "271667aef1031a0007e042fb3f933708aa33398d6bf9982a7353e6023d0d955c",
+          "url": "https://linuxbrew.bintray.com/bottles/pcal-4.11.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "25a667f9b166482637d890497e6fc9465ff8e28a4315a25ba5413fef9c68d79c",
+          "url": "https://linuxbrew.bintray.com/bottles/pcal-4.11.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b0662dd7e1841adf260b267fa8f9187c60c87c7b7c07075e6179cdabd230e2bd",
+          "url": "https://linuxbrew.bintray.com/bottles/pcal-4.11.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "134df5abc458995e6092041db145e9bca45e2ff71eeeec9de410d497afbe7177",
+          "url": "https://linuxbrew.bintray.com/bottles/pcal-4.11.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f88d2fc2ede97fd94333dea90617d02405b008ef359edb694926f4e476c6ae53",
+          "url": "https://linuxbrew.bintray.com/bottles/pcal-4.11.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Generate Postscript calendars without X",
+  "full_name": "pcal",
+  "homepage": "https://pcal.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pcal",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.11.0"
+  }
+}

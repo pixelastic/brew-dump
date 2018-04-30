@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8a8a439402bab51e569063363df076ab1220780bc0db4bc45931fb1401a2acb4",
+          "url": "https://linuxbrew.bintray.com/bottles/libdc1394-2.2.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5fbe25e047f3735fbc4ff24550099fac2884b5a952bc5326afdb0df038f6d29b",
+          "url": "https://linuxbrew.bintray.com/bottles/libdc1394-2.2.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "22a0a8780a225508d5522f147997622d61a286d9edc39ec751208aa3e603a4fc",
+          "url": "https://linuxbrew.bintray.com/bottles/libdc1394-2.2.2_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "204ba8144423650855fc083cc2726d3a914eb52d210a6136c9cfcc698a81c816",
+          "url": "https://linuxbrew.bintray.com/bottles/libdc1394-2.2.2_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl"
+  ],
+  "desc": "Provides API for IEEE 1394 cameras",
+  "full_name": "libdc1394",
+  "homepage": "https://damien.douxchamps.net/ieee1394/libdc1394/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libdc1394",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.2.2"
+  }
+}

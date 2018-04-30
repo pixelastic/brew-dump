@@ -1,0 +1,98 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f0c52d002d318238e9602de43a2e5b91b79841bca6bf10454e502fa0131f5226",
+          "url": "https://linuxbrew.bintray.com/bottles/vtk-8.1.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1e34e131a8519dabf2b632967d84c417b67ef39cfe256af18f6b64b12c4bc5e4",
+          "url": "https://linuxbrew.bintray.com/bottles/vtk-8.1.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "19901a046af52ec69be3287a8a010d3793298b62e729924efae44ffa81199d02",
+          "url": "https://linuxbrew.bintray.com/bottles/vtk-8.1.0_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c33414e670ff8ecff41591550619ad584fe1bb8c23a9d02df87b4df0ebc59a0a",
+          "url": "https://linuxbrew.bintray.com/bottles/vtk-8.1.0_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": "Even without the --with-qt option, you can display native VTK render windows\nfrom python. Alternatively, you can integrate the RenderWindowInteractor\nin PyQt5, Tk or Wx at runtime. Read more:\n  import vtk.qt5; help(vtk.qt5) or import vtk.wx; help(vtk.wx)\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "boost",
+    "fontconfig",
+    "hdf5",
+    "jpeg",
+    "libpng",
+    "libtiff",
+    "netcdf",
+    "python@2",
+    "python",
+    "qt",
+    "expat",
+    "libxml2",
+    "szip",
+    "zlib",
+    "tcl-tk",
+    "linuxbrew/xorg/mesa",
+    "linuxbrew/xorg/xorg"
+  ],
+  "desc": "Toolkit for 3D computer graphics, image processing, and visualization",
+  "full_name": "vtk",
+  "homepage": "https://www.vtk.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vtk",
+  "oldname": null,
+  "optional_dependencies": [
+    "python",
+    "qt"
+  ],
+  "options": [
+    {
+      "description": "Build without python2 support",
+      "option": "--without-python@2"
+    },
+    {
+      "description": "Build with python support",
+      "option": "--with-python"
+    },
+    {
+      "description": "Build with qt support",
+      "option": "--with-qt"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python@2"
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "8.1.0"
+  }
+}

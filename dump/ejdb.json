@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6d470ca361e813d40dbff0e27ef7589d5062bba9a7b005f5b360bd595c343ded",
+          "url": "https://linuxbrew.bintray.com/bottles/ejdb-1.2.12.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "75817c5481e57bdbf55d29289f2d22dabf162810cf94308826a2c40d40904f52",
+          "url": "https://linuxbrew.bintray.com/bottles/ejdb-1.2.12.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1ef9acee32b25883f868a7148e72f5b22303b504c347711f0509d2324425fdae",
+          "url": "https://linuxbrew.bintray.com/bottles/ejdb-1.2.12.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8a0f4d8d64ddb96a2abc04263347fe35cf8a8b0adb1b443ede02171e73c11f2a",
+          "url": "https://linuxbrew.bintray.com/bottles/ejdb-1.2.12.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "bzip2"
+  ],
+  "desc": "C library based on modified version of Tokyo Cabinet",
+  "full_name": "ejdb",
+  "homepage": "http://ejdb.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ejdb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.12"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f742fa1359c964822066034bf08d7a454e5d73546e2138f63deb4de79ae5c9d6",
+          "url": "https://linuxbrew.bintray.com/bottles/wxmaxima-18.02.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1cab5b45e11c9a53b04e88e49226d2e9eb0965f1367c86ad30915694cea1eba6",
+          "url": "https://linuxbrew.bintray.com/bottles/wxmaxima-18.02.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b44af0b7c1a8aac7d5a5270eaafa9d21c1d3e84940784e6fe343860d9b1eefbd",
+          "url": "https://linuxbrew.bintray.com/bottles/wxmaxima-18.02.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "gettext"
+  ],
+  "caveats": "When you start wxMaxima the first time, set the path to Maxima\n(e.g. /home/tim/.linuxbrew/bin/maxima) in the Preferences.\n\nEnable gnuplot functionality by setting the following variables\nin ~/.maxima/maxima-init.mac:\n  gnuplot_command:\"/home/tim/.linuxbrew/bin/gnuplot\"$\n  draw_command:\"/home/tim/.linuxbrew/bin/gnuplot\"$\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "gettext",
+    "wxmac"
+  ],
+  "desc": "Cross platform GUI for Maxima",
+  "full_name": "wxmaxima",
+  "homepage": "https://andrejv.github.io/wxmaxima",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wxmaxima",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "18.02.0"
+  }
+}

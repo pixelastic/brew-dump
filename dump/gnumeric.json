@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a60544ea2f29607561d651c2de186a321bbb432c296448151a3e62ddf52bbd0c",
+          "url": "https://linuxbrew.bintray.com/bottles/gnumeric-1.12.39_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a256df98754b282e5b40b2fa43ad0ca120493575a327d7de0abe1d11b99ebfd5",
+          "url": "https://linuxbrew.bintray.com/bottles/gnumeric-1.12.39_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "af2ffe643eecefbfb594034cfe80c942a4933a6073cabe842ef6718c508c439d",
+          "url": "https://linuxbrew.bintray.com/bottles/gnumeric-1.12.39_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "gettext",
+    "goffice",
+    "rarian",
+    "adwaita-icon-theme"
+  ],
+  "desc": "GNOME Spreadsheet Application",
+  "full_name": "gnumeric",
+  "homepage": "https://projects.gnome.org/gnumeric/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnumeric",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable Python scripting.",
+      "option": "--with-python-scripting"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.12.39"
+  }
+}

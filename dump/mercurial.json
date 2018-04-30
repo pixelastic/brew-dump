@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "hg"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0d10b8609d08895a4042f93158a0169145413adfe4855bbb62a22a1716b0a3d7",
+          "url": "https://linuxbrew.bintray.com/bottles/mercurial-4.5.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bfa7214141279e0221d81c03d2558ac3e0013bcdeb62e353b3fa65389e635950",
+          "url": "https://linuxbrew.bintray.com/bottles/mercurial-4.5.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "df975ebf08b4a7b8e6b0e3b6b0cbfa9bf2b2489e8eaeb480729c4b8668f457c2",
+          "url": "https://linuxbrew.bintray.com/bottles/mercurial-4.5.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Scalable distributed version control system",
+  "full_name": "mercurial",
+  "homepage": "https://mercurial-scm.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mercurial",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.5.3"
+  }
+}

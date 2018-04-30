@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "79c04c9fece60fcca728d408298e521679051e493a84907e0112638009616f8a",
+          "url": "https://linuxbrew.bintray.com/bottles/open-cobol-1.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "49f1746940e7d385f976c594517d4c87263bbdf216ab82dfd42f79b8d2a24e96",
+          "url": "https://linuxbrew.bintray.com/bottles/open-cobol-1.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2ef0f1a0ed50e42ae2c25ae9281fe02e35a4b29b56800a79b38271b74004bb9a",
+          "url": "https://linuxbrew.bintray.com/bottles/open-cobol-1.1_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4df237883c76c8d8566a3a44f7d77bc9820f2ef027392d20f31afe7601050625",
+          "url": "https://linuxbrew.bintray.com/bottles/open-cobol-1.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "gnu-cobol"
+  ],
+  "dependencies": [
+    "gmp",
+    "berkeley-db"
+  ],
+  "desc": "COBOL compiler",
+  "full_name": "open-cobol",
+  "homepage": "https://sourceforge.net/projects/open-cobol/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "open-cobol",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

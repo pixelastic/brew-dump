@@ -1,0 +1,121 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c2efb36438b01e305fd50b556b9acf72d5aba073aa9781a91d25ec7b764fb536",
+          "url": "https://linuxbrew.bintray.com/bottles/llvm@5-5.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bc1f754761a77c5f9d8ac9ab04a3e6ac1105084bf1e6e24d4ec181042a6605af",
+          "url": "https://linuxbrew.bintray.com/bottles/llvm@5-5.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c762b37fc89fbc7f71bcae4cd1e9740a40aefd823a8daa8c1f7d43a52eddbeda",
+          "url": "https://linuxbrew.bintray.com/bottles/llvm@5-5.0.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d0d8252f613b07216fea182de059c1e9a60d4153179ca98a61e2bc2c6441908f",
+          "url": "https://linuxbrew.bintray.com/bottles/llvm@5-5.0.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libffi",
+    "graphviz",
+    "ocaml",
+    "gcc",
+    "glibc",
+    "binutils",
+    "libedit",
+    "ncurses",
+    "libxml2",
+    "zlib",
+    "python@2",
+    "cmake"
+  ],
+  "desc": "Next-gen compiler infrastructure",
+  "full_name": "llvm@5",
+  "homepage": "https://llvm.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "llvm@5",
+  "oldname": null,
+  "optional_dependencies": [
+    "graphviz",
+    "ocaml",
+    "glibc"
+  ],
+  "options": [
+    {
+      "description": "Do not build Clang runtime support libraries for code sanitizers, builtins, and profiling",
+      "option": "--without-compiler-rt"
+    },
+    {
+      "description": "Build libc++ standard library",
+      "option": "--with-libcxx"
+    },
+    {
+      "description": "Build with Toolchain to facilitate overriding system compiler",
+      "option": "--with-toolchain"
+    },
+    {
+      "description": "Build LLDB debugger",
+      "option": "--with-lldb"
+    },
+    {
+      "description": "Build bindings against Homebrew's Python 2",
+      "option": "--with-python@2"
+    },
+    {
+      "description": "Build shared instead of static libraries",
+      "option": "--with-shared-libs"
+    },
+    {
+      "description": "Do not use libffi to call external functions",
+      "option": "--without-libffi"
+    },
+    {
+      "description": "Build with graphviz support",
+      "option": "--with-graphviz"
+    },
+    {
+      "description": "Build with ocaml support",
+      "option": "--with-ocaml"
+    },
+    {
+      "description": "Build with glibc support",
+      "option": "--with-glibc"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libffi"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.0.1"
+  }
+}

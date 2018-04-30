@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b99754ca018e38fd12b8604ca9ad249590e363586b9fe48dd416b02b93d0c8be",
+          "url": "https://linuxbrew.bintray.com/bottles/gpsbabel-1.5.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e93459121437da0a431110d2328b797e0c0f08c6ad0d8868a8fc54eacad113f8",
+          "url": "https://linuxbrew.bintray.com/bottles/gpsbabel-1.5.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6beb905104938716330e3c08a8369844ea31a9fbdc91fca3efc2e218ea9ba9a4",
+          "url": "https://linuxbrew.bintray.com/bottles/gpsbabel-1.5.4_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2e21b4f872e0d71cd6ca72490c092ef33dd266fc48801b91a52005b65c0847d9",
+          "url": "https://linuxbrew.bintray.com/bottles/gpsbabel-1.5.4_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "qt",
+    "libusb"
+  ],
+  "desc": "Converts/uploads GPS waypoints, tracks, and routes",
+  "full_name": "gpsbabel",
+  "homepage": "https://www.gpsbabel.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gpsbabel",
+  "oldname": null,
+  "optional_dependencies": [
+    "libusb"
+  ],
+  "options": [
+    {
+      "description": "Build with libusb support",
+      "option": "--with-libusb"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.4"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "e41a174da5447d3381a8fe39b1740d633c53c5819545ec53878743aad925b6b0",
+          "url": "https://linuxbrew.bintray.com/bottles/encfs-1.9.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6fb4502bafeefe1e2a92f3a0b2dc16aa246344fe781b2b080d8895ee9f4d631d",
+          "url": "https://linuxbrew.bintray.com/bottles/encfs-1.9.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f2d430dea3a7794c14d865a4ae9426f44254dfc9f84ece48b6699fd64a5305d0",
+          "url": "https://linuxbrew.bintray.com/bottles/encfs-1.9.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "boost",
+    "gettext",
+    "openssl"
+  ],
+  "desc": "Encrypted pass-through FUSE file system",
+  "full_name": "encfs",
+  "homepage": "https://vgough.github.io/encfs/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "encfs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.9.5"
+  }
+}

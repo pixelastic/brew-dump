@@ -1,0 +1,45 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You can use $SBT_OPTS to pass additional JVM options to SBT:\n   SBT_OPTS=\"-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M\"\n\nThis formula uses the standard Lightbend sbt launcher script.\nProject specific options should be placed in .sbtopts in the root of your project.\nGlobal settings should be placed in /home/tim/.linuxbrew/etc/sbtopts\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Build tool for Scala projects",
+  "full_name": "sbt@0.13",
+  "homepage": "https://www.scala-sbt.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "sbt@0.13",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "0.13.17"
+  }
+}

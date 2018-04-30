@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b6a3b49b0464d36330ff470ee0b4a4b10afbc763a8751804365b7d782cd23c22",
+          "url": "https://linuxbrew.bintray.com/bottles/bowtie2-2.3.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a6351c8bd99daf742dbe510df03219b47a90e142d2d8612d64d112a5c62820aa",
+          "url": "https://linuxbrew.bintray.com/bottles/bowtie2-2.3.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e454334bb9c1526fbc153f8f98392424942b86d82fe7c90b108578896839fcd2",
+          "url": "https://linuxbrew.bintray.com/bottles/bowtie2-2.3.4.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "558c49910c4edf8dee5978a75f76ececbbe934ba351dd800f69c5879d2b0c567",
+          "url": "https://linuxbrew.bintray.com/bottles/bowtie2-2.3.4.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "tbb"
+  ],
+  "desc": "Fast and sensitive gapped read aligner",
+  "full_name": "bowtie2",
+  "homepage": "https://bowtie-bio.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bowtie2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.4.1"
+  }
+}

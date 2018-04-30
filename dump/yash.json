@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9fc6669b72248884e4274f695b9188745e5ae8fac359862373efa9a6f98b7469",
+          "url": "https://linuxbrew.bintray.com/bottles/yash-2.47.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8ceb88372ff9dbf2461994e646b7743c3fb927115fbd540fdd8a163a9c929916",
+          "url": "https://linuxbrew.bintray.com/bottles/yash-2.47.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3b13c76147e4835eeff1b1794eb534deedaf6e787d3871a233f8dd34b9003fe9",
+          "url": "https://linuxbrew.bintray.com/bottles/yash-2.47.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0a8eb71c69ea7487f7748ab95a94ef3e81778fc1e5073cca22a77fd83affd985",
+          "url": "https://linuxbrew.bintray.com/bottles/yash-2.47.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gettext"
+  ],
+  "desc": "Yet another shell: a POSIX-compliant command-line shell",
+  "full_name": "yash",
+  "homepage": "https://yash.osdn.jp/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yash",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.47"
+  }
+}

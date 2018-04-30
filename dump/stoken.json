@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f29de39d399ca3b9acbdae0e170e82173f2fbcd5806663a8697c10695b5d1b82",
+          "url": "https://linuxbrew.bintray.com/bottles/stoken-0.92.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cb6b6bb8d97abca20a4395fe9686717186ad1e4fc99f470e74a3b7748bde4d4d",
+          "url": "https://linuxbrew.bintray.com/bottles/stoken-0.92.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "005b85ff93aa190fbe9590324b1579d960c3207cd144cf860cfc6050eaf10e71",
+          "url": "https://linuxbrew.bintray.com/bottles/stoken-0.92.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gtk+3",
+    "pkg-config",
+    "nettle"
+  ],
+  "desc": "Tokencode generator compatible with RSA SecurID 128-bit (AES)",
+  "full_name": "stoken",
+  "homepage": "https://stoken.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "stoken",
+  "oldname": null,
+  "optional_dependencies": [
+    "gtk+3"
+  ],
+  "options": [
+    {
+      "description": "Build with gtk+3 support",
+      "option": "--with-gtk+3"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.92"
+  }
+}

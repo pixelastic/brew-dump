@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "21823489c045150e8d8e51addba52b6cd75eedaec93357732db859ba738f59d5",
+          "url": "https://linuxbrew.bintray.com/bottles/rsnapshot-1.4.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "27e99660b73118874b5ba4ba355a0bf9b5db71933138a6b719869da01164a12a",
+          "url": "https://linuxbrew.bintray.com/bottles/rsnapshot-1.4.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "66cc127c640855b029881b2cd029197b093d92b8d77c3bb9a61167cbaedfedd8",
+          "url": "https://linuxbrew.bintray.com/bottles/rsnapshot-1.4.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "998faa778dcfdef5b362b10aeaffadc97e40f63ec6df72d9bd25029ab82f2550",
+          "url": "https://linuxbrew.bintray.com/bottles/rsnapshot-1.4.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d6374fba65d24f7067197c9a7732f6f629dcb537f0687ab91f4f15d5c55d6cc6",
+          "url": "https://linuxbrew.bintray.com/bottles/rsnapshot-1.4.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "File system snapshot utility (based on rsync)",
+  "full_name": "rsnapshot",
+  "homepage": "http://rsnapshot.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rsnapshot",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.2"
+  }
+}

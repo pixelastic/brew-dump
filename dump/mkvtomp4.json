@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f7610334538d3e3df8cfeab0a5cd7d9a44acfb141212b4852e340064657e50a8",
+          "url": "https://linuxbrew.bintray.com/bottles/mkvtomp4-1.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2efab72b382b03ac47c70b1878587afafdd8de2b7361d96f98e837692d5b4ca4",
+          "url": "https://linuxbrew.bintray.com/bottles/mkvtomp4-1.3_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "3346ab8be87d01200616db3887ed05d0d6693d2003ca4c3d5530c439ef732544",
+          "url": "https://linuxbrew.bintray.com/bottles/mkvtomp4-1.3_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4c085a7e2cbfada2a722dc1d676fab80dacc1f490c14d2a2aff10a4fa60f5225",
+          "url": "https://linuxbrew.bintray.com/bottles/mkvtomp4-1.3_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7ae6b5351e551f6f04811cc5b963fd67adc18132f9b4dc91fc07886f05b0d10f",
+          "url": "https://linuxbrew.bintray.com/bottles/mkvtomp4-1.3_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gpac",
+    "ffmpeg",
+    "mkvtoolnix",
+    "python@2"
+  ],
+  "desc": "Convert mkv files to mp4",
+  "full_name": "mkvtomp4",
+  "homepage": "https://github.com/gavinbeatty/mkvtomp4/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mkvtomp4",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without ffmpeg support",
+      "option": "--without-ffmpeg"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "ffmpeg"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3"
+  }
+}

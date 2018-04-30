@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d220c96f72941f8a05dab330ffdb813f294f37daaffede4292821d1b1ed7d7a0",
+          "url": "https://linuxbrew.bintray.com/bottles/ngspice-27.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "82a3aadf40794f4bf0dd89dbb85af272080768009b5a43e9c2e10e214060a000",
+          "url": "https://linuxbrew.bintray.com/bottles/ngspice-27.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "245e35d1ad12c0b06da9089eb9fe05a51da73aefa8e4840c2dc4f6514c6af902",
+          "url": "https://linuxbrew.bintray.com/bottles/ngspice-27.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Spice circuit simulator",
+  "full_name": "ngspice",
+  "homepage": "https://ngspice.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ngspice",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without x-spice extensions",
+      "option": "--without-xspice"
+    },
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "27"
+  }
+}

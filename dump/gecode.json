@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a56de24c36f255f23ed845f582498fa8987f0b485bcc13de49bd5fdf715b6bbc",
+          "url": "https://linuxbrew.bintray.com/bottles/gecode-6.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2d060e1fb1c00e96a71b8cab6ef55f1ca5bfdfb9f1055cba9ab912ec3390723f",
+          "url": "https://linuxbrew.bintray.com/bottles/gecode-6.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "56f0ad61ca96479733c686a0bcf94640d88ab08a5931a216355db3e27aa320fc",
+          "url": "https://linuxbrew.bintray.com/bottles/gecode-6.0.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "qt"
+  ],
+  "desc": "Toolkit for developing constraint-based systems and applications",
+  "full_name": "gecode",
+  "homepage": "http://www.gecode.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gecode",
+  "oldname": null,
+  "optional_dependencies": [
+    "qt"
+  ],
+  "options": [
+    {
+      "description": "Build with qt support",
+      "option": "--with-qt"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.0.0"
+  }
+}

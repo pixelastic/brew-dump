@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "30b0e51722e9b2fc0fde442db5487e98a5535074dee920244ed21b43e85c72b8",
+          "url": "https://linuxbrew.bintray.com/bottles/webpack-4.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f3137a42603b979669e499a9a4b2bea14e3a7ed3e8823b66b056854af9aeabe7",
+          "url": "https://linuxbrew.bintray.com/bottles/webpack-4.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3ab2b1771981dc0586cd1cbcedc8ad05a81a310cee1db910d24d5808458075fb",
+          "url": "https://linuxbrew.bintray.com/bottles/webpack-4.6.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9502d75dd5a1d4ef45284f008d8813529a699a524f76fc5c73ad75d78213e518",
+          "url": "https://linuxbrew.bintray.com/bottles/webpack-4.6.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "desc": "Bundler for JavaScript and friends",
+  "full_name": "webpack",
+  "homepage": "https://webpack.js.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "webpack",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.6.0"
+  }
+}

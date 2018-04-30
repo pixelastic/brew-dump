@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ca1548c5ed9e3f18cf2e013f49d22a00276c9ef0b3d829fd256ae48178ed9974",
+          "url": "https://linuxbrew.bintray.com/bottles/jpeginfo-1.6.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "afafe6f163b0e058975470f6281907d125408e0c1c678ade5ef141024b6d20ed",
+          "url": "https://linuxbrew.bintray.com/bottles/jpeginfo-1.6.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0ec9e97f1ce99e36c9e5d4de8be48ca6b5bfc2d807ee590115426a7c57e26d00",
+          "url": "https://linuxbrew.bintray.com/bottles/jpeginfo-1.6.1_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d28d3fcbf355139760d15d1869f57d180940e8114b150446214b18270275dcf8",
+          "url": "https://linuxbrew.bintray.com/bottles/jpeginfo-1.6.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "jpeg"
+  ],
+  "desc": "Prints information and tests integrity of JPEG/JFIF files",
+  "full_name": "jpeginfo",
+  "homepage": "https://www.kokkonen.net/tjko/projects.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jpeginfo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.1"
+  }
+}

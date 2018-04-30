@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "41230a870a365a76eebd77a6a2255aa4e8f93eedc56c42546cd493967221f7c2",
+          "url": "https://linuxbrew.bintray.com/bottles/openconnect-7.08_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ebc3bc520522b80f49ad28fb9055242a93f4e9ee1abf49a8be9858c4f2c13b92",
+          "url": "https://linuxbrew.bintray.com/bottles/openconnect-7.08_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "82f6f4b72fba93ee972a8455ebd6f9d9dfb607cd4bdd06c4b0bf068c5dbc4547",
+          "url": "https://linuxbrew.bintray.com/bottles/openconnect-7.08_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "207b75663d9f34b99a0cb2f7c4b7eccd665a98f88b7e9d736928dd4b65b658ca",
+          "url": "https://linuxbrew.bintray.com/bottles/openconnect-7.08_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gettext",
+    "gnutls",
+    "oath-toolkit",
+    "stoken"
+  ],
+  "desc": "Open client for Cisco AnyConnect VPN",
+  "full_name": "openconnect",
+  "homepage": "http://www.infradead.org/openconnect.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openconnect",
+  "oldname": null,
+  "optional_dependencies": [
+    "oath-toolkit",
+    "stoken"
+  ],
+  "options": [
+    {
+      "description": "Build with oath-toolkit support",
+      "option": "--with-oath-toolkit"
+    },
+    {
+      "description": "Build with stoken support",
+      "option": "--with-stoken"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "7.08"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b422db39f01dfd49b77d9be2aade4d769b00c3068cce6da5250e9948a21cbf3b",
+          "url": "https://linuxbrew.bintray.com/bottles/teensy_loader_cli-2.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "006db48c98aa23a5694588169a2732bc21413f117e7082597168831e01edc20b",
+          "url": "https://linuxbrew.bintray.com/bottles/teensy_loader_cli-2.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "297e5ae2cebf5f5c52809e671ef5b9d224dd7c184695dde5cbb94c085f616669",
+          "url": "https://linuxbrew.bintray.com/bottles/teensy_loader_cli-2.1_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "760b87b4455a716d5fd57a3a4d3e45ce7f4a67743a2364ecbd7ef791a456abcc",
+          "url": "https://linuxbrew.bintray.com/bottles/teensy_loader_cli-2.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libusb-compat"
+  ],
+  "desc": "Command-line integration for Teensy USB development boards",
+  "full_name": "teensy_loader_cli",
+  "homepage": "https://www.pjrc.com/teensy/loader_cli.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "teensy_loader_cli",
+  "oldname": null,
+  "optional_dependencies": [
+    "libusb-compat"
+  ],
+  "options": [
+    {
+      "description": "Build with libusb-compat support",
+      "option": "--with-libusb-compat"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1"
+  }
+}

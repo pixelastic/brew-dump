@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "17dcf1289dd178b75b670d8061d54e4b2004feeb7de0d9e1ea43ffb46220e4fd",
+          "url": "https://linuxbrew.bintray.com/bottles/shtool-2.0.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fc22505f6424dece01dcdee55907eebcb490a299763f2f217511fa14c5927711",
+          "url": "https://linuxbrew.bintray.com/bottles/shtool-2.0.8.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "14b7ea00fce6bf6df8e684f1f4db589ad4f6bc7051a4a29f34d51fb6d287d0a9",
+          "url": "https://linuxbrew.bintray.com/bottles/shtool-2.0.8.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "6e46064ddebb9f3510fb8f8e3b5f48b7f931004334cffba5a3b65cc49588e3a2",
+          "url": "https://linuxbrew.bintray.com/bottles/shtool-2.0.8.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "172a4e2c133efcc6235aa3901bbc89ea11c48cfa70833fe67801240236d1757d",
+          "url": "https://linuxbrew.bintray.com/bottles/shtool-2.0.8.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9ff3004ffa49fb1f5343e0378aef09f5fdd042383d1960f2c30384c647e251b2",
+          "url": "https://linuxbrew.bintray.com/bottles/shtool-2.0.8.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "de69e23a1e88799c78891298045bd8f79ef67ee48b7609fa065c7acdc1ddbde4",
+          "url": "https://linuxbrew.bintray.com/bottles/shtool-2.0.8.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "GNU's portable shell tool",
+  "full_name": "shtool",
+  "homepage": "https://www.gnu.org/software/shtool/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "shtool",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.8"
+  }
+}

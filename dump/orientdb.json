@@ -1,0 +1,45 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "The OrientDB root password was set to 'orientdb'. To reset it:\n  https://orientdb.com/docs/2.2/Server-Security.html#restoring-the-servers-user-root\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Graph database",
+  "full_name": "orientdb",
+  "homepage": "https://orientdb.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "orientdb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.29"
+  }
+}

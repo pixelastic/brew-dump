@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "abe55374ac1e3898e321af01126d0da4ad436be24ea2bd14e44cf61a386f4692",
+          "url": "https://linuxbrew.bintray.com/bottles/gammu-1.39.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d18ac85aafe7b0808af71def3812d623223234d17ce2f8281a3c673079e6509a",
+          "url": "https://linuxbrew.bintray.com/bottles/gammu-1.39.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eeb48b7fe0b0b97f96aa3580c92b76e0cd59ece002eb1bc076efa30c85327ce8",
+          "url": "https://linuxbrew.bintray.com/bottles/gammu-1.39.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b8a99db7750ec03431e91be60d5f2ca39ab75dba9b198e0e51d4a4ac1b446c14",
+          "url": "https://linuxbrew.bintray.com/bottles/gammu-1.39.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "glib",
+    "openssl"
+  ],
+  "desc": "Command-line utility to control a phone",
+  "full_name": "gammu",
+  "homepage": "https://wammu.eu/gammu/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gammu",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without glib support",
+      "option": "--without-glib"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "glib"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.39.0"
+  }
+}

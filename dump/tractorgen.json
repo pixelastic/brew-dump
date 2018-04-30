@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ccac503b4577fc81e69d3e778c27c31fad9a1c5fa8627e97f293d87ab1177f8d",
+          "url": "https://linuxbrew.bintray.com/bottles/tractorgen-0.31.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "936883746158534e9650a0b26f18e680eed527fb56f71ad51e5ec203d8f7f451",
+          "url": "https://linuxbrew.bintray.com/bottles/tractorgen-0.31.7.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "acbfbe90462924fbc6f2658ca0ee591a122639356ce6ff042b558199b477bf4a",
+          "url": "https://linuxbrew.bintray.com/bottles/tractorgen-0.31.7.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "bcc0f270ae8414659db18f339044a3030beff37c8a4a305c1c544919b2fb0a7e",
+          "url": "https://linuxbrew.bintray.com/bottles/tractorgen-0.31.7.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "646d87ca0cb1a5ec93a8aa1ddaa1f28233347ca0a1f56e49c323809ec8295432",
+          "url": "https://linuxbrew.bintray.com/bottles/tractorgen-0.31.7.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e50de2fd2d9015873282a62fc7a21f3ef419d527d07eeab3830ace52ec25c3c9",
+          "url": "https://linuxbrew.bintray.com/bottles/tractorgen-0.31.7.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Generates ASCII tractor art",
+  "full_name": "tractorgen",
+  "homepage": "http://www.kfish.org/software/tractorgen/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tractorgen",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.31.7"
+  }
+}

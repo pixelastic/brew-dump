@@ -1,0 +1,54 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "981333acb3ddcaac29decc19a942e1573553a4a7cb06270b2101c182989ca969",
+          "url": "https://linuxbrew.bintray.com/bottles/pius-2.2.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "The path to gpg is hardcoded in pius as `/usr/bin/env gpg`.\nYou can specify a different path by editing ~/.pius:\n  gpg-path=/path/to/gpg\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gnupg",
+    "python@2"
+  ],
+  "desc": "PGP individual UID signer",
+  "full_name": "pius",
+  "homepage": "https://www.phildev.net/pius/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pius",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.2.6"
+  }
+}

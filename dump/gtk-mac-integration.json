@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4d9deee665206ec1a45e5eec6b9bd6dfee8f00a5b85182927bd01ec09e3ee02b",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk-mac-integration-2.0.8_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ecd57e012f30dd1b7889fcc88aad9f5567cc1cdd5ee8216af4892322bed78faa",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk-mac-integration-2.0.8_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "39dc154c852d5f8c3daf44a0cf66cdd89d257eebf4b9f9372b5e47dc18770469",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk-mac-integration-2.0.8_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "gtk+",
+    "gtk+3",
+    "pygtk"
+  ],
+  "desc": "Integrates GTK macOS applications with the Mac desktop",
+  "full_name": "gtk-mac-integration",
+  "homepage": "https://wiki.gnome.org/Projects/GTK+/OSX/Integration",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gtk-mac-integration",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without gtk+3 support",
+      "option": "--without-gtk+3"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "gtk+3"
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.8"
+  }
+}

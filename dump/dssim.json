@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "34f0204a20f42a08c375b831669e8fdf8b2a8e54a77298f5c35a75403b1c69c7",
+          "url": "https://linuxbrew.bintray.com/bottles/dssim-2.9.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cd9660967e876f49480ae7f8f1486ebd7f752edf2a22621b03f2b6bc8bf07f73",
+          "url": "https://linuxbrew.bintray.com/bottles/dssim-2.9.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "923949599d0070fbe2c6938f5847ed6df69097921897ce118d7e9cc8ef48cb40",
+          "url": "https://linuxbrew.bintray.com/bottles/dssim-2.9.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1acbdbfac7b637ab87ac8c8f488d09f9761484998df8b0d12c11d93f93bd57b5",
+          "url": "https://linuxbrew.bintray.com/bottles/dssim-2.9.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "rust"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "rust"
+  ],
+  "desc": "RGBA Structural Similarity Rust implementation",
+  "full_name": "dssim",
+  "homepage": "https://github.com/kornelski/dssim",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dssim",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.9.7"
+  }
+}

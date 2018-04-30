@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "79f16dfac8ff506692b627224b9a2f159e51027aa0c08bc7b02c9f56cbbac67d",
+          "url": "https://linuxbrew.bintray.com/bottles/mps-youtube-0.2.8_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ab6681b670d22786428e8f9dfa09632142baecefb8686618413a9513f621e197",
+          "url": "https://linuxbrew.bintray.com/bottles/mps-youtube-0.2.8_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "58b9d587e13c799790bbd1c627ba38fb6a8ced8f1be41fe53f8abd38e29d7390",
+          "url": "https://linuxbrew.bintray.com/bottles/mps-youtube-0.2.8_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python",
+    "mpv",
+    "mplayer"
+  ],
+  "desc": "Terminal based YouTube player and downloader",
+  "full_name": "mps-youtube",
+  "homepage": "https://github.com/mps-youtube/mps-youtube",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mps-youtube",
+  "oldname": null,
+  "optional_dependencies": [
+    "mplayer"
+  ],
+  "options": [
+    {
+      "description": "Build without mpv support",
+      "option": "--without-mpv"
+    },
+    {
+      "description": "Build with mplayer support",
+      "option": "--with-mplayer"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "mpv"
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.8"
+  }
+}

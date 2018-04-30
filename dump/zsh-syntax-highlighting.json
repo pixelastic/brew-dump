@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "34fff5bf9bcacd1aaf3aad77199fc61a5ca31239236adaef0bab92452b5b4ad3",
+          "url": "https://linuxbrew.bintray.com/bottles/zsh-syntax-highlighting-0.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "97dc3e73da8e3a8cb054a780a28cda23be2bbd33547daa606d71a3c7f1d2821f",
+          "url": "https://linuxbrew.bintray.com/bottles/zsh-syntax-highlighting-0.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "34fff5bf9bcacd1aaf3aad77199fc61a5ca31239236adaef0bab92452b5b4ad3",
+          "url": "https://linuxbrew.bintray.com/bottles/zsh-syntax-highlighting-0.6.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c6c1f6dae42a0900820c22d538c12e6be6b81c0c690c8e73724121fa0ccb2d24",
+          "url": "https://linuxbrew.bintray.com/bottles/zsh-syntax-highlighting-0.6.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "34fff5bf9bcacd1aaf3aad77199fc61a5ca31239236adaef0bab92452b5b4ad3",
+          "url": "https://linuxbrew.bintray.com/bottles/zsh-syntax-highlighting-0.6.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To activate the syntax highlighting, add the following at the end of your .zshrc:\n  source /home/tim/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh\n\nIf you receive \"highlighters directory not found\" error message,\nyou may need to add the following to your .zshenv:\n  export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/home/tim/.linuxbrew/share/zsh-syntax-highlighting/highlighters\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "zsh"
+  ],
+  "desc": "Fish shell like syntax highlighting for zsh",
+  "full_name": "zsh-syntax-highlighting",
+  "homepage": "https://github.com/zsh-users/zsh-syntax-highlighting",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zsh-syntax-highlighting",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.6.0"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "adbc31b9065ad979247623476b4d0fe22db78e85f6237b9f1a4d22f61880462d",
+          "url": "https://linuxbrew.bintray.com/bottles/wpscan-2.9.3_6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ea51c46528b302bc1b59fd81788a0d5d65b7c348aebd8f10af2df8c620678a8d",
+          "url": "https://linuxbrew.bintray.com/bottles/wpscan-2.9.3_6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f1a32f7ad9b41c5f395f7e04ae2afff8cdf5d2a4ded2cc61bdf4dd8db1242992",
+          "url": "https://linuxbrew.bintray.com/bottles/wpscan-2.9.3_6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "834aaee1a8ac932df4253af0cb03054471a1bd75be7a6baa13a8af0d0de6e56d",
+          "url": "https://linuxbrew.bintray.com/bottles/wpscan-2.9.3_6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "unzip"
+  ],
+  "caveats": "Logs are saved to /home/tim/.linuxbrew/var/cache/wpscan/log.txt by default.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ruby",
+    "unzip",
+    "curl",
+    "zlib"
+  ],
+  "desc": "Black box WordPress vulnerability scanner",
+  "full_name": "wpscan",
+  "homepage": "https://wpscan.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wpscan",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 6,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.9.3"
+  }
+}

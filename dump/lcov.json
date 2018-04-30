@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5b54e7b2f4361673debf9905109c302bed2bb5b542ca093598053357bbcd9065",
+          "url": "https://linuxbrew.bintray.com/bottles/lcov-1.13.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ecd3e27cbeedb34321d9ce5decd4310e3ea0c73956a20317fec3ac14dc71364c",
+          "url": "https://linuxbrew.bintray.com/bottles/lcov-1.13.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b37e8592f6cedb734dea0c35daec9b4d701b5739dbe316b094c090179ff96dd3",
+          "url": "https://linuxbrew.bintray.com/bottles/lcov-1.13.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5b54e7b2f4361673debf9905109c302bed2bb5b542ca093598053357bbcd9065",
+          "url": "https://linuxbrew.bintray.com/bottles/lcov-1.13.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Graphical front-end for GCC's coverage testing tool (gcov)",
+  "full_name": "lcov",
+  "homepage": "https://github.com/linux-test-project/lcov",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lcov",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.13"
+  }
+}

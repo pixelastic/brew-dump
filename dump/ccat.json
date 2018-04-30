@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "10eb7df98a05c968f006bbda2c6f690bd7d5053e4bb6d2c9c4a043616648a23b",
+          "url": "https://linuxbrew.bintray.com/bottles/ccat-1.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "895c26dc74369ef72990fd79447e654f5266dda9c662d3bed2926caab7180678",
+          "url": "https://linuxbrew.bintray.com/bottles/ccat-1.1.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "04342b5be5ffffaa696799b006b592cad530b0fcd510514ad9c72bc70c5865ba",
+          "url": "https://linuxbrew.bintray.com/bottles/ccat-1.1.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aab86cfae41d1f4f9c93ad3a1680f21a5a0e9fad61190101582235174e4e214c",
+          "url": "https://linuxbrew.bintray.com/bottles/ccat-1.1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "063b4cab434b5d16e8884aad6eb7d18068c33f9ec884fabf5ada3ad821428897",
+          "url": "https://linuxbrew.bintray.com/bottles/ccat-1.1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "ccrypt"
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Like cat but displays content with syntax highlighting",
+  "full_name": "ccat",
+  "homepage": "https://github.com/jingweno/ccat",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ccat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.0"
+  }
+}

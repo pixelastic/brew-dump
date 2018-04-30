@@ -1,0 +1,98 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "003a3f26906a7c6b73d2b022d179d67e10c2d0247bd51627668f1884d1a0d7e4",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-smalltalk-3.2.5_6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c6280ac093004c5713eae7827382d565f2a2abc9ae4f6479de454b57a514bc03",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-smalltalk-3.2.5_6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "724a5efd9f8ab899c94d2cdfc3bcca54d661cc87c4a6ac9427e6f6fef7685eed",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-smalltalk-3.2.5_6.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "gawk"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "gawk",
+    "readline",
+    "gnutls",
+    "gdbm",
+    "libffi",
+    "libsigsegv",
+    "glew"
+  ],
+  "desc": "GNU Smalltalk interpreter and image",
+  "full_name": "gnu-smalltalk",
+  "homepage": "http://smalltalk.gnu.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnu-smalltalk",
+  "oldname": null,
+  "optional_dependencies": [
+    "glew"
+  ],
+  "options": [
+    {
+      "description": "Verify the build with make check (this may hang)",
+      "option": "--with-test"
+    },
+    {
+      "description": "Build the Tcl/Tk module that requires X11",
+      "option": "--with-tcltk"
+    },
+    {
+      "description": "Build without libffi support",
+      "option": "--without-libffi"
+    },
+    {
+      "description": "Build without libsigsegv support",
+      "option": "--without-libsigsegv"
+    },
+    {
+      "description": "Build with glew support",
+      "option": "--with-glew"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libffi",
+    "libsigsegv"
+  ],
+  "requirements": [
+  ],
+  "revision": 6,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "3.2.91",
+    "head": "HEAD",
+    "stable": "3.2.5"
+  }
+}

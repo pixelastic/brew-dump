@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "61e3ccbc346862776cade070f07e333ed220a0159f01243341c596ed2f775741",
+          "url": "https://linuxbrew.bintray.com/bottles/csvtomd-0.2.1_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9fae1c89737482983f6f39faf3dc0cf094675aba5d4fbb2611ccd9fe44c5431b",
+          "url": "https://linuxbrew.bintray.com/bottles/csvtomd-0.2.1_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "867d4c8da05e61b41ca34dfff6d88ccd5f918c9b78127d1f044b3aade674a74c",
+          "url": "https://linuxbrew.bintray.com/bottles/csvtomd-0.2.1_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "CSV to Markdown table converter",
+  "full_name": "csvtomd",
+  "homepage": "https://github.com/mplewis/csvtomd",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "csvtomd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.1"
+  }
+}

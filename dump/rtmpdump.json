@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f05e64f75ae79fcfe021be7b39112ea3aac53d8d1ca22bfaa658bbf161c84675",
+          "url": "https://linuxbrew.bintray.com/bottles/rtmpdump-2.4+20151223.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "29e7fd835f6a5bc724d953bab6d06fa6e22f860ebc7b74f9b14a948fb0081c77",
+          "url": "https://linuxbrew.bintray.com/bottles/rtmpdump-2.4+20151223.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f4c8dbdf3f8a04626a7975abf96eccd5e494a3f6a795b2035c6d418bfbe8079d",
+          "url": "https://linuxbrew.bintray.com/bottles/rtmpdump-2.4+20151223.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2d3310f9a53bdf34ca144e9c58febe74f80253ac518a4c350471ca65591b7f1c",
+          "url": "https://linuxbrew.bintray.com/bottles/rtmpdump-2.4+20151223.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e0f07b16feb6ff8c93bf50bc0e0ce6eee8fa83528fbe46978348159786a86524",
+          "url": "https://linuxbrew.bintray.com/bottles/rtmpdump-2.4+20151223.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c7a1bb0f9b2f7c194533a42ade11086fcb03a8bfaf76d479ae22ca4b0d107f20",
+          "url": "https://linuxbrew.bintray.com/bottles/rtmpdump-2.4+20151223.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "flvstreamer"
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Tool for downloading RTMP streaming media",
+  "full_name": "rtmpdump",
+  "homepage": "https://rtmpdump.mplayerhq.hu/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rtmpdump",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.4+20151223"
+  }
+}

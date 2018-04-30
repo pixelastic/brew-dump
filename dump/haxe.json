@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c57c9af6070a2d33401dac05d8b78c4059a95a3c7e212a9595fb5f49d3208a6a",
+          "url": "https://linuxbrew.bintray.com/bottles/haxe-3.4.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2b58281f88a611b0ae4b9a0b1b0fe6e09182f4a71d5b23fb333660527b37bacc",
+          "url": "https://linuxbrew.bintray.com/bottles/haxe-3.4.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5c5c995444cc9e33aa26fcccbf652623ab6ac3006a33eb0bb1d6ce89b02fb5c0",
+          "url": "https://linuxbrew.bintray.com/bottles/haxe-3.4.7.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ocaml",
+    "camlp4",
+    "cmake"
+  ],
+  "caveats": "Add the following line to your .bashrc or equivalent:\n  export HAXE_STD_PATH=\"/home/tim/.linuxbrew/lib/haxe/std\"\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ocaml",
+    "camlp4",
+    "cmake",
+    "neko",
+    "pcre"
+  ],
+  "desc": "Multi-platform programming language",
+  "full_name": "haxe",
+  "homepage": "https://haxe.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "haxe",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.4.7"
+  }
+}

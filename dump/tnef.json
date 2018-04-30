@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ab8d466c0d78822062f8b5a347cc0f5897e02b7c2754bf18613bad85c911c52b",
+          "url": "https://linuxbrew.bintray.com/bottles/tnef-1.4.17.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "15020412f544e13024591117403ff6db1abe840a225d567c755c1f88652fc84d",
+          "url": "https://linuxbrew.bintray.com/bottles/tnef-1.4.17.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f7364607dc960c4b18ff4643cbbb5ebb89a591c36d71a6c2344ab99b725a6f27",
+          "url": "https://linuxbrew.bintray.com/bottles/tnef-1.4.17.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e6af7949072982e817e17f4aad29fe92e8932dd81a5c6cb951d73ced02688c6c",
+          "url": "https://linuxbrew.bintray.com/bottles/tnef-1.4.17.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "desc": "Microsoft MS-TNEF attachment unpacker",
+  "full_name": "tnef",
+  "homepage": "https://github.com/verdammelt/tnef",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tnef",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.17"
+  }
+}

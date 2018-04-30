@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3f69bb369fafd5c207f1c8ea500dc1e725e8e7dfe005215ff14b61fc25ac28e6",
+          "url": "https://linuxbrew.bintray.com/bottles/libcsv-3.0.3.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6946a6ff37a03f75d464cdc1229eb72251ae6b5d2726a658a016e39e862f0e33",
+          "url": "https://linuxbrew.bintray.com/bottles/libcsv-3.0.3.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7c32b16f3528f615214dcca0633995ec01a70ff4db8badd09cbcc3a884fe64fc",
+          "url": "https://linuxbrew.bintray.com/bottles/libcsv-3.0.3.mavericks.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6d89efd634be6551134f099e458225325d76d69f55ba37676a3ccf7bea6c4e59",
+          "url": "https://linuxbrew.bintray.com/bottles/libcsv-3.0.3.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ace67ec808ae6963525164b700ace39c8552f0c68364415401fea532f3ea2fe2",
+          "url": "https://linuxbrew.bintray.com/bottles/libcsv-3.0.3.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "CSV library in ANSI C89",
+  "full_name": "libcsv",
+  "homepage": "https://sourceforge.net/projects/libcsv/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libcsv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.3"
+  }
+}

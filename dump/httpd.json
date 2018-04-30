@@ -1,0 +1,72 @@
+{
+  "aliases": [
+    "apache-httpd",
+    "apache2"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4366077aded14e42705c50fd4d0c859641db3b2fdc9d5f027a79c3a82886db7b",
+          "url": "https://linuxbrew.bintray.com/bottles/httpd-2.4.33.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "12d16378423a5fca0b8c66ba279722cbaa18474d90d150373fae6e75e4b1d304",
+          "url": "https://linuxbrew.bintray.com/bottles/httpd-2.4.33.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "06954b169feaa6aa64e92a3c3e3224594fe3c62f1797b6da9bdbef1458ae4b96",
+          "url": "https://linuxbrew.bintray.com/bottles/httpd-2.4.33.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e28240fa612049c77399e0beb0e56860234bff9e29162b0e77242168990d0484",
+          "url": "https://linuxbrew.bintray.com/bottles/httpd-2.4.33.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "DocumentRoot is /home/tim/.linuxbrew/var/www.\n\nThe default ports have been set in /home/tim/.linuxbrew/etc/httpd/httpd.conf to 8080 and in\n/home/tim/.linuxbrew/etc/httpd/extra/httpd-ssl.conf to 8443 so that httpd can run without sudo.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "apr",
+    "apr-util",
+    "brotli",
+    "nghttp2",
+    "openssl",
+    "pcre"
+  ],
+  "desc": "Apache HTTP server",
+  "full_name": "httpd",
+  "homepage": "https://httpd.apache.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "httpd",
+  "oldname": "httpd24",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.33"
+  }
+}

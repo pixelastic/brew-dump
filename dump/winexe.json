@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "58080b3729c9b261a65c7db2072ec867176bfd6a802c23f9b343feb44592789a",
+          "url": "https://linuxbrew.bintray.com/bottles/winexe-1.00.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "765ad670de08f86b8c9b11ec43493148d1368e6c3ffa5e65d1bca898480996c2",
+          "url": "https://linuxbrew.bintray.com/bottles/winexe-1.00.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "32261fefc9c9fd32e91ddb0776d6e43dcdda32b958f9382a8d784972ba09eb3e",
+          "url": "https://linuxbrew.bintray.com/bottles/winexe-1.00.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e9594f927f9ef58608951175c0bd118b82cf7b25d5b829453195b66f45c2cbc1",
+          "url": "https://linuxbrew.bintray.com/bottles/winexe-1.00.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fa7654ed5641e517a658fe8852a9ee5459acca047518c433d989f1aef69a7a6d",
+          "url": "https://linuxbrew.bintray.com/bottles/winexe-1.00.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "autoconf"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "autoconf"
+  ],
+  "desc": "Remote Windows-command executor",
+  "full_name": "winexe",
+  "homepage": "https://sourceforge.net/projects/winexe/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "winexe",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.00"
+  }
+}

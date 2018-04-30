@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b2d4f23349e2214d5a0c8b51218974b0f8b2704d333f1bca19ca4b4539e2b9f1",
+          "url": "https://linuxbrew.bintray.com/bottles/ninvaders-0.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "75247d901255b6fba826ca60d909b5bb1c349c969b98f65275c898ca45b32b7c",
+          "url": "https://linuxbrew.bintray.com/bottles/ninvaders-0.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3de94522f9f6f5560e1e6f354470aef0c46de68792fd93bd2b044d45db8328c6",
+          "url": "https://linuxbrew.bintray.com/bottles/ninvaders-0.1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fc7369a82b14fa5879d2e072ac7ceaa1b6b7bd6cabd163e6bea8adb3a5670b80",
+          "url": "https://linuxbrew.bintray.com/bottles/ninvaders-0.1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Space Invaders in the terminal",
+  "full_name": "ninvaders",
+  "homepage": "https://ninvaders.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ninvaders",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.1"
+  }
+}

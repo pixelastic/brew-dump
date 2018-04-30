@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "94001fdb6e6e9acf41d916640284ddac9f19d9dbec8fa83aff1ae0e9b4060301",
+          "url": "https://linuxbrew.bintray.com/bottles/libpqxx-6.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2e496888c6e5b1887217bcadc656f00c2f5c50e7c6bc368b9d5efd350d5d6185",
+          "url": "https://linuxbrew.bintray.com/bottles/libpqxx-6.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8d02167d314d158da9ac1f14c2fe64fcf530f8518b125e2d5cda4500c262d726",
+          "url": "https://linuxbrew.bintray.com/bottles/libpqxx-6.1.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "doxygen",
+    "xmlto"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "postgresql",
+    "doxygen",
+    "xmlto"
+  ],
+  "desc": "C++ connector for PostgreSQL",
+  "full_name": "libpqxx",
+  "homepage": "http://pqxx.org/development/libpqxx/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libpqxx",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.1.1"
+  }
+}

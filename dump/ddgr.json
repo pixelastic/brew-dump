@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1fcc37ddba0118645c78282e191b7c13568e40e72c07c69366223e1656310845",
+          "url": "https://linuxbrew.bintray.com/bottles/ddgr-1.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1fcc37ddba0118645c78282e191b7c13568e40e72c07c69366223e1656310845",
+          "url": "https://linuxbrew.bintray.com/bottles/ddgr-1.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1fcc37ddba0118645c78282e191b7c13568e40e72c07c69366223e1656310845",
+          "url": "https://linuxbrew.bintray.com/bottles/ddgr-1.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3db1888668c7174d60c7eb50179fb6c79188385f19b2865da9664681878399ac",
+          "url": "https://linuxbrew.bintray.com/bottles/ddgr-1.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "DuckDuckGo from the terminal",
+  "full_name": "ddgr",
+  "homepage": "https://github.com/jarun/ddgr",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ddgr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4"
+  }
+}

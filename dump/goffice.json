@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "847fe6099207cf8d7abcdb0b80d3f367534586ab8446889aa2cad06c041bcac3",
+          "url": "https://linuxbrew.bintray.com/bottles/goffice-0.10.39_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6e8a61488941cfc97b13521a4a1ba0a1577a8c4a35895568df0a5bcd60dedc94",
+          "url": "https://linuxbrew.bintray.com/bottles/goffice-0.10.39_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3426ceb193fd1b5df10f1ce41cfcbd5eaebe33c18f04730127cc99677fbaae76",
+          "url": "https://linuxbrew.bintray.com/bottles/goffice-0.10.39_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "intltool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "intltool",
+    "pkg-config",
+    "atk",
+    "cairo",
+    "gdk-pixbuf",
+    "gettext",
+    "gtk+3",
+    "libgsf",
+    "librsvg",
+    "pango",
+    "pcre",
+    "libxslt"
+  ],
+  "desc": "Gnumeric spreadsheet program",
+  "full_name": "goffice",
+  "homepage": "https://developer.gnome.org/goffice/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "goffice",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.10.39"
+  }
+}

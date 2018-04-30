@@ -1,0 +1,57 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "a33f75370ac7db6def2353df93e4670197b690758d8d367e4cd2cfaa395d3b8e",
+          "url": "https://linuxbrew.bintray.com/bottles/terraform-0.11.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "gox"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "tfenv"
+  ],
+  "dependencies": [
+    "go",
+    "gox"
+  ],
+  "desc": "Tool to build, change, and version infrastructure",
+  "full_name": "terraform",
+  "homepage": "https://www.terraform.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "terraform",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.11.7"
+  }
+}

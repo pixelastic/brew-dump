@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "61c99517f32bc2fa4ab1f8190efc9874d0984e764092609da332df797bec2aca",
+          "url": "https://linuxbrew.bintray.com/bottles/cayley-0.7.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "13bf69c405651363c7a1c0fd281ca377eab0cde20c3114e00e05a407b3fffcd2",
+          "url": "https://linuxbrew.bintray.com/bottles/cayley-0.7.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fdde7a5914e9cdeac1e47d63ccf3c2f40c4eeb64d97ec4c3b01dfd377e73d5ad",
+          "url": "https://linuxbrew.bintray.com/bottles/cayley-0.7.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b82c60ea37283c9e3d62d70ed79e303d9c4e81aa1621c4506191e83109e2b2dc",
+          "url": "https://linuxbrew.bintray.com/bottles/cayley-0.7.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bazaar",
+    "dep",
+    "go",
+    "mercurial"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bazaar",
+    "dep",
+    "go",
+    "mercurial"
+  ],
+  "desc": "Graph database inspired by Freebase and Knowledge Graph",
+  "full_name": "cayley",
+  "homepage": "https://github.com/cayleygraph/cayley",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cayley",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't install sample data",
+      "option": "--without-samples"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.7.3"
+  }
+}

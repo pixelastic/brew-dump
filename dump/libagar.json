@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b0908e5e28f7a7acce3ec0a333f513afedaef0ef464c75a1faa74a35e4eb3291",
+          "url": "https://linuxbrew.bintray.com/bottles/libagar-1.5.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e04ccaee7f578f806d5544fe130febfb8de0bf3ca7fa3ec3562a623ebf2c9039",
+          "url": "https://linuxbrew.bintray.com/bottles/libagar-1.5.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "718b79132faa46ad0e8d59dd1ae647ecdf89d6e51a9051ad9fdf08becf5c0241",
+          "url": "https://linuxbrew.bintray.com/bottles/libagar-1.5.0_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c030ffe2c1a718afb161bef162b9252a9dd3dad5e4318c818a3f3203c27bdf0d",
+          "url": "https://linuxbrew.bintray.com/bottles/libagar-1.5.0_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl",
+    "freetype",
+    "jpeg",
+    "libpng"
+  ],
+  "desc": "Cross-platform GUI toolkit",
+  "full_name": "libagar",
+  "homepage": "http://libagar.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libagar",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.5.0"
+  }
+}

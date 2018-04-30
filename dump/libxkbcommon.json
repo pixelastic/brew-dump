@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "32ee1c478aa17d7120d86370fd619de9b9ac39671d45d77a7a31ac550b0453d4",
+          "url": "https://linuxbrew.bintray.com/bottles/libxkbcommon-0.8.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7428e9599baa3dfca4a9c181c4d3a2ab934f37987aaad270c8a6fc3921da2c41",
+          "url": "https://linuxbrew.bintray.com/bottles/libxkbcommon-0.8.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "62e85d6d91d4f603d0ab2796904f07a754a782f6a0f23f424810a08b5deff347",
+          "url": "https://linuxbrew.bintray.com/bottles/libxkbcommon-0.8.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3492d40fb3e44ed464b3c703fe9076512e68985e2880635c16002dc4d5a9c0e3",
+          "url": "https://linuxbrew.bintray.com/bottles/libxkbcommon-0.8.0_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bison",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bison",
+    "pkg-config",
+    "linuxbrew/xorg/xkeyboardconfig",
+    "linuxbrew/xorg/xorg",
+    "linuxbrew/xorg/libxcb"
+  ],
+  "desc": "Keyboard handling library",
+  "full_name": "libxkbcommon",
+  "homepage": "https://xkbcommon.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libxkbcommon",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8.0"
+  }
+}

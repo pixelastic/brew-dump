@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f515b54643c9a1282f5f317b925b67bcdd3e43436701b53cf760332a08b68ca1",
+          "url": "https://linuxbrew.bintray.com/bottles/wiredtiger-3.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9b28c70a1c34b298767cfb0e39701639d268a29333cbff304621da049d03bcd4",
+          "url": "https://linuxbrew.bintray.com/bottles/wiredtiger-3.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "54973355aa846d8ff623d96b7890ca24abab9c777e8378afc8df5eda2f7135ff",
+          "url": "https://linuxbrew.bintray.com/bottles/wiredtiger-3.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "831b3d3dd0b7dc3c5e190725e65c6f43be59708545ebe4b72f0683bc69dbd5dd",
+          "url": "https://linuxbrew.bintray.com/bottles/wiredtiger-3.0.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "snappy",
+    "zlib"
+  ],
+  "desc": "High performance NoSQL extensible platform for data management",
+  "full_name": "wiredtiger",
+  "homepage": "http://www.wiredtiger.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wiredtiger",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.0"
+  }
+}

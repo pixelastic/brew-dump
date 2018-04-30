@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "cb19f43f005213580caec8ef9bacb024df5839b0d5a2a337ec6c189340d78548",
+          "url": "https://linuxbrew.bintray.com/bottles/cogl-1.22.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d5cf5821953809ef2d1cefbffec2f6e44a6eaa65ce377e867e938b03983f7125",
+          "url": "https://linuxbrew.bintray.com/bottles/cogl-1.22.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "29ba6e0eea677529b8558de0fc4a81b0ca3c26a6a8c517b92d3108785476d206",
+          "url": "https://linuxbrew.bintray.com/bottles/cogl-1.22.2_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "cairo",
+    "glib",
+    "gtk-doc",
+    "pango"
+  ],
+  "desc": "Low level OpenGL abstraction library developed for Clutter",
+  "full_name": "cogl",
+  "homepage": "https://developer.gnome.org/cogl/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cogl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.22.2"
+  }
+}

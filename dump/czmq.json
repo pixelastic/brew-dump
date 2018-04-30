@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d6966061fd61f2440713473c4f65bb9fd541be2f3be78e1d3f56ca54d366202e",
+          "url": "https://linuxbrew.bintray.com/bottles/czmq-4.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1e414d17fd6c0a4dd9939e84091b5073c23d2477569d12b0ee08d6a425abea14",
+          "url": "https://linuxbrew.bintray.com/bottles/czmq-4.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c0b2b82ae2edfa4dc97f48789ed87050dc0fb602e85a2b510fee6336afe17a5c",
+          "url": "https://linuxbrew.bintray.com/bottles/czmq-4.1.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ade0bb37b32a7da72ca76f302267f30e5f40eb51a1ecb8999ff9d13cd89c93b6",
+          "url": "https://linuxbrew.bintray.com/bottles/czmq-4.1.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "asciidoc",
+    "pkg-config",
+    "xmlto",
+    "python@2"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "asciidoc",
+    "pkg-config",
+    "xmlto",
+    "zeromq",
+    "python@2"
+  ],
+  "desc": "High-level C binding for ZeroMQ",
+  "full_name": "czmq",
+  "homepage": "http://czmq.zeromq.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "czmq",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build and install draft classes and methods",
+      "option": "--with-drafts"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.1.1"
+  }
+}

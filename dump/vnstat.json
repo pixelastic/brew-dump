@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "19db09a61e7be5967f4574b22407628fc15d823f8d2f821bcd3cd99b7b564da1",
+          "url": "https://linuxbrew.bintray.com/bottles/vnstat-1.18.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0e0b04bd9787c9f010d26e5ae3541dea2f175ba4978e6e47facfb64d1fa2b1b5",
+          "url": "https://linuxbrew.bintray.com/bottles/vnstat-1.18.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1dc2fe8f702bdf75b4abd1ac24602f95526dccbec90018bd1e276f1070bf66f1",
+          "url": "https://linuxbrew.bintray.com/bottles/vnstat-1.18.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To monitor interfaces other than \"en0\" edit /home/tim/.linuxbrew/etc/vnstat.conf\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gd"
+  ],
+  "desc": "Console-based network traffic monitor",
+  "full_name": "vnstat",
+  "homepage": "https://humdi.net/vnstat/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vnstat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.18"
+  }
+}

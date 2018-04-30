@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f5363d8f9a41dfbefe1368abb7baadf9d0cc5dc0294676af3ef531a9eced33a0",
+          "url": "https://linuxbrew.bintray.com/bottles/fd-7.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2644d73cbba8a1dd1520f6c2a2628c9c7417dbc58f39fac6936ae290dcea4774",
+          "url": "https://linuxbrew.bintray.com/bottles/fd-7.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e71f013de3825b3fe467304af14e50e3a3712b76628978628896b2ecdc6a5625",
+          "url": "https://linuxbrew.bintray.com/bottles/fd-7.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ab73b59c7f20b66dbbfcf902d47fa574fd9569daab327596fc4dde5b65b6dc7b",
+          "url": "https://linuxbrew.bintray.com/bottles/fd-7.0.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "rust"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "rust"
+  ],
+  "desc": "Simple, fast and user-friendly alternative to find",
+  "full_name": "fd",
+  "homepage": "https://github.com/sharkdp/fd",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "7.0.0"
+  }
+}

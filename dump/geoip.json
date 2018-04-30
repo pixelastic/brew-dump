@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "libgeoip"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9bf37c2b6e7fa5971cd5a029fd6390a830a063b746b0556384019fced6dff534",
+          "url": "https://linuxbrew.bintray.com/bottles/geoip-1.6.12.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f6a895c01acdcc30efb1efe0b6a663e89cd86ce93a1543fb4e39b37c9f2ab2b0",
+          "url": "https://linuxbrew.bintray.com/bottles/geoip-1.6.12.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "00d3f48b250bddd07224b7d3422d36fa5374e27130ec6002f321146920ce711b",
+          "url": "https://linuxbrew.bintray.com/bottles/geoip-1.6.12.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2b99161be39b8b2fe4efb091cd736ad59501d21f6a8ee256f9e58a1188649c42",
+          "url": "https://linuxbrew.bintray.com/bottles/geoip-1.6.12.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "geoipupdate"
+  ],
+  "desc": "This library is for the GeoIP Legacy format (dat)",
+  "full_name": "geoip",
+  "homepage": "https://github.com/maxmind/geoip-api-c",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "geoip",
+  "oldname": null,
+  "optional_dependencies": [
+    "geoipupdate"
+  ],
+  "options": [
+    {
+      "description": "Build with geoipupdate support",
+      "option": "--with-geoipupdate"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.6.12"
+  }
+}

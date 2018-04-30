@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f186cb86f4d48929aa671434dbd6be0a861069608098a30dc952697bcca85972",
+          "url": "https://linuxbrew.bintray.com/bottles/sl-5.02.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "627b0b5f8027f876466d03038da7dd0d75804cccc3bbcf45f0fe9c91199be3c3",
+          "url": "https://linuxbrew.bintray.com/bottles/sl-5.02.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c7d4432bfc169f7338eeb0c8300a975495b229d6e85bfff4fdd6bbd11eb8da17",
+          "url": "https://linuxbrew.bintray.com/bottles/sl-5.02.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "afd30cb3a99d238a8ac52810834244d5f47fc2ff597db9ad61012bd2014395b9",
+          "url": "https://linuxbrew.bintray.com/bottles/sl-5.02.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4496112f89e9706de41635e99f28775a8366b0e4daa7a9d46d2ba4f28a3b971c",
+          "url": "https://linuxbrew.bintray.com/bottles/sl-5.02.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "696104243a18e08279d461e66e6a696791e6c36b67df43e361ad6f6de1200440",
+          "url": "https://linuxbrew.bintray.com/bottles/sl-5.02.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "desc": "Prints a steam locomotive if you type sl instead of ls",
+  "full_name": "sl",
+  "homepage": "https://github.com/mtoyoda/sl",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.02"
+  }
+}

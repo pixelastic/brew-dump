@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1da58b656ab9eb087eb4d8b6990d40b4a5fd92fc4e0c08c561c139ad4fcef039",
+          "url": "https://linuxbrew.bintray.com/bottles/libosinfo-1.1.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f4a54c53fe160f16818d4db569f8818a30c55e777c326982d140478fdd4c8b35",
+          "url": "https://linuxbrew.bintray.com/bottles/libosinfo-1.1.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "538937526c8ad280e978e5e1dba5fa2d73ed6636d7962bc59bb0048a07b7d906",
+          "url": "https://linuxbrew.bintray.com/bottles/libosinfo-1.1.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "intltool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "intltool",
+    "pkg-config",
+    "vala",
+    "check",
+    "gettext",
+    "glib",
+    "libsoup",
+    "libxml2"
+  ],
+  "desc": "The Operating System information database",
+  "full_name": "libosinfo",
+  "homepage": "https://libosinfo.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libosinfo",
+  "oldname": null,
+  "optional_dependencies": [
+    "vala"
+  ],
+  "options": [
+    {
+      "description": "Build with vala support",
+      "option": "--with-vala"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.0"
+  }
+}

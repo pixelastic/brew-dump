@@ -1,0 +1,65 @@
+{
+  "aliases": [
+    "rustup"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bcffb2ac04a2c77bfec589a5c2d3d9f6125e41d22b56a11041dd823846ae9437",
+          "url": "https://linuxbrew.bintray.com/bottles/rustup-init-1.11.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c426ae411e48c723c5c6fd6a1bd99a5187337139bd9e4d30cee2cad37d88d254",
+          "url": "https://linuxbrew.bintray.com/bottles/rustup-init-1.11.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ed86ccc7cb99ee87903b75d6238d388f00d7500cd9b18c806f795e35bc80b762",
+          "url": "https://linuxbrew.bintray.com/bottles/rustup-init-1.11.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "rust",
+    "openssl"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "rust",
+    "openssl"
+  ],
+  "desc": "The Rust toolchain installer",
+  "full_name": "rustup-init",
+  "homepage": "https://github.com/rust-lang-nursery/rustup.rs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rustup-init",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.11.0"
+  }
+}

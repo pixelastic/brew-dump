@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1f202587109188602e9da0e064ffbf08242726eba5fd51037638441ada78d3e1",
+          "url": "https://linuxbrew.bintray.com/bottles/ivykis-0.42.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6de73482d7d358088ded2c8af43993710f2967c2e8c4cd8aa67a6600aefb35bd",
+          "url": "https://linuxbrew.bintray.com/bottles/ivykis-0.42.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3a9f5bdc6f40b4d7f9e7cdfcee7ad993cf02e2ac8fda0d20217ba6c10b783446",
+          "url": "https://linuxbrew.bintray.com/bottles/ivykis-0.42.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1fb0b5c1f6358b46c9f25f706830cd41863ce46e7291c4c2f66dceca9e30b866",
+          "url": "https://linuxbrew.bintray.com/bottles/ivykis-0.42.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "automake",
+    "autoconf",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "automake",
+    "autoconf",
+    "libtool"
+  ],
+  "desc": "Async I/O-assisting library",
+  "full_name": "ivykis",
+  "homepage": "https://sourceforge.net/projects/libivykis",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ivykis",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.42.2"
+  }
+}

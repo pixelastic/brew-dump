@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0f873ab119aaff2cd2c5721ded31b165d9d36ff46919feb64cedee93435181cc",
+          "url": "https://linuxbrew.bintray.com/bottles/glib-networking-2.56.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0952050c43685d2d6c8bea72d0df3d41aba81967cbb13afdcaaba1d5773ed32b",
+          "url": "https://linuxbrew.bintray.com/bottles/glib-networking-2.56.0.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1a7ea930995fd9716bfed8f555ae66ae260dc6043508e069bc2db3ab58b1c9f7",
+          "url": "https://linuxbrew.bintray.com/bottles/glib-networking-2.56.0.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "meson-internal",
+    "pkg-config",
+    "ninja",
+    "python"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "meson-internal",
+    "pkg-config",
+    "ninja",
+    "python",
+    "glib",
+    "gnutls",
+    "gsettings-desktop-schemas",
+    "libidn"
+  ],
+  "desc": "Network related modules for glib",
+  "full_name": "glib-networking",
+  "homepage": "https://launchpad.net/glib-networking",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "glib-networking",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.56.0"
+  }
+}

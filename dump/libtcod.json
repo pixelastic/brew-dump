@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8728af3c1c018e2586708b66fdf8578260a83c875602ff6e796f96f44ea0382e",
+          "url": "https://linuxbrew.bintray.com/bottles/libtcod-1.6.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c9e64cf1266592a440401c31028f97daf076d8bb9ace113a19da1b9c6a01b4bc",
+          "url": "https://linuxbrew.bintray.com/bottles/libtcod-1.6.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "360839e84034f149f3538be489273274a7db2f3b9020162dc94b9798e31dc402",
+          "url": "https://linuxbrew.bintray.com/bottles/libtcod-1.6.4_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c8013cd2ce021b8e2f58e8d9e27602273422db9a53295ce08c68cf0467309220",
+          "url": "https://linuxbrew.bintray.com/bottles/libtcod-1.6.4_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "libzip"
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "sdl2",
+    "zlib",
+    "linuxbrew/xorg/xorg"
+  ],
+  "desc": "API for roguelike developers",
+  "full_name": "libtcod",
+  "homepage": "http://roguecentral.org/doryen/libtcod/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libtcod",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.4"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e8eca6037032ad2b68b9e8c4faa40adb770b10f868448e47852571f1829aa462",
+          "url": "https://linuxbrew.bintray.com/bottles/cliclick-4.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c371cb5b700e4a5f6495545b5f83e5414fc0e0cb98be05231a7abdf6c6607ff4",
+          "url": "https://linuxbrew.bintray.com/bottles/cliclick-4.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bb47d1d8f4c81f31dc9372b5c06d3f74ecb25026805936f62e08744d1b888ecb",
+          "url": "https://linuxbrew.bintray.com/bottles/cliclick-4.0.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tool for emulating mouse and keyboard events",
+  "full_name": "cliclick",
+  "homepage": "https://www.bluem.net/jump/cliclick/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cliclick",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.0.1"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "80956fd9b222cb9185517f3bb2809d93fd23a8acff70e0bbb9e295cc3b54725b",
+          "url": "https://linuxbrew.bintray.com/bottles/gv-3.7.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "afc07271447c8455ac3313775832a1aa264245436b16f0333a4b7dddaf32d702",
+          "url": "https://linuxbrew.bintray.com/bottles/gv-3.7.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ae08a48cf7464fbf8af390ac017646cfa986fd95447ed8af5b91687350e10c93",
+          "url": "https://linuxbrew.bintray.com/bottles/gv-3.7.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2052c4927861e2fcb8f7e9fcf93d6bce2099a979cf6a2ea03d7fee515c14431e",
+          "url": "https://linuxbrew.bintray.com/bottles/gv-3.7.4.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "aabf19a4073bae6b5b337c595169f18a3c4af9157bfcbd2b9b15744c3d0e4f2c",
+          "url": "https://linuxbrew.bintray.com/bottles/gv-3.7.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "ghostscript"
+  ],
+  "desc": "View and navigate through PostScript and PDF documents",
+  "full_name": "gv",
+  "homepage": "https://www.gnu.org/s/gv/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.7.4"
+  }
+}

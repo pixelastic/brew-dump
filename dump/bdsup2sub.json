@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "59b0eccde943ecb9e614dc409ab7ddf7064479b75310c8a782bd7b777d7e25f2",
+          "url": "https://linuxbrew.bintray.com/bottles/bdsup2sub-5.1.2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "178ef2ffa1129b31b099c923f6842302efc2b34bcbdd0e89782bf4ffc82c3c71",
+          "url": "https://linuxbrew.bintray.com/bottles/bdsup2sub-5.1.2.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "36971d050455a728d555831b7b1c554ae658bbceb6a7a26687435e04861c2bb1",
+          "url": "https://linuxbrew.bintray.com/bottles/bdsup2sub-5.1.2.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e75c9ba90b8201a6567aea8b35670426d0b0a38cb5b027f3d588caa3c7503404",
+          "url": "https://linuxbrew.bintray.com/bottles/bdsup2sub-5.1.2.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "maven"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "maven"
+  ],
+  "desc": "Convert and tweak bitmap based subtitle streams",
+  "full_name": "bdsup2sub",
+  "homepage": "https://github.com/mjuhasz/BDSup2Sub",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bdsup2sub",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.1.2"
+  }
+}

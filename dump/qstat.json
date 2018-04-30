@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2f674bb005dab3dcce93c131e5b238f0813638a974f82c85bffdbbeef49eb698",
+          "url": "https://linuxbrew.bintray.com/bottles/qstat-2.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a1eb6ad1e866332084773b799ae547f75d4b9f9684ce44d6177c8ee6d0bf3778",
+          "url": "https://linuxbrew.bintray.com/bottles/qstat-2.11.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "96b05212759a5a648f24ade7334738bda8d4ef4eeb8669e31afe45ed6293dc52",
+          "url": "https://linuxbrew.bintray.com/bottles/qstat-2.11.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "816789bcb602cd112a64dadad943752fed3c7f32785e60a10e486026d5b26adc",
+          "url": "https://linuxbrew.bintray.com/bottles/qstat-2.11.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d63924f48565d8c17295544765e0dac015d7189c7608179dd9d0848c69f9e67b",
+          "url": "https://linuxbrew.bintray.com/bottles/qstat-2.11.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Query Quake servers from the command-line",
+  "full_name": "qstat",
+  "homepage": "https://qstat.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qstat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.11"
+  }
+}

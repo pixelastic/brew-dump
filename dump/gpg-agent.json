@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "6f07d8e495b5eee2d0b13d0b1397c543ac710d5416fbb3571ec67a5937650bab",
+          "url": "https://linuxbrew.bintray.com/bottles/gpg-agent-2.0.31.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "aad65c67de59226ab94dcd307f75dfd007cb4a8d3050863d23c9c39f72dd4b87",
+          "url": "https://linuxbrew.bintray.com/bottles/gpg-agent-2.0.31.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7767c0f021cfab5e062d18069bd7bbbfd82249e1a0d80b5bfbf4eee125c617d4",
+          "url": "https://linuxbrew.bintray.com/bottles/gpg-agent-2.0.31.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ae8724b06d8d419c62402968ca9c5ea5377435b2d693508fe1e9251bad2f45b0",
+          "url": "https://linuxbrew.bintray.com/bottles/gpg-agent-2.0.31.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Remember to add \"use-standard-socket\" to your ~/.gnupg/gpg-agent.conf\nfile.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libgpg-error",
+    "libgcrypt",
+    "libksba",
+    "libassuan",
+    "pth",
+    "pinentry"
+  ],
+  "desc": "GPG key agent",
+  "full_name": "gpg-agent",
+  "homepage": "https://www.gnupg.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "gpg-agent",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.31"
+  }
+}

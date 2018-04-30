@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d1cf341785b66ce316564564abe44d7e6e1d1d6e16b26dc9b1e307c68f0bd22d",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl2-2.0.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "25cc31a9680beb16321613f740fee7fdd862489948a5280e4a5f94b8ed291dd6",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl2-2.0.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "81ae8deb6918e241fc0c3c47c11b1e5041deb297e9010f87e1a1584fcf2c17e8",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl2-2.0.8.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1ac4b6a03d733a9954ec2a47579b8a2c6a7037c86a230be226005aeb05576ea7",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl2-2.0.8.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Low-level access to audio, keyboard, mouse, joystick, and graphics",
+  "full_name": "sdl2",
+  "homepage": "https://www.libsdl.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sdl2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Compile and install the tests",
+      "option": "--with-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.8"
+  }
+}

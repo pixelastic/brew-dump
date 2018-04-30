@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2aee3583d955dfa17cd1495650016a2c5f42d20ca9a6a27a1fea47b8b19ac955",
+          "url": "https://linuxbrew.bintray.com/bottles/radare2-2.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7368e7f17fc5f6e497e1c3a5cebdd163906f656322a4dd3afc853db062428873",
+          "url": "https://linuxbrew.bintray.com/bottles/radare2-2.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c4d0dd76391d45a7b6a035b585856565d6bc2097273409b299e2b80b76a84173",
+          "url": "https://linuxbrew.bintray.com/bottles/radare2-2.5.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "valabind",
+    "swig",
+    "gobject-introspection"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "valabind",
+    "swig",
+    "gobject-introspection",
+    "gmp",
+    "jansson",
+    "libewf",
+    "libmagic",
+    "lua",
+    "openssl",
+    "yara"
+  ],
+  "desc": "Reverse engineering framework",
+  "full_name": "radare2",
+  "homepage": "https://radare.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "radare2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Codesign executables to provide unprivileged process attachment",
+      "option": "--with-code-signing"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.5.0"
+  }
+}

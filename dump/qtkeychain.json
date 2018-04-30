@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3197c42afc2c347dfd25db4bf4b45ceba70d2b866e4ee3f23f57b3501323a3c9",
+          "url": "https://linuxbrew.bintray.com/bottles/qtkeychain-0.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7bb2cc22642e794684140108c996c3373c4ce248f230622a4039fe59f7b178fe",
+          "url": "https://linuxbrew.bintray.com/bottles/qtkeychain-0.8.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3ff9191c8be9555c43ca5b4ba2c2aae4c93bf640c3d03a7e42bac76920f46c80",
+          "url": "https://linuxbrew.bintray.com/bottles/qtkeychain-0.8.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "qt"
+  ],
+  "desc": "Platform-independent Qt API for storing passwords securely",
+  "full_name": "qtkeychain",
+  "homepage": "https://github.com/frankosterfeld/qtkeychain",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qtkeychain",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.0"
+  }
+}

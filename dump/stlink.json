@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ccbaf675310990051e49e0aa53e29f64c54fa9dee4b9d80dd414af0a94aa7694",
+          "url": "https://linuxbrew.bintray.com/bottles/stlink-1.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4315b392911292547e652ef382b6fd26f6d37522997e9be560c5a08808b116ac",
+          "url": "https://linuxbrew.bintray.com/bottles/stlink-1.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "33f865238b5f5e3a994a180aa0a580f8faf05c6dda43eac1e52a522091526fdf",
+          "url": "https://linuxbrew.bintray.com/bottles/stlink-1.5.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "libusb",
+    "gtk+3"
+  ],
+  "desc": "STM32 discovery line Linux programmer",
+  "full_name": "stlink",
+  "homepage": "https://github.com/texane/stlink",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "stlink",
+  "oldname": null,
+  "optional_dependencies": [
+    "gtk+3"
+  ],
+  "options": [
+    {
+      "description": "Build with gtk+3 support",
+      "option": "--with-gtk+3"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.5.0"
+  }
+}

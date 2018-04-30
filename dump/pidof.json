@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d02c826db5564d7750c0e309a771b164f7764250507955d0b87d09837c3c2ba6",
+          "url": "https://linuxbrew.bintray.com/bottles/pidof-0.1.4.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fd5f89cf3a9685142e08a23980d9438e961096d74ee508a96ccbaecb55da6e1a",
+          "url": "https://linuxbrew.bintray.com/bottles/pidof-0.1.4.high_sierra.bottle.2.tar.gz"
+        },
+        "lion": {
+          "sha256": "ce5f3ea346e86cd98880ece0e457a5febfd48165ba947152bea9a3c459f41b3f",
+          "url": "https://linuxbrew.bintray.com/bottles/pidof-0.1.4.lion.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "54ffe0be6ef278aa45cacb856687df925bab1c117d1ab4c1a8f81ae835fb293e",
+          "url": "https://linuxbrew.bintray.com/bottles/pidof-0.1.4.mavericks.bottle.2.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "d79dbbb55e7103639a1bb01413115b2526940cd9a198e59da05fec304369f443",
+          "url": "https://linuxbrew.bintray.com/bottles/pidof-0.1.4.mountain_lion.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6991d110a73724959f84edc398647e3cac5a029645daedef5f263ae51218130d",
+          "url": "https://linuxbrew.bintray.com/bottles/pidof-0.1.4.sierra.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Display the PID number for a given process name",
+  "full_name": "pidof",
+  "homepage": "http://www.nightproductions.net/cli.htm",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pidof",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.4"
+  }
+}

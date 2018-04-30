@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "771078a7ae9a600933d1f38ff80389b7bc158e8aecde9c9c7bf7aecddc75e7a8",
+          "url": "https://linuxbrew.bintray.com/bottles/mupdf-1.12.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4b9122fa576b3bb24754016fa9dad09113dcbe0fe982cff3341d0f8d718fae25",
+          "url": "https://linuxbrew.bintray.com/bottles/mupdf-1.12.0.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a9745c00b9efe835197f89e973f4b25698567c011aa1fdf3052c586ba3503a87",
+          "url": "https://linuxbrew.bintray.com/bottles/mupdf-1.12.0.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "041dc90a89a67305967e089552ac99b78aff093a53a2ed300bec5ee6a85f84ec",
+          "url": "https://linuxbrew.bintray.com/bottles/mupdf-1.12.0.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "mupdf-tools"
+  ],
+  "dependencies": [
+    "openssl",
+    "linuxbrew/xorg/mesa",
+    "linuxbrew/xorg/glu"
+  ],
+  "desc": "Lightweight PDF and XPS viewer",
+  "full_name": "mupdf",
+  "homepage": "https://mupdf.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mupdf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.12.0"
+  }
+}

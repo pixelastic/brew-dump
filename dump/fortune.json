@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "fe681ea371ce058faeebbd459ac9b5f492b7b523652da937ed8cb7d9bbf0eaf8",
+          "url": "https://linuxbrew.bintray.com/bottles/fortune-9708.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6f8a87247d72ed1d9197370b1df307bdb9d949d868ae210b7dc32dc43eaba8ab",
+          "url": "https://linuxbrew.bintray.com/bottles/fortune-9708.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "61792a39fce2c81cf7a47a9230884d0bc19ff7c5f84bc7264f2bc0aa705f8eb1",
+          "url": "https://linuxbrew.bintray.com/bottles/fortune-9708.mavericks.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ac140349dc3a0ce55d2299e90651492df8ccf7839f57d8b1fa6ca221a665efc7",
+          "url": "https://linuxbrew.bintray.com/bottles/fortune-9708.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "97c35357e5becf525ddaede462e40283872d0b5d2cebfeeb7d509cb0ef06fc7c",
+          "url": "https://linuxbrew.bintray.com/bottles/fortune-9708.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Infamous electronic fortune-cookie generator",
+  "full_name": "fortune",
+  "homepage": "https://www.ibiblio.org/pub/linux/games/amusements/fortune/!INDEX.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fortune",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't install potentially offensive fortune files",
+      "option": "--without-offensive"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "9708"
+  }
+}

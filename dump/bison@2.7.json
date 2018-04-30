@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3b49ff1a76807438bfb6805e513d372fba8d49c0259fe4f28e1587d47e42bf5c",
+          "url": "https://linuxbrew.bintray.com/bottles/bison@2.7-2.7.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ee0e758aa798809aaa3e94f1e3659c9d33497a577c25cfc03ecfe18c25862837",
+          "url": "https://linuxbrew.bintray.com/bottles/bison@2.7-2.7.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7f1f717becaf0a818b154d3706b88f6c61a102b4f909e030005aaa5433abc34e",
+          "url": "https://linuxbrew.bintray.com/bottles/bison@2.7-2.7.1_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Parser generator",
+  "full_name": "bison@2.7",
+  "homepage": "https://www.gnu.org/software/bison/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "bison@2.7",
+  "oldname": "bison27",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.7.1"
+  }
+}

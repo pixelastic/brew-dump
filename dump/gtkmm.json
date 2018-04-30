@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "bc5bf8829fd780791602522cc9570aa7287bf700c84af50d580dc35b352ce891",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkmm-2.24.5_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b8f94d6c328554f7cbcc5da15963e54f332b00351dac1f10186737f3057080db",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkmm-2.24.5_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8502c0c9aa545a8fc5184c4f6343278482e955a848813152700f8773988f8878",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkmm-2.24.5_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glibmm",
+    "gtk+",
+    "libsigc++",
+    "pangomm",
+    "atkmm",
+    "cairomm"
+  ],
+  "desc": "C++ interfaces for GTK+ and GNOME",
+  "full_name": "gtkmm",
+  "homepage": "https://www.gtkmm.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gtkmm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.24.5"
+  }
+}

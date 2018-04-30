@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0f38b166fd1d62f79abd53e5c258d5364bf742c332c4eaf2cd1f034df84b3f25",
+          "url": "https://linuxbrew.bintray.com/bottles/prometheus-2.2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "aa682ec246d2db9e3ab9be9b2c3defe6bef8a63908fe3e63d8bbc07e403e3765",
+          "url": "https://linuxbrew.bintray.com/bottles/prometheus-2.2.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aee1c55052a8ee88739d81a7c2c32b2c8567844bd5f26ffa2d28aedebdc57e73",
+          "url": "https://linuxbrew.bintray.com/bottles/prometheus-2.2.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "027b847689b0e993742c61c21a4ad260a17ab7df45e7a0ef2b1b1f2031bba526",
+          "url": "https://linuxbrew.bintray.com/bottles/prometheus-2.2.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Service monitoring system and time series database",
+  "full_name": "prometheus",
+  "homepage": "https://prometheus.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "prometheus",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.1"
+  }
+}

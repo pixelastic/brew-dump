@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0be73930b3dbc8bc247c9a26acbc6115d3f5f665daaabc9ab64606ac6793ace9",
+          "url": "https://linuxbrew.bintray.com/bottles/mcpp-2.7.2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fe1489ca47b0d9e551b4aa1b6cb2a4135848be79e3982856442080f75fcb45d7",
+          "url": "https://linuxbrew.bintray.com/bottles/mcpp-2.7.2.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cdd368c63dc6403832c938967f8f099ec3d02acfcc5c75ab0426ad1cd213b045",
+          "url": "https://linuxbrew.bintray.com/bottles/mcpp-2.7.2.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "612e3efb23a8165af204338a20bbc27ae8fa2ad345964c24d2d7a206dee0317a",
+          "url": "https://linuxbrew.bintray.com/bottles/mcpp-2.7.2.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Alternative C/C++ preprocessor",
+  "full_name": "mcpp",
+  "homepage": "https://mcpp.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mcpp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.7.2"
+  }
+}

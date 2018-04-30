@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "eab24bd5e1c87c5ef4a2ac24268d665140e56ba2f574a396bef12fe4c9c8ab53",
+          "url": "https://linuxbrew.bintray.com/bottles/valabind-1.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2a0472b2988962f2f641a262861caabbf092f034e663bcde64f5319c05acb190",
+          "url": "https://linuxbrew.bintray.com/bottles/valabind-1.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8d34569ba149d3acbd539dd4fa769b716201053135b17e69f46ecb33a3590d84",
+          "url": "https://linuxbrew.bintray.com/bottles/valabind-1.6.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "bison",
+    "flex"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "swig",
+    "vala",
+    "bison",
+    "flex"
+  ],
+  "desc": "Vala bindings for radare, reverse engineering framework",
+  "full_name": "valabind",
+  "homepage": "https://radare.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "valabind",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.6.0"
+  }
+}

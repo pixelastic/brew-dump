@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3ed8f3d4920c6c44b4d25f16402564db5639acb1e3f104329f244cd52051a9f6",
+          "url": "https://linuxbrew.bintray.com/bottles/cheops-1.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a7028a380957e407304abae6f3f8d056c6363681e91792e19bbf1cde19aa44cf",
+          "url": "https://linuxbrew.bintray.com/bottles/cheops-1.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f6087558b906474548d121bf3e745a7291dbc307d0c9ef16b3b6edd92d9dc830",
+          "url": "https://linuxbrew.bintray.com/bottles/cheops-1.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "de719231c43b1494c0a77fe0ef97868399bd67e3c3386fecfd6564f26f4acbdf",
+          "url": "https://linuxbrew.bintray.com/bottles/cheops-1.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "CHEss OPponent Simulator",
+  "full_name": "cheops",
+  "homepage": "https://logological.org/cheops",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cheops",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3"
+  }
+}

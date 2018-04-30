@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "8a23ddb8172c6e882e525262aba6f1074dd67d2fd8a051adc27db843b1c3ca35",
+          "url": "https://linuxbrew.bintray.com/bottles/sngrep-1.4.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c922408522d0a44e37d24a6e76d9ad50ec78cdae2e4bdcac157eccf2f0bc1ee1",
+          "url": "https://linuxbrew.bintray.com/bottles/sngrep-1.4.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "84e4895d9674dde107d145b618e064923e2e473cdfc2b6258cddf7c982a014d5",
+          "url": "https://linuxbrew.bintray.com/bottles/sngrep-1.4.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "openssl"
+  ],
+  "desc": "Command-line tool for displaying SIP calls message flows",
+  "full_name": "sngrep",
+  "homepage": "https://github.com/irontec/sngrep",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sngrep",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.5"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "8be08514cb41775e7ede35d644b526f5066e3ad7d763dc954accb025379a2b1d",
+          "url": "https://linuxbrew.bintray.com/bottles/qmmp-1.2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "221e26205bbbccf57d16f8317213c2ba9c120bd7766f07d68127f834e54fc3e1",
+          "url": "https://linuxbrew.bintray.com/bottles/qmmp-1.2.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c834f256c2efbd8353e56dd27321b0e34087fd3e275e429ed135507d8c21aea1",
+          "url": "https://linuxbrew.bintray.com/bottles/qmmp-1.2.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "qt",
+    "ffmpeg",
+    "flac",
+    "libvorbis",
+    "mad",
+    "libogg",
+    "libsoxr",
+    "faad2",
+    "opus",
+    "opusfile",
+    "mplayer",
+    "libbs2b",
+    "libsndfile",
+    "musepack",
+    "taglib",
+    "libmms",
+    "libsamplerate"
+  ],
+  "desc": "Qt-based Multimedia Player",
+  "full_name": "qmmp",
+  "homepage": "http://qmmp.ylsoftware.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qmmp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.1"
+  }
+}

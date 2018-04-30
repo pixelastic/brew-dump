@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "27d7c2323b047e0def2aab711991484845b75b647ad2cedb4e5fac40f5589cb8",
+          "url": "https://linuxbrew.bintray.com/bottles/libxspf-1.2.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "78d2aa4e8dd9bbff0fe0901fd0fbd79ab8afcb031b50196d8b2466e653df9d1b",
+          "url": "https://linuxbrew.bintray.com/bottles/libxspf-1.2.0.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "9f85ead926bf875a18a91db004a04d6aa814c4766a3ab22c3ffa1a0c5371b836",
+          "url": "https://linuxbrew.bintray.com/bottles/libxspf-1.2.0.mavericks.bottle.1.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "96a893aa4699d97dc39ef95089d6475f44cc00f7d9a9bea991bec30193e8b005",
+          "url": "https://linuxbrew.bintray.com/bottles/libxspf-1.2.0.mountain_lion.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "01b4b201155cf88910c1e4d7fb9427b61e88cf5c7f873ddf41536b07767aa148",
+          "url": "https://linuxbrew.bintray.com/bottles/libxspf-1.2.0.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1d87baedae1c21d2df5bdd91c35be294b7c570e83c5c83fcdf284bce9a985c27",
+          "url": "https://linuxbrew.bintray.com/bottles/libxspf-1.2.0.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cpptest",
+    "uriparser"
+  ],
+  "desc": "C++ library for XSPF playlist reading and writing",
+  "full_name": "libxspf",
+  "homepage": "https://libspiff.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libxspf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.0"
+  }
+}

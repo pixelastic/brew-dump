@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "792064362ef2b224a15190b6fcf97066c7a1d47a3bee13495134aafb067cc11d",
+          "url": "https://linuxbrew.bintray.com/bottles/libnfc-1.7.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6123f4b6cba07ac11b327e378b9b774fca3609cec3e7ef58d6dcb6f6270dc36e",
+          "url": "https://linuxbrew.bintray.com/bottles/libnfc-1.7.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "cabb3f773d92c2cd95af437d6f4c567529229b26b82d568af1c89ec50b674f59",
+          "url": "https://linuxbrew.bintray.com/bottles/libnfc-1.7.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "18ebd76ab92ace056da2f014b3bbfb872d152ff6dc5d66ae274c7bd67474defa",
+          "url": "https://linuxbrew.bintray.com/bottles/libnfc-1.7.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3f2e7a57fca1f12b4b938c6136036f889562540e6c6a8e5188cd32fabd927a9c",
+          "url": "https://linuxbrew.bintray.com/bottles/libnfc-1.7.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libusb-compat"
+  ],
+  "desc": "Low level NFC SDK and Programmers API",
+  "full_name": "libnfc",
+  "homepage": "http://nfc-tools.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libnfc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.1"
+  }
+}

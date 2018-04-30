@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "285e9bf7c3debedb6286ca34971d939c673a35d4553817fdc48dc915e649ba0c",
+          "url": "https://linuxbrew.bintray.com/bottles/le-1.16.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "614516096f3fa5bb72f68fa747e611401098239d72c7e31274b1fdf41a4d0c59",
+          "url": "https://linuxbrew.bintray.com/bottles/le-1.16.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bb670b11e7bf2813cf89cf35ad7e04b67c330cef6c1c07ab5b65fbe1879af67a",
+          "url": "https://linuxbrew.bintray.com/bottles/le-1.16.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "82e83a7c1f1a030429b013d4fd138327003605193e683e092924e80b5e02bf8e",
+          "url": "https://linuxbrew.bintray.com/bottles/le-1.16.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "logentries"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Text editor with block and binary operations",
+  "full_name": "le",
+  "homepage": "https://github.com/lavv17/le",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "le",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.16.5"
+  }
+}

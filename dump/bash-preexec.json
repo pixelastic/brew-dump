@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Add the following line to your bash profile (e.g. ~/.bashrc, ~/.profile, or ~/.bash_profile)\n  [ -f /home/tim/.linuxbrew/etc/profile.d/bash-preexec.sh ] && . /home/tim/.linuxbrew/etc/profile.d/bash-preexec.sh\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "preexec and precmd functions for Bash (just like Zsh)",
+  "full_name": "bash-preexec",
+  "homepage": "https://github.com/rcaloras/bash-preexec",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bash-preexec",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.3.7"
+  }
+}

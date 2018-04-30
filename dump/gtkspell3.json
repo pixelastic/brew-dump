@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "63b6f8d3dc5fc4b01348f91b79013ff3db1b834163c93476609dfd13e6e0930f",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkspell3-3.0.9_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ab277eb4f040f5032fdcf73dc1c7ba270398753c2e0c1cd994df348226bc0740",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkspell3-3.0.9_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "faf983f8d91c4419199e27a3ccb49c8427b4d51d488cf1734c7db6b3f39f72b3",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkspell3-3.0.9_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "gtk+3",
+    "enchant"
+  ],
+  "desc": "Gtk widget for highlighting and replacing misspelled words",
+  "full_name": "gtkspell3",
+  "homepage": "https://gtkspell.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gtkspell3",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.9"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "bd9e2a6f1c907f7032df5929b2d5b8ac8394cd3f54c6f0b0d72b753c212b519d",
+          "url": "https://linuxbrew.bintray.com/bottles/rdfind-1.3.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f9cf95ddb7039e4e1a9afcf84e92cb3abdcdcd8e95d9db1862a363b4399f5ea2",
+          "url": "https://linuxbrew.bintray.com/bottles/rdfind-1.3.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6e47f48f21af1db473c225fa8bb48682b865fd150fcc4794b0cc5e463cbbd73a",
+          "url": "https://linuxbrew.bintray.com/bottles/rdfind-1.3.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2ee858ab1e363b05738aac20f2a81bc993eea3ea5ba8d1419250b5bb84b2adc6",
+          "url": "https://linuxbrew.bintray.com/bottles/rdfind-1.3.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "nettle"
+  ],
+  "desc": "Find duplicate files based on content (NOT file names)",
+  "full_name": "rdfind",
+  "homepage": "https://rdfind.pauldreik.se/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rdfind",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3.5"
+  }
+}

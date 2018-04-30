@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c68cf67ed07a34a4db800598a64b6eb293ac714da6706ef89e58ce9a13ecde99",
+          "url": "https://linuxbrew.bintray.com/bottles/scummvm-tools-2.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "84313eb5337d2f3c37f9ad5c494da4b43546422f9428f33dcf9b0c2af54473b8",
+          "url": "https://linuxbrew.bintray.com/bottles/scummvm-tools-2.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5a9144ac0d1812d401ff76df988bac6bc681903bd94aad2b3f97a2e2279e9d73",
+          "url": "https://linuxbrew.bintray.com/bottles/scummvm-tools-2.0.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "flac",
+    "freetype",
+    "libpng",
+    "libvorbis",
+    "mad",
+    "wxmac"
+  ],
+  "desc": "Collection of tools for ScummVM",
+  "full_name": "scummvm-tools",
+  "homepage": "https://www.scummvm.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "scummvm-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without wxmac support",
+      "option": "--without-wxmac"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "wxmac"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.0"
+  }
+}

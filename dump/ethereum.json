@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "cd79f37078803b585a5ed73d2c303136624e9756350279c039b3aa26953c9163",
+          "url": "https://linuxbrew.bintray.com/bottles/ethereum-1.8.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ba3d8276f26bb1fca210cdf7cab1d7966600cfdca9c47a323f5ac18a3e8320c6",
+          "url": "https://linuxbrew.bintray.com/bottles/ethereum-1.8.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b01165173c8d5ec81e5fa03a6dd0c331bd738180184cc1100446260f8eeffbb3",
+          "url": "https://linuxbrew.bintray.com/bottles/ethereum-1.8.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a9223239f2000d693cadd95437f5277c6b671f9ba3eb98ef3e3c88dcfdd86490",
+          "url": "https://linuxbrew.bintray.com/bottles/ethereum-1.8.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Official Go implementation of the Ethereum protocol",
+  "full_name": "ethereum",
+  "homepage": "https://ethereum.github.io/go-ethereum/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ethereum",
+  "oldname": "geth",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.4"
+  }
+}

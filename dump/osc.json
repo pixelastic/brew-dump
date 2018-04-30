@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "043bdca5680a6bf33dc77a570263e1745c1d245f44dddd3b41381b652422bfa7",
+          "url": "https://linuxbrew.bintray.com/bottles/osc-0.162.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5a6ceb89aa5c491bd61e53107dd9b28f10c8393791158f5b8ecf034dbdbc7d6d",
+          "url": "https://linuxbrew.bintray.com/bottles/osc-0.162.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0ca18dc46293ce26f11e46bfc18670dc036b7c692608a93b2ab306c80bbaa695",
+          "url": "https://linuxbrew.bintray.com/bottles/osc-0.162.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "swig"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "swig",
+    "openssl",
+    "curl"
+  ],
+  "desc": "The command-line interface to work with an Open Build Service",
+  "full_name": "osc",
+  "homepage": "https://github.com/openSUSE/osc",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "osc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.162.1"
+  }
+}

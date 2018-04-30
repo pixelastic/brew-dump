@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3a53e9b30020275a6bc34d222a854d1c7b47dc52618bf1a6103877fc303e275c",
+          "url": "https://linuxbrew.bintray.com/bottles/amazon-ecs-cli-1.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3290688ce1945553b6ccbc021a830840eeec1d540bc78e2617e7701180299c36",
+          "url": "https://linuxbrew.bintray.com/bottles/amazon-ecs-cli-1.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a86505088a84910375bb7332d6cfdf1b7f7fbaf24405b0f16e9891e59d6a11ba",
+          "url": "https://linuxbrew.bintray.com/bottles/amazon-ecs-cli-1.5.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "85a70ac7d192fabb8916722dfe677b6c7069b0bdb94167ba6c1b06303e952715",
+          "url": "https://linuxbrew.bintray.com/bottles/amazon-ecs-cli-1.5.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "CLI for Amazon ECS to manage clusters and tasks for development",
+  "full_name": "amazon-ecs-cli",
+  "homepage": "https://aws.amazon.com/ecs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "amazon-ecs-cli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.0"
+  }
+}

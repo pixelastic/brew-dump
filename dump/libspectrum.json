@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ae0fef62ab3cbfc4f53a69203c517b217016c2bfd76edfeea66cdbbcf7915c8c",
+          "url": "https://linuxbrew.bintray.com/bottles/libspectrum-1.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "345eb34fea01e4c8c56ebd6cf9760212f2824128994d36ed54101ae1a7ea8ede",
+          "url": "https://linuxbrew.bintray.com/bottles/libspectrum-1.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3a73d20585d1bcfd63cd22cf875ffd5d7ef00f7edf72117beefaca8886be8da4",
+          "url": "https://linuxbrew.bintray.com/bottles/libspectrum-1.4.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libgcrypt",
+    "glib",
+    "audiofile"
+  ],
+  "desc": "Support library for ZX Spectrum emulator",
+  "full_name": "libspectrum",
+  "homepage": "https://fuse-emulator.sourceforge.io/libspectrum.php",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libspectrum",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without libgcrypt support",
+      "option": "--without-libgcrypt"
+    },
+    {
+      "description": "Build without glib support",
+      "option": "--without-glib"
+    },
+    {
+      "description": "Build without audiofile support",
+      "option": "--without-audiofile"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libgcrypt",
+    "glib",
+    "audiofile"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.1"
+  }
+}

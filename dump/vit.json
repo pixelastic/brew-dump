@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "148f01bcfe731892cbfbc63eb9e8d95fded12f07c2d56a7429f8ddea27207f51",
+          "url": "https://linuxbrew.bintray.com/bottles/vit-1.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d2ffe07bc8ede58d12bcb7401db8f3086eaba071f57b3ec4ce377e0ad18e4d3d",
+          "url": "https://linuxbrew.bintray.com/bottles/vit-1.2_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "3f7e65dd15708aaf63ed1d3d3bc948cd020371b35c4537a1366d34a94181767e",
+          "url": "https://linuxbrew.bintray.com/bottles/vit-1.2_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "26c2d6376f2c94d32d11972dbd061e5d4ef1edd31c889a084558339494c34b5b",
+          "url": "https://linuxbrew.bintray.com/bottles/vit-1.2_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e91023aac9f44f67570d248255fc61ed614091fdfafb16003b49064d90866d91",
+          "url": "https://linuxbrew.bintray.com/bottles/vit-1.2_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "task"
+  ],
+  "desc": "Front-end for Task Warrior",
+  "full_name": "vit",
+  "homepage": "https://taskwarrior.org/news/news.20140406.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2"
+  }
+}

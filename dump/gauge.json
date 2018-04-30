@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "89c8bab4f0fd5f3d8681c672587bff6246c2d063d7f727977a6f265c5b9370e5",
+          "url": "https://linuxbrew.bintray.com/bottles/gauge-0.9.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1e82dfc7eaed111730eb75b830fdb3888617ecddde9f493b70901133c4ca0ada",
+          "url": "https://linuxbrew.bintray.com/bottles/gauge-0.9.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a5d4aa1090d8266080b3c68daddc6475113dbe1857d7185b6c03a3b28a3f7820",
+          "url": "https://linuxbrew.bintray.com/bottles/gauge-0.9.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "45501f6f502d1af8dec44b0a662caac88af12574bac2181da5008b76588a9cac",
+          "url": "https://linuxbrew.bintray.com/bottles/gauge-0.9.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "godep"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "godep"
+  ],
+  "desc": "Test automation tool that supports executable documentation",
+  "full_name": "gauge",
+  "homepage": "https://getgauge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gauge",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.7"
+  }
+}

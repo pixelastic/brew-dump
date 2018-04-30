@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "af64990b64d29f8383db471092279e9d039c7c81b6294099bb456890b6b5161b",
+          "url": "https://linuxbrew.bintray.com/bottles/emp-0.13.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d96c6b3f2ee49480ddc0dac10484284e7620dce5499482bdaf12c26f42f93a13",
+          "url": "https://linuxbrew.bintray.com/bottles/emp-0.13.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2a45cd98d7345ff1872137576f97a028729ff4c0d62994d1ce6d573e3835e9db",
+          "url": "https://linuxbrew.bintray.com/bottles/emp-0.13.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "CLI for Empire",
+  "full_name": "emp",
+  "homepage": "https://github.com/remind101/empire",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "emp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.13.0"
+  }
+}

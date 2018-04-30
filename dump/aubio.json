@@ -1,0 +1,101 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ad6cdea7d6a62f5b6d4101f4b4225e4d4fe4f940d5ab0eae8cdf1b1cf3a60d01",
+          "url": "https://linuxbrew.bintray.com/bottles/aubio-0.4.6_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "aa38cdd6191590eed102eb940da4e8e21daf5fc3628a747360d09b269c18cbf2",
+          "url": "https://linuxbrew.bintray.com/bottles/aubio-0.4.6_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cbca234f689b0f8daae34c15df6234b5477fac3723fe2bb140f693746b1d86f3",
+          "url": "https://linuxbrew.bintray.com/bottles/aubio-0.4.6_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libtool",
+    "numpy",
+    "python@2",
+    "libav",
+    "libsndfile",
+    "libsamplerate",
+    "fftw",
+    "jack"
+  ],
+  "desc": "Extract annotations from audio signals",
+  "full_name": "aubio",
+  "homepage": "https://aubio.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aubio",
+  "oldname": null,
+  "optional_dependencies": [
+    "libav",
+    "libsndfile",
+    "libsamplerate",
+    "fftw",
+    "jack"
+  ],
+  "options": [
+    {
+      "description": "Build with libav support",
+      "option": "--with-libav"
+    },
+    {
+      "description": "Build with libsndfile support",
+      "option": "--with-libsndfile"
+    },
+    {
+      "description": "Build with libsamplerate support",
+      "option": "--with-libsamplerate"
+    },
+    {
+      "description": "Build with fftw support",
+      "option": "--with-fftw"
+    },
+    {
+      "description": "Build with jack support",
+      "option": "--with-jack"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.6"
+  }
+}

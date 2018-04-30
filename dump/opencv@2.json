@@ -1,0 +1,81 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "e428596522c93fe86203b3ff4bbb7a07f45e13a0cc850e26f6282dba2d27e3ab",
+          "url": "https://linuxbrew.bintray.com/bottles/opencv@2-2.4.13.6_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a78614f4dd7a5b692a91cb224ed3263f2d9cb9d16c8998f5343c1269f6670c97",
+          "url": "https://linuxbrew.bintray.com/bottles/opencv@2-2.4.13.6_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "132eb349e2c75e7d87b92a92c2cb78071efc22a93bc2b9f232644a8ef8cd2f4b",
+          "url": "https://linuxbrew.bintray.com/bottles/opencv@2-2.4.13.6_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8d088c4b81f89d972cd8f0f1cbfe2c902d06fd722ae4c63f064d41a4dd2a73a0",
+          "url": "https://linuxbrew.bintray.com/bottles/opencv@2-2.4.13.6_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "eigen",
+    "ffmpeg",
+    "jpeg",
+    "libpng",
+    "libtiff",
+    "openexr",
+    "python@2",
+    "numpy"
+  ],
+  "desc": "Open source computer vision library",
+  "full_name": "opencv@2",
+  "homepage": "https://opencv.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "opencv@2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without python2 support",
+      "option": "--without-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python@2"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.13.6"
+  }
+}

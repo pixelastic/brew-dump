@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f7e4e63df01aa33a6518f4f6c2c0ccbb0c7b8aaca95052d4aa827b5e56ed8e5c",
+          "url": "https://linuxbrew.bintray.com/bottles/corkscrew-2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "53e2a491ecc6b1446ed3dcf1fc9a8c44ca9735acd9d0626e7806dc80b5285e79",
+          "url": "https://linuxbrew.bintray.com/bottles/corkscrew-2.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "79ca3f19c2a8df1cd7b43410ab600d32c4fc7038f99998acb656e5cc61807f25",
+          "url": "https://linuxbrew.bintray.com/bottles/corkscrew-2.0.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "8844bb407417189b8ded9d8843017a86306f7832b776906d18db5817503faa84",
+          "url": "https://linuxbrew.bintray.com/bottles/corkscrew-2.0.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "85d9050689df4cf0ec3275957fad60609ea1a9511079f20f05470e1b767c94f2",
+          "url": "https://linuxbrew.bintray.com/bottles/corkscrew-2.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5a0916aa242a22808bbbb652664f1e44620c1c78b896982f67c9a5a1b85a5efc",
+          "url": "https://linuxbrew.bintray.com/bottles/corkscrew-2.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtool"
+  ],
+  "desc": "Tunnel SSH through HTTP proxies",
+  "full_name": "corkscrew",
+  "homepage": "https://packages.debian.org/sid/corkscrew",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "corkscrew",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0"
+  }
+}

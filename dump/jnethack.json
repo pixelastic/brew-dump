@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c11837932635f89762360ad449e189c44e8213cb74f981ccb7908671a0e3ad4b",
+          "url": "https://linuxbrew.bintray.com/bottles/jnethack-3.4.3-0.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7422717258f234810d99d330df0a0e99b90da7328db9324a92d39a63869e008b",
+          "url": "https://linuxbrew.bintray.com/bottles/jnethack-3.4.3-0.11.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "89c2fed343614d39084a8c59908032fe929e78c1572e92f50b9eafa4aca3860d",
+          "url": "https://linuxbrew.bintray.com/bottles/jnethack-3.4.3-0.11.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f0c7c0c5bbf5c7d5b2d733fd76d49f31039b15c982a7ef7530444f734a41ec7c",
+          "url": "https://linuxbrew.bintray.com/bottles/jnethack-3.4.3-0.11.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Japanese localization of Nethack",
+  "full_name": "jnethack",
+  "homepage": "https://jnethack.osdn.jp/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jnethack",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.4.3-0.11"
+  }
+}

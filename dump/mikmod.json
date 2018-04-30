@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ae0b4480b6b34327b9c99601d7e2cbc9648ece54344bd4bda3582ef048e1f1de",
+          "url": "https://linuxbrew.bintray.com/bottles/mikmod-3.2.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5907f92b40ddc0ba15cddd60269a9f9a8e9fcf6295a099df4145818536431427",
+          "url": "https://linuxbrew.bintray.com/bottles/mikmod-3.2.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a9586a9306006e8fd451aecb6c3259fc57cb0bb328a2b0ce8c064e5518f943bc",
+          "url": "https://linuxbrew.bintray.com/bottles/mikmod-3.2.8.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7d52131b792e01d3037dac4be52811744dfad23c2a11f4ee3d1985a8fb8f0331",
+          "url": "https://linuxbrew.bintray.com/bottles/mikmod-3.2.8.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libmikmod"
+  ],
+  "desc": "Portable tracked music player",
+  "full_name": "mikmod",
+  "homepage": "http://mikmod.raphnet.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mikmod",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.2.8"
+  }
+}

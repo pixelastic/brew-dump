@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "da5c90f85204fa90a38da073765ec5c0f0a20333bcdcd131d79b682afa74233f",
+          "url": "https://linuxbrew.bintray.com/bottles/quotatool-1.6.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bbf7543458972806f3c15b25bf7cd71276159b54ae1ada3beb12e6d29328ec0e",
+          "url": "https://linuxbrew.bintray.com/bottles/quotatool-1.6.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "724a3fc561188de5e0e050f7459480cc8c613d399faee5290ec7a68b9715960d",
+          "url": "https://linuxbrew.bintray.com/bottles/quotatool-1.6.2.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "29271c3bc97b9623264fe2f67e821f1810442f11b15ad1b7f231472905d078e4",
+          "url": "https://linuxbrew.bintray.com/bottles/quotatool-1.6.2.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4d04c382c8cf8b0376b34ce12813be06e879fdf6b60711cf90643d08887304fb",
+          "url": "https://linuxbrew.bintray.com/bottles/quotatool-1.6.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8af3549d42247f0b79458c96978f8f5e5fbe04cc1c0dd86f84accdf03e8e510f",
+          "url": "https://linuxbrew.bintray.com/bottles/quotatool-1.6.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Edit disk quotas from the command-line",
+  "full_name": "quotatool",
+  "homepage": "https://quotatool.ekenberg.se/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "quotatool",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.2"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "2d792cb3963a7caf57922635888ae4e3cf363ef5a81d23f13a11d0ee42a780cf",
+          "url": "https://linuxbrew.bintray.com/bottles/zookeeper-3.4.10.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "08431d9c2f04f5a735149f374975df4f2e0d8140b1cc901f505d379ef7e20fe0",
+          "url": "https://linuxbrew.bintray.com/bottles/zookeeper-3.4.10.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8c7304be183d4c28c0f5d88e22626188c76794bee004e1b330c3e79bf5ae9d53",
+          "url": "https://linuxbrew.bintray.com/bottles/zookeeper-3.4.10.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fbf09c8cabcc2080f8f935ca77850367879a0dcd638ebd8b23131d57b528ffdc",
+          "url": "https://linuxbrew.bintray.com/bottles/zookeeper-3.4.10.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Centralized server for distributed coordination of services",
+  "full_name": "zookeeper",
+  "homepage": "https://zookeeper.apache.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zookeeper",
+  "oldname": null,
+  "optional_dependencies": [
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Build Perl bindings",
+      "option": "--with-perl"
+    },
+    {
+      "description": "Build with python@2 support",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.4.10"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "114d2ce95e530c6850bc36a52a1053ecf05185d774ed499bd1725811b3c1b88c",
+          "url": "https://linuxbrew.bintray.com/bottles/bashish-2.2.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b7caabd1274134f33dd458ac444bbe14a139de76b91f8bebb56349377b840a5e",
+          "url": "https://linuxbrew.bintray.com/bottles/bashish-2.2.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "048bdedf5840f06f7ce38c153663d9c7b440f8829ade2474a47672a9e33b2c12",
+          "url": "https://linuxbrew.bintray.com/bottles/bashish-2.2.4.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "31134b56c7ad43b04ef186485af8581dbf8d8d8fcf615d259554d9c5adc7233f",
+          "url": "https://linuxbrew.bintray.com/bottles/bashish-2.2.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c4b2a6375186d1d478b34054c54359b6489bfbf12b63a41fe6d082e5bcffec66",
+          "url": "https://linuxbrew.bintray.com/bottles/bashish-2.2.4.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "cb3bfee8b595277be04660817eb269e97744d5f49dcac431ae7473982ad5d405",
+          "url": "https://linuxbrew.bintray.com/bottles/bashish-2.2.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "dialog"
+  ],
+  "desc": "Theme environment for text terminals",
+  "full_name": "bashish",
+  "homepage": "https://bashish.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bashish",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.4"
+  }
+}

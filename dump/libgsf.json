@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "625687aaed0be8749b5bfd39160e760cecd8fe7fe51ecc24b60dcf32d620f91a",
+          "url": "https://linuxbrew.bintray.com/bottles/libgsf-1.14.43.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "31ec48d4eb908d85fda219299f442548997ce4600a5d46dab0889dbbe2a37097",
+          "url": "https://linuxbrew.bintray.com/bottles/libgsf-1.14.43.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7c7ca0aae4be13b4f7a12fcdf6cfa528ff10de2b67c477246123e88e4aaac78b",
+          "url": "https://linuxbrew.bintray.com/bottles/libgsf-1.14.43.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ba3d32f2e0e3bceb58842112c4dc3075e743237de8bd1ace8f4978c1a30ed839",
+          "url": "https://linuxbrew.bintray.com/bottles/libgsf-1.14.43.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "intltool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "intltool",
+    "pkg-config",
+    "gettext",
+    "glib",
+    "gdk-pixbuf",
+    "libxml2"
+  ],
+  "desc": "I/O abstraction library for dealing with structured file formats",
+  "full_name": "libgsf",
+  "homepage": "https://developer.gnome.org/gsf/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libgsf",
+  "oldname": null,
+  "optional_dependencies": [
+    "gdk-pixbuf"
+  ],
+  "options": [
+    {
+      "description": "Build with gdk-pixbuf support",
+      "option": "--with-gdk-pixbuf"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.14.43"
+  }
+}

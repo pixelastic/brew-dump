@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0040885911e6bbab3b2b7b1c29e99e31363e6f24ff83d982afb54a1d11623715",
+          "url": "https://linuxbrew.bintray.com/bottles/epic5-2.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "202fe91849aeafe5d8838554f4ee4a31286cae844b418402408b6e91121ddc01",
+          "url": "https://linuxbrew.bintray.com/bottles/epic5-2.0.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "0f17c628454c763deb0d5e20d488b0ef427ec6d5041a7f7223a0eaa9fa601e7c",
+          "url": "https://linuxbrew.bintray.com/bottles/epic5-2.0.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9aeed705e50bf7f3459d0a8d0dd086c8c2c86d8b6028c22a002d60e3a5183183",
+          "url": "https://linuxbrew.bintray.com/bottles/epic5-2.0.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8617a71ad3aead7226e7a71f90f5a834341031b6195c862d64757a662cb7e8a1",
+          "url": "https://linuxbrew.bintray.com/bottles/epic5-2.0.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Enhanced, programmable IRC client",
+  "full_name": "epic5",
+  "homepage": "http://www.epicsol.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "epic5",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.1"
+  }
+}

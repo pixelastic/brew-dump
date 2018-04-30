@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "874a0fb12f7aaca58e8da405a0930cb108fd505a547355ac4bc8ddceec083816",
+          "url": "https://linuxbrew.bintray.com/bottles/iron-functions-0.2.72.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0c7b0ffb269c9f977cd2c10d7bd838257ff49ebf9bf99967deda27cdcdc3420f",
+          "url": "https://linuxbrew.bintray.com/bottles/iron-functions-0.2.72.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9a2edabc008d14c1eabbda2cb0c1368a39b69f842d78f2b9fb0fd25d50cabeca",
+          "url": "https://linuxbrew.bintray.com/bottles/iron-functions-0.2.72.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d83e7c0c4f71fc82044b158b74fdcf14e95447ac49881f8c245e545eb6537abc",
+          "url": "https://linuxbrew.bintray.com/bottles/iron-functions-0.2.72.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "dep",
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "dep",
+    "go"
+  ],
+  "desc": "Go version of the IronFunctions command-line tools",
+  "full_name": "iron-functions",
+  "homepage": "https://github.com/iron-io/functions",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "iron-functions",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.72"
+  }
+}

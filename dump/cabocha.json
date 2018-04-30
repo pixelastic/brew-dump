@@ -1,0 +1,100 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bf3ed6bc9333b43919264913c40a86997a7601a83abf6dcfa1dfe14745b3fc7c",
+          "url": "https://linuxbrew.bintray.com/bottles/cabocha-0.69.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "beafa5ccf84633bed67d405f22ac8e570d2dc2fe0e10fccf8c11076639c672ae",
+          "url": "https://linuxbrew.bintray.com/bottles/cabocha-0.69.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "794df46e362f3146b2bab17ba132978609954b0ba0a51ffa4d6d4e8845548764",
+          "url": "https://linuxbrew.bintray.com/bottles/cabocha-0.69.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "b1aaf6623ac7332459c795ebd992ed92224b0d0b9e20fb57dd0313fbeea7647c",
+          "url": "https://linuxbrew.bintray.com/bottles/cabocha-0.69.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "27bd41bab80ab64fb32e5bc8b568864b874f0dec16817d38c37abd3c7582c694",
+          "url": "https://linuxbrew.bintray.com/bottles/cabocha-0.69.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fe97decdca655899faffd6356bb8ddbb52d4949222690835374c3aeb9a65cdb2",
+          "url": "https://linuxbrew.bintray.com/bottles/cabocha-0.69.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "crf++",
+    "mecab",
+    "mecab-ipadic",
+    "mecab-jumandic",
+    "mecab-unidic"
+  ],
+  "desc": "Yet Another Japanese Dependency Structure Analyzer",
+  "full_name": "cabocha",
+  "homepage": "https://taku910.github.io/cabocha/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cabocha",
+  "oldname": null,
+  "optional_dependencies": [
+    "mecab-jumandic",
+    "mecab-unidic"
+  ],
+  "options": [
+    {
+      "description": "choose default charset: EUC-JP, CP932, UTF8",
+      "option": "--with-charset="
+    },
+    {
+      "description": "choose default posset: IPA, JUMAN, UNIDIC",
+      "option": "--with-posset="
+    },
+    {
+      "description": "Build without mecab-ipadic support",
+      "option": "--without-mecab-ipadic"
+    },
+    {
+      "description": "Build with mecab-jumandic support",
+      "option": "--with-mecab-jumandic"
+    },
+    {
+      "description": "Build with mecab-unidic support",
+      "option": "--with-mecab-unidic"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "mecab-ipadic"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.69"
+  }
+}

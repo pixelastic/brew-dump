@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7720cbd91068e56cb2b772a817891894c4e0938ace1abff6fafc9859c98f70f7",
+          "url": "https://linuxbrew.bintray.com/bottles/bzt-1.11.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c6e01ec8f95f9831f26130c6e7aa222b2175565528d2d9b8d78526c5f0b6b187",
+          "url": "https://linuxbrew.bintray.com/bottles/bzt-1.11.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7e458992e84b60a9fca467cd8e9e32878a09848994a769b8711a036f39b0145f",
+          "url": "https://linuxbrew.bintray.com/bottles/bzt-1.11.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "BlazeMeter Taurus",
+  "full_name": "bzt",
+  "homepage": "https://gettaurus.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bzt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.11.1"
+  }
+}

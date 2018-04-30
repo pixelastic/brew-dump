@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ac5a34c222875d86113275127632fe02ccc15c0332c7719cdac8321aa0f83bc4",
+          "url": "https://linuxbrew.bintray.com/bottles/cdb-0.75.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f187d9ff7ddb1a1532e83924d32d02521afc943738e4b21c79da5712340b0bbb",
+          "url": "https://linuxbrew.bintray.com/bottles/cdb-0.75.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "e0be7db3074bc27f430c2b7536b4f3676cafc9d7e574971cdb592340be0fec06",
+          "url": "https://linuxbrew.bintray.com/bottles/cdb-0.75.mavericks.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "16b08929c8c42feeb2df4eaed5b46967eca487aaa20585dc5869ba44a28f0fe8",
+          "url": "https://linuxbrew.bintray.com/bottles/cdb-0.75.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4181f08e221e9cebd1cb9f7dd0082fef86d8f8571831491464340b68be238186",
+          "url": "https://linuxbrew.bintray.com/bottles/cdb-0.75.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Create and read constant databases",
+  "full_name": "cdb",
+  "homepage": "https://cr.yp.to/cdb.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cdb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.75"
+  }
+}

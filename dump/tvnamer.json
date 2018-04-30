@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "546b13ef89b777d7076948d993adc9a57c664b2bbc9cb2f429cf042f3d61d165",
+          "url": "https://linuxbrew.bintray.com/bottles/tvnamer-2.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4f1ae20737bed54785fce92bbdd67c78f3b20553312d02051f72b8906211d507",
+          "url": "https://linuxbrew.bintray.com/bottles/tvnamer-2.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c1a03bc94b59d7e044445daa9c0037b46230271d457d658aba3e7e55e9291dd0",
+          "url": "https://linuxbrew.bintray.com/bottles/tvnamer-2.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "546b13ef89b777d7076948d993adc9a57c664b2bbc9cb2f429cf042f3d61d165",
+          "url": "https://linuxbrew.bintray.com/bottles/tvnamer-2.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Automatic TV episode file renamer that uses data from thetvdb.com",
+  "full_name": "tvnamer",
+  "homepage": "https://github.com/dbr/tvnamer",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tvnamer",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.4"
+  }
+}

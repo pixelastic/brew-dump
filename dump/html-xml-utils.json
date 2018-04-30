@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7ad2d1091290328f64ac652e8180d89646b7479dcbad4c37b38846442ca1682c",
+          "url": "https://linuxbrew.bintray.com/bottles/html-xml-utils-7.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "64176b3356d26c3467dfb182a28d4724fee74181191e8e719c93f705cc6a1329",
+          "url": "https://linuxbrew.bintray.com/bottles/html-xml-utils-7.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "043e115bd9135d1d0ebe9cbceae1c2c8b826abea8b845d99b91fa8252622ab5e",
+          "url": "https://linuxbrew.bintray.com/bottles/html-xml-utils-7.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fbba2da808907c4943cacba4638e06a8c2faa1546f7877b3f1d90f425746938d",
+          "url": "https://linuxbrew.bintray.com/bottles/html-xml-utils-7.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tools for manipulating HTML and XML files",
+  "full_name": "html-xml-utils",
+  "homepage": "https://www.w3.org/Tools/HTML-XML-utils/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "html-xml-utils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.6"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c7d19659c7d8bca8dead320d7d1ec49fda852629d5061a5760fcb88bd0059b4c",
+          "url": "https://linuxbrew.bintray.com/bottles/fakeroot-1.22.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "999c3be4f098cab81b11516ce2b9e8ac41e5bf9255f9acf3c5cda90f1c657eb3",
+          "url": "https://linuxbrew.bintray.com/bottles/fakeroot-1.22.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dedb2018898785d98f98370fb88a89865d6a5e2f679166a457a511c305af0a30",
+          "url": "https://linuxbrew.bintray.com/bottles/fakeroot-1.22.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d1be0e8562a2d80b505d253bc308ed0afee830b9e4c151a3039326adbd17b59c",
+          "url": "https://linuxbrew.bintray.com/bottles/fakeroot-1.22.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Provide a fake root environment",
+  "full_name": "fakeroot",
+  "homepage": "https://tracker.debian.org/pkg/fakeroot",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fakeroot",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.22"
+  }
+}

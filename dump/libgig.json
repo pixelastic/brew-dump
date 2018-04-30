@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ead7f19fe837a7b38ef753993ad3c73b36a07269d1c12c9d1220204fa46a046a",
+          "url": "https://linuxbrew.bintray.com/bottles/libgig-4.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e76d0051885444442b71bd65228a5b777c83640d4088c6d8c07ef56a88ef68d6",
+          "url": "https://linuxbrew.bintray.com/bottles/libgig-4.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "52a948f55300ca0b67e346fa987c4967cabcaf0c7e43698c86ef4dd2f5add67d",
+          "url": "https://linuxbrew.bintray.com/bottles/libgig-4.1.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libsndfile"
+  ],
+  "desc": "Library for Gigasampler and DLS (Downloadable Sounds) Level 1/2 files",
+  "full_name": "libgig",
+  "homepage": "https://www.linuxsampler.org/libgig/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libgig",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.1.0"
+  }
+}

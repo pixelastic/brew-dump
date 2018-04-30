@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c791b4905477a5fbc33345cef5e412807ffc90ba6ea35bfc9a263f542702aa1c",
+          "url": "https://linuxbrew.bintray.com/bottles/scons-3.0.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c791b4905477a5fbc33345cef5e412807ffc90ba6ea35bfc9a263f542702aa1c",
+          "url": "https://linuxbrew.bintray.com/bottles/scons-3.0.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c791b4905477a5fbc33345cef5e412807ffc90ba6ea35bfc9a263f542702aa1c",
+          "url": "https://linuxbrew.bintray.com/bottles/scons-3.0.1_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "311b21b2300ccead3058b52bb15c2d800767eb22709eed0cca349e215d2bc9e7",
+          "url": "https://linuxbrew.bintray.com/bottles/scons-3.0.1_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Substitute for classic 'make' tool with autoconf/automake functionality",
+  "full_name": "scons",
+  "homepage": "https://www.scons.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "scons",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.1"
+  }
+}

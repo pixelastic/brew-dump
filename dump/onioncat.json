@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "98acc41c8dc5fcefbe5a410266a762ddacbe12323e958a8fe6ca753ec51f33fe",
+          "url": "https://linuxbrew.bintray.com/bottles/onioncat-0.2.2.r578.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1062942ec61923ed49c04afd61ccc9bb56166efe0285fe93b406597d23223fa9",
+          "url": "https://linuxbrew.bintray.com/bottles/onioncat-0.2.2.r578.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "539500f5eeed2771a729c9e61196831c3a3796edafcb2c27a38b26ca5674f7a6",
+          "url": "https://linuxbrew.bintray.com/bottles/onioncat-0.2.2.r578.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1f54d8b36e471047aaeafb0972e86dce5656ca15c46aaeab521ca6d6cfd02c4b",
+          "url": "https://linuxbrew.bintray.com/bottles/onioncat-0.2.2.r578.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "tor"
+  ],
+  "desc": "VPN-adapter that provides location privacy using Tor or I2P",
+  "full_name": "onioncat",
+  "homepage": "https://www.onioncat.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "onioncat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without tor support",
+      "option": "--without-tor"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "tor"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.2.r578"
+  }
+}

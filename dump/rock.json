@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "ooc"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "69c9bbe1cd72a1b0249d0d1504923bbba852d5aa51a7d9742228c9fe793bd0ec",
+          "url": "https://linuxbrew.bintray.com/bottles/rock-0.9.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "42f5ed1a2c791553d47aac9af5d3cd594ece8af736d82213b71c663cfc3fe0e1",
+          "url": "https://linuxbrew.bintray.com/bottles/rock-0.9.10.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "3236af05000a82c81e428244840ca8c2047ca9608b9855998aeb15a78fe1d9e5",
+          "url": "https://linuxbrew.bintray.com/bottles/rock-0.9.10.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "34308d7af495565e3b9bc274615e0e5412a3721fc538ce73f68d973b1cb23a6a",
+          "url": "https://linuxbrew.bintray.com/bottles/rock-0.9.10.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "41ded9856a5ee5c923dc04e0d68b49bae33fb779457b1039882065ae312ef120",
+          "url": "https://linuxbrew.bintray.com/bottles/rock-0.9.10.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3f95d26a49ed30031fd77e9d0e439a6366947201dfc6fd1393ebe5e2924d13d8",
+          "url": "https://linuxbrew.bintray.com/bottles/rock-0.9.10.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bdw-gc"
+  ],
+  "desc": "ooc compiler written in ooc",
+  "full_name": "rock",
+  "homepage": "https://ooc-lang.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rock",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.10"
+  }
+}

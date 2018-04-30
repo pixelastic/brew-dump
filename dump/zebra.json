@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "630d7efb1da41b6c24beae389a52649d645659564b08a2e321d340182dd5c9bc",
+          "url": "https://linuxbrew.bintray.com/bottles/zebra-2.1.3_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "487e9fddecbccdbf58985ee2b9c349fbd88cb108d74b4fb948ebb00ddaecf98e",
+          "url": "https://linuxbrew.bintray.com/bottles/zebra-2.1.3_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b939f3348f27580805472d5da3ef631728b4b1e0e438cbb0814326ea8362c2bb",
+          "url": "https://linuxbrew.bintray.com/bottles/zebra-2.1.3_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "icu4c",
+    "yaz"
+  ],
+  "desc": "Information management system",
+  "full_name": "zebra",
+  "homepage": "https://www.indexdata.com/zebra",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zebra",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without icu4c support",
+      "option": "--without-icu4c"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "icu4c"
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.1.3"
+  }
+}

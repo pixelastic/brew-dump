@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d5af9f8a05af98fa5a5dd6555673a878617573e0036ae42552e93f8758edc814",
+          "url": "https://linuxbrew.bintray.com/bottles/blueutil-2.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b3b44b557c9f1ebfad62a3a8dbe52b64ff5995bfe03003d10ef94fbdf95e6b6c",
+          "url": "https://linuxbrew.bintray.com/bottles/blueutil-2.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3c5cbdb52c7a528ad23ad9bc99a286ecb03554c71aaf8216ec2a891c16ec6c97",
+          "url": "https://linuxbrew.bintray.com/bottles/blueutil-2.1.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Get/set bluetooth power and discoverable state",
+  "full_name": "blueutil",
+  "homepage": "https://github.com/toy/blueutil",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "blueutil",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.0"
+  }
+}

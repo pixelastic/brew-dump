@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "osh"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "7aeb83e5eb3d478b57edd04c09d3f4606da746ac98261da454f3c64bf3fe67ff",
+          "url": "https://linuxbrew.bintray.com/bottles/etsh-5.1.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a672a5313d5eb069a7929bcd0bdddf8286ff270df0ee989e63cedf0ef44d817d",
+          "url": "https://linuxbrew.bintray.com/bottles/etsh-5.1.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fdf8ef0dfb2cb226f7e81b3e21e2b0a8e8c364b9a2bd247f96f5bd96e6bb85e9",
+          "url": "https://linuxbrew.bintray.com/bottles/etsh-5.1.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "teleport"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Two ports of /bin/sh from V6 UNIX (circa 1975)",
+  "full_name": "etsh",
+  "homepage": "https://etsh.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "etsh",
+  "oldname": "osh",
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with shell examples",
+      "option": "--with-examples"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.1.5"
+  }
+}

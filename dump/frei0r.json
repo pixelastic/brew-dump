@@ -1,0 +1,84 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4f4e3e6ed474ba0e667f161e7e05c8cd8a3b67ad67201818ebc0cdac8e737220",
+          "url": "https://linuxbrew.bintray.com/bottles/frei0r-1.6.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "28ca48192fd55c2cf008a7a82fadc7336b35c27baae7388f52c6a5b7d2663605",
+          "url": "https://linuxbrew.bintray.com/bottles/frei0r-1.6.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c5c4efcf43d6c2cd495c82bfcf3839574b1d7f507b963151284ed186f53974a5",
+          "url": "https://linuxbrew.bintray.com/bottles/frei0r-1.6.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e2cdf7d5a273aa7597ed539b09934c46dff997fc49ef8375136a49f6c843d1e2",
+          "url": "https://linuxbrew.bintray.com/bottles/frei0r-1.6.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a8ee4a509fa1d10137a3be9f2791d088606dcd1727079fa681a237ebc65e8fe7",
+          "url": "https://linuxbrew.bintray.com/bottles/frei0r-1.6.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "pkg-config",
+    "cairo",
+    "opencv@2"
+  ],
+  "desc": "Minimalistic plugin API for video effects",
+  "full_name": "frei0r",
+  "homepage": "https://frei0r.dyne.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "frei0r",
+  "oldname": null,
+  "optional_dependencies": [
+    "cairo",
+    "opencv@2"
+  ],
+  "options": [
+    {
+      "description": "Build with cairo support",
+      "option": "--with-cairo"
+    },
+    {
+      "description": "Build with opencv@2 support",
+      "option": "--with-opencv@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.1"
+  }
+}

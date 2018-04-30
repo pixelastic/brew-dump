@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f83a1cc043c82daf6bf4fa9717f090e10e04388544d79771ce8b6848c880b757",
+          "url": "https://linuxbrew.bintray.com/bottles/xlispstat-3.52.23.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a2847ae5a3820e85b826117f59a809981fcbfe325abd2f38760cf8003ab9814b",
+          "url": "https://linuxbrew.bintray.com/bottles/xlispstat-3.52.23.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0180be9b973a87ff7feb72dbaebed8a46f857e1f670e864276e43cc294515870",
+          "url": "https://linuxbrew.bintray.com/bottles/xlispstat-3.52.23.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c4004c8fc128a187c35923eff3cb0c5a641f7928aff558559279d5d98abe849d",
+          "url": "https://linuxbrew.bintray.com/bottles/xlispstat-3.52.23.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Statistical data science environment based on Lisp",
+  "full_name": "xlispstat",
+  "homepage": "https://homepage.stat.uiowa.edu/~luke/xls/xlsinfo/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xlispstat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.52.23"
+  }
+}

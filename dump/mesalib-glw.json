@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "340b10f7e65eea02edd9853ff14e5458107c1fb3af99f9bf84b8913e3d96918e",
+          "url": "https://linuxbrew.bintray.com/bottles/mesalib-glw-8.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "56a6531c8cc2bdb9dced7a17c0875b13cc774f591d5b4ea64e16fa17b09d8d72",
+          "url": "https://linuxbrew.bintray.com/bottles/mesalib-glw-8.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c0f19ff9584a9450f0f06bfc6013e1ff7e8cefd520c9d4f0fba1cf3c1b5ce7fc",
+          "url": "https://linuxbrew.bintray.com/bottles/mesalib-glw-8.0.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config"
+  ],
+  "desc": "Open-source implementation of the OpenGL specification",
+  "full_name": "mesalib-glw",
+  "homepage": "https://www.mesa3d.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mesalib-glw",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "8.0.0"
+  }
+}

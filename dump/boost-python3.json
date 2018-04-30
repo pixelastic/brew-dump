@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "76c42589ff0991ab5e7a335e567adedb84c1f4a9d22c86b1e52f95c922e5649b",
+          "url": "https://linuxbrew.bintray.com/bottles/boost-python3-1.67.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9e6f8d24dea9f09ce5e9a4a13b5af850c60053c459787377449e0f9733cdb274",
+          "url": "https://linuxbrew.bintray.com/bottles/boost-python3-1.67.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5491c58d54ad60d3242d64b620c92b988b0801e1d1945006d823d6559186bb3a",
+          "url": "https://linuxbrew.bintray.com/bottles/boost-python3-1.67.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "python"
+  ],
+  "desc": "C++ library for C++/Python3 interoperability",
+  "full_name": "boost-python3",
+  "homepage": "https://www.boost.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "boost-python3",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.67.0"
+  }
+}

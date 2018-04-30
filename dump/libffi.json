@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "82e5176c758030c4d7571ebd7b412624eed28b8379069c27e366952569168bda",
+          "url": "https://linuxbrew.bintray.com/bottles/libffi-3.2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c63fbf004a3c314b7af3bd6b8fc50dc33c06730235cf7e245cb206307dca0933",
+          "url": "https://linuxbrew.bintray.com/bottles/libffi-3.2.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "13836da147e311ac2920df5a1d0f04b672ce89204334b5e0233b428572860483",
+          "url": "https://linuxbrew.bintray.com/bottles/libffi-3.2.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9e31aa65e1d9cde4246cc33e68823ba626947af4732a6a1bd5354fb8093672d3",
+          "url": "https://linuxbrew.bintray.com/bottles/libffi-3.2.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9047ca06422e869790ec80adf37cedb3eff6e422094bde0371e24d9bb18dc3f0",
+          "url": "https://linuxbrew.bintray.com/bottles/libffi-3.2.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Portable Foreign Function Interface library",
+  "full_name": "libffi",
+  "homepage": "https://sourceware.org/libffi/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libffi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.2.1"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "224ae02df998c8fc296bf3905fbc369a787fc55f5ef295d63f1b3c44bfee7a5d",
+          "url": "https://linuxbrew.bintray.com/bottles/rats-2.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6ae19bc72cfea62b56b83931f95a70f27ce9a13617026292861a272e22269135",
+          "url": "https://linuxbrew.bintray.com/bottles/rats-2.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ab9d3469ecf24da07c80691cea41aa0266e85061ad3ddfec6cf65a0bd7c85acf",
+          "url": "https://linuxbrew.bintray.com/bottles/rats-2.4.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5f2a74a60c30a825ad036f390e3830346be4fe3299a28a81e25630d54defd119",
+          "url": "https://linuxbrew.bintray.com/bottles/rats-2.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7c26f10919e103d7e57c232e0e07840ad309fd04878831c04829d70506767157",
+          "url": "https://linuxbrew.bintray.com/bottles/rats-2.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Rough auditing tool for security",
+  "full_name": "rats",
+  "homepage": "https://security.web.cern.ch/security/recommendations/en/codetools/rats.shtml",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rats",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "suitesparse"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b0d375015d7c8b96d06c03765f4d838b2045ca11d7381423d20131ba6bdd7ee4",
+          "url": "https://linuxbrew.bintray.com/bottles/suite-sparse-5.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2d87260480f276e87774a09a24e634953357e5e42852300416535d1383d17cfb",
+          "url": "https://linuxbrew.bintray.com/bottles/suite-sparse-5.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "accf1abe0b174630a5f41bac52d9ace961fd6a721f5b82961e70161ddddca5c2",
+          "url": "https://linuxbrew.bintray.com/bottles/suite-sparse-5.2.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "701719234d44585afc33c4d17ea0da87b1231803c76d21d39c04234c5c79cb23",
+          "url": "https://linuxbrew.bintray.com/bottles/suite-sparse-5.2.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "metis",
+    "openblas"
+  ],
+  "desc": "Suite of Sparse Matrix Software",
+  "full_name": "suite-sparse",
+  "homepage": "http://faculty.cse.tamu.edu/davis/suitesparse.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "suite-sparse",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without openblas support",
+      "option": "--without-openblas"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "openblas"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.2.0"
+  }
+}

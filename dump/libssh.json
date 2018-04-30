@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9c752b4da40e1f978b808a927f3efb0ac06f2e48328c3e2a544b541c6f9131ee",
+          "url": "https://linuxbrew.bintray.com/bottles/libssh-0.7.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "287869ae7536b9a6fc3ff22fe130e6e0fb5c7cb41dcf711fe3a52539263b821a",
+          "url": "https://linuxbrew.bintray.com/bottles/libssh-0.7.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5b8593c4a2ec1d79736a8e37ed840c41801e9b9acba0f08e52eef8f64fb30558",
+          "url": "https://linuxbrew.bintray.com/bottles/libssh-0.7.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6bd4ab841d5d52f0b965b78244f45e26bbc1b2e4abd6cfe4561d04a084149287",
+          "url": "https://linuxbrew.bintray.com/bottles/libssh-0.7.5.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fb6872e410e6ab010d1ec7b2a51cb55075c32745676ef462a276cca87ad18a62",
+          "url": "https://linuxbrew.bintray.com/bottles/libssh-0.7.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "openssl"
+  ],
+  "desc": "C library SSHv1/SSHv2 client and server protocols",
+  "full_name": "libssh",
+  "homepage": "https://www.libssh.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libssh",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.7.5"
+  }
+}

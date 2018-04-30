@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "8bb93998d0b1410e1e3271e6e7cb85c9871e206ee4965a7998f5978bc59b100d",
+          "url": "https://linuxbrew.bintray.com/bottles/mikutter-3.6.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "348d4ac8ed10a7a6dd9da0d7b181bd95d68d170d09d029372b68070a3a8e9f49",
+          "url": "https://linuxbrew.bintray.com/bottles/mikutter-3.6.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a0cbe273f21e100142a5e732fb7d7aaf7f96173672398e80b03494aa1962b96e",
+          "url": "https://linuxbrew.bintray.com/bottles/mikutter-3.6.6.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "gtk+",
+    "libidn",
+    "ruby",
+    "xz"
+  ],
+  "desc": "Extensible Twitter client",
+  "full_name": "mikutter",
+  "homepage": "https://mikutter.hachune.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mikutter",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.6.6"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "675d9a1b7e39b75d2b569fa4f148fbc2342dbcd4a1b23045763c0103058ecc26",
+          "url": "https://linuxbrew.bintray.com/bottles/brightness-1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "08b29843308b1cd3603aba3f2e5e3d2e7dec34dbe62bdb5e506b7bacdcff8df5",
+          "url": "https://linuxbrew.bintray.com/bottles/brightness-1.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "222e314519f00aa2ad858c718f0dbed624f486f307828ed93a85d1df4e08a8f8",
+          "url": "https://linuxbrew.bintray.com/bottles/brightness-1.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "edd4123953a961e94ce78b076b116c987f668ca73e0a67339e908ead6ded8441",
+          "url": "https://linuxbrew.bintray.com/bottles/brightness-1.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "360b009d1a2ffed665c9d9168b3f91edba44c8da8f08d2f307b09ee63f399e0d",
+          "url": "https://linuxbrew.bintray.com/bottles/brightness-1.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Change macOS display brightness from the command-line",
+  "full_name": "brightness",
+  "homepage": "https://github.com/nriley/brightness",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "brightness",
+  "oldname": "screenbrightness",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2"
+  }
+}

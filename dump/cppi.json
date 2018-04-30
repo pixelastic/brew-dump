@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "970e44d2a7a340fe29577f92c4b6dfcbac17f3aef35e6085197b668c4cd9013f",
+          "url": "https://linuxbrew.bintray.com/bottles/cppi-1.18.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bc8253f982b219088603021d510a6e7ee6d692ff5f693da19b32d0431bc9c9b4",
+          "url": "https://linuxbrew.bintray.com/bottles/cppi-1.18.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a37872a422b21892119583f4fe9670ff403d2e40ceb14f50166e2b501938c544",
+          "url": "https://linuxbrew.bintray.com/bottles/cppi-1.18.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "9924d9e02cf7b197d666ffc8e9a56a5d4e442a5fa8c598872c714c7a2dfb37f3",
+          "url": "https://linuxbrew.bintray.com/bottles/cppi-1.18.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d4c044247ba8a12f1462089bfa22602547894f0a9081fce21c4800e192a526ae",
+          "url": "https://linuxbrew.bintray.com/bottles/cppi-1.18.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f8198f4b6e76d9310d66d20cb0a5b2b6adc70bee83f0bbeaca8b45b6529ccc60",
+          "url": "https://linuxbrew.bintray.com/bottles/cppi-1.18.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Indent C preprocessor directives to reflect their nesting",
+  "full_name": "cppi",
+  "homepage": "https://www.gnu.org/software/cppi/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cppi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.18"
+  }
+}

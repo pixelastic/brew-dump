@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "19bdcacd49657e78f82fd7743a50266ff4945e644b069ac2c39a8787a57911a5",
+          "url": "https://linuxbrew.bintray.com/bottles/xml-coreutils-0.8.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "83023841339cb02ad53de64e30aa0c491e4acd4ae4602bd84847aca42ac02e00",
+          "url": "https://linuxbrew.bintray.com/bottles/xml-coreutils-0.8.1.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "6bada2b9690d698b77f9293cf7f1066e77d36c8c07ba2892b2869ddb0516bc6d",
+          "url": "https://linuxbrew.bintray.com/bottles/xml-coreutils-0.8.1.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5f7519c9be40f731b0dca6238b3bedf4070f0663fc47ab8e4b0eff02d187718c",
+          "url": "https://linuxbrew.bintray.com/bottles/xml-coreutils-0.8.1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1342c807e5ddc23a72e750f07258864fdf2fc1a8ce9072cb7797955fdd0e3656",
+          "url": "https://linuxbrew.bintray.com/bottles/xml-coreutils-0.8.1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "s-lang"
+  ],
+  "desc": "Powerful interactive system for text processing",
+  "full_name": "xml-coreutils",
+  "homepage": "https://www.lbreyer.com/xml-coreutils.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xml-coreutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.1"
+  }
+}

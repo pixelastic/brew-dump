@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2d48707e7e2dc9821c6954295c983ad76c9edcd6bac71f9da1cb2ecdb7b560a2",
+          "url": "https://linuxbrew.bintray.com/bottles/google-authenticator-libpam-1.05.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6b76859ee4008c2d66712585617f0b47d5a40cb4583fda5784f9b7f05260387e",
+          "url": "https://linuxbrew.bintray.com/bottles/google-authenticator-libpam-1.05.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1082f7a7a81ac9e3045176b66baedbdf956aca8ccd7e4b008013b24f0d2ed3c2",
+          "url": "https://linuxbrew.bintray.com/bottles/google-authenticator-libpam-1.05.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": "Add 2-factor authentication for ssh:\n  echo \"auth required /home/tim/.linuxbrew/opt/google-authenticator-libpam/lib/security/pam_google_authenticator.so\" \\\n  | sudo tee -a /etc/pam.d/sshd\n\nAdd 2-factor authentication for ssh allowing users to log in without OTP:\n  echo \"auth required /home/tim/.linuxbrew/opt/google-authenticator-libpam/lib/security/pam_google_authenticator.so\" \\\n  \"nullok\" | sudo tee -a /etc/pam.d/sshd\n\n(Or just manually edit /etc/pam.d/sshd)\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "qrencode"
+  ],
+  "desc": "PAM module for two-factor authentication",
+  "full_name": "google-authenticator-libpam",
+  "homepage": "https://github.com/google/google-authenticator-libpam",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "google-authenticator-libpam",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.05"
+  }
+}

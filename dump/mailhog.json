@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ee9851eae56a0b8f2e52274ee358323dc4887a1e7c40ee8f1e7a9b0ae0bc07dd",
+          "url": "https://linuxbrew.bintray.com/bottles/mailhog-1.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "be78e98dffa8a35f0aa435fdc4f56b40614b6dad6759ab23d7c55ea88f999644",
+          "url": "https://linuxbrew.bintray.com/bottles/mailhog-1.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fa2fad0872e20bc0d8e302306e38c0a66fa7c92f3f0c61ff6952e3ec2de089dc",
+          "url": "https://linuxbrew.bintray.com/bottles/mailhog-1.0.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6832c9139e927cfd708604db23e95c3d3cee79f64d5cb2902137dca85007ed53",
+          "url": "https://linuxbrew.bintray.com/bottles/mailhog-1.0.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Web and API based SMTP testing tool",
+  "full_name": "mailhog",
+  "homepage": "https://github.com/mailhog/MailHog",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mailhog",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.0"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "72afd84c66fef9f142a1922fd0995a6a173b46c40d06715808345cc1c71b6702",
+          "url": "https://linuxbrew.bintray.com/bottles/pmdmini-1.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c3195012d5b5333e76c1a8a44b3f734575540deee884dfb6685e139e1038c138",
+          "url": "https://linuxbrew.bintray.com/bottles/pmdmini-1.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "59b287650c6e40c20da8000f5e73b910f8096bd949e4432b4f11e70b1c779a5d",
+          "url": "https://linuxbrew.bintray.com/bottles/pmdmini-1.0.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl"
+  ],
+  "desc": "Plays music in PC-88/98 PMD chiptune format",
+  "full_name": "pmdmini",
+  "homepage": "https://github.com/mistydemeo/pmdmini",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pmdmini",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Do not build commandline player",
+      "option": "--with-lib-only"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.1"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "bc217bf56d073ffabd11c81382387029aa09d216ef8060b3134a6190997ef0f5",
+          "url": "https://linuxbrew.bintray.com/bottles/karn-0.0.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a837fd65265db402d67fda5ff5bb4337822d1efd945bee56f7a664e6bc67c343",
+          "url": "https://linuxbrew.bintray.com/bottles/karn-0.0.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0b29500ed8d75753402ea041190021d679624b739665b3a4d11df3d4a3100e59",
+          "url": "https://linuxbrew.bintray.com/bottles/karn-0.0.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "03533f5131e54f5c363cdb27a03a245770cfd952a0eb0d8b4ed6d3242a4194ac",
+          "url": "https://linuxbrew.bintray.com/bottles/karn-0.0.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Manage multiple Git identities",
+  "full_name": "karn",
+  "homepage": "https://github.com/prydonius/karn",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "karn",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.0.4"
+  }
+}

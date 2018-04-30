@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "92c143420d36d71d49ecde69eca47da2a46f1ae6d37e0f7522cb95a9d19735e7",
+          "url": "https://linuxbrew.bintray.com/bottles/reclass-1.4.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4fb34da3464d6ea2ddc038149328613613bc09ca5c4350e26dc2c25b15524c0d",
+          "url": "https://linuxbrew.bintray.com/bottles/reclass-1.4.1.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7c63989f940dc69a54c8e1eebb1d14a1ea04141a4a806354ed1ad338c8d4ea6b",
+          "url": "https://linuxbrew.bintray.com/bottles/reclass-1.4.1.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0c381ac12c60fa23c9069f670cf262ce1068d346fe1e577ecb28ee566aa3fe51",
+          "url": "https://linuxbrew.bintray.com/bottles/reclass-1.4.1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7be55ff36c5e4b02e3bf2c6ea297e8a3248452dc6b15c1e6fd77633373ff3bb3",
+          "url": "https://linuxbrew.bintray.com/bottles/reclass-1.4.1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Recursive external node classification",
+  "full_name": "reclass",
+  "homepage": "https://reclass.pantsfullofunix.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "reclass",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.1"
+  }
+}

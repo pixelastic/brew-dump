@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3b08766e4183d60bab677a73a9cf4c1080348bf44ef02ceb90f7beaf99ffee52",
+          "url": "https://linuxbrew.bintray.com/bottles/buku-3.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "71a32d74c2e832eed65dd3abdce78274503af42f5358936303fa512d56d2ca99",
+          "url": "https://linuxbrew.bintray.com/bottles/buku-3.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3d4e0c42a748c6147f366a67b4a1fc4b13c1f1c611a934fcb314690d188de9cb",
+          "url": "https://linuxbrew.bintray.com/bottles/buku-3.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "84e9fad972f216a3b63fde7d7a50e6ba9cf2f2c14e6e77e23f03ab6a21be7e8d",
+          "url": "https://linuxbrew.bintray.com/bottles/buku-3.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "python",
+    "pkg-config",
+    "libffi",
+    "expect"
+  ],
+  "desc": "Powerful command-line bookmark manager",
+  "full_name": "buku",
+  "homepage": "https://github.com/jarun/Buku",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "buku",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.7"
+  }
+}

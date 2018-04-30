@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "lua@5.3"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e630ffbc4c8d2e7013c144d1138ed5410235b9fe10ea805aeb80922b9795417c",
+          "url": "https://linuxbrew.bintray.com/bottles/lua-5.3.4_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3a282a0460101a4080e8523e79b876595f04ac836ea10cc872f7c071c70d022b",
+          "url": "https://linuxbrew.bintray.com/bottles/lua-5.3.4_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0f4a3b7504bfc083449a982e0a00e8d9c241a19c194ffd0c1a85f325592f192b",
+          "url": "https://linuxbrew.bintray.com/bottles/lua-5.3.4_4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d1be1fa5777caf5377aeae7c1ef8ad940dafe64a8444d6b5d660fe573b7f3e2c",
+          "url": "https://linuxbrew.bintray.com/bottles/lua-5.3.4_4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Please be aware due to the way Luarocks is designed any binaries installed\nvia Luarocks-5.3 AND 5.1 will overwrite each other in /home/tim/.linuxbrew/bin.\n\nThis is, for now, unavoidable. If this is troublesome for you, you can build\nrocks with the `--tree=` command to a special, non-conflicting location and\nthen add that to your `$PATH`.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "unzip",
+    "readline"
+  ],
+  "desc": "Powerful, lightweight programming language",
+  "full_name": "lua",
+  "homepage": "https://www.lua.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lua",
+  "oldname": "lua@5.3",
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't build with Luarocks support embedded",
+      "option": "--without-luarocks"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.3.4"
+  }
+}

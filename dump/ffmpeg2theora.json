@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a85645fc31da1e0180c316eb93f8ad54e903d4c61bf3ef42aab17e5d6b5cd21c",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmpeg2theora-0.30_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e77079f5d599e4caeb3db3892d16234436918a6c4d8fe2cb2adb3b263ca57250",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmpeg2theora-0.30_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f3dac1a662858bce6a7249233075612405fc438e78d81c4076daeb0e15d445db",
+          "url": "https://linuxbrew.bintray.com/bottles/ffmpeg2theora-0.30_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "scons"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libkate",
+    "pkg-config",
+    "scons",
+    "ffmpeg",
+    "libogg",
+    "libvorbis",
+    "theora"
+  ],
+  "desc": "Convert video files to Ogg Theora format",
+  "full_name": "ffmpeg2theora",
+  "homepage": "https://v2v.cc/~j/ffmpeg2theora/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ffmpeg2theora",
+  "oldname": null,
+  "optional_dependencies": [
+    "libkate"
+  ],
+  "options": [
+    {
+      "description": "Build with libkate support",
+      "option": "--with-libkate"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.30"
+  }
+}

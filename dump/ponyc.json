@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e4921999ee11c6a59f774fecc763bb3574af53350b567e38688975acb599c062",
+          "url": "https://linuxbrew.bintray.com/bottles/ponyc-0.21.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8a99715f5b17a32146e24705f7f868830897aa77bcb940c856f32ad1f636defa",
+          "url": "https://linuxbrew.bintray.com/bottles/ponyc-0.21.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e7c1e0c2d07f0f4e77d8edb85271408e1348dcea18ee5a4eb4d8dd990db92229",
+          "url": "https://linuxbrew.bintray.com/bottles/ponyc-0.21.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "llvm@3.9",
+    "libressl",
+    "pcre2"
+  ],
+  "desc": "Object-oriented, actor-model, capabilities-secure programming language",
+  "full_name": "ponyc",
+  "homepage": "https://www.ponylang.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ponyc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.21.3"
+  }
+}

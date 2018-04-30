@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5c0c8b3f140464288045010acf62f230bced7bfa2282d048bd2fcade90673e1b",
+          "url": "https://linuxbrew.bintray.com/bottles/augeas-1.10.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "22f139b71f14cc0c7c1eddef04c20ab2ad66f7e91c90ebd21198b604b6630844",
+          "url": "https://linuxbrew.bintray.com/bottles/augeas-1.10.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "60d58e8099a4f02a4f4d2eed7eb9114cee19e965c29dfd4102de036a896d4986",
+          "url": "https://linuxbrew.bintray.com/bottles/augeas-1.10.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "47d4c23fbf58aefe3afbfd8e6f61b4a2fc732b5a938f816930f2b8238eeacc13",
+          "url": "https://linuxbrew.bintray.com/bottles/augeas-1.10.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "Lenses have been installed to:\n  /home/tim/.linuxbrew/share/augeas/lenses/dist\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "readline",
+    "libxml2"
+  ],
+  "desc": "Configuration editing tool and API",
+  "full_name": "augeas",
+  "homepage": "http://augeas.net",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "augeas",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.10.1"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "661bd93e96795bb2ef4a0260fc441fd6eb437bb109e9f4353a577db638617c58",
+          "url": "https://linuxbrew.bintray.com/bottles/git-review-1.26.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5187b16328f105d195c58b4a978f8232b98b47e9cb91557f15ce4ca439a50385",
+          "url": "https://linuxbrew.bintray.com/bottles/git-review-1.26.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5187b16328f105d195c58b4a978f8232b98b47e9cb91557f15ce4ca439a50385",
+          "url": "https://linuxbrew.bintray.com/bottles/git-review-1.26.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "cdbb1fb8034daf2d52730b711b84306ab43a9c3d5b7a96c678fb08fb9a3e3220",
+          "url": "https://linuxbrew.bintray.com/bottles/git-review-1.26.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Submit git branches to gerrit for review",
+  "full_name": "git-review",
+  "homepage": "https://git.openstack.org/cgit/openstack-infra/git-review",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git-review",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.26.0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "651c2857b6b05a2122123e520153db5605f5b89b255b6fd99e785e9465e64691",
+          "url": "https://linuxbrew.bintray.com/bottles/syncthing-inotify-0.8.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2185ac4821dc09e211297aebb86ed7bf44e7fd6fed461d092e294c0862ed81c1",
+          "url": "https://linuxbrew.bintray.com/bottles/syncthing-inotify-0.8.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "442dd6b530e40bd18668f482f2071afa64fcf333892ae3b8a47f435d74396baa",
+          "url": "https://linuxbrew.bintray.com/bottles/syncthing-inotify-0.8.7.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "da3e6893fd0d8b2a17f6bb486c1e9d23d3066a36faac1e845d8d373e2a5b32b5",
+          "url": "https://linuxbrew.bintray.com/bottles/syncthing-inotify-0.8.7.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "File watcher intended for use with Syncthing",
+  "full_name": "syncthing-inotify",
+  "homepage": "https://github.com/syncthing/syncthing-inotify",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "syncthing-inotify",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8.7"
+  }
+}

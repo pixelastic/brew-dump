@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c5730d05abf427a9213faf36dd13517771bf1905f8df01619932c173c581e550",
+          "url": "https://linuxbrew.bintray.com/bottles/libswiftnav-0.21.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ec5142cb510d648fbc57b8e3acb7ff4925d720a305c18efd34511aae16aeb066",
+          "url": "https://linuxbrew.bintray.com/bottles/libswiftnav-0.21.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3f0e52c5a7be06dbcf140870af9ee3f74520d78a51104973d8279793f7919d1d",
+          "url": "https://linuxbrew.bintray.com/bottles/libswiftnav-0.21.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "96e3a1e2e74ddce115e6ea88c389aa970c9acabaf6e75b3322ac0f23858fec85",
+          "url": "https://linuxbrew.bintray.com/bottles/libswiftnav-0.21.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "desc": "C library implementing GNSS related functions and algorithms",
+  "full_name": "libswiftnav",
+  "homepage": "https://github.com/swift-nav/libswiftnav",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libswiftnav",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.21"
+  }
+}

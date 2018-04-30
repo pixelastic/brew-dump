@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ef21329872a809c9a01e6361fcc2d0830f5b9c33455286260b45713acf19285f",
+          "url": "https://linuxbrew.bintray.com/bottles/kafkacat-1.3.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d38492eb3083e50f91bb50d0a77c59bf559821a6dbc958b3b8d3bac4b192dead",
+          "url": "https://linuxbrew.bintray.com/bottles/kafkacat-1.3.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "14038aa18ab2f7f982000b3a5ad347f9519809b3bab0cfe47424bb73f333de6e",
+          "url": "https://linuxbrew.bintray.com/bottles/kafkacat-1.3.1_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "cc9011d799bd2dfcb514c9ac499bda051e14a30f73ea8884048fa3d1337ceb47",
+          "url": "https://linuxbrew.bintray.com/bottles/kafkacat-1.3.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "librdkafka",
+    "yajl"
+  ],
+  "desc": "Generic command-line non-JVM Apache Kafka producer and consumer",
+  "full_name": "kafkacat",
+  "homepage": "https://github.com/edenhill/kafkacat",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "kafkacat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3.1"
+  }
+}

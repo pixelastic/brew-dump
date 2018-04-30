@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "89afae75a0b0969298bb38cc14de93b2f8a713d4fa15ab62c7bc0f265003d1d4",
+          "url": "https://linuxbrew.bintray.com/bottles/libaacs-0.9.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b423d7825fa1695fb9099c0f6f00ea0b460c697878badc2a710900c8e3a55c39",
+          "url": "https://linuxbrew.bintray.com/bottles/libaacs-0.9.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "07efaa70031e035a007873916e1e288c830b67095c140e358a71801b044c86a9",
+          "url": "https://linuxbrew.bintray.com/bottles/libaacs-0.9.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0b3b29f19f636b25e95321aeffbd54303aec2cbca4641671d825284f6cd81fc7",
+          "url": "https://linuxbrew.bintray.com/bottles/libaacs-0.9.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bison"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bison",
+    "libgcrypt"
+  ],
+  "desc": "Implements the Advanced Access Content System specification",
+  "full_name": "libaacs",
+  "homepage": "https://www.videolan.org/developers/libaacs.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libaacs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.0"
+  }
+}

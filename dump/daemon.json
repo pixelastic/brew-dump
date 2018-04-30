@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ad4f8ad9e7deeb0039c6c603b0108fb6733abe425c49fa6344f762e26b49cf2d",
+          "url": "https://linuxbrew.bintray.com/bottles/daemon-0.6.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ca2b1016c1bbe48002f70b7beb86063943dadabcb670db9f90f1c259cb34d623",
+          "url": "https://linuxbrew.bintray.com/bottles/daemon-0.6.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "09a420b59d2e5cbaf3073b2daf81d57d01c733b79a928bb58da6418de7f5bd3a",
+          "url": "https://linuxbrew.bintray.com/bottles/daemon-0.6.4.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bfc116e8f0853cdf5b4abc38b1f000c90708823bf49c5237f8ec453400a5d606",
+          "url": "https://linuxbrew.bintray.com/bottles/daemon-0.6.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f48000af3631f28d47d01d3d89a1f03e7c4f7eac4a81ab7db9c38a1ce9ff66cd",
+          "url": "https://linuxbrew.bintray.com/bottles/daemon-0.6.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Turn other processes into daemons",
+  "full_name": "daemon",
+  "homepage": "http://libslack.org/daemon/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "daemon",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.4"
+  }
+}

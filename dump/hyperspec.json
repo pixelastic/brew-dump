@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To use this copy of the HyperSpec with SLIME, put the following in\nyou .emacs intialization file:\n\n(eval-after-load \"slime\"\n  '(progn\n     (setq common-lisp-hyperspec-root\n           \"/home/tim/.linuxbrew/share/doc/hyperspec/HyperSpec/\")\n     (setq common-lisp-hyperspec-symbol-table\n           (concat common-lisp-hyperspec-root \"Data/Map_Sym.txt\"))\n     (setq common-lisp-hyperspec-issuex-table\n           (concat common-lisp-hyperspec-root \"Data/Map_IssX.txt\"))))\n\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Common Lisp ANSI-standard Hyperspec",
+  "full_name": "hyperspec",
+  "homepage": "https://www.lispworks.com/documentation/common-lisp.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hyperspec",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "7.0"
+  }
+}

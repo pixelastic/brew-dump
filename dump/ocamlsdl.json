@@ -1,0 +1,90 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6cd7f7cf05819e1109d24a678ee2f21a742c8f743a3d23b56a80e2b8897ead98",
+          "url": "https://linuxbrew.bintray.com/bottles/ocamlsdl-0.9.1_9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8313d585edbdf92234128947a792ca26e2a0d2181d83ce1c2e90bc6c46d97f03",
+          "url": "https://linuxbrew.bintray.com/bottles/ocamlsdl-0.9.1_9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8a40a90601e1f63f0a6ec5bf83cb5e78d401f8bd94bef4f5c2ca48d881bc961a",
+          "url": "https://linuxbrew.bintray.com/bottles/ocamlsdl-0.9.1_9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6f7ea676f23910189feb2227177bc67aec7cc0851b7cd1f4468d19526dc37dbc",
+          "url": "https://linuxbrew.bintray.com/bottles/ocamlsdl-0.9.1_9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl",
+    "ocaml",
+    "sdl_mixer",
+    "sdl_image",
+    "sdl_gfx",
+    "sdl_ttf"
+  ],
+  "desc": "OCaml interface with the SDL C library",
+  "full_name": "ocamlsdl",
+  "homepage": "https://ocamlsdl.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ocamlsdl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without sdl_mixer support",
+      "option": "--without-sdl_mixer"
+    },
+    {
+      "description": "Build without sdl_image support",
+      "option": "--without-sdl_image"
+    },
+    {
+      "description": "Build without sdl_gfx support",
+      "option": "--without-sdl_gfx"
+    },
+    {
+      "description": "Build without sdl_ttf support",
+      "option": "--without-sdl_ttf"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "sdl_mixer",
+    "sdl_image",
+    "sdl_gfx",
+    "sdl_ttf"
+  ],
+  "requirements": [
+  ],
+  "revision": 9,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.1"
+  }
+}

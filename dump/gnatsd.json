@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f75e5b2031aca4c47890fb8bfcc6eb6db63eaf41f75efafa9267f771edaad333",
+          "url": "https://linuxbrew.bintray.com/bottles/gnatsd-1.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ba43c0294be21d1b57fc8193e9b998e7f9301a68a61a4161aad724f786801520",
+          "url": "https://linuxbrew.bintray.com/bottles/gnatsd-1.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "990c795b26ecc35fff73f139b0bebc47066cea4bd92c78d1778b321bd4221ad2",
+          "url": "https://linuxbrew.bintray.com/bottles/gnatsd-1.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9a2865c590b912330e29badb8fbfddd21b0040113d97863d6e6f5096696d0b03",
+          "url": "https://linuxbrew.bintray.com/bottles/gnatsd-1.1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Lightweight cloud messaging system",
+  "full_name": "gnatsd",
+  "homepage": "https://nats.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnatsd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.0"
+  }
+}

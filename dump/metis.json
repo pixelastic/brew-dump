@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "54f75262475744bc6ad3ba66ac801e03c18bbac00a9bcf0ca9d05853f2022498",
+          "url": "https://linuxbrew.bintray.com/bottles/metis-5.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "88b6965d941a87044150238387971c4bb94ed2ffca327affccaf311d666a2b4b",
+          "url": "https://linuxbrew.bintray.com/bottles/metis-5.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9c8deed80ece8c24e7ebccbce8410557b27afe711d3f59fccb7d781254d0cc34",
+          "url": "https://linuxbrew.bintray.com/bottles/metis-5.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5bae428970f681f9bea501461d755d60127ab380bc0572b35156c4733021df22",
+          "url": "https://linuxbrew.bintray.com/bottles/metis-5.1.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b33c2fc2c8a1cdb9f48faf41201bdc6384090b8dbd6ed3eecd05264eb6431c0b",
+          "url": "https://linuxbrew.bintray.com/bottles/metis-5.1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Programs that partition graphs and order matrices",
+  "full_name": "metis",
+  "homepage": "http://glaros.dtc.umn.edu/gkhome/views/metis",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "metis",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.1.0"
+  }
+}

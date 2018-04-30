@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d3310d4ddd7ed225fd8f821448fa2edabd3956e637755498c0d7ee4b74ed4aa3",
+          "url": "https://linuxbrew.bintray.com/bottles/dislocker-0.7.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9c42e7c3d2cd45e53a81aa6d19c927dbc24a069daf31c159e2f5cf7c2faca775",
+          "url": "https://linuxbrew.bintray.com/bottles/dislocker-0.7.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d26f58de47cb27f00f16282bb6be058e90be87f83125468ba4b7ab6cc980a3e2",
+          "url": "https://linuxbrew.bintray.com/bottles/dislocker-0.7.1_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "mbedtls"
+  ],
+  "desc": "FUSE driver to read/write Windows' BitLocker-ed volumes",
+  "full_name": "dislocker",
+  "homepage": "https://github.com/Aorimn/dislocker",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dislocker",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.1"
+  }
+}

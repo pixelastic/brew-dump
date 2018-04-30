@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e17149bd41a6f5f74d796c95c92710996e936dba1c2b1d523e89c3c29bdc2219",
+          "url": "https://linuxbrew.bintray.com/bottles/pulledpork-0.7.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4e8a01b1531f4b1824358e3a28c968ac04f7c5c78c5c4a878178ae825472b228",
+          "url": "https://linuxbrew.bintray.com/bottles/pulledpork-0.7.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "33cf47b4c02e4f2ba57f6b34770bafcda115d9b249b1227596e71c3f200c4083",
+          "url": "https://linuxbrew.bintray.com/bottles/pulledpork-0.7.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Snort rule management",
+  "full_name": "pulledpork",
+  "homepage": "https://github.com/shirkdog/pulledpork",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pulledpork",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.7.3"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "7d6a35b70b7e209e5df444a88acdcfc6cebc9c6ad5bd7085d617916a563b13b2",
+          "url": "https://linuxbrew.bintray.com/bottles/bind-9.12.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "355e4a226e321e9101b6bc39a86463c1bd74b2b7be82e43e55b73b40977eab16",
+          "url": "https://linuxbrew.bintray.com/bottles/bind-9.12.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7f553589c292248a704c89658f561a275e20cb449c76acdf74202f90fc75dfb7",
+          "url": "https://linuxbrew.bintray.com/bottles/bind-9.12.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5d1c0d3d823be017f101ba7569e48227cffcfbe5235837401a42bd170570b1d0",
+          "url": "https://linuxbrew.bintray.com/bottles/bind-9.12.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "json-c"
+  ],
+  "desc": "Implementation of the DNS protocols",
+  "full_name": "bind",
+  "homepage": "https://www.isc.org/downloads/bind/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bind",
+  "oldname": null,
+  "optional_dependencies": [
+    "json-c"
+  ],
+  "options": [
+    {
+      "description": "Build with json-c support",
+      "option": "--with-json-c"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "9.12.1"
+  }
+}

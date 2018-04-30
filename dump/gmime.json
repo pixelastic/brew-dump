@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a2a9001ff723c5766ae4761c5b0553d7d6d5fb54c09cdb4154d659c3bbb614f8",
+          "url": "https://linuxbrew.bintray.com/bottles/gmime-3.2.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4cefcf587984cfb905ec956527479f3b081bfb750ebec54a5ca074edc26333cc",
+          "url": "https://linuxbrew.bintray.com/bottles/gmime-3.2.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "910361d5b4bc083a5365a366a3d9f39fe96ca6e9e78bd88bc4a6fdaeac634d14",
+          "url": "https://linuxbrew.bintray.com/bottles/gmime-3.2.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "glib",
+    "gpgme"
+  ],
+  "desc": "MIME mail utilities",
+  "full_name": "gmime",
+  "homepage": "https://spruce.sourceforge.io/gmime/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gmime",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.2.0"
+  }
+}

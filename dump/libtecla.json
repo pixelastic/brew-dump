@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3ceb3942ea4ae1434dcc0aea00fa58b6f16787bc1a0067e9497ad4cb050f771a",
+          "url": "https://linuxbrew.bintray.com/bottles/libtecla-1.6.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dffae78362e21bf324ed651a2b80ff924b1bbec60916159863e66c7171072a9c",
+          "url": "https://linuxbrew.bintray.com/bottles/libtecla-1.6.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "d7f9b95bbe7540504751d42589e8500a77d15dc3e6b2f7fe501ed872172f1129",
+          "url": "https://linuxbrew.bintray.com/bottles/libtecla-1.6.3.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "a7caf2863506fcb0c8ded748375116957c0a12e45212dea9cce16b47adf00883",
+          "url": "https://linuxbrew.bintray.com/bottles/libtecla-1.6.3.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "21cd696f6e79ae6401dd19f832ac24263f016a62c2d15ec31e25d515bbea5983",
+          "url": "https://linuxbrew.bintray.com/bottles/libtecla-1.6.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d51094034ca406b255ddd2a44c9eeb078ace5502b5bb9b9421e8260a0beb1e10",
+          "url": "https://linuxbrew.bintray.com/bottles/libtecla-1.6.3.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "836d6100343197540f079ea7f6b9e5641fd8efc4e331d3492f8be4cd41ced6e9",
+          "url": "https://linuxbrew.bintray.com/bottles/libtecla-1.6.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "desc": "Command-line editing facilities similar to the tcsh shell",
+  "full_name": "libtecla",
+  "homepage": "http://www.astro.caltech.edu/~mcs/tecla/index.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libtecla",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.3"
+  }
+}

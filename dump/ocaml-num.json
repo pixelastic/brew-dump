@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c7eec65f527ecb97aeafe235aa3a5f21b5e2f3b5aad8391ea5e0575498fef0b9",
+          "url": "https://linuxbrew.bintray.com/bottles/ocaml-num-1.1_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "18368aa58ebeb352fade8f41b20f34d7817d37ebdbf5511fc253cd12a456b017",
+          "url": "https://linuxbrew.bintray.com/bottles/ocaml-num-1.1_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a59f29f535f567c689c92b65389e54f4d234b97a09a14e18004f0224db49fa58",
+          "url": "https://linuxbrew.bintray.com/bottles/ocaml-num-1.1_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ocaml-findlib"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ocaml-findlib",
+    "ocaml"
+  ],
+  "desc": "OCaml legacy Num library for arbitrary-precision arithmetic",
+  "full_name": "ocaml-num",
+  "homepage": "https://github.com/ocaml/num",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ocaml-num",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

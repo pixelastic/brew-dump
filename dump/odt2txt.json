@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4b86c07be0d96899d76adee3bf65390beb4288eeddbfb531dfcdbc3f17ff5bc8",
+          "url": "https://linuxbrew.bintray.com/bottles/odt2txt-0.5.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "02dd0957fda7e5845824951a3e98d2ac9a1a623a02709631d26496bbe0353dee",
+          "url": "https://linuxbrew.bintray.com/bottles/odt2txt-0.5.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "88fb433f9e72c6c727f9af5ff017d6bac07f29bc64bfa59f6b53d4ab52f42cb3",
+          "url": "https://linuxbrew.bintray.com/bottles/odt2txt-0.5.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2005cd3ccfc24aa3c188339a63d48454636ace229cffc6b2add8ecf05eea40a1",
+          "url": "https://linuxbrew.bintray.com/bottles/odt2txt-0.5.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Convert OpenDocument files to plain text",
+  "full_name": "odt2txt",
+  "homepage": "https://github.com/dstosberg/odt2txt/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "odt2txt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.5"
+  }
+}

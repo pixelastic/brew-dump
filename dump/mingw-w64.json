@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "077d13bc5b6576ff1976ff4320382449f248224888d6e13d49871ce49c945a18",
+          "url": "https://linuxbrew.bintray.com/bottles/mingw-w64-5.0.3_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0bdb116192aedd32a95832eca99885cbd4ce27fd1d9ee4343348083f0135c7f3",
+          "url": "https://linuxbrew.bintray.com/bottles/mingw-w64-5.0.3_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0a1fa5d5f05bb2b288660c157d1dc6bd366d22973b9d718046f675e223790216",
+          "url": "https://linuxbrew.bintray.com/bottles/mingw-w64-5.0.3_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9476992ce7c595febd0574ebfc488d97a641d53919c0ff067050b0fd6de4f301",
+          "url": "https://linuxbrew.bintray.com/bottles/mingw-w64-5.0.3_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "texinfo"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gmp",
+    "mpfr",
+    "libmpc",
+    "isl",
+    "texinfo"
+  ],
+  "desc": "Minimalist GNU for Windows and GCC cross-compilers",
+  "full_name": "mingw-w64",
+  "homepage": "https://mingw-w64.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mingw-w64",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.0.3"
+  }
+}

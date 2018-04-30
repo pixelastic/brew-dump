@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "752f777cafe9eb7434c900882bdb7eda9cf100d5f3a177a05ae4e164aa98c2a4",
+          "url": "https://linuxbrew.bintray.com/bottles/mailutils-3.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bbd0305336adc02ee5da9d5cd84d267212fad59e6aa67e7d8564531eeaaabad7",
+          "url": "https://linuxbrew.bintray.com/bottles/mailutils-3.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "241d546b7d97fc8cc8150b61d3a7c1770868f235ffe76634a08e98ae9b6daefc",
+          "url": "https://linuxbrew.bintray.com/bottles/mailutils-3.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtool",
+    "gnutls",
+    "gsasl",
+    "readline"
+  ],
+  "desc": "Swiss Army knife of email handling",
+  "full_name": "mailutils",
+  "homepage": "https://mailutils.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mailutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.4"
+  }
+}

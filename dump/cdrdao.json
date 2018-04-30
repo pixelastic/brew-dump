@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bf776ba977bbafbe32c21ae77174cc18a0af3639dd25d845d5f2a18b50b12555",
+          "url": "https://linuxbrew.bintray.com/bottles/cdrdao-1.2.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8aee176ebd5256556f352e900ab2ccee3772ef81daf04fe4b31348243fe55feb",
+          "url": "https://linuxbrew.bintray.com/bottles/cdrdao-1.2.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "01e1dde5119c810802b5abfcbc30da6e02b35bb721cbfff83604f1e5aebd22e7",
+          "url": "https://linuxbrew.bintray.com/bottles/cdrdao-1.2.3.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "69c67458aa6f7f0e843a1760606336433e68735c3d1030a463dd7a3c7692e79a",
+          "url": "https://linuxbrew.bintray.com/bottles/cdrdao-1.2.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2f0ce2699c25a6586d2532a17a46e6643a94ddbf9da5e77f9aaf326da1a0b692",
+          "url": "https://linuxbrew.bintray.com/bottles/cdrdao-1.2.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libao",
+    "libvorbis",
+    "mad",
+    "lame"
+  ],
+  "desc": "Record CDs in Disk-At-Once mode",
+  "full_name": "cdrdao",
+  "homepage": "https://cdrdao.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cdrdao",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.3"
+  }
+}

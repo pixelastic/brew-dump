@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "610d953751f4e0774043b34c961c36475444981e9d9ded7791d2f9d6ae5ce4dc",
+          "url": "https://linuxbrew.bintray.com/bottles/tinc-1.0.33.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d9cbf99f24299626a110270cbaab5a555399368afd4df7d2fd3ada196b0e6f0f",
+          "url": "https://linuxbrew.bintray.com/bottles/tinc-1.0.33.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "64e9baee404e50648e14329742153afc78ecab4d66988d99e0482018de0f7024",
+          "url": "https://linuxbrew.bintray.com/bottles/tinc-1.0.33.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a13229b88b96db81bb6101b35c2167c691da1b971f6d0e3058f938cd4c4d7c51",
+          "url": "https://linuxbrew.bintray.com/bottles/tinc-1.0.33.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "lzo",
+    "openssl"
+  ],
+  "desc": "Virtual Private Network (VPN) tool",
+  "full_name": "tinc",
+  "homepage": "https://www.tinc-vpn.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tinc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "1.1pre15",
+    "head": null,
+    "stable": "1.0.33"
+  }
+}

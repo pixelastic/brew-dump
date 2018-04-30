@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "69920395cbde5fdc2492aa27fc765d4dafe910e26d9d3a05777888425310a0a9",
+          "url": "https://linuxbrew.bintray.com/bottles/surfraw-2.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "69920395cbde5fdc2492aa27fc765d4dafe910e26d9d3a05777888425310a0a9",
+          "url": "https://linuxbrew.bintray.com/bottles/surfraw-2.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "69920395cbde5fdc2492aa27fc765d4dafe910e26d9d3a05777888425310a0a9",
+          "url": "https://linuxbrew.bintray.com/bottles/surfraw-2.3.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "48b20736aae201046c9fdd3f0952ee5776be80c7eb0a7b68b3c75b837eca9285",
+          "url": "https://linuxbrew.bintray.com/bottles/surfraw-2.3.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Shell Users' Revolutionary Front Rage Against the Web",
+  "full_name": "surfraw",
+  "homepage": "https://surfraw.alioth.debian.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "surfraw",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.3.0"
+  }
+}

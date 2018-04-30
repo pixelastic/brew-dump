@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "33e496f9d1ca384ad23c50a1868fc2682352176d1cf5b37472299a9e36dc7e6c",
+          "url": "https://linuxbrew.bintray.com/bottles/arpoison-0.7.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eb37399841022351ef5551de5a63ecfc93d061d03518d62f01852a1d8e663e4e",
+          "url": "https://linuxbrew.bintray.com/bottles/arpoison-0.7.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "0737a954fa5f4d6794f7a373b90b5d2b2008a0bf7cdc4e2fd51266485e86b983",
+          "url": "https://linuxbrew.bintray.com/bottles/arpoison-0.7.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2ed60cb186440c24eaf0c8e040acb89ba60cdd730c83f4c6793add25c80a67ca",
+          "url": "https://linuxbrew.bintray.com/bottles/arpoison-0.7.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9d902ac3611dd0422783aecb7d46f39dd0278f65f5cab1aa99490fb527de5e22",
+          "url": "https://linuxbrew.bintray.com/bottles/arpoison-0.7.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libnet"
+  ],
+  "desc": "UNIX arp cache update utility",
+  "full_name": "arpoison",
+  "homepage": "http://www.arpoison.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "arpoison",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7"
+  }
+}

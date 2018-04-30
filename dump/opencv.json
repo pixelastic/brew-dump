@@ -1,0 +1,80 @@
+{
+  "aliases": [
+    "opencv@3"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ee91e9da5d6a0638d02bbe3eadce187691ce6fd3423f562cc9ab82bb0ed21832",
+          "url": "https://linuxbrew.bintray.com/bottles/opencv-3.4.1_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fa8753705aa7471f18cce91c907e6b9c011ea3b2d58985bf3ec6fce18daa1175",
+          "url": "https://linuxbrew.bintray.com/bottles/opencv-3.4.1_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a9d0e637613fcc752b46e18d2b0fe846a68e9d847214d01ade05f2944d411adb",
+          "url": "https://linuxbrew.bintray.com/bottles/opencv-3.4.1_4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b4e1ff3081b668874b24ebb151fbaa12fe6100af7f8a7e9c297cece8505bd03a",
+          "url": "https://linuxbrew.bintray.com/bottles/opencv-3.4.1_4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "eigen",
+    "ffmpeg",
+    "jpeg",
+    "libpng",
+    "libtiff",
+    "openexr",
+    "python",
+    "python@2",
+    "numpy",
+    "tbb",
+    "openblas"
+  ],
+  "desc": "Open source computer vision library",
+  "full_name": "opencv",
+  "homepage": "https://opencv.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "opencv",
+  "oldname": "opencv3",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.4.1"
+  }
+}

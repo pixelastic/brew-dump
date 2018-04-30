@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9c84c8b1c3d6269b0c9fd4badfb79e7e9fa5cd332d8e7345acfdf69122b7bb95",
+          "url": "https://linuxbrew.bintray.com/bottles/mdcat-0.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "77ed15875a6379f7c95a95af9eee53b8f7cb6c295d2df43ef49f4932865bb5fe",
+          "url": "https://linuxbrew.bintray.com/bottles/mdcat-0.8.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a363e294b323dfc469b7f7f22519457eb3df834f6407ffec8f40c1935c1e5e24",
+          "url": "https://linuxbrew.bintray.com/bottles/mdcat-0.8.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "rust"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "rust"
+  ],
+  "desc": "Show markdown documents on text terminals",
+  "full_name": "mdcat",
+  "homepage": "https://github.com/lunaryorn/mdcat",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mdcat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.0"
+  }
+}

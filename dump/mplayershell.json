@@ -1,0 +1,88 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ae4c1c9d069053afa7e71867256b577e23bd0dec87a90ccab2ebeab089a3634b",
+          "url": "https://linuxbrew.bintray.com/bottles/mplayershell-0.9.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c0b558e0508d80fe05a1d9617b7aa1986066c54bc0a3da585631eb406da5eb93",
+          "url": "https://linuxbrew.bintray.com/bottles/mplayershell-0.9.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a95437813704c56c3e52bd1b17974bec24c209e26df8e9dfe07af45d51ecaf49",
+          "url": "https://linuxbrew.bintray.com/bottles/mplayershell-0.9.3.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "0553f3ff5cae0a8938c3dc09e6448621029b52bbbc6c17d53225c1f3e7881ae4",
+          "url": "https://linuxbrew.bintray.com/bottles/mplayershell-0.9.3.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e9377eaebb65903037105bf3ed6ee301a182452791e9daeaadd08ccb732d9d1b",
+          "url": "https://linuxbrew.bintray.com/bottles/mplayershell-0.9.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1637360e180d7b48367cb7c4f01d03856b9d13247000e4cc33f0af5f6ed92101",
+          "url": "https://linuxbrew.bintray.com/bottles/mplayershell-0.9.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mplayer"
+  ],
+  "desc": "Improved visual experience for MPlayer on macOS",
+  "full_name": "mplayershell",
+  "homepage": "https://github.com/donmelton/MPlayerShell",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mplayershell",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.3"
+  }
+}

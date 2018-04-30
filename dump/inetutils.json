@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5fdac142afc7e9a376534e825d90c91b89e7fcae4f9ccebaadf568017ee6de78",
+          "url": "https://linuxbrew.bintray.com/bottles/inetutils-1.9.4.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f57b7d080b62fc569e9f1085a2edda0f6c5bdf0ff93d76ee9df009983ae14c99",
+          "url": "https://linuxbrew.bintray.com/bottles/inetutils-1.9.4.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e138ac43402b4a19991ad5fcbcdb7e1e5e2a4e13f71b4423db5102aef9da0db0",
+          "url": "https://linuxbrew.bintray.com/bottles/inetutils-1.9.4.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "79cd737826defbc84293856b30903d6c360e301c30754012fa94d0134ccdb0cc",
+          "url": "https://linuxbrew.bintray.com/bottles/inetutils-1.9.4.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1c9d32aa9b97b6119cad466b9a5efeef6bf74f54dbeccd096860e1500658d866",
+          "url": "https://linuxbrew.bintray.com/bottles/inetutils-1.9.4.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libidn"
+  ],
+  "desc": "GNU utilities for networking",
+  "full_name": "inetutils",
+  "homepage": "https://www.gnu.org/software/inetutils/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "inetutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Do not prepend 'g' to the binary",
+      "option": "--with-default-names"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9.4"
+  }
+}

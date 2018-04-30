@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a44ad5902f185e66d50f9f7aace7073964e8fe9d2c912fa036e14dd24fd8486c",
+          "url": "https://linuxbrew.bintray.com/bottles/libmonome-1.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5e8452d3349ea98e6d8a72cdcf2bdfd4224c1d07a421823217f825e92c655933",
+          "url": "https://linuxbrew.bintray.com/bottles/libmonome-1.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1d91d19c2c14b1c03e08d3ffe9b71e570a0751057a6201ef5ba6e56bab6ab9b9",
+          "url": "https://linuxbrew.bintray.com/bottles/libmonome-1.4.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "liblo"
+  ],
+  "desc": "Interact with monome devices via C, Python, or FFI",
+  "full_name": "libmonome",
+  "homepage": "https://monome.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libmonome",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.1"
+  }
+}

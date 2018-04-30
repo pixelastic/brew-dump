@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "624c97f08bfad198e37fc34c02d8c3b62117023694c3a1bc8d429572e426216a",
+          "url": "https://linuxbrew.bintray.com/bottles/genometools-1.5.10_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c53fb9498795701716d4d6bd57a88078d6a4167d0259dafc0cadb8a8d9507f00",
+          "url": "https://linuxbrew.bintray.com/bottles/genometools-1.5.10_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "82782fc695836444fb1077ca85705729b0f060eef912f227e958be601fe097f9",
+          "url": "https://linuxbrew.bintray.com/bottles/genometools-1.5.10_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "183564906823f5712983ba38a34c433103204057a0d2bd11bd8d878f57496c28",
+          "url": "https://linuxbrew.bintray.com/bottles/genometools-1.5.10_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "linuxbrew/xorg/libpthread-stubs"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cairo",
+    "pango",
+    "python@2",
+    "linuxbrew/xorg/libpthread-stubs"
+  ],
+  "desc": "GenomeTools: The versatile open source genome analysis software",
+  "full_name": "genometools",
+  "homepage": "http://genometools.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "genometools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.5.10"
+  }
+}

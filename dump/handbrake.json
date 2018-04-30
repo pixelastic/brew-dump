@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "cc8e3b2af4253294765ecab07bce0267674bf2ece7f749b97016af099d7f5269",
+          "url": "https://linuxbrew.bintray.com/bottles/handbrake-1.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "66c8c4eff41eb5116fe8f868de296348e583975468155897a157153042d2a143",
+          "url": "https://linuxbrew.bintray.com/bottles/handbrake-1.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9c927a8062dd2a2674ed809f44a65090bc7527227906967e04429769f17d6644",
+          "url": "https://linuxbrew.bintray.com/bottles/handbrake-1.1.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "cmake",
+    "libtool",
+    "nasm",
+    "pkg-config",
+    "python@2",
+    "yasm"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "cmake",
+    "libtool",
+    "nasm",
+    "pkg-config",
+    "python@2",
+    "yasm"
+  ],
+  "desc": "Open-source video transcoder available for Linux, Mac, and Windows",
+  "full_name": "handbrake",
+  "homepage": "https://handbrake.fr/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "handbrake",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.0"
+  }
+}

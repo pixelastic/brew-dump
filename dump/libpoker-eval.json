@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "67b105600a8e29ed2d38421bc27340ff6e9092806f6458f0ddd6a27de0bcfb9c",
+          "url": "https://linuxbrew.bintray.com/bottles/libpoker-eval-138.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "415934c921d4ccced5426f9aa807b0cf11da031cb2c973e17d506a9f740ac645",
+          "url": "https://linuxbrew.bintray.com/bottles/libpoker-eval-138.0.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "9bbfb3886a4e530455dbf53581aecd0df8c86a2f80a444692441449c30f76d92",
+          "url": "https://linuxbrew.bintray.com/bottles/libpoker-eval-138.0.mavericks.bottle.1.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "32281cedd42b9a1a99ff146ad97f00ae682f75249f7e16166ab8bd4ca0378e31",
+          "url": "https://linuxbrew.bintray.com/bottles/libpoker-eval-138.0.mountain_lion.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5216cd33d433fd9212ed14d6fffec593c7106226547c1555344604186e7aafc6",
+          "url": "https://linuxbrew.bintray.com/bottles/libpoker-eval-138.0.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "13fefc57333b56e0e1a3e4cbf583ed3b70e2e0a3cd9ce0d86b17a1135b153de8",
+          "url": "https://linuxbrew.bintray.com/bottles/libpoker-eval-138.0.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b15086546ac1ac0310e3113231bfcc2c9de0d23474be8a1a1b4663e6bc8f713f",
+          "url": "https://linuxbrew.bintray.com/bottles/libpoker-eval-138.0.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "C library to evaluate poker hands",
+  "full_name": "libpoker-eval",
+  "homepage": "https://pokersource.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libpoker-eval",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "138.0"
+  }
+}

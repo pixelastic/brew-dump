@@ -1,0 +1,68 @@
+{
+  "aliases": [
+    "libmongoclient"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "228a9e3cc0f097b54e9464422528abd89a95c485305a4cc951f9ec0426cdfbbd",
+          "url": "https://linuxbrew.bintray.com/bottles/mongo-cxx-driver-3.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9ce364cb4545f7cb4453ca6adcac2d381dd724cc3df4bcddc87921d2481b586e",
+          "url": "https://linuxbrew.bintray.com/bottles/mongo-cxx-driver-3.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5a16f976b70d1f99247e02276debb9098a42d1a92693e8447cbb62cf4e8e2f41",
+          "url": "https://linuxbrew.bintray.com/bottles/mongo-cxx-driver-3.2.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9cabb1557a494769bb475eec1ba20b1e64fa72987a1bcfa8f6e3cb56afba9906",
+          "url": "https://linuxbrew.bintray.com/bottles/mongo-cxx-driver-3.2.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "mongo-c-driver"
+  ],
+  "desc": "C++ driver for MongoDB",
+  "full_name": "mongo-cxx-driver",
+  "homepage": "https://github.com/mongodb/mongo-cxx-driver",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mongo-cxx-driver",
+  "oldname": "libmongoclient",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.2.0"
+  }
+}

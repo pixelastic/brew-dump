@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "21124a48471cafc82ee203113e368db1b667e4dc6111e66f624af986c88d72ef",
+          "url": "https://linuxbrew.bintray.com/bottles/libsigc++-2.10.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "90fd6c21c7a1d78b2efd494942e578a942acd6c38a7b3d758d05130df44ce3be",
+          "url": "https://linuxbrew.bintray.com/bottles/libsigc++-2.10.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "58af260cf09d48886e9e6c8d85d81979ebdaba4abcfa0bbc4a3a9ab3f78dd929",
+          "url": "https://linuxbrew.bintray.com/bottles/libsigc++-2.10.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "32e1ab665171cf5756a46675a8410ad871486b923242ccc3067368e7363fb4a6",
+          "url": "https://linuxbrew.bintray.com/bottles/libsigc++-2.10.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3441b2001c4e0aa51dae34d36a95db87a580229a6e68ae45f668b3d572a8f9cc",
+          "url": "https://linuxbrew.bintray.com/bottles/libsigc++-2.10.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "m4"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "m4"
+  ],
+  "desc": "Callback framework for C++",
+  "full_name": "libsigc++",
+  "homepage": "https://libsigc.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libsigc++",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.10.0"
+  }
+}

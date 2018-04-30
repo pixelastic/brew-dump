@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6b834a6ae6e95f8daaa726fd6ae1a2d3e60335f98862fea9e790c24e5a6411d1",
+          "url": "https://linuxbrew.bintray.com/bottles/chmlib-0.40.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "426b95744d071ad76399ee240400ab74bcec9057735cbfeb2d433501105060ef",
+          "url": "https://linuxbrew.bintray.com/bottles/chmlib-0.40.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "366c564a2cd0185d84ff6892f5d773f80ddee50f6db39e763060b3ebb31413b3",
+          "url": "https://linuxbrew.bintray.com/bottles/chmlib-0.40.mavericks.bottle.2.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "a62f8bdc1ffa2dc6084a61c78a1027c2215e0a2986ffeae755701769c667b3a8",
+          "url": "https://linuxbrew.bintray.com/bottles/chmlib-0.40.mountain_lion.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9781c76f933beca002df542d2db0644e51766568d9399f9e73dc39b9e896f539",
+          "url": "https://linuxbrew.bintray.com/bottles/chmlib-0.40.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "bdc19058cbf1690e960bd88d06f6c8b2ff47f8b743947eb82c259ba394881a65",
+          "url": "https://linuxbrew.bintray.com/bottles/chmlib-0.40.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library for dealing with Microsoft ITSS/CHM files",
+  "full_name": "chmlib",
+  "homepage": "http://www.jedrea.com/chmlib",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "chmlib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.40"
+  }
+}

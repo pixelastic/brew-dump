@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "39f790fa76fe15069eaf4d49dccc28408344a5381c6bbb59fb655ef5213f5444",
+          "url": "https://linuxbrew.bintray.com/bottles/geckodriver-0.20.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "619cbf30892108fcd05a423321392f27332918560a1498d71c37eab4e7294b72",
+          "url": "https://linuxbrew.bintray.com/bottles/geckodriver-0.20.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e048038a056738d753e9937737753331e564306a5ea034079652c4dd40b27399",
+          "url": "https://linuxbrew.bintray.com/bottles/geckodriver-0.20.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "rust"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "rust"
+  ],
+  "desc": "WebDriver <-> Marionette proxy",
+  "full_name": "geckodriver",
+  "homepage": "https://github.com/mozilla/geckodriver",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "geckodriver",
+  "oldname": "wires",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.20.1"
+  }
+}

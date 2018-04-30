@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "937b2bdf39471f35f37fadccec316a1f719f51e9f47c6b2240cde6f5e3b948f3",
+          "url": "https://linuxbrew.bintray.com/bottles/dwatch-0.1.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e422496ef0cf4bed87d9a38475b392b98291077200da58978bed893f5a253fde",
+          "url": "https://linuxbrew.bintray.com/bottles/dwatch-0.1.1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4778a3087b6ff2097975a9b552a2996c12b351ff8479d766b3a9ffca0b1075e1",
+          "url": "https://linuxbrew.bintray.com/bottles/dwatch-0.1.1.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Watch programs and perform actions based on a configuration file",
+  "full_name": "dwatch",
+  "homepage": "http://siag.nu/dwatch/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dwatch",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.1"
+  }
+}

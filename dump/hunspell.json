@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8b4bdf6b04972cf041748ae8e3d68f6a15dede6c830683a127badcba725d003d",
+          "url": "https://linuxbrew.bintray.com/bottles/hunspell-1.6.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e220d787540d49550dae83b7f6fb1c439b2aa1a559a718d7d9453f6be2bed373",
+          "url": "https://linuxbrew.bintray.com/bottles/hunspell-1.6.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2b6cae66f0659142df3993cd30c4d22caf0ec8de61f038727eaf7d06d64d38cc",
+          "url": "https://linuxbrew.bintray.com/bottles/hunspell-1.6.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "eb049f0299e692baaead887906a1764fc2fc80b936d97361230e600e1a40ca00",
+          "url": "https://linuxbrew.bintray.com/bottles/hunspell-1.6.2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1c19690997d3c77923691a779553e9277d9fc52fd075d79768d70e74c25cc2a4",
+          "url": "https://linuxbrew.bintray.com/bottles/hunspell-1.6.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": "Dictionary files (*.aff and *.dic) should be placed in\n~/Library/Spelling/ or /Library/Spelling/.  Homebrew itself\nprovides no dictionaries for Hunspell, but you can download\ncompatible dictionaries from other sources, such as\nhttps://wiki.openoffice.org/wiki/Dictionaries .\n",
+  "conflicts_with": [
+    "freeling"
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "gettext",
+    "readline"
+  ],
+  "desc": "Spell checker and morphological analyzer",
+  "full_name": "hunspell",
+  "homepage": "https://hunspell.github.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hunspell",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.2"
+  }
+}

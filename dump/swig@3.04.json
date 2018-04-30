@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "84988480f25dea3fce15b6ca0e9a3322222cc473066f23626d59b20001574fdf",
+          "url": "https://linuxbrew.bintray.com/bottles/swig@3.04-3.0.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fa6edd5df156b7a985bfe6f74f56cf15682af6b01d11f0ed342f2f05444234f0",
+          "url": "https://linuxbrew.bintray.com/bottles/swig@3.04-3.0.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "51b8115c0a2813caf115fb5f082e7aa1b84b7c51acec70822b8619e918969a14",
+          "url": "https://linuxbrew.bintray.com/bottles/swig@3.04-3.0.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f5e5251fa5d8f6ce3a7e63c9f3762ccd3bbc49f4664d1d781b71425992c2425b",
+          "url": "https://linuxbrew.bintray.com/bottles/swig@3.04-3.0.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pcre"
+  ],
+  "desc": "Generate scripting interfaces to C/C++ code",
+  "full_name": "swig@3.04",
+  "homepage": "http://www.swig.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "swig@3.04",
+  "oldname": "swig304",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.4"
+  }
+}

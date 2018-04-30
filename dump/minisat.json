@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4b77aa17b8b641964712013ffd0468e35c35a24f04ab285928d40b297abab50d",
+          "url": "https://linuxbrew.bintray.com/bottles/minisat-2.2.0_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "38bf5958fc84c017176cfaa13bee246f7a36efc5e992f26728cce654d13fa99c",
+          "url": "https://linuxbrew.bintray.com/bottles/minisat-2.2.0_1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "49beae2955b65f28958cca6bbc62d2b167b60ff12c1aa6b11b271f4a930dc147",
+          "url": "https://linuxbrew.bintray.com/bottles/minisat-2.2.0_1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a59c127edb56b612832b7dce88ff7bb426b42d573130a4d201d3f1c619e47006",
+          "url": "https://linuxbrew.bintray.com/bottles/minisat-2.2.0_1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gcc"
+  ],
+  "desc": "Boolean satisfiability (SAT) problem solver",
+  "full_name": "minisat",
+  "homepage": "http://minisat.se",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "minisat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.0"
+  }
+}

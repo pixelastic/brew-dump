@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "94571f7decc615e95aa80762956206619785ed44e69a39261ff601f06890521f",
+          "url": "https://linuxbrew.bintray.com/bottles/libidn-1.34.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "43e9d1a69fe657db90d2aaf5f191741fb3ed428071abbc58d29276cfe5c4c252",
+          "url": "https://linuxbrew.bintray.com/bottles/libidn-1.34.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5e447cc6fb5add5b30907b45a69f017be7daca6f515a2b7bb8338e0323238d60",
+          "url": "https://linuxbrew.bintray.com/bottles/libidn-1.34.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d091b8a1ab9cd500347a13646770b1cab458eda34f2bff9ff5e452d9c6de4bab",
+          "url": "https://linuxbrew.bintray.com/bottles/libidn-1.34.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config"
+  ],
+  "desc": "International domain name library",
+  "full_name": "libidn",
+  "homepage": "https://www.gnu.org/software/libidn/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libidn",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.34"
+  }
+}

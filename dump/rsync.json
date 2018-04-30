@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2a41527121c88e9c616346a866d587d2365d6f9cda8cb9018c4fb8209646f444",
+          "url": "https://linuxbrew.bintray.com/bottles/rsync-3.1.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c79e5b808b6f3925cfb27d38f46b19b6c771646dad1ab8a1a3e905b42c7327e2",
+          "url": "https://linuxbrew.bintray.com/bottles/rsync-3.1.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c7dc08f7c2c06bebb0947a2f8182dbbc4dde562fa3ab054555cee2564f355395",
+          "url": "https://linuxbrew.bintray.com/bottles/rsync-3.1.3_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3e09df5585ee03a902598a5606c3f3e7775ce327580259cf221249a0c0a68f18",
+          "url": "https://linuxbrew.bintray.com/bottles/rsync-3.1.3_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf"
+  ],
+  "desc": "Utility that provides fast incremental file transfer",
+  "full_name": "rsync",
+  "homepage": "https://rsync.samba.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rsync",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.1.3"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ad9d3bee24a05281ecccd88dba5ac246cf27b99f32161b3572c109993c75238e",
+          "url": "https://linuxbrew.bintray.com/bottles/libyaml-0.1.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1b44e5e2bc63def5c491b74d6a3538913690c126e071d95081d5ec06d436db48",
+          "url": "https://linuxbrew.bintray.com/bottles/libyaml-0.1.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "697f644d61983bd75f1ff5e7d4cccce26cc9a81cb8c78c066931dfc7c0dc94ba",
+          "url": "https://linuxbrew.bintray.com/bottles/libyaml-0.1.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3076b7e94154f8c7eb34f1c1da5097da20672c6fecde05e246cd36d17941abc6",
+          "url": "https://linuxbrew.bintray.com/bottles/libyaml-0.1.7.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3a7788655c3c8f3b7ad73521928277ca5433789e134f437534702145171b1104",
+          "url": "https://linuxbrew.bintray.com/bottles/libyaml-0.1.7.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "YAML Parser",
+  "full_name": "libyaml",
+  "homepage": "https://pyyaml.org/wiki/LibYAML",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libyaml",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.7"
+  }
+}

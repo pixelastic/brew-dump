@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "590aed30a67b41c1ae71c2b4c93e976bdde6fda6d4dbff698481659ac6b6e32a",
+          "url": "https://linuxbrew.bintray.com/bottles/libgeotiff-1.4.2_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5e071647442f998e8239426ee2d9dc7ff2131f02adfdd980b4a702c5316e9c78",
+          "url": "https://linuxbrew.bintray.com/bottles/libgeotiff-1.4.2_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "590457da69236c82347ee2037aada01123e835ac2169e9b8b7fe7c944319f31e",
+          "url": "https://linuxbrew.bintray.com/bottles/libgeotiff-1.4.2_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "04b1620ed6d20aa57145492ed4ac0decc52e90becdc9e169016fdb474a6066f3",
+          "url": "https://linuxbrew.bintray.com/bottles/libgeotiff-1.4.2_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "jpeg",
+    "libtiff",
+    "proj"
+  ],
+  "desc": "Library and tools for dealing with GeoTIFF",
+  "full_name": "libgeotiff",
+  "homepage": "https://geotiff.osgeo.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libgeotiff",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.2"
+  }
+}

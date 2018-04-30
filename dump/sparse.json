@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e393e5c09338e5db469150cd90d7d24f67840be81e36a09ac430f4ffe0254df0",
+          "url": "https://linuxbrew.bintray.com/bottles/sparse-0.5.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e1f7b2d8585f7c30f1c3c342d034768e14fac1b6043d5d7ba41a7b12d75c3efa",
+          "url": "https://linuxbrew.bintray.com/bottles/sparse-0.5.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "af4f28e9df8833877fc218dee27092218b57de0414706a64a6fc44946e7de692",
+          "url": "https://linuxbrew.bintray.com/bottles/sparse-0.5.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "eccfdb1fed859573858bb9532cca233cfc76c9113fd0174719ba7fd1f123ab12",
+          "url": "https://linuxbrew.bintray.com/bottles/sparse-0.5.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Static C code analysis tool",
+  "full_name": "sparse",
+  "homepage": "https://sparse.wiki.kernel.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sparse",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5.2"
+  }
+}

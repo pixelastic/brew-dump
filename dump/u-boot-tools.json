@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1198346b6b3afdbd2fc20d566174ab3ecd4b0f85f39d9bce155b9473ded49c82",
+          "url": "https://linuxbrew.bintray.com/bottles/u-boot-tools-2018.03.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9a25ab5ca27da21bdb3d08ac501183fe768f35e01e2348d294e0aa66610bae84",
+          "url": "https://linuxbrew.bintray.com/bottles/u-boot-tools-2018.03.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "740277c82ff08c39612c984e0139c3095f3962994ba8fb84765569afaf693730",
+          "url": "https://linuxbrew.bintray.com/bottles/u-boot-tools-2018.03.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "382d6b3a76550430f313932485c05a8a4ba69eb56d2d0fd1ee4ff1ff3b957697",
+          "url": "https://linuxbrew.bintray.com/bottles/u-boot-tools-2018.03.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Universal boot loader",
+  "full_name": "u-boot-tools",
+  "homepage": "https://www.denx.de/wiki/U-Boot/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "u-boot-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2018.03"
+  }
+}

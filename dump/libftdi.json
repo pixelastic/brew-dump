@@ -1,0 +1,87 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c023c826c533fd60e664a8f604f54017f84b356e625bbbafb8e5365e4319fa7a",
+          "url": "https://linuxbrew.bintray.com/bottles/libftdi-1.4.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a28c4f481c8174edfb845492c4155511cac868082fd65cce625b55a82f3b54c0",
+          "url": "https://linuxbrew.bintray.com/bottles/libftdi-1.4.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ef603f79c7791bac035bf1afe21dcea4b6323372140a246f9aa52031b3631f6b",
+          "url": "https://linuxbrew.bintray.com/bottles/libftdi-1.4.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "87ad7776c54c28f84347e9a48a2e71926c2c37fe4d7fc88e52c78601b0840744",
+          "url": "https://linuxbrew.bintray.com/bottles/libftdi-1.4.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7fc5addb888f58fbbd2a2e2e414ead4819a48b7fff4f6b0ebed274b499a38a40",
+          "url": "https://linuxbrew.bintray.com/bottles/libftdi-1.4.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config",
+    "swig"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "swig",
+    "libusb",
+    "boost",
+    "confuse"
+  ],
+  "desc": "Library to talk to FTDI chips",
+  "full_name": "libftdi",
+  "homepage": "https://www.intra2net.com/en/developer/libftdi",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libftdi",
+  "oldname": null,
+  "optional_dependencies": [
+    "boost",
+    "confuse"
+  ],
+  "options": [
+    {
+      "description": "Build with boost support",
+      "option": "--with-boost"
+    },
+    {
+      "description": "Build with confuse support",
+      "option": "--with-confuse"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4"
+  }
+}

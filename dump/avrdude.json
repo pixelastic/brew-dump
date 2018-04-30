@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4e5318b6c2022a2c33f2cd7528c02a23599097227a390855b8ad5f0680c85dd3",
+          "url": "https://linuxbrew.bintray.com/bottles/avrdude-6.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cf4744484312894ba0feb9380fae6bf13967655db74bd24c52ccc30c7eacd26c",
+          "url": "https://linuxbrew.bintray.com/bottles/avrdude-6.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "17916229c901c02efd79616a053fd6910a1e6c07c90027d868b43c5b536f86d5",
+          "url": "https://linuxbrew.bintray.com/bottles/avrdude-6.3.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "45c59c4d7821476baa9354c5d57254ee2e7a589f4928f4ecc68f55c93dd648c6",
+          "url": "https://linuxbrew.bintray.com/bottles/avrdude-6.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5abc4587ae12d475dd95a1b94e1c3045c4c4a64037d7be3dc935ff3a41d0285c",
+          "url": "https://linuxbrew.bintray.com/bottles/avrdude-6.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libusb-compat",
+    "libftdi0",
+    "libelf",
+    "libhid"
+  ],
+  "desc": "Atmel AVR MCU programmer",
+  "full_name": "avrdude",
+  "homepage": "https://savannah.nongnu.org/projects/avrdude/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "avrdude",
+  "oldname": null,
+  "optional_dependencies": [
+    "libhid"
+  ],
+  "options": [
+    {
+      "description": "Build with libhid support",
+      "option": "--with-libhid"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.3"
+  }
+}

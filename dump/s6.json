@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bceee1c191a4e8c36934c029ba59a661d52c42e2b09619a6d7e88ae143571d46",
+          "url": "https://linuxbrew.bintray.com/bottles/s6-2.7.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "664060c1632fcbd35dc52d0f0bfad5367e5ea38f0c2562b876ff3c38bac37ca3",
+          "url": "https://linuxbrew.bintray.com/bottles/s6-2.7.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "76e74a331066c5192a11d1aaabbdabf34d88d4c72f3fe44e372ea75a393be600",
+          "url": "https://linuxbrew.bintray.com/bottles/s6-2.7.1.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "797bfb145ccb4e0dab116e10d38fa51b728306c2e1a072b43cbc5dcc1983a7d6",
+          "url": "https://linuxbrew.bintray.com/bottles/s6-2.7.1.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Small & secure supervision software suite",
+  "full_name": "s6",
+  "homepage": "https://skarnet.org/software/s6/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "s6",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.7.1.1"
+  }
+}

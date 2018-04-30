@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5def6d20b975e17c0d988714efd1023b618594df8d7ab8f2fd9092df6ac35221",
+          "url": "https://linuxbrew.bintray.com/bottles/reminiscence-0.3.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "afd2cd157db08a099a133474d2e39cfa0a84cf0f964f723d08e1c694150ce9d2",
+          "url": "https://linuxbrew.bintray.com/bottles/reminiscence-0.3.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1d7ec41316c4356bf9563e2b1edad2ebb360d4d2aee3b10b4f3cc3549572fffd",
+          "url": "https://linuxbrew.bintray.com/bottles/reminiscence-0.3.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8dc1ab3d3e24acf79b48ced3051f5cf5c7cb7a7569407ce706a0fd88e9f8a65e",
+          "url": "https://linuxbrew.bintray.com/bottles/reminiscence-0.3.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "libmodplug",
+    "libogg",
+    "sdl2",
+    "zlib"
+  ],
+  "desc": "Flashback engine reimplementation",
+  "full_name": "reminiscence",
+  "homepage": "http://cyxdown.free.fr/reminiscence/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "reminiscence",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.6"
+  }
+}

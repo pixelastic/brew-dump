@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d62b1e35802f77cf8020dc27c53fc5a481e36c4948b76581313018ec496d38d2",
+          "url": "https://linuxbrew.bintray.com/bottles/sslyze-1.3.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7c663b9807bd9b53c9e6e848363367ca927686610c0e55df04b7d517f1d46adc",
+          "url": "https://linuxbrew.bintray.com/bottles/sslyze-1.3.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9c1e92e0c9b369ac9758bd92f57902ff1d65f1355abab085ca544fb31423dfb8",
+          "url": "https://linuxbrew.bintray.com/bottles/sslyze-1.3.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "openssl"
+  ],
+  "desc": "SSL scanner",
+  "full_name": "sslyze",
+  "homepage": "https://github.com/nabla-c0d3/sslyze",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sslyze",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "arch"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.3.4"
+  }
+}

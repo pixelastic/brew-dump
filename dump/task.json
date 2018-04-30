@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "07aa2c19ae6d7a9a46b286bfc48fa970aa9a9e0237e034bbaab354dcfc4f6848",
+          "url": "https://linuxbrew.bintray.com/bottles/task-2.5.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6a651be957b736bef14633efedef011a81c49ee37178eae4d8ef863549d7c584",
+          "url": "https://linuxbrew.bintray.com/bottles/task-2.5.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7888e42210edb6691ff57d056585536abd318d62b43a898bb98e286373519164",
+          "url": "https://linuxbrew.bintray.com/bottles/task-2.5.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d1cb582ab9ee211ec154690634b5988f8058ead31000c74d5cdfa949d319d0ed",
+          "url": "https://linuxbrew.bintray.com/bottles/task-2.5.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "113fc7ce057c51ea14021006a4106c25d29e361e4b70113e33fb7a83e57ee8d1",
+          "url": "https://linuxbrew.bintray.com/bottles/task-2.5.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "gnutls",
+    "util-linux"
+  ],
+  "desc": "Feature-rich console based todo list manager",
+  "full_name": "task",
+  "homepage": "https://taskwarrior.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "task",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't use gnutls; disables sync support",
+      "option": "--without-gnutls"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "gnutls"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.5.1"
+  }
+}

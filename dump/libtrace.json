@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "00e09353486c73d122c9743bcfad7a4379bbc1706896e25bc04e7ef925c36a7c",
+          "url": "https://linuxbrew.bintray.com/bottles/libtrace-4.0.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e3163c0a23c6b925f23e08af6e4327caea0a9cf89198250bd7537bfb62bb2e1a",
+          "url": "https://linuxbrew.bintray.com/bottles/libtrace-4.0.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c1db3822e5b92a5e510a24f72747bc7008bbb435c9d44d07b659d0e56ed481ac",
+          "url": "https://linuxbrew.bintray.com/bottles/libtrace-4.0.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "wandio"
+  ],
+  "desc": "Library for trace processing supporting multiple inputs",
+  "full_name": "libtrace",
+  "homepage": "https://research.wand.net.nz/software/libtrace.php",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libtrace",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.0.3"
+  }
+}

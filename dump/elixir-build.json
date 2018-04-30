@@ -1,0 +1,41 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "narwhal"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Elixir version of ruby-build",
+  "full_name": "elixir-build",
+  "homepage": "https://github.com/mururu/elixir-build",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "elixir-build",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "20141001"
+  }
+}

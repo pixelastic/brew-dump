@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "100c28baee98417c8ce7041956c4a62fe9126b6b36a0f3e186b33500b6b1f2fb",
+          "url": "https://linuxbrew.bintray.com/bottles/choose-gui-1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bcd4c1c75dad408adfa451351a719ad126e2dadb26a49a4316d7d170ed0c6702",
+          "url": "https://linuxbrew.bintray.com/bottles/choose-gui-1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5968418e6ee9717884d32f98e840cf02549165a9efc8f42e32549e3ae800c4cd",
+          "url": "https://linuxbrew.bintray.com/bottles/choose-gui-1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fd41325edc44dde3a61c52e310b0faa35314ce9c331b04673f55b6ebd5da28ba",
+          "url": "https://linuxbrew.bintray.com/bottles/choose-gui-1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "choose"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Fuzzy matcher that uses std{in,out} and a native GUI",
+  "full_name": "choose-gui",
+  "homepage": "https://github.com/sdegutis/choose",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "choose-gui",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0"
+  }
+}

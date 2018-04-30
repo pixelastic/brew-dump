@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c66847b6d0da88f917d5c701b0faeb91678f9622718fa09734973bef46a2599f",
+          "url": "https://linuxbrew.bintray.com/bottles/ctl-1.5.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1636fbe6e0ff3ed1f44b9e9eb1061065d40d9fe5e3239d29606eb72384e9f867",
+          "url": "https://linuxbrew.bintray.com/bottles/ctl-1.5.2_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "59a4e155666ed1854a2b38204d750ddc0af75ebd988367b1629be4a9f00a6c1f",
+          "url": "https://linuxbrew.bintray.com/bottles/ctl-1.5.2_1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "84aaaa696f7ea8837d13a3a1e58d826978be781c01dd5a77fa20197f45b7d25b",
+          "url": "https://linuxbrew.bintray.com/bottles/ctl-1.5.2_1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3f8e680a2ffe275cf0b719c3d092d9d38d068bb90def12bb84021a1c95205e52",
+          "url": "https://linuxbrew.bintray.com/bottles/ctl-1.5.2_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d04f2f46eaa9b3fa1d6e67e0493e8b206f873c6211874962b8ef06865bbf5c71",
+          "url": "https://linuxbrew.bintray.com/bottles/ctl-1.5.2_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libtiff",
+    "ilmbase",
+    "openexr",
+    "aces_container"
+  ],
+  "desc": "Programming language for digital color management",
+  "full_name": "ctl",
+  "homepage": "https://github.com/ampas/CTL",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ctl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.2"
+  }
+}

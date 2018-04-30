@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "807fafec64ac4c3589f5b760299d3b8fd42b29a66a914a5e6c119337a63bb6ab",
+          "url": "https://linuxbrew.bintray.com/bottles/yacas-1.6.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "33d32dbda388df190fa352f24cd6792f8d98a8af0a36fdd2f9d8951ae9c4e03a",
+          "url": "https://linuxbrew.bintray.com/bottles/yacas-1.6.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6aef11d42795146a35f9f3b374dfdfbe79b89b5a57c15a7fb3510d27b522c251",
+          "url": "https://linuxbrew.bintray.com/bottles/yacas-1.6.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c7fb1eb19bdb219645ed2bc94cfed491de1c2eb1f770dfd7a7b4cc63871f0dab",
+          "url": "https://linuxbrew.bintray.com/bottles/yacas-1.6.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "General purpose computer algebra system",
+  "full_name": "yacas",
+  "homepage": "https://www.yacas.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yacas",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.1"
+  }
+}

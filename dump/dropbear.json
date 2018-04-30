@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "669b80b9322ce9be7747693b0008cd98f1ed243a0adbbdedc213ffdcacf79c37",
+          "url": "https://linuxbrew.bintray.com/bottles/dropbear-2018.76.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "85068db760b390774919baa81ff724beec4ce909e9b05ca55e40d2a54e883ae2",
+          "url": "https://linuxbrew.bintray.com/bottles/dropbear-2018.76.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7850b929f50189cb0e8a0bf1bff530d6ac0370495bd574cd0bf4a4b0cea6eed9",
+          "url": "https://linuxbrew.bintray.com/bottles/dropbear-2018.76.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Small SSH server/client for POSIX-based system",
+  "full_name": "dropbear",
+  "homepage": "https://matt.ucc.asn.au/dropbear/dropbear.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dropbear",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2018.76"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "33016974737b654b3b65f86c1485dfb377c23efa2c60efc08bbac48e40e333f6",
+          "url": "https://linuxbrew.bintray.com/bottles/kdiff3-0.9.98.el_capitan.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8ddc33a57befb206127bcbe2a4ef4b4251830665945ba9170902231a63bddaf2",
+          "url": "https://linuxbrew.bintray.com/bottles/kdiff3-0.9.98.mavericks.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "50c90cad74a8393f859ae7f04b285c250361c49dddf88509f8292ebebc55c859",
+          "url": "https://linuxbrew.bintray.com/bottles/kdiff3-0.9.98.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "qt"
+  ],
+  "desc": "Compare and merge 2 or 3 files or directories",
+  "full_name": "kdiff3",
+  "homepage": "http://kdiff3.sourceforge.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "kdiff3",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.98"
+  }
+}

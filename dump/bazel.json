@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "bd4d4dafa34c76ddc1ed151aa997b1cb998556fef392d9c7238e31efd3e419ff",
+          "url": "https://linuxbrew.bintray.com/bottles/bazel-0.12.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4952dbfb9cd67be22cadf1dde843024324dfa2afa0efb0b98564ac6c6bbb72e9",
+          "url": "https://linuxbrew.bintray.com/bottles/bazel-0.12.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "49244d626386a5f2a8b3fbacb0e9df30f94ef1ae311a389a6cfdfef256b227bd",
+          "url": "https://linuxbrew.bintray.com/bottles/bazel-0.12.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Google's own build tool",
+  "full_name": "bazel",
+  "homepage": "https://bazel.build/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bazel",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "caskroom/versions/java8",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "ci"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.12.0"
+  }
+}

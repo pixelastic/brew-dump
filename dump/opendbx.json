@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "84a0f694107dd4d15b949dd68474e5a270da583058b7eff29688370ef3a8e18f",
+          "url": "https://linuxbrew.bintray.com/bottles/opendbx-1.4.6_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "42ed70ef4eb93be7351b5d66ff131ad13cb92290d9dee6a721d9050ae3a187cd",
+          "url": "https://linuxbrew.bintray.com/bottles/opendbx-1.4.6_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "275e19f854b29f8d1d0560a4cca55395854312d678c5c64ad3c2597df7569aef",
+          "url": "https://linuxbrew.bintray.com/bottles/opendbx-1.4.6_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "874a8b0ef941eec827bd85e59b7773269bb6b3632e38b9d192a003c4134b3227",
+          "url": "https://linuxbrew.bintray.com/bottles/opendbx-1.4.6_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "readline",
+    "sqlite"
+  ],
+  "desc": "Lightweight but extensible database access library in C",
+  "full_name": "opendbx",
+  "homepage": "https://linuxnetworks.de/doc/index.php/OpenDBX",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "opendbx",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.6"
+  }
+}

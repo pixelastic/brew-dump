@@ -1,0 +1,70 @@
+{
+  "aliases": [
+    "newsbeuter"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b9e794bc4654bebd68a606f148d225dc68e5e7cc8e6b660c03bbb56af3851e09",
+          "url": "https://linuxbrew.bintray.com/bottles/newsboat-2.11.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eb87047a5ea10e1224854ee0b12c192d2babd4a13e74f5495e7efaec29ad0368",
+          "url": "https://linuxbrew.bintray.com/bottles/newsboat-2.11.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7d78913b0b6b0373c5e43e6dcfa96df7e347792e4aa7c7878b11a802114e2e76",
+          "url": "https://linuxbrew.bintray.com/bottles/newsboat-2.11.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "asciidoc",
+    "docbook-xsl",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "asciidoc",
+    "docbook-xsl",
+    "pkg-config",
+    "gettext",
+    "json-c",
+    "libstfl"
+  ],
+  "desc": "RSS/Atom feed reader for text terminals",
+  "full_name": "newsboat",
+  "homepage": "https://newsboat.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "newsboat",
+  "oldname": "newsbeuter",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.11.1"
+  }
+}

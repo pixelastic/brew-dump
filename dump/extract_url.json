@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "96d599a0f724f6f09e261c8b0a1c8bbf69ce1b199d311527636f8a5d42f197c6",
+          "url": "https://linuxbrew.bintray.com/bottles/extract_url-1.6.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2880b669c381e7c7a2420d71c673d68d988223dc63bad9f14b1c62495973f362",
+          "url": "https://linuxbrew.bintray.com/bottles/extract_url-1.6.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "57b556a225f6ec03cee7166c1b4cbd2eb1c0eb2bd7819865bd9ed39620b81b68",
+          "url": "https://linuxbrew.bintray.com/bottles/extract_url-1.6.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d16fcc4c81a2ffb7f384f104396aae674bb8f6f08d336056ab858924d545f205",
+          "url": "https://linuxbrew.bintray.com/bottles/extract_url-1.6.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Perl script to extracts URLs from emails or plain text",
+  "full_name": "extract_url",
+  "homepage": "https://www.memoryhole.net/~kyle/extract_url/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "extract_url",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.2"
+  }
+}

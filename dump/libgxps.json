@@ -1,0 +1,98 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "98487c22daa05bf49ae4975759c71f568b574a55f96cdbdd9834c4d05293155c",
+          "url": "https://linuxbrew.bintray.com/bottles/libgxps-0.2.5_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c3e944367cacd85f4a7d2baa0c2d6174d80b586591b9664ef4b36f758ae597f9",
+          "url": "https://linuxbrew.bintray.com/bottles/libgxps-0.2.5_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4cfffe7346052e0b1e58d90c121a3f5019a5dbc84ba615f2b61d12489b6f83a6",
+          "url": "https://linuxbrew.bintray.com/bottles/libgxps-0.2.5_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "234ce5d81d10db1eac54601306fb9889a549559c4e2a87e972782971103ae399",
+          "url": "https://linuxbrew.bintray.com/bottles/libgxps-0.2.5_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "cairo",
+    "libarchive",
+    "freetype",
+    "libpng",
+    "jpeg",
+    "libtiff",
+    "little-cms2",
+    "gtk+"
+  ],
+  "desc": "GObject based library for handling and rendering XPS documents",
+  "full_name": "libgxps",
+  "homepage": "https://live.gnome.org/libgxps",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libgxps",
+  "oldname": null,
+  "optional_dependencies": [
+    "gtk+"
+  ],
+  "options": [
+    {
+      "description": "Build without jpeg support",
+      "option": "--without-jpeg"
+    },
+    {
+      "description": "Build without libtiff support",
+      "option": "--without-libtiff"
+    },
+    {
+      "description": "Build without little-cms2 support",
+      "option": "--without-little-cms2"
+    },
+    {
+      "description": "Build with gtk+ support",
+      "option": "--with-gtk+"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "jpeg",
+    "libtiff",
+    "little-cms2"
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.2.5"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e5ca6894981c7c33de857573f3cf2ad7c5e77f27b301228a37ff86640bd186c4",
+          "url": "https://linuxbrew.bintray.com/bottles/bubbros-1.6.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "99e021124d687f99b814502f1c2dca530f8551ceaeba68410b6cf9f5ab97ff42",
+          "url": "https://linuxbrew.bintray.com/bottles/bubbros-1.6.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4e4f5ae81a3393f4ea449739004e0bda1c628f25fbd0bb00a8c08a73b8ed16db",
+          "url": "https://linuxbrew.bintray.com/bottles/bubbros-1.6.2_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "The Bub's Brothers: Clone of the famous Bubble Bobble game",
+  "full_name": "bubbros",
+  "homepage": "https://bub-n-bros.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bubbros",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.2"
+  }
+}

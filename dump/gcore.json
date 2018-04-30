@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5c48b53869e00e0456d57bfa5adde594b5c5e46f3b0678434139765f5d8167ba",
+          "url": "https://linuxbrew.bintray.com/bottles/gcore-1.3_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b9e7e188bee51975ccfdb8f711101a7637f316be0e3aa6b8f80259f7b884f488",
+          "url": "https://linuxbrew.bintray.com/bottles/gcore-1.3_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5fbccf36d0bd51cc4261859b7faf2cc15fe89244109b64abf83512ea73f3259f",
+          "url": "https://linuxbrew.bintray.com/bottles/gcore-1.3_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e215d77d74b8c878a7d7449aada4817714b13024d6bfad78b2b700271e6218ec",
+          "url": "https://linuxbrew.bintray.com/bottles/gcore-1.3_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Produce a snapshot (core dump) of a running process",
+  "full_name": "gcore",
+  "homepage": "http://osxbook.com/book/bonus/chapter8/core/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gcore",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3"
+  }
+}

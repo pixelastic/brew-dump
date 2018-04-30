@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9b3f19e5da28fb682aeb1fe40f1747d1b532490dd50262978aaefcb7afbc8804",
+          "url": "https://linuxbrew.bintray.com/bottles/aalib-1.4rc5_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b2c5467ff9182645676381967b8dc89878f88900b19bed34ef432fd3257aa2a0",
+          "url": "https://linuxbrew.bintray.com/bottles/aalib-1.4rc5_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2c2d05720ca991422e4c27e3f770c29024c5197871cba67404f4e72a3cfaf002",
+          "url": "https://linuxbrew.bintray.com/bottles/aalib-1.4rc5_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "40f92137af26fa3729075fc82c0ea3e5539b70a6cb921ba99d6a9e1347d5d33c",
+          "url": "https://linuxbrew.bintray.com/bottles/aalib-1.4rc5_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9e08dd4e3545b05353f3158e4e756c20a301bef295b72183e1fd5fb1d6d8e897",
+          "url": "https://linuxbrew.bintray.com/bottles/aalib-1.4rc5_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Portable ASCII art graphics library",
+  "full_name": "aalib",
+  "homepage": "https://aa-project.sourceforge.io/aalib/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aalib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4rc5"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "61b64aeaf89d205742bbb254148502cd2df83bcf05d20377bdce8637f275bee5",
+          "url": "https://linuxbrew.bintray.com/bottles/cmockery2-1.3.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3651caa0ed8c5e2ec5dc0fe8932a53e20c2af28d3887161d1cdfe9c46fb9f220",
+          "url": "https://linuxbrew.bintray.com/bottles/cmockery2-1.3.9.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ce0cc1a3151655d4bb970ca92c87c5ebb5ed660c3c445e763edc4b835ca7e9a6",
+          "url": "https://linuxbrew.bintray.com/bottles/cmockery2-1.3.9.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "c7fbc1a75a2c4c517cea269fdd9567c6ebd74d6917624e4d084932edf13bb77b",
+          "url": "https://linuxbrew.bintray.com/bottles/cmockery2-1.3.9.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "661b4a8751a4dbe7e52b19cd9452d8b7dd61c929d73da27ac4fca5623a0dff6c",
+          "url": "https://linuxbrew.bintray.com/bottles/cmockery2-1.3.9.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ea94ba8420bd5bc01412b52ce9c03b392b933f279d1bce7a8ff8f7502bc83f88",
+          "url": "https://linuxbrew.bintray.com/bottles/cmockery2-1.3.9.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "automake",
+    "autoconf",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "automake",
+    "autoconf",
+    "libtool",
+    "pkg-config"
+  ],
+  "desc": "Reviving cmockery unit test framework from Google",
+  "full_name": "cmockery2",
+  "homepage": "https://github.com/lpabon/cmockery2",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cmockery2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.3.9"
+  }
+}

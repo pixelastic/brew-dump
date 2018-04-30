@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b2b8787372078b3d6568b232497a18da791c3197708f6814a69ced881d5c9055",
+          "url": "https://linuxbrew.bintray.com/bottles/cgdb-0.7.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "03ab0851b336b8f22b310f13774bd4737af6576f6732d116e4b8c7d1cf15ed0f",
+          "url": "https://linuxbrew.bintray.com/bottles/cgdb-0.7.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a81736f1e3b84ef7de58710b815bc90d845e4b5a0330146aca1fea31a75be81f",
+          "url": "https://linuxbrew.bintray.com/bottles/cgdb-0.7.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4957746e9d5b84d9a39b07031ae1249d244bca262caf4ce84d744ddef8956c95",
+          "url": "https://linuxbrew.bintray.com/bottles/cgdb-0.7.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "flex",
+    "help2man"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "flex",
+    "help2man",
+    "readline"
+  ],
+  "desc": "Curses-based interface to the GNU Debugger",
+  "full_name": "cgdb",
+  "homepage": "https://cgdb.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cgdb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.7.0"
+  }
+}

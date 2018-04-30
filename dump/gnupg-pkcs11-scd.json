@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0b236bc743da30e0db9458d55a1e511c792d9ed85c97c726a87b5932e8a21dc7",
+          "url": "https://linuxbrew.bintray.com/bottles/gnupg-pkcs11-scd-0.9.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b1b94851685ebb8dc920e4e5212c2b7effa2e831f184d8b8e66e44b1c9630d93",
+          "url": "https://linuxbrew.bintray.com/bottles/gnupg-pkcs11-scd-0.9.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eccf8f2df5f2007142529fd3b34085ef3f81500173dc6fccd0a94dfe76c7ad19",
+          "url": "https://linuxbrew.bintray.com/bottles/gnupg-pkcs11-scd-0.9.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "bfe9d758abc160efa1c952a25c56d93af018a0607c437333ef0a0eb40b585adb",
+          "url": "https://linuxbrew.bintray.com/bottles/gnupg-pkcs11-scd-0.9.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "libgpg-error",
+    "libassuan",
+    "libgcrypt",
+    "pkcs11-helper"
+  ],
+  "desc": "Enable the use of PKCS#11 tokens with GnuPG",
+  "full_name": "gnupg-pkcs11-scd",
+  "homepage": "https://gnupg-pkcs11.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnupg-pkcs11-scd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.1"
+  }
+}

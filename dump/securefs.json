@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b15c75803225335e0465ccd66215d09d8194ebb1320072020cf21189c34266b4",
+          "url": "https://linuxbrew.bintray.com/bottles/securefs-0.8.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6824b2cfcfdc55cc79d1e01d6a958d55c082533e74d697b1db77815083a1e31b",
+          "url": "https://linuxbrew.bintray.com/bottles/securefs-0.8.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9a347b474fb48789d148e22ee2165224166c00161b2447cf2c6a8cf0a23326cb",
+          "url": "https://linuxbrew.bintray.com/bottles/securefs-0.8.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "64bf649f142ab84d98b7f38cb66e5ffec12a0ec697a72dd8d5f80519911e6ab2",
+          "url": "https://linuxbrew.bintray.com/bottles/securefs-0.8.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Filesystem with transparent authenticated encryption",
+  "full_name": "securefs",
+  "homepage": "https://github.com/netheril96/securefs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "securefs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8.1"
+  }
+}

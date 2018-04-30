@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8da2823065773fb10dadfa07f483e315e0c00e878d2a2b46ac6ceaf6c211cf55",
+          "url": "https://linuxbrew.bintray.com/bottles/tracebox-0.4.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "97b9eec6475ebd187edb11b71ce3695c3477d9f8943d8d6d1e7061c6883fce04",
+          "url": "https://linuxbrew.bintray.com/bottles/tracebox-0.4.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d476a2ca43ab0ea973b34d7f340248fd81e7e451c5b37834dea35ef8098d6eb4",
+          "url": "https://linuxbrew.bintray.com/bottles/tracebox-0.4.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": "Tracebox requires superuser privileges e.g. run with sudo.\n\nYou should be certain that you trust any software you are executing with\nelevated privileges.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "lua",
+    "json-c"
+  ],
+  "desc": "Middlebox detection tool",
+  "full_name": "tracebox",
+  "homepage": "https://www.tracebox.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tracebox",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.4"
+  }
+}

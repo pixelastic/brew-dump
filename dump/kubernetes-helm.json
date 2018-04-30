@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6f974a1efcb655ba264d3667c2e7f0c849bb110c0cd93e2e45fd03ac2451bdd0",
+          "url": "https://linuxbrew.bintray.com/bottles/kubernetes-helm-2.9.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4f3a2f2d25faad4c53dfa55249893227ce2a1aec9f03ba6e89171f23cf3a7d73",
+          "url": "https://linuxbrew.bintray.com/bottles/kubernetes-helm-2.9.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "957f5eb8e53ad1083b2065685207728444ec8e1ffa90538aeb14336ebb139c0f",
+          "url": "https://linuxbrew.bintray.com/bottles/kubernetes-helm-2.9.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "mercurial",
+    "go",
+    "glide"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mercurial",
+    "go",
+    "glide"
+  ],
+  "desc": "The Kubernetes package manager",
+  "full_name": "kubernetes-helm",
+  "homepage": "https://helm.sh/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "kubernetes-helm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.9.0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "74dac56156c250fef9de8ebae64a1d6ae7b93c068a43f602a4debdc1b23a3945",
+          "url": "https://linuxbrew.bintray.com/bottles/stout-1.3.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e2774d1b1ea912934176fe6e68a3b7577239da41bbd15b1a71712a54f315a221",
+          "url": "https://linuxbrew.bintray.com/bottles/stout-1.3.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "144aac3cb78b98bf773b19e63e7eb3598261ab264e30b6d39ee3c8fdb9442cf9",
+          "url": "https://linuxbrew.bintray.com/bottles/stout-1.3.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "bc065cf4232169432ce91ea22c456c6891f00a386055c795131dc82572f5a3ae",
+          "url": "https://linuxbrew.bintray.com/bottles/stout-1.3.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Reliable static website deploy tool",
+  "full_name": "stout",
+  "homepage": "http://stout.is",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "stout",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3.1"
+  }
+}

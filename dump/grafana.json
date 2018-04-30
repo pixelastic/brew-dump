@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "78f04afe0710d461e26b0f92589e4ee0adb61e8baa3047b0e85a73e403975251",
+          "url": "https://linuxbrew.bintray.com/bottles/grafana-5.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e4553650e512ba846399916434fbe9a53a7243f51b607d3bb7d1f3f6c0326351",
+          "url": "https://linuxbrew.bintray.com/bottles/grafana-5.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "64c271f1e23aa33a1dff581c72e5dce3cac87d9c7c746556e992c9844a17e0f0",
+          "url": "https://linuxbrew.bintray.com/bottles/grafana-5.1.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "node",
+    "yarn"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "node",
+    "yarn",
+    "fontconfig",
+    "freetype",
+    "zlib"
+  ],
+  "desc": "Gorgeous metric visualizations and dashboards for timeseries databases",
+  "full_name": "grafana",
+  "homepage": "https://grafana.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "grafana",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.1.0"
+  }
+}

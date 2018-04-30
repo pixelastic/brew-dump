@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "cd92c8cd8f4759a2525c02b54fbefccde7e15afd071f7bd9d3c2b1ef5dd00fef",
+          "url": "https://linuxbrew.bintray.com/bottles/couchdb-lucene-2.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7e921fbcc3d95efef140e77283d8f6a2627f70afdcc02c7202f1c3a8d1042477",
+          "url": "https://linuxbrew.bintray.com/bottles/couchdb-lucene-2.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "772001fc7739ea21f359763b35125e4de4b2739872b7bba8fc933d1f59d25a18",
+          "url": "https://linuxbrew.bintray.com/bottles/couchdb-lucene-2.1.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "maven"
+  ],
+  "caveats": "All commands have been installed with the prefix 'cl_'.\n\nIf you really need to use these commands with their normal names, you\ncan add a \"clbin\" directory to your PATH from your bashrc like:\n\n    PATH=\"/home/tim/.linuxbrew/opt/couchdb-lucene/libexec/clbin:$PATH\"\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "couchdb",
+    "maven"
+  ],
+  "desc": "Full-text search of CouchDB documents using Lucene",
+  "full_name": "couchdb-lucene",
+  "homepage": "https://github.com/rnewson/couchdb-lucene",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "couchdb-lucene",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.1.0"
+  }
+}

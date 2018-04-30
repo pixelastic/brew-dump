@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ba97249f33f8974503d2270da462b12b374f3db7c65ee3d732f432b4a8c0c52d",
+          "url": "https://linuxbrew.bintray.com/bottles/txr-193.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "04075496eb349650f5dafc6f1a741967c5655820bf601dc80138bed3cc32e9e3",
+          "url": "https://linuxbrew.bintray.com/bottles/txr-193.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b4d8396adcd83169c6c4de97a599537f81ce2d8a3ca5a9e1a4e8a5c7bb04b755",
+          "url": "https://linuxbrew.bintray.com/bottles/txr-193.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bison",
+    "flex"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bison",
+    "flex"
+  ],
+  "desc": "Original, new programming language for convenient data munging",
+  "full_name": "txr",
+  "homepage": "https://www.nongnu.org/txr/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "txr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "193"
+  }
+}

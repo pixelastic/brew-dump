@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "52f20eade03e90e9a7223171923615588f6437f5da95b705797603609425a83d",
+          "url": "https://linuxbrew.bintray.com/bottles/x265-2.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f9b6134b34ed997045878939856d597e56e07d3890d68c1ac898212aaa4b5c46",
+          "url": "https://linuxbrew.bintray.com/bottles/x265-2.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "59160e9a1fdc822c79ecf6e025d94eade6d6170b8d6d272c3530eadf55824075",
+          "url": "https://linuxbrew.bintray.com/bottles/x265-2.7.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "nasm"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "nasm"
+  ],
+  "desc": "H.265/HEVC encoder",
+  "full_name": "x265",
+  "homepage": "http://x265.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "x265",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.7"
+  }
+}

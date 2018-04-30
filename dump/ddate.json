@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "fe87fe60ad1e8cbff1ebbcefd8be0f6f8ec87013a91e6385adbde0aebd45edea",
+          "url": "https://linuxbrew.bintray.com/bottles/ddate-0.2.2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "31a72f135768fdf09ddc40539e3860e3489cf478cca07f6af71d8d3428447a78",
+          "url": "https://linuxbrew.bintray.com/bottles/ddate-0.2.2.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "6d1dd4a9a1cc787cbd79add910fd80181dc5efc24712b9e84a7c37ce8de46d12",
+          "url": "https://linuxbrew.bintray.com/bottles/ddate-0.2.2.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "61be1f5fc044574ede464807fba1e092bc165932a909a357f5cd71b0cbfd4726",
+          "url": "https://linuxbrew.bintray.com/bottles/ddate-0.2.2.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ad575dd84b5d2ac8395c9cd11c4ef811f28f105eb81510369bb33078164ec2e9",
+          "url": "https://linuxbrew.bintray.com/bottles/ddate-0.2.2.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Converts boring normal dates to fun Discordian Date",
+  "full_name": "ddate",
+  "homepage": "https://github.com/bo0ts/ddate",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ddate",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.2"
+  }
+}

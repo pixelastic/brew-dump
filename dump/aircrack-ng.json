@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bc1052e5690192346ffe097cf08292dec9f61293e1e928bfcdb485ca71c130d6",
+          "url": "https://linuxbrew.bintray.com/bottles/aircrack-ng-1.1_2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1330c445bb9560fccc182c8a129cc3999830d5ce9e988bad60b45b43f869be61",
+          "url": "https://linuxbrew.bintray.com/bottles/aircrack-ng-1.1_2.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "07d79311d1480e5fb22c9fc17dbbf9758f02871a518bb3bbc3158a712f2abe9f",
+          "url": "https://linuxbrew.bintray.com/bottles/aircrack-ng-1.1_2.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "Run `airodump-ng-oui-update` install or update the Airodump-ng OUI file.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "sqlite",
+    "openssl"
+  ],
+  "desc": "Next-generation aircrack with lots of new features",
+  "full_name": "aircrack-ng",
+  "homepage": "https://aircrack-ng.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aircrack-ng",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

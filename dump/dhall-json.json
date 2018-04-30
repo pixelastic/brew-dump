@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d88cd50ed467d343b948e267bf3b458999ef41af0787f2ed1c20a9121fab737b",
+          "url": "https://linuxbrew.bintray.com/bottles/dhall-json-1.0.13.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "138a6476f6775eb0277eb70a08c0ae23c2e4dfab0ae677b015bbecc9b8283877",
+          "url": "https://linuxbrew.bintray.com/bottles/dhall-json-1.0.13.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eafc22ae451b9b1b69908d846ff8ff70de803fab944c236ec8cb2624e0b18b86",
+          "url": "https://linuxbrew.bintray.com/bottles/dhall-json-1.0.13.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cabal-install",
+    "ghc"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cabal-install",
+    "ghc"
+  ],
+  "desc": "Dhall to JSON compiler and a Dhall to YAML compiler",
+  "full_name": "dhall-json",
+  "homepage": "https://github.com/Gabriel439/Haskell-Dhall-JSON-Library",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dhall-json",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.13"
+  }
+}

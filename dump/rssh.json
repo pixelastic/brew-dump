@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "23891b0317ef29a36b0b8ee9f140193d17ae616983c13f2179d5b317b33e1eee",
+          "url": "https://linuxbrew.bintray.com/bottles/rssh-2.3.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "05dd4375824810caf77f7b40d2b1ff0a229e6743f46c755427c428d5ca31f173",
+          "url": "https://linuxbrew.bintray.com/bottles/rssh-2.3.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8b36773d40fb20e51fc0f277fe7930540dfc6e1cec0f6c5d19d20242ce1de3b9",
+          "url": "https://linuxbrew.bintray.com/bottles/rssh-2.3.4.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aebe589ee047200b1fd0486d3a1fb08c4a601366391e80bcd1e7dcb87ca456e0",
+          "url": "https://linuxbrew.bintray.com/bottles/rssh-2.3.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a63ead463b79c5375e0b919976173db13a236fcea06c4fa038a719375a550ca9",
+          "url": "https://linuxbrew.bintray.com/bottles/rssh-2.3.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Restricted shell for use with OpenSSH",
+  "full_name": "rssh",
+  "homepage": "http://www.pizzashack.org/rssh",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rssh",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.4"
+  }
+}

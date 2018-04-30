@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "10fdffef5ec4b8983db6547225491720d17cfbcdcbd34b9524facd9f48da04b6",
+          "url": "https://linuxbrew.bintray.com/bottles/cutter-1.2.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "565dd12a8b27f69e53a556ad02a448bb18648990a481e004920710a439a892c7",
+          "url": "https://linuxbrew.bintray.com/bottles/cutter-1.2.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ac8c646277a7b623f23ed44aba41c75d52c22d26ed7e0f01759baf9026a9e323",
+          "url": "https://linuxbrew.bintray.com/bottles/cutter-1.2.6.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "glib",
+    "gettext"
+  ],
+  "desc": "Unit Testing Framework for C and C++",
+  "full_name": "cutter",
+  "homepage": "https://cutter.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cutter",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.6"
+  }
+}

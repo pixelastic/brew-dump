@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "90fd1e0e102f446de1e647f2c3ec9f0dd6c5df190dcbdd9f1136bb90e344d730",
+          "url": "https://linuxbrew.bintray.com/bottles/adns-1.5.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5abc21fa69037e1a161c90a594077c6fc8b74aed19f371337aa4a4946e9cc08f",
+          "url": "https://linuxbrew.bintray.com/bottles/adns-1.5.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3bbd0cc0bc05c228746629760bcd027bbe90aa54e3b79fc2d4553e7fd5900d44",
+          "url": "https://linuxbrew.bintray.com/bottles/adns-1.5.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "59f84feb55a76b2be6ef974f10a1b41459a62fd8f715f5000e16a5fdc969610f",
+          "url": "https://linuxbrew.bintray.com/bottles/adns-1.5.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9c5974b93f921e8d6c735ca6722d83d94d5a501d301d337177741f4a2a8f9128",
+          "url": "https://linuxbrew.bintray.com/bottles/adns-1.5.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "C/C++ resolver library and DNS resolver utilities",
+  "full_name": "adns",
+  "homepage": "https://www.chiark.greenend.org.uk/~ian/adns/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "adns",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.5.1"
+  }
+}

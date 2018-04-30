@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2c0e0523569aa25fe254012d3b86ae0bdc587c0f17c4a62d8d12917b7fa44fbf",
+          "url": "https://linuxbrew.bintray.com/bottles/sf-pwgen-1.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "05ac7530759e9f2cf3a0e94a5b1f4fea83a1710de8010fa9b3d9b60167018038",
+          "url": "https://linuxbrew.bintray.com/bottles/sf-pwgen-1.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ff59281df8d8c0e341233cdffafe67d0dc78101afb90a8597b0a83605ef578a3",
+          "url": "https://linuxbrew.bintray.com/bottles/sf-pwgen-1.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2c6d133b3c9b079dc8c81407107a3c1fb4d5cb3d654afa7acef6f23b9f9df9a6",
+          "url": "https://linuxbrew.bintray.com/bottles/sf-pwgen-1.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Generate passwords using SecurityFoundation framework",
+  "full_name": "sf-pwgen",
+  "homepage": "https://github.com/anders/pwgen/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sf-pwgen",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4"
+  }
+}

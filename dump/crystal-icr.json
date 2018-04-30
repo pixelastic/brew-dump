@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b0ecff4280242c2d91aa2bdb383fbbb60f682522b42ded34286c0b55616b2494",
+          "url": "https://linuxbrew.bintray.com/bottles/crystal-icr-0.5.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5702c04b7d3993c304367a4e57adda68967f49d8c00cd5861712c44cfd416f1a",
+          "url": "https://linuxbrew.bintray.com/bottles/crystal-icr-0.5.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c71458325b064cd1062be74b0d8ceadccb9e76c70f272d464f4461884b2745d2",
+          "url": "https://linuxbrew.bintray.com/bottles/crystal-icr-0.5.0_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "crystal-lang",
+    "readline"
+  ],
+  "desc": "Interactive console for Crystal programming language",
+  "full_name": "crystal-icr",
+  "homepage": "https://github.com/crystal-community/icr",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "crystal-icr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.5.0"
+  }
+}

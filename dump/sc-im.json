@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "50e8d50e0373ac626ad617057eb1246c779e1e3b05171f4be2aa547c5b8ddf4c",
+          "url": "https://linuxbrew.bintray.com/bottles/sc-im-0.7.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "275a0a9dbd1a1271119e36b2767a54587aae57a65ee92278e701e0e1236a192c",
+          "url": "https://linuxbrew.bintray.com/bottles/sc-im-0.7.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f346970ef805cec01ae6485365d8fb5002533255c01e81bdd44d072058d00081",
+          "url": "https://linuxbrew.bintray.com/bottles/sc-im-0.7.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "desc": "Spreadsheet program for the terminal, using ncurses",
+  "full_name": "sc-im",
+  "homepage": "https://github.com/andmarti1424/sc-im",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sc-im",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.7.0"
+  }
+}

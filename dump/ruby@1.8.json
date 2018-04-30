@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d8993792dd522fe5977604d704337bf9845447db9d0274a173b16b7290d24ebf",
+          "url": "https://linuxbrew.bintray.com/bottles/ruby@1.8-1.8.7-p374_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "028a474aad330d68cb05970f5587e30d98a6442dc847d30371c9dc4dfac3a9f8",
+          "url": "https://linuxbrew.bintray.com/bottles/ruby@1.8-1.8.7-p374_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cde0dd03d2eeaa2d9e98f7b0ca88c1f362049f3de5b631ff9ca87d64360fe641",
+          "url": "https://linuxbrew.bintray.com/bottles/ruby@1.8-1.8.7-p374_4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f6d1768d43556e8f9bc795c47d40d57513174cd14da0fb6a8fc178880180b0c1",
+          "url": "https://linuxbrew.bintray.com/bottles/ruby@1.8-1.8.7-p374_4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "openssl",
+    "readline"
+  ],
+  "desc": "Powerful, clean, object-oriented scripting language",
+  "full_name": "ruby@1.8",
+  "homepage": "https://www.ruby-lang.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "ruby@1.8",
+  "oldname": "ruby187",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.7-p374"
+  }
+}

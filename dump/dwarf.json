@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "042c140300ff583047ec5f51e3877b4ecf22a3c25a6108c11ae067b9e525d05b",
+          "url": "https://linuxbrew.bintray.com/bottles/dwarf-0.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "47af5ca1f6349c0d8c49f1ef72cbed7fbaa6e91c263c8a284afd841e8ced56f9",
+          "url": "https://linuxbrew.bintray.com/bottles/dwarf-0.4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "69a1b11620f73e519cf6abade5a23e478a4c7c44cd4fbc9996b05c464c53e8d7",
+          "url": "https://linuxbrew.bintray.com/bottles/dwarf-0.4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "bc8f2a1dab225f316cc0e1f0a0102d4dc0e468181af141f0b994f06ef62c05ad",
+          "url": "https://linuxbrew.bintray.com/bottles/dwarf-0.4.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "flex",
+    "readline",
+    "bison"
+  ],
+  "desc": "Object file manipulation tool",
+  "full_name": "dwarf",
+  "homepage": "https://github.com/elboza/dwarf-ng/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dwarf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9a2816b3aaa1717d6c5d2c59495681915b62de67e496bb3edfecf1e5b6d537c0",
+          "url": "https://linuxbrew.bintray.com/bottles/pcsc-lite-1.8.23.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0ed981ad7244d50d3084cef08991c5662658cd321d24784b2a6c2f8586f8f205",
+          "url": "https://linuxbrew.bintray.com/bottles/pcsc-lite-1.8.23.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "16167530e755c8c59a43b72433e9e1aba53b14f4f7364e85fc3159ecdc8ce75b",
+          "url": "https://linuxbrew.bintray.com/bottles/pcsc-lite-1.8.23.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Middleware to access a smart card using SCard API",
+  "full_name": "pcsc-lite",
+  "homepage": "https://pcsclite.alioth.debian.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pcsc-lite",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.23"
+  }
+}

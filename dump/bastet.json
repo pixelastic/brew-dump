@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "e3745b716c09ce7f3834f4fc30163fa132f93feeec4c301dc9d46b0bc9ca564f",
+          "url": "https://linuxbrew.bintray.com/bottles/bastet-0.43.2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "188658452934d4ef5d48d6837fb0c6bf3e3875488e0c1da8dcf62ca37c1ee998",
+          "url": "https://linuxbrew.bintray.com/bottles/bastet-0.43.2.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8133c13d1b98d96eacf5d420d30378fbfcd9cbe898b0f13b188112618f4338f5",
+          "url": "https://linuxbrew.bintray.com/bottles/bastet-0.43.2.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "254d21cc32a309c4b91ba5008fdfe56dbd355312948de849e2172fbf2201ab83",
+          "url": "https://linuxbrew.bintray.com/bottles/bastet-0.43.2.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost"
+  ],
+  "desc": "Bastard Tetris",
+  "full_name": "bastet",
+  "homepage": "http://fph.altervista.org/prog/bastet.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bastet",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.43.2"
+  }
+}

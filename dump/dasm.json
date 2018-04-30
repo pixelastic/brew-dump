@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "854a19f232cffdeabb1cb2afef4a5713e55b545519beea8f666f2cc4882d42e6",
+          "url": "https://linuxbrew.bintray.com/bottles/dasm-2014.03.04.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8df31a4bcc48b92ee2569994dda6a5bd55335a0e92e1e19903a2c98377b440d1",
+          "url": "https://linuxbrew.bintray.com/bottles/dasm-2014.03.04.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "3383c91ce64d715a05595e49d38d16ea134e139dc7b87541d8c81bf5a9aeaf15",
+          "url": "https://linuxbrew.bintray.com/bottles/dasm-2014.03.04.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7425679bdb695c12ca174ca4f17e187a9a9aa5a92e7fe72bf8a561dd83aff4a7",
+          "url": "https://linuxbrew.bintray.com/bottles/dasm-2014.03.04.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1897ee7e4d76eeb74bd6aa3c94d73f14f55c44054dd296bbd724addb3ca3b00a",
+          "url": "https://linuxbrew.bintray.com/bottles/dasm-2014.03.04.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Macro assembler with support for several 8-bit microprocessors",
+  "full_name": "dasm",
+  "homepage": "https://dasm-dillon.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dasm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2014.03.04"
+  }
+}

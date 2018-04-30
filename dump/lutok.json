@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f96ca1b1429b412a1cdd65347cf84572f2904ac70c60dfacf88235861a7237e7",
+          "url": "https://linuxbrew.bintray.com/bottles/lutok-0.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1a78a65920384f74c126fcc1b0dd50d32050e624b31c13832258e25c8ddeeb85",
+          "url": "https://linuxbrew.bintray.com/bottles/lutok-0.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3574212320ef541e098198f1465cca7162cb59daff416af2190127d948a119eb",
+          "url": "https://linuxbrew.bintray.com/bottles/lutok-0.4_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "lua"
+  ],
+  "desc": "Lightweight C++ API for Lua",
+  "full_name": "lutok",
+  "homepage": "https://github.com/jmmv/lutok",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lutok",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4"
+  }
+}

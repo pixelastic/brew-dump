@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "aef201163b1dc90a1a654beadd0b138015503a02728ba75232e237ba3d3d7c4a",
+          "url": "https://linuxbrew.bintray.com/bottles/annie-0.6.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "25a2f20ba454b3ab9ae49f7de5917ab4dacae34e5e179ef36ee3ea94811cac60",
+          "url": "https://linuxbrew.bintray.com/bottles/annie-0.6.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d03dcb05e8e3dfd51dd6c2c3a232ee966f5c5925b2b9ca022f477a7598849713",
+          "url": "https://linuxbrew.bintray.com/bottles/annie-0.6.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b96a25768769c3b7d7968500ac8fe38998e682a77151341d5cb5af438765bd70",
+          "url": "https://linuxbrew.bintray.com/bottles/annie-0.6.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Fast, simple and clean video downloader",
+  "full_name": "annie",
+  "homepage": "https://github.com/iawia002/annie",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "annie",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.9"
+  }
+}

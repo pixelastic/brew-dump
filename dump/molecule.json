@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "162908de7b790f51095e8399129ad985a9ecfbe99b25a4c8ed633bf104d4fbd5",
+          "url": "https://linuxbrew.bintray.com/bottles/molecule-1.25.1_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0f1161a2923864cbf310eb621d2c45a58881816efdeb0fcc8d0b61382d2027cc",
+          "url": "https://linuxbrew.bintray.com/bottles/molecule-1.25.1_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "62d26f320c2305f7f3cd968dc88a457ee1e1ad1105cbad56142b775d37a25970",
+          "url": "https://linuxbrew.bintray.com/bottles/molecule-1.25.1_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "python@2",
+    "pkg-config",
+    "libffi",
+    "gmp"
+  ],
+  "desc": "Automated testing for Ansible roles",
+  "full_name": "molecule",
+  "homepage": "https://molecule.readthedocs.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "molecule",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.25.1"
+  }
+}

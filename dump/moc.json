@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "6286eeb3b7ca9500ae5ab3c795dcf3ca94fa8440141ccd02ae7fd0107d3950f4",
+          "url": "https://linuxbrew.bintray.com/bottles/moc-2.5.2_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a536689c04be421cd2d55851d32b460a888188adb5bea42fcbb57db465e6c87c",
+          "url": "https://linuxbrew.bintray.com/bottles/moc-2.5.2_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c5b44244ca3421ea8eb867f5bffde2be4823d335a960047d1246a8295807ebf9",
+          "url": "https://linuxbrew.bintray.com/bottles/moc-2.5.2_4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "35aaaabbe489002234bb0bad9b9b4ac29d2da0e3f25c34b086b727e96c46beea",
+          "url": "https://linuxbrew.bintray.com/bottles/moc-2.5.2_4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "gettext",
+    "pkg-config"
+  ],
+  "caveats": "You must start the jack daemon prior to running mocp.\nIf you need wide-character support in the player, for example\nwith Chinese characters, you can install using\n    --with-ncurses\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "gettext",
+    "pkg-config",
+    "berkeley-db",
+    "ffmpeg",
+    "jack",
+    "libtool",
+    "ncurses"
+  ],
+  "desc": "Terminal-based music player",
+  "full_name": "moc",
+  "homepage": "https://moc.daper.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "moc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "2.6-alpha3",
+    "head": "HEAD",
+    "stable": "2.5.2"
+  }
+}

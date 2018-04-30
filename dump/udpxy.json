@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0d4a899340bdee7f4497d68fe3bc59213ad83382d205aa08ada871d9d08c010d",
+          "url": "https://linuxbrew.bintray.com/bottles/udpxy-1.0.23-12.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "46de795b585d88c658554fb943931885db85d75c7f838d9db6d11d98e46538d0",
+          "url": "https://linuxbrew.bintray.com/bottles/udpxy-1.0.23-12.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ee35787b2877b8ac1a9fa967e9f8fbf466f8c107e28cc61fee59c26aef9bf44d",
+          "url": "https://linuxbrew.bintray.com/bottles/udpxy-1.0.23-12.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "UDP-to-HTTP multicast traffic relay daemon",
+  "full_name": "udpxy",
+  "homepage": "http://www.udpxy.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "udpxy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.23-12"
+  }
+}

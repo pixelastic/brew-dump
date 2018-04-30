@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8549a043b40628b7141ed2d58cd8d473bb49345b52e4f6586554d5990770ddd3",
+          "url": "https://linuxbrew.bintray.com/bottles/git-cinnabar-0.4.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "30cc00b0406ccca2d8c5e29ca6217cf0ae8cb6925e7607b0fb67385aab973f63",
+          "url": "https://linuxbrew.bintray.com/bottles/git-cinnabar-0.4.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fddd63b61e1e4b624bf7e9585f32467915437bbc093588e2e0c6c209b649b5bb",
+          "url": "https://linuxbrew.bintray.com/bottles/git-cinnabar-0.4.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "358bc548d43c4d6b8489371a7ecb62ef1898474026a78e0aa67e426a62762a68",
+          "url": "https://linuxbrew.bintray.com/bottles/git-cinnabar-0.4.0_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "git-remote-hg"
+  ],
+  "dependencies": [
+    "mercurial",
+    "curl"
+  ],
+  "desc": "Git remote helper to interact with mercurial repositories",
+  "full_name": "git-cinnabar",
+  "homepage": "https://github.com/glandium/git-cinnabar",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git-cinnabar",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "0.5.0b2",
+    "head": "HEAD",
+    "stable": "0.4.0"
+  }
+}

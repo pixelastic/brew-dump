@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a3fff906ab6a5da67d6e5b770818416d5c609efb217211e77b227895603f7ee3",
+          "url": "https://linuxbrew.bintray.com/bottles/arpack-3.5.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "79916ca5fe573b2a4394cfdef2ef29c7a7070728ea9d0001fc1b565d30de94e0",
+          "url": "https://linuxbrew.bintray.com/bottles/arpack-3.5.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cd4f84697d2e170fe14b9be297b1f95282b4f0c5631c2a89240e31a64b06c516",
+          "url": "https://linuxbrew.bintray.com/bottles/arpack-3.5.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e27da32dccb5f08638d6f8c63f24fedf58ab266bf1bbc10b4e78bcf4674e8172",
+          "url": "https://linuxbrew.bintray.com/bottles/arpack-3.5.0_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "gcc",
+    "openblas"
+  ],
+  "desc": "Routines to solve large scale eigenvalue problems",
+  "full_name": "arpack",
+  "homepage": "https://github.com/opencollab/arpack-ng",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "arpack",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable parallel support",
+      "option": "--with-mpi"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.5.0"
+  }
+}

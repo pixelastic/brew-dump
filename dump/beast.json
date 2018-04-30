@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "30fa27c365bed00f62c399e7724044bfc2eef0e211ca7ca41211d01446c7a27d",
+          "url": "https://linuxbrew.bintray.com/bottles/beast-1.8.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7d04adbad7f141cc0e7465855a098e46c4c156e1ac59a400911e67ee1c62571d",
+          "url": "https://linuxbrew.bintray.com/bottles/beast-1.8.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fd0b8225774ad857e296ca5fe8540ab21de86a5e951d963e2af5473f6e85a5e2",
+          "url": "https://linuxbrew.bintray.com/bottles/beast-1.8.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "513100e188db7c5e112cf55d09d5d8316487110144710c08524c73ab6e52144f",
+          "url": "https://linuxbrew.bintray.com/bottles/beast-1.8.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ant"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ant"
+  ],
+  "desc": "Bayesian Evolutionary Analysis Sampling Trees",
+  "full_name": "beast",
+  "homepage": "http://beast.community/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "beast",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.4"
+  }
+}

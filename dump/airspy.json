@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c86b265ed42d8a976ff4bfc6116e5945d103f22af8ced4b9a9a18827ecf4af06",
+          "url": "https://linuxbrew.bintray.com/bottles/airspy-1.0.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "44736e1193e3f63fca0c984ac4f594d1ad11a83a810898103652f69af2bce63f",
+          "url": "https://linuxbrew.bintray.com/bottles/airspy-1.0.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bfc1393f3efe5b58016fbee40a4048e7c7246203cb72b02261da1045941bcd4f",
+          "url": "https://linuxbrew.bintray.com/bottles/airspy-1.0.9.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1d6af7e52534bc50625eabcaa2b586e5824a3abbb4c3b42e032e5b4de41c6bfb",
+          "url": "https://linuxbrew.bintray.com/bottles/airspy-1.0.9.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cmake",
+    "libusb"
+  ],
+  "desc": "The usemode driver and associated tools for airspy",
+  "full_name": "airspy",
+  "homepage": "https://airspy.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "airspy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.9"
+  }
+}

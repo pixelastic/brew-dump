@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1d45736f60b6fdb1af3e2ee607b256caa99536e27a237d2f834fe2d3fb15326f",
+          "url": "https://linuxbrew.bintray.com/bottles/giter8-0.10.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d802cf462c8283e0c9663a61dde82bce7d482da24b2ce71b2cb233e5c589e362",
+          "url": "https://linuxbrew.bintray.com/bottles/giter8-0.10.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3841b04b665c9121d698fadfe94d4dc0ccaa4c5b36d7a590d54186c7d7583afc",
+          "url": "https://linuxbrew.bintray.com/bottles/giter8-0.10.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6c4b4dcf953b5fb153c0bede0821d7e803067b6a1554c01770d711c1021a1145",
+          "url": "https://linuxbrew.bintray.com/bottles/giter8-0.10.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Generate files and directories from templates in a git repo",
+  "full_name": "giter8",
+  "homepage": "https://github.com/foundweekends/giter8",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "giter8",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.10.0"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d5ba76d921c4924e72080af2480095964f98b2ff7b39eb230fecdf5223589af1",
+          "url": "https://linuxbrew.bintray.com/bottles/cmake-3.11.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f46c32faed88dd9753936143c07c44ab11a8a7488c66b37f38cbc37c338aa36a",
+          "url": "https://linuxbrew.bintray.com/bottles/cmake-3.11.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f5f1b8a9e2d3702b114fadb135d7ae31cacf4ab534de3fa272541358da11f7a5",
+          "url": "https://linuxbrew.bintray.com/bottles/cmake-3.11.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2bd7e7b823422b3eeecd4bc9b11668e1f1d732abd2d5f315704758e38bc60d8a",
+          "url": "https://linuxbrew.bintray.com/bottles/cmake-3.11.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "sphinx-doc"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sphinx-doc",
+    "ncurses",
+    "openssl"
+  ],
+  "desc": "Cross-platform make",
+  "full_name": "cmake",
+  "homepage": "https://www.cmake.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cmake",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't build man pages",
+      "option": "--without-docs"
+    },
+    {
+      "description": "Install Bash completion (Has potential problems with system bash)",
+      "option": "--with-completion"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.11.1"
+  }
+}

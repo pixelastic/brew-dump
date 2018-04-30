@@ -1,0 +1,84 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1760007de92dd5e7282a82f2534feb65380338fd8cb11632eef8914c2ddb56a4",
+          "url": "https://linuxbrew.bintray.com/bottles/gwenhywfar-4.20.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "229eac2112343d4616576f947213706ebe5f28e0030dd5bef89ee4efa3043ac9",
+          "url": "https://linuxbrew.bintray.com/bottles/gwenhywfar-4.20.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "97aaff3937e4551227a66a55963d3dda7e24e53b9e9aa1ffca78ae455be00ab1",
+          "url": "https://linuxbrew.bintray.com/bottles/gwenhywfar-4.20.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "264a424e4c981ca3ab62f7d8eabf142868156ad606f3e7c9dc4bc8c6aa6a4eb4",
+          "url": "https://linuxbrew.bintray.com/bottles/gwenhywfar-4.20.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gettext",
+    "gnutls",
+    "openssl",
+    "libgcrypt",
+    "gtk+"
+  ],
+  "desc": "Utility library required by aqbanking and related software",
+  "full_name": "gwenhywfar",
+  "homepage": "http://www.aqbanking.de/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gwenhywfar",
+  "oldname": null,
+  "optional_dependencies": [
+    "gtk+"
+  ],
+  "options": [
+    {
+      "description": "Build without cocoa support",
+      "option": "--without-cocoa"
+    },
+    {
+      "description": "Run build-time check",
+      "option": "--with-test"
+    },
+    {
+      "description": "Build with gtk+ support",
+      "option": "--with-gtk+"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.20.0"
+  }
+}

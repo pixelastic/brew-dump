@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "8d7aa78dac5d730e10be563651d9955bc82d1a8ab63860af844454618876be00",
+          "url": "https://linuxbrew.bintray.com/bottles/hashcat-4.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "64c94a9eff257fda38a37f0dfcde9b88074e5ca1fe63a91cca2128983777f536",
+          "url": "https://linuxbrew.bintray.com/bottles/hashcat-4.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "437cac49dbd5807c757a9613356c02705e237b57ef3b246e827635f086c5289c",
+          "url": "https://linuxbrew.bintray.com/bottles/hashcat-4.1.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gnu-sed"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gnu-sed"
+  ],
+  "desc": "World's fastest and most advanced password recovery utility",
+  "full_name": "hashcat",
+  "homepage": "https://hashcat.net/hashcat/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hashcat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.1.0"
+  }
+}

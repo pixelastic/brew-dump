@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d9b8d66be340ea8ee970adb669a6848bc9c1dbe94ed48b5bb36c1212e42dc801",
+          "url": "https://linuxbrew.bintray.com/bottles/libfaketime-0.9.7_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b0407a1063d15d262b5c204fa9b8275c050a3e9041f059bbfd3bf478358959db",
+          "url": "https://linuxbrew.bintray.com/bottles/libfaketime-0.9.7_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cc615ac1fb6806cd182074d765c971ad173b97fee1d1a78ba0ad0123ca8ad4d9",
+          "url": "https://linuxbrew.bintray.com/bottles/libfaketime-0.9.7_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "coreutils"
+  ],
+  "desc": "Report faked system time to programs",
+  "full_name": "libfaketime",
+  "homepage": "https://github.com/wolfcw/libfaketime",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libfaketime",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.7"
+  }
+}

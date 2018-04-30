@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1e407eba531cc245529fd9f493f7bbca8d41e4281a98ee8afbf25fdc85522c6c",
+          "url": "https://linuxbrew.bintray.com/bottles/baresip-0.5.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1199a3af90dc793d551f1c7dff6445a542bf410a50359ac1d5f076dd8eec982e",
+          "url": "https://linuxbrew.bintray.com/bottles/baresip-0.5.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e395e1ca8040a2ae9e7365f068db10d9e121ba7fe2489f4a0a63d2f9a0f0a285",
+          "url": "https://linuxbrew.bintray.com/bottles/baresip-0.5.9.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "librem",
+    "libre"
+  ],
+  "desc": "Modular SIP useragent",
+  "full_name": "baresip",
+  "homepage": "http://www.creytiv.com/baresip.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "baresip",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.5.9"
+  }
+}

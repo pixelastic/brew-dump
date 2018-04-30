@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5e9e87fe18c5681e80f1cf940fed275ed895831304326bc5e7be6fb6e53e8594",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-getopt-1.1.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5dc8b07eb3425e5b57d7deb4dea187fc992ef358c9c053d3a2dc230d748b4252",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-getopt-1.1.6.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "27938c615808c8e4ff2eacac0a4059c76dee5518a5c8bbfb304b24b70736b429",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-getopt-1.1.6.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "88a02cd609a91253e9b996a1fcb1e8837161673e413fe792e5d05aa3ff9a94cf",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-getopt-1.1.6.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "05391b0dd0876ead74b18a4c5bb9c7db996586bf6918bd014db534027fd9ae2a",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-getopt-1.1.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6a61f51ff07f119e254fe400887adf322775795ff28fe74b62049d5381b84e43",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-getopt-1.1.6.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f8dbbec03aaaeb1bc774d9bf606701901cc9a8ad15cecc5473567e51845057e6",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-getopt-1.1.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gettext"
+  ],
+  "desc": "Command-line option parsing library",
+  "full_name": "gnu-getopt",
+  "homepage": "http://software.frodo.looijaard.name/getopt/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "gnu-getopt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.6"
+  }
+}

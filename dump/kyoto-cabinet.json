@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c4b2e78762b188a19b3c6c2aec1733c59b03fd69d23aa2ae41ba8e756704c795",
+          "url": "https://linuxbrew.bintray.com/bottles/kyoto-cabinet-1.2.76_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2ba12ca100464a78f42b5b9d3540d99e26458d8bcac0bb9a530858b5bc49bc0a",
+          "url": "https://linuxbrew.bintray.com/bottles/kyoto-cabinet-1.2.76_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "bfed1b4b4aa5e742c89f9aa0ba83375ad4ff1d5daaf0e060260d16df4024582d",
+          "url": "https://linuxbrew.bintray.com/bottles/kyoto-cabinet-1.2.76_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "24d4adf0747bebe9c3d90c509290bb630531f5184793d1866cd8ea7a39a1adce",
+          "url": "https://linuxbrew.bintray.com/bottles/kyoto-cabinet-1.2.76_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "cdc3a0be11cfdf4e81c6568cf595c31b88c511a612f6711bf14ed696a2f66244",
+          "url": "https://linuxbrew.bintray.com/bottles/kyoto-cabinet-1.2.76_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "149125dc24b899ac4d6dd48a11aebb2ac092252b8e9cccac6472d3713062f914",
+          "url": "https://linuxbrew.bintray.com/bottles/kyoto-cabinet-1.2.76_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library of routines for managing a database",
+  "full_name": "kyoto-cabinet",
+  "homepage": "http://fallabs.com/kyotocabinet/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "kyoto-cabinet",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.76"
+  }
+}

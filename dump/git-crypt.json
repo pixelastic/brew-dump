@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e456ffd793629abea8debdcb761ff73ff2dcfe60493a298f763d238822add437",
+          "url": "https://linuxbrew.bintray.com/bottles/git-crypt-0.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "03bde5159a767e33afba44e6d14f937e0a1864a50035280ac59784da0738e712",
+          "url": "https://linuxbrew.bintray.com/bottles/git-crypt-0.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b89552d865cfd7f2473f681a669ae63a0ee980c5cdee6d97a3d8189a3eac6ddd",
+          "url": "https://linuxbrew.bintray.com/bottles/git-crypt-0.6.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "4020814b9c1393f63b9d8b207a3011fbabbdefa03034086be5a21f28c5cd71f5",
+          "url": "https://linuxbrew.bintray.com/bottles/git-crypt-0.6.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Enable transparent encryption/decryption of files in a git repo",
+  "full_name": "git-crypt",
+  "homepage": "https://www.agwa.name/projects/git-crypt/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git-crypt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.0"
+  }
+}

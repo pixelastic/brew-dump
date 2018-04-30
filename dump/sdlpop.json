@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "32a0513366830e5082ceae4e48286a5817e391b101c64cc4f015c774feeb076e",
+          "url": "https://linuxbrew.bintray.com/bottles/sdlpop-1.18.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7d65b2aeda0577a96a4b24664c7b272bc91ab7ddda0e464d47a1a6ee389e4d45",
+          "url": "https://linuxbrew.bintray.com/bottles/sdlpop-1.18.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "45f4786672fa1f2d4879c00887138c9fb2f778b344223b0eb4ab8a77f8a0a630",
+          "url": "https://linuxbrew.bintray.com/bottles/sdlpop-1.18.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "Save and replay files are stored in the following directory:\n  /home/tim/.linuxbrew/var/sdlpop\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "sdl2",
+    "sdl2_image",
+    "sdl2_mixer"
+  ],
+  "desc": "Open-source port of Prince of Persia",
+  "full_name": "sdlpop",
+  "homepage": "https://github.com/NagyD/SDLPoP",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sdlpop",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.18.1"
+  }
+}

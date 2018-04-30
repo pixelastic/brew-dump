@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "35015617fd5117d9eed2d3370572ffb89d3e20cec9c86ceecab61eb26eb73024",
+          "url": "https://linuxbrew.bintray.com/bottles/inspircd-2.0.26.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c6fe69a90b3a9388d5d900a034db918354970ef19c632aaffac499e7fe5287f2",
+          "url": "https://linuxbrew.bintray.com/bottles/inspircd-2.0.26.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "35fa52bf0b05a8d2dab78025ab44c2197c0bf0c5f224571796f0b0e5d2b17ae6",
+          "url": "https://linuxbrew.bintray.com/bottles/inspircd-2.0.26.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config"
+  ],
+  "desc": "Modular C++ Internet Relay Chat daemon",
+  "full_name": "inspircd",
+  "homepage": "https://www.inspircd.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "inspircd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.26"
+  }
+}

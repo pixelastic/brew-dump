@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "879c7118175fdd3e23700137fb249b89362b957ec1c47cf25723bac32eeb305f",
+          "url": "https://linuxbrew.bintray.com/bottles/liberasurecode-1.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f70d7dd6bbada77684cce1346b36c22b2784839326c4d5a2406e9f6b78d23502",
+          "url": "https://linuxbrew.bintray.com/bottles/liberasurecode-1.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0d9e4bb728b35cbd6694b7756b961a2c22d716a1fa5eeb31fec86aeb323c8420",
+          "url": "https://linuxbrew.bintray.com/bottles/liberasurecode-1.5.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "jerasure"
+  ],
+  "desc": "Erasure Code API library written in C with pluggable backends",
+  "full_name": "liberasurecode",
+  "homepage": "https://github.com/openstack/liberasurecode",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "liberasurecode",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.0"
+  }
+}

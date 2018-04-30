@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bd02cc89521cdadfffa97a3cded515b6aad4ace688d71a25c005751b48502fb3",
+          "url": "https://linuxbrew.bintray.com/bottles/pdfpc-4.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7aeffc37817e9a41a770eb2a20b44db49848e44cd265287a399ebc6fae8ae477",
+          "url": "https://linuxbrew.bintray.com/bottles/pdfpc-4.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ff74933c0c4931d12504f5e73dd79c103c3b4e47cf34609e4773560e5ff6e7c1",
+          "url": "https://linuxbrew.bintray.com/bottles/pdfpc-4.1_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "vala"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "vala",
+    "gtk+3",
+    "libgee",
+    "librsvg",
+    "poppler"
+  ],
+  "desc": "Presenter console with multi-monitor support for PDF files",
+  "full_name": "pdfpc",
+  "homepage": "https://pdfpc.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pdfpc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.1"
+  }
+}

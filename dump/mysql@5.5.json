@@ -1,0 +1,92 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4733741339d55b2057dbf02150cdeac785eab38b53aae8f47154b8c368f5f72c",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql@5.5-5.5.60.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "58d3b7af4537b97428916c2805bee69959debcd29bbea928bfad9f0f817f15f0",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql@5.5-5.5.60.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a35610c9fb87fed4b935852a99879bce60d336619da5815632cae9b0c1860485",
+          "url": "https://linuxbrew.bintray.com/bottles/mysql@5.5-5.5.60.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": "A \"/etc/my.cnf\" from another install may interfere with a Homebrew-built\nserver starting up correctly.\n\nMySQL is configured to only allow connections from localhost by default\n\nTo connect:\n    /home/tim/.linuxbrew/opt/mysql@5.5/bin/mysql -uroot\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pidof",
+    "openssl"
+  ],
+  "desc": "Open source relational database management system",
+  "full_name": "mysql@5.5",
+  "homepage": "https://dev.mysql.com/doc/refman/5.5/en/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "mysql@5.5",
+  "oldname": "mysql55",
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with unit tests",
+      "option": "--with-test"
+    },
+    {
+      "description": "Build the embedded server",
+      "option": "--with-embedded"
+    },
+    {
+      "description": "Compile with the ARCHIVE storage engine enabled",
+      "option": "--with-archive-storage-engine"
+    },
+    {
+      "description": "Compile with the BLACKHOLE storage engine enabled",
+      "option": "--with-blackhole-storage-engine"
+    },
+    {
+      "description": "Build with local infile loading support",
+      "option": "--with-local-infile"
+    },
+    {
+      "description": "Enable innodb-memcached support",
+      "option": "--with-memcached"
+    },
+    {
+      "description": "Build with debug support",
+      "option": "--with-debug"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.5.60"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "winetricks is a set of utilities for wine, which is installed separately:\n  brew install wine\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cabextract",
+    "p7zip",
+    "unrar",
+    "wine",
+    "zenity"
+  ],
+  "desc": "Download and install various runtime libraries",
+  "full_name": "winetricks",
+  "homepage": "https://github.com/Winetricks/winetricks",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "winetricks",
+  "oldname": null,
+  "optional_dependencies": [
+    "wine",
+    "zenity"
+  ],
+  "options": [
+    {
+      "description": "Zenity is needed for GUI",
+      "option": "--with-zenity"
+    },
+    {
+      "description": "Build with wine support",
+      "option": "--with-wine"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "20180217"
+  }
+}

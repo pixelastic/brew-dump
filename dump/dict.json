@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1179c34c302af33595d7f6890b081496591437ea5f9497c048779fdc03058942",
+          "url": "https://linuxbrew.bintray.com/bottles/dict-1.12.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1b2d9a8cdc3d4aabf73b44c74518d2362c3ec8411cc717fe68e4366f0f5f2d3b",
+          "url": "https://linuxbrew.bintray.com/bottles/dict-1.12.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b41fe59b8db4eb263ca23398ca8a52f6a23893ddfeb1b26f2e7ce9fdd8b08bf5",
+          "url": "https://linuxbrew.bintray.com/bottles/dict-1.12.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "741517b409486d621c4a99d397c786c2969c9c65f321b002dc7cf07890a624e8",
+          "url": "https://linuxbrew.bintray.com/bottles/dict-1.12.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e54952913d23f81def2cec2b65ac94c5385180fa8970f613843546740435adfd",
+          "url": "https://linuxbrew.bintray.com/bottles/dict-1.12.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtool",
+    "libmaa"
+  ],
+  "desc": "Dictionary Server Protocol (RFC2229) client",
+  "full_name": "dict",
+  "homepage": "http://www.dict.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dict",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.12.1"
+  }
+}

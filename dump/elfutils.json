@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "669e97f7421f27c39bc82ebd0b10d80a9643f5aadf4a029f2ee3accb867431ba",
+          "url": "https://linuxbrew.bintray.com/bottles/elfutils-0.168.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "valgrind"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "libelf"
+  ],
+  "dependencies": [
+    "xz",
+    "bzip2",
+    "zlib",
+    "valgrind"
+  ],
+  "desc": "Libraries and utilities for handling ELF objects.",
+  "full_name": "elfutils",
+  "homepage": "https://fedorahosted.org/elfutils/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "elfutils",
+  "oldname": null,
+  "optional_dependencies": [
+    "valgrind"
+  ],
+  "options": [
+    {
+      "description": "Run tests with valgrind",
+      "option": "--with-valgrind"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.168"
+  }
+}

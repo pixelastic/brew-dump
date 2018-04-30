@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "e72016ad2981cdfd75cc76aa8913ad8b41eca71eec82a769addb14cd94fc162e",
+          "url": "https://linuxbrew.bintray.com/bottles/oath-toolkit-2.6.2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dbf06b9def1ea821269ff0b6d44f54e05c64af1fe57799803de5deb3a355c0d2",
+          "url": "https://linuxbrew.bintray.com/bottles/oath-toolkit-2.6.2.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "af3c35a9cd1139b813bf5bbea9b9c0eff5890fc9beff8096d4405218d6398a42",
+          "url": "https://linuxbrew.bintray.com/bottles/oath-toolkit-2.6.2.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libxmlsec1"
+  ],
+  "desc": "Tools for one-time password authentication systems",
+  "full_name": "oath-toolkit",
+  "homepage": "https://www.nongnu.org/oath-toolkit/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "oath-toolkit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.6.2"
+  }
+}

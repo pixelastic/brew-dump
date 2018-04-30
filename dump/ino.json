@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "fe8bd44bff433014afad389f2afd63253ac747eba19ecbd055f2f37bef236430",
+          "url": "https://linuxbrew.bintray.com/bottles/ino-0.3.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cfd6fb6e8e05af32a75064404ed6217bcac47c9d7dfb1bd3c53bfd60fa2c4dd4",
+          "url": "https://linuxbrew.bintray.com/bottles/ino-0.3.6.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a2a0aeb71d02e6d67578f9c3265fa2b11ef716bc47519f3b31d001f9712e8b6e",
+          "url": "https://linuxbrew.bintray.com/bottles/ino-0.3.6.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ba6d8a28197816999132d07732bf522e8b50f5c8030aba43b2fa48556c9c8115",
+          "url": "https://linuxbrew.bintray.com/bottles/ino-0.3.6.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "326863d7187f8c280a39c0d20a5ef568ad58a6c2f9d5f20d9fba75f4d2c2f03d",
+          "url": "https://linuxbrew.bintray.com/bottles/ino-0.3.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "picocom",
+    "python@2"
+  ],
+  "desc": "Command-line toolkit for working with Arduino hardware",
+  "full_name": "ino",
+  "homepage": "http://inotool.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ino",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.6"
+  }
+}

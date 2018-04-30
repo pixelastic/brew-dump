@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "7fca04e65ce14fa8d18d19e197525063274057a2760e4841d4e8a9b06f4b0fa3",
+          "url": "https://linuxbrew.bintray.com/bottles/kakasi-2.3.6.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4ac657051323e642a248aaa4cdf7bc464374e0901bf0b87f458e89b0c3233f76",
+          "url": "https://linuxbrew.bintray.com/bottles/kakasi-2.3.6.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "86403b2e2a45e2ea81b78bbe7edc7bf2b01d464f351ea265441413e63bf85822",
+          "url": "https://linuxbrew.bintray.com/bottles/kakasi-2.3.6.mavericks.bottle.1.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "7c4bb01289baeee60544acf6fd81e9b0f5522428938ac9cd5b6ed2b3bc6619bf",
+          "url": "https://linuxbrew.bintray.com/bottles/kakasi-2.3.6.mountain_lion.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a50761a65d9b64f65d81b6045e992dbfb99746815433f7fc187b43bb0aa36f85",
+          "url": "https://linuxbrew.bintray.com/bottles/kakasi-2.3.6.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "da407c10d807cf72679df6555d29b53f388dd32abf674f1ae0ecbace44fc3372",
+          "url": "https://linuxbrew.bintray.com/bottles/kakasi-2.3.6.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Convert Kanji characters to Hiragana, Katakana, or Romaji",
+  "full_name": "kakasi",
+  "homepage": "http://kakasi.namazu.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "kakasi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.6"
+  }
+}

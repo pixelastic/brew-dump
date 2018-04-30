@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a378d755801eb5d058c8d2d09a574b6323725c2f0e26e0b8b760d8ea2b661dde",
+          "url": "https://linuxbrew.bintray.com/bottles/silk-3.17.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8415f76295534e23a7641ac1b263002b32f3b623a1ac4eb955f3ec9585d781a3",
+          "url": "https://linuxbrew.bintray.com/bottles/silk-3.17.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f394ea7555171fdb0c069579d78bb221fff638fa018ff85ab7684b6960a0a2aa",
+          "url": "https://linuxbrew.bintray.com/bottles/silk-3.17.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib",
+    "libfixbuf",
+    "yaf",
+    "python@2"
+  ],
+  "desc": "Collection of traffic analysis tools",
+  "full_name": "silk",
+  "homepage": "https://tools.netsa.cert.org/silk/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "silk",
+  "oldname": null,
+  "optional_dependencies": [
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Build with the PySiLK python interface",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.17.1"
+  }
+}

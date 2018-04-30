@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c53babb6bca4886b76933bee0c55efac35ed23352af83b8755975e79b1d94cd8",
+          "url": "https://linuxbrew.bintray.com/bottles/logrotate-3.14.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fb7c69ba0723255b69a48402deacc16ba6395ff69bd258f709c412cee4b70dc9",
+          "url": "https://linuxbrew.bintray.com/bottles/logrotate-3.14.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d295638d3dd9bb6cadaaaa84afda9a2542d529e83727f944ffddb4d8683c3ccf",
+          "url": "https://linuxbrew.bintray.com/bottles/logrotate-3.14.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e2b41ea30f98af51d0b9339938ce0ef17e192a3de1ae7edd9dd887a4fe778f9a",
+          "url": "https://linuxbrew.bintray.com/bottles/logrotate-3.14.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "popt"
+  ],
+  "desc": "Rotates, compresses, and mails system logs",
+  "full_name": "logrotate",
+  "homepage": "https://github.com/logrotate/logrotate",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "logrotate",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.14.0"
+  }
+}

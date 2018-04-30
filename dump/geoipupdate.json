@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ab7981329380d9bf0fee2efe0bfed2a1745cc3ecf681356ba21a02cd6604acf2",
+          "url": "https://linuxbrew.bintray.com/bottles/geoipupdate-2.5.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "22feb6fb330b62c077482b443ac637c2fa3f60626b4113d815fc0fd85a255ee2",
+          "url": "https://linuxbrew.bintray.com/bottles/geoipupdate-2.5.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d28503bce47a42732d54cece163675f6c6169539327a95bb8d4bbdfd16aa9e35",
+          "url": "https://linuxbrew.bintray.com/bottles/geoipupdate-2.5.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6902c8d87297f63082462037a520ae41e125bb7c5723ae1bd51ee8720f5c98e1",
+          "url": "https://linuxbrew.bintray.com/bottles/geoipupdate-2.5.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "curl",
+    "zlib"
+  ],
+  "desc": "Automatic updates of GeoIP2 and GeoIP Legacy databases",
+  "full_name": "geoipupdate",
+  "homepage": "https://github.com/maxmind/geoipupdate",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "geoipupdate",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.5.0"
+  }
+}

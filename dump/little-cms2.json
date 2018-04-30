@@ -1,0 +1,77 @@
+{
+  "aliases": [
+    "lcms2"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "fa72bb1ce13889405ee93519be86ff1cede056d8c74e1d1671cca52013762ec0",
+          "url": "https://linuxbrew.bintray.com/bottles/little-cms2-2.9.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c232c3e514ef478c4fab797dab8db675045eae3611043063d338c256f4ecb941",
+          "url": "https://linuxbrew.bintray.com/bottles/little-cms2-2.9.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a0ce195a712977870d9ddc414c0c5cd1b373d4e04b7130b80d00f911d04fe5b4",
+          "url": "https://linuxbrew.bintray.com/bottles/little-cms2-2.9.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d22224ff78fc838210b032de4385b83b5b94b6d47aad6e479bc70a5643e0f0f7",
+          "url": "https://linuxbrew.bintray.com/bottles/little-cms2-2.9.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "jpeg",
+    "libtiff"
+  ],
+  "desc": "Color management engine supporting ICC profiles",
+  "full_name": "little-cms2",
+  "homepage": "http://www.littlecms.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "little-cms2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without jpeg support",
+      "option": "--without-jpeg"
+    },
+    {
+      "description": "Build without libtiff support",
+      "option": "--without-libtiff"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "jpeg",
+    "libtiff"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.9"
+  }
+}

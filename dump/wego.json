@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ccdba75878ffe9b62b49265f6f4b375da80f44e6c5b7c5a40294501fda8903b1",
+          "url": "https://linuxbrew.bintray.com/bottles/wego-2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dc3714d72fde13770cec00100aa1ee843b944512c454e00ad131c822e868cedb",
+          "url": "https://linuxbrew.bintray.com/bottles/wego-2.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "6bc11cdcd939b5361704f1575f297a152da2e3de79e94392c33cf5e22ec40715",
+          "url": "https://linuxbrew.bintray.com/bottles/wego-2.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "504d831a34c22ec006a610f7af4d11000708570513e5391e2077d021ca6b3758",
+          "url": "https://linuxbrew.bintray.com/bottles/wego-2.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "97e7c2edfa9b1a312a0f4f4bce9553b1c8e884409aca3f7acfed2dc99fcef05d",
+          "url": "https://linuxbrew.bintray.com/bottles/wego-2.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Weather app for the terminal",
+  "full_name": "wego",
+  "homepage": "https://github.com/schachmat/wego",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wego",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0"
+  }
+}

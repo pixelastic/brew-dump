@@ -1,0 +1,109 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "227667c28cb291529dba440a43cc19504ef621ffd1990303f0d7f2b4a9978e67",
+          "url": "https://linuxbrew.bintray.com/bottles/llvm@3.9-3.9.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "82fcabcbc4e8594bba74a511c0f127f7b8187e5452e0cd77d6e6fc2f008f1b1c",
+          "url": "https://linuxbrew.bintray.com/bottles/llvm@3.9-3.9.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6349b9f0e6202230c159a3b08ca835931b922589e328b5f7fc850ac651c3eff6",
+          "url": "https://linuxbrew.bintray.com/bottles/llvm@3.9-3.9.1_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "aed4411921127ddfc377c4203dc2a4f313d56103a79126be83a9b954d1cb8223",
+          "url": "https://linuxbrew.bintray.com/bottles/llvm@3.9-3.9.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": "LLVM executables are installed in /home/tim/.linuxbrew/opt/llvm@3.9/bin.\nExtra tools are installed in /home/tim/.linuxbrew/opt/llvm@3.9/share/llvm@3.9.\nTo use the bundled libc++ please add the following LDFLAGS:\n  LDFLAGS=\"-L/home/tim/.linuxbrew/opt/llvm@3.9/lib -Wl,-rpath,/home/tim/.linuxbrew/opt/llvm@3.9/lib\"\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libffi",
+    "graphviz",
+    "ocaml",
+    "python@2",
+    "cmake"
+  ],
+  "desc": "Next-gen compiler infrastructure",
+  "full_name": "llvm@3.9",
+  "homepage": "https://llvm.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "llvm@3.9",
+  "oldname": null,
+  "optional_dependencies": [
+    "graphviz",
+    "ocaml"
+  ],
+  "options": [
+    {
+      "description": "Do not build Clang runtime support libraries for code sanitizers, builtins, and profiling",
+      "option": "--without-compiler-rt"
+    },
+    {
+      "description": "Do not build libc++ standard library",
+      "option": "--without-libcxx"
+    },
+    {
+      "description": "Build with Toolchain to facilitate overriding system compiler",
+      "option": "--with-toolchain"
+    },
+    {
+      "description": "Build LLDB debugger",
+      "option": "--with-lldb"
+    },
+    {
+      "description": "Build bindings against Homebrew's Python 2",
+      "option": "--with-python@2"
+    },
+    {
+      "description": "Build shared instead of static libraries",
+      "option": "--with-shared-libs"
+    },
+    {
+      "description": "Do not use libffi to call external functions",
+      "option": "--without-libffi"
+    },
+    {
+      "description": "Build with graphviz support",
+      "option": "--with-graphviz"
+    },
+    {
+      "description": "Build with ocaml support",
+      "option": "--with-ocaml"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libffi"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.9.1"
+  }
+}

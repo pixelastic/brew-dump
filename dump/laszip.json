@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9307ea47e925d608e89b39ae221181a6ef235d37c7c6e2c02db2a4b230d6f375",
+          "url": "https://linuxbrew.bintray.com/bottles/laszip-3.2.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8080fc8d257445fc8707d6c51ff7ba1788d09206d05af74a1ba94db26db2f0eb",
+          "url": "https://linuxbrew.bintray.com/bottles/laszip-3.2.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3ab43e3c71a5487a933311be1870ec52072c169012d9e2dbb47b167d0d384204",
+          "url": "https://linuxbrew.bintray.com/bottles/laszip-3.2.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "765d19832684cf3fda7653414f881420ead2f667d87e286c0c79df69d385c53f",
+          "url": "https://linuxbrew.bintray.com/bottles/laszip-3.2.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Lossless LiDAR compression",
+  "full_name": "laszip",
+  "homepage": "https://www.laszip.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "laszip",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.2.2"
+  }
+}

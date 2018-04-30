@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "edb6178b284a8701fb4e7e57ff57230269a774afc684776a557fa2572c2ac057",
+          "url": "https://linuxbrew.bintray.com/bottles/platypus-5.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ab371d96215d160ee7638d1dfe3d49cc5cbbf7fc03b01524f3fe18bb7c6ed767",
+          "url": "https://linuxbrew.bintray.com/bottles/platypus-5.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "11b199eb483328298a49792055306558182807fdf993b448c2f88145b57b14e0",
+          "url": "https://linuxbrew.bintray.com/bottles/platypus-5.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "This formula only installs the command-line Platypus tool, not the GUI.\n\nThe GUI can be downloaded from Platypus' website:\n  https://sveinbjorn.org/platypus\n\nAlternatively, install with Homebrew-Cask:\n  brew cask install platypus\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Create macOS applications from {Perl,Ruby,sh,Python} scripts",
+  "full_name": "platypus",
+  "homepage": "https://sveinbjorn.org/platypus",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "platypus",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.2"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "0mq",
+    "zmq"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c90d4d425e1b9e6f8a73c576880a0f0bcc027b33739c45ae2ee3e8e3ef9b62a3",
+          "url": "https://linuxbrew.bintray.com/bottles/zeromq-4.2.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "de552cb61eea442ce7935cf3d5adcd5c194f3536e6de541e3d412b55493d3a70",
+          "url": "https://linuxbrew.bintray.com/bottles/zeromq-4.2.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b564e9f3b8e30e324701d7eb30e83a8ea703e3b5f4f7049a30f0574d510b92ea",
+          "url": "https://linuxbrew.bintray.com/bottles/zeromq-4.2.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b47b0edbf1c39f31f252a241ffdc68538bcdef36b340a959d13934b8c2e2318b",
+          "url": "https://linuxbrew.bintray.com/bottles/zeromq-4.2.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "asciidoc",
+    "pkg-config",
+    "xmlto"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "asciidoc",
+    "pkg-config",
+    "xmlto",
+    "libpgm",
+    "libsodium",
+    "norm"
+  ],
+  "desc": "High-performance, asynchronous messaging library",
+  "full_name": "zeromq",
+  "homepage": "http://www.zeromq.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zeromq",
+  "oldname": null,
+  "optional_dependencies": [
+    "libpgm",
+    "libsodium",
+    "norm"
+  ],
+  "options": [
+    {
+      "description": "Build with PGM extension",
+      "option": "--with-libpgm"
+    },
+    {
+      "description": "Build with NORM extension",
+      "option": "--with-norm"
+    },
+    {
+      "description": "Build and install draft classes and methods",
+      "option": "--with-drafts"
+    },
+    {
+      "description": "Build with libsodium support",
+      "option": "--with-libsodium"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.2.5"
+  }
+}

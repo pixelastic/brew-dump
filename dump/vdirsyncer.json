@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0d8646e753606b5ec7a76a2cebfe19741f9c92fe84f159896f0103dd8228f504",
+          "url": "https://linuxbrew.bintray.com/bottles/vdirsyncer-0.16.4_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5de37a39897eb93ce937ad22777ecb6edf048b78e6bdbbfad3fa15e1ead4eba0",
+          "url": "https://linuxbrew.bintray.com/bottles/vdirsyncer-0.16.4_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4b22001ed657a4baec1128b2d2071ac05bade38f91e5d015485ccb134ef6e2a8",
+          "url": "https://linuxbrew.bintray.com/bottles/vdirsyncer-0.16.4_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Synchronize calendars and contacts",
+  "full_name": "vdirsyncer",
+  "homepage": "https://github.com/pimutils/vdirsyncer",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vdirsyncer",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.16.4"
+  }
+}

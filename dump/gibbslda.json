@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c8a95c74f3c9e967506fb386a1343459ecae8362cbf91362a7955ba017bea5fc",
+          "url": "https://linuxbrew.bintray.com/bottles/gibbslda-0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a92cdb534bb1061948417a9840addb3bda01fcbdca63ca290b34e818bd4e695c",
+          "url": "https://linuxbrew.bintray.com/bottles/gibbslda-0.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "bd4c35f5f73ae1aa5fdee00bd89c7b9c455c30061effe1660fbfbd203cb82cd3",
+          "url": "https://linuxbrew.bintray.com/bottles/gibbslda-0.2.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "329fa8a93faa35c16e484a1198fcbc186b21e268e2ec91481c19787352bf1e41",
+          "url": "https://linuxbrew.bintray.com/bottles/gibbslda-0.2.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9244041821944e45946fcf6a491ee1579293b4c154c7b9921b38fd6159567552",
+          "url": "https://linuxbrew.bintray.com/bottles/gibbslda-0.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "091c214c2589c2a2a0b0dcb90f45cf993ffeeb7d7260f505ef84f1fd773b326c",
+          "url": "https://linuxbrew.bintray.com/bottles/gibbslda-0.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Library wrapping imlib2's context API",
+  "full_name": "gibbslda",
+  "homepage": "https://gibbslda.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gibbslda",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2"
+  }
+}

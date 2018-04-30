@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7f10669422a452000a9150206e8e675dc5b0b180d0cc95d02436dd566a6974f1",
+          "url": "https://linuxbrew.bintray.com/bottles/halibut-1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "34dd7c9fb1fe023d33b61be5bc56c0497a1854b9bbf68cc80facf61ecee68190",
+          "url": "https://linuxbrew.bintray.com/bottles/halibut-1.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "68325d87dfa9989331273f70ab5edb19c9ca825316df64cc860edaa43a5d9ce5",
+          "url": "https://linuxbrew.bintray.com/bottles/halibut-1.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6aad05089e904d5695aac53b6eac97e08b0e28b0e1b5d0dc70ea91864543558f",
+          "url": "https://linuxbrew.bintray.com/bottles/halibut-1.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Yet another free document preparation system",
+  "full_name": "halibut",
+  "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/halibut/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "halibut",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2"
+  }
+}

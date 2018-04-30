@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "bd434cd5c3915801b207dc66250a6a7db48b95534e112f124725c46c6bbcfd00",
+          "url": "https://linuxbrew.bintray.com/bottles/binaryen-46.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f6a91d62394f7c2949259168832a0b4db8ace7974f2bb3fb288ef6c95c902b77",
+          "url": "https://linuxbrew.bintray.com/bottles/binaryen-46.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "61dac3952af1e00ed86c78f85d84d6ad400baf6f3349ebf58fb667e149fe592a",
+          "url": "https://linuxbrew.bintray.com/bottles/binaryen-46.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Compiler infrastructure and toolchain library for WebAssembly",
+  "full_name": "binaryen",
+  "homepage": "http://webassembly.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "binaryen",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "46"
+  }
+}

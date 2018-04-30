@@ -1,0 +1,47 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pyenv",
+    "ccache"
+  ],
+  "desc": "Make Python build faster, using the leverage of `ccache`",
+  "full_name": "pyenv-ccache",
+  "homepage": "https://github.com/yyuu/pyenv-ccache",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pyenv-ccache",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without ccache support",
+      "option": "--without-ccache"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "ccache"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.0.2"
+  }
+}

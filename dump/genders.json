@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4d5c7ced8593d2571b06d076a16ccce0bfcc99a1ea3f314b3f5f0d09d18c6076",
+          "url": "https://linuxbrew.bintray.com/bottles/genders-1.22.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "67d6136a20f82c2e249d9b98ef2394bc98ae1ca40daec766255a4d1c67cbd8d8",
+          "url": "https://linuxbrew.bintray.com/bottles/genders-1.22.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c455a536ad6b100887fbc6badf0e054157cf961ea02802f67a694c5e8dd30b96",
+          "url": "https://linuxbrew.bintray.com/bottles/genders-1.22.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "af7991bf0459a88559c4a09a3be4fa96b26d17dea3750bc964f244c2754ffd0d",
+          "url": "https://linuxbrew.bintray.com/bottles/genders-1.22.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f4e7550bac6a7d427ada6d5af16b5e5bbae52786fbad1f673af1e296bace5343",
+          "url": "https://linuxbrew.bintray.com/bottles/genders-1.22.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Static cluster configuration database for cluster management",
+  "full_name": "genders",
+  "homepage": "https://computing.llnl.gov/linux/genders.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "genders",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Allow non shortened hostnames that can include dots e.g. www.google.com",
+      "option": "--with-non-shortened-hostnames"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.22"
+  }
+}

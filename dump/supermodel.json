@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "78cf8e9fb973e3cd136a212936bdc8003d9897a1bb8a6a1eba3cc7ff0fba3c88",
+          "url": "https://linuxbrew.bintray.com/bottles/supermodel-0.2a.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "83c0dbca7a5c28564eba4e7a73894746004aab5025071b350c3c47271fc42625",
+          "url": "https://linuxbrew.bintray.com/bottles/supermodel-0.2a.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1203bb3d289e36e1ca15720dbcd4e63ffcf4fa4d09588cb4fb81092cb72399ec",
+          "url": "https://linuxbrew.bintray.com/bottles/supermodel-0.2a.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Config, Saves, and NVRAM are located in the following directory:\n  /home/tim/.linuxbrew/var/supermodel/\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl"
+  ],
+  "desc": "Sega Model 3 arcade emulator",
+  "full_name": "supermodel",
+  "homepage": "https://www.supermodel3.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "supermodel",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.2a"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "10244415e0dbf71f94c7585595632a09773a49dbc5bf5ac8de7e062f29c7f2b4",
+          "url": "https://linuxbrew.bintray.com/bottles/etl-0.04.19.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2ed5639481b7ab8003063620f6714b4372d1cb8229e2b8369153906024b9c95f",
+          "url": "https://linuxbrew.bintray.com/bottles/etl-0.04.19.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "024271929c1e3de9d4c4e256a932fa9525395f7421fc174e7010251ab9a4b37e",
+          "url": "https://linuxbrew.bintray.com/bottles/etl-0.04.19.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7275d40af2ee9e99feec8a04a9296b1167b24ca8f7125a875d08c13b4913e81b",
+          "url": "https://linuxbrew.bintray.com/bottles/etl-0.04.19.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "29198ad9d848f2ff79b224a5467da1fb22a474de5ffc3e287196fd3822a45178",
+          "url": "https://linuxbrew.bintray.com/bottles/etl-0.04.19.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Extensible Template Library",
+  "full_name": "etl",
+  "homepage": "https://synfig.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "etl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.04.19"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "6e1b61304f92067de7ab36d5da2696b4132e79488cbf6bd729dea17908ca3bd4",
+          "url": "https://linuxbrew.bintray.com/bottles/petsc-3.9.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "504bab16d879f2738e1568880c9d40cc68cad49ed8c0d0bdaa165e0a102f8465",
+          "url": "https://linuxbrew.bintray.com/bottles/petsc-3.9.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6ac3fdff619cecf97dd34ec49358c3004d4b610b7d062d5cb9b06fd135d55f04",
+          "url": "https://linuxbrew.bintray.com/bottles/petsc-3.9.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "hdf5",
+    "hwloc",
+    "metis",
+    "netcdf",
+    "open-mpi",
+    "scalapack",
+    "suite-sparse"
+  ],
+  "desc": "Portable, Extensible Toolkit for Scientific Computation",
+  "full_name": "petsc",
+  "homepage": "https://www.mcs.anl.gov/petsc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "petsc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.9.0"
+  }
+}

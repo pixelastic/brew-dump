@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b37d5783b40172001ecfa3ec8b19e636c7b9b96d5482dd7d8474e3c941501ece",
+          "url": "https://linuxbrew.bintray.com/bottles/libopkele-2.0.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "115bc1d49f89ab7da2ac38649c84e7321f15b6079e73564ca98a7dc751525b5c",
+          "url": "https://linuxbrew.bintray.com/bottles/libopkele-2.0.4_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "142d206a9bde1877b84e1206fc0b49c6fa47577510b9b22d8d9d07cf385c54bf",
+          "url": "https://linuxbrew.bintray.com/bottles/libopkele-2.0.4_1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "87db53d167b5954fea2eaf8fd3a3d051a4fc23494aa1b606d94aabbd2152f4c0",
+          "url": "https://linuxbrew.bintray.com/bottles/libopkele-2.0.4_1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "38cac7b6c07814d6bdfe4b9b9b6fdf3daf50cf306689cc6e2396d6664660419c",
+          "url": "https://linuxbrew.bintray.com/bottles/libopkele-2.0.4_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "57dbb32ce8982e2ad8135917ac1794933edf92b8e2514c16a016bccaaaa1c6aa",
+          "url": "https://linuxbrew.bintray.com/bottles/libopkele-2.0.4_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "openssl"
+  ],
+  "desc": "C++ implementation of OpenID decentralized identity system",
+  "full_name": "libopkele",
+  "homepage": "http://kin.klever.net/libopkele/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libopkele",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build and install documentation",
+      "option": "--with-docs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.4"
+  }
+}

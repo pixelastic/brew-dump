@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "689675a28ef799324c2ca527ff70a089251314d42a2a0c7b7ee6e1b050da56dd",
+          "url": "https://linuxbrew.bintray.com/bottles/svtplay-dl-1.9.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "08152f1fa8a69f00d1ab5395ff56c2acd95158dd510c9a9466d3c91fe587dcb5",
+          "url": "https://linuxbrew.bintray.com/bottles/svtplay-dl-1.9.11.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1459efa77e0c4ba52ca8be3f24457f32f25933311d8aebe365340381a170d46b",
+          "url": "https://linuxbrew.bintray.com/bottles/svtplay-dl-1.9.11.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To use post-processing options:\n  `brew install ffmpeg` or `brew install libav`.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "python@2",
+    "rtmpdump"
+  ],
+  "desc": "Download videos from https://www.svtplay.se/",
+  "full_name": "svtplay-dl",
+  "homepage": "https://svtplay-dl.se/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "svtplay-dl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9.11"
+  }
+}

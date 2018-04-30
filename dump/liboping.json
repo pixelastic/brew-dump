@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "de0bb72a0752469b262db3a24a41c84746930858462cd08993c057caadd46264",
+          "url": "https://linuxbrew.bintray.com/bottles/liboping-1.10.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "accffc91ab24ccba1214727abadb59c497f403e3bcad1dfe8ff0377d32e05ebc",
+          "url": "https://linuxbrew.bintray.com/bottles/liboping-1.10.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "42b80e23afe4fb4f296d039b0bdd4ccd0da21937514fdd04a90bc01d39da7aec",
+          "url": "https://linuxbrew.bintray.com/bottles/liboping-1.10.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c85669755c8afdc54ec31e0ba30e49589c84cd0ed2ad2b0988e97135d5381fc1",
+          "url": "https://linuxbrew.bintray.com/bottles/liboping-1.10.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c4f46d01bdace450a49e2c4fc4ba4056070bf1b869ed07f1b0a1d6a4f7646bc9",
+          "url": "https://linuxbrew.bintray.com/bottles/liboping-1.10.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Run oping and noping sudo'ed in order to avoid the 'Operation not permitted'",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "desc": "C library to generate ICMP echo requests",
+  "full_name": "liboping",
+  "homepage": "https://noping.cc/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "liboping",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.10.0"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "6d562bd62780a6b942b6ca3b4b1807a6ac3eef80209748b6748bcbc8b6b389b5",
+          "url": "https://linuxbrew.bintray.com/bottles/freediameter-1.2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8a16e612b93ae8a1c55fe090f0301a7d778c858730a144c152aa6eb8080d8c68",
+          "url": "https://linuxbrew.bintray.com/bottles/freediameter-1.2.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "615bfb731e99779234533bed9f6def01487783e1b1b22f3f6d41efceef1899bb",
+          "url": "https://linuxbrew.bintray.com/bottles/freediameter-1.2.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": "To configure freeDiameter, edit /home/tim/.linuxbrew/etc/freeDiameter.conf to taste.\n\nSample configuration files can be found in /home/tim/.linuxbrew/Cellar/freediameter/1.2.1/share/doc/freediameter.\n\nFor more information about freeDiameter configuration options, read:\n  http://www.freediameter.net/trac/wiki/Configuration\n\nOther potentially useful files can be found in /home/tim/.linuxbrew/opt/freediameter/share/freediameter/contrib.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "gnutls",
+    "libgcrypt",
+    "libidn"
+  ],
+  "desc": "Open source Diameter (Authentication) protocol implementation",
+  "full_name": "freediameter",
+  "homepage": "http://www.freediameter.net",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "freediameter",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable all extensions",
+      "option": "--with-all-extensions"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.1"
+  }
+}

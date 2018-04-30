@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9b06507a358024842b59c9f4d637b94b3681e720dbd3a1a8bc93d4d34f9a4442",
+          "url": "https://linuxbrew.bintray.com/bottles/fprobe-1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "31efd46250371cfd9ab386ff34cc41eb98d10758d550769ec72f8373ac1df800",
+          "url": "https://linuxbrew.bintray.com/bottles/fprobe-1.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "71b149edc078b237aecde23a53d76dc9809e3c9efafb32b52c03f3cc4af91c36",
+          "url": "https://linuxbrew.bintray.com/bottles/fprobe-1.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fe38758d956c43b2a223734d426c990c63ee44ac643dc769c3d6a0cd4f07ef6b",
+          "url": "https://linuxbrew.bintray.com/bottles/fprobe-1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "18043cf3fcc930ee1690ee4bc74d92eed3c56a2424f85d58720c56a4b5bcad1d",
+          "url": "https://linuxbrew.bintray.com/bottles/fprobe-1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Libpcap-based NetFlow probe",
+  "full_name": "fprobe",
+  "homepage": "https://sourceforge.net/projects/fprobe/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fprobe",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "e0775ee85972a379c9196889e94c65dc7de6c370a1c43c7cd25a9d114bb94c8d",
+          "url": "https://linuxbrew.bintray.com/bottles/libhttpseverywhere-0.8.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "meson-internal",
+    "ninja",
+    "vala",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "meson-internal",
+    "ninja",
+    "vala",
+    "pkg-config",
+    "glib",
+    "json-glib",
+    "libsoup",
+    "libgee",
+    "libarchive"
+  ],
+  "desc": "Bring HTTPSEverywhere to desktop apps",
+  "full_name": "libhttpseverywhere",
+  "homepage": "https://github.com/gnome/libhttpseverywhere",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libhttpseverywhere",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.3"
+  }
+}

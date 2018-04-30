@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2d3187c4be196200c5007849e56abbd2ea10f30567977feda55455897a5b6061",
+          "url": "https://linuxbrew.bintray.com/bottles/stuntman-1.2.13.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4b634566e1b841ab54c3732b032648731cbb00a15f071143be080c1f11121d54",
+          "url": "https://linuxbrew.bintray.com/bottles/stuntman-1.2.13.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1d16a7d994f57dbac8b7d2496ac3346f9c753f3d09ec0760b213cabaf92ab403",
+          "url": "https://linuxbrew.bintray.com/bottles/stuntman-1.2.13.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4f1011c0cdd34060150d50889a0ed100ee449c5ea5621c4fee8262741b1816af",
+          "url": "https://linuxbrew.bintray.com/bottles/stuntman-1.2.13.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "boost"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "openssl"
+  ],
+  "desc": "Implementation of the STUN protocol",
+  "full_name": "stuntman",
+  "homepage": "http://www.stunprotocol.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "stuntman",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.13"
+  }
+}

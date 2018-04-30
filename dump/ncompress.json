@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a046e625feb4e7dbf26136b6ba949f9883de14674571f2291794daf98106558f",
+          "url": "https://linuxbrew.bintray.com/bottles/ncompress-4.2.4.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a690145266b23c89bc3d9762cc5f632bb15f685171f939108c1eebdda06a57f5",
+          "url": "https://linuxbrew.bintray.com/bottles/ncompress-4.2.4.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "631c12b675f730ea3a7a170b214f63b1749fabb2d632ce76d76de4c8706cdf79",
+          "url": "https://linuxbrew.bintray.com/bottles/ncompress-4.2.4.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6435c4701c49faaaf79c4a7704433d50922069fb5aa5d5cc149f2b49f6713400",
+          "url": "https://linuxbrew.bintray.com/bottles/ncompress-4.2.4.4.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "613392aa88dbf86d8de3d6355dfeb72753a4040fd8c805907f434a7d1e5e78c4",
+          "url": "https://linuxbrew.bintray.com/bottles/ncompress-4.2.4.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Fast, simple LZW file compressor",
+  "full_name": "ncompress",
+  "homepage": "https://github.com/vapier/ncompress",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ncompress",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.2.4.4"
+  }
+}

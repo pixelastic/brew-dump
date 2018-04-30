@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "feac86e0055b80f2553211f21db03a8e56eb6e1f7e229afff6aa395c576a3aff",
+          "url": "https://linuxbrew.bintray.com/bottles/go-jira-1.0.17.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "998f112c60677a6148d494a228cb0c7ce52b1305ca592f390303aa4bbeafa1c3",
+          "url": "https://linuxbrew.bintray.com/bottles/go-jira-1.0.17.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f69c2762ed8579b1e90039f87a4729e08713c44b3769a10a4d05ea39534532d6",
+          "url": "https://linuxbrew.bintray.com/bottles/go-jira-1.0.17.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Simple jira command-line client in Go",
+  "full_name": "go-jira",
+  "homepage": "https://github.com/Netflix-Skunkworks/go-jira",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "go-jira",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.17"
+  }
+}

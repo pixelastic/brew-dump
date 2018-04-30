@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "high_sierra": {
+          "sha256": "14541e2edb49c0eb2118b61ff0245e0654dc49d4b48e461df6cb1d8c6698112e",
+          "url": "https://linuxbrew.bintray.com/bottles/marathon-swift-1.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "80fc6f4b1ff33081f4b27091ea42901c3921e00f6ffc3a2017662e6905e562df",
+          "url": "https://linuxbrew.bintray.com/bottles/marathon-swift-1.0.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Makes it easy to write, run and manage your Swift scripts",
+  "full_name": "marathon-swift",
+  "homepage": "https://github.com/JohnSundell/Marathon",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "marathon-swift",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.1"
+  }
+}

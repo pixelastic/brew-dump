@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "03be42a92fe4a40b03ff648b45393ad6ca4db533286bdff32e3837862a326a1e",
+          "url": "https://linuxbrew.bintray.com/bottles/urdfdom-1.0.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ffe532a4d96689d515b46ac589afbb9e071a463250e65bbd9453d2db7e8e9eee",
+          "url": "https://linuxbrew.bintray.com/bottles/urdfdom-1.0.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8d4a25f145f4522f14b5085fdc7c3f6182237ee472a1b51e31e0093371f68acd",
+          "url": "https://linuxbrew.bintray.com/bottles/urdfdom-1.0.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "804af4fec2925efa976d4bb15c021d6170fbb5ac594eaeaddd34e3705ee8645e",
+          "url": "https://linuxbrew.bintray.com/bottles/urdfdom-1.0.0_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "console_bridge",
+    "tinyxml",
+    "urdfdom_headers"
+  ],
+  "desc": "Unified Robot Description Format (URDF) parser",
+  "full_name": "urdfdom",
+  "homepage": "https://wiki.ros.org/urdf/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "urdfdom",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.0"
+  }
+}

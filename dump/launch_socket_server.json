@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "393c5e9e891e553aa69f0233ac5966b014df4e63beda2a567e8c59bf34a167f8",
+          "url": "https://linuxbrew.bintray.com/bottles/launch_socket_server-1.0.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fe79eb83f0516ca648f75c0f0e2442ddbdd7475971b799e2cca56c75ae2f2cae",
+          "url": "https://linuxbrew.bintray.com/bottles/launch_socket_server-1.0.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c41218460d421b9cbed6740f00ac0e1cd3a2d1a5fd91a58ba58f354e77faba55",
+          "url": "https://linuxbrew.bintray.com/bottles/launch_socket_server-1.0.0_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "97464d0f611bcc2bd568d1a12c96c4bec49e6f12b43528f44a08eccb6dd27f03",
+          "url": "https://linuxbrew.bintray.com/bottles/launch_socket_server-1.0.0_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Bind to privileged ports without running a server as root",
+  "full_name": "launch_socket_server",
+  "homepage": "https://github.com/sstephenson/launch_socket_server",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "launch_socket_server",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.0"
+  }
+}

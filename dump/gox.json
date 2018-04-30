@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5372595ec41b8a5abb86f730b28f60cee89459bb1dfa32a4e8c6b599428c14b6",
+          "url": "https://linuxbrew.bintray.com/bottles/gox-0.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ce011971b907d6924b60ea48d2beafea504d9ba4129e5c6ad089efea5f414e4f",
+          "url": "https://linuxbrew.bintray.com/bottles/gox-0.4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a7e5f38c3b24a79734e12ad94dcf926cbc9cff4d7ffbff09053d86a14558d0ef",
+          "url": "https://linuxbrew.bintray.com/bottles/gox-0.4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3bc22e2aa6ee51599bc4b5199bd0ae882eb21cb792d43dd955f44783cd0ea24f",
+          "url": "https://linuxbrew.bintray.com/bottles/gox-0.4.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Go cross compile tool",
+  "full_name": "gox",
+  "homepage": "https://github.com/mitchellh/gox",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gox",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.0"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8ad833cef9ca35a1ae95569f93c8936a82c6d6039e3bd4560e2b1dc93fd029d8",
+          "url": "https://linuxbrew.bintray.com/bottles/style-check-0.14.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3fdd513cff0a9f298357e5e918532bc2c236cbb6bf4c981a77270c69b49b9f08",
+          "url": "https://linuxbrew.bintray.com/bottles/style-check-0.14.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "afeff378c5e3aac20d3fa3756d7dbd85242f6d4d846e9cd670f3119069e83a52",
+          "url": "https://linuxbrew.bintray.com/bottles/style-check-0.14.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1a6787ed0c5cbe6ee567e112b16d5d32193bb0dacbf23e515f512df3287a3abd",
+          "url": "https://linuxbrew.bintray.com/bottles/style-check-0.14.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "08759f3a407af4dab0310f4a02ee18f15f2104011d702a300adbe9d33bcde0f5",
+          "url": "https://linuxbrew.bintray.com/bottles/style-check-0.14.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Parses latex-formatted text in search of forbidden phrases",
+  "full_name": "style-check",
+  "homepage": "https://www.cs.umd.edu/~nspring/software/style-check-readme.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "style-check",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.14"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "77510b79395468971a567029052265fd03e9c9eeaf4e6056d1a225d7ade5d718",
+          "url": "https://linuxbrew.bintray.com/bottles/pbrt-2.0.342.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f9c266a03e8c47a0d18ad3a0cc5633c54fec804f7ac943d933f41cf31d32ddfa",
+          "url": "https://linuxbrew.bintray.com/bottles/pbrt-2.0.342.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ac424bf47ea119d977b7e2f2a0bfca9a994838437cd9c1f189a71eed83b816d1",
+          "url": "https://linuxbrew.bintray.com/bottles/pbrt-2.0.342.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7dfc107dbc633a3273433e7f763ffaf743660281c223e8ef27816836bd6dfa79",
+          "url": "https://linuxbrew.bintray.com/bottles/pbrt-2.0.342.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ddfc01d16de04891db883377f509768768e374f2a8fab1536f5487fe559d707b",
+          "url": "https://linuxbrew.bintray.com/bottles/pbrt-2.0.342.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openexr",
+    "flex"
+  ],
+  "desc": "Physically based rendering",
+  "full_name": "pbrt",
+  "homepage": "http://pbrt.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pbrt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.342"
+  }
+}

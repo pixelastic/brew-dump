@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3ab236e3d5041ddc54bf932d23f0a4da30d6dd876cb6ad4ec61a9b570c910779",
+          "url": "https://linuxbrew.bintray.com/bottles/irrtoolset-5.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d80526a2be3e45463d775c12d4e53a4d16bee7d6b153f13df679c4b02c291dcc",
+          "url": "https://linuxbrew.bintray.com/bottles/irrtoolset-5.0.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "87576959ef0948ec184322a4d6756e62ca6e4695fd708c773317fce8570b2dcf",
+          "url": "https://linuxbrew.bintray.com/bottles/irrtoolset-5.0.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c3bdb3567581aff255053d8ee218f3715e94cb05555456406982186a1bcffda0",
+          "url": "https://linuxbrew.bintray.com/bottles/irrtoolset-5.0.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2ce9b4ff7b1604e05d771e70f457394e1e6c642df4b456e38ba11be50f7a9cdc",
+          "url": "https://linuxbrew.bintray.com/bottles/irrtoolset-5.0.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config"
+  ],
+  "desc": "Tools to work with Internet routing policies",
+  "full_name": "irrtoolset",
+  "homepage": "https://github.com/irrtoolset/irrtoolset",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "irrtoolset",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.0.1"
+  }
+}

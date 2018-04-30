@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "42d182742c539f018ed9648246529c4afb88712c01786d8de270625aded49f3c",
+          "url": "https://linuxbrew.bintray.com/bottles/menhir-20171222.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1b4f7298c9130c28feb9d7122e1dd08a7e734ce3040a720e1be2006458505670",
+          "url": "https://linuxbrew.bintray.com/bottles/menhir-20171222.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5d6c6809d1fd545c507ee3bba42f0b3df84f302b2f5ac723a64bdd565923b206",
+          "url": "https://linuxbrew.bintray.com/bottles/menhir-20171222.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "75b32d51e75542df821133a4390e8839a24ecb374e270445be81d8fc0ba4e4d1",
+          "url": "https://linuxbrew.bintray.com/bottles/menhir-20171222.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ocamlbuild"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ocamlbuild",
+    "ocaml"
+  ],
+  "desc": "LR(1) parser generator for the OCaml programming language",
+  "full_name": "menhir",
+  "homepage": "http://cristal.inria.fr/~fpottier/menhir",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "menhir",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20171222"
+  }
+}

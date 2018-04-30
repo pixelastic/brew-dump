@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d9920741a2e4322d7c9fd55a87f3d7bf56f4abfa3a49f0fc9adcf408f891775a",
+          "url": "https://linuxbrew.bintray.com/bottles/nagios-plugins-2.2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d8f55e381e65df1be3113923dc351fac227ae17b6334a9d2c939cf346434eca9",
+          "url": "https://linuxbrew.bintray.com/bottles/nagios-plugins-2.2.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f88a0ce6fd30f875cc9654f3989b0728d2bd230e09bec994cdb8c2461a7f2166",
+          "url": "https://linuxbrew.bintray.com/bottles/nagios-plugins-2.2.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1fcf4d4934fe7f7793fb78d13f17f948d46a19600e02881b22695f736f327e65",
+          "url": "https://linuxbrew.bintray.com/bottles/nagios-plugins-2.2.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "All plugins have been installed in:\n  /home/tim/.linuxbrew/sbin\n",
+  "conflicts_with": [
+    "monitoring-plugins"
+  ],
+  "dependencies": [
+    "openssl",
+    "postgresql",
+    "mysql"
+  ],
+  "desc": "Plugins for the nagios network monitoring system",
+  "full_name": "nagios-plugins",
+  "homepage": "https://www.nagios-plugins.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nagios-plugins",
+  "oldname": null,
+  "optional_dependencies": [
+    "postgresql",
+    "mysql"
+  ],
+  "options": [
+    {
+      "description": "Build with postgresql support",
+      "option": "--with-postgresql"
+    },
+    {
+      "description": "Build with mysql support",
+      "option": "--with-mysql"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.1"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a498514b576d430711723ec36937902a326b29056655cc14e66398419cfd07a9",
+          "url": "https://linuxbrew.bintray.com/bottles/libguess-1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "09045b0737c259c15b0cc7e44877d85b27a9b2f8fb5919fdb311cc2ce73784df",
+          "url": "https://linuxbrew.bintray.com/bottles/libguess-1.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "0aa5eda1a4ba389ef5e17e5a41cd3d076c4a3607b5a354bb80931ad07c918ab2",
+          "url": "https://linuxbrew.bintray.com/bottles/libguess-1.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ddd983bfe42d5d862959ab0de2b27e398f149419c4b13d5ec5714925082f4c32",
+          "url": "https://linuxbrew.bintray.com/bottles/libguess-1.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "66e51f426756e9a126bc2267d6c276c5261ef6f02bac5e11c34647b39278a995",
+          "url": "https://linuxbrew.bintray.com/bottles/libguess-1.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Character set guessing library",
+  "full_name": "libguess",
+  "homepage": "http://atheme.org/projects/libguess.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libguess",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a437b8f62da67b6c5177ee34df0a0f0906e94336454ec81f915cbbe90536cb07",
+          "url": "https://linuxbrew.bintray.com/bottles/jed-0.99-19_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c1e26f1498c5b47b04cde3bfaa7788acb72a52b54c50eb277368990ad2f27330",
+          "url": "https://linuxbrew.bintray.com/bottles/jed-0.99-19_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f0e02951e534d96baad147970e51b2f5c09155ad0e51114cfc72b3f49301dff3",
+          "url": "https://linuxbrew.bintray.com/bottles/jed-0.99-19_1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "595aff2e43b8ec8c31626831dcab83ffe4ffc129ea85efa61bc2e35877137a29",
+          "url": "https://linuxbrew.bintray.com/bottles/jed-0.99-19_1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e99d46b4cea705e44633346466d725842b13ead13a1f9e2d08bfeb5f9edc41a7",
+          "url": "https://linuxbrew.bintray.com/bottles/jed-0.99-19_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "683ad75a3fe87db8bb862c84f9a1aa233926183cc7f99f1ff26f0c1ac065ab71",
+          "url": "https://linuxbrew.bintray.com/bottles/jed-0.99-19_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3b316c792feabf9622a70a8ccdf2d2e985e7f991dbcd49a104b2ee6b8ea078cb",
+          "url": "https://linuxbrew.bintray.com/bottles/jed-0.99-19_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "s-lang",
+    "linuxbrew/xorg/xorg"
+  ],
+  "desc": "Powerful editor for programmers",
+  "full_name": "jed",
+  "homepage": "https://www.jedsoft.org/jed/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jed",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.99-19"
+  }
+}

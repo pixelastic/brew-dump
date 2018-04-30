@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "e6bf617d8bc98e792dde6590194695baa6f2f6ed4ab43b90f2bf50fff1b2f6a2",
+          "url": "https://linuxbrew.bintray.com/bottles/xsv-0.12.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0d374ca4691f5e5fab0ff3d05bcaee68239fc61c05cbfff93bdefc8b7a981fe7",
+          "url": "https://linuxbrew.bintray.com/bottles/xsv-0.12.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e7b5bad91e0d75088045c1450970afb482b4419f777dd931775176106ed35271",
+          "url": "https://linuxbrew.bintray.com/bottles/xsv-0.12.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0a3e50fe692f96af9706d2ecb8799b711c513ad9c8d8b4534b0ed0c2949e5ce3",
+          "url": "https://linuxbrew.bintray.com/bottles/xsv-0.12.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "rust"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "rust"
+  ],
+  "desc": "Fast CSV toolkit written in Rust",
+  "full_name": "xsv",
+  "homepage": "https://github.com/BurntSushi/xsv",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xsv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.12.2"
+  }
+}

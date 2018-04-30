@@ -1,0 +1,98 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "287a3d67e4f9785b5898e010da7e2a21f546691baa0cdfb4cd0cae71b4a3da07",
+          "url": "https://linuxbrew.bintray.com/bottles/libosmium-2.14.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "287a3d67e4f9785b5898e010da7e2a21f546691baa0cdfb4cd0cae71b4a3da07",
+          "url": "https://linuxbrew.bintray.com/bottles/libosmium-2.14.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "287a3d67e4f9785b5898e010da7e2a21f546691baa0cdfb4cd0cae71b4a3da07",
+          "url": "https://linuxbrew.bintray.com/bottles/libosmium-2.14.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6f18c43a6eeafa4088ebfa1c1ca5f3702e4baf65b2f1c820ac265a1a5e582cff",
+          "url": "https://linuxbrew.bintray.com/bottles/libosmium-2.14.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "boost"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "boost",
+    "google-sparsehash",
+    "expat",
+    "gdal",
+    "proj",
+    "doxygen"
+  ],
+  "desc": "Fast and flexible C++ library for working with OpenStreetMap data",
+  "full_name": "libosmium",
+  "homepage": "http://osmcode.org/libosmium/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libosmium",
+  "oldname": null,
+  "optional_dependencies": [
+    "google-sparsehash",
+    "expat",
+    "gdal",
+    "proj",
+    "doxygen"
+  ],
+  "options": [
+    {
+      "description": "Build with google-sparsehash support",
+      "option": "--with-google-sparsehash"
+    },
+    {
+      "description": "Build with expat support",
+      "option": "--with-expat"
+    },
+    {
+      "description": "Build with gdal support",
+      "option": "--with-gdal"
+    },
+    {
+      "description": "Build with proj support",
+      "option": "--with-proj"
+    },
+    {
+      "description": "Build with doxygen support",
+      "option": "--with-doxygen"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.14.0"
+  }
+}

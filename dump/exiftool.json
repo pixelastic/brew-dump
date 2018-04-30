@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c664e75f4e08ec9e73beadb888c49ac1cbaf306d539ffdc66558f56a5eee8ffe",
+          "url": "https://linuxbrew.bintray.com/bottles/exiftool-10.80.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c664e75f4e08ec9e73beadb888c49ac1cbaf306d539ffdc66558f56a5eee8ffe",
+          "url": "https://linuxbrew.bintray.com/bottles/exiftool-10.80.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c664e75f4e08ec9e73beadb888c49ac1cbaf306d539ffdc66558f56a5eee8ffe",
+          "url": "https://linuxbrew.bintray.com/bottles/exiftool-10.80.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "cc229b57a6f6ae39fba200ad0e6b98998df3b97f357435fcb0d7497669aa690a",
+          "url": "https://linuxbrew.bintray.com/bottles/exiftool-10.80.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Perl lib for reading and writing EXIF metadata",
+  "full_name": "exiftool",
+  "homepage": "https://www.sno.phy.queensu.ca/~phil/exiftool/index.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "exiftool",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "10.80"
+  }
+}

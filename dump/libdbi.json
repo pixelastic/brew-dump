@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "80593f395134244612e570445f7dafaede45632025f25a079d2978ea8ceced93",
+          "url": "https://linuxbrew.bintray.com/bottles/libdbi-0.9.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bfbfbb4a406e11bc76f0bb590923fe2c9c5ecb8eee2ad59c115bf5d8fe9fc83b",
+          "url": "https://linuxbrew.bintray.com/bottles/libdbi-0.9.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "105af923e45a1deb810224f39ecd138442943dfef193636414bf1394982c01ea",
+          "url": "https://linuxbrew.bintray.com/bottles/libdbi-0.9.0.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "44c30231f8c33cb67eae20b8078528c743e180bf549b940cf20598a551b46b6b",
+          "url": "https://linuxbrew.bintray.com/bottles/libdbi-0.9.0.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "56bc34833d44be61b26fda170fd8c2eea6242d6cfc780869d9456dcee6fb9e41",
+          "url": "https://linuxbrew.bintray.com/bottles/libdbi-0.9.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "160acd6237b78d48690ee7ba7eff9dd8b6fc23b424f76a4e5fff46322d6864d6",
+          "url": "https://linuxbrew.bintray.com/bottles/libdbi-0.9.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fdc8341304e7a5b08f8baa86019c0b75d9bea99b7461f1eafc32f906a446b49a",
+          "url": "https://linuxbrew.bintray.com/bottles/libdbi-0.9.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Database-independent abstraction layer in C, similar to DBI/DBD in Perl",
+  "full_name": "libdbi",
+  "homepage": "https://libdbi.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libdbi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.0"
+  }
+}

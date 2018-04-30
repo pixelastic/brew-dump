@@ -1,0 +1,92 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "75494ad58d4718de0ba012866ccde060e494293a93f575d42e95b57f7bbe9cc7",
+          "url": "https://linuxbrew.bintray.com/bottles/libnids-1.24.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "07675f5eebae5b27ff1b632a927e456c2c4b26435fd01c9556860973652caf1d",
+          "url": "https://linuxbrew.bintray.com/bottles/libnids-1.24.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "4ad0be7662127faff0e9103f678f9d3f277278de4cdc801e2ecdc40ad81e448a",
+          "url": "https://linuxbrew.bintray.com/bottles/libnids-1.24.mavericks.bottle.1.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "e88e84cda8a3bad62118791243f4642572fa19b9656f30bcdda08c510fd6b366",
+          "url": "https://linuxbrew.bintray.com/bottles/libnids-1.24.mountain_lion.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5803aac7ddece4e3a430d16d5557721d540f73e23e7a33a67f2ac2f6449a862e",
+          "url": "https://linuxbrew.bintray.com/bottles/libnids-1.24.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a0375ba5851ffc54b89948d05d843102dbf33dbe8f8d77e46673a985df40ca4f",
+          "url": "https://linuxbrew.bintray.com/bottles/libnids-1.24.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool",
+    "libnet",
+    "glib"
+  ],
+  "desc": "Implements E-component of network intrusion detection system",
+  "full_name": "libnids",
+  "homepage": "https://libnids.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libnids",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without libnet support",
+      "option": "--without-libnet"
+    },
+    {
+      "description": "Build without glib support",
+      "option": "--without-glib"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libnet",
+    "glib"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.24"
+  }
+}

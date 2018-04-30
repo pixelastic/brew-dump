@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "53c945e143961a5d158a36980664d5be7153b84074bfa4220eee2db35404b7d3",
+          "url": "https://linuxbrew.bintray.com/bottles/unison-2.51.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1622a673b2bc8ef6d00dd754c26cfd3d5f737ed1dc48a46bbce486fa0f766181",
+          "url": "https://linuxbrew.bintray.com/bottles/unison-2.51.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fd00605490100ec224f5d86a79da341ce639e1d0772fb48cc133672d1bc2a812",
+          "url": "https://linuxbrew.bintray.com/bottles/unison-2.51.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2851d8102ba8f04f1d8a14c1303d9d1f0a6ed10ec4a819a6c3db0aa9377b6a17",
+          "url": "https://linuxbrew.bintray.com/bottles/unison-2.51.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ocaml"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ocaml"
+  ],
+  "desc": "File synchronization tool for OSX",
+  "full_name": "unison",
+  "homepage": "https://www.cis.upenn.edu/~bcpierce/unison/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "unison",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.51.2"
+  }
+}

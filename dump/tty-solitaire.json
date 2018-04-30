@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "eb74b5769e856283690e9b5421190146e6136c7f53368c8516dc4e5ac71e3c20",
+          "url": "https://linuxbrew.bintray.com/bottles/tty-solitaire-1.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e23b0c9a5dad6e16343dd3237a2fbe8d3d99faa38f17534bf48b8c9623982447",
+          "url": "https://linuxbrew.bintray.com/bottles/tty-solitaire-1.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bb97b8bb71cd6dd62c521fa58d8f1c977ebce6332553451cb06c724c841d35e0",
+          "url": "https://linuxbrew.bintray.com/bottles/tty-solitaire-1.0.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9c14a3abeb56ec86f4c1bb4ad4cae849f7b333a1e0eabe0dc75ac61fe0b9b755",
+          "url": "https://linuxbrew.bintray.com/bottles/tty-solitaire-1.0.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Ncurses-based klondike solitaire game",
+  "full_name": "tty-solitaire",
+  "homepage": "https://github.com/mpereira/tty-solitaire",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tty-solitaire",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.0"
+  }
+}

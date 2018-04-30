@@ -1,0 +1,100 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4e90744c983e0356b12e7b0bf598f4db741d8df306b72d71f8d9d314db57ca24",
+          "url": "https://linuxbrew.bintray.com/bottles/efl-1.20.7_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5a453abe384c76f3b520b8d0f04b31219a83c2d0579a9da6df44d13e6b8c362a",
+          "url": "https://linuxbrew.bintray.com/bottles/efl-1.20.7_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e1fbf2df97b12aa73ccea04156de890c44fb5508c5cbd8702914c9cab99216c0",
+          "url": "https://linuxbrew.bintray.com/bottles/efl-1.20.7_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "gettext"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gettext",
+    "openssl",
+    "freetype",
+    "fontconfig",
+    "jpeg",
+    "libpng",
+    "luajit",
+    "fribidi",
+    "giflib",
+    "libtiff",
+    "gstreamer",
+    "gst-plugins-good",
+    "dbus",
+    "pulseaudio",
+    "bullet",
+    "libsndfile",
+    "libspectre",
+    "libraw",
+    "librsvg",
+    "poppler",
+    "shared-mime-info",
+    "webp",
+    "glib"
+  ],
+  "desc": "Enlightenment Foundation Libraries",
+  "full_name": "efl",
+  "homepage": "https://www.enlightenment.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "efl",
+  "oldname": null,
+  "optional_dependencies": [
+    "webp",
+    "glib"
+  ],
+  "options": [
+    {
+      "description": "Install development libraries/headers and HTML docs",
+      "option": "--with-docs"
+    },
+    {
+      "description": "Build with webp support",
+      "option": "--with-webp"
+    },
+    {
+      "description": "Build with glib support",
+      "option": "--with-glib"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.20.7"
+  }
+}

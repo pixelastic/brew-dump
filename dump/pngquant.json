@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5ee791b257c7ca2a3cd08f87adc5f674b24ab08a3384f7f8745f72f166e3fea3",
+          "url": "https://linuxbrew.bintray.com/bottles/pngquant-2.11.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "15fab42baf4df4cf6fb56554024eed3ec28fd94ebcedd7075acfb5fcc5ee5291",
+          "url": "https://linuxbrew.bintray.com/bottles/pngquant-2.11.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d5c88987657ada8f05f0632701d691fa518815ba5b084f9e31c77722700d4da7",
+          "url": "https://linuxbrew.bintray.com/bottles/pngquant-2.11.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "622f79405405f66b019545810e8a497667fcd05a464fa88803e98738f2fc8ede",
+          "url": "https://linuxbrew.bintray.com/bottles/pngquant-2.11.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "rust",
+    "libpng",
+    "little-cms2"
+  ],
+  "desc": "PNG image optimizing utility",
+  "full_name": "pngquant",
+  "homepage": "https://pngquant.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pngquant",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.11.7"
+  }
+}

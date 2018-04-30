@@ -1,0 +1,84 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8f4d1957bbe546215cf3d328ce06ae6aae6657c764ca2658895654358596f256",
+          "url": "https://linuxbrew.bintray.com/bottles/ibex-2.6.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9df6236bb522c74caf3cbde0eaf19465e2a3674588282982348b628322ca097a",
+          "url": "https://linuxbrew.bintray.com/bottles/ibex-2.6.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4b835a404ec50199fccc22c9248bccbf235d63a8f0736dad5b95df8babdea2cc",
+          "url": "https://linuxbrew.bintray.com/bottles/ibex-2.6.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "474016dd3cb325f8f57ba96f894b5aa22605c76f93e3047761f8a0efc5ac07b9",
+          "url": "https://linuxbrew.bintray.com/bottles/ibex-2.6.5.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "bison",
+    "flex",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bison",
+    "flex",
+    "pkg-config",
+    "zlib"
+  ],
+  "desc": "C++ library for constraint processing over real numbers",
+  "full_name": "ibex",
+  "homepage": "http://www.ibex-lib.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ibex",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable Java bindings for CHOCO solver.",
+      "option": "--with-java"
+    },
+    {
+      "description": "Use AMPL file loader plugin",
+      "option": "--with-ampl"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.6.5"
+  }
+}

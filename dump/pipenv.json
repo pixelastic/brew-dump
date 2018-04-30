@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d3c9aac16ae2bf5d2c889c4a14dc6c50f33906c9c1fcdff6b5596a17b371df18",
+          "url": "https://linuxbrew.bintray.com/bottles/pipenv-11.10.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2ea083aff30a537d810fc95d075373b34dc720ef8d3862e2934f514e75adcd42",
+          "url": "https://linuxbrew.bintray.com/bottles/pipenv-11.10.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cf242964122af6cde0645063dd0a43afacca1ab7d6de51829b787da046924497",
+          "url": "https://linuxbrew.bintray.com/bottles/pipenv-11.10.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Python dependency management tool",
+  "full_name": "pipenv",
+  "homepage": "https://docs.pipenv.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pipenv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "11.10.1"
+  }
+}

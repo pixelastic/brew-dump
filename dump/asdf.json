@@ -1,0 +1,48 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Add the following line to your bash profile (e.g. ~/.bashrc, ~/.profile, or ~/.bash_profile)\n     source /home/tim/.linuxbrew/opt/asdf/asdf.sh\n\nIf you use Fish shell, add the following line to your fish config (e.g. ~/.config/fish/config.fish)\n     source /home/tim/.linuxbrew/opt/asdf/asdf.fish\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "coreutils",
+    "libyaml",
+    "openssl",
+    "readline",
+    "unixodbc"
+  ],
+  "desc": "Extendable version manager with support for Ruby, Node.js, Erlang & more",
+  "full_name": "asdf",
+  "homepage": "https://github.com/asdf-vm",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "asdf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.3"
+  }
+}

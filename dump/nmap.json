@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a597fa10396be4a782a198f4af51565c15dc8ae59cbe8c367bb78fd3babd972e",
+          "url": "https://linuxbrew.bintray.com/bottles/nmap-7.70.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ef7ef98c6b83c013727eea37c37dcfa04eb6a572dc03699920cd7fc76a7f358a",
+          "url": "https://linuxbrew.bintray.com/bottles/nmap-7.70.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a39669b4c391823e7f42407654475539d7b4b58bc343817c6bfb96bc4063e848",
+          "url": "https://linuxbrew.bintray.com/bottles/nmap-7.70.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "ndiff"
+  ],
+  "dependencies": [
+    "openssl",
+    "pygtk"
+  ],
+  "desc": "Port scanning utility for large networks",
+  "full_name": "nmap",
+  "homepage": "https://nmap.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nmap",
+  "oldname": null,
+  "optional_dependencies": [
+    "pygtk"
+  ],
+  "options": [
+    {
+      "description": "Build Zenmap GUI",
+      "option": "--with-pygtk"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "7.70"
+  }
+}

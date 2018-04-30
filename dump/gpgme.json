@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "88f9c39143597eadd5a408bc8e5b1580014358977d8f3a7cb89c0ac6372510db",
+          "url": "https://linuxbrew.bintray.com/bottles/gpgme-1.11.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8a4e1bbd9ce26be05a9f0875c7f258c36fc3387d6cf628684c6f5427a63402ca",
+          "url": "https://linuxbrew.bintray.com/bottles/gpgme-1.11.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "90e45544ee3e670f1f8e808b504057d360a260c33cf34682e3a3686b6a4cda83",
+          "url": "https://linuxbrew.bintray.com/bottles/gpgme-1.11.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c825686c0a020761aa98fad803e55b241c2526c3d5091c397cc042839ca0b0cc",
+          "url": "https://linuxbrew.bintray.com/bottles/gpgme-1.11.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "swig"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "swig",
+    "gnupg",
+    "libgpg-error",
+    "libassuan"
+  ],
+  "desc": "Library access to GnuPG",
+  "full_name": "gpgme",
+  "homepage": "https://www.gnupg.org/related_software/gpgme/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gpgme",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.11.1"
+  }
+}

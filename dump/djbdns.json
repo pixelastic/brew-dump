@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f15150f288f8769a34c39a5cd27052c2b7828fcc10fdd3832473fc995d82e1f6",
+          "url": "https://linuxbrew.bintray.com/bottles/djbdns-1.05.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f74830dac0cdcd4baf0dac7a091dcab0352821d894aed49f8e0a6fad1b240c2a",
+          "url": "https://linuxbrew.bintray.com/bottles/djbdns-1.05.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bfb5b8aa8d1e0c6a3d4789ea5c650c920576d0d21a5c623414119139e06084a0",
+          "url": "https://linuxbrew.bintray.com/bottles/djbdns-1.05.sierra.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "daemontools",
+    "ucspi-tcp"
+  ],
+  "desc": "D.J. Bernstein's DNS tools",
+  "full_name": "djbdns",
+  "homepage": "https://cr.yp.to/djbdns.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "djbdns",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.05"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "47b8d302bde32565c4b1a627041fda8df645b4349d3eb5ff250b266309d47271",
+          "url": "https://linuxbrew.bintray.com/bottles/virtualpg-1.0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2e7d844424706349b16cbbf1f7ab6fd257703ed8de3347277090c75cadb491b8",
+          "url": "https://linuxbrew.bintray.com/bottles/virtualpg-1.0.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1d61bc6b83f9584e6a787b614f475177fe98472bc6fa697c1a6695dfe6f65701",
+          "url": "https://linuxbrew.bintray.com/bottles/virtualpg-1.0.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libspatialite",
+    "postgis"
+  ],
+  "desc": "Loadable dynamic extension for SQLite and SpatiaLite",
+  "full_name": "virtualpg",
+  "homepage": "https://www.gaia-gis.it/fossil/virtualpg/index",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "virtualpg",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.2"
+  }
+}

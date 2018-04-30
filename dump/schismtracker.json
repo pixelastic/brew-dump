@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e1d0f44a61bb7bcd306368ac51e147be6598a990a8b0b0c60084a49495e115bd",
+          "url": "https://linuxbrew.bintray.com/bottles/schismtracker-20180209.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "21d1920a28276e4ff416000decc452fe51d092e9de47ad1e3c563c0abea61cb1",
+          "url": "https://linuxbrew.bintray.com/bottles/schismtracker-20180209.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "84bc0f506bd91c86c0d60efcfee9366a2a5a488381ccf2ed0716c0c2f8ed6a55",
+          "url": "https://linuxbrew.bintray.com/bottles/schismtracker-20180209.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "sdl"
+  ],
+  "desc": "Portable reimplementation of Impulse Tracker",
+  "full_name": "schismtracker",
+  "homepage": "http://schismtracker.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "schismtracker",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "20180209"
+  }
+}

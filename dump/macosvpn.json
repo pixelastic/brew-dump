@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4cf716851d7a1fda3ed5387504d01d8832b53f54fd7b683267af29fc5d18f7a1",
+          "url": "https://linuxbrew.bintray.com/bottles/macosvpn-0.3.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "478bec17d2000763fde198848b85478aa8ece4414499a1cfc2dd8925071f15e9",
+          "url": "https://linuxbrew.bintray.com/bottles/macosvpn-0.3.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fd31b7b30a4867a7693a35ce96a6d74034e160f8b7cae1bc37e8ca5083552a04",
+          "url": "https://linuxbrew.bintray.com/bottles/macosvpn-0.3.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Create Mac OS VPNs programmatically",
+  "full_name": "macosvpn",
+  "homepage": "https://github.com/halo/macosvpn",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "macosvpn",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.5"
+  }
+}

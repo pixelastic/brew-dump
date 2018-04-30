@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5a94e3a2f3e36a0aa93c9c06e33d126079307080a7a8237cf719c9eb20c23272",
+          "url": "https://linuxbrew.bintray.com/bottles/bgpstream-1.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f6da890ff38f26be2528dce9a095a30864a9e0741b0350ac415472751479d8e0",
+          "url": "https://linuxbrew.bintray.com/bottles/bgpstream-1.1.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a0a45f0c9c135d94c64772d273bf0e3cb462eb6b83663388b343665f0894015a",
+          "url": "https://linuxbrew.bintray.com/bottles/bgpstream-1.1.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "02ddb40b74b138a5838d5bdcdb44caa37d1974abffe129ad37957c1bd8dd4152",
+          "url": "https://linuxbrew.bintray.com/bottles/bgpstream-1.1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c7fa0c3adcebc76cafb1cdb56116e8fcd111a62d144c82a00226676e5f6a1950",
+          "url": "https://linuxbrew.bintray.com/bottles/bgpstream-1.1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "wandio"
+  ],
+  "desc": "For live and historical BGP data analysis",
+  "full_name": "bgpstream",
+  "homepage": "https://bgpstream.caida.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bgpstream",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1.0"
+  }
+}

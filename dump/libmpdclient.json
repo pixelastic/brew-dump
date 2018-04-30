@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "573291d299ec6ee87a40cd79374cd7697e784230774852cf2bab9e20fcc83b54",
+          "url": "https://linuxbrew.bintray.com/bottles/libmpdclient-2.14_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a4b68fd2d553aad650263ddf646fc8a402df86f1341f4febee85a69e46916a2f",
+          "url": "https://linuxbrew.bintray.com/bottles/libmpdclient-2.14_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4e1b4802e6fa4e958d78c03d3cc14f33fece909975a9c40fa83946c5fd2a30b1",
+          "url": "https://linuxbrew.bintray.com/bottles/libmpdclient-2.14_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e8dd3ac2443a649ad8ea1d4071d65996db51abd832739ee452d86e70d80c7bfb",
+          "url": "https://linuxbrew.bintray.com/bottles/libmpdclient-2.14_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "doxygen",
+    "meson-internal",
+    "ninja"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "doxygen",
+    "meson-internal",
+    "ninja"
+  ],
+  "desc": "Library for MPD in the C, C++, and Objective-C languages",
+  "full_name": "libmpdclient",
+  "homepage": "https://www.musicpd.org/libs/libmpdclient/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libmpdclient",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.14"
+  }
+}

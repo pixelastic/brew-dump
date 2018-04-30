@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5d97c4e9f5c4cd9246bc3be9e785fed094cb522c3110f1ca41408415875b08cc",
+          "url": "https://linuxbrew.bintray.com/bottles/curlish-1.22.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "913484a16fdeb402a8f1d0834401f9d9eeaf2d3fd38bfc9c96f4a3978050d9f0",
+          "url": "https://linuxbrew.bintray.com/bottles/curlish-1.22.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f5a8b12596157c853a1f9179e4e47e9bc1259ab75e84efe61343e99bec6f62ab",
+          "url": "https://linuxbrew.bintray.com/bottles/curlish-1.22.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "b01c4e78526de36f3b4e0fcac7ec049e2a4dd9366c8d32eae5692a3e626f99a4",
+          "url": "https://linuxbrew.bintray.com/bottles/curlish-1.22.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ce2ef65c8c9f59f11b4edf7906af5504df8573e01ee7d6f6f996fc0647285433",
+          "url": "https://linuxbrew.bintray.com/bottles/curlish-1.22.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6cd32ca680c05b00761eb422a067316d4bb172c171f3e4015da66ed319cec3d2",
+          "url": "https://linuxbrew.bintray.com/bottles/curlish-1.22.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Curl wrapper that adds support for OAuth 2.0",
+  "full_name": "curlish",
+  "homepage": "https://pythonhosted.org/curlish/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "curlish",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.22"
+  }
+}

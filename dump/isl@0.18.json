@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c00c85da652a572356e54cad1a6ff986f136f6088c142dfcdbfc166bd7144d1e",
+          "url": "https://linuxbrew.bintray.com/bottles/isl@0.18-0.18.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e286024c142af0e968d8562e83745a05dd059dbe226c41fe6053c8fd481815fe",
+          "url": "https://linuxbrew.bintray.com/bottles/isl@0.18-0.18.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "23c7305a7f227e1749a15584eb203ec9f1f49f1f4312753a9ee360f89b71d304",
+          "url": "https://linuxbrew.bintray.com/bottles/isl@0.18-0.18.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3ef95686496676a3c73c57db6eee32a9f039e9c2b7ccf173c3b1941124ef6f78",
+          "url": "https://linuxbrew.bintray.com/bottles/isl@0.18-0.18.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gmp"
+  ],
+  "desc": "Integer Set Library for the polyhedral model",
+  "full_name": "isl@0.18",
+  "homepage": "http://isl.gforge.inria.fr",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "isl@0.18",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.18"
+  }
+}

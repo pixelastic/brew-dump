@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "92c6ab8dc868bad029103c897ccdc5a04e6e0f6809dfd2759c58aa390a7d5e8f",
+          "url": "https://linuxbrew.bintray.com/bottles/trash-cli-0.17.1.14.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4cf098db9eb5888ad3e513cb222930975089034c9a3e8f2d6c1c53bb93b4ea1c",
+          "url": "https://linuxbrew.bintray.com/bottles/trash-cli-0.17.1.14.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6c2e56df6aeed7ed8bcbdea702b9d66058ea17be38bc39a26feba5928dbe053a",
+          "url": "https://linuxbrew.bintray.com/bottles/trash-cli-0.17.1.14.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0a63fa2a54f841b56387d7b731f7b321af7a2a8249e91f3c153bb89497f97386",
+          "url": "https://linuxbrew.bintray.com/bottles/trash-cli-0.17.1.14.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "trash"
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Command-line interface to the freedesktop.org trashcan",
+  "full_name": "trash-cli",
+  "homepage": "https://github.com/andreafrancia/trash-cli",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "trash-cli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.17.1.14"
+  }
+}

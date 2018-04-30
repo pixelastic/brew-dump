@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "565a73d1f78acf7fd32ede476fc63028a8eb2d98a330d991a09e2b20bd923d31",
+          "url": "https://linuxbrew.bintray.com/bottles/pcb-4.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7e229670841427c9fbf4b673c63e07c21e8acc23ad88d0d260525c8476c59364",
+          "url": "https://linuxbrew.bintray.com/bottles/pcb-4.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fc93a4a84a76fb056244da2225136e668a19ca03db91ade3ac8ca1110bf61686",
+          "url": "https://linuxbrew.bintray.com/bottles/pcb-4.1.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "intltool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "gts"
+  ],
+  "dependencies": [
+    "intltool",
+    "pkg-config",
+    "dbus",
+    "gd",
+    "gettext",
+    "glib",
+    "gtk+",
+    "gtkglext"
+  ],
+  "desc": "Interactive printed circuit board editor",
+  "full_name": "pcb",
+  "homepage": "http://pcb.geda-project.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pcb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.1.1"
+  }
+}

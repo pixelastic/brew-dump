@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "3a1e6bac1528350a5367037c45d273d8cb8b975b5396fd18ade67f75d2b24d77",
+          "url": "https://linuxbrew.bintray.com/bottles/libcdr-0.1.4_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3cb56137892fdd15220df4225fae028f5d09bda8b1f3e4164a326404509c87db",
+          "url": "https://linuxbrew.bintray.com/bottles/libcdr-0.1.4_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7778cd1cce4897263fad056d66957ed0a65150776ce917c4dc4559768a74b25c",
+          "url": "https://linuxbrew.bintray.com/bottles/libcdr-0.1.4_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "903d7f069f015220c8f3198c6b12d98e409ca19f94ec62a25e55b05911dc6fba",
+          "url": "https://linuxbrew.bintray.com/bottles/libcdr-0.1.4_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "cppunit"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cppunit",
+    "boost",
+    "icu4c",
+    "librevenge",
+    "little-cms2"
+  ],
+  "desc": "C++ library to parse the file format of CorelDRAW documents",
+  "full_name": "libcdr",
+  "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libcdr",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libcdr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.4"
+  }
+}

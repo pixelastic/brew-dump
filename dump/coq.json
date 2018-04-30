@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5c86c745cc2e96d7d80088936fe651d4576428f168350f54074e44f6e8d5473a",
+          "url": "https://linuxbrew.bintray.com/bottles/coq-8.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9472d829ce611df12cd613fb8b4efd7bf78c732b619147e459829c60498583b2",
+          "url": "https://linuxbrew.bintray.com/bottles/coq-8.8.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1205cdb57164c6d391d9dbf1fcb5a81ec6651f74ee33446c6f9f1fd2f7820ccc",
+          "url": "https://linuxbrew.bintray.com/bottles/coq-8.8.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ocaml-findlib",
+    "unzip"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ocaml-findlib",
+    "camlp5",
+    "ocaml",
+    "ocaml-num",
+    "unzip",
+    "m4"
+  ],
+  "desc": "Proof assistant for higher-order logic",
+  "full_name": "coq",
+  "homepage": "https://coq.inria.fr/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "coq",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "camlp5transitionalmode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "8.8.0"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3989ba7511527a7dd11b54ac7395c80a632045fc211d97f1e26b26eebbfbef93",
+          "url": "https://linuxbrew.bintray.com/bottles/xmake-2.1.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "904f0bff1251d3a968c334343fd204cea0022e82f1744c33efaf69967dae36d5",
+          "url": "https://linuxbrew.bintray.com/bottles/xmake-2.1.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "904f0bff1251d3a968c334343fd204cea0022e82f1744c33efaf69967dae36d5",
+          "url": "https://linuxbrew.bintray.com/bottles/xmake-2.1.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "99bdb7552b3e2197bda9c685303453f606743a2748bbdb9d57630c358fb2e95d",
+          "url": "https://linuxbrew.bintray.com/bottles/xmake-2.1.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "readline"
+  ],
+  "desc": "Make-like build utility based on Lua",
+  "full_name": "xmake",
+  "homepage": "http://xmake.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xmake",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.9"
+  }
+}

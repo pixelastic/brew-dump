@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5fbd4d1d36e471bc71720b61a1d4a76b363e115fc71b74208fc5284883087bda",
+          "url": "https://linuxbrew.bintray.com/bottles/udunits-2.2.26.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9bb90283343d3490d247eda07024cbdfa68b1dbc5255d2697c73ed2e73a29799",
+          "url": "https://linuxbrew.bintray.com/bottles/udunits-2.2.26.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "754d3116eb032cc012c164b0a5edea7432f6e6a4b2853a9b7153e560dfb9075a",
+          "url": "https://linuxbrew.bintray.com/bottles/udunits-2.2.26.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7fabdc9fadd7cc82f75de69b1e31fb14b5d999d64394bce419b1f4a6341f8d63",
+          "url": "https://linuxbrew.bintray.com/bottles/udunits-2.2.26.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "expat"
+  ],
+  "desc": "Unidata unit conversion library",
+  "full_name": "udunits",
+  "homepage": "https://www.unidata.ucar.edu/software/udunits/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "udunits",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Installs html documentation",
+      "option": "--with-html-docs"
+    },
+    {
+      "description": "Installs pdf documentation",
+      "option": "--with-pdf-docs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.26"
+  }
+}

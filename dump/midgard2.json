@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "e9c17c300e476ee15ca5d3ccc34c70715da56a8e7be41a7e0638d3dfbbf49113",
+          "url": "https://linuxbrew.bintray.com/bottles/midgard2-12.09_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c441435a2ea2a9c9ec76b066e9d03ff2bf49d3bd6484f1a61308a77ef4f536bb",
+          "url": "https://linuxbrew.bintray.com/bottles/midgard2-12.09_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8cb700e06f34ca0a08745d42f53dc2b451eb7a739105dda3aade4db2b03a9a3f",
+          "url": "https://linuxbrew.bintray.com/bottles/midgard2-12.09_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5c522e6151422dcc32f28f276f8315b66aab03c8147ea85f8f4b5f1700a664d2",
+          "url": "https://linuxbrew.bintray.com/bottles/midgard2-12.09_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b1d949df0056f3855adfdd4542825fbffa13043e4666516662b3e69f81c24e2b",
+          "url": "https://linuxbrew.bintray.com/bottles/midgard2-12.09_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib",
+    "dbus-glib",
+    "libgda"
+  ],
+  "desc": "Generic content repository for web and desktop applications",
+  "full_name": "midgard2",
+  "homepage": "http://www.midgard-project.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "midgard2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "12.09"
+  }
+}

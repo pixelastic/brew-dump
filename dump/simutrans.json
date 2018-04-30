@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "36961b1c305e6c2081447e54a274d0e118df63eb771626be1dc511b9c34811ed",
+          "url": "https://linuxbrew.bintray.com/bottles/simutrans-120.1.3.el_capitan.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d07c63fcaa13fa5c670f27603cc0609a46da912374e30bd1e785329db26e7651",
+          "url": "https://linuxbrew.bintray.com/bottles/simutrans-120.1.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "200ce8fa5e825a6f49ac4f6d87a014bad0d6a4a16a7640a71261ac7680472ab1",
+          "url": "https://linuxbrew.bintray.com/bottles/simutrans-120.1.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libpng",
+    "sdl2"
+  ],
+  "desc": "Transport simulator",
+  "full_name": "simutrans",
+  "homepage": "https://www.simutrans.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "simutrans",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "120.1.3"
+  }
+}

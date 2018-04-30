@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "speedtest_cli"
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Command-line interface for https://speedtest.net bandwidth tests",
+  "full_name": "speedtest-cli",
+  "homepage": "https://github.com/sivel/speedtest-cli",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "speedtest-cli",
+  "oldname": "speedtest_cli",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.0"
+  }
+}

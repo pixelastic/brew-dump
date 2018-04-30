@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0e7fd4f055a6ba4e81273a5952504ceb74b835387c144a24e61f020e55e6018e",
+          "url": "https://linuxbrew.bintray.com/bottles/imessage-ruby-0.3.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e287b21ce1694d5ec9c5376fb142232b2df72fb907b12cb5b0ff22bd2fc04ab2",
+          "url": "https://linuxbrew.bintray.com/bottles/imessage-ruby-0.3.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7b546ccf5cf13a7d474c635a57eebc8e74ff61ea6c7c3cdfefffe4c78737ab47",
+          "url": "https://linuxbrew.bintray.com/bottles/imessage-ruby-0.3.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "446892e091382593a46ee69b8fb01354f1cc363a97b8a967332553a577bab8f6",
+          "url": "https://linuxbrew.bintray.com/bottles/imessage-ruby-0.3.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1024e6cee26ed9fc8ae4ef1941edc64d0e6d16006bd2a530d5644e7c00f8a350",
+          "url": "https://linuxbrew.bintray.com/bottles/imessage-ruby-0.3.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Command-line tool to send iMessage",
+  "full_name": "imessage-ruby",
+  "homepage": "https://github.com/linjunpop/imessage",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "imessage-ruby",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.3.1"
+  }
+}

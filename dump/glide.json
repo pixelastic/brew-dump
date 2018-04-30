@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9a400081061df8e2cbd82463b763e20e2029df47f750a8622ba6e3e81f21fa66",
+          "url": "https://linuxbrew.bintray.com/bottles/glide-0.13.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "caf9796752ea6c302aad5ccb6d2d415961e338743ad93a849c012654f1826057",
+          "url": "https://linuxbrew.bintray.com/bottles/glide-0.13.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "31aa6f3b39c0a101dd94e9dda1a7d76fa6d22d8865effa0e96ae5d61d799233e",
+          "url": "https://linuxbrew.bintray.com/bottles/glide-0.13.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "07f99687df70f4c13238918c2daead6827b5008809f3ce60fbd12bcb62701362",
+          "url": "https://linuxbrew.bintray.com/bottles/glide-0.13.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Simplified Go project management, dependency management, and vendoring",
+  "full_name": "glide",
+  "homepage": "https://github.com/Masterminds/glide",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "glide",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.13.1"
+  }
+}

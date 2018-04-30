@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d7b7e6dd7c164f7145532f14fae09909651c4f997e75c8b8b2f5b98b9512a117",
+          "url": "https://linuxbrew.bintray.com/bottles/teleconsole-0.3.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a00b04aeb2e57c8ae3cca20632033bb2a60e1c3ec242497bee4a14240e5276a5",
+          "url": "https://linuxbrew.bintray.com/bottles/teleconsole-0.3.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "77f2ea18e72c3662cdc3a9b204752b4d18ee65df2a4d9b47d53b31a7440a5109",
+          "url": "https://linuxbrew.bintray.com/bottles/teleconsole-0.3.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7e2997cfe314a0b08332bfc6c4611707f8c97aa80ba92bc74a6ce3d2abc9c159",
+          "url": "https://linuxbrew.bintray.com/bottles/teleconsole-0.3.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Free service to share your terminal session with people you trust",
+  "full_name": "teleconsole",
+  "homepage": "https://www.teleconsole.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "teleconsole",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.1"
+  }
+}

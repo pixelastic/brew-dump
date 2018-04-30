@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5ad764dbd25373bc0bd68b213c611650694fe69f36c90fcd746aa90bc876e8f3",
+          "url": "https://linuxbrew.bintray.com/bottles/yaml-cpp-0.6.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5e1d0907d3cb39861ff36476f8cabb78d9bdf4a9b228cd860502b03b280c226d",
+          "url": "https://linuxbrew.bintray.com/bottles/yaml-cpp-0.6.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d081b409a0e7c60fc5c4d2c965b63fc0f0c7f3b1e36f61274719982ac5799b09",
+          "url": "https://linuxbrew.bintray.com/bottles/yaml-cpp-0.6.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "cb5d74aeaf1a8db007f77c2e3b5b5ee5f1c893f90b7bc91238a23196fb339899",
+          "url": "https://linuxbrew.bintray.com/bottles/yaml-cpp-0.6.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "C++ YAML parser and emitter for YAML 1.2 spec",
+  "full_name": "yaml-cpp",
+  "homepage": "https://github.com/jbeder/yaml-cpp",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yaml-cpp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build a static library",
+      "option": "--with-static-lib"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.2"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "actor-framework"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "bd5335016196542d3db596218f9f0669b5392e3c0fc38d1913e9f0a07341c1e9",
+          "url": "https://linuxbrew.bintray.com/bottles/caf-0.15.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "71128b4493b340e1ecaa35bfce84693b1a52a4235332fcbf0d4ef41f6ff546e6",
+          "url": "https://linuxbrew.bintray.com/bottles/caf-0.15.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "508fde1a3b54beb20decc4a845eb1bac4afd983e8b64c8661dcc80751e9db697",
+          "url": "https://linuxbrew.bintray.com/bottles/caf-0.15.7.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Implementation of the Actor Model for C++",
+  "full_name": "caf",
+  "homepage": "https://actor-framework.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "caf",
+  "oldname": "libcppa",
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "build with support for OpenCL actors",
+      "option": "--with-opencl"
+    },
+    {
+      "description": "skip unit tests (not recommended)",
+      "option": "--without-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.15.7"
+  }
+}

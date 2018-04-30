@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c938ac9f5907548b4d953180066a30ad468b51fbfe10cc2e54b4cdd244d439aa",
+          "url": "https://linuxbrew.bintray.com/bottles/you-get-0.4.1060.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5d5dc094704864855e3e46646a59f97de9c74b3714ffd840499e702ef1dff840",
+          "url": "https://linuxbrew.bintray.com/bottles/you-get-0.4.1060.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a281f41dd3a2c63c90c70ec5416dc0fa7fd5f73b064501abd45692601bbe6152",
+          "url": "https://linuxbrew.bintray.com/bottles/you-get-0.4.1060.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To use post-processing options, `brew install ffmpeg` or `brew install libav`.",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python",
+    "rtmpdump"
+  ],
+  "desc": "Dumb downloader that scrapes the web",
+  "full_name": "you-get",
+  "homepage": "https://you-get.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "you-get",
+  "oldname": null,
+  "optional_dependencies": [
+    "rtmpdump"
+  ],
+  "options": [
+    {
+      "description": "Build with rtmpdump support",
+      "option": "--with-rtmpdump"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.1060"
+  }
+}

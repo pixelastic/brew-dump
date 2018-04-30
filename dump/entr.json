@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e4702252f69db478d06aa9cb8d8c677f777277f0c5efe2bd9edb01d46f32440e",
+          "url": "https://linuxbrew.bintray.com/bottles/entr-4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "17c3c9ad92d7506685f86093dff1e6d119e8825b9e6a3981a383730ef340a040",
+          "url": "https://linuxbrew.bintray.com/bottles/entr-4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bc1976b4f61506dd65f106cf593c48d534500b9f15763746424ed8dcd557410a",
+          "url": "https://linuxbrew.bintray.com/bottles/entr-4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6555ce02cb760f26ae536febb2a2e2e8fc7b81aab4b7e06ce3222071e8b8eadc",
+          "url": "https://linuxbrew.bintray.com/bottles/entr-4.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Run arbitrary commands when files change",
+  "full_name": "entr",
+  "homepage": "http://entrproject.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "entr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.0"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b9f326c678a9317f141ad13749cb4075ab42144855254d344de15bc22c4020e5",
+          "url": "https://linuxbrew.bintray.com/bottles/lincity-ng-2.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bdfe153ca219084bf621c031612c8b86b02911e64d6fa154422812aee7de8d76",
+          "url": "https://linuxbrew.bintray.com/bottles/lincity-ng-2.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cae5f270842c10affb29d6f9c592a96913d9ca630c49d22afa03cba6d3a6121c",
+          "url": "https://linuxbrew.bintray.com/bottles/lincity-ng-2.0_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6eae33edda53f256caa2fde01d334bc19b2c9810c8cf8e039ad1094c71619691",
+          "url": "https://linuxbrew.bintray.com/bottles/lincity-ng-2.0_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "jam"
+  ],
+  "caveats": "If you have problem with fullscreen, try running in windowed mode:\n  lincity-ng -w\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "jam",
+    "physfs",
+    "sdl",
+    "sdl_gfx",
+    "sdl_image",
+    "sdl_mixer",
+    "sdl_ttf"
+  ],
+  "desc": "City simulation game",
+  "full_name": "lincity-ng",
+  "homepage": "https://github.com/lincity-ng/lincity-ng/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lincity-ng",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "2.9.beta",
+    "head": "HEAD",
+    "stable": "2.0"
+  }
+}

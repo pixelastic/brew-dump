@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "dcbe9a404fb0215e35dc9d08e73595ba8dadad55e6ca898078a66ce04c9dc11b",
+          "url": "https://linuxbrew.bintray.com/bottles/nethacked-1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4fe2af842c20dc95f4ae5bebcffed0b85da6a94a548b0d5f8115d1829c80e3cc",
+          "url": "https://linuxbrew.bintray.com/bottles/nethacked-1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d2c880eb02b32bc6a976b16502f400a94b395375b5cd59e731fb209580e3ceee",
+          "url": "https://linuxbrew.bintray.com/bottles/nethacked-1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "08b24568c94b14271e5d1b2880a0a78e6eea5cbbabfb9519347b5be1d2cc0893",
+          "url": "https://linuxbrew.bintray.com/bottles/nethacked-1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Bugfixed and interface-patched Nethack",
+  "full_name": "nethacked",
+  "homepage": "https://nethacked.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nethacked",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0"
+  }
+}

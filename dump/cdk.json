@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7d8e6706f54a83fe58b0ae7480bc7ff0fff3374a1d3f4615286057c336f31c37",
+          "url": "https://linuxbrew.bintray.com/bottles/cdk-5.0.20180306.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4fa97741c58623aedd6f8e41147cf503b21a318ae035341871212841bab0fbb0",
+          "url": "https://linuxbrew.bintray.com/bottles/cdk-5.0.20180306.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "58c136c407b21c5d34db2ae0f206887639f4077482a607060010ba172a6c1433",
+          "url": "https://linuxbrew.bintray.com/bottles/cdk-5.0.20180306.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e4adcc515c670f99f2ea821303f3298154b82a3981e9147583f944732c9b092c",
+          "url": "https://linuxbrew.bintray.com/bottles/cdk-5.0.20180306.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "desc": "Curses development kit provides predefined curses widget for apps",
+  "full_name": "cdk",
+  "homepage": "https://invisible-island.net/cdk/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cdk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.0.20180306"
+  }
+}

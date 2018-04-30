@@ -1,0 +1,54 @@
+{
+  "aliases": [
+    "awsebcli"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "644cd13129d7962507c69c71422643f2fc2ad25d80b82477dc7e9a96b0fa77d3",
+          "url": "https://linuxbrew.bintray.com/bottles/aws-elasticbeanstalk-3.12.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Client for Amazon Elastic Beanstalk web service",
+  "full_name": "aws-elasticbeanstalk",
+  "homepage": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aws-elasticbeanstalk",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.12.4"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5e3e5c3247175111eea66f46a09385adc481bbe1c0c375284dc157c22db8d869",
+          "url": "https://linuxbrew.bintray.com/bottles/libidn2-2.0.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e2331d3c771fb283c2e995f33ec65f233d3fa4fe53f68818e94a0813acd9b591",
+          "url": "https://linuxbrew.bintray.com/bottles/libidn2-2.0.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eede4f7d455f28a987941586c3bf01ee0e6d60af6a16bd4ee908af85d67383d7",
+          "url": "https://linuxbrew.bintray.com/bottles/libidn2-2.0.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a48dd4aaf56b7792bc9fd937987bfe19464ec05d0611ccab206de46b78bca871",
+          "url": "https://linuxbrew.bintray.com/bottles/libidn2-2.0.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "gettext"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gettext",
+    "libunistring"
+  ],
+  "desc": "International domain name library (IDNA2008, Punycode and TR46)",
+  "full_name": "libidn2",
+  "homepage": "https://www.gnu.org/software/libidn/#libidn2",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libidn2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.4"
+  }
+}

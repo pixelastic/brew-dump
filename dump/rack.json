@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7a17ae415465e10b0b5674218d5fb127c03782b5f49e741d8a84f94cde7c658a",
+          "url": "https://linuxbrew.bintray.com/bottles/rack-1.2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f5b447e509b01c080e73d8a275a60591e0a9b91d09d9aeff9aafe91b67538486",
+          "url": "https://linuxbrew.bintray.com/bottles/rack-1.2.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9e77b25dce5ebddece476a84fa04b32d3c904f4a825db343b128a8b3b4a4f4fd",
+          "url": "https://linuxbrew.bintray.com/bottles/rack-1.2.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d49a8f87439a1584e1662a570c7a40611d6cf13064e37f3a66cb7e1feaaa5719",
+          "url": "https://linuxbrew.bintray.com/bottles/rack-1.2.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "CLI for Rackspace",
+  "full_name": "rack",
+  "homepage": "https://github.com/rackspace/rack",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rack",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2"
+  }
+}

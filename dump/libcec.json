@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b444da5133858d153366c5aaed37c0980ea884b4697003a6b2729370be73d48c",
+          "url": "https://linuxbrew.bintray.com/bottles/libcec-4.0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8c30a121370d729e0dcfd6c536404f9934764cbb38de0e76ab970ddc243658c2",
+          "url": "https://linuxbrew.bintray.com/bottles/libcec-4.0.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6e82912e61a59fde53faa863cc279adade8cfed868dc9ac3484106e5c56ef200",
+          "url": "https://linuxbrew.bintray.com/bottles/libcec-4.0.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "368c2c4c012da197804a748601c3e9b576afa10669c5d6a5a40e31a3521aeddd",
+          "url": "https://linuxbrew.bintray.com/bottles/libcec-4.0.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Control devices with TV remote control and HDMI cabling",
+  "full_name": "libcec",
+  "homepage": "http://libcec.pulse-eight.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libcec",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.0.2"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1c23acb3e01f0a3dd6e7755589ad0fa59a2e5d05fde5dba5e723881ec130c671",
+          "url": "https://linuxbrew.bintray.com/bottles/translate-toolkit-2.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d9179ae969d140adea6bdfd02400f191fd2252f133d393d48341ae825205a888",
+          "url": "https://linuxbrew.bintray.com/bottles/translate-toolkit-2.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "51cc9c65abc0b89c0269c81941c5bd62c2500600ec12ecdf0e97829d3ada82f8",
+          "url": "https://linuxbrew.bintray.com/bottles/translate-toolkit-2.3.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f31d7322174a078be598e32d5ce8b66d7fbccf2ff51871b21a7ec86c475221bb",
+          "url": "https://linuxbrew.bintray.com/bottles/translate-toolkit-2.3.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Toolkit for localization engineers",
+  "full_name": "translate-toolkit",
+  "homepage": "https://toolkit.translatehouse.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "translate-toolkit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.3.0"
+  }
+}

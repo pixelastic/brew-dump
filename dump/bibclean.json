@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1e09e98ec9528bbe6386fc12274bf56fcdc69ddccdef119b0dd3381cebefc8c0",
+          "url": "https://linuxbrew.bintray.com/bottles/bibclean-2.17.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0716be98bca14351bf4f0ca3da343e6a79bb945a34929eadf7742824342f48ff",
+          "url": "https://linuxbrew.bintray.com/bottles/bibclean-2.17.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "8e72af36765c47807c07faec8d56d811e0b2cd2ca511adbefad95fbd65aa72cd",
+          "url": "https://linuxbrew.bintray.com/bottles/bibclean-2.17.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "addcead999d4c3ec3e5112c227512e200681e4775b163bfc24f2bff71ac15f77",
+          "url": "https://linuxbrew.bintray.com/bottles/bibclean-2.17.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6cba0c4e4d59324ed70a64718c6541dddba994c8cc509db1d7914a1e7f584dcb",
+          "url": "https://linuxbrew.bintray.com/bottles/bibclean-2.17.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "BibTeX bibliography file pretty printer and syntax checker",
+  "full_name": "bibclean",
+  "homepage": "https://www.math.utah.edu/~beebe/software/bibclean/bibclean-03.html#HDR.3",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bibclean",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.17"
+  }
+}

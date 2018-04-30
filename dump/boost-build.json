@@ -1,0 +1,55 @@
+{
+  "aliases": [
+    "bjam",
+    "boost-jam"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "e3fa255dd5e1a876bf9759cdb331c53cc0a8efca54f691ba28f505c611b8569b",
+          "url": "https://linuxbrew.bintray.com/bottles/boost-build-1.67.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "b2-tools"
+  ],
+  "dependencies": [
+  ],
+  "desc": "C++ build system",
+  "full_name": "boost-build",
+  "homepage": "https://www.boost.org/build/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "boost-build",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.67.0"
+  }
+}

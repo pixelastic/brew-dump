@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e68ba106188d5de7ba03e4cc6335eb920b8fae875770fd33ec9c7f13f6cc25ac",
+          "url": "https://linuxbrew.bintray.com/bottles/getmail-5.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e68ba106188d5de7ba03e4cc6335eb920b8fae875770fd33ec9c7f13f6cc25ac",
+          "url": "https://linuxbrew.bintray.com/bottles/getmail-5.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e68ba106188d5de7ba03e4cc6335eb920b8fae875770fd33ec9c7f13f6cc25ac",
+          "url": "https://linuxbrew.bintray.com/bottles/getmail-5.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "aeaaff88b53d637e4b4e9077ac9d8996326a8069bb63a3e4b8429544de4b8c69",
+          "url": "https://linuxbrew.bintray.com/bottles/getmail-5.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Extensible mail retrieval system with POP3, IMAP4, SSL support",
+  "full_name": "getmail",
+  "homepage": "http://pyropus.ca/software/getmail/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "getmail",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.6"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2ac0b623df41e8c9e9da05fc7f21e842bce1e71c0b9d4db52ef685cca9e040b0",
+          "url": "https://linuxbrew.bintray.com/bottles/spaceinvaders-go-1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5a512f039b4a9698eb5ce766798f462b134e98944e07ab3eccf712ee35c811d1",
+          "url": "https://linuxbrew.bintray.com/bottles/spaceinvaders-go-1.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "672db5956f42626d3e9fc18defe431c4f2c18cd647f8cd534f9f522c314a0c49",
+          "url": "https://linuxbrew.bintray.com/bottles/spaceinvaders-go-1.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "99a7e2c353d5dbb310fa03e4a430d05e0092cb0aee1c19e38bd592492ae16487",
+          "url": "https://linuxbrew.bintray.com/bottles/spaceinvaders-go-1.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Space Invaders in your terminal written in Go",
+  "full_name": "spaceinvaders-go",
+  "homepage": "https://github.com/asib/spaceinvaders",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "spaceinvaders-go",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2"
+  }
+}

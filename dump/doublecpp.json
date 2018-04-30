@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "208aa405fce2959b47f705ab8ba9104e8eadec3e8e709bddd3117ef7b074bedf",
+          "url": "https://linuxbrew.bintray.com/bottles/doublecpp-0.6.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ca161369434cba6763add99e4e470a495662c866a328b374c5d6184e687361cc",
+          "url": "https://linuxbrew.bintray.com/bottles/doublecpp-0.6.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "cfd2231b9a8ecb53216905392c8e1aaa6841ea912f18dc6059d9ebfa1fa5f118",
+          "url": "https://linuxbrew.bintray.com/bottles/doublecpp-0.6.3.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "748af7fb63392453cc4b648cea20786173202f5c891b45765dbf374e4ac2c2d5",
+          "url": "https://linuxbrew.bintray.com/bottles/doublecpp-0.6.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "54f99b448e61043c5152441c309ea849b1d04fbde12ab67e023aee074dc206ee",
+          "url": "https://linuxbrew.bintray.com/bottles/doublecpp-0.6.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Double dispatch in C++",
+  "full_name": "doublecpp",
+  "homepage": "https://doublecpp.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "doublecpp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.3"
+  }
+}

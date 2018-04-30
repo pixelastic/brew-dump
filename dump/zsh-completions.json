@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "zsh-completion"
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To activate these completions, add the following to your .zshrc:\n\n  fpath=(/home/tim/.linuxbrew/share/zsh-completions $fpath)\n\nYou may also need to force rebuild `zcompdump`:\n\n  rm -f ~/.zcompdump; compinit\n\nAdditionally, if you receive \"zsh compinit: insecure directories\" warnings when attempting\nto load these completions, you may need to run this:\n\n  chmod go-w '/home/tim/.linuxbrew/share'\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Additional completion definitions for zsh",
+  "full_name": "zsh-completions",
+  "homepage": "https://github.com/zsh-users/zsh-completions",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zsh-completions",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.27.0"
+  }
+}

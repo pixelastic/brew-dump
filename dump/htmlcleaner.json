@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "888335b4c91925434e794ad53483983e7087060cf6143fa2f69deadb6949f04a",
+          "url": "https://linuxbrew.bintray.com/bottles/htmlcleaner-2.21.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9cd554397a9f87a8862466135f1c25968b6f03220e19eccc4d736d339f899423",
+          "url": "https://linuxbrew.bintray.com/bottles/htmlcleaner-2.21.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "68276e2d39776358c4fae2bf77dc09861bed0bb9a8a97fa9f490c060fc50db60",
+          "url": "https://linuxbrew.bintray.com/bottles/htmlcleaner-2.21.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "maven"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "maven"
+  ],
+  "desc": "HTML parser written in Java",
+  "full_name": "htmlcleaner",
+  "homepage": "https://htmlcleaner.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "htmlcleaner",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "caskroom/versions/java8",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.21"
+  }
+}

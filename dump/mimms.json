@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9996da3980f7307ef745866b671fc56045dc951ff48333ea4e121acaa2d476ae",
+          "url": "https://linuxbrew.bintray.com/bottles/mimms-3.2.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c3e7cc6b99acb9af2a0e80029f0f0e7e4714430e21af830ee5ec59cbd6c1e447",
+          "url": "https://linuxbrew.bintray.com/bottles/mimms-3.2.1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a594aa43b8705e1fd8945ba78b9374eb82c805cc75e92a4ea10375fb8b443529",
+          "url": "https://linuxbrew.bintray.com/bottles/mimms-3.2.1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "88b2e83cfdf9abca4ff712bddacb76611ce29aa2c58218c05e8abf3ed7d0be2b",
+          "url": "https://linuxbrew.bintray.com/bottles/mimms-3.2.1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "libmms"
+  ],
+  "desc": "Mms stream downloader",
+  "full_name": "mimms",
+  "homepage": "https://savannah.nongnu.org/projects/mimms",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mimms",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.2.1"
+  }
+}

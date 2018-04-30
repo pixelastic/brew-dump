@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0ba3259f899d530ec583de3a10a421fefce9641dc118f59b2c89354ad1cd56bc",
+          "url": "https://linuxbrew.bintray.com/bottles/consul-template-0.19.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5edefad550b7fa2c86b7d0484cae79b3b49b7b89c402f38f2b341ea948150410",
+          "url": "https://linuxbrew.bintray.com/bottles/consul-template-0.19.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "55b7eb1dd13f7fb4a4285a14e3effe27a33667352aee2b3dd1f87dd91b037e7a",
+          "url": "https://linuxbrew.bintray.com/bottles/consul-template-0.19.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a4dcd5335baa0fc08bafaf367421becb5865da0b8ee741e58c61f565e2724fe4",
+          "url": "https://linuxbrew.bintray.com/bottles/consul-template-0.19.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Generic template rendering and notifications with Consul",
+  "full_name": "consul-template",
+  "homepage": "https://github.com/hashicorp/consul-template",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "consul-template",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.19.4"
+  }
+}

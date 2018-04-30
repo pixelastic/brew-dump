@@ -1,0 +1,98 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "cfa0416738af22ba2b45833de89e19697f10e2c2392f7d866fa9d6e17a7a882f",
+          "url": "https://linuxbrew.bintray.com/bottles/hydra-8.6_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5f7dac7a0761023b70750c19db74027fd2eaded578d49192c20554a0f7bdedad",
+          "url": "https://linuxbrew.bintray.com/bottles/hydra-8.6_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "474ee0cfcf4e20992f66c6104067311ad48885d708134bb7930c5edc9214a53e",
+          "url": "https://linuxbrew.bintray.com/bottles/hydra-8.6_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "89af7defc4854f8c1c2fe1df9d59e2809a0d78db4f6333d3783c05107a5a3873",
+          "url": "https://linuxbrew.bintray.com/bottles/hydra-8.6_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "mysql",
+    "openssl",
+    "subversion",
+    "libidn",
+    "libssh",
+    "pcre",
+    "gtk+"
+  ],
+  "desc": "Network logon cracker which supports many services",
+  "full_name": "hydra",
+  "homepage": "https://www.thc.org/thc-hydra/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hydra",
+  "oldname": null,
+  "optional_dependencies": [
+    "subversion",
+    "libidn",
+    "libssh",
+    "pcre",
+    "gtk+"
+  ],
+  "options": [
+    {
+      "description": "Build with subversion support",
+      "option": "--with-subversion"
+    },
+    {
+      "description": "Build with libidn support",
+      "option": "--with-libidn"
+    },
+    {
+      "description": "Build with libssh support",
+      "option": "--with-libssh"
+    },
+    {
+      "description": "Build with pcre support",
+      "option": "--with-pcre"
+    },
+    {
+      "description": "Build with gtk+ support",
+      "option": "--with-gtk+"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "8.6"
+  }
+}

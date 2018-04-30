@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "769a4578b1776d344622e8a3d45e48d927b67fea7cda7dbe94160d39abae8807",
+          "url": "https://linuxbrew.bintray.com/bottles/hyperscan-4.7.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7114cdf8a7e154d861a21a9a3dab22639875ed40e5398021bd73987a8ef263b9",
+          "url": "https://linuxbrew.bintray.com/bottles/hyperscan-4.7.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cd7714c9f44d58be98bdc64d3294bcd40cfb070bd7ce6af2c93359d33d4d1285",
+          "url": "https://linuxbrew.bintray.com/bottles/hyperscan-4.7.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "python@2",
+    "boost",
+    "ragel",
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "boost",
+    "ragel",
+    "cmake",
+    "pkg-config"
+  ],
+  "desc": "High-performance regular expression matching library",
+  "full_name": "hyperscan",
+  "homepage": "https://www.hyperscan.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hyperscan",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with debug symbols",
+      "option": "--with-debug"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.7.0"
+  }
+}

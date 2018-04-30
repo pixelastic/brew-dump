@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "92ad1a513ea6e9d909e284f5db84a63e134416ab6a3b17726703766e275bbf65",
+          "url": "https://linuxbrew.bintray.com/bottles/googler-3.5_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "92ad1a513ea6e9d909e284f5db84a63e134416ab6a3b17726703766e275bbf65",
+          "url": "https://linuxbrew.bintray.com/bottles/googler-3.5_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "92ad1a513ea6e9d909e284f5db84a63e134416ab6a3b17726703766e275bbf65",
+          "url": "https://linuxbrew.bintray.com/bottles/googler-3.5_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Google Search and News from the command-line",
+  "full_name": "googler",
+  "homepage": "https://github.com/jarun/googler",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "googler",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.5"
+  }
+}

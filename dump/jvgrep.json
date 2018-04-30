@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1f29a4b104991321423593f016c7d8afb554888a8358f917fce6277a457babe1",
+          "url": "https://linuxbrew.bintray.com/bottles/jvgrep-5.6.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "209459f0c498623c7349a57890f23fd5607a05d724a898b603a758cf0149c6c4",
+          "url": "https://linuxbrew.bintray.com/bottles/jvgrep-5.6.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "52331b106d3bdcc174a2373c38e2ff0ec7c2eb2cdd35f6ccb89b46b49f25a2ab",
+          "url": "https://linuxbrew.bintray.com/bottles/jvgrep-5.6.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e70bd8f8602657fa53888d6c272299fa2653a8458b9133792f7cd1ad10a99199",
+          "url": "https://linuxbrew.bintray.com/bottles/jvgrep-5.6.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Grep for Japanese users of Vim",
+  "full_name": "jvgrep",
+  "homepage": "https://github.com/mattn/jvgrep",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jvgrep",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.6.0"
+  }
+}

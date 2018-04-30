@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0df5881e825be40043790f3759fa2f3976d75c3c8273e69c4bfbd4cc039744b3",
+          "url": "https://linuxbrew.bintray.com/bottles/dockviz-0.6.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7334e941bcf3841a724103ecc7bd1cf028dc5e41bd9e80283c6f34637515cd02",
+          "url": "https://linuxbrew.bintray.com/bottles/dockviz-0.6.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8fbcc273dbbf14a33f44cb9d56d350440168c7943d6c29ba489c2db7cc8f293b",
+          "url": "https://linuxbrew.bintray.com/bottles/dockviz-0.6.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f654c128a3e76f7b1578e74894e4c827ae7bd72906e57a4f5a62668dcf630457",
+          "url": "https://linuxbrew.bintray.com/bottles/dockviz-0.6.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "govendor"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "govendor"
+  ],
+  "desc": "Visualizing docker data",
+  "full_name": "dockviz",
+  "homepage": "https://github.com/justone/dockviz",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dockviz",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.6.3"
+  }
+}

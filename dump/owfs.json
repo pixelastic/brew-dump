@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "06a2b3710c371730028a58bab488064f967ef6e820f0877e723f38a4e5eaf5e7",
+          "url": "https://linuxbrew.bintray.com/bottles/owfs-3.2p2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "51bd18872d4b55af34626459c3f6e039139647124abff190b280e4ddf2c4012f",
+          "url": "https://linuxbrew.bintray.com/bottles/owfs-3.2p2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5dd1116b1058b7eb849905b6af987e7ea71fd3486ccc8f1670cf841b6583802f",
+          "url": "https://linuxbrew.bintray.com/bottles/owfs-3.2p2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a1f8fb70d0ea9b1669ef4afaec3e1d9f5b5dc447fd287554ceb6cd12a4086aee",
+          "url": "https://linuxbrew.bintray.com/bottles/owfs-3.2p2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libftdi",
+    "libusb"
+  ],
+  "desc": "Monitor and control physical environment using Dallas/Maxim 1-wire system",
+  "full_name": "owfs",
+  "homepage": "http://owfs.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "owfs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.2p2"
+  }
+}

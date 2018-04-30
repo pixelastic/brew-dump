@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "62ea91b7f94761da062c0f78757f48299bdd614ffba1cbc9e3e44794b305901e",
+          "url": "https://linuxbrew.bintray.com/bottles/bcpp-20180401.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "25399ade6485e4272d264611a32db839905b56a3607f04ad9d66a5571469aa03",
+          "url": "https://linuxbrew.bintray.com/bottles/bcpp-20180401.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "339190468a41d319c161ab16933012517f68d11e5162d57b117bdc0220a51db0",
+          "url": "https://linuxbrew.bintray.com/bottles/bcpp-20180401.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "01ff025412579440b2eabae4134284062929b319f63b657d376ffc4269f964f6",
+          "url": "https://linuxbrew.bintray.com/bottles/bcpp-20180401.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "C(++) beautifier",
+  "full_name": "bcpp",
+  "homepage": "https://invisible-island.net/bcpp/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bcpp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20180401"
+  }
+}

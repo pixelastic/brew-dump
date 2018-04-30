@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "21d0972269ad52cd7098b921f2500bb8bf827fabe1e0718c24fdfd2d844b7f7e",
+          "url": "https://linuxbrew.bintray.com/bottles/cproto-4.7m.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4f557a3b96ce60956b1fed9abc873f9bd844ca93492731db3971fd0ada78fa15",
+          "url": "https://linuxbrew.bintray.com/bottles/cproto-4.7m.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a73eaa28daa6281fc987fb22b2bb50bd9962f4a4d4857e7371b8edf605822ca7",
+          "url": "https://linuxbrew.bintray.com/bottles/cproto-4.7m.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "8eedeacb18a2f3316171a4646f2a7cd2ec993005fd3a930072fbbc9fbd76c598",
+          "url": "https://linuxbrew.bintray.com/bottles/cproto-4.7m.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4dcee9160c276855b7bd94235dc15e4d153c161b4f81f8a1e041fda8da5b4cc7",
+          "url": "https://linuxbrew.bintray.com/bottles/cproto-4.7m.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4bd2276c002322ce4d28030d60c0858e1efd4311e0f9de5460917cc5b70bc362",
+          "url": "https://linuxbrew.bintray.com/bottles/cproto-4.7m.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Generate function prototypes for functions in input files",
+  "full_name": "cproto",
+  "homepage": "https://invisible-island.net/cproto/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cproto",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.7m"
+  }
+}

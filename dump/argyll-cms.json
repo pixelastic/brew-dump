@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "edf9250bc28f993481fb89496fbc725e4214e85027ae746bc3c7f4e7fa45dc5d",
+          "url": "https://linuxbrew.bintray.com/bottles/argyll-cms-2.0.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "01c60cb156c926f759f5c57e01a39298d0aea1ccb1b811efc3ee3c5110f2622e",
+          "url": "https://linuxbrew.bintray.com/bottles/argyll-cms-2.0.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "045fc296278fa225916cfafeeb499439b6ddd5a041a630cfd041831687f47819",
+          "url": "https://linuxbrew.bintray.com/bottles/argyll-cms-2.0.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "jam"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "num-utils"
+  ],
+  "dependencies": [
+    "jam",
+    "jpeg",
+    "libpng",
+    "libtiff"
+  ],
+  "desc": "ICC compatible color management system",
+  "full_name": "argyll-cms",
+  "homepage": "https://www.argyllcms.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "argyll-cms",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "gtypist"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "75fcb398d3997d6d9357bb6cf5638d2e10e469ce114b344865d37112754cc7af",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-typist-2.9.5_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "79367e864781c4a9fe5b25e737e99bdcae8c7b11a2198459d72775120495c2c3",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-typist-2.9.5_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "014e293ce1ed514fe95e6fce4cbedefdc876a51b6d38a740183b8ce959899e5a",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-typist-2.9.5_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "285c918d6b2240e294e6b192aff25de0f0383f9ac645d8883e04e3443e52b674",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-typist-2.9.5_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gettext"
+  ],
+  "desc": "GNU typing tutor",
+  "full_name": "gnu-typist",
+  "homepage": "https://www.gnu.org/software/gtypist/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnu-typist",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.9.5"
+  }
+}

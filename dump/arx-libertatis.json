@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8824a97e84542832da85eeb48b79a6b1de189ddf6ebe041fc7f1c9cb874fad21",
+          "url": "https://linuxbrew.bintray.com/bottles/arx-libertatis-1.1.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eaff0f12ab121a5964e7d0cd8c9272a39daba70a268d039728947c72885be8b2",
+          "url": "https://linuxbrew.bintray.com/bottles/arx-libertatis-1.1.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9a7629e5033f4180f9e0a82bb018c2f00403c09aa473cfa0224301cc405fb6d3",
+          "url": "https://linuxbrew.bintray.com/bottles/arx-libertatis-1.1.2_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1fc2d3c07f6f1a1cf1470138329290484145f7774b16fc5a8ca82d01ea194312",
+          "url": "https://linuxbrew.bintray.com/bottles/arx-libertatis-1.1.2_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "boost",
+    "glm"
+  ],
+  "caveats": "This package only contains the Arx Libertatis binary, not the game data.\nTo play Arx Fatalis you will need to obtain the game from GOG.com and install\nthe game data with:\n\n  arx-install-data /path/to/setup_arx_fatalis.exe\n",
+  "conflicts_with": [
+    "rnv"
+  ],
+  "dependencies": [
+    "cmake",
+    "boost",
+    "glm",
+    "freetype",
+    "glew",
+    "sdl",
+    "innoextract"
+  ],
+  "desc": "Cross-platform, open source port of Arx Fatalis",
+  "full_name": "arx-libertatis",
+  "homepage": "https://arx-libertatis.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "arx-libertatis",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without arx-install-data",
+      "option": "--without-innoextract"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "innoextract"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.2"
+  }
+}

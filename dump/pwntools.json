@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d91c5982da9494c2cc4f4eca62ee02dff1b735f836602e62f425f51b5239a89b",
+          "url": "https://linuxbrew.bintray.com/bottles/pwntools-3.12.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7b5a323a81a6a5cf115298af0fa17da8dd097c73a28e64e687fd6535881949d2",
+          "url": "https://linuxbrew.bintray.com/bottles/pwntools-3.12.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f4a156877e9c9f378dff8b2acbd6da6888955dc3ada84dcbfc6bc9605f0d5bb3",
+          "url": "https://linuxbrew.bintray.com/bottles/pwntools-3.12.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "moreutils"
+  ],
+  "dependencies": [
+    "python@2",
+    "openssl",
+    "binutils"
+  ],
+  "desc": "CTF framework used by Gallopsled in every CTF",
+  "full_name": "pwntools",
+  "homepage": "https://pwntools.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pwntools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without binutils support",
+      "option": "--without-binutils"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "binutils"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.12.0"
+  }
+}

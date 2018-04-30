@@ -1,0 +1,52 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "aspell",
+    "languagetool"
+  ],
+  "desc": "Looks for problems in internet draft formatting",
+  "full_name": "idnits",
+  "homepage": "https://tools.ietf.org/tools/idnits/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "idnits",
+  "oldname": null,
+  "optional_dependencies": [
+    "aspell",
+    "languagetool"
+  ],
+  "options": [
+    {
+      "description": "Build with aspell support",
+      "option": "--with-aspell"
+    },
+    {
+      "description": "Build with languagetool support",
+      "option": "--with-languagetool"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "2.15.01"
+  }
+}

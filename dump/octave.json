@@ -1,0 +1,107 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b7863bc195691632f3d2dc3359bcee21fda4549b061a76cbded236517ec5bcd9",
+          "url": "https://linuxbrew.bintray.com/bottles/octave-4.2.2_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a7f5ad466f6f4af7ff0c2dbf361a524361378521f4530cf448258db579b69c24",
+          "url": "https://linuxbrew.bintray.com/bottles/octave-4.2.2_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6e48de076c248387c14a31156fcc19aaffde248e5a0239f1c2e3b05809ddb657",
+          "url": "https://linuxbrew.bintray.com/bottles/octave-4.2.2_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "automake",
+    "autoconf",
+    "gnu-sed",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "automake",
+    "autoconf",
+    "gnu-sed",
+    "pkg-config",
+    "arpack",
+    "epstool",
+    "fftw",
+    "fig2dev",
+    "fltk",
+    "fontconfig",
+    "freetype",
+    "gcc",
+    "ghostscript",
+    "gl2ps",
+    "glpk",
+    "gnuplot",
+    "graphicsmagick",
+    "hdf5",
+    "libsndfile",
+    "libtool",
+    "pcre",
+    "portaudio",
+    "pstoedit",
+    "qhull",
+    "qrupdate",
+    "readline",
+    "suite-sparse",
+    "curl",
+    "openblas"
+  ],
+  "desc": "High-level interpreted language for numerical computing",
+  "full_name": "octave",
+  "homepage": "https://www.gnu.org/software/octave/index.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "octave",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with java support",
+      "option": "--with-java"
+    },
+    {
+      "description": "Build without openblas support",
+      "option": "--without-openblas"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "openblas"
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.2.2"
+  }
+}

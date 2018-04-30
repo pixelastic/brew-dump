@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "44502f7a2dfcb1355336db69267d6363d6e8b8767b47628b0d3099743513ed5f",
+          "url": "https://linuxbrew.bintray.com/bottles/genstats-1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7bea82f0ca1047f295bfd0f6ca348f0c07cd33b165bb5a9042c77f9cdc97907f",
+          "url": "https://linuxbrew.bintray.com/bottles/genstats-1.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "d46142a806e13029120bfb1a038805b07dc88b191aed1cd41340f5f868168f92",
+          "url": "https://linuxbrew.bintray.com/bottles/genstats-1.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "051dbb7c4f653b615b606d1fce15df9336a086e38428fcfdb2aee9f0057d8990",
+          "url": "https://linuxbrew.bintray.com/bottles/genstats-1.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "91737ec825ed346716fddcedc4e075b195f214dfb22586a33d46f7ec5ea3a17e",
+          "url": "https://linuxbrew.bintray.com/bottles/genstats-1.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Generate statistics about stdin or textfiles",
+  "full_name": "genstats",
+  "homepage": "https://www.vanheusden.com/genstats/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "genstats",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2"
+  }
+}

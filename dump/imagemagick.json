@@ -1,0 +1,216 @@
+{
+  "aliases": [
+    "imagemagick@7"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "edaf697f69e5f7e52a9dea37073ced549c84a9f960ce0bc81bc6addd4ed29bd9",
+          "url": "https://linuxbrew.bintray.com/bottles/imagemagick-7.0.7-28.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bec28c32f9b60bfc0a63e6804805ea83a02a8d81c83d2f8c9a3194cce5e055e9",
+          "url": "https://linuxbrew.bintray.com/bottles/imagemagick-7.0.7-28.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "381c4679966805dca659ed1ce84dcb6684747947ca337a276ae0c913732bc9e9",
+          "url": "https://linuxbrew.bintray.com/bottles/imagemagick-7.0.7-28.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d7180854b20321e744e418375e11ebbbf77079440c16319fea73544351991a5e",
+          "url": "https://linuxbrew.bintray.com/bottles/imagemagick-7.0.7-28.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libtool",
+    "xz",
+    "jpeg",
+    "libpng",
+    "libtiff",
+    "freetype",
+    "fontconfig",
+    "little-cms",
+    "little-cms2",
+    "libde265",
+    "libwmf",
+    "librsvg",
+    "liblqr",
+    "openexr",
+    "ghostscript",
+    "webp",
+    "openjpeg",
+    "fftw",
+    "pango",
+    "perl",
+    "bzip2",
+    "linuxbrew/xorg/xorg"
+  ],
+  "desc": "Tools and libraries to manipulate images in many formats",
+  "full_name": "imagemagick",
+  "homepage": "https://www.imagemagick.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "imagemagick",
+  "oldname": null,
+  "optional_dependencies": [
+    "fontconfig",
+    "little-cms",
+    "little-cms2",
+    "libde265",
+    "libwmf",
+    "librsvg",
+    "liblqr",
+    "openexr",
+    "ghostscript",
+    "webp",
+    "openjpeg",
+    "fftw",
+    "pango",
+    "perl"
+  ],
+  "options": [
+    {
+      "description": "Compile with FFTW support",
+      "option": "--with-fftw"
+    },
+    {
+      "description": "Compile with HDRI support",
+      "option": "--with-hdri"
+    },
+    {
+      "description": "Compile with HEIF support",
+      "option": "--with-libde265"
+    },
+    {
+      "description": "Compile with OpenCL support",
+      "option": "--with-opencl"
+    },
+    {
+      "description": "Compile with OpenMP support",
+      "option": "--with-openmp"
+    },
+    {
+      "description": "Compile with PerlMagick",
+      "option": "--with-perl"
+    },
+    {
+      "description": "disable build/install of Magick++",
+      "option": "--without-magick-plus-plus"
+    },
+    {
+      "description": "Disable support for dynamically loadable modules",
+      "option": "--without-modules"
+    },
+    {
+      "description": "Disable threads support",
+      "option": "--without-threads"
+    },
+    {
+      "description": "Disables depending on XML configuration files",
+      "option": "--with-zero-configuration"
+    },
+    {
+      "description": "Build without jpeg support",
+      "option": "--without-jpeg"
+    },
+    {
+      "description": "Build without libpng support",
+      "option": "--without-libpng"
+    },
+    {
+      "description": "Build without libtiff support",
+      "option": "--without-libtiff"
+    },
+    {
+      "description": "Build without freetype support",
+      "option": "--without-freetype"
+    },
+    {
+      "description": "Build with x11 support",
+      "option": "--with-x11"
+    },
+    {
+      "description": "Build with fontconfig support",
+      "option": "--with-fontconfig"
+    },
+    {
+      "description": "Build with little-cms support",
+      "option": "--with-little-cms"
+    },
+    {
+      "description": "Build with little-cms2 support",
+      "option": "--with-little-cms2"
+    },
+    {
+      "description": "Build with libwmf support",
+      "option": "--with-libwmf"
+    },
+    {
+      "description": "Build with librsvg support",
+      "option": "--with-librsvg"
+    },
+    {
+      "description": "Build with liblqr support",
+      "option": "--with-liblqr"
+    },
+    {
+      "description": "Build with openexr support",
+      "option": "--with-openexr"
+    },
+    {
+      "description": "Build with ghostscript support",
+      "option": "--with-ghostscript"
+    },
+    {
+      "description": "Build with webp support",
+      "option": "--with-webp"
+    },
+    {
+      "description": "Build with openjpeg support",
+      "option": "--with-openjpeg"
+    },
+    {
+      "description": "Build with pango support",
+      "option": "--with-pango"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "jpeg",
+    "libpng",
+    "libtiff",
+    "freetype"
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "7.0.7-28"
+  }
+}

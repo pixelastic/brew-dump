@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "1386e4dfb7ffe6205be72aaac92643673126cd6252a596ca84d127788a867bcb",
+          "url": "https://linuxbrew.bintray.com/bottles/dnsmasq-2.79.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "To configure dnsmasq, take the default example configuration at\n  /home/tim/.linuxbrew/etc/dnsmasq.conf and edit to taste.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libidn"
+  ],
+  "desc": "Lightweight DNS forwarder and DHCP server",
+  "full_name": "dnsmasq",
+  "homepage": "http://www.thekelleys.org.uk/dnsmasq/doc.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dnsmasq",
+  "oldname": null,
+  "optional_dependencies": [
+    "libidn"
+  ],
+  "options": [
+    {
+      "description": "Compile with IDN support",
+      "option": "--with-libidn"
+    },
+    {
+      "description": "Compile with DNSSEC support",
+      "option": "--with-dnssec"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.79"
+  }
+}

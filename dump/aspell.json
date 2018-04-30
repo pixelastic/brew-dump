@@ -1,0 +1,436 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d107e964156e9932303a3569cbfc489d96593d67c5a724e70c45dbe2ed961516",
+          "url": "https://linuxbrew.bintray.com/bottles/aspell-0.60.6.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d5927b312520252d7634902269336fe28148dac0d986e7bb0883327233462f01",
+          "url": "https://linuxbrew.bintray.com/bottles/aspell-0.60.6.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "69c2de621e5d6c0a18ca7bf43b153deefef24eaa65d8ae3f5939a106d52948ce",
+          "url": "https://linuxbrew.bintray.com/bottles/aspell-0.60.6.1_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "eb3c1216d4977031fc69a9f92416fc321e548d84ffcccf49ec2389c10a0a4300",
+          "url": "https://linuxbrew.bintray.com/bottles/aspell-0.60.6.1_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4a50a1b26bcbaa10dc4968332d03ce3e24772a60ec7b1561ab23102d0f46052a",
+          "url": "https://linuxbrew.bintray.com/bottles/aspell-0.60.6.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Spell checker with better logic than ispell",
+  "full_name": "aspell",
+  "homepage": "http://aspell.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aspell",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Do not install en dictionary",
+      "option": "--without-lang-en"
+    },
+    {
+      "description": "Do not install de dictionary",
+      "option": "--without-lang-de"
+    },
+    {
+      "description": "Do not install es dictionary",
+      "option": "--without-lang-es"
+    },
+    {
+      "description": "Do not install fr dictionary",
+      "option": "--without-lang-fr"
+    },
+    {
+      "description": "Install all available dictionaries",
+      "option": "--with-all-langs"
+    },
+    {
+      "description": "Install af dictionary",
+      "option": "--with-lang-af"
+    },
+    {
+      "description": "Install am dictionary",
+      "option": "--with-lang-am"
+    },
+    {
+      "description": "Install ar dictionary",
+      "option": "--with-lang-ar"
+    },
+    {
+      "description": "Install ast dictionary",
+      "option": "--with-lang-ast"
+    },
+    {
+      "description": "Install az dictionary",
+      "option": "--with-lang-az"
+    },
+    {
+      "description": "Install be dictionary",
+      "option": "--with-lang-be"
+    },
+    {
+      "description": "Install bg dictionary",
+      "option": "--with-lang-bg"
+    },
+    {
+      "description": "Install bn dictionary",
+      "option": "--with-lang-bn"
+    },
+    {
+      "description": "Install br dictionary",
+      "option": "--with-lang-br"
+    },
+    {
+      "description": "Install ca dictionary",
+      "option": "--with-lang-ca"
+    },
+    {
+      "description": "Install cs dictionary",
+      "option": "--with-lang-cs"
+    },
+    {
+      "description": "Install csb dictionary",
+      "option": "--with-lang-csb"
+    },
+    {
+      "description": "Install cy dictionary",
+      "option": "--with-lang-cy"
+    },
+    {
+      "description": "Install da dictionary",
+      "option": "--with-lang-da"
+    },
+    {
+      "description": "Install de_alt dictionary",
+      "option": "--with-lang-de_alt"
+    },
+    {
+      "description": "Install el dictionary",
+      "option": "--with-lang-el"
+    },
+    {
+      "description": "Install eo dictionary",
+      "option": "--with-lang-eo"
+    },
+    {
+      "description": "Install et dictionary",
+      "option": "--with-lang-et"
+    },
+    {
+      "description": "Install fa dictionary",
+      "option": "--with-lang-fa"
+    },
+    {
+      "description": "Install fi dictionary",
+      "option": "--with-lang-fi"
+    },
+    {
+      "description": "Install fo dictionary",
+      "option": "--with-lang-fo"
+    },
+    {
+      "description": "Install fy dictionary",
+      "option": "--with-lang-fy"
+    },
+    {
+      "description": "Install ga dictionary",
+      "option": "--with-lang-ga"
+    },
+    {
+      "description": "Install gd dictionary",
+      "option": "--with-lang-gd"
+    },
+    {
+      "description": "Install gl dictionary",
+      "option": "--with-lang-gl"
+    },
+    {
+      "description": "Install grc dictionary",
+      "option": "--with-lang-grc"
+    },
+    {
+      "description": "Install gu dictionary",
+      "option": "--with-lang-gu"
+    },
+    {
+      "description": "Install gv dictionary",
+      "option": "--with-lang-gv"
+    },
+    {
+      "description": "Install he dictionary",
+      "option": "--with-lang-he"
+    },
+    {
+      "description": "Install hi dictionary",
+      "option": "--with-lang-hi"
+    },
+    {
+      "description": "Install hil dictionary",
+      "option": "--with-lang-hil"
+    },
+    {
+      "description": "Install hr dictionary",
+      "option": "--with-lang-hr"
+    },
+    {
+      "description": "Install hsb dictionary",
+      "option": "--with-lang-hsb"
+    },
+    {
+      "description": "Install hu dictionary",
+      "option": "--with-lang-hu"
+    },
+    {
+      "description": "Install hus dictionary",
+      "option": "--with-lang-hus"
+    },
+    {
+      "description": "Install hy dictionary",
+      "option": "--with-lang-hy"
+    },
+    {
+      "description": "Install ia dictionary",
+      "option": "--with-lang-ia"
+    },
+    {
+      "description": "Install id dictionary",
+      "option": "--with-lang-id"
+    },
+    {
+      "description": "Install is dictionary",
+      "option": "--with-lang-is"
+    },
+    {
+      "description": "Install it dictionary",
+      "option": "--with-lang-it"
+    },
+    {
+      "description": "Install kn dictionary",
+      "option": "--with-lang-kn"
+    },
+    {
+      "description": "Install ku dictionary",
+      "option": "--with-lang-ku"
+    },
+    {
+      "description": "Install ky dictionary",
+      "option": "--with-lang-ky"
+    },
+    {
+      "description": "Install la dictionary",
+      "option": "--with-lang-la"
+    },
+    {
+      "description": "Install lt dictionary",
+      "option": "--with-lang-lt"
+    },
+    {
+      "description": "Install lv dictionary",
+      "option": "--with-lang-lv"
+    },
+    {
+      "description": "Install mg dictionary",
+      "option": "--with-lang-mg"
+    },
+    {
+      "description": "Install mi dictionary",
+      "option": "--with-lang-mi"
+    },
+    {
+      "description": "Install mk dictionary",
+      "option": "--with-lang-mk"
+    },
+    {
+      "description": "Install ml dictionary",
+      "option": "--with-lang-ml"
+    },
+    {
+      "description": "Install mn dictionary",
+      "option": "--with-lang-mn"
+    },
+    {
+      "description": "Install mr dictionary",
+      "option": "--with-lang-mr"
+    },
+    {
+      "description": "Install ms dictionary",
+      "option": "--with-lang-ms"
+    },
+    {
+      "description": "Install mt dictionary",
+      "option": "--with-lang-mt"
+    },
+    {
+      "description": "Install nb dictionary",
+      "option": "--with-lang-nb"
+    },
+    {
+      "description": "Install nds dictionary",
+      "option": "--with-lang-nds"
+    },
+    {
+      "description": "Install nl dictionary",
+      "option": "--with-lang-nl"
+    },
+    {
+      "description": "Install nn dictionary",
+      "option": "--with-lang-nn"
+    },
+    {
+      "description": "Install ny dictionary",
+      "option": "--with-lang-ny"
+    },
+    {
+      "description": "Install or dictionary",
+      "option": "--with-lang-or"
+    },
+    {
+      "description": "Install pa dictionary",
+      "option": "--with-lang-pa"
+    },
+    {
+      "description": "Install pl dictionary",
+      "option": "--with-lang-pl"
+    },
+    {
+      "description": "Install pt_BR dictionary",
+      "option": "--with-lang-pt_BR"
+    },
+    {
+      "description": "Install pt_PT dictionary",
+      "option": "--with-lang-pt_PT"
+    },
+    {
+      "description": "Install qu dictionary",
+      "option": "--with-lang-qu"
+    },
+    {
+      "description": "Install ro dictionary",
+      "option": "--with-lang-ro"
+    },
+    {
+      "description": "Install ru dictionary",
+      "option": "--with-lang-ru"
+    },
+    {
+      "description": "Install rw dictionary",
+      "option": "--with-lang-rw"
+    },
+    {
+      "description": "Install sc dictionary",
+      "option": "--with-lang-sc"
+    },
+    {
+      "description": "Install sk dictionary",
+      "option": "--with-lang-sk"
+    },
+    {
+      "description": "Install sl dictionary",
+      "option": "--with-lang-sl"
+    },
+    {
+      "description": "Install sr dictionary",
+      "option": "--with-lang-sr"
+    },
+    {
+      "description": "Install sv dictionary",
+      "option": "--with-lang-sv"
+    },
+    {
+      "description": "Install sw dictionary",
+      "option": "--with-lang-sw"
+    },
+    {
+      "description": "Install ta dictionary",
+      "option": "--with-lang-ta"
+    },
+    {
+      "description": "Install te dictionary",
+      "option": "--with-lang-te"
+    },
+    {
+      "description": "Install tet dictionary",
+      "option": "--with-lang-tet"
+    },
+    {
+      "description": "Install tk dictionary",
+      "option": "--with-lang-tk"
+    },
+    {
+      "description": "Install tl dictionary",
+      "option": "--with-lang-tl"
+    },
+    {
+      "description": "Install tn dictionary",
+      "option": "--with-lang-tn"
+    },
+    {
+      "description": "Install tr dictionary",
+      "option": "--with-lang-tr"
+    },
+    {
+      "description": "Install uk dictionary",
+      "option": "--with-lang-uk"
+    },
+    {
+      "description": "Install uz dictionary",
+      "option": "--with-lang-uz"
+    },
+    {
+      "description": "Install vi dictionary",
+      "option": "--with-lang-vi"
+    },
+    {
+      "description": "Install wa dictionary",
+      "option": "--with-lang-wa"
+    },
+    {
+      "description": "Install yi dictionary",
+      "option": "--with-lang-yi"
+    },
+    {
+      "description": "Install zu dictionary",
+      "option": "--with-lang-zu"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "0.60.7-20170129",
+    "head": null,
+    "stable": "0.60.6.1"
+  }
+}

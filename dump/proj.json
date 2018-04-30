@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1bdf8af9436c5b982f0d8e53a70fecd8f3d26a2c582dd58ac458e2985bede4dd",
+          "url": "https://linuxbrew.bintray.com/bottles/proj-5.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dea27845b0290164d9fe626209006db318fa14c3d98c108b1821240519c9154c",
+          "url": "https://linuxbrew.bintray.com/bottles/proj-5.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5efa456e11f2f427ec6a686ea4d60a786b8ee0e5d0a304d034ba9c18004c7bed",
+          "url": "https://linuxbrew.bintray.com/bottles/proj-5.0.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0910be768d40ee04a4de5d837e4d678ca2ba7f8295fa6c5dfff1ad9c590ad8ae",
+          "url": "https://linuxbrew.bintray.com/bottles/proj-5.0.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "blast"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Cartographic Projections Library",
+  "full_name": "proj",
+  "homepage": "http://proj4.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "proj",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Install vertical datum files (~380 MB)",
+      "option": "--with-vdatum"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.0.1"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2a7f2e1371f6bcbff03db5b9b260c47cd41cb25ec1e5726dfb5ef838f3c417e0",
+          "url": "https://linuxbrew.bintray.com/bottles/gpp-2.25.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "41c9826ea93e97915c36193f637c3835e165fa90aee154d29b708895bbdd73af",
+          "url": "https://linuxbrew.bintray.com/bottles/gpp-2.25.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ceec5eeca75c3ad3e2192f9fcef09857533de93e92413cc501e23e9b494da0f7",
+          "url": "https://linuxbrew.bintray.com/bottles/gpp-2.25.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8e5d2197871994bdbc5e26cdc0aa570681e7da1063acfccd7bf966ae4c9e8aea",
+          "url": "https://linuxbrew.bintray.com/bottles/gpp-2.25.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2ea663aa6b1be3c2f6f11b99a31663aeab30c9e7de3712886b23b4c7cc114a5b",
+          "url": "https://linuxbrew.bintray.com/bottles/gpp-2.25.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "General-purpose preprocessor with customizable syntax",
+  "full_name": "gpp",
+  "homepage": "http://en.nothingisreal.com/wiki/GPP",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gpp",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.25"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "36f87be9b6f9bebbbdbd5006bb53453c7b78e5d7172f33b3a11798a66308a777",
+          "url": "https://linuxbrew.bintray.com/bottles/fabric-1.14.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9e1e596f30150a3535edc5e6b01cbeea84126f9226e20d4a3b40ecc1292ed942",
+          "url": "https://linuxbrew.bintray.com/bottles/fabric-1.14.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d6a21bf4a5fb9e870d7314439a810cab366d754a7372431599a6cc43f72e79f3",
+          "url": "https://linuxbrew.bintray.com/bottles/fabric-1.14.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "99acff28ede8c20b6d9d927341740e8f37f4e976ca3895cc4a2356f378e20cfb",
+          "url": "https://linuxbrew.bintray.com/bottles/fabric-1.14.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "openssl"
+  ],
+  "desc": "Library and command-line tool for SSH",
+  "full_name": "fabric",
+  "homepage": "http://www.fabfile.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fabric",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.14.0"
+  }
+}

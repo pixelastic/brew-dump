@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e312010e2476d8e9544a6f7e11290f6188a51b71b4da5afafb043cb4655c9fcd",
+          "url": "https://linuxbrew.bintray.com/bottles/asciinema-2.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e312010e2476d8e9544a6f7e11290f6188a51b71b4da5afafb043cb4655c9fcd",
+          "url": "https://linuxbrew.bintray.com/bottles/asciinema-2.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e312010e2476d8e9544a6f7e11290f6188a51b71b4da5afafb043cb4655c9fcd",
+          "url": "https://linuxbrew.bintray.com/bottles/asciinema-2.0.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "27a1b88e9cd72cdb52e03c2b7bfd5a276621c73669a624a399458f62fb486804",
+          "url": "https://linuxbrew.bintray.com/bottles/asciinema-2.0.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Record and share terminal sessions",
+  "full_name": "asciinema",
+  "homepage": "https://asciinema.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "asciinema",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.1"
+  }
+}

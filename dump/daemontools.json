@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "64afdd71688797e0bfef29f8db63a82a13b514e30b52b32180c17f9d895fa07c",
+          "url": "https://linuxbrew.bintray.com/bottles/daemontools-0.76.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cebf7701d22d86554ef428f853183cf3eff1de9af5dbd5eaada2154fe20594a3",
+          "url": "https://linuxbrew.bintray.com/bottles/daemontools-0.76.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "75757ef94d879092ea4b82dd36c17336fb6a85eb1d5980e3f01c7bf2a140ec1b",
+          "url": "https://linuxbrew.bintray.com/bottles/daemontools-0.76.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "70a81dd6720df74647f233ea5ae6222a2b101ed1b13d92784c84570c24b2b3f3",
+          "url": "https://linuxbrew.bintray.com/bottles/daemontools-0.76.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4a8fe9b0e5038230c90f2a38b40f3d66d103c18969e28ce5465499bbd78ec867",
+          "url": "https://linuxbrew.bintray.com/bottles/daemontools-0.76.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Collection of tools for managing UNIX services",
+  "full_name": "daemontools",
+  "homepage": "https://cr.yp.to/daemontools.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "daemontools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.76"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4304e6b83a7afa176a0462e8ba20485bc098731a16bd375261f9f449a8f8f7d3",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl_image-1.2.12_7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eeb44401862df80a1d1f77dde4164b265d82993458325e753285566b56477695",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl_image-1.2.12_7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d74d6e853e78b65a7e7f266be6733bdb5839f956bcb19061b68a46c16e080a94",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl_image-1.2.12_7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "60f326bffef334a867e83b623a416290b1deae519c2c83a7760d16611e916466",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl_image-1.2.12_7.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3403edd53a6776bad8dc4390ef8204479f3af7c485e8a7a1f81f86f43b4a7b5c",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl_image-1.2.12_7.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "sdl",
+    "jpeg",
+    "libpng",
+    "libtiff",
+    "webp"
+  ],
+  "desc": "Image file loading library",
+  "full_name": "sdl_image",
+  "homepage": "https://www.libsdl.org/projects/SDL_image",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sdl_image",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without jpeg support",
+      "option": "--without-jpeg"
+    },
+    {
+      "description": "Build without libpng support",
+      "option": "--without-libpng"
+    },
+    {
+      "description": "Build without libtiff support",
+      "option": "--without-libtiff"
+    },
+    {
+      "description": "Build without webp support",
+      "option": "--without-webp"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "jpeg",
+    "libpng",
+    "libtiff",
+    "webp"
+  ],
+  "requirements": [
+  ],
+  "revision": 7,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.12"
+  }
+}

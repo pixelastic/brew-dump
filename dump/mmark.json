@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ba58929bfe0eb4b5c4749b511c0187451ededc5cdd25bdb5e117813a979e5aa3",
+          "url": "https://linuxbrew.bintray.com/bottles/mmark-1.3.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "89264dd592ebd8d86824e2df4567f65f5eacc3cdbc25912c47af6d1917930479",
+          "url": "https://linuxbrew.bintray.com/bottles/mmark-1.3.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "50097c4c90c9865ab7f4e246931952387b260c6c82a23513d6200ebdab54af32",
+          "url": "https://linuxbrew.bintray.com/bottles/mmark-1.3.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e5ac10bad3432cc19736b924b49782fb36007825eb1e0ad370aba46d7bc8cbc1",
+          "url": "https://linuxbrew.bintray.com/bottles/mmark-1.3.6.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "47db5343e91cb6094efa1e6677423a2b907bdaf9b1e61ef28f09b61c7a960397",
+          "url": "https://linuxbrew.bintray.com/bottles/mmark-1.3.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Powerful markdown processor in Go geared towards the IETF",
+  "full_name": "mmark",
+  "homepage": "https://github.com/miekg/mmark",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mmark",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3.6"
+  }
+}

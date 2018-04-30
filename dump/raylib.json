@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5556c1756d2a4de727350cff1d8d771cd28c142607a0adeb743bd2b16c94bd4c",
+          "url": "https://linuxbrew.bintray.com/bottles/raylib-1.9.7-dev.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3b5f1087c97d056bb7cadfb1b9a4bfc5eda1069c53b3e63cbe613efe8df1dab2",
+          "url": "https://linuxbrew.bintray.com/bottles/raylib-1.9.7-dev.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ddc6fc916dbe713ad0df540b3e29060a439f977403d0226f2560b14fccfe617e",
+          "url": "https://linuxbrew.bintray.com/bottles/raylib-1.9.7-dev.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Simple and easy-to-use library to learn videogames programming",
+  "full_name": "raylib",
+  "homepage": "http://www.raylib.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "raylib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.9.7-dev"
+  }
+}

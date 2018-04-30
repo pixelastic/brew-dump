@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "89b4ebce9de9785c672e93567aeb1f6b4b1ea13161277d59b677fb0e04889ba5",
+          "url": "https://linuxbrew.bintray.com/bottles/google-java-format-1.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6518d97e039cf09bd0924b79f0b7f65cb37791c076277777f90d2db76beac26d",
+          "url": "https://linuxbrew.bintray.com/bottles/google-java-format-1.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9128ee4d7c2b0d38f53320e6e0875caeae4304cfd2534cbdf2db9b23ee8df003",
+          "url": "https://linuxbrew.bintray.com/bottles/google-java-format-1.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "maven"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "maven"
+  ],
+  "desc": "Reformats Java source code to comply with Google Java Style",
+  "full_name": "google-java-format",
+  "homepage": "https://github.com/google/google-java-format",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "google-java-format",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5"
+  }
+}

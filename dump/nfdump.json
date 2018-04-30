@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9312372f4ecd45cb576cbe261b6caca79f6baf314421f4c3165e99e1368aa934",
+          "url": "https://linuxbrew.bintray.com/bottles/nfdump-1.6.17.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4011e1aa739d163bf04d5df0bff1bb779e89c5a0253332325da99ccf65ea6965",
+          "url": "https://linuxbrew.bintray.com/bottles/nfdump-1.6.17.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7f810fe9a5e90455e8e3e2bf80fc474dd56a752a1f87310a80399d819e8e4d4b",
+          "url": "https://linuxbrew.bintray.com/bottles/nfdump-1.6.17.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "desc": "Tools to collect and process netflow data on the command-line",
+  "full_name": "nfdump",
+  "homepage": "https://nfdump.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nfdump",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.17"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8f231707dd22e094a41cd14fee7269c87126fe314e8d9b4a203f21eb1fd93198",
+          "url": "https://linuxbrew.bintray.com/bottles/fossil-2.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ae7668a24eb90519dd006aab8b58f90c2ec6c74c288b842a0a4a58792bd4ef14",
+          "url": "https://linuxbrew.bintray.com/bottles/fossil-2.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "202def77982dcc29a4e47dd6d6184ed42f34fceda71810bfc1cb3b44ce20e113",
+          "url": "https://linuxbrew.bintray.com/bottles/fossil-2.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Distributed software configuration management",
+  "full_name": "fossil",
+  "homepage": "https://www.fossil-scm.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fossil",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without 'json' command support",
+      "option": "--without-json"
+    },
+    {
+      "description": "Build without the tcl-th1 command bridge",
+      "option": "--without-tcl"
+    },
+    {
+      "description": "Build with osxfuse support",
+      "option": "--with-osxfuse"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.5"
+  }
+}

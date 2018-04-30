@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2f372c0e3772a787cfcdf9c707eeb1abe7441aa8c63433959a64357ebeec1345",
+          "url": "https://linuxbrew.bintray.com/bottles/shocco-1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "95df31b89ec59a76bd4cc17484dc835af8a5e2b88e419a33184ac054f3e95770",
+          "url": "https://linuxbrew.bintray.com/bottles/shocco-1.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b52ada7ff56cf3d34b2c9036f54341ebcc3e713203b53262486cb7ac94bb197b",
+          "url": "https://linuxbrew.bintray.com/bottles/shocco-1.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "de27f8f4ba46c3605130b7ee87b594556afc02aa8b5bf25899a9a71b1e0c8109",
+          "url": "https://linuxbrew.bintray.com/bottles/shocco-1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8ae351f45044b2bced2b2c3192e007d9127c15ddba472c28a5a4a61214d04663",
+          "url": "https://linuxbrew.bintray.com/bottles/shocco-1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You may also want to install browser:\n  brew install browser\n  shocco `which shocco` | browser\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "markdown",
+    "python@2"
+  ],
+  "desc": "Literate documentation tool for shell scripts (a la Docco)",
+  "full_name": "shocco",
+  "homepage": "https://rtomayko.github.io/shocco/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "shocco",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0"
+  }
+}

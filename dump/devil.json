@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d3821710ef1409df56d15f6e277e3863abfbf568517f57a83eeafccd02afac2b",
+          "url": "https://linuxbrew.bintray.com/bottles/devil-1.8.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7cb8354e26e1d30503c5f232f70c45fad049be1b1a341fa5cc99cb57741c4e61",
+          "url": "https://linuxbrew.bintray.com/bottles/devil-1.8.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "25bd964db15fdfa4085b73bd1014044f36b877285db451089b4fa7928b02d555",
+          "url": "https://linuxbrew.bintray.com/bottles/devil-1.8.0_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5812c01a10936b7f7083d82f2a39d509fe630e41b78e2164f0482ab558026c69",
+          "url": "https://linuxbrew.bintray.com/bottles/devil-1.8.0_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "jasper",
+    "jpeg",
+    "libpng",
+    "libtiff",
+    "little-cms2"
+  ],
+  "desc": "Cross-platform image library",
+  "full_name": "devil",
+  "homepage": "https://sourceforge.net/projects/openil/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "devil",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.0"
+  }
+}

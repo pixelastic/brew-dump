@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "acf751e4893268ccbee1e48e9f7a147cc38f64a9d178fc50c810d65c0466a648",
+          "url": "https://linuxbrew.bintray.com/bottles/whatmask-1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a46f984a59776d23efc00fbae9841026547f5c4f3884c31007c06acae51d4881",
+          "url": "https://linuxbrew.bintray.com/bottles/whatmask-1.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c07eb39e586dbc2b78b4c8cf8173c701ac654e4db0fd5fe12b3c7f80ee3ef577",
+          "url": "https://linuxbrew.bintray.com/bottles/whatmask-1.2.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "1af978f489425defa0d2c700a50fb140a6ce62274f4ab76530f553b2fba2f6a5",
+          "url": "https://linuxbrew.bintray.com/bottles/whatmask-1.2.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7d9c8318c69271c9b7774a4f84cd315f28986bd7dacc1f1c9a5451880a415a8b",
+          "url": "https://linuxbrew.bintray.com/bottles/whatmask-1.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "428a92b2ba5a3f6f39009a7d3a7fc503b4308fadaeddc287b39fd6b5bdddef74",
+          "url": "https://linuxbrew.bintray.com/bottles/whatmask-1.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Network settings helper",
+  "full_name": "whatmask",
+  "homepage": "http://www.laffeycomputer.com/whatmask.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "whatmask",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "910da256436f55ebf40c487ebd0e74da2979f01bf0adac83272b353c66ba99a8",
+          "url": "https://linuxbrew.bintray.com/bottles/shntool-3.0.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "54203e7c0cf7a257ecc3cec107b55afd14b98edc9b8713082fbf6282eb863e38",
+          "url": "https://linuxbrew.bintray.com/bottles/shntool-3.0.10.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "fa745e31b3c2aadb20d5c87f7175f00b3c5a39b6664ea0a9aa9d88d5767781c5",
+          "url": "https://linuxbrew.bintray.com/bottles/shntool-3.0.10.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "10fb74d16244a21c15676ec9fce007167ef7784b83a0d10afb3d0f87b86ab292",
+          "url": "https://linuxbrew.bintray.com/bottles/shntool-3.0.10.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5548c0401df42faa7ade30e9c98656828864c3677836f72100aa80f4a92ff249",
+          "url": "https://linuxbrew.bintray.com/bottles/shntool-3.0.10.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "46d99776bb02d9721f30a6cb9b2c44293d3fbc6b4e3f522df869a7106b09a448",
+          "url": "https://linuxbrew.bintray.com/bottles/shntool-3.0.10.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Multi-purpose tool for manipulating and analyzing WAV files",
+  "full_name": "shntool",
+  "homepage": "http://etree.org/shnutils/shntool/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "shntool",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.10"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "dd09a67017c5ba3fffbe8ea14f79157126b069c89c3a452e42462fc65d222572",
+          "url": "https://linuxbrew.bintray.com/bottles/bmon-4.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0e42dc7797916ba3b70729662c78a26fbc0e991c6568143888cded4595dbbf41",
+          "url": "https://linuxbrew.bintray.com/bottles/bmon-4.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2af9641dcfa37efcd37eb520b8ed1d2e82c12e23409ad074356959220f1b0a78",
+          "url": "https://linuxbrew.bintray.com/bottles/bmon-4.0_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "9363be186d292bd7f2c7407713e1202efde1ca5aac6e4bddafc35a46e8989e3c",
+          "url": "https://linuxbrew.bintray.com/bottles/bmon-4.0_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "confuse"
+  ],
+  "desc": "Interface bandwidth monitor",
+  "full_name": "bmon",
+  "homepage": "https://github.com/tgraf/bmon",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bmon",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.0"
+  }
+}

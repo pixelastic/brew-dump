@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "8dbfcaef7cbca7116bacb300288520ed357768c148a612de2f9a3483266add87",
+          "url": "https://linuxbrew.bintray.com/bottles/systemc-2.3.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7d189564e4277390f8fa0c2e067f17dc31148e33af65c0998b6242405f761a18",
+          "url": "https://linuxbrew.bintray.com/bottles/systemc-2.3.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "257ab0155a4e4f5d6dea22696f265d1a523efa24627487a5fad4ad70d43e7fd0",
+          "url": "https://linuxbrew.bintray.com/bottles/systemc-2.3.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Core SystemC language and examples",
+  "full_name": "systemc",
+  "homepage": "https://accellera.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "systemc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.2"
+  }
+}

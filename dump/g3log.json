@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4cd2f01ea225e95a348d1a514cf14f2c51eb47b1ef2f86c8d3e7c8218ba0eb31",
+          "url": "https://linuxbrew.bintray.com/bottles/g3log-1.3.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "59c77b06d62ea06a4aa96ce6ecf1903a415d32248631cadc2c1787e291f006fc",
+          "url": "https://linuxbrew.bintray.com/bottles/g3log-1.3.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "be3b9045a3cc0e011db0e9d9bd7b8feda8080a0fb591edb33a846d990395f4f6",
+          "url": "https://linuxbrew.bintray.com/bottles/g3log-1.3.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Asynchronous, 'crash safe', logger that is easy to use",
+  "full_name": "g3log",
+  "homepage": "https://github.com/KjellKod/g3log",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "g3log",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3.2"
+  }
+}

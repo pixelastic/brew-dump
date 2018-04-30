@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c90ef2d3ccac1af3247726697be33748ec53df85a98af4611b6dbfc9a8dca0c7",
+          "url": "https://linuxbrew.bintray.com/bottles/hyperestraier-1.4.13.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f0eeb8e60dc0639fdbf5c15fc22c954a627b5136525021706876972b5bfdd816",
+          "url": "https://linuxbrew.bintray.com/bottles/hyperestraier-1.4.13.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b52c716897730a939ba7763492b7b1080a70c918b07571f4a4e296aea42f42ee",
+          "url": "https://linuxbrew.bintray.com/bottles/hyperestraier-1.4.13.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c6018d888e9a4f03546f1727d9ec7b6d7eb6a87fc4f6755667bdafa71929aca7",
+          "url": "https://linuxbrew.bintray.com/bottles/hyperestraier-1.4.13.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d18c19a9d691e2bd209cc05006b608776066352d297865238cc7262a527a82bd",
+          "url": "https://linuxbrew.bintray.com/bottles/hyperestraier-1.4.13.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "qdbm",
+    "mecab"
+  ],
+  "desc": "Full-text search system for communities",
+  "full_name": "hyperestraier",
+  "homepage": "http://fallabs.com/hyperestraier/index.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hyperestraier",
+  "oldname": null,
+  "optional_dependencies": [
+    "mecab"
+  ],
+  "options": [
+    {
+      "description": "Build with mecab support",
+      "option": "--with-mecab"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.13"
+  }
+}

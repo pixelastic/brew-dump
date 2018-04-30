@@ -1,0 +1,111 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "28381b3e219908e19860b10d5dd680f8e25efb3145da6164df51d6d9070a6739",
+          "url": "https://linuxbrew.bintray.com/bottles/weechat-2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7aa5f3fe12d6d3480110a5f6da0b5db854be8b867a0a07c94e7f350b62f9d18b",
+          "url": "https://linuxbrew.bintray.com/bottles/weechat-2.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "75a32256d8605e51838172c82ce845f94740da23a0cfff440026e152c61f9cc3",
+          "url": "https://linuxbrew.bintray.com/bottles/weechat-2.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": "Weechat can depend on Aspell if you choose the --with-aspell option, but\nAspell should be installed manually before installing Weechat so that\nyou can choose the dictionaries you want.  If Aspell was installed\nautomatically as part of weechat, there won't be any dictionaries.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "gnutls",
+    "libgcrypt",
+    "gettext",
+    "aspell",
+    "lua",
+    "perl",
+    "python@2",
+    "ruby",
+    "curl"
+  ],
+  "desc": "Extensible IRC client",
+  "full_name": "weechat",
+  "homepage": "https://www.weechat.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "weechat",
+  "oldname": null,
+  "optional_dependencies": [
+    "aspell",
+    "lua",
+    "perl",
+    "python@2",
+    "ruby",
+    "curl"
+  ],
+  "options": [
+    {
+      "description": "Build the perl module",
+      "option": "--with-perl"
+    },
+    {
+      "description": "Build the ruby module",
+      "option": "--with-ruby"
+    },
+    {
+      "description": "Build with brewed curl",
+      "option": "--with-curl"
+    },
+    {
+      "description": "Build with debug information",
+      "option": "--with-debug"
+    },
+    {
+      "description": "Do not build the tcl module",
+      "option": "--without-tcl"
+    },
+    {
+      "description": "Build with aspell support",
+      "option": "--with-aspell"
+    },
+    {
+      "description": "Build with lua support",
+      "option": "--with-lua"
+    },
+    {
+      "description": "Build with python@2 support",
+      "option": "--with-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9a829afcded25d1e895e09e91e39ca44b4aa9a6fa97f5315e348228224765d7d",
+          "url": "https://linuxbrew.bintray.com/bottles/fairymax-4.8V.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "53deff51f5281ba65ea84597cc4827725871fa6ce1031cea529bb82cfd6ee3de",
+          "url": "https://linuxbrew.bintray.com/bottles/fairymax-4.8V.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "95706f3f4968922cffae144d91e64d26a4c88026f228d555f144a4ad27c37007",
+          "url": "https://linuxbrew.bintray.com/bottles/fairymax-4.8V.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d5133289f74e11a1f562676fc6c4f06dc5b330e310f209b684d42ae9daab83b4",
+          "url": "https://linuxbrew.bintray.com/bottles/fairymax-4.8V.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b236b3da5f94128741b7ef25407f5a8a30158e108e9010736fee51df3f557195",
+          "url": "https://linuxbrew.bintray.com/bottles/fairymax-4.8V.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "AI for playing Chess variants",
+  "full_name": "fairymax",
+  "homepage": "https://www.chessvariants.com/index/msdisplay.php?itemid=MSfairy-max",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fairymax",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.8V"
+  }
+}

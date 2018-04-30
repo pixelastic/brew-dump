@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "54ac46b692fcca2abe77aeeca41976172a2dc24a6762f84a47fabcaba336df89",
+          "url": "https://linuxbrew.bintray.com/bottles/hello-2.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1b66790d42664fe95d44f56d2c82db7ea2ce03e01bda0c8e9932f3b768342c7b",
+          "url": "https://linuxbrew.bintray.com/bottles/hello-2.10.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c80495cb6d1ad8f2c3a64c22c9dcee9d0117ca25fa6426f20a6acca275cd6c56",
+          "url": "https://linuxbrew.bintray.com/bottles/hello-2.10.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "c3468e676f2c9cb511e537774424299342ffd52740e252e515bddae6d9e79df3",
+          "url": "https://linuxbrew.bintray.com/bottles/hello-2.10.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9691f91e7c6897d525b76f5910144e0ed0adcb8bd8f7bb155f29fd431d8ff431",
+          "url": "https://linuxbrew.bintray.com/bottles/hello-2.10.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f81d7c0a3eee9fd62ebdecf685fbc5284e40d4a61c372d554fd45719e52a43cc",
+          "url": "https://linuxbrew.bintray.com/bottles/hello-2.10.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f81a305402e8f8b6cf11a17dac81f604b6f48d940909886a6733cf4f6a64c05f",
+          "url": "https://linuxbrew.bintray.com/bottles/hello-2.10.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "camlistore"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Program providing model for GNU coding standards and practices",
+  "full_name": "hello",
+  "homepage": "https://www.gnu.org/software/hello/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hello",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.10"
+  }
+}

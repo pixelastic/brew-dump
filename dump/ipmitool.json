@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d6ce46b2b93ac040cb3ac235bd68ecab496b8dbebee22fb4fb69ad52aa75e9c9",
+          "url": "https://linuxbrew.bintray.com/bottles/ipmitool-1.8.18_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ffea0646f0d1ce2d773f1566fe813e36c3ab8d409ad26580c87709d696401fd4",
+          "url": "https://linuxbrew.bintray.com/bottles/ipmitool-1.8.18_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c7e13ccde0f639c52aa915a71f9779ec0b514ed1260c5c9078754498f80c9ec3",
+          "url": "https://linuxbrew.bintray.com/bottles/ipmitool-1.8.18_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "92cb11f9a140a0d39b634e3f26aaa1c10d805bb8638c348a6b119aa81e8f6739",
+          "url": "https://linuxbrew.bintray.com/bottles/ipmitool-1.8.18_2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5e9ad832c757416534a30df441ba41f83a4634bb80c224d4e42e7395b58cb9a6",
+          "url": "https://linuxbrew.bintray.com/bottles/ipmitool-1.8.18_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Utility for IPMI control with kernel driver or LAN interface",
+  "full_name": "ipmitool",
+  "homepage": "https://ipmitool.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ipmitool",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.18"
+  }
+}

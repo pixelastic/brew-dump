@@ -1,0 +1,88 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c48a8f38cd4ddcd343b2a981a0ad6e991b980c5600ad1099953c758f21cb7af0",
+          "url": "https://linuxbrew.bintray.com/bottles/pyenv-1.2.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "549654b4707a262e71807389011cfa56a0d1e674e2e16bd7270366151d1ef206",
+          "url": "https://linuxbrew.bintray.com/bottles/pyenv-1.2.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "86cb4dd57a8f9839f7830068ee2cb48d1715d6f23298362f3c0045641e34cdbf",
+          "url": "https://linuxbrew.bintray.com/bottles/pyenv-1.2.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "03d9e1158cbfb9ac6ebf3e887439a721b3355f5d3ef6977fe18779608e67d0e6",
+          "url": "https://linuxbrew.bintray.com/bottles/pyenv-1.2.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "pkg-config",
+    "openssl",
+    "readline"
+  ],
+  "desc": "Python version management",
+  "full_name": "pyenv",
+  "homepage": "https://github.com/pyenv/pyenv",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pyenv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without autoconf support",
+      "option": "--without-autoconf"
+    },
+    {
+      "description": "Build without pkg-config support",
+      "option": "--without-pkg-config"
+    },
+    {
+      "description": "Build without openssl support",
+      "option": "--without-openssl"
+    },
+    {
+      "description": "Build without readline support",
+      "option": "--without-readline"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "autoconf",
+    "pkg-config",
+    "openssl",
+    "readline"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2.3"
+  }
+}

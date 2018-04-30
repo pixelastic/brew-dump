@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "89ddc5e9a5cfd72e604bdff54ee1f09f9ad4ec281fc79c93201971bbd380ccdd",
+          "url": "https://linuxbrew.bintray.com/bottles/dcadec-0.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7f938bcd68b9078df3dc6e67d82e08beb55b10228a808d91543a6ed2d15a2002",
+          "url": "https://linuxbrew.bintray.com/bottles/dcadec-0.2.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "6d373b4fe5dbb76648183d83cd3161970e8f3674ea29a3133fa4d3c0a9f82ca1",
+          "url": "https://linuxbrew.bintray.com/bottles/dcadec-0.2.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7a51fb1bfa07f08c45176df419087429e9ffce945cbcd28d71e403c456762c74",
+          "url": "https://linuxbrew.bintray.com/bottles/dcadec-0.2.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "640914a5ce466bbb91b551bdb35a385e4a8b08c25f78509a16c016c654963805",
+          "url": "https://linuxbrew.bintray.com/bottles/dcadec-0.2.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "DTS Coherent Acoustics decoder with support for HD extensions",
+  "full_name": "dcadec",
+  "homepage": "https://github.com/foo86/dcadec",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dcadec",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.2.0"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "49f626f86c63d429f618ae4d010bd3d98080aa1840354b1f6c9dc398eeb5fec2",
+          "url": "https://linuxbrew.bintray.com/bottles/asciinema2gif-0.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9802e9fdba9003a1521ee050e87000fb221e7044e96e63da6531a270b6788a22",
+          "url": "https://linuxbrew.bintray.com/bottles/asciinema2gif-0.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "49f626f86c63d429f618ae4d010bd3d98080aa1840354b1f6c9dc398eeb5fec2",
+          "url": "https://linuxbrew.bintray.com/bottles/asciinema2gif-0.5.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "18c89099970e6e5a39e884797385b2819d6b95f557c572277cf2fe6f1a49e97b",
+          "url": "https://linuxbrew.bintray.com/bottles/asciinema2gif-0.5.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "49f626f86c63d429f618ae4d010bd3d98080aa1840354b1f6c9dc398eeb5fec2",
+          "url": "https://linuxbrew.bintray.com/bottles/asciinema2gif-0.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gifsicle",
+    "imagemagick",
+    "phantomjs"
+  ],
+  "desc": "Generate animated GIFs from asciinema terminal recordings",
+  "full_name": "asciinema2gif",
+  "homepage": "https://github.com/tav/asciinema2gif",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "asciinema2gif",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "797a920a7f564443b7a7b5c5ee065e6d6da25e2395c87dc6f1846adc3dedd109",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-apl-1.7.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "33e8f7db591cfbd0fda5b244acbf13f21e9507a6b534b9cd2735c2dc37f16424",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-apl-1.7.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1b7b6f3d268ac7f32f1d23e64be979cbf382b728c92c6e852f75b09eb19fddfb",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-apl-1.7.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7dcabf62e707870ed092b57daaa2c8eb573d9db116e44301a90b28bae47002ff",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-apl-1.7.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "readline",
+    "libpq"
+  ],
+  "desc": "GNU implementation of the programming language APL",
+  "full_name": "gnu-apl",
+  "homepage": "https://www.gnu.org/software/apl/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnu-apl",
+  "oldname": null,
+  "optional_dependencies": [
+    "libpq"
+  ],
+  "options": [
+    {
+      "description": "Build with libpq support",
+      "option": "--with-libpq"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.7"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c2d25c2e3f43961720dc16e4bf501f05914e7a6bf3b8061073f567a2a7652acc",
+          "url": "https://linuxbrew.bintray.com/bottles/coreos-ct-0.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b8b2f678aca517399804f76bc6a276f821328f46936e1db11eac1c60f58317b2",
+          "url": "https://linuxbrew.bintray.com/bottles/coreos-ct-0.8.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "00c96cccd0cf7d829bb9094d6cbe015a964784ff86d2a3ed8fad5dbe074ac8ee",
+          "url": "https://linuxbrew.bintray.com/bottles/coreos-ct-0.8.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "292384b4e4200fa4833c199d9e09e1ef9c8b5c9ed4adbd7b6852cd152146a94b",
+          "url": "https://linuxbrew.bintray.com/bottles/coreos-ct-0.8.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Convert a Container Linux Config into Ignition",
+  "full_name": "coreos-ct",
+  "homepage": "https://coreos.com/os/docs/latest/configuration.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "coreos-ct",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.0"
+  }
+}

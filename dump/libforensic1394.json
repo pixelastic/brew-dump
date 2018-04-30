@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "d850e7c3a04b206c6219c75ba0a00723e9a25d0c97831de289320ef0cc076aae",
+          "url": "https://linuxbrew.bintray.com/bottles/libforensic1394-0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5e919cf8bce0747630324f0c203bbd1aef4d7e17d278f42bcbece48da2229c8f",
+          "url": "https://linuxbrew.bintray.com/bottles/libforensic1394-0.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a2039bd1c161253eac9ac123414f660fbb6059f709b6499ec6a92c73bfba4f42",
+          "url": "https://linuxbrew.bintray.com/bottles/libforensic1394-0.2.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "2e47c1998b61152dd2ce086c78cf53d0d35781861921aafb1149589d7a312acb",
+          "url": "https://linuxbrew.bintray.com/bottles/libforensic1394-0.2.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e747c5c6797d48070c4a4199fe38021cd0164a052e14b21005b9caf4a47a6e3c",
+          "url": "https://linuxbrew.bintray.com/bottles/libforensic1394-0.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b64837090b557e25444999bfc41e2023f8fc2ced465ef7ccc067938fe0ec2f2c",
+          "url": "https://linuxbrew.bintray.com/bottles/libforensic1394-0.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Live memory forensics over IEEE 1394 (\"FireWire\") interface",
+  "full_name": "libforensic1394",
+  "homepage": "https://freddie.witherden.org/tools/libforensic1394/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libforensic1394",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.2"
+  }
+}

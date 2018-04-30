@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "19c797b186c5b2ec4e4692a21d25f3c8e48addea3cc8aaa2809cf37dcc0f1100",
+          "url": "https://linuxbrew.bintray.com/bottles/colordiff-1.0.18.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1b381f5726976016f7996abd414eb24b19bfd63dcc7a8a628e51ca4e3507b4d1",
+          "url": "https://linuxbrew.bintray.com/bottles/colordiff-1.0.18.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c4d57d0ae142725bd320600864843ce040457c7652a3e403e1c65a6e53b42afd",
+          "url": "https://linuxbrew.bintray.com/bottles/colordiff-1.0.18.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5082fac28dee0a82f5fbf1181f6ee59029fe36e6f0b8dfa5f4de797d2918f321",
+          "url": "https://linuxbrew.bintray.com/bottles/colordiff-1.0.18.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "19c797b186c5b2ec4e4692a21d25f3c8e48addea3cc8aaa2809cf37dcc0f1100",
+          "url": "https://linuxbrew.bintray.com/bottles/colordiff-1.0.18.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "cdiff"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Color-highlighted diff(1) output",
+  "full_name": "colordiff",
+  "homepage": "https://www.colordiff.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "colordiff",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.18"
+  }
+}

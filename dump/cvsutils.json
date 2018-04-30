@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f8e35c8b0ed2db868e7dd12f653c20d7d2709059fb5a773fd49084a2655f4ca0",
+          "url": "https://linuxbrew.bintray.com/bottles/cvsutils-0.2.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "102456ac28b63271b03a5722e8421d6273005c54203f4f818678be065479463b",
+          "url": "https://linuxbrew.bintray.com/bottles/cvsutils-0.2.6.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ab6140058099bdc798e0e294640504035d5c976a8752742044a161c416e2e31e",
+          "url": "https://linuxbrew.bintray.com/bottles/cvsutils-0.2.6.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "b30e0da765a551698ec56c09750842bf93e1db4c6596d2a741670aa5ce616c3a",
+          "url": "https://linuxbrew.bintray.com/bottles/cvsutils-0.2.6.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d1f2e13e0df6dbb767a04f7e206114c119f9e6435f227e07e14b4d200e6aba8f",
+          "url": "https://linuxbrew.bintray.com/bottles/cvsutils-0.2.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6c92191b9d66b07bd787d20209cfec0f3c9942bb1760a153451e333fa8a34c1e",
+          "url": "https://linuxbrew.bintray.com/bottles/cvsutils-0.2.6.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ccefce4b4a1053e9a32e4f43318c7bf73c7154f0bee1be1cf1777e8fd3e8eabf",
+          "url": "https://linuxbrew.bintray.com/bottles/cvsutils-0.2.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "CVS utilities for use in working directories",
+  "full_name": "cvsutils",
+  "homepage": "https://www.red-bean.com/cvsutils/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cvsutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.6"
+  }
+}

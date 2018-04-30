@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ba94977585c50e29025be7e592a31809d2f520d50fdb8f023a445dc78ca1bd9d",
+          "url": "https://linuxbrew.bintray.com/bottles/alot-0.7_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "79c1bdd07fa75983d06f4a6c27e81741d0553e3635dd3836c65dc6f3c08c0954",
+          "url": "https://linuxbrew.bintray.com/bottles/alot-0.7_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "227895c908fda25c07555e5514b067d086d6d961f71a40c2098763cfd63deccd",
+          "url": "https://linuxbrew.bintray.com/bottles/alot-0.7_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "561412f1ecd213e3ca1073a79e67985d8d5ae5dc1b3be5dc2b383e0621a02657",
+          "url": "https://linuxbrew.bintray.com/bottles/alot-0.7_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "swig",
+    "sphinx-doc"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "swig",
+    "gpgme",
+    "libmagic",
+    "notmuch",
+    "python@2",
+    "sphinx-doc"
+  ],
+  "desc": "Text mode MUA using notmuch mail",
+  "full_name": "alot",
+  "homepage": "https://github.com/pazz/alot",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "alot",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't build documentation",
+      "option": "--without-sphinx-doc"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "sphinx-doc"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.7"
+  }
+}

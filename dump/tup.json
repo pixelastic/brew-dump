@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "35f968fb45943e792b353cec72e7a6233ca5c8f1985b3cbda523a740cc1b46b4",
+          "url": "https://linuxbrew.bintray.com/bottles/tup-0.7.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5b630c0ea08ac946d49e0ef52a2c6d6204794885920c53b27e139c6a377a5d6f",
+          "url": "https://linuxbrew.bintray.com/bottles/tup-0.7.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "211ce4e27db6b82a1d3d46bed73e3b41da1e861536890985a0fbbf638f11bebe",
+          "url": "https://linuxbrew.bintray.com/bottles/tup-0.7.6.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config"
+  ],
+  "desc": "File-based build system",
+  "full_name": "tup",
+  "homepage": "http://gittup.org/tup/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.7.6"
+  }
+}

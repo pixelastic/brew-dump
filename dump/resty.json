@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "435854dd9bc54f09e46f3f895fc0801ce90a30b23b8d9f109f361f89666fcfe1",
+          "url": "https://linuxbrew.bintray.com/bottles/resty-3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e65c38b826157c35f2e3acd50846be691b6b1a6231a23c62567c24a052d0dc7e",
+          "url": "https://linuxbrew.bintray.com/bottles/resty-3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fb754eb95b4cb573eef1807f5dcddab59e021a4326022a9fb8126fb8e80ff247",
+          "url": "https://linuxbrew.bintray.com/bottles/resty-3.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1c6a12ebf97852447f6f16628fdf0acd3f9d156404ab3ca9aa680c2275f40538",
+          "url": "https://linuxbrew.bintray.com/bottles/resty-3.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To activate the resty, add the following at the end of your ~/.zshrc:\nsource /home/tim/.linuxbrew/opt/resty/share/resty/resty\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Command-line REST client that can be used in pipelines",
+  "full_name": "resty",
+  "homepage": "https://github.com/micha/resty",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "resty",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.0"
+  }
+}

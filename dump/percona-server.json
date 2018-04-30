@@ -1,0 +1,96 @@
+{
+  "aliases": [
+    "percona-server@5.7"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b031f89db3b562fc032f16e0ca467c9a8fc05ca7d28f7177fbd5d79ea64d7528",
+          "url": "https://linuxbrew.bintray.com/bottles/percona-server-5.7.21-21.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0958284d82fda050cbe5676d9db0981055eef314549c077950c9b188b7cd9ab8",
+          "url": "https://linuxbrew.bintray.com/bottles/percona-server-5.7.21-21.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f2a2c52d2216eebc450ce7f1b8f7aeeced12258a2a3e45757f3fb45b88e1075b",
+          "url": "https://linuxbrew.bintray.com/bottles/percona-server-5.7.21-21.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": "We've installed your MySQL database without a root password. To secure it run:\n    mysql_secure_installation\nMySQL is configured to only allow connections from localhost by default\nTo connect run:\n    mysql -uroot\n",
+  "conflicts_with": [
+    "mariadb",
+    "mysql",
+    "mysql-cluster",
+    "mysql-connector-c",
+    "mariadb-connector-c"
+  ],
+  "dependencies": [
+    "cmake",
+    "openssl",
+    "readline",
+    "libedit"
+  ],
+  "desc": "Drop-in MySQL replacement",
+  "full_name": "percona-server",
+  "homepage": "https://www.percona.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "percona-server",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with debug support",
+      "option": "--with-debug"
+    },
+    {
+      "description": "Build the embedded server",
+      "option": "--with-embedded"
+    },
+    {
+      "description": "Build with local infile loading support",
+      "option": "--with-local-infile"
+    },
+    {
+      "description": "Build with InnoDB Memcached plugin",
+      "option": "--with-memcached"
+    },
+    {
+      "description": "Build with unit tests",
+      "option": "--with-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.7.21-21"
+  }
+}

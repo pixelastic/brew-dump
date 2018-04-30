@@ -1,0 +1,70 @@
+{
+  "aliases": [
+    "gnome-icon-theme"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "eee6a8e9b781d135bf5b71eb28d5a7e791a11b9a1ba3c0bec5fc273c06ea0b94",
+          "url": "https://linuxbrew.bintray.com/bottles/adwaita-icon-theme-3.28.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eee6a8e9b781d135bf5b71eb28d5a7e791a11b9a1ba3c0bec5fc273c06ea0b94",
+          "url": "https://linuxbrew.bintray.com/bottles/adwaita-icon-theme-3.28.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eee6a8e9b781d135bf5b71eb28d5a7e791a11b9a1ba3c0bec5fc273c06ea0b94",
+          "url": "https://linuxbrew.bintray.com/bottles/adwaita-icon-theme-3.28.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool",
+    "gettext",
+    "gtk+3"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "gettext",
+    "gtk+3",
+    "librsvg"
+  ],
+  "desc": "Icons for the GNOME project",
+  "full_name": "adwaita-icon-theme",
+  "homepage": "https://developer.gnome.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "adwaita-icon-theme",
+  "oldname": "gnome-icon-theme",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.28.0"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d2ca98556d58c6268b6be3f93cfc9a00a79559d081d7713ed14bc7882212b2ef",
+          "url": "https://linuxbrew.bintray.com/bottles/open-babel-2.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2e830e6b8a7ae79015bb06e05b04935f6a63525cac28cca53dcb72f49334bc83",
+          "url": "https://linuxbrew.bintray.com/bottles/open-babel-2.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "28bb84f75639741efbbf3a19ebffc1fc122d15fa74584440b84e265cdfd18db0",
+          "url": "https://linuxbrew.bintray.com/bottles/open-babel-2.4.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ac5d67aaa265fe1ab1d9c9cdfacd557e92a9cc139e6f90181515f1313d2afc50",
+          "url": "https://linuxbrew.bintray.com/bottles/open-babel-2.4.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "48724ff8b63ea446ea0f2095361ea93de0647eec2e220c8369b9910a11450213",
+          "url": "https://linuxbrew.bintray.com/bottles/open-babel-2.4.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "cmake"
+  ],
+  "caveats": "Java libraries are installed to /home/tim/.linuxbrew/opt/open-babel/share/open-babel/java so this path should\nbe included in the CLASSPATH environment variable.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cmake",
+    "python@2",
+    "wxmac",
+    "cairo",
+    "eigen"
+  ],
+  "desc": "Chemical toolbox",
+  "full_name": "open-babel",
+  "homepage": "https://openbabel.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "open-babel",
+  "oldname": null,
+  "optional_dependencies": [
+    "python@2",
+    "wxmac",
+    "cairo"
+  ],
+  "options": [
+    {
+      "description": "Support PNG depiction",
+      "option": "--with-cairo"
+    },
+    {
+      "description": "Compile Java language bindings",
+      "option": "--with-java"
+    },
+    {
+      "description": "Compile Python 2 language bindings",
+      "option": "--with-python@2"
+    },
+    {
+      "description": "Build with GUI",
+      "option": "--with-wxmac"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.4.1"
+  }
+}

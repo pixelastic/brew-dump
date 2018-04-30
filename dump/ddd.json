@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "68864faf1967b400bc5df5809ab9ee03a0d632f3736071131dd5469be715c58f",
+          "url": "https://linuxbrew.bintray.com/bottles/ddd-3.3.12_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "381ae07c96a67534b05a03ca72741d99aa3437a01c0fef603336ea218c470df9",
+          "url": "https://linuxbrew.bintray.com/bottles/ddd-3.3.12_1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "af12e95b5b4326906236559a40f6715e896d164d5c18d9448384e0e22d089abf",
+          "url": "https://linuxbrew.bintray.com/bottles/ddd-3.3.12_1.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openmotif"
+  ],
+  "desc": "Graphical front-end for command-line debuggers",
+  "full_name": "ddd",
+  "homepage": "https://www.gnu.org/s/ddd/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ddd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.3.12"
+  }
+}

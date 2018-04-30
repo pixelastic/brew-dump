@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3dd4f5a5a6760a6e92c57e69dda4e689eb33787ebbbad01482a3ae0fb26c4445",
+          "url": "https://linuxbrew.bintray.com/bottles/scmpuff-0.2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a09454488aec6c6990f258473c1cdcd722b7f615fff662d040acee353df9a0ee",
+          "url": "https://linuxbrew.bintray.com/bottles/scmpuff-0.2.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3532b6f0d95310bede8ccb33b13ad4dbb657563744ea3accf641fa27e34a37b4",
+          "url": "https://linuxbrew.bintray.com/bottles/scmpuff-0.2.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fc633135611451e73386836b3d2a9bdd63b25065bcf6cae4228239af0fc05a04",
+          "url": "https://linuxbrew.bintray.com/bottles/scmpuff-0.2.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Adds numbered shortcuts for common git commands",
+  "full_name": "scmpuff",
+  "homepage": "https://mroth.github.io/scmpuff/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "scmpuff",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.1"
+  }
+}

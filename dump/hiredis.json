@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9c5dd3b595179560b3a22c685b87b32466edbfaea059659c72399e6b8c86b181",
+          "url": "https://linuxbrew.bintray.com/bottles/hiredis-0.13.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "de253e88983ee372b611e7c9343987cd486dd19d5878a07935b265e7b651634f",
+          "url": "https://linuxbrew.bintray.com/bottles/hiredis-0.13.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "70fed127330cd583478cef89d89d34af112b60e5341cc7f42aa5d06f4b9575ce",
+          "url": "https://linuxbrew.bintray.com/bottles/hiredis-0.13.3.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "93ea600964980acca0d01e7bcf34630280ce88edb01e2cd385e19e8a4e9d33cd",
+          "url": "https://linuxbrew.bintray.com/bottles/hiredis-0.13.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f038cdff672abde1099b34daac067172cf9545e04b49248f6a580732d242183d",
+          "url": "https://linuxbrew.bintray.com/bottles/hiredis-0.13.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Minimalistic client for Redis",
+  "full_name": "hiredis",
+  "homepage": "https://github.com/redis/hiredis",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hiredis",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.13.3"
+  }
+}

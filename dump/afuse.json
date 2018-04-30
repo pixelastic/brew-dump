@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a4c0f86a179ca8c5d1e3977ff167dbcd1abff4ec1ee17fd5700a3fb602c781a3",
+          "url": "https://linuxbrew.bintray.com/bottles/afuse-0.4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5596df8a8351206809f4b047e9d357e36273f5d505e531db3f14d320cf7eec28",
+          "url": "https://linuxbrew.bintray.com/bottles/afuse-0.4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "900e55a47834181f518e87e7cbaaf0f3f078b0d40631ffccfc776e82c7c61f87",
+          "url": "https://linuxbrew.bintray.com/bottles/afuse-0.4.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "665941554de04597c0d573ce254e81b956159d3266de707316a1f5d0933ea24c",
+          "url": "https://linuxbrew.bintray.com/bottles/afuse-0.4.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2a57c7752c7b461f6b628a1c30e845fe13685eab394d933e8da3aebf7102ae9c",
+          "url": "https://linuxbrew.bintray.com/bottles/afuse-0.4.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config"
+  ],
+  "desc": "Automounting file system implemented in userspace with FUSE",
+  "full_name": "afuse",
+  "homepage": "https://github.com/pcarrier/afuse/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "afuse",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.4.1"
+  }
+}

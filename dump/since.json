@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "ec4898462899cb632329f71dc0b4dd9a13a051aafd6da7dfd22e940e9d1ce01a",
+          "url": "https://linuxbrew.bintray.com/bottles/since-1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a5b4f42858c41ad5d60850a3a01b8658fb4e58d2473fe2d36938f4ab66eb05c6",
+          "url": "https://linuxbrew.bintray.com/bottles/since-1.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "bfd7889688facdf732cf0bf2bb8c7a917df71e80615a5f367468708437c0519e",
+          "url": "https://linuxbrew.bintray.com/bottles/since-1.1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "caf0a03558f329e8ae25927f2bfc5d6905c098ae73773edbbe2bec9d288d9235",
+          "url": "https://linuxbrew.bintray.com/bottles/since-1.1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ff4ba4b7cad5fa4211bff04d5868521bc21b60995cf40f15bd507abb7c4cbaab",
+          "url": "https://linuxbrew.bintray.com/bottles/since-1.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e92218f17ac1926f4651b3e70d3fe42d43b7024e1f10d0ab6f1c7c9dd6bad606",
+          "url": "https://linuxbrew.bintray.com/bottles/since-1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Stateful tail: show changes to files since last check",
+  "full_name": "since",
+  "homepage": "http://welz.org.za/projects/since",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "since",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.1"
+  }
+}

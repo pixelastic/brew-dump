@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5e605b056442f7c84a1f7b826ae3fc0e113d12b8ab2174371e004c79acc4336a",
+          "url": "https://linuxbrew.bintray.com/bottles/dnsperf-2.1.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "654185e3cd66f2ba80a14e2018d55bdcbd0a8c2f2b2cca1959f9358f2b67c2f6",
+          "url": "https://linuxbrew.bintray.com/bottles/dnsperf-2.1.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "022ff860326489a63461893dc00c22854fea6fd63949b48ae44abf37e539c20b",
+          "url": "https://linuxbrew.bintray.com/bottles/dnsperf-2.1.0.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8d18fb864b8cb9fd3624e10d178fc11d9bd569863ca9e94ff9fd7afc0ee91afc",
+          "url": "https://linuxbrew.bintray.com/bottles/dnsperf-2.1.0.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bind",
+    "libxml2"
+  ],
+  "desc": "Measure DNS performance by simulating network conditions",
+  "full_name": "dnsperf",
+  "homepage": "https://nominum.com/measurement-tools/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dnsperf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.1.0.0"
+  }
+}

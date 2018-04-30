@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e900fc7106623d90aa084c275bb30cbf11fad6912356b066325ca2eca8c9d368",
+          "url": "https://linuxbrew.bintray.com/bottles/firebase-cli-3.18.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cf47338b513727463ec7f6742c14e071747cf60aed3501385cd5e2107e055e18",
+          "url": "https://linuxbrew.bintray.com/bottles/firebase-cli-3.18.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1fe484a81bc7dc568e4f8fa7038a37d549beedf191e4124ed749b8def98f73d1",
+          "url": "https://linuxbrew.bintray.com/bottles/firebase-cli-3.18.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "762e5d860d0d028dfce1a58c1255b7434f3376031c789066160555cbd5beea98",
+          "url": "https://linuxbrew.bintray.com/bottles/firebase-cli-3.18.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "desc": "Firebase command-line tools",
+  "full_name": "firebase-cli",
+  "homepage": "https://firebase.google.com/docs/cli/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "firebase-cli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.18.4"
+  }
+}

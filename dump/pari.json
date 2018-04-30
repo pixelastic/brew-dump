@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "6d5cd278c72dfedac177af118a3762028a87d4748b5044d30d73d9dda55c5a3e",
+          "url": "https://linuxbrew.bintray.com/bottles/pari-2.9.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e395e67785175c625c794e0535c4224bd15cbc15f661cbcf6d8bc96f15e58aba",
+          "url": "https://linuxbrew.bintray.com/bottles/pari-2.9.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e23557107118210578fcd65b8b48ae2f2ceb817ba4fb40b7afab2f3f4658b4e3",
+          "url": "https://linuxbrew.bintray.com/bottles/pari-2.9.4_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c18c17abea48c9c359a9a70a2551f342811d36c16d48bbf985f3eef9b0833a7c",
+          "url": "https://linuxbrew.bintray.com/bottles/pari-2.9.4_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gmp",
+    "readline",
+    "linuxbrew/xorg/xorg"
+  ],
+  "desc": "Computer algebra system designed for fast computations in number theory",
+  "full_name": "pari",
+  "homepage": "https://pari.math.u-bordeaux.fr/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pari",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.9.4"
+  }
+}

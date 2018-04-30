@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bc30df10cf7b1b85ac4af9ce2c7b84b08566fc2aaf8b9482fbf6ada6eae4b0e3",
+          "url": "https://linuxbrew.bintray.com/bottles/teleport-2.5.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "47e53170ebbc529512aed21426ce9433f4586096c5790b36225fe78096133d1c",
+          "url": "https://linuxbrew.bintray.com/bottles/teleport-2.5.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4f0d2b9fd28fd58dfb41a1635e95db874889fb76bc3b5cc150d4e40c21748f96",
+          "url": "https://linuxbrew.bintray.com/bottles/teleport-2.5.6.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "etsh"
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Modern SSH server for teams managing distributed infrastructure",
+  "full_name": "teleport",
+  "homepage": "https://gravitational.com/teleport",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "teleport",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.5.6"
+  }
+}

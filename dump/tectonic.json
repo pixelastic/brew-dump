@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "69adbf83a6d47ab1696abdb061fc859618d629a44cef32b50d81739824e8f00e",
+          "url": "https://linuxbrew.bintray.com/bottles/tectonic-0.1.7_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "53736e98adfaaae964b16d8e91af8328746af5232028b141d72c89fd8e62bf79",
+          "url": "https://linuxbrew.bintray.com/bottles/tectonic-0.1.7_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cdc46899eebc39130ba36e3ab07198c359e58d6b00622ac3ec5677747382d789",
+          "url": "https://linuxbrew.bintray.com/bottles/tectonic-0.1.7_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "610efd6f417074bab3633617bf7c858a05cf4dbdce294ca9cf22bd9026e2ffe9",
+          "url": "https://linuxbrew.bintray.com/bottles/tectonic-0.1.7_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "rust",
+    "freetype",
+    "graphite2",
+    "harfbuzz",
+    "icu4c",
+    "libpng",
+    "openssl"
+  ],
+  "desc": "Modernized, complete, self-contained TeX/LaTeX engine",
+  "full_name": "tectonic",
+  "homepage": "https://tectonic-typesetting.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tectonic",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.7"
+  }
+}

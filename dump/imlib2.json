@@ -1,0 +1,98 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "90bd1801b3f7c1ada18b6a2982770453893c3f71b2fa07621e6a5c051e1776a9",
+          "url": "https://linuxbrew.bintray.com/bottles/imlib2-1.5.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7edcb670d36ba9a1ff093c23f08a87162e7ff0969591a5666ba4e7c42b91a047",
+          "url": "https://linuxbrew.bintray.com/bottles/imlib2-1.5.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2e9f97ed9f360067b209b424ef476282a12be3bea11cc30ef10b9848d7a754f8",
+          "url": "https://linuxbrew.bintray.com/bottles/imlib2-1.5.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c6f684a35257c2a244cc519714324ba42fc4bcac12fec6f71803e3af9b219d3b",
+          "url": "https://linuxbrew.bintray.com/bottles/imlib2-1.5.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "freetype",
+    "libpng",
+    "jpeg",
+    "giflib",
+    "libtiff",
+    "libid3tag",
+    "linuxbrew/xorg/xorg"
+  ],
+  "desc": "Image loading and rendering library",
+  "full_name": "imlib2",
+  "homepage": "https://sourceforge.net/projects/enlightenment/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "imlib2",
+  "oldname": null,
+  "optional_dependencies": [
+    "libid3tag"
+  ],
+  "options": [
+    {
+      "description": "Build without libpng support",
+      "option": "--without-libpng"
+    },
+    {
+      "description": "Build without jpeg support",
+      "option": "--without-jpeg"
+    },
+    {
+      "description": "Build without giflib support",
+      "option": "--without-giflib"
+    },
+    {
+      "description": "Build without libtiff support",
+      "option": "--without-libtiff"
+    },
+    {
+      "description": "Build with libid3tag support",
+      "option": "--with-libid3tag"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libpng",
+    "jpeg",
+    "giflib",
+    "libtiff"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5.1"
+  }
+}

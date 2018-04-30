@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "69c7381af949af84d3e7cd61cbec789e3d790c154fb3cb9916b1e74730a5fbce",
+          "url": "https://linuxbrew.bintray.com/bottles/renameutils-0.12.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "231874956b8d016cf8c8e9c70b889d61f849b718b5ed291231d8d3b1d425b071",
+          "url": "https://linuxbrew.bintray.com/bottles/renameutils-0.12.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "56f37984343df2fc7a632a447c8c008dbd1d775c71a1b190b9c2bd2296862b77",
+          "url": "https://linuxbrew.bintray.com/bottles/renameutils-0.12.0_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3854a97491ab39937687fd00623e4786205163f87522e901bbd7cca6e054b574",
+          "url": "https://linuxbrew.bintray.com/bottles/renameutils-0.12.0_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "ipmiutil",
+    "irods"
+  ],
+  "dependencies": [
+    "readline",
+    "coreutils"
+  ],
+  "desc": "Tools for file renaming",
+  "full_name": "renameutils",
+  "homepage": "https://www.nongnu.org/renameutils/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "renameutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.12.0"
+  }
+}

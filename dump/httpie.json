@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "935591fe18d118794fa22c824acfcc796f4df395afae9ffa1add54f278ec11de",
+          "url": "https://linuxbrew.bintray.com/bottles/httpie-0.9.9_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "994377256e27f89cfae446690dc711dcfd4463db87d984079a5e1552482483e1",
+          "url": "https://linuxbrew.bintray.com/bottles/httpie-0.9.9_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8a55919e7395e5469d7b846dfa80db631955cfe51b02b037400620812c110e3e",
+          "url": "https://linuxbrew.bintray.com/bottles/httpie-0.9.9_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "User-friendly cURL replacement (command-line HTTP client)",
+  "full_name": "httpie",
+  "homepage": "https://httpie.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "httpie",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.9"
+  }
+}

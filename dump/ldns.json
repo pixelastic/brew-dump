@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4022d01b29df2ea81bd8f722c1b1883d718e7804e8c950cdc539c0e7046eb146",
+          "url": "https://linuxbrew.bintray.com/bottles/ldns-1.7.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "59e16e20f7ec9324f2f0381eaa626788dc61f1a7acad8360d648ce9627669f3c",
+          "url": "https://linuxbrew.bintray.com/bottles/ldns-1.7.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f696aa117920984beb08f77884fb6cc919d48f737f2684a6dd754ef76e069346",
+          "url": "https://linuxbrew.bintray.com/bottles/ldns-1.7.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "swig"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "swig",
+    "openssl"
+  ],
+  "desc": "DNS library written in C",
+  "full_name": "ldns",
+  "homepage": "https://nlnetlabs.nl/projects/ldns/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ldns",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.0"
+  }
+}

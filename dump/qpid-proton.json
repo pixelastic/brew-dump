@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "dff2f3b4820a51c01631262772bbbc5e67946099de0cd5fcc1776711f0cae936",
+          "url": "https://linuxbrew.bintray.com/bottles/qpid-proton-0.22.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "431c6f65b931704fc9d7d290d2967d1770deeaa1be6a2c74ce0834dcc4a1ca91",
+          "url": "https://linuxbrew.bintray.com/bottles/qpid-proton-0.22.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6433d72fa657ae84e09924647aa52363e609ea2c09f3c2261970e7da41300afa",
+          "url": "https://linuxbrew.bintray.com/bottles/qpid-proton-0.22.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libuv",
+    "openssl"
+  ],
+  "desc": "High-performance, lightweight AMQP 1.0 messaging library",
+  "full_name": "qpid-proton",
+  "homepage": "https://qpid.apache.org/proton/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qpid-proton",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.22.0"
+  }
+}

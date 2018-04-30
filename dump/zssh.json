@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "04212f19c1d9a6b97fd56ffe937606f1779849fdf04b93e3f285889599845c8f",
+          "url": "https://linuxbrew.bintray.com/bottles/zssh-1.5c.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9cb26f1bd359977406fae945abd311b2cdc5770570e6350f2ac278bfbe458f5b",
+          "url": "https://linuxbrew.bintray.com/bottles/zssh-1.5c.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "94b16bb29616a839134527fd869ac40a8fb5fa88b0048d1a93a828e306c2a270",
+          "url": "https://linuxbrew.bintray.com/bottles/zssh-1.5c.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "e81d8a0d4c8107898aff0cda9abbf4a2caaf098f16c37bd92aa168943c7e6554",
+          "url": "https://linuxbrew.bintray.com/bottles/zssh-1.5c.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "49e01bb86097999f21f3d96b0f9cd63a975d4fd52f6e286d42ceee16ee996eb7",
+          "url": "https://linuxbrew.bintray.com/bottles/zssh-1.5c.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "94280569f9e1c1deb9d8c3be4256cd501399fd51758f8e2ea6d77fd9f1b6ef2e",
+          "url": "https://linuxbrew.bintray.com/bottles/zssh-1.5c.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "lrzsz"
+  ],
+  "desc": "Interactive file transfers over SSH",
+  "full_name": "zssh",
+  "homepage": "https://zssh.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zssh",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.5c"
+  }
+}

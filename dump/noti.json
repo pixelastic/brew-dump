@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "72b5fa9563eaf47e3f25f7792bcd9500fb71432932aa4840af70c81c936b94c1",
+          "url": "https://linuxbrew.bintray.com/bottles/noti-3.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2ce04f2a8cf722016935a83010314a08a0bb0d9ca7aeed7b62dd9ceab4b73cda",
+          "url": "https://linuxbrew.bintray.com/bottles/noti-3.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "72d72841b3a4f488014abe42d27913c8d9049f681851e4abde30a4a8b2e64554",
+          "url": "https://linuxbrew.bintray.com/bottles/noti-3.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0d4eb62dc25fe9cf2c41488e2410c736c526952e959b35c87862458473bb6773",
+          "url": "https://linuxbrew.bintray.com/bottles/noti-3.1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Trigger notifications when a process completes",
+  "full_name": "noti",
+  "homepage": "https://github.com/variadico/noti",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "noti",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.1.0"
+  }
+}

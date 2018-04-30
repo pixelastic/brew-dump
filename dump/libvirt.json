@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "cf61068a5ad8a85656b92c1c7d72466f23b31df472398a1b9b1b803a0a32fabf",
+          "url": "https://linuxbrew.bintray.com/bottles/libvirt-4.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a44a8b431671d2ce47273a8d67a43ce27edf0f5b469aa73fd73651793f1c9336",
+          "url": "https://linuxbrew.bintray.com/bottles/libvirt-4.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "77054b65b8d524028118325c7bc1d551ab50aa2c3ecc27b9a7190e0e6b93e4b5",
+          "url": "https://linuxbrew.bintray.com/bottles/libvirt-4.2.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gnutls",
+    "libgcrypt",
+    "yajl"
+  ],
+  "desc": "C virtualization API",
+  "full_name": "libvirt",
+  "homepage": "https://www.libvirt.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libvirt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build only the virsh client and development libraries",
+      "option": "--without-libvirtd"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.2.0"
+  }
+}

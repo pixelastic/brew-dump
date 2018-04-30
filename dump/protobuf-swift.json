@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b044fd727cfa69e55d34e050d7be4798c8b54bff5494244a2cafb43b216ac107",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf-swift-4.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "77b09439860f53d4899c8df8a27e004f57ec900266f04afe25ebbf2d86daddbf",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf-swift-4.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "10edd63a5c5a366884365ea2d0f4dcf4e8f39f099348989e6e61c71ee98cb08f",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf-swift-4.0.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f70e4c8ec9b17c8461dce5c672a2b67a1269175e5b4734d37ae292cb6aab6fc2",
+          "url": "https://linuxbrew.bintray.com/bottles/protobuf-swift-4.0.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "swift-protobuf"
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "protobuf"
+  ],
+  "desc": "Implementation of Protocol Buffers in Swift",
+  "full_name": "protobuf-swift",
+  "homepage": "https://github.com/alexeyxo/protobuf-swift",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "protobuf-swift",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.0.1"
+  }
+}

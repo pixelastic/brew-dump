@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f2a77569109ea443de6fc94788906b1862ee183f3ecd6c065f7b05351f777eb6",
+          "url": "https://linuxbrew.bintray.com/bottles/qpm-0.10.0.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e10b8209ffb5e0d36025c9aea3c53379628d4631d6bdaa46d0566625f8dede6d",
+          "url": "https://linuxbrew.bintray.com/bottles/qpm-0.10.0.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6dab4a36e19b1cd7a6a898d516b0fc59289798213b97a2c06130b63f69243eaa",
+          "url": "https://linuxbrew.bintray.com/bottles/qpm-0.10.0.sierra.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Package manager for Qt applications",
+  "full_name": "qpm",
+  "homepage": "https://www.qpm.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qpm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.10.0"
+  }
+}

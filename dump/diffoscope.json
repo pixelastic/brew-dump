@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1f102c56d8016438cbdafb346af9da30fe72789270e4694b19eb37987d8bba94",
+          "url": "https://linuxbrew.bintray.com/bottles/diffoscope-93.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1f102c56d8016438cbdafb346af9da30fe72789270e4694b19eb37987d8bba94",
+          "url": "https://linuxbrew.bintray.com/bottles/diffoscope-93.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1f102c56d8016438cbdafb346af9da30fe72789270e4694b19eb37987d8bba94",
+          "url": "https://linuxbrew.bintray.com/bottles/diffoscope-93.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libmagic",
+    "libarchive",
+    "gnu-tar",
+    "python"
+  ],
+  "desc": "In-depth comparison of files, archives, and directories",
+  "full_name": "diffoscope",
+  "homepage": "https://diffoscope.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "diffoscope",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "93"
+  }
+}

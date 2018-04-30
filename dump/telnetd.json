@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "73e799af3062f0b86f86f34840bc2b6b82b0ac5d17d0b451ad52155182a69983",
+          "url": "https://linuxbrew.bintray.com/bottles/telnetd-54.50.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "491a7002f9649077f12835b8c94e22e240862cd48b833d80076de26b41399812",
+          "url": "https://linuxbrew.bintray.com/bottles/telnetd-54.50.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "933c4dcd343225ea93f09981bb7a92d152f0ad766214b4efd5fbbe8756a72873",
+          "url": "https://linuxbrew.bintray.com/bottles/telnetd-54.50.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You may need super-user privileges to run this program properly. See the man\npage for more details.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "TELNET server (built from macOS Sierra sources)",
+  "full_name": "telnetd",
+  "homepage": "https://opensource.apple.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "telnetd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "54.50.1"
+  }
+}

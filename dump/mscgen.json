@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "114a6b0dd6ee338029b012910fc1074ae2bb56fc0a2ff229e24d1bc1e56d126c",
+          "url": "https://linuxbrew.bintray.com/bottles/mscgen-0.20_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d3f14e39bea3447400747ed8083c6cdf97e613f3fa23eaa91cc074939560cef9",
+          "url": "https://linuxbrew.bintray.com/bottles/mscgen-0.20_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e58e70827fcb36172f35a829427e1d6f6bdd571a54fd68880ea3322314827c83",
+          "url": "https://linuxbrew.bintray.com/bottles/mscgen-0.20_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "af3dff86415fae2f80ff8f6c49a32b440e65a785db7573c74ef77487192e0811",
+          "url": "https://linuxbrew.bintray.com/bottles/mscgen-0.20_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gd",
+    "freetype"
+  ],
+  "desc": "Parses Message Sequence Chart descriptions and produces images",
+  "full_name": "mscgen",
+  "homepage": "http://www.mcternan.me.uk/mscgen/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mscgen",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.20"
+  }
+}

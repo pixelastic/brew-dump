@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "238696713fb647d348fb31946d918f64f29a64c91f6364b908b4aa2cf9bc79ed",
+          "url": "https://linuxbrew.bintray.com/bottles/libdazzle-3.28.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cd4d4cd2feca1f8c587b08e6e8864a6ee473bf1508fb0bbfb2a0150e484aa5be",
+          "url": "https://linuxbrew.bintray.com/bottles/libdazzle-3.28.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "55ae749fb6bc902e2a8e7d914906f5f094369f2ea36afb35fab76e1c8a9e6e7c",
+          "url": "https://linuxbrew.bintray.com/bottles/libdazzle-3.28.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "meson-internal",
+    "ninja",
+    "pkg-config",
+    "python"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "meson-internal",
+    "ninja",
+    "pkg-config",
+    "python",
+    "glib",
+    "gtk+3"
+  ],
+  "desc": "GNOME companion library to GObject and Gtk+",
+  "full_name": "libdazzle",
+  "homepage": "https://gitlab.gnome.org/GNOME/libdazzle",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libdazzle",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.28.1"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "aliases": [
+    "nsis"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f4516cec938568eb2bea2b162247a10cbd68dedd85c439f5d77170dbc7c5b81b",
+          "url": "https://linuxbrew.bintray.com/bottles/makensis-3.03.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b656fcbbb32f982ff66c897f8af08b989425f3c375aa96572dde0e00f05cc396",
+          "url": "https://linuxbrew.bintray.com/bottles/makensis-3.03.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bf01aff6fbcda07ab721b743ca044207face08b9e5f200b764efce8d9adb1c37",
+          "url": "https://linuxbrew.bintray.com/bottles/makensis-3.03.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "mingw-w64",
+    "scons"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mingw-w64",
+    "scons"
+  ],
+  "desc": "System to create Windows installers",
+  "full_name": "makensis",
+  "homepage": "https://nsis.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "makensis",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Enable advanced logging of all installer actions",
+      "option": "--with-advanced-logging"
+    },
+    {
+      "description": "Enable strings up to 8192 characters instead of default 1024",
+      "option": "--with-large-strings"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.03"
+  }
+}

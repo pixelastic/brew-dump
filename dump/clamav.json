@@ -1,0 +1,81 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "139d2858a08fdca1c015d8bea1f824c9d82212d1687aa108ef68e59bdcf5603c",
+          "url": "https://linuxbrew.bintray.com/bottles/clamav-0.100.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8b13c6dc87bb7ac7fa174000219003416d54afa40b65aa9b972075bc427bfcb2",
+          "url": "https://linuxbrew.bintray.com/bottles/clamav-0.100.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "76181827f686178ce1126d14e198389612bff286dda50418f507dde10df2d93e",
+          "url": "https://linuxbrew.bintray.com/bottles/clamav-0.100.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "To finish installation & run clamav you will need to edit\nthe example conf files at /home/tim/.linuxbrew/etc/clamav/\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "openssl",
+    "pcre",
+    "yara",
+    "json-c"
+  ],
+  "desc": "Anti-virus software",
+  "full_name": "clamav",
+  "homepage": "https://www.clamav.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "clamav",
+  "oldname": null,
+  "optional_dependencies": [
+    "yara",
+    "json-c"
+  ],
+  "options": [
+    {
+      "description": "Build without pcre support",
+      "option": "--without-pcre"
+    },
+    {
+      "description": "Build with yara support",
+      "option": "--with-yara"
+    },
+    {
+      "description": "Build with json-c support",
+      "option": "--with-json-c"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "pcre"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.100.0"
+  }
+}

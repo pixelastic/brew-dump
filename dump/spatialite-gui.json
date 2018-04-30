@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e04f2392b64ad916bb50e62d2267b075eab00ca44f7b8001f7a9f5e30c447e3e",
+          "url": "https://linuxbrew.bintray.com/bottles/spatialite-gui-1.7.1_4.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "329a43210fc2f99c3d2c8090bb304bff81e5fc2450778f15f052b32100230151",
+          "url": "https://linuxbrew.bintray.com/bottles/spatialite-gui-1.7.1_4.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1ab0a3f3a0ce183dac239210c4bf2f632cdfe827a59a86f34bf3229bf2df93e4",
+          "url": "https://linuxbrew.bintray.com/bottles/spatialite-gui-1.7.1_4.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "freexl",
+    "geos",
+    "libgaiagraphics",
+    "libspatialite",
+    "proj",
+    "sqlite",
+    "wxmac"
+  ],
+  "desc": "GUI tool supporting SpatiaLite",
+  "full_name": "spatialite-gui",
+  "homepage": "https://www.gaia-gis.it/fossil/spatialite_gui/index",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "spatialite-gui",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.1"
+  }
+}

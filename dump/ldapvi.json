@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "bc0b47872ac179d5797a0431e268708b0fa5e6a444cfbcbefb9c5b565d44c6a6",
+          "url": "https://linuxbrew.bintray.com/bottles/ldapvi-1.7_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "266886333e3e96868249fb5ea6117f95e262884b12c87999ce10839e7b54840a",
+          "url": "https://linuxbrew.bintray.com/bottles/ldapvi-1.7_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "715fa62d9a31e3d64eb7be63847bfcb6430baf14513374afeb3861a9c736c27e",
+          "url": "https://linuxbrew.bintray.com/bottles/ldapvi-1.7_3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0226ff922a186c3ea5b7342b0caad554316332006db0b797f2ac0eb3cda2c5e8",
+          "url": "https://linuxbrew.bintray.com/bottles/ldapvi-1.7_3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "xz"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "xz",
+    "gettext",
+    "glib",
+    "popt",
+    "readline",
+    "openssl"
+  ],
+  "desc": "Update LDAP entries with a text editor",
+  "full_name": "ldapvi",
+  "homepage": "http://www.lichteblau.com/ldapvi/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ldapvi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7"
+  }
+}

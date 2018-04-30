@@ -1,0 +1,84 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1b20b013ea46981088574c32051c03d25e3d17a74adaac5a779823ae82281742",
+          "url": "https://linuxbrew.bintray.com/bottles/gmediaserver-0.13.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cd8f227da2ad9c2a7ec11f42eb58d1d6f03c5afcd77c3876b699a187046e4610",
+          "url": "https://linuxbrew.bintray.com/bottles/gmediaserver-0.13.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "5aaaa3901d076d60f75ff8d68c8c93b828b7e8bf6a04806c56fe14ac68bb74bc",
+          "url": "https://linuxbrew.bintray.com/bottles/gmediaserver-0.13.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6a0d8e909c5cd5cc23c4d3b76c0f5071fcee58123d9e243556bf8393ef01c70c",
+          "url": "https://linuxbrew.bintray.com/bottles/gmediaserver-0.13.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a8d5e2fbf6a6f8297a530aaf6047d2f7e5fee3a7534e21dc9cc20318c2b22488",
+          "url": "https://linuxbrew.bintray.com/bottles/gmediaserver-0.13.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libupnp",
+    "libmagic",
+    "id3lib",
+    "taglib"
+  ],
+  "desc": "UPnP Mediaserver",
+  "full_name": "gmediaserver",
+  "homepage": "https://www.gnu.org/software/gmediaserver/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gmediaserver",
+  "oldname": null,
+  "optional_dependencies": [
+    "id3lib",
+    "taglib"
+  ],
+  "options": [
+    {
+      "description": "Build with id3lib support",
+      "option": "--with-id3lib"
+    },
+    {
+      "description": "Build with taglib support",
+      "option": "--with-taglib"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.13.0"
+  }
+}

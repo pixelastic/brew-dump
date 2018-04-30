@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "73def7a0bbe0e297fd6490c0b0fd481265814918ffa42bf83febd5f1e68d7149",
+          "url": "https://linuxbrew.bintray.com/bottles/curaengine-15.04.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "750b6ca6224c47f14cafa72bdca8f204348fdffda46289234b6f1e3c7f8b53ce",
+          "url": "https://linuxbrew.bintray.com/bottles/curaengine-15.04.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6319dc4f7e2648f801728e4aaf0aff747ae305ca9f6130181d164f222f40d160",
+          "url": "https://linuxbrew.bintray.com/bottles/curaengine-15.04.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4252263a845ca5fc5631c4211eac9a95ad53e20cc07dfa0ea6422ea83ca178e7",
+          "url": "https://linuxbrew.bintray.com/bottles/curaengine-15.04.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "C++ 3D printing GCode generator",
+  "full_name": "curaengine",
+  "homepage": "https://github.com/Ultimaker/CuraEngine",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "curaengine",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "15.04"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "7790fd8de8b6ee98ca8d4f687894437137d774538c209a80a340f513a8fbc159",
+          "url": "https://linuxbrew.bintray.com/bottles/qca-2.1.3_2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7fca5c9a591a204813356e3314077a628cbbff1cb5e6669355a2e26cd92765aa",
+          "url": "https://linuxbrew.bintray.com/bottles/qca-2.1.3_2.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8dd6479be1f5cacb740915646bf9dd2fb8103df38e9f75ecfbb507ed3a0b201e",
+          "url": "https://linuxbrew.bintray.com/bottles/qca-2.1.3_2.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "89d8a72a4e408504d1897200b342b77475cff1e8f35982755d9227de28ed496c",
+          "url": "https://linuxbrew.bintray.com/bottles/qca-2.1.3_2.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "qt",
+    "openssl",
+    "botan",
+    "libgcrypt",
+    "gnupg",
+    "nss",
+    "pkcs11-helper"
+  ],
+  "desc": "Qt Cryptographic Architecture (QCA)",
+  "full_name": "qca",
+  "homepage": "http://delta.affinix.com/qca/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qca",
+  "oldname": null,
+  "optional_dependencies": [
+    "botan",
+    "libgcrypt",
+    "gnupg",
+    "nss",
+    "pkcs11-helper"
+  ],
+  "options": [
+    {
+      "description": "Build API documentation",
+      "option": "--with-api-docs"
+    },
+    {
+      "description": "Build with botan support",
+      "option": "--with-botan"
+    },
+    {
+      "description": "Build with libgcrypt support",
+      "option": "--with-libgcrypt"
+    },
+    {
+      "description": "Build with gnupg support",
+      "option": "--with-gnupg"
+    },
+    {
+      "description": "Build with nss support",
+      "option": "--with-nss"
+    },
+    {
+      "description": "Build with pkcs11-helper support",
+      "option": "--with-pkcs11-helper"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.3"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1b5e1b5d062dfb4945016516880ca227fe13b03cb214985d317f657f6a45a06e",
+          "url": "https://linuxbrew.bintray.com/bottles/libtommath-1.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b1f415b9e856a624a378fc2bf6805772b3d609fc52d3112e7cf2b68be45e230d",
+          "url": "https://linuxbrew.bintray.com/bottles/libtommath-1.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e8b549106cfaebb72663904b2597ab444c67104ca1824f2a96f2c013efc3fe64",
+          "url": "https://linuxbrew.bintray.com/bottles/libtommath-1.0.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "dbbe41e38a29cbc04620fa63f72cad41a9d39946bf5b8bbd67525d79264d4e88",
+          "url": "https://linuxbrew.bintray.com/bottles/libtommath-1.0.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7d042e9ccfd1ba6a86c97f570960116524601b0586274132d3d66c7bb6a550c2",
+          "url": "https://linuxbrew.bintray.com/bottles/libtommath-1.0.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "C library for number theoretic multiple-precision integers",
+  "full_name": "libtommath",
+  "homepage": "https://www.libtom.net/LibTomMath/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libtommath",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.1"
+  }
+}

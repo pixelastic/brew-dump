@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0b99ebef6e23b1c0d1e67d4ed8130130ad5c7b6af03f43ea9248c2d78e19a5cc",
+          "url": "https://linuxbrew.bintray.com/bottles/xalan-c-1.11_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "24ddfd8ff41dbe54a5570db2a004247f92ef4bc1c897554ea83dfe7c138a172f",
+          "url": "https://linuxbrew.bintray.com/bottles/xalan-c-1.11_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dfe6413a8d4cba234c105d0936a671a34742d2ac0103db863a644bf78538c28c",
+          "url": "https://linuxbrew.bintray.com/bottles/xalan-c-1.11_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "263e1a1314c7e6490530dce0e10940052480f9bad379439811becaeb035ec88e",
+          "url": "https://linuxbrew.bintray.com/bottles/xalan-c-1.11_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "xerces-c"
+  ],
+  "desc": "XSLT processor",
+  "full_name": "xalan-c",
+  "homepage": "https://xalan.apache.org/xalan-c/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xalan-c",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Install HTML docs",
+      "option": "--with-docs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.11"
+  }
+}

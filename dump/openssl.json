@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "openssl@1.0"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3470a25f36a68d96b00dffcd1452d3d5d171ab3656e126f6e2cf233e2705423d",
+          "url": "https://linuxbrew.bintray.com/bottles/openssl-1.0.2o_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "67a795f419adcc7f2cc9c204538f2606ed9cf11f2e9587dea9c4f8189a592dee",
+          "url": "https://linuxbrew.bintray.com/bottles/openssl-1.0.2o_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "06ae39a0167691a104a490b5518600f314f72944a18dc1fbdae8405d000b585b",
+          "url": "https://linuxbrew.bintray.com/bottles/openssl-1.0.2o_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d6d2abf594a1639e3bdd235a3e325d83711b8e79bb129ce8adf381ee5d00ea5f",
+          "url": "https://linuxbrew.bintray.com/bottles/openssl-1.0.2o_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "perl"
+  ],
+  "caveats": "A CA file has been bootstrapped using certificates from the SystemRoots\nkeychain. To add additional certificates (e.g. the certificates added in\nthe System keychain), place .pem files in\n  /home/tim/.linuxbrew/etc/openssl/certs\n\nand run\n  /home/tim/.linuxbrew/opt/openssl/bin/c_rehash\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "perl"
+  ],
+  "desc": "SSL/TLS cryptography library",
+  "full_name": "openssl",
+  "homepage": "https://openssl.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openssl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Skip build-time tests (not recommended)",
+      "option": "--without-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.2o"
+  }
+}

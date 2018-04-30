@@ -1,0 +1,45 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "The home of WildFly Application Server 12.0.0.Final is:\n  /home/tim/.linuxbrew/opt/wildfly-as/libexec\nYou may want to add the following to your .bash_profile:\n  export JBOSS_HOME=/home/tim/.linuxbrew/opt/wildfly-as/libexec\n  export PATH=${PATH}:${JBOSS_HOME}/bin\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Managed application runtime for building applications",
+  "full_name": "wildfly-as",
+  "homepage": "http://wildfly.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wildfly-as",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "12.0.0.Final"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0e58d88cf168e86ce8e2fba7774518d7f64d80ae63d812ba68438c715d1d1a6c",
+          "url": "https://linuxbrew.bintray.com/bottles/lean-cli-0.18.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "77b5f2c608a71b350bd0648f2a1e088176561aa6a4d5331112307ef64b9cedbd",
+          "url": "https://linuxbrew.bintray.com/bottles/lean-cli-0.18.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "373bd2885a6e6ccea9c4fb8c453e136670602261a494527cf0efa85c365712aa",
+          "url": "https://linuxbrew.bintray.com/bottles/lean-cli-0.18.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "74f4d4130d5e6c92ff0d45f7cc1d89579f3c4ef67ef803a21b974f6f7b90d9e7",
+          "url": "https://linuxbrew.bintray.com/bottles/lean-cli-0.18.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Command-line tool to develop and manage LeanCloud apps",
+  "full_name": "lean-cli",
+  "homepage": "https://github.com/leancloud/lean-cli",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lean-cli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.18.2"
+  }
+}

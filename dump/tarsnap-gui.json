@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2963c8328a97832660467d27207bdb92340b7e1d10c4f70b552a56b433db5c5d",
+          "url": "https://linuxbrew.bintray.com/bottles/tarsnap-gui-1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "95ce5a2a28ff6981d569ad264cd7ef97bfbb20a808309f199b4044d50ea59e9f",
+          "url": "https://linuxbrew.bintray.com/bottles/tarsnap-gui-1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "65333d2097628d889e78ecb717a11de647f0d11058dd8ce7f263c573e828b54e",
+          "url": "https://linuxbrew.bintray.com/bottles/tarsnap-gui-1.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6c33861a277da0171c26ee389ab5e3f1d2277f3e577f18446e816909680cf9fb",
+          "url": "https://linuxbrew.bintray.com/bottles/tarsnap-gui-1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "qt",
+    "tarsnap"
+  ],
+  "desc": "Cross-platform GUI for the Tarsnap command-line client",
+  "full_name": "tarsnap-gui",
+  "homepage": "https://github.com/Tarsnap/tarsnap-gui/wiki",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tarsnap-gui",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0"
+  }
+}

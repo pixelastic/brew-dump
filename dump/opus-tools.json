@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "32b77b8739b8e44eac8b3b45791291c3a1efbaf2b1c99b1f74b32d2beae5c795",
+          "url": "https://linuxbrew.bintray.com/bottles/opus-tools-0.1.10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e5ec4e698f8090348b42786193c94c9571522dbf8c39e8ab6ffca677f6c5386c",
+          "url": "https://linuxbrew.bintray.com/bottles/opus-tools-0.1.10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "62d9154105f9d7be511899c04959bb76c669ee573cb4597b1a34291de613ad57",
+          "url": "https://linuxbrew.bintray.com/bottles/opus-tools-0.1.10.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "97a0d5affca76c00fec6d56ca3b6b2984e68f518380edd9098b6c49b0f465c46",
+          "url": "https://linuxbrew.bintray.com/bottles/opus-tools-0.1.10.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "opus",
+    "flac",
+    "libogg"
+  ],
+  "desc": "Utilities to encode, inspect, and decode .opus files",
+  "full_name": "opus-tools",
+  "homepage": "https://www.opus-codec.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "opus-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.1.10"
+  }
+}

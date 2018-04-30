@@ -1,0 +1,80 @@
+{
+  "aliases": [
+    "python2"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "df47d7efad257ce33dec09ee55a3a2e1854eae494dcc3f1e45d03ed641eb11be",
+          "url": "https://linuxbrew.bintray.com/bottles/python@2-2.7.14_4.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "de045349168897a773107c3698927ad48ca444910d7d101bd2fea896eb3cb567",
+          "url": "https://linuxbrew.bintray.com/bottles/python@2-2.7.14_4.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "51a2db64f53d9c3f8950f91e777522c261fb04eb8da172c37f9de2c52f6d2159",
+          "url": "https://linuxbrew.bintray.com/bottles/python@2-2.7.14_4.sierra.bottle.2.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "884c8d6fe8133f1721cfbbca168d76475462c163b4c7b17ee6164ebf42a558a9",
+          "url": "https://linuxbrew.bintray.com/bottles/python@2-2.7.14_4.x86_64_linux.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "Pip and setuptools have been installed. To update them\n  pip install --upgrade pip setuptools\n\nYou can install Python packages with\n  pip install <package>\n\nThey will install into the site-package directory\n  /home/tim/.linuxbrew/lib/python2.7/site-packages\n\nSee: https://docs.brew.sh/Homebrew-and-Python\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gdbm",
+    "openssl",
+    "readline",
+    "sqlite",
+    "tcl-tk",
+    "bzip2",
+    "ncurses",
+    "zlib"
+  ],
+  "desc": "Interpreted, interactive, object-oriented programming language",
+  "full_name": "python@2",
+  "homepage": "https://www.python.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "python@2",
+  "oldname": null,
+  "optional_dependencies": [
+    "tcl-tk"
+  ],
+  "options": [
+    {
+      "description": "Use Homebrew's Tk instead of macOS Tk (has optional Cocoa and threads support)",
+      "option": "--with-tcl-tk"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": "2.7.15rc1",
+    "head": "HEAD",
+    "stable": "2.7.14"
+  }
+}

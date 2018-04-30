@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9f87cc3a6d7e702aab12b23ad1f720ae592bdfb9112753e27c9cf2203dc21915",
+          "url": "https://linuxbrew.bintray.com/bottles/libsvg-cairo-0.1.6_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "85692fcfce287f166fefa4fcc4f78b58c96eee3c94ff403e6ef42403c005c29a",
+          "url": "https://linuxbrew.bintray.com/bottles/libsvg-cairo-0.1.6_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "63cfba79036bfd190a92e6a4c501e2e4c737bf63e6a8df6bdca56885c66ae740",
+          "url": "https://linuxbrew.bintray.com/bottles/libsvg-cairo-0.1.6_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "071d883e83c9b3c9d5b9625d87a20ca892781dd8f20aacd07236ccbb32b51710",
+          "url": "https://linuxbrew.bintray.com/bottles/libsvg-cairo-0.1.6_2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "55bd8f9bfede25e71e9731d72ace27ce7724a4cce030a4e4e6969554ee64238d",
+          "url": "https://linuxbrew.bintray.com/bottles/libsvg-cairo-0.1.6_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libsvg",
+    "libpng",
+    "cairo"
+  ],
+  "desc": "SVG rendering library using Cairo",
+  "full_name": "libsvg-cairo",
+  "homepage": "https://cairographics.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libsvg-cairo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.6"
+  }
+}

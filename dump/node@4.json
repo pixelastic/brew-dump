@@ -1,0 +1,90 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ed69a9cfabb22cdb1390fc86dd6c5d54308a17af8be74fe669cd7b129b163956",
+          "url": "https://linuxbrew.bintray.com/bottles/node@4-4.9.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "57fc2a966bc0fb00106bfe006c78e87629c92148bfefcc48abba257ebfc375fe",
+          "url": "https://linuxbrew.bintray.com/bottles/node@4-4.9.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4fbaa797a7605cf388bd38cfb272d0a495398fbbdd12ae6b502512d7d3e95118",
+          "url": "https://linuxbrew.bintray.com/bottles/node@4-4.9.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b0ba1de9195059abe17482ffd8723c6c77af9290f45a71b72c3e2e60b8b3355a",
+          "url": "https://linuxbrew.bintray.com/bottles/node@4-4.9.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "python@2",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "pkg-config",
+    "openssl"
+  ],
+  "desc": "Platform built on V8 to build network applications",
+  "full_name": "node@4",
+  "homepage": "https://nodejs.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "node@4",
+  "oldname": "node4-lts",
+  "optional_dependencies": [
+    "openssl"
+  ],
+  "options": [
+    {
+      "description": "Build with debugger hooks",
+      "option": "--with-debug"
+    },
+    {
+      "description": "Build against Homebrew's OpenSSL instead of the bundled OpenSSL",
+      "option": "--with-openssl"
+    },
+    {
+      "description": "npm will not be installed",
+      "option": "--without-npm"
+    },
+    {
+      "description": "npm bash completion will not be installed",
+      "option": "--without-completion"
+    },
+    {
+      "description": "Build with full-icu (all locales) instead of small-icu (English only)",
+      "option": "--with-full-icu"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.9.1"
+  }
+}

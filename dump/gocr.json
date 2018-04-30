@@ -1,0 +1,85 @@
+{
+  "aliases": [
+    "jocr"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3b3a0351d949f3f798dc973e0f31a283b8df3f73d1c7f251c7f15229ceb2fb20",
+          "url": "https://linuxbrew.bintray.com/bottles/gocr-0.50.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eb3148c555bda4196603d07612992d2de8b0d4698e674d70e8ce8c328a924042",
+          "url": "https://linuxbrew.bintray.com/bottles/gocr-0.50.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "467ce3a1411e022f44b60691bf71bf8a7b86ba234b21dad23cc1f2b258d92e9b",
+          "url": "https://linuxbrew.bintray.com/bottles/gocr-0.50.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0e3df7c5f1304de66cb85b98b12612ed99e43177b37c02605892b02c947f0ef0",
+          "url": "https://linuxbrew.bintray.com/bottles/gocr-0.50.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "94207525e139ef275415f46ff50baab26fef6a2ba52ca71a6a00aa3035ced71c",
+          "url": "https://linuxbrew.bintray.com/bottles/gocr-0.50.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "netpbm",
+    "jpeg"
+  ],
+  "desc": "Optical Character Recognition (OCR), converts images back to text",
+  "full_name": "gocr",
+  "homepage": "https://jocr.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gocr",
+  "oldname": null,
+  "optional_dependencies": [
+    "netpbm",
+    "jpeg"
+  ],
+  "options": [
+    {
+      "description": "Install library and headers",
+      "option": "--with-lib"
+    },
+    {
+      "description": "Build with netpbm support",
+      "option": "--with-netpbm"
+    },
+    {
+      "description": "Build with jpeg support",
+      "option": "--with-jpeg"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.50"
+  }
+}

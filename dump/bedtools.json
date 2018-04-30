@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "56d2a63e1193f1326505c9a1829b7a4c6257261734a775fce0829cd7accb84f3",
+          "url": "https://linuxbrew.bintray.com/bottles/bedtools-2.27.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ca1a234e9bcdb62f4c71aad27a12c1b286c0a0dd9101b22c8a55492c35b50a68",
+          "url": "https://linuxbrew.bintray.com/bottles/bedtools-2.27.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "96e8d3f30f6b0f542b2fa17ce324d82c7c2ed1c8c579007fd7138dbbae63188e",
+          "url": "https://linuxbrew.bintray.com/bottles/bedtools-2.27.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ea46585cfb98f15b748777203db53e861c5bc2c99974b23580d7dc865bcdfce1",
+          "url": "https://linuxbrew.bintray.com/bottles/bedtools-2.27.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "python"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python",
+    "zlib"
+  ],
+  "desc": "Tools for genome arithmetic (set theory on the genome)",
+  "full_name": "bedtools",
+  "homepage": "https://github.com/arq5x/bedtools2",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bedtools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.27.1"
+  }
+}

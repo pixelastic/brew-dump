@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d5b4098018676b19f06a15d1438c881cdba2fec784cb8f07477413ae9f3dcfcb",
+          "url": "https://linuxbrew.bintray.com/bottles/legit-1.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2919e3ef7827297d891afe3fb123507e96de5cc8f3e4080cd21519d453dcbb1c",
+          "url": "https://linuxbrew.bintray.com/bottles/legit-1.0.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "defc980ee36b65d40c6e4cf5293b9bc22dd169998dcd9e88585d92aa08855c20",
+          "url": "https://linuxbrew.bintray.com/bottles/legit-1.0.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0c89fd50b5d7fba6d4d2408dae8790220573fdee844f6037da2384b6d1545078",
+          "url": "https://linuxbrew.bintray.com/bottles/legit-1.0.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Command-line interface for Git, optimized for workflow simplicity",
+  "full_name": "legit",
+  "homepage": "https://www.git-legit.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "legit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.1"
+  }
+}

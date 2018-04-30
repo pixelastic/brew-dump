@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "de89332a8a2ab48d0b71f1d24f444f6376cbba4077f9fa1214b03a20a58538ec",
+          "url": "https://linuxbrew.bintray.com/bottles/mackup-0.8.18.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b2087f95402ac5cb65f9e26636e86989f66922a24e22938444bb0ee9c84216b1",
+          "url": "https://linuxbrew.bintray.com/bottles/mackup-0.8.18.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b2087f95402ac5cb65f9e26636e86989f66922a24e22938444bb0ee9c84216b1",
+          "url": "https://linuxbrew.bintray.com/bottles/mackup-0.8.18.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Keep your Mac's application settings in sync",
+  "full_name": "mackup",
+  "homepage": "https://github.com/lra/mackup",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mackup",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8.18"
+  }
+}

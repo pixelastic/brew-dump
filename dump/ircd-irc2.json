@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "259ddceb29a5d5e0705c3b0a130368053de98282ecec2036c17d30062bd6f9f4",
+          "url": "https://linuxbrew.bintray.com/bottles/ircd-irc2-2.11.2p3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ebc4e1007b994ae418cd522ecc70fa2c738dbf7eb52a883f775e7dcc9b06892e",
+          "url": "https://linuxbrew.bintray.com/bottles/ircd-irc2-2.11.2p3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "9fd885d98218c6e570f16b238cb72546130f5ca1bbe2e06f260b7a672dba02e2",
+          "url": "https://linuxbrew.bintray.com/bottles/ircd-irc2-2.11.2p3.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "72b85345931772dc3ac1fe96201906db0c70c24e129e9ee7006253080926bd2f",
+          "url": "https://linuxbrew.bintray.com/bottles/ircd-irc2-2.11.2p3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "af6c845d852e4a525d64f1cfbd551377c90da201c2ef3e521d48fc1513a58064",
+          "url": "https://linuxbrew.bintray.com/bottles/ircd-irc2-2.11.2p3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "ircd-hybrid"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Original IRC server daemon",
+  "full_name": "ircd-irc2",
+  "homepage": "http://www.irc.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ircd-irc2",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.11.2p3"
+  }
+}

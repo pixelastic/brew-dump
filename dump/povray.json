@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "x86_64_linux": {
+          "sha256": "0d7cd11fd7b1031550c814dd585fbad8fc49089e6b1b2123724fdef212ac14c2",
+          "url": "https://linuxbrew.bintray.com/bottles/povray-3.7.0.7_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "boost",
+    "jpeg",
+    "libpng",
+    "libtiff",
+    "openexr"
+  ],
+  "desc": "Persistence Of Vision RAYtracer (POVRAY)",
+  "full_name": "povray",
+  "homepage": "http://www.povray.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "povray",
+  "oldname": null,
+  "optional_dependencies": [
+    "openexr"
+  ],
+  "options": [
+    {
+      "description": "Build with openexr support",
+      "option": "--with-openexr"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.7.0.7"
+  }
+}

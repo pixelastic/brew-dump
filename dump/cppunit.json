@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a2d2bf8be8ffb614f0490801e38558681b8b01a9fc7ff4be5f785d3db7f71157",
+          "url": "https://linuxbrew.bintray.com/bottles/cppunit-1.14.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2740f149428280c1dd20ac94612eacca944d29dac0838eee4eeb0eef2ae1fdd6",
+          "url": "https://linuxbrew.bintray.com/bottles/cppunit-1.14.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3c620068fba4bf15b6138ffc4042ab2111a67201310523104c07c314115520bb",
+          "url": "https://linuxbrew.bintray.com/bottles/cppunit-1.14.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "242e5ba55b5ec56551cb8f87f9f58f3bb3d83282482a7627114fdfac4a246f8c",
+          "url": "https://linuxbrew.bintray.com/bottles/cppunit-1.14.0_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8078fbe4b7fd092a197c452af4caf3f5eaeb27dce16afd46e1da2a1ec1ae7f6d",
+          "url": "https://linuxbrew.bintray.com/bottles/cppunit-1.14.0_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Unit testing framework for C++",
+  "full_name": "cppunit",
+  "homepage": "https://wiki.freedesktop.org/www/Software/cppunit/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cppunit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.14.0"
+  }
+}

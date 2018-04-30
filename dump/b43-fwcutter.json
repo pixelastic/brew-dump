@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d24bbb9e1669ef33319b23a37a8ebd4dddaf8d1ce2c9e24abff13d678e3633d4",
+          "url": "https://linuxbrew.bintray.com/bottles/b43-fwcutter-019.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "abbde23073e94982c1f47ea1884abf4b855f8ab0ed8d0e2434de4ca32bfc8dca",
+          "url": "https://linuxbrew.bintray.com/bottles/b43-fwcutter-019.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b2d662d6f951714738626f19698922875b4f97d149fbc8a79aeac0034f75d594",
+          "url": "https://linuxbrew.bintray.com/bottles/b43-fwcutter-019.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "e423ba3a40a826611d5af02c7267b9d260219c1012add5291b3df09002abfa5f",
+          "url": "https://linuxbrew.bintray.com/bottles/b43-fwcutter-019.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f5238356964126642e9dd5c88de5564f221db86d488ca826055629d504a71426",
+          "url": "https://linuxbrew.bintray.com/bottles/b43-fwcutter-019.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fed62452f6d8b74976575b0b2fc3f5fac351981ac85768160bb188a6c55ff170",
+          "url": "https://linuxbrew.bintray.com/bottles/b43-fwcutter-019.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Extract firmware from Braodcom 43xx driver files",
+  "full_name": "b43-fwcutter",
+  "homepage": "https://wireless.kernel.org/en/users/Drivers/b43",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "b43-fwcutter",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "019"
+  }
+}

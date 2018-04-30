@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "7fb6e58e1030e6dfd8a096525fab8ad65f739a16644f023b7c7cc6dfbc91c8ab",
+          "url": "https://linuxbrew.bintray.com/bottles/pgloader-3.4.1_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f847576d5d4769b8021323c809b585057a1f99f4154116a6fa2f70abb34e5c6a",
+          "url": "https://linuxbrew.bintray.com/bottles/pgloader-3.4.1_1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aef13aa237bdad345ec75dacf88fbaf555519c047ef2c42fd8bd6753c08c3db2",
+          "url": "https://linuxbrew.bintray.com/bottles/pgloader-3.4.1_1.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "buildapp"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sbcl",
+    "freetds",
+    "buildapp",
+    "postgresql"
+  ],
+  "desc": "Data loading tool for PostgreSQL",
+  "full_name": "pgloader",
+  "homepage": "https://github.com/dimitri/pgloader",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pgloader",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without postgresql support",
+      "option": "--without-postgresql"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "postgresql"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.4.1"
+  }
+}

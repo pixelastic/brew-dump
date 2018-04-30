@@ -1,0 +1,88 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9c9a55fe416bc37a14e9a58439093b85274bf12c2bab24660a3f7c4b0fff70c3",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl_mixer-1.2.12_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e08902563c6265ac480323c9f22a26ee0e51f42fb1c36efb9b66b1f6b34a032d",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl_mixer-1.2.12_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "69e8726e5b9bb858e069d244844411fc43930d3a7d0b78c6177bf36c76bb04c2",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl_mixer-1.2.12_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d60206b770d335d52ab2ec2eae8079a69d9597e25e08b7d29fca39c7f2090e45",
+          "url": "https://linuxbrew.bintray.com/bottles/sdl_mixer-1.2.12_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libmikmod",
+    "libogg",
+    "libvorbis",
+    "sdl",
+    "flac",
+    "fluid-synth",
+    "smpeg"
+  ],
+  "desc": "Sample multi-channel audio mixer library",
+  "full_name": "sdl_mixer",
+  "homepage": "https://www.libsdl.org/projects/SDL_mixer/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sdl_mixer",
+  "oldname": null,
+  "optional_dependencies": [
+    "flac",
+    "fluid-synth",
+    "smpeg"
+  ],
+  "options": [
+    {
+      "description": "Build with flac support",
+      "option": "--with-flac"
+    },
+    {
+      "description": "Build with fluid-synth support",
+      "option": "--with-fluid-synth"
+    },
+    {
+      "description": "Build with smpeg support",
+      "option": "--with-smpeg"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.12"
+  }
+}

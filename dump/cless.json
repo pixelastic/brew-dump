@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "660d59f6fe5f0b319091559c727a8b1b241f62244b877fc35ecdf34d69bf7713",
+          "url": "https://linuxbrew.bintray.com/bottles/cless-0.3.0.0_1.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b0f4cd35cfb88bae1816f87df9a6eac25ffc5b68bc03ed7d92c8bba493add8c1",
+          "url": "https://linuxbrew.bintray.com/bottles/cless-0.3.0.0_1.high_sierra.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3585e128d1f855aede1e5bb6adec957c64e6777b126cc93a4165d68ccc304038",
+          "url": "https://linuxbrew.bintray.com/bottles/cless-0.3.0.0_1.sierra.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ghc",
+    "cabal-install"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ghc",
+    "cabal-install"
+  ],
+  "desc": "Display file contents with colorized syntax highlighting",
+  "full_name": "cless",
+  "homepage": "https://github.com/tanakh/cless",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cless",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.3.0.0"
+  }
+}

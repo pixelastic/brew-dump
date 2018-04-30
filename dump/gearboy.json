@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "35e8aeca3e1204cfa1fd105634994d94e4c69f86bca4bf791fcd937c9da2ab29",
+          "url": "https://linuxbrew.bintray.com/bottles/gearboy-2.3.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1d670f7aa0fabb668cdd96c5f3ef369f96f791e70586191e23ee244ffc024bfb",
+          "url": "https://linuxbrew.bintray.com/bottles/gearboy-2.3.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "91bfab6b8f83e80620d72c40cc1ca4256d7f15910d48d2919a6ba9c152939425",
+          "url": "https://linuxbrew.bintray.com/bottles/gearboy-2.3.1_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2572d0286af3eefda16352a9c74050bc62b76bf91b64be9d74af0c82230df9da",
+          "url": "https://linuxbrew.bintray.com/bottles/gearboy-2.3.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "qt",
+    "sdl2"
+  ],
+  "desc": "Nintendo Game Boy (Color) emulator",
+  "full_name": "gearboy",
+  "homepage": "https://github.com/drhelius/Gearboy",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gearboy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.3.1"
+  }
+}

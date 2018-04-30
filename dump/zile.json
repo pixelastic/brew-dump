@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "25330278315a0e2fbc7cd731d69e88ba8205cd4d622ca7a0abbc638f95e6d937",
+          "url": "https://linuxbrew.bintray.com/bottles/zile-2.4.14_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f17882759df971a7e3184638a13b889576eba380d61a005e3bbd33d3d32cc84e",
+          "url": "https://linuxbrew.bintray.com/bottles/zile-2.4.14_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5be3657e02aa7dca41fd0432bbff60a3d96623a89179280a31b18cbde1a6b836",
+          "url": "https://linuxbrew.bintray.com/bottles/zile-2.4.14_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7be8a01bcbb729217d76a3387a797ae63d85f40540a1e18f5d75ed9b318e5c6a",
+          "url": "https://linuxbrew.bintray.com/bottles/zile-2.4.14_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "help2man"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "help2man",
+    "bdw-gc",
+    "ncurses"
+  ],
+  "desc": "Text editor development kit",
+  "full_name": "zile",
+  "homepage": "https://www.gnu.org/software/zile/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zile",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4.14"
+  }
+}

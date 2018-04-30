@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7f48accbf977a34b5d3c818706606f1f91b457f9762ecc9844f917d5927ea9f8",
+          "url": "https://linuxbrew.bintray.com/bottles/ohcount-3.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2aa51a2ba598bdbebf93f3e4f6219a5fb462ef4bb473e4c7bf147e4f3ed69c2d",
+          "url": "https://linuxbrew.bintray.com/bottles/ohcount-3.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "18d38ed705047709d1ceb735c25f467f96d8cdd4d8a37ea6c88b1776affdfb8b",
+          "url": "https://linuxbrew.bintray.com/bottles/ohcount-3.1.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libmagic",
+    "pcre",
+    "ragel"
+  ],
+  "desc": "Source code line counter",
+  "full_name": "ohcount",
+  "homepage": "https://github.com/blackducksw/ohcount",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ohcount",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.1.0"
+  }
+}

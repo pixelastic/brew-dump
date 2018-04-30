@@ -1,0 +1,96 @@
+{
+  "aliases": [
+    "node.js",
+    "node@10",
+    "nodejs",
+    "npm"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "6343a8becdc0fbd92e7db5aab2075f6513ddbb2f1919394f8c3da1fa30597c2f",
+          "url": "https://linuxbrew.bintray.com/bottles/node-10.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6413fac659d9571e07eaef5cba9a2b150e04c6114984fa4ab39b05733065469b",
+          "url": "https://linuxbrew.bintray.com/bottles/node-10.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1de8f4c9ebeab4365dc1a26c70565ea8141784e355bc9368fe366984715f51b3",
+          "url": "https://linuxbrew.bintray.com/bottles/node-10.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2bdf51cb4f36c29fb1f4bb7675cb64afe17499fcc012a3b601a5e37e1a66fa94",
+          "url": "https://linuxbrew.bintray.com/bottles/node-10.0.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "python@2",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "pkg-config",
+    "icu4c",
+    "openssl@1.1"
+  ],
+  "desc": "Platform built on V8 to build network applications",
+  "full_name": "node",
+  "homepage": "https://nodejs.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "node",
+  "oldname": null,
+  "optional_dependencies": [
+    "openssl@1.1"
+  ],
+  "options": [
+    {
+      "description": "Build with debugger hooks",
+      "option": "--with-debug"
+    },
+    {
+      "description": "Build against Homebrew's OpenSSL instead of the bundled OpenSSL",
+      "option": "--with-openssl@1.1"
+    },
+    {
+      "description": "npm will not be installed",
+      "option": "--without-npm"
+    },
+    {
+      "description": "npm bash completion will not be installed",
+      "option": "--without-completion"
+    },
+    {
+      "description": "Build with small-icu (English only) instead of system-icu (all locales)",
+      "option": "--without-icu4c"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "icu4c"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "10.0.0"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "fe2884c00497b9e9d739836c4b0863823a7488f75a19bea7081e1a8b5a63cc92",
+          "url": "https://linuxbrew.bintray.com/bottles/vim@7.4-7.4.2367_11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "92081d71fa26751895ac0e213971d1ad4b23c3ae086663b71472ad5d8ce57590",
+          "url": "https://linuxbrew.bintray.com/bottles/vim@7.4-7.4.2367_11.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a3c31226c225ec8fbd947eedcd147c5398a4d8c7314de46173b62d1a258a49c7",
+          "url": "https://linuxbrew.bintray.com/bottles/vim@7.4-7.4.2367_11.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "12786d0caecc787b153c3f628f2c377f49af86974bd80ca3fb090f519f1c01e8",
+          "url": "https://linuxbrew.bintray.com/bottles/vim@7.4-7.4.2367_11.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "perl",
+    "ruby",
+    "python",
+    "lua",
+    "luajit",
+    "python@2"
+  ],
+  "desc": "Vi 'workalike' with many additional features",
+  "full_name": "vim@7.4",
+  "homepage": "https://www.vim.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "vim@7.4",
+  "oldname": "vim74",
+  "optional_dependencies": [
+    "lua",
+    "luajit",
+    "python@2"
+  ],
+  "options": [
+    {
+      "description": "Override system vi",
+      "option": "--with-override-system-vi"
+    },
+    {
+      "description": "Build vim without National Language Support (translated messages, keymaps)",
+      "option": "--without-nls"
+    },
+    {
+      "description": "Enable client/server mode",
+      "option": "--with-client-server"
+    },
+    {
+      "description": "Build vim with python@2 instead of python[3] support",
+      "option": "--with-python@2"
+    },
+    {
+      "description": "Build vim with lua support",
+      "option": "--with-lua"
+    },
+    {
+      "description": "Build vim with mzscheme support",
+      "option": "--with-mzscheme"
+    },
+    {
+      "description": "Build vim with tcl support",
+      "option": "--with-tcl"
+    },
+    {
+      "description": "Build vim without python support",
+      "option": "--without-python"
+    },
+    {
+      "description": "Build with luajit support",
+      "option": "--with-luajit"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python"
+  ],
+  "requirements": [
+  ],
+  "revision": 11,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.4.2367"
+  }
+}

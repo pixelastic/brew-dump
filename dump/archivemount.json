@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "2629b61b54bac6b65b9f9d5a2065d1fb87c6ebf4b2c4cbb67cd1665f9163cc22",
+          "url": "https://linuxbrew.bintray.com/bottles/archivemount-0.8.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ea8ba60b9451893f0f2e10f8c985ce00cfd5f45dd054f8cb46b64a39411c9098",
+          "url": "https://linuxbrew.bintray.com/bottles/archivemount-0.8.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7999cff6e0bb57e80804a0c9076d2740a4ae8f480b9dd1f6e420e6206001ab47",
+          "url": "https://linuxbrew.bintray.com/bottles/archivemount-0.8.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "04d35cfae27595513ddbe34172db3a258d5f77c9098fec3dc0bf823428fd7269",
+          "url": "https://linuxbrew.bintray.com/bottles/archivemount-0.8.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libarchive"
+  ],
+  "desc": "File system for accessing archives using libarchive",
+  "full_name": "archivemount",
+  "homepage": "http://www.cybernoia.de/software/archivemount.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "archivemount",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8.7"
+  }
+}

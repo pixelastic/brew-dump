@@ -1,0 +1,41 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Config: /home/tim/.linuxbrew/etc/asf/\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mono"
+  ],
+  "desc": "ASF is a C# application that allows you to farm steam cards",
+  "full_name": "archi-steam-farm",
+  "homepage": "https://github.com/JustArchi/ArchiSteamFarm",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "archi-steam-farm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.2.0"
+  }
+}

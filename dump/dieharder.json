@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7adbcdbabc0c75df4394b7934dc5d8b33ef325ebf58a082e061fc333b0f82b1d",
+          "url": "https://linuxbrew.bintray.com/bottles/dieharder-3.31.1_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f1f36b404203561f04b05aef3bce6f483980eee5ee8898b1f535ccade28ef369",
+          "url": "https://linuxbrew.bintray.com/bottles/dieharder-3.31.1_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "758c782ab9ba74df2bf493296435eafc24b97fdda7493485bf367f4afd7a50e7",
+          "url": "https://linuxbrew.bintray.com/bottles/dieharder-3.31.1_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f8bb7acd14bb5e7f610e0de39fca1bf6d4577b091e26b28de1fcf74eb454d315",
+          "url": "https://linuxbrew.bintray.com/bottles/dieharder-3.31.1_2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c401b110311adafced06a2e5dc61b1ae2d159cfdf749b9b8835b791487facd33",
+          "url": "https://linuxbrew.bintray.com/bottles/dieharder-3.31.1_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gsl"
+  ],
+  "desc": "Random number test suite",
+  "full_name": "dieharder",
+  "homepage": "https://www.phy.duke.edu/~rgb/General/dieharder.php",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dieharder",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.31.1"
+  }
+}

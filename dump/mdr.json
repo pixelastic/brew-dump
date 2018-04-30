@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0b522120151f1116ae7e681ff2fb129ecd26486202ca753d6b1de902f6f29334",
+          "url": "https://linuxbrew.bintray.com/bottles/mdr-1.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "58d0fa82a0e6291d934bbc3f12f586fbb35282f9d15db017126e042f209dd664",
+          "url": "https://linuxbrew.bintray.com/bottles/mdr-1.0.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b80b64d56e7e77e9b53dd8c308dd50450552b782a72204cb710adf2de28c4f9e",
+          "url": "https://linuxbrew.bintray.com/bottles/mdr-1.0.1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "6280aee9902aabfcfdf6fb6ae094badc94ee1ad83d6caac4ca9b23f94803ec49",
+          "url": "https://linuxbrew.bintray.com/bottles/mdr-1.0.1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ef68c4389ee92beeb6c04e1859f398d108ffcce03fe692dd5776f7e12d776672",
+          "url": "https://linuxbrew.bintray.com/bottles/mdr-1.0.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7048e71ef8f9a1d5c1712dce6cb33df08029038d771789021a1b8bc1e5f4ad10",
+          "url": "https://linuxbrew.bintray.com/bottles/mdr-1.0.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Make diffs readable",
+  "full_name": "mdr",
+  "homepage": "https://github.com/halffullheart/mdr",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mdr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.1"
+  }
+}

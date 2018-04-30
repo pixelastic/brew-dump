@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "df22f5aa11aaf8b39915be0f5bb45bc22878c77755ba1e99a393151b62c289a0",
+          "url": "https://linuxbrew.bintray.com/bottles/boost-python@1.59-1.59.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3aeba5e1e8a29f40ee518787d06323762c8fed8dff7510d71e075d744c2e529a",
+          "url": "https://linuxbrew.bintray.com/bottles/boost-python@1.59-1.59.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "00434235b9857114ec0d23f0023190f40b3e541b7b7448eb09363d293c03b648",
+          "url": "https://linuxbrew.bintray.com/bottles/boost-python@1.59-1.59.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "python",
+    "boost@1.59"
+  ],
+  "desc": "C++ library for C++/Python interoperability",
+  "full_name": "boost-python@1.59",
+  "homepage": "https://www.boost.org",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "boost-python@1.59",
+  "oldname": "boost-python159",
+  "optional_dependencies": [
+    "python"
+  ],
+  "options": [
+    {
+      "description": "Build using C++11 mode",
+      "option": "--c++11"
+    },
+    {
+      "description": "Build without python 2 support",
+      "option": "--without-python@2"
+    },
+    {
+      "description": "Build with python support",
+      "option": "--with-python"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python@2"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.59.0"
+  }
+}

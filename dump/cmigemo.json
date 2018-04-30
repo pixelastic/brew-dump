@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "866dfa4f493c088c1b2eb3cff23ed04e33862f7bc5dcff0976ce5b7cb4835dd2",
+          "url": "https://linuxbrew.bintray.com/bottles/cmigemo-20110227.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a56e9422e30145d388649e9c85bf814adb58688c2c5e374385f4260b8daa049a",
+          "url": "https://linuxbrew.bintray.com/bottles/cmigemo-20110227.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f4b8738e34c2b8b7d8489c70a6e15e1634e9d2b0f20b2180be4dd6d43eca6c4a",
+          "url": "https://linuxbrew.bintray.com/bottles/cmigemo-20110227.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "612544771bde1676044d35e8cb1f64134788580b76c59ced3b651e8996d46b51",
+          "url": "https://linuxbrew.bintray.com/bottles/cmigemo-20110227.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4ab378bb5f5d2462a6043d9226aade8b87974b52a7fec8a24e3814f93ac936f6",
+          "url": "https://linuxbrew.bintray.com/bottles/cmigemo-20110227.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "nkf"
+  ],
+  "caveats": "See also https://github.com/emacs-jp/migemo to use cmigemo with Emacs.\nYou will have to save as migemo.el and put it in your load-path.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "nkf"
+  ],
+  "desc": "Migemo is a tool that supports Japanese incremental search with Romaji",
+  "full_name": "cmigemo",
+  "homepage": "https://www.kaoriya.net/software/cmigemo",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cmigemo",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "20110227"
+  }
+}

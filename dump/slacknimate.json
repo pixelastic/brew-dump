@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e07155d74980ed24bf07acce56c890a86668eb359aecae8dae6eb6973c38cfd8",
+          "url": "https://linuxbrew.bintray.com/bottles/slacknimate-1.0.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6d93b3bbccb0190be8a2702d7fa3e587fa768110567e76b2a43f167381981707",
+          "url": "https://linuxbrew.bintray.com/bottles/slacknimate-1.0.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "cf81016bb94d8d2369c98a529b575d3115a263139502294b528197e1ac293ae9",
+          "url": "https://linuxbrew.bintray.com/bottles/slacknimate-1.0.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f546be3bc842ef924e62c2dee561acdf114ee5206253d6e06a848eefd98dcafe",
+          "url": "https://linuxbrew.bintray.com/bottles/slacknimate-1.0.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f97ea26560c72c550780b81a124f8c69c8588c27e0f87eef65201676f2666672",
+          "url": "https://linuxbrew.bintray.com/bottles/slacknimate-1.0.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Text animation for Slack messages",
+  "full_name": "slacknimate",
+  "homepage": "https://github.com/mroth/slacknimate",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "slacknimate",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.1"
+  }
+}

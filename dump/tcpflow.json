@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ea92e38288a2fea16c85b9a937951b8ecc0c5ca619ccff050d36590866543356",
+          "url": "https://linuxbrew.bintray.com/bottles/tcpflow-1.4.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c971d3d993660862b690239940e4c84d5fd8bffdff776ccba4c038d1eba76169",
+          "url": "https://linuxbrew.bintray.com/bottles/tcpflow-1.4.5.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "b0e5f0a0e6f6fc81be55627483028a578a679d1c342a7127aa3a983983acef1a",
+          "url": "https://linuxbrew.bintray.com/bottles/tcpflow-1.4.5.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ff6d43a7c67853c6f7a4ffbe9290028a179f0d722e8075395c1f133386778fe7",
+          "url": "https://linuxbrew.bintray.com/bottles/tcpflow-1.4.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d5e07b6218d3160b27d12e154910286af4f3edbbbc70fe5879852849a046cfae",
+          "url": "https://linuxbrew.bintray.com/bottles/tcpflow-1.4.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "boost"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "boost",
+    "sqlite",
+    "openssl"
+  ],
+  "desc": "TCP flow recorder",
+  "full_name": "tcpflow",
+  "homepage": "https://github.com/simsong/tcpflow",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tcpflow",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.5"
+  }
+}

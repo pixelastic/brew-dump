@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "2924c33793615aa02e2e46917ba58a3e8e8db1aaf0f7f9210b54acd725b76ef0",
+          "url": "https://linuxbrew.bintray.com/bottles/gtksourceview-2.10.5_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b3ba6e3ef4aa4d3abc3ac572ce649290dadc386589c45b6abdf8ae6f2269823c",
+          "url": "https://linuxbrew.bintray.com/bottles/gtksourceview-2.10.5_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2577ba17156b384fb3fa3c90f638e6bef9886c3268fb321d02fc012e330baac8",
+          "url": "https://linuxbrew.bintray.com/bottles/gtksourceview-2.10.5_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "gettext",
+    "gtk+",
+    "gtk-mac-integration"
+  ],
+  "desc": "Text view with syntax, undo/redo, and text marks",
+  "full_name": "gtksourceview",
+  "homepage": "https://projects.gnome.org/gtksourceview/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gtksourceview",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.10.5"
+  }
+}

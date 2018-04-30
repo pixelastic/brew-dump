@@ -1,0 +1,83 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "588ebfb6e7d577e8efd4a38ca1ae598998c8e015dd1101db8785641bdea17f6a",
+          "url": "https://linuxbrew.bintray.com/bottles/mu-1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d6d58dc0b9fc5d5454c0bf68230f6f8fb8cb973821de3e41ec267ce2614d8ec3",
+          "url": "https://linuxbrew.bintray.com/bottles/mu-1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0a818cbcfa365710bd48a97092218042dc8d00afd73b3f781c0982f8668a8410",
+          "url": "https://linuxbrew.bintray.com/bottles/mu-1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "78d16791e94585eb79541cff5309ba08760f78f04c51c3afcd0aeed2bbe27d3e",
+          "url": "https://linuxbrew.bintray.com/bottles/mu-1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "libgpg-error"
+  ],
+  "caveats": "Existing mu users are recommended to run the following after upgrading:\n\n  mu index --rebuild\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "libgpg-error",
+    "gettext",
+    "glib",
+    "xapian",
+    "emacs"
+  ],
+  "desc": "Tool for searching e-mail messages stored in the maildir-format",
+  "full_name": "mu",
+  "homepage": "https://www.djcbsoftware.nl/code/mu/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mu",
+  "oldname": null,
+  "optional_dependencies": [
+    "emacs"
+  ],
+  "options": [
+    {
+      "description": "Build with emacs support",
+      "option": "--with-emacs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0"
+  }
+}

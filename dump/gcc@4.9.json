@@ -1,0 +1,82 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "1c407f31d58ab8e41230a83c6ffd1d77503c0c6528ccbc182f6888c23c5fb972",
+          "url": "https://linuxbrew.bintray.com/bottles/gcc@4.9-4.9.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0c4f2650325b060bf72beafd78dabab80973ee4ab330d4de16eb648b88225096",
+          "url": "https://linuxbrew.bintray.com/bottles/gcc@4.9-4.9.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "01a231e69b3c3e10a9e6aa99b5cbb6077eb1a011660bbbf06871ee262b6f31e6",
+          "url": "https://linuxbrew.bintray.com/bottles/gcc@4.9-4.9.4_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "binutils",
+    "zlib"
+  ],
+  "desc": "The GNU Compiler Collection",
+  "full_name": "gcc@4.9",
+  "homepage": "https://gcc.gnu.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gcc@4.9",
+  "oldname": "gcc49",
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without the gfortran compiler",
+      "option": "--without-fortran"
+    },
+    {
+      "description": "Build the gcj compiler",
+      "option": "--with-java"
+    },
+    {
+      "description": "Enable all compilers and languages, except Ada",
+      "option": "--with-all-languages"
+    },
+    {
+      "description": "Build with native language support (localization)",
+      "option": "--with-nls"
+    },
+    {
+      "description": "Make use of profile guided optimization when bootstrapping GCC",
+      "option": "--with-profiled-build"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.9.4"
+  }
+}

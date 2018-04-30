@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "37d51f683969cf0c109fedba13f2d08cc04f9e2e4e72cc1b1a80e05d48f33a70",
+          "url": "https://linuxbrew.bintray.com/bottles/lsyncd-2.2.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "33bed2e034b0d0f72dbcedd747c8d58a54a9b40f92959da63c3ec5a07ce873df",
+          "url": "https://linuxbrew.bintray.com/bottles/lsyncd-2.2.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c22a4a49e5637ca930be2e56f725ffed9adfdcc95c1a5688a6ca947e1979d0d6",
+          "url": "https://linuxbrew.bintray.com/bottles/lsyncd-2.2.2_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "lua"
+  ],
+  "desc": "Synchronize local directories with remote targets",
+  "full_name": "lsyncd",
+  "homepage": "https://github.com/axkibe/lsyncd",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lsyncd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.2"
+  }
+}

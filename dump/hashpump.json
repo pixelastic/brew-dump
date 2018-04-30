@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "981c229f983ad5b42e4b975e21112ecb0d3715b61b5b278037ceba5a03f82fe8",
+          "url": "https://linuxbrew.bintray.com/bottles/hashpump-1.2.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "479a1f7187b1d126ada855c3368179a97d4cddd5bcd6e869a6418e6f1349d586",
+          "url": "https://linuxbrew.bintray.com/bottles/hashpump-1.2.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "53dd1f981a635e415dc0459f410a8854b90e04ffc034b87e6abed97bab5027d8",
+          "url": "https://linuxbrew.bintray.com/bottles/hashpump-1.2.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl",
+    "python@2",
+    "python"
+  ],
+  "desc": "Tool to exploit hash length extension attack",
+  "full_name": "hashpump",
+  "homepage": "https://github.com/bwall/HashPump",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hashpump",
+  "oldname": null,
+  "optional_dependencies": [
+    "python"
+  ],
+  "options": [
+    {
+      "description": "Build without python 2 support",
+      "option": "--without-python@2"
+    },
+    {
+      "description": "Build with python support",
+      "option": "--with-python"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python@2"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.0"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a916eb51be02498bbc9d3d99326c2203b21f5e2bb16633fe06f8d6fd9495dc5d",
+          "url": "https://linuxbrew.bintray.com/bottles/dwdiff-2.1.1_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c9239aa38cdf6946544ce33316e6974062b0e4158c0ec94eeb88bab23f895e9c",
+          "url": "https://linuxbrew.bintray.com/bottles/dwdiff-2.1.1_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fc784b7164a15ea756dc92866bd613fdd64819ecea747b9f019d840e46fd8551",
+          "url": "https://linuxbrew.bintray.com/bottles/dwdiff-2.1.1_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gettext",
+    "icu4c"
+  ],
+  "desc": "Diff that operates at the word level",
+  "full_name": "dwdiff",
+  "homepage": "https://os.ghalkes.nl/dwdiff.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dwdiff",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.1.1"
+  }
+}

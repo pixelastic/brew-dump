@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e20202824ce1995a371f925ed69350601a888592274a778aaec1b78a97ef3867",
+          "url": "https://linuxbrew.bintray.com/bottles/spatialite-tools-4.3.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b77b197aef8f05ac1816a9fd1b262aae9fc026772cc03be67ed5be57904d65fc",
+          "url": "https://linuxbrew.bintray.com/bottles/spatialite-tools-4.3.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "96e80f05afa030b2646bdc60e3a466f0dcca91819890a4c5fff26f063b952db3",
+          "url": "https://linuxbrew.bintray.com/bottles/spatialite-tools-4.3.0_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libspatialite",
+    "readosm"
+  ],
+  "desc": "CLI tools supporting SpatiaLite",
+  "full_name": "spatialite-tools",
+  "homepage": "https://www.gaia-gis.it/fossil/spatialite-tools/index",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "spatialite-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.3.0"
+  }
+}

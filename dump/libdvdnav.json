@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "379d6e135a9e97db494376c0f35e235bced3a3052e60a0fea2a5318730c5d900",
+          "url": "https://linuxbrew.bintray.com/bottles/libdvdnav-6.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "82f7cf986d45b13b3cc57d121dc53d7fa43d628062f978e31723d49778ea8d22",
+          "url": "https://linuxbrew.bintray.com/bottles/libdvdnav-6.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1a2a0a5b4f2c349574f830ae5e918ee2788ceb17d2f2856ec507e62226327e28",
+          "url": "https://linuxbrew.bintray.com/bottles/libdvdnav-6.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9df111b62924a1c5439e37e7c4b3c1814d89a2c7dd63de1d0aed6cffd20f657a",
+          "url": "https://linuxbrew.bintray.com/bottles/libdvdnav-6.0.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libdvdread"
+  ],
+  "desc": "DVD navigation library",
+  "full_name": "libdvdnav",
+  "homepage": "https://www.videolan.org/developers/libdvdnav.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libdvdnav",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.0.0"
+  }
+}

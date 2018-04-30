@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3d798efdaa4b664bf3711cf3e2880de1ffd6e93661bb339519c621acce4d714b",
+          "url": "https://linuxbrew.bintray.com/bottles/nativefier-7.6.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "60dd1cceffb7a88f0e2764f438267c1581b3daeed98ec84b048be88041a53b21",
+          "url": "https://linuxbrew.bintray.com/bottles/nativefier-7.6.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4e746085f86f40122b2a9810dfdc7630a05dd6d8807827903ffd681ee5edc31f",
+          "url": "https://linuxbrew.bintray.com/bottles/nativefier-7.6.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "50e81c930037d6a1df3602849804ae1aaf54e8f7733b8402c479d21e187bb178",
+          "url": "https://linuxbrew.bintray.com/bottles/nativefier-7.6.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "desc": "Wrap web apps natively",
+  "full_name": "nativefier",
+  "homepage": "https://github.com/jiahaog/nativefier",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nativefier",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.6.1"
+  }
+}

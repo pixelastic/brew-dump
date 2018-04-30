@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e08c93b814989405fa3b7db9e3a9c4f149e36aaab32aba44e9a2f1659d2d3efd",
+          "url": "https://linuxbrew.bintray.com/bottles/nacl-20110221.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "43fffe959f6a95aacff4d5d4b7bfbb34f835a2487e8bff0645473d8ec1de83b6",
+          "url": "https://linuxbrew.bintray.com/bottles/nacl-20110221.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "44bbb2d7cb0daa6eb06c79e5881ae827786a04dece9b4a34cb0a6ea06cddb1e1",
+          "url": "https://linuxbrew.bintray.com/bottles/nacl-20110221.mavericks.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "86e5ef1c0a14b029d1ed3f63df48fde9c302adbbc3e1dcacd1bb7617bf547615",
+          "url": "https://linuxbrew.bintray.com/bottles/nacl-20110221.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1a1a7fffc6d41f2f7bcc393375f2907f63b5a13f9414fe0827daef96246301e7",
+          "url": "https://linuxbrew.bintray.com/bottles/nacl-20110221.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Network communication, encryption, decryption, signatures library",
+  "full_name": "nacl",
+  "homepage": "https://nacl.cr.yp.to/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nacl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20110221"
+  }
+}

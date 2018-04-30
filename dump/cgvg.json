@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a8232322755cb4c369193dca37fecb968ff689c6463611680e12f216f46507c4",
+          "url": "https://linuxbrew.bintray.com/bottles/cgvg-1.6.3.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "05dcddf73d630ab2f67e00ea63af02f6b29b503c2e938829daa67d7f619fb556",
+          "url": "https://linuxbrew.bintray.com/bottles/cgvg-1.6.3.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "d05cafffec1008fff858f9c0210d37d4d081aa34d8a490b968a8b824866a69be",
+          "url": "https://linuxbrew.bintray.com/bottles/cgvg-1.6.3.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "12b8a6abb31e2e8d7ba044663b33990884ec24d1b0c0776901480cbecd47113f",
+          "url": "https://linuxbrew.bintray.com/bottles/cgvg-1.6.3.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "de0c8b890aa68670097790093fdceccfe1d69598c18ea5385069efc2f73a3c5d",
+          "url": "https://linuxbrew.bintray.com/bottles/cgvg-1.6.3.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Command-line source browsing tool",
+  "full_name": "cgvg",
+  "homepage": "http://www.uzix.org/cgvg.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cgvg",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.3"
+  }
+}

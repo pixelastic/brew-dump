@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2e83c1b3df9aa3ce2e32095e09efca96754c500c92255031e83a8ccdfacb473a",
+          "url": "https://linuxbrew.bintray.com/bottles/restview-2.8.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5bb887c352198ea2ada802c82a5ae106772e0ad19146d8a2cc32c8505c4fd40c",
+          "url": "https://linuxbrew.bintray.com/bottles/restview-2.8.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5bb887c352198ea2ada802c82a5ae106772e0ad19146d8a2cc32c8505c4fd40c",
+          "url": "https://linuxbrew.bintray.com/bottles/restview-2.8.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Viewer for ReStructuredText documents that renders them on the fly",
+  "full_name": "restview",
+  "homepage": "https://mg.pov.lt/restview/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "restview",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.8.1"
+  }
+}

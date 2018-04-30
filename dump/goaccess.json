@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "272e53e58e3fcd8c894285d1a90a3288edde0959a3f049bff24a6ed9180dbc3c",
+          "url": "https://linuxbrew.bintray.com/bottles/goaccess-1.2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "33833da9143c81fab96a7bf19452f54e94d32952f86d4a5e110c77e9854deaf9",
+          "url": "https://linuxbrew.bintray.com/bottles/goaccess-1.2.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7b794bcc28f24f010682e2e18d0c480cdf9d75d07b50964944f3b3fd6428972a",
+          "url": "https://linuxbrew.bintray.com/bottles/goaccess-1.2.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "af9801407d647456b2421673aeefdc5d1bd00446d912126c8bc662cfad437937",
+          "url": "https://linuxbrew.bintray.com/bottles/goaccess-1.2.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libmaxminddb",
+    "tokyo-cabinet"
+  ],
+  "desc": "Log analyzer and interactive viewer for the Apache Webserver",
+  "full_name": "goaccess",
+  "homepage": "https://goaccess.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "goaccess",
+  "oldname": null,
+  "optional_dependencies": [
+    "libmaxminddb"
+  ],
+  "options": [
+    {
+      "description": "Enable IP location information using enhanced GeoIP2 databases",
+      "option": "--with-libmaxminddb"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2"
+  }
+}

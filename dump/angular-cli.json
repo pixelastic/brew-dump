@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b8af388f528b186b3b0d65fd2c5afabbdcc2622f5e54b494f4c0cb794d97e6e9",
+          "url": "https://linuxbrew.bintray.com/bottles/angular-cli-1.7.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b45c98aa3778d71746f37070a04aa8790e13f8d0c3bd9ba0de7d751962889d40",
+          "url": "https://linuxbrew.bintray.com/bottles/angular-cli-1.7.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9ebe8ce1757fcb44d731a05c42136c6770321a64e7bb809946740feef26adb44",
+          "url": "https://linuxbrew.bintray.com/bottles/angular-cli-1.7.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b3ef09e1754364468211aeff9bf80195e20ed8b1c316f7bf88edd2dd209fee3d",
+          "url": "https://linuxbrew.bintray.com/bottles/angular-cli-1.7.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "desc": "CLI tool for Angular",
+  "full_name": "angular-cli",
+  "homepage": "https://cli.angular.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "angular-cli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.4"
+  }
+}

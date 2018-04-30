@@ -1,0 +1,40 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "The configuration file was installed in:\n  /home/tim/.linuxbrew/Cellar/slimerjs/1.0.0/libexec/application.ini\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Scriptable browser for Web developers",
+  "full_name": "slimerjs",
+  "homepage": "https://slimerjs.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "slimerjs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.0"
+  }
+}

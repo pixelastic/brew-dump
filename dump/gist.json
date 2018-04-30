@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "384be8756092732a7bf082b0208f9a1634605e7d1ba873d5a6600180e228890c",
+          "url": "https://linuxbrew.bintray.com/bottles/gist-4.6.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a92937549e26ba5bbb9059c9f97de66f6cc87c09906a7a52e0946a8634153328",
+          "url": "https://linuxbrew.bintray.com/bottles/gist-4.6.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "384be8756092732a7bf082b0208f9a1634605e7d1ba873d5a6600180e228890c",
+          "url": "https://linuxbrew.bintray.com/bottles/gist-4.6.2_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5a01b56f2a29eafa42df4dd8d3cc58a01b249f4c20025bf3b375ced2c897bbbb",
+          "url": "https://linuxbrew.bintray.com/bottles/gist-4.6.2_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ruby"
+  ],
+  "desc": "Command-line utility for uploading Gists",
+  "full_name": "gist",
+  "homepage": "https://github.com/defunkt/gist",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gist",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.6.2"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "594b78b627cad84edef6de6dba32879cf5547215b33e7946bb3ee44c73e49214",
+          "url": "https://linuxbrew.bintray.com/bottles/ponysay-3.0.3_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "481d6431bc586203d237787eaceafc116d9eccbf8d11489e1197a6eb0e034710",
+          "url": "https://linuxbrew.bintray.com/bottles/ponysay-3.0.3_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e51c96a3bf6997b73150b75eb758eb8359ca89a27a5b171b50eba3628192a31c",
+          "url": "https://linuxbrew.bintray.com/bottles/ponysay-3.0.3_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python",
+    "coreutils"
+  ],
+  "desc": "Cowsay but with ponies",
+  "full_name": "ponysay",
+  "homepage": "https://erkin.co/ponysay/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ponysay",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.3"
+  }
+}

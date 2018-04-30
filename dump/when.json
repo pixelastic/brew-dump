@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5f1858e4c42591c1c30c54f4bf1fecd1961b1fc2a6990f45289720ebc1ad4892",
+          "url": "https://linuxbrew.bintray.com/bottles/when-1.1.37.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5f1858e4c42591c1c30c54f4bf1fecd1961b1fc2a6990f45289720ebc1ad4892",
+          "url": "https://linuxbrew.bintray.com/bottles/when-1.1.37.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5f1858e4c42591c1c30c54f4bf1fecd1961b1fc2a6990f45289720ebc1ad4892",
+          "url": "https://linuxbrew.bintray.com/bottles/when-1.1.37.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7fd2aacf489e58ae53ee3dede756bd4cbee957037390d4f20850c9484fa69762",
+          "url": "https://linuxbrew.bintray.com/bottles/when-1.1.37.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tiny personal calendar",
+  "full_name": "when",
+  "homepage": "http://www.lightandmatter.com/when/when.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "when",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.37"
+  }
+}

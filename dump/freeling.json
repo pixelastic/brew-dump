@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "873d3820ac453abdd27bbdd3de92b1f8aa7d22ac224a4f9f37a0cbde0c576219",
+          "url": "https://linuxbrew.bintray.com/bottles/freeling-4.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4e458f9b0144a54786df878de4a3040e1cea6396616e5b4647b0d822e95dfcf5",
+          "url": "https://linuxbrew.bintray.com/bottles/freeling-4.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "950011b0a3594fd822c4269a06c4570ac4d9e9f95aba39098eeb3c65caf77fda",
+          "url": "https://linuxbrew.bintray.com/bottles/freeling-4.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "hunspell"
+  ],
+  "dependencies": [
+    "cmake",
+    "icu4c"
+  ],
+  "desc": "Suite of language analyzers",
+  "full_name": "freeling",
+  "homepage": "http://nlp.lsi.upc.edu/freeling/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "freeling",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.1"
+  }
+}

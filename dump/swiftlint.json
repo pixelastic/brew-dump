@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "high_sierra": {
+          "sha256": "9a8b278edd652d43ca9176ef8bd6746136f419f42899a2abb4858cce6678c246",
+          "url": "https://linuxbrew.bintray.com/bottles/swiftlint-0.25.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9c922cb7cb9b4f431ec85d3584f10055aa9cbdfbe21d83cc646a610743ef3536",
+          "url": "https://linuxbrew.bintray.com/bottles/swiftlint-0.25.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Tool to enforce Swift style and conventions",
+  "full_name": "swiftlint",
+  "homepage": "https://github.com/realm/SwiftLint",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "swiftlint",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.25.1"
+  }
+}

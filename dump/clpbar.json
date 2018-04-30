@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b54fa0ce24de6dda141e3fc025b67f2e0216b01a3664ec5992a98f8087881ddd",
+          "url": "https://linuxbrew.bintray.com/bottles/clpbar-1.11.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eb3648e3cc14ab0712c6a71d3df6eab53bd66bad86a402df1716df3db09c0358",
+          "url": "https://linuxbrew.bintray.com/bottles/clpbar-1.11.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "36f1ece44bec7c54d2235fbfba5122d3a3d0430532498dc5c35601a59f9c4616",
+          "url": "https://linuxbrew.bintray.com/bottles/clpbar-1.11.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "769dbb64e877ab1f52a496063bbfdac32911f38e6e25b4fc70a5cfe937923f5f",
+          "url": "https://linuxbrew.bintray.com/bottles/clpbar-1.11.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "edaa21e4d80bbf174e3c040d3c786eb48e381ca8e9477dfbafb06b4ec0bfd19f",
+          "url": "https://linuxbrew.bintray.com/bottles/clpbar-1.11.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Command-line progress bar",
+  "full_name": "clpbar",
+  "homepage": "https://clpbar.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "clpbar",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.11.1"
+  }
+}

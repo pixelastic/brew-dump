@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d82301a0557554e57252ea0d020f32e1d13485077c54f4d68cce01ee9d1b34a3",
+          "url": "https://linuxbrew.bintray.com/bottles/rig-1.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "770e85dcfaeec7cf4e4799572b102bf436afc9f3d28eb828ef838b5a1e1a8152",
+          "url": "https://linuxbrew.bintray.com/bottles/rig-1.11.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "5d728db39baacad5daac24db21d3711d3d9558b752f7f4c265d0dfd1acaa3a53",
+          "url": "https://linuxbrew.bintray.com/bottles/rig-1.11.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fcc18ba335af01c00a5a7e7e41f6431192393d13eb374513ebe9b0b2a75ab0a0",
+          "url": "https://linuxbrew.bintray.com/bottles/rig-1.11.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "785921276b725db4d309ed0833c7f9fece46b6c73d33caa8e74fec614d8afa68",
+          "url": "https://linuxbrew.bintray.com/bottles/rig-1.11.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Provides fake name and address data",
+  "full_name": "rig",
+  "homepage": "https://rig.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rig",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.11"
+  }
+}

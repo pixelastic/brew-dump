@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "969c45027b8e0aa4a4a2fea0ad6e2d3ff311b55080d017b93239f2611e131ef2",
+          "url": "https://linuxbrew.bintray.com/bottles/make-4.2.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8b4c8c8b98b7480237a841539372c30c96f3bbfdcacc0e933e4fa83910fd7e46",
+          "url": "https://linuxbrew.bintray.com/bottles/make-4.2.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c369d10d81412b5402be1e14be57a4074278b59dfe0a1c9e348e0cd46a533878",
+          "url": "https://linuxbrew.bintray.com/bottles/make-4.2.1_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6aec3155056aaf4298192fd3c1bf49b2fb2383c77d2852014b9255a4b3130267",
+          "url": "https://linuxbrew.bintray.com/bottles/make-4.2.1_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c094c8b7e6cb3438d16378a4748f4c8930be5c82fc99408fb40ee27556d9a84a",
+          "url": "https://linuxbrew.bintray.com/bottles/make-4.2.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "guile@2.0"
+  ],
+  "desc": "Utility for directing compilation",
+  "full_name": "make",
+  "homepage": "https://www.gnu.org/software/make/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "make",
+  "oldname": null,
+  "optional_dependencies": [
+    "guile@2.0"
+  ],
+  "options": [
+    {
+      "description": "Do not prepend 'g' to the binary",
+      "option": "--with-default-names"
+    },
+    {
+      "description": "Build with guile@2.0 support",
+      "option": "--with-guile@2.0"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.2.1"
+  }
+}

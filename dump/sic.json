@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "efeb0f7a31a6d4f0ac4c065a4646b5a523788b5edbddd9f99ffa04f00aa41f97",
+          "url": "https://linuxbrew.bintray.com/bottles/sic-1.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f7e19c7d87f5f13e736edcf7f8cb821b4b644f78208c87f2f6655e5b7541abcc",
+          "url": "https://linuxbrew.bintray.com/bottles/sic-1.2.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "23bfa1932017f0c189e6e3ab1345260d8b5a98697999d6548b9046e7662112db",
+          "url": "https://linuxbrew.bintray.com/bottles/sic-1.2.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8ec385f1fa892a80c51dca477f469dfe69864d0d5538b652c45ac17914aa5f89",
+          "url": "https://linuxbrew.bintray.com/bottles/sic-1.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "99c98bba7ce3793f8f5431cdaee24a0bead3a1a2335bce10dc9cf6d53213c249",
+          "url": "https://linuxbrew.bintray.com/bottles/sic-1.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Minimal multiplexing IRC client",
+  "full_name": "sic",
+  "homepage": "https://tools.suckless.org/sic/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sic",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.2"
+  }
+}

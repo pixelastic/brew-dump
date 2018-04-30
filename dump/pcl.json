@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d0b054af73d2d35b7de29e1382ba1232386ddd6e3f00467723eb6ce3c0150256",
+          "url": "https://linuxbrew.bintray.com/bottles/pcl-1.8.1_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4ce797b0f374af5f48dc0973444a484758138ae4f266c3b05eaaa3fa397150de",
+          "url": "https://linuxbrew.bintray.com/bottles/pcl-1.8.1_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "19059cdc4d921fa94df4422db43bd08c92f3523c5c71d56232a30e52a930e103",
+          "url": "https://linuxbrew.bintray.com/bottles/pcl-1.8.1_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "boost",
+    "cminpack",
+    "eigen",
+    "flann",
+    "glew",
+    "libusb",
+    "qhull",
+    "vtk"
+  ],
+  "desc": "Library for 2D/3D image and point cloud processing",
+  "full_name": "pcl",
+  "homepage": "http://www.pointclouds.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pcl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.1"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "7df38aea48a13d73f0a040f1775d915b6bc543d7f7daafbb3eda0b77ee4fdbf6",
+          "url": "https://linuxbrew.bintray.com/bottles/yaze-ag-2.40.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9f3e2a6e51423a97f03e99ed2bca0c7778fcf4f6b223332a824743bdbad20e09",
+          "url": "https://linuxbrew.bintray.com/bottles/yaze-ag-2.40.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "daa83753710abc22b99dcdb20761673e9022e4205b5ddf225d7a6fdfdf47ed79",
+          "url": "https://linuxbrew.bintray.com/bottles/yaze-ag-2.40.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Yet Another Z80 Emulator (by AG)",
+  "full_name": "yaze-ag",
+  "homepage": "http://www.mathematik.uni-ulm.de/users/ag/yaze-ag/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yaze-ag",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.40.5"
+  }
+}

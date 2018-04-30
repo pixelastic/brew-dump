@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1b7a98758ed53e484768a99cfdd0941bad8393ffce23d0f9650bbeff945da1f0",
+          "url": "https://linuxbrew.bintray.com/bottles/libiconv-1.15.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2e16b57017ea3f5c34a57ea7fe39f2aa22db73452eb438d67eb43a4ba8d5bc9d",
+          "url": "https://linuxbrew.bintray.com/bottles/libiconv-1.15.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "53766c5e51bc8e63b0e4c03bae4bcd22d414882eb484a4b55cb3ebe735e20a09",
+          "url": "https://linuxbrew.bintray.com/bottles/libiconv-1.15.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "19eb1ef341c6f45c08347bfb8d24e50d666a269523753862fa9a7a62691c0199",
+          "url": "https://linuxbrew.bintray.com/bottles/libiconv-1.15.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Conversion library",
+  "full_name": "libiconv",
+  "homepage": "https://www.gnu.org/software/libiconv/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libiconv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.15"
+  }
+}

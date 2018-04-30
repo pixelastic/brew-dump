@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5cfd83bfdbd7c92402f1cecc6b66788e6db0c195880a40263365d8130e47db2f",
+          "url": "https://linuxbrew.bintray.com/bottles/yajl-2.1.0.el_capitan.bottle.4.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3213f11462b3c60a33209c4f5d36c96caf1a9409103012ffb427dd51770ac120",
+          "url": "https://linuxbrew.bintray.com/bottles/yajl-2.1.0.high_sierra.bottle.4.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "d44363e381f2f353387374167520ed166f3c0c756887dab6e015961bd9ba5ff3",
+          "url": "https://linuxbrew.bintray.com/bottles/yajl-2.1.0.mavericks.bottle.4.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "d35963d9d40c22e83a878a98a470f88405abf13efa61c7a3a999d7d79724b525",
+          "url": "https://linuxbrew.bintray.com/bottles/yajl-2.1.0.mountain_lion.bottle.4.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1f97e0bbc6680ad4735f0c7ecac20ec87531456c3ab1c93c480c5c5a93a33e1c",
+          "url": "https://linuxbrew.bintray.com/bottles/yajl-2.1.0.sierra.bottle.4.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f0c23a3d9a441a2d01237278c5c0a2b027397534ffc397403db8160b775ad695",
+          "url": "https://linuxbrew.bintray.com/bottles/yajl-2.1.0.x86_64_linux.bottle.4.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "600fec6352ac23a66795cce22cb0a555df43eb464c87693299cb4fc2a1307833",
+          "url": "https://linuxbrew.bintray.com/bottles/yajl-2.1.0.yosemite.bottle.4.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 4,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Yet Another JSON Library",
+  "full_name": "yajl",
+  "homepage": "https://lloyd.github.io/yajl/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yajl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.1.0"
+  }
+}

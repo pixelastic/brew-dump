@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4d8b0f4ab2442f7aeed6c05de39cba14757fa46aff743ad7756bf1d76e762d51",
+          "url": "https://linuxbrew.bintray.com/bottles/veclibfort-0.4.2_5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "442c8d7afac816004009e35cf45ea9c9a81bac6425c57822dc838f7521ffaaf4",
+          "url": "https://linuxbrew.bintray.com/bottles/veclibfort-0.4.2_5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9431506c5f41a5a6456f7b785312e876b7e2b850d63ef2a8ba86c545da2ad7f9",
+          "url": "https://linuxbrew.bintray.com/bottles/veclibfort-0.4.2_5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gcc"
+  ],
+  "desc": "GNU Fortran compatibility for Apple's vecLib",
+  "full_name": "veclibfort",
+  "homepage": "https://github.com/mcg1969/vecLibFort",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "veclibfort",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 5,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.2"
+  }
+}

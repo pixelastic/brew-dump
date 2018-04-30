@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "663d68d69a865daa6311f70ed2412abe79affa23b8fd76b44eaca5d9735fba36",
+          "url": "https://linuxbrew.bintray.com/bottles/fetchmail-6.3.26.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8e037ee9a367c9c4a26d5491e4db84285390d0ef1949c30d56c0726706dab6de",
+          "url": "https://linuxbrew.bintray.com/bottles/fetchmail-6.3.26.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "63692fabb3746b739ce3b81f2d1ce964ca4e74613ea63f307e734f90dbcea513",
+          "url": "https://linuxbrew.bintray.com/bottles/fetchmail-6.3.26.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "44c0f861ca7a8bf1af2bd5c1007a48e397bba3c8dfeb7c3a3cc5299dd1cb7c66",
+          "url": "https://linuxbrew.bintray.com/bottles/fetchmail-6.3.26.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Fetch mail from a POP, IMAP, ETRN, or ODMR-capable server",
+  "full_name": "fetchmail",
+  "homepage": "http://www.fetchmail.info/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fetchmail",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.3.26"
+  }
+}

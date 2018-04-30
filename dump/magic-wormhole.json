@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "33a9b185a368198227bf90cab255af3fe0bc2093f05d53ba4a7d35ceb9d6a0a5",
+          "url": "https://linuxbrew.bintray.com/bottles/magic-wormhole-0.10.5_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8c4929dd1a1577e204cb3b0edcf54611012963f239563f233f73d8cfaa036f08",
+          "url": "https://linuxbrew.bintray.com/bottles/magic-wormhole-0.10.5_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cbc432ae8af7b07e8e709986482623f6b4bfe178f1355a6492b1b504d66ccb99",
+          "url": "https://linuxbrew.bintray.com/bottles/magic-wormhole-0.10.5_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libsodium",
+    "openssl",
+    "python",
+    "libffi",
+    "pkg-config"
+  ],
+  "desc": "Securely transfers data between computers",
+  "full_name": "magic-wormhole",
+  "homepage": "https://github.com/warner/magic-wormhole",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "magic-wormhole",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.10.5"
+  }
+}

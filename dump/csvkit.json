@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5016083f33fc40831e091600df6ec364bb9e6a4af8e14cb33bec527d3e2a0cbf",
+          "url": "https://linuxbrew.bintray.com/bottles/csvkit-1.0.2_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "269f032778475f2eb7f1651f5c7bd619d224ba985cc1b1846da28be7fd6854db",
+          "url": "https://linuxbrew.bintray.com/bottles/csvkit-1.0.2_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "550297fce5079516901dbc41fe41544b025eef50000e76ce106ae4921cea746d",
+          "url": "https://linuxbrew.bintray.com/bottles/csvkit-1.0.2_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Suite of command-line tools for converting to and working with CSV",
+  "full_name": "csvkit",
+  "homepage": "https://csvkit.readthedocs.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "csvkit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.2"
+  }
+}

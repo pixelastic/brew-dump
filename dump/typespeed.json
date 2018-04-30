@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "82223614505b9fac677ba4ac4ad9f3b646597cddde604f8c981cc000b8ed7bf6",
+          "url": "https://linuxbrew.bintray.com/bottles/typespeed-0.6.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "70fe987eeaabcf8e94996d56a478c1aac14781f2475337476ff2dc87543bb602",
+          "url": "https://linuxbrew.bintray.com/bottles/typespeed-0.6.5.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "2dca5154739dc08e5a3ac88acfed5377f7547124cfceb6e4e86e9a1bf2fa531a",
+          "url": "https://linuxbrew.bintray.com/bottles/typespeed-0.6.5.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8c4af1a3e4e8c32eab5da01fc3b30604eaad86bf84f4a96af7878599c92a4a36",
+          "url": "https://linuxbrew.bintray.com/bottles/typespeed-0.6.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "23d3acaedb26f5bedccc2186dec138679fdea40f036edd57ce84ff363c082206",
+          "url": "https://linuxbrew.bintray.com/bottles/typespeed-0.6.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Zap words flying across the screen by typing them correctly",
+  "full_name": "typespeed",
+  "homepage": "https://typespeed.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "typespeed",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.5"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gnupg"
+  ],
+  "desc": "Safely store secrets in Git/Mercurial/Subversion",
+  "full_name": "blackbox",
+  "homepage": "https://github.com/StackExchange/blackbox",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "blackbox",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "1.20170611"
+  }
+}

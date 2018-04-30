@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "50ae18bed6b26893049da20e16dbbcaaabbde2078df7fd6c9be6ce2e42f4f77a",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-machine-driver-vultr-1.4.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "62f227cf1a4c854fc311024d892a40e71a061576a051818126a469f2213400ca",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-machine-driver-vultr-1.4.0.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7af4e94255b4b0ffe451c7f73355adee8ca6fcc4e8a38ba7157acee1a3ba1409",
+          "url": "https://linuxbrew.bintray.com/bottles/docker-machine-driver-vultr-1.4.0.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "godep"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "godep",
+    "docker-machine"
+  ],
+  "desc": "Docker Machine driver plugin for Vultr Cloud",
+  "full_name": "docker-machine-driver-vultr",
+  "homepage": "https://github.com/janeczku/docker-machine-vultr",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "docker-machine-driver-vultr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without docker-machine support",
+      "option": "--without-docker-machine"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "docker-machine"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.4.0"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "772f6718786e66657b0647dc7233b3680903a2e16d06fa59a9f804dd33d5096a",
+          "url": "https://linuxbrew.bintray.com/bottles/xrick-021212.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a45d9b27ee02a21aa81ecc8b7eaf2718521388972559003c46fc428d15584f15",
+          "url": "https://linuxbrew.bintray.com/bottles/xrick-021212.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "03e69c34042ffa8849aaa653f06ae889a6d404797a42c6549ce7de8d3de72dce",
+          "url": "https://linuxbrew.bintray.com/bottles/xrick-021212.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2d4e9e140f15692acd4d0e9f4a9da08d1a3e6f3d3fdbc8d4d799e6d2bde91e8f",
+          "url": "https://linuxbrew.bintray.com/bottles/xrick-021212.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl"
+  ],
+  "desc": "Clone of Rick Dangerous",
+  "full_name": "xrick",
+  "homepage": "https://www.bigorno.net/xrick/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xrick",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "021212"
+  }
+}

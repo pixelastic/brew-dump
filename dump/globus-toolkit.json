@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b13c8904b16ac206e4fdcc45e25335ef17a636824b41a3f40766e774cbd27895",
+          "url": "https://linuxbrew.bintray.com/bottles/globus-toolkit-6.0.1517984806.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5da7a2839d7c3d94c45ef69d29d33cf728689b4a7eb5be187f0acef70a17e841",
+          "url": "https://linuxbrew.bintray.com/bottles/globus-toolkit-6.0.1517984806.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "49a4adb00b948b6723b9b2106527789324dab90dae6044a5344baed84cb0032f",
+          "url": "https://linuxbrew.bintray.com/bottles/globus-toolkit-6.0.1517984806.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "dd2ee109aadf6e27b7869302d19741e42c02ecba07becbe1135373fa3a718530",
+          "url": "https://linuxbrew.bintray.com/bottles/globus-toolkit-6.0.1517984806.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libtool",
+    "openssl",
+    "zlib"
+  ],
+  "desc": "Toolkit used for building grids",
+  "full_name": "globus-toolkit",
+  "homepage": "https://www.globus.org/toolkit/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "globus-toolkit",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.0.1517984806"
+  }
+}

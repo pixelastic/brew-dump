@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "43f0afaca7d61a7f55489260deb233c0a35619d3101d362f80dc7a765a877599",
+          "url": "https://linuxbrew.bintray.com/bottles/tiff2png-0.92_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e20cc758aab7de1c1e9d286e469a444fe9e384bcffe472ec6a52c06b31131ac4",
+          "url": "https://linuxbrew.bintray.com/bottles/tiff2png-0.92_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "19951f2ec63fa3c77a43fe2c2444251686ad4fcc1038fbeeb8873fcd528d8954",
+          "url": "https://linuxbrew.bintray.com/bottles/tiff2png-0.92_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "bf11412cac81c328f8e8de50c182be049696d053ac900b56302685e858562811",
+          "url": "https://linuxbrew.bintray.com/bottles/tiff2png-0.92_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libtiff",
+    "libpng",
+    "jpeg"
+  ],
+  "desc": "TIFF to PNG converter",
+  "full_name": "tiff2png",
+  "homepage": "http://www.libpng.org/pub/png/apps/tiff2png.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tiff2png",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.92"
+  }
+}

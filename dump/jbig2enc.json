@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f903109f6f2da89af11e576c8776f10e16eadb71c0a60edb9f35157b965edd98",
+          "url": "https://linuxbrew.bintray.com/bottles/jbig2enc-0.29.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7431e5b6cf8354ab27bbb7710b2133eb3d381f3c6a30b7143332fba5e7fe82f7",
+          "url": "https://linuxbrew.bintray.com/bottles/jbig2enc-0.29.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "53d757dc93193756cc90f94a6ca2f4bad2b77610e5b93d5d74f95899019771be",
+          "url": "https://linuxbrew.bintray.com/bottles/jbig2enc-0.29.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c4866faffc379de19928354c429ad603b74891c77db4289a6c4b2595cd08efb8",
+          "url": "https://linuxbrew.bintray.com/bottles/jbig2enc-0.29.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "leptonica"
+  ],
+  "desc": "JBIG2 encoder (for monochrome documents)",
+  "full_name": "jbig2enc",
+  "homepage": "https://github.com/agl/jbig2enc",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jbig2enc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.29"
+  }
+}

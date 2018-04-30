@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "867dffadb33d24d4a743df13c95ec08ff526f3be96b4965ae5e97ec08d46192d",
+          "url": "https://linuxbrew.bintray.com/bottles/grep-3.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8dadfa6959ee17790ef8cc578981ede226b29339549c72d26eaaa1c1dab5e0e8",
+          "url": "https://linuxbrew.bintray.com/bottles/grep-3.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "75fd5efc0986b1771c3082e08b9dc2d8495546f81ad1a38a9a05f506c8046687",
+          "url": "https://linuxbrew.bintray.com/bottles/grep-3.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "fc2bda3bd639dcca1a93cdfd0291a989e422f0aa3c25d9e05167a4ef5a7fb280",
+          "url": "https://linuxbrew.bintray.com/bottles/grep-3.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "72ea449768eb5745712b40464b8eb1e7b9dc908ce26c8353e453681ee824ec89",
+          "url": "https://linuxbrew.bintray.com/bottles/grep-3.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "pcre"
+  ],
+  "desc": "GNU grep, egrep and fgrep",
+  "full_name": "grep",
+  "homepage": "https://www.gnu.org/software/grep/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "grep",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Do not prepend 'g' to the binary",
+      "option": "--with-default-names"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.1"
+  }
+}

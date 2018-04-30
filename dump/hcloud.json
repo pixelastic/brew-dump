@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "eb41b7bd5cc58860c20b4d7e06d93e4d2d9ec7fac6bc070c2e401a488098a3a8",
+          "url": "https://linuxbrew.bintray.com/bottles/hcloud-1.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5deffd6efe224636362ba5e995df57b3c4ec85065c15f8a55261608a7e590501",
+          "url": "https://linuxbrew.bintray.com/bottles/hcloud-1.4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "72a32be135be4719a5ec50c1bb8762d1c3648c7f6a5a814b234b2d69c7341300",
+          "url": "https://linuxbrew.bintray.com/bottles/hcloud-1.4.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "449dcae9cea08d9e68bea2d93724f45bd5a2b8466d30807e51f62a670d8b2ed9",
+          "url": "https://linuxbrew.bintray.com/bottles/hcloud-1.4.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Command-line interface for Hetzner Cloud",
+  "full_name": "hcloud",
+  "homepage": "https://github.com/hetznercloud/cli",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hcloud",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.0"
+  }
+}

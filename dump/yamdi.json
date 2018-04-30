@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "cfaf451a985b0a8cba24a0131c8e0e9a6102eb4b6c315e045ce258999cb19494",
+          "url": "https://linuxbrew.bintray.com/bottles/yamdi-1.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1c524b6c2d791792b27d15941ecd179b487fbdcd299640f06cbf17bd5f8cf434",
+          "url": "https://linuxbrew.bintray.com/bottles/yamdi-1.9.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f0a2a40d6667893a51fb5082a3c09685b688a06df2df8d8b42c350c1dd0f6e16",
+          "url": "https://linuxbrew.bintray.com/bottles/yamdi-1.9.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "546a4c5400ef75431ecd3a39dbabda5e5599d82ac3f65f6dafc5d3745a90d8e2",
+          "url": "https://linuxbrew.bintray.com/bottles/yamdi-1.9.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "7041c6dcf877e8e003e2acae68a75ae6a461e92df63fde374157884b52cf2d82",
+          "url": "https://linuxbrew.bintray.com/bottles/yamdi-1.9.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Add metadata to Flash video",
+  "full_name": "yamdi",
+  "homepage": "https://yamdi.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yamdi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9"
+  }
+}

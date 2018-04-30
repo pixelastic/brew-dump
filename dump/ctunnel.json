@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6a5de1059ec2e138e68530fd62f51b102e29d6ecfb83eaa22e3f79bc0d9acf4c",
+          "url": "https://linuxbrew.bintray.com/bottles/ctunnel-0.7_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9a2394bdea7bf5ca99f5e92f6d99e8729fc6e81da0d6353f22cefe3e8df4baa4",
+          "url": "https://linuxbrew.bintray.com/bottles/ctunnel-0.7_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "3a442229dba723b14300c711e84b3dd0740b1b0488c6d4b59121193cba7195c7",
+          "url": "https://linuxbrew.bintray.com/bottles/ctunnel-0.7_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dfcf3349529b7b2ab47298a9090d916be9eb3b9c0d72cd644f0e4b1de09796be",
+          "url": "https://linuxbrew.bintray.com/bottles/ctunnel-0.7_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "70736b739ab67933916bff1ce0d4ea9105c0faef9576646a5f7abf5e80f2b9b3",
+          "url": "https://linuxbrew.bintray.com/bottles/ctunnel-0.7_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "openssl"
+  ],
+  "desc": "Cryptographic or plain tunnels for TCP/UDP connections",
+  "full_name": "ctunnel",
+  "homepage": "https://github.com/alienrobotarmy/ctunnel",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ctunnel",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with tuntap support",
+      "option": "--with-tuntap"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "tuntap",
+      "download": null,
+      "name": "tuntap"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7a00f4c71d8f2173a4a21f1638010ee149d927dfb0f95a901036290f9b6529b5",
+          "url": "https://linuxbrew.bintray.com/bottles/gf-complete-2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d4049ea995b6cb143af5383a101d15df811f88ab3d2d4c21428db967898e1927",
+          "url": "https://linuxbrew.bintray.com/bottles/gf-complete-2.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "9f82edf4ac3d0207b91075dbc7656ab21f6ab82b7df12053bdbcbf9886109cd3",
+          "url": "https://linuxbrew.bintray.com/bottles/gf-complete-2.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e6528a98b675a939a81a37ffd6f780c531a53dae8fc51eb8ec9277be1a363d37",
+          "url": "https://linuxbrew.bintray.com/bottles/gf-complete-2.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fd9172068e361c01e87a7a696e2ad6e7cee18f473cdd878a249e7df99e6cdf4a",
+          "url": "https://linuxbrew.bintray.com/bottles/gf-complete-2.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "desc": "Comprehensive Library for Galois Field Arithmetic",
+  "full_name": "gf-complete",
+  "homepage": "http://jerasure.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gf-complete",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0"
+  }
+}

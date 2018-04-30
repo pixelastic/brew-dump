@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "dd7519b26d47bda34d522508e965d460f4b1ef3d115a5ae45a2b043d0040bbf9",
+          "url": "https://linuxbrew.bintray.com/bottles/xdot-0.9_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dd7519b26d47bda34d522508e965d460f4b1ef3d115a5ae45a2b043d0040bbf9",
+          "url": "https://linuxbrew.bintray.com/bottles/xdot-0.9_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dd7519b26d47bda34d522508e965d460f4b1ef3d115a5ae45a2b043d0040bbf9",
+          "url": "https://linuxbrew.bintray.com/bottles/xdot-0.9_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gtk+3",
+    "py3cairo",
+    "pygobject3",
+    "python"
+  ],
+  "desc": "Interactive viewer for graphs written in Graphviz's dot language",
+  "full_name": "xdot",
+  "homepage": "https://github.com/jrfonseca/xdot.py",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "xdot",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9"
+  }
+}

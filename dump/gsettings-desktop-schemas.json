@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0bd6835780ef3b7b9b2940c8c2e33b8257bc367883d897905e3c55ace5c35033",
+          "url": "https://linuxbrew.bintray.com/bottles/gsettings-desktop-schemas-3.28.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "0bd6835780ef3b7b9b2940c8c2e33b8257bc367883d897905e3c55ace5c35033",
+          "url": "https://linuxbrew.bintray.com/bottles/gsettings-desktop-schemas-3.28.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0bd6835780ef3b7b9b2940c8c2e33b8257bc367883d897905e3c55ace5c35033",
+          "url": "https://linuxbrew.bintray.com/bottles/gsettings-desktop-schemas-3.28.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "6728028f18eabf4fe389d092129f73f818ab64050dae8e5932052a85c3cad970",
+          "url": "https://linuxbrew.bintray.com/bottles/gsettings-desktop-schemas-3.28.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool",
+    "gobject-introspection"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "gobject-introspection",
+    "glib",
+    "gettext",
+    "libffi",
+    "python@2",
+    "expat"
+  ],
+  "desc": "GSettings schemas for desktop components",
+  "full_name": "gsettings-desktop-schemas",
+  "homepage": "https://download.gnome.org/sources/gsettings-desktop-schemas/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gsettings-desktop-schemas",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.28.0"
+  }
+}

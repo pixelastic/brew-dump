@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "14bb0680842b8b392cb1a5f5baf142e99a54a538d1a587f6d1158785b276ffc6",
+          "url": "https://linuxbrew.bintray.com/bottles/intltool-0.51.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7924c9c7dc7b3eee0056171df8c6b66c2e0e8888e4638232e967a5ea31ca5b86",
+          "url": "https://linuxbrew.bintray.com/bottles/intltool-0.51.0_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "5deeef3625d52f71d633e7510396d0028ec7b7ccf40c78b5d254bdf4214e6363",
+          "url": "https://linuxbrew.bintray.com/bottles/intltool-0.51.0_1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "739e17a9f4e75913118a8ef0fd2a7ad7d645769cc61aeb1d6bcf760fe4bd48a7",
+          "url": "https://linuxbrew.bintray.com/bottles/intltool-0.51.0_1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e587e46b6ebdebb7864eb4f9cb17c221024d9167ae0148899adedb6127b2bdfb",
+          "url": "https://linuxbrew.bintray.com/bottles/intltool-0.51.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "250734ea7e79dec10ea7914695614b9a5b5604dde1ccc2488663258bab5c10eb",
+          "url": "https://linuxbrew.bintray.com/bottles/intltool-0.51.0_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "da6c24f1cc40fdf6ae286ec003ecd779d0f866fe850e36f5e5953786fa45a561",
+          "url": "https://linuxbrew.bintray.com/bottles/intltool-0.51.0_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "expat"
+  ],
+  "desc": "String tool",
+  "full_name": "intltool",
+  "homepage": "https://wiki.freedesktop.org/www/Software/intltool",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "intltool",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.51.0"
+  }
+}

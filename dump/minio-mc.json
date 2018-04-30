@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b106e7ae5307d4f95b16968c3bf8d3959a69ace1ff5da79148a3a4460d0a03a6",
+          "url": "https://linuxbrew.bintray.com/bottles/minio-mc-20180325012222.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1235f53d757d0c51ef77dbf3e1900ca7660d93b0f754972437ce1720458c511d",
+          "url": "https://linuxbrew.bintray.com/bottles/minio-mc-20180325012222.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8a9c6456b0b615fab9dc2ebdf5601c814e370f0c14fff7431145a3a1a3af2732",
+          "url": "https://linuxbrew.bintray.com/bottles/minio-mc-20180325012222.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "dd63f3176aeff47377e06bcef4d268c6fedda050b52899d35aeed163e1445ce5",
+          "url": "https://linuxbrew.bintray.com/bottles/minio-mc-20180325012222.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "midnight-commander"
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "ls, cp, mkdir, diff and rsync for filesystems and object storage",
+  "full_name": "minio-mc",
+  "homepage": "https://github.com/minio/mc",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "minio-mc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20180325012222"
+  }
+}

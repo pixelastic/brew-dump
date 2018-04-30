@@ -1,0 +1,46 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "In order to use zplug, please add the following to your .zshrc:\n  export ZPLUG_HOME=/home/tim/.linuxbrew/opt/zplug\n  source $ZPLUG_HOME/init.zsh\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "zsh"
+  ],
+  "desc": "The next-generation plugin manager for zsh",
+  "full_name": "zplug",
+  "homepage": "https://zplug.sh/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zplug",
+  "oldname": null,
+  "optional_dependencies": [
+    "zsh"
+  ],
+  "options": [
+    {
+      "description": "Build with zsh support",
+      "option": "--with-zsh"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.4.2"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "eeff9d00549785074a04c0c12b1ef0551a4b6787a704f561397bcc0dd8489f2f",
+          "url": "https://linuxbrew.bintray.com/bottles/jags-4.3.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "63cd65d1d545e7240d4fff3a2be5795a78808952b39edf94bb6c6ae96b6e6647",
+          "url": "https://linuxbrew.bintray.com/bottles/jags-4.3.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "16837555592d5d29b1d7b62cb2f680f7a16d46946e05e5ec3c9e129c0e577ba0",
+          "url": "https://linuxbrew.bintray.com/bottles/jags-4.3.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gcc"
+  ],
+  "desc": "Just Another Gibbs Sampler for Bayesian MCMC simulation",
+  "full_name": "jags",
+  "homepage": "https://mcmc-jags.sourceforge.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jags",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.3.0"
+  }
+}

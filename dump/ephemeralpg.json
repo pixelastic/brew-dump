@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "7cf339bceca0f80ace1936fb4229d793b0b566f06854fa62d860c12de1470f69",
+          "url": "https://linuxbrew.bintray.com/bottles/ephemeralpg-2.2_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "16030c95a119e8cfbe281d0dc1184c2d973321bcbed042edc097b064a90805ef",
+          "url": "https://linuxbrew.bintray.com/bottles/ephemeralpg-2.2_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "60c8611009dc31b7e96892efdbff55292a54b2f8d0ca3ea907364beab4b2be6c",
+          "url": "https://linuxbrew.bintray.com/bottles/ephemeralpg-2.2_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7f1e0cafcf30010f32003a168f650924d826c91a66855da112795517fc76121e",
+          "url": "https://linuxbrew.bintray.com/bottles/ephemeralpg-2.2_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "postgresql"
+  ],
+  "desc": "Run tests on an isolated, temporary Postgres database",
+  "full_name": "ephemeralpg",
+  "homepage": "http://ephemeralpg.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ephemeralpg",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2"
+  }
+}

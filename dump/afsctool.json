@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "28e53f9426f88d7aaa41ef956a41aec8a68f5363d9e570a6be70e61e583e6b8f",
+          "url": "https://linuxbrew.bintray.com/bottles/afsctool-1.6.4_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "dae94371d947e9ddf0da4efd50425652753944da5f96c6aaa835b5ad1c361596",
+          "url": "https://linuxbrew.bintray.com/bottles/afsctool-1.6.4_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ad17b0f173670e0e7909de0086dbfc8e3db2fef0a6a576875d199d6c14b8f212",
+          "url": "https://linuxbrew.bintray.com/bottles/afsctool-1.6.4_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Utility for manipulating HFS+ compressed files",
+  "full_name": "afsctool",
+  "homepage": "https://brkirch.wordpress.com/afsctool/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "afsctool",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.6.4"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "aliases": [
+    "o-caml"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e22f4fa1ccbecc356b83ff7a1161b4eaeef507ef49403c6dd61a24199c2cdf19",
+          "url": "https://linuxbrew.bintray.com/bottles/ocaml-4.06.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ec72f0455df24595bf89efb6c99d3773af3561219238b15e63e7181e32414bb0",
+          "url": "https://linuxbrew.bintray.com/bottles/ocaml-4.06.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "14490d7affd7cf05dd0cca8acd82e249b6682152ffbe6e2db2735680066b8641",
+          "url": "https://linuxbrew.bintray.com/bottles/ocaml-4.06.1_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3707b398ef65a5dd56c4f2635e68fed1587830fcf939a17b64761cc730eb7a16",
+          "url": "https://linuxbrew.bintray.com/bottles/ocaml-4.06.1_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "General purpose programming language in the ML family",
+  "full_name": "ocaml",
+  "homepage": "https://ocaml.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ocaml",
+  "oldname": "objective-caml",
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Install with the Graphics module",
+      "option": "--with-x11"
+    },
+    {
+      "description": "Install with flambda support",
+      "option": "--with-flambda"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.06.1"
+  }
+}

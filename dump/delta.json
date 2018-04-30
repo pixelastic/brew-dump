@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "202409012500969cfd034c9d44c441a809445a3b367d514357346438aa850f14",
+          "url": "https://linuxbrew.bintray.com/bottles/delta-2006.08.03.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "46734f3eb952455ecd9237ce455aebb3e66be791bbf190021d894dae39d55b66",
+          "url": "https://linuxbrew.bintray.com/bottles/delta-2006.08.03.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "04102ae55ffc2cc4351816b010544b854c21f1c5e2a462a6af0e57ec2f57b501",
+          "url": "https://linuxbrew.bintray.com/bottles/delta-2006.08.03.mavericks.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "07e775a1054966ad2924512386643bc8cb4ef3ad7e12ce9a140015c82fba3072",
+          "url": "https://linuxbrew.bintray.com/bottles/delta-2006.08.03.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d3374cc3e84c93bb84615b1669503ea8b708ab65baf629ee0be9a728b12b10bc",
+          "url": "https://linuxbrew.bintray.com/bottles/delta-2006.08.03.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Programatically minimize files to isolate features of interest",
+  "full_name": "delta",
+  "homepage": "http://delta.tigris.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "delta",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2006.08.03"
+  }
+}

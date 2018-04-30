@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "eb09248f87963fc8c88953f4a9c857b6e5bb9380f139a560dd2e95830ffbd88f",
+          "url": "https://linuxbrew.bintray.com/bottles/rancher-cli-0.6.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "97b5acb02255e465ff5a766176a90367b3f61056bca1ba4b8df09e48161b96aa",
+          "url": "https://linuxbrew.bintray.com/bottles/rancher-cli-0.6.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bc191f6c936af475f3117b066805d1d64de9619edb1209173ba27e92e59f8276",
+          "url": "https://linuxbrew.bintray.com/bottles/rancher-cli-0.6.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "f878eac4d1a8d715f235ba972fed6b4154b1a95ca281cad47fb781a32f25f6f6",
+          "url": "https://linuxbrew.bintray.com/bottles/rancher-cli-0.6.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "The Rancher CLI is a unified tool to manage your Rancher server",
+  "full_name": "rancher-cli",
+  "homepage": "https://github.com/rancher/cli",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rancher-cli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.9"
+  }
+}

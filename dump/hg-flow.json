@@ -1,0 +1,42 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "1. Put following lines into your ~/.hgrc\n2. Restart your shell and try \"hg flow\".\n3. For more information go to https://bitbucket.org/yinwm/hgflow\n\n    [extensions]\n    flow = /home/tim/.linuxbrew/opt/hg-flow/libexec/hgflow.py\n    [flow]\n    autoshelve = true\n\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "mercurial"
+  ],
+  "desc": "Development model for mercurial inspired by git-flow",
+  "full_name": "hg-flow",
+  "homepage": "https://bitbucket.org/yujiewu/hgflow",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hg-flow",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.8.3"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "032c83b3302b78c198d1e346258a1d09c542a1361e1b0f000f82306d8c82acb4",
+          "url": "https://linuxbrew.bintray.com/bottles/sword-1.8.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3279c77477c21d1636f573202df976bd37fbaca39ed7e3b310158dad4e961641",
+          "url": "https://linuxbrew.bintray.com/bottles/sword-1.8.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "794afe687eb7933fd3aeaee7e480224295614fc0138b8d89b7d9b81be55239a1",
+          "url": "https://linuxbrew.bintray.com/bottles/sword-1.8.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "daa1f0360c2a9b72ecdba5ca9574bfe9688f4c852d1313456502a2538b93b1e7",
+          "url": "https://linuxbrew.bintray.com/bottles/sword-1.8.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "clucene",
+    "icu4c"
+  ],
+  "desc": "Cross-platform tools to write Bible software",
+  "full_name": "sword",
+  "homepage": "https://www.crosswire.org/sword/index.jsp",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sword",
+  "oldname": null,
+  "optional_dependencies": [
+    "clucene",
+    "icu4c"
+  ],
+  "options": [
+    {
+      "description": "Use clucene for text searching capabilities",
+      "option": "--with-clucene"
+    },
+    {
+      "description": "Use icu4c for unicode support",
+      "option": "--with-icu4c"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.1"
+  }
+}

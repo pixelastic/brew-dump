@@ -1,0 +1,65 @@
+{
+  "aliases": [
+    "ctags-exuberant"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a17ee0cd08909484aeeca9177b356e14655d5f75ecaa4b36a3bd2e2248d8ac91",
+          "url": "https://linuxbrew.bintray.com/bottles/ctags-5.8_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "497e0220e354a9ec7e0735d3ba68a27892f1f69973d6992e36667ea197a236bc",
+          "url": "https://linuxbrew.bintray.com/bottles/ctags-5.8_1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "56bc233d09bc3591ad1f3a9c5282f9f9cf0729b0d5a0ee001d4ea6f68f2b0ab7",
+          "url": "https://linuxbrew.bintray.com/bottles/ctags-5.8_1.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "3d7c323c6ec795ebb41076805bc58a4ff98da715dd7b89f649782306e91b66cb",
+          "url": "https://linuxbrew.bintray.com/bottles/ctags-5.8_1.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Under some circumstances, emacs and ctags can conflict. By default,\nemacs provides an executable `ctags` that would conflict with the\nexecutable of the same name that ctags provides. To prevent this,\nHomebrew removes the emacs `ctags` and its manpage before linking.\n\nHowever, if you install emacs with the `--keep-ctags` option, then\nthe `ctags` emacs provides will not be removed. In that case, you\nwon't be able to install ctags successfully. It will build but not\nlink.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Reimplementation of ctags(1)",
+  "full_name": "ctags",
+  "homepage": "https://ctags.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ctags",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.8"
+  }
+}

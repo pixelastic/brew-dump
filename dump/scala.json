@@ -1,0 +1,54 @@
+{
+  "aliases": [
+    "scala@2.12"
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To use with IntelliJ, set the Scala home to:\n  /home/tim/.linuxbrew/opt/scala/idea\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "JVM-based programming language",
+  "full_name": "scala",
+  "homepage": "https://www.scala-lang.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "scala",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Also install library documentation",
+      "option": "--with-docs"
+    },
+    {
+      "description": "Also install sources for IDE support",
+      "option": "--with-src"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": "2.13.0-M3",
+    "head": null,
+    "stable": "2.12.5"
+  }
+}

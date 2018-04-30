@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "6b6bc9bf835c1ea33fd9183034a4c8a6c719e00ead5d66fa4fbc4c3cfbc00350",
+          "url": "https://linuxbrew.bintray.com/bottles/libstfl-0.24_7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a0221f95e58fee2ff79d011ed8daacf4522b8b430435035ed9afda1a64346b76",
+          "url": "https://linuxbrew.bintray.com/bottles/libstfl-0.24_7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "460e280720231a9a4141508378faea220bb5ef70a9aa6b86a3af13f3e848ec1a",
+          "url": "https://linuxbrew.bintray.com/bottles/libstfl-0.24_7.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "swig"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ruby",
+    "swig"
+  ],
+  "desc": "Library implementing a curses-based widget set for terminals",
+  "full_name": "libstfl",
+  "homepage": "http://www.clifford.at/stfl/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libstfl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without Perl support",
+      "option": "--without-perl"
+    },
+    {
+      "description": "Build without Python 2 support",
+      "option": "--without-python"
+    },
+    {
+      "description": "Build without Ruby support",
+      "option": "--without-ruby"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "ruby"
+  ],
+  "requirements": [
+  ],
+  "revision": 7,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.24"
+  }
+}

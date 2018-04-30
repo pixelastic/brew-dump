@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3d02fa0e6e8a6f9518341fc3934e7b53e13ac42304b07b7088ce54384ed64371",
+          "url": "https://linuxbrew.bintray.com/bottles/fsw-1.3.9.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d16086899f7ae88e0fd4eeaac5ede4e5749d688e9bb2385686f824f0a0e24677",
+          "url": "https://linuxbrew.bintray.com/bottles/fsw-1.3.9.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "3d35dff82bb319e3d714fabf1638e3d9b5fa5760c04ae193ad45800507110e0d",
+          "url": "https://linuxbrew.bintray.com/bottles/fsw-1.3.9.mavericks.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "71b5da385bf9d59d33e6c331f23cab5676284d627129ee4f0352976b8ce13fe8",
+          "url": "https://linuxbrew.bintray.com/bottles/fsw-1.3.9.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2a439435d39ddd9a8c1bb978ae7ebb25415fd7a3d0c7079e6a731ecbbf035f68",
+          "url": "https://linuxbrew.bintray.com/bottles/fsw-1.3.9.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "File change monitor with multiple backends",
+  "full_name": "fsw",
+  "homepage": "https://emcrisostomo.github.io/fsw/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fsw",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.3.9"
+  }
+}

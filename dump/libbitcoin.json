@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5c14adb5b6f2abc5b02e4126cd86087ea78ef040829f721a55633f49c9350c9f",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-3.5.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "45fc36aa8d143455d4aeca84faea198711256bafc33429aaef9ebae9babbe3d5",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-3.5.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "525d2589227cb234853720d5d47b8b6d454849bb0398663bcfdf735115602e39",
+          "url": "https://linuxbrew.bintray.com/bottles/libbitcoin-3.5.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "boost",
+    "libpng",
+    "qrencode"
+  ],
+  "desc": "Bitcoin Cross-Platform C++ Development Toolkit",
+  "full_name": "libbitcoin",
+  "homepage": "https://libbitcoin.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libbitcoin",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.5.0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d29abe7987fdb2901996e8e6c4aaf2c8a0daeb98b6cee2a585f048769082a4ad",
+          "url": "https://linuxbrew.bintray.com/bottles/octomap-1.9.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3e72d0af26510eb79310138dc80a2b2dea541e90ac58a953e5294251bca14728",
+          "url": "https://linuxbrew.bintray.com/bottles/octomap-1.9.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "eb292c0c7005c2fd75b65f50bc2a361181ee7c3c5113f6da56f80b4f03bf75fc",
+          "url": "https://linuxbrew.bintray.com/bottles/octomap-1.9.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "cbf5558070f6b63acd79ebeb842b47e94ce5487b896fea33959940d4c3801a6c",
+          "url": "https://linuxbrew.bintray.com/bottles/octomap-1.9.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Efficient probabilistic 3D mapping framework based on octrees",
+  "full_name": "octomap",
+  "homepage": "https://octomap.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "octomap",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9.0"
+  }
+}

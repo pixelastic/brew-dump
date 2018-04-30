@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "0f12587d134ada1588db6f6f228f8ff679101c0c53db4715bdb93a03292b65da",
+          "url": "https://linuxbrew.bintray.com/bottles/dub-1.8.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7484306cfaba14aff965a6a32ab47d194592ea8ae6720f617b545de586db3785",
+          "url": "https://linuxbrew.bintray.com/bottles/dub-1.8.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "309c7a42cdf6b1eda8dfc8c3500c51ece625be157ee9ee6233b75655f9a14413",
+          "url": "https://linuxbrew.bintray.com/bottles/dub-1.8.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "21c2f60df9a1dcc712b40acb90d7009e96cdf83084b4b73603095025c4ced261",
+          "url": "https://linuxbrew.bintray.com/bottles/dub-1.8.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "dmd"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "dmd",
+    "curl"
+  ],
+  "desc": "Build tool for D projects",
+  "full_name": "dub",
+  "homepage": "https://code.dlang.org/getting_started",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dub",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without pkg-config support",
+      "option": "--without-pkg-config"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "pkg-config"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 1,
+  "versions": {
+    "bottle": true,
+    "devel": "1.9.0-beta.1",
+    "head": "HEAD",
+    "stable": "1.8.1"
+  }
+}

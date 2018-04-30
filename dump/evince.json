@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "9a417f126fe8cba7c999fd2bdb4e5f44360e37f36883a664312cb85c88f5b78d",
+          "url": "https://linuxbrew.bintray.com/bottles/evince-3.28.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e798fb7ca35833677970456d9902e07c70adf43c56c4a85ce7dfe376ad6e0db1",
+          "url": "https://linuxbrew.bintray.com/bottles/evince-3.28.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "7c81ed517fe583d05561224deed4d37771ba5280345361b771fe362a8c4c73d3",
+          "url": "https://linuxbrew.bintray.com/bottles/evince-3.28.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "intltool",
+    "itstool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "intltool",
+    "itstool",
+    "poppler",
+    "libxml2",
+    "gtk+3",
+    "hicolor-icon-theme",
+    "adwaita-icon-theme",
+    "libsecret",
+    "libspectre",
+    "shared-mime-info",
+    "djvulibre",
+    "python@2"
+  ],
+  "desc": "GNOME document viewer",
+  "full_name": "evince",
+  "homepage": "https://wiki.gnome.org/Apps/Evince",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "evince",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.28.2"
+  }
+}

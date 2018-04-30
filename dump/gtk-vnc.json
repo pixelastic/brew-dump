@@ -1,0 +1,90 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a6fea29893a63c9df2866c962dcef68ce6d4e5e3f7034f99350e6c3b7ca030a6",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk-vnc-0.7.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "caa4703d05d6f5413fc661e327ede0dff09ce603d32510e8e2c410a4105e65c4",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk-vnc-0.7.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fe4d1d434b8e3b784d886ce07d82f5c049916b8e67e28e34c9f56779d0c9b943",
+          "url": "https://linuxbrew.bintray.com/bottles/gtk-vnc-0.7.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gettext",
+    "gobject-introspection",
+    "intltool",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gettext",
+    "gobject-introspection",
+    "intltool",
+    "libtool",
+    "pkg-config",
+    "gnutls",
+    "gtk+3",
+    "libgcrypt",
+    "pulseaudio",
+    "vala"
+  ],
+  "desc": "VNC viewer widget for GTK",
+  "full_name": "gtk-vnc",
+  "homepage": "https://wiki.gnome.org/Projects/gtk-vnc",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gtk-vnc",
+  "oldname": null,
+  "optional_dependencies": [
+    "pulseaudio",
+    "vala"
+  ],
+  "options": [
+    {
+      "description": "Build with pulseaudio support",
+      "option": "--with-pulseaudio"
+    },
+    {
+      "description": "Build with vala support",
+      "option": "--with-vala"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.2"
+  }
+}

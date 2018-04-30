@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "beb6ea36ce8edffa4ff8569231413fab5f3de7338379b35b49d208e16243577d",
+          "url": "https://linuxbrew.bintray.com/bottles/jbig2dec-0.14.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "197656bee979449ea283d855f0332afa414a31f7114123f477f3f9f2cc192763",
+          "url": "https://linuxbrew.bintray.com/bottles/jbig2dec-0.14.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a98bac77f5b916d67c1c7742ee3462af053c2ff0726dacaf5b0bcb2e9aef7e74",
+          "url": "https://linuxbrew.bintray.com/bottles/jbig2dec-0.14.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "944aea3375eb06802a6c714e057786fa155d69248812e2a39a4d49b011f3ac4f",
+          "url": "https://linuxbrew.bintray.com/bottles/jbig2dec-0.14.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "libpng"
+  ],
+  "desc": "JBIG2 decoder and library (for monochrome documents)",
+  "full_name": "jbig2dec",
+  "homepage": "https://ghostscript.com/jbig2dec.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jbig2dec",
+  "oldname": null,
+  "optional_dependencies": [
+    "libpng"
+  ],
+  "options": [
+    {
+      "description": "Build with libpng support",
+      "option": "--with-libpng"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.14"
+  }
+}

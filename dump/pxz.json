@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ff0ce76c096fd81e249fd322672575b108c84e72e9a82600fd8260b0e03a167c",
+          "url": "https://linuxbrew.bintray.com/bottles/pxz-4.999.9_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "47fc00a39b4de290942f911373599793ea3be314b5e46a201edf44ce2e7de254",
+          "url": "https://linuxbrew.bintray.com/bottles/pxz-4.999.9_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f48d8b406aa774291008f8257841707c204ef6b30e11345e0cf534c6d8e48f29",
+          "url": "https://linuxbrew.bintray.com/bottles/pxz-4.999.9_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ff8e88582e0facfb65f71faac849ae883bc5e853ddab1093a565f536e9bdb442",
+          "url": "https://linuxbrew.bintray.com/bottles/pxz-4.999.9_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gcc",
+    "xz"
+  ],
+  "desc": "Compression utility",
+  "full_name": "pxz",
+  "homepage": "https://jnovy.fedorapeople.org/pxz/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pxz",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.999.9"
+  }
+}

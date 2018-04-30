@@ -1,0 +1,63 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a7a00e844c2adb87eb4379faf0d3dd60443f9383cb295688ae2dac47051f3483",
+          "url": "https://linuxbrew.bintray.com/bottles/mytop-1.9.1_5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "2d7ea53b0ae27d33d5106259b5c96fa878b4c2681af002e91d6432d151024918",
+          "url": "https://linuxbrew.bintray.com/bottles/mytop-1.9.1_5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "89536e5cdee657d9ea8a82d1940854ba52bfa4cf3e161aa148b31511f5268b14",
+          "url": "https://linuxbrew.bintray.com/bottles/mytop-1.9.1_5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "mariadb"
+  ],
+  "dependencies": [
+    "mysql",
+    "openssl"
+  ],
+  "desc": "Top-like query monitor for MySQL",
+  "full_name": "mytop",
+  "homepage": "http://www.mysqlfanboy.com/mytop-3/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mytop",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 5,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9.1"
+  }
+}

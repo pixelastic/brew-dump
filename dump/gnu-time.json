@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "1f81b3521747ff00d913ac9f4c7e7d9ce8f19dd76a67c7d2b05d5dd228561883",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-time-1.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7be7fa7161f1c4256e7fd0427cc70bcb9942516cf087e3a4ce8bf25a8e9bda0e",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-time-1.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4340f98cd4edd0512a7462ad52180a3dd4bd282fce7c53cadfe56c45f5367095",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-time-1.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "17187494a6e02964e19812e57c8547734f2aeecf0ce2954e3fb6fb4523d2cc00",
+          "url": "https://linuxbrew.bintray.com/bottles/gnu-time-1.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "GNU implementation of time utility",
+  "full_name": "gnu-time",
+  "homepage": "https://www.gnu.org/software/time/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gnu-time",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Do not prepend 'g' to the binary",
+      "option": "--with-default-names"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.9"
+  }
+}

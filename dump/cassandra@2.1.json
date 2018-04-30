@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8db1bf5929051d59f296c485d5b771efd4e5baff6c2dde1b9157c9f910f45f8f",
+          "url": "https://linuxbrew.bintray.com/bottles/cassandra@2.1-2.1.13.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b93b53ebd5b6cfa143ddbfd1fa77680a67abb0f2bfb2e5d0d984adb40cbb1214",
+          "url": "https://linuxbrew.bintray.com/bottles/cassandra@2.1-2.1.13.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b1906ed9835c47a76953d8d24dd20a44754098dfd4981c2f990d6b63449b3c7b",
+          "url": "https://linuxbrew.bintray.com/bottles/cassandra@2.1-2.1.13.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fc9857b4742b5f7263e1979a7caf37ee3bd831026c6fb7cf819f64d70edaed7b",
+          "url": "https://linuxbrew.bintray.com/bottles/cassandra@2.1-2.1.13.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Distributed key-value store",
+  "full_name": "cassandra@2.1",
+  "homepage": "https://cassandra.apache.org",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "cassandra@2.1",
+  "oldname": "cassandra21",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.1.13"
+  }
+}

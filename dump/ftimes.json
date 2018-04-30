@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "7c782808f555c9f8afa2bca44c064f9898bcf3a66a14e7b859124f0afc85c97e",
+          "url": "https://linuxbrew.bintray.com/bottles/ftimes-3.11.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "11d86838a177c545f13e0e979a370c561ffab8a1c677259d28203501f0243864",
+          "url": "https://linuxbrew.bintray.com/bottles/ftimes-3.11.0_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "214b8092f738542005f77d146cc6b85ee69f2f100469dc6e2b78b5f2f0b5c132",
+          "url": "https://linuxbrew.bintray.com/bottles/ftimes-3.11.0_1.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "fbe09e2f091d3b828a2f3802674203f4f72b6e0136fe6f442bf8313234be5373",
+          "url": "https://linuxbrew.bintray.com/bottles/ftimes-3.11.0_1.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cbca23c29665bef95b9245e329cfafbb33f5dcc7fa1b60c1ff9e84498bafff91",
+          "url": "https://linuxbrew.bintray.com/bottles/ftimes-3.11.0_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "0cc52b1c4396b5adca1a3adc4a2942f0beef27392f23cb6533db79c54a3657ca",
+          "url": "https://linuxbrew.bintray.com/bottles/ftimes-3.11.0_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pcre",
+    "openssl"
+  ],
+  "desc": "System baselining and evidence collection tool",
+  "full_name": "ftimes",
+  "homepage": "https://ftimes.sourceforge.io/FTimes/index.shtml",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ftimes",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.11.0"
+  }
+}

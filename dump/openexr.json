@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a73d66076b03d20908db659b965cee768d82408ddca5196fef8164b779091765",
+          "url": "https://linuxbrew.bintray.com/bottles/openexr-2.2.0_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "12c2585a07369da6668cacffe07ddd7a6b0f9750d107f0d053eefcb992e4df85",
+          "url": "https://linuxbrew.bintray.com/bottles/openexr-2.2.0_1.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "9c21b70caff58d8d699a58a50249f220b03c23f450a219276782827e6c03ff33",
+          "url": "https://linuxbrew.bintray.com/bottles/openexr-2.2.0_1.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0220d0edcb161cb56a1cbe8477cc2ecd45fee320ce48f99c114454421a527198",
+          "url": "https://linuxbrew.bintray.com/bottles/openexr-2.2.0_1.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "12459e25aca84581e2a9f3132c571272043d2790d3a625b5c21b64d7f63ea9b5",
+          "url": "https://linuxbrew.bintray.com/bottles/openexr-2.2.0_1.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ad973fc780bb731a5ee8be347283903e8343448913e46a23fbdede0145ef980a",
+          "url": "https://linuxbrew.bintray.com/bottles/openexr-2.2.0_1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "ilmbase",
+    "zlib"
+  ],
+  "desc": "High dynamic-range image file format",
+  "full_name": "openexr",
+  "homepage": "https://www.openexr.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openexr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.0"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "34ff96ca0fdc51f4a873970d00bcab347c3483fad7ee1a670e1c49182690cd2e",
+          "url": "https://linuxbrew.bintray.com/bottles/vice-3.1_1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "cfc6a84e02744b85867aeeef591fb185de4a8560a1fbbc7dc50a53a8d0393b59",
+          "url": "https://linuxbrew.bintray.com/bottles/vice-3.1_1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "39bfe0b566c65cb01ce976dbb5be3fbf46b4486bc9678f8c5b288fd2d8bb265d",
+          "url": "https://linuxbrew.bintray.com/bottles/vice-3.1_1.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ab4044f958907bd7d756575fc97e0e42ffc24307c621176da0d0522feadb22f4",
+          "url": "https://linuxbrew.bintray.com/bottles/vice-3.1_1.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "texinfo",
+    "yasm"
+  ],
+  "caveats": "Apps for these emulators have been installed to /home/tim/.linuxbrew/opt/vice.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "texinfo",
+    "yasm",
+    "ffmpeg",
+    "flac",
+    "giflib",
+    "jpeg",
+    "lame",
+    "libogg",
+    "libpng",
+    "libvorbis",
+    "portaudio",
+    "sdl2",
+    "xz"
+  ],
+  "desc": "Versatile Commodore Emulator",
+  "full_name": "vice",
+  "homepage": "https://vice-emu.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vice",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.1"
+  }
+}

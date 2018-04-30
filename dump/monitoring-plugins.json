@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d531079a00f1dae22309918b9fbbd3250873b5869001f14af1d221d5bb7b021b",
+          "url": "https://linuxbrew.bintray.com/bottles/monitoring-plugins-2.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "39310e6fcfee83275afc1ceab922e4f2a8c72306bf54af49aed986c658175a82",
+          "url": "https://linuxbrew.bintray.com/bottles/monitoring-plugins-2.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "426c87771bcb45bbc92755ea4b05ee213863423554c8bb21b9e2fdfd5e32e959",
+          "url": "https://linuxbrew.bintray.com/bottles/monitoring-plugins-2.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b3d0549fc51c3948743b16eb5bc52a0a7f8af6cf6ad6c05b3056fa947661a6da",
+          "url": "https://linuxbrew.bintray.com/bottles/monitoring-plugins-2.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "All plugins have been installed in:\n  /home/tim/.linuxbrew/sbin\n",
+  "conflicts_with": [
+    "nagios-plugins"
+  ],
+  "dependencies": [
+    "openssl",
+    "postgresql",
+    "mysql"
+  ],
+  "desc": "Plugins for nagios compatible monitoring systems",
+  "full_name": "monitoring-plugins",
+  "homepage": "https://www.monitoring-plugins.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "monitoring-plugins",
+  "oldname": null,
+  "optional_dependencies": [
+    "postgresql",
+    "mysql"
+  ],
+  "options": [
+    {
+      "description": "Build with postgresql support",
+      "option": "--with-postgresql"
+    },
+    {
+      "description": "Build with mysql support",
+      "option": "--with-mysql"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2"
+  }
+}

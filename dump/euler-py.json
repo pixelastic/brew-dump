@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4c887a4af203e4991ff844f4836663cbaf1afc835ae8c628d769e32ff0f1e4e1",
+          "url": "https://linuxbrew.bintray.com/bottles/euler-py-1.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f5ba1b2823b4d55d4ab4bb0724676496ce9d2f70e9e65fd69ba260ed57be3fe3",
+          "url": "https://linuxbrew.bintray.com/bottles/euler-py-1.3.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "6006f400f9f2e010c104325f4e1903c8fe825884b54ef88bea47918b58876576",
+          "url": "https://linuxbrew.bintray.com/bottles/euler-py-1.3.0.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c5ee4cdc8330f84084b0b145b9183b6c21683de758a3f052158f3dc6d0d6adb8",
+          "url": "https://linuxbrew.bintray.com/bottles/euler-py-1.3.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "69ffb29dd9b1f1fdf6fa7ecf31871c5010a06a94eda99e916681aac73d9bca15",
+          "url": "https://linuxbrew.bintray.com/bottles/euler-py-1.3.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Project Euler command-line tool written in Python",
+  "full_name": "euler-py",
+  "homepage": "https://github.com/iKevinY/EulerPy",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "euler-py",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.3.0"
+  }
+}

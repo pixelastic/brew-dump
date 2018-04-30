@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "76eb15bfc440570f19705cd935898a732d5ae811b37bdc1e1a53c43098c5b367",
+          "url": "https://linuxbrew.bintray.com/bottles/sphinx-doc-1.7.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bb23daf0adb1d733f2e7fc57c10a9eb9e74890611ab5f397b1c276aa8b087221",
+          "url": "https://linuxbrew.bintray.com/bottles/sphinx-doc-1.7.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "11b5325c28dc2593065b58cd6e977b487082c20bd1aa2de8f4d871485b9ad2f2",
+          "url": "https://linuxbrew.bintray.com/bottles/sphinx-doc-1.7.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "53f63526e6ae0e7dfca024ee3a0581637c253044dbe7fa45cab2ba8c67b26785",
+          "url": "https://linuxbrew.bintray.com/bottles/sphinx-doc-1.7.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Tool to create intelligent and beautiful documentation",
+  "full_name": "sphinx-doc",
+  "homepage": "http://sphinx-doc.org",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "sphinx-doc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.4"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6679c45e92d3093e89b54bcddeb1e107445afb47243a766b197240362c281d1a",
+          "url": "https://linuxbrew.bintray.com/bottles/cryptol-2.5.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "04ed08859f18cb0fdbc5c37b2db15f474ad241b908a06aeb0d890145d84fdf8b",
+          "url": "https://linuxbrew.bintray.com/bottles/cryptol-2.5.0.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "caad7d780203e43fd57a8cb0eb0d30e59bc7dea5bc258dfdf938b84e26a9e207",
+          "url": "https://linuxbrew.bintray.com/bottles/cryptol-2.5.0.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0d11cef18ca7c6edec0ab58f9f4f5ce9000bc5d94f394cfee9bc67a1f77fa5d1",
+          "url": "https://linuxbrew.bintray.com/bottles/cryptol-2.5.0.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ghc@8.2",
+    "cabal-install"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ghc@8.2",
+    "cabal-install",
+    "z3",
+    "ncurses"
+  ],
+  "desc": "Domain-specific language for specifying cryptographic algorithms",
+  "full_name": "cryptol",
+  "homepage": "https://www.cryptol.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cryptol",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.5.0"
+  }
+}

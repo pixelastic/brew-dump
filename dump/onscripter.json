@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "dab8de0970901e7c63b32ad3d2071895c4259c5eb20a7abf8701b328d55bb8cf",
+          "url": "https://linuxbrew.bintray.com/bottles/onscripter-20170814_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c7843b57d4404e6a7ac61d521bc60e9b572dff73d916c6a95c3ba2a5f5527125",
+          "url": "https://linuxbrew.bintray.com/bottles/onscripter-20170814_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d32055f6e69f36da381320ffffb898b4a94e5d29e7a7ae1a00c60a4766439e8c",
+          "url": "https://linuxbrew.bintray.com/bottles/onscripter-20170814_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "sdl",
+    "sdl_ttf",
+    "sdl_image",
+    "sdl_mixer",
+    "smpeg",
+    "jpeg",
+    "lua"
+  ],
+  "desc": "NScripter-compatible visual novel engine",
+  "full_name": "onscripter",
+  "homepage": "https://onscripter.osdn.jp/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "onscripter",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build with single-byte character mode",
+      "option": "--with-english"
+    },
+    {
+      "description": "Build without lua support",
+      "option": "--without-lua"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "lua"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20170814"
+  }
+}

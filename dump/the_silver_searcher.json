@@ -1,0 +1,82 @@
+{
+  "aliases": [
+    "ag"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "e731e1c3b4f85267dd4dea5c42ad1ff35c2def78b2c9f83ff8988bf0266f34ae",
+          "url": "https://linuxbrew.bintray.com/bottles/the_silver_searcher-2.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5d2380526afe423df25d9bd4eea9ea177023918ee3b534d93a72bd6c7c9bd333",
+          "url": "https://linuxbrew.bintray.com/bottles/the_silver_searcher-2.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "252dabfa42a9a4769ddd62cf2265566d57eb1af1e39b8dcd75b6684402becd35",
+          "url": "https://linuxbrew.bintray.com/bottles/the_silver_searcher-2.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c9b7313884b1d9b956e85f1677800b871c69d7a88daaa4626742a03577706474",
+          "url": "https://linuxbrew.bintray.com/bottles/the_silver_searcher-2.1.0.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5e4ba79f17f087e697afb62cf738e321ebd4d6f2b001a4caaaed525a1ce75166",
+          "url": "https://linuxbrew.bintray.com/bottles/the_silver_searcher-2.1.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "pcre",
+    "xz"
+  ],
+  "desc": "Code-search similar to ack",
+  "full_name": "the_silver_searcher",
+  "homepage": "https://github.com/ggreer/the_silver_searcher",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "the_silver_searcher",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without xz support",
+      "option": "--without-xz"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "xz"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.0"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "77abcc30e62fa5ce31452e36a8bc59a4070cac0442ee02e9a40fae96b4b6b753",
+          "url": "https://linuxbrew.bintray.com/bottles/erlang@19-19.3.6.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "35d96aa7391e28f499680479a07f78316a240cead2cedbb5de869d209a39ea84",
+          "url": "https://linuxbrew.bintray.com/bottles/erlang@19-19.3.6.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0c058246bf1830ed0067c18a9cde08d56e9ec89b7b6bb70d3bf2a8fc47736d99",
+          "url": "https://linuxbrew.bintray.com/bottles/erlang@19-19.3.6.8.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": "Man pages can be found in:\n  /home/tim/.linuxbrew/opt/erlang@19/lib/erlang/man\nAccess them with `erl -man`, or add this directory to MANPATH.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "openssl",
+    "fop",
+    "wxmac"
+  ],
+  "desc": "Programming language for highly scalable real-time systems",
+  "full_name": "erlang@19",
+  "homepage": "https://www.erlang.org/",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "erlang@19",
+  "oldname": null,
+  "optional_dependencies": [
+    "fop"
+  ],
+  "options": [
+    {
+      "description": "Disable building hipe; fails on various macOS systems",
+      "option": "--without-hipe"
+    },
+    {
+      "description": "Enable native library compilation",
+      "option": "--with-native-libs"
+    },
+    {
+      "description": "Enable experimental dirty schedulers",
+      "option": "--with-dirty-schedulers"
+    },
+    {
+      "description": "Build jinterface application",
+      "option": "--with-java"
+    },
+    {
+      "description": "Do not install documentation",
+      "option": "--without-docs"
+    },
+    {
+      "description": "Build with fop support",
+      "option": "--with-fop"
+    },
+    {
+      "description": "Build without wxmac support",
+      "option": "--without-wxmac"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "wxmac"
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "19.3.6.8"
+  }
+}

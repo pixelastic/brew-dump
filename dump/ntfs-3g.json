@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "dc2dc22afe3376cccb2a7d62f3faf4455a2422ebe4c96eaebd6d9249a00e3c2d",
+          "url": "https://linuxbrew.bintray.com/bottles/ntfs-3g-2017.3.23.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f5fdf264ba84f10204564e7e33bac6cb2e657052bbf141ca735682f9d7842003",
+          "url": "https://linuxbrew.bintray.com/bottles/ntfs-3g-2017.3.23.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "66662baf5f187c4784ff9c4236d9595205c01c6c7141699b8afcdb4337304a0c",
+          "url": "https://linuxbrew.bintray.com/bottles/ntfs-3g-2017.3.23.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "160fd2811b0fe6e072194860e17e2abbe71b18a2ac2c16db15ceb2eaf1e9918a",
+          "url": "https://linuxbrew.bintray.com/bottles/ntfs-3g-2017.3.23.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gettext"
+  ],
+  "desc": "Read-write NTFS driver for FUSE",
+  "full_name": "ntfs-3g",
+  "homepage": "https://www.tuxera.com/community/open-source-ntfs-3g/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ntfs-3g",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2017.3.23"
+  }
+}

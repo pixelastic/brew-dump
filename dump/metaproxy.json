@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4bf881091c9caed0fa0f0525f2cd9055df2634357c83fc02269e6abaf493c8a6",
+          "url": "https://linuxbrew.bintray.com/bottles/metaproxy-1.13.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "58794fbd8dae6368234ef3e912f93e191a822054f9ee195fd4ebaacd9f5a4ad2",
+          "url": "https://linuxbrew.bintray.com/bottles/metaproxy-1.13.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aefc542879d3df402ba99ae9190801a0f84ad93ea2987e4b82acbceee7a874e7",
+          "url": "https://linuxbrew.bintray.com/bottles/metaproxy-1.13.0_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "yazpp",
+    "boost"
+  ],
+  "desc": "Z39.50 proxy and router utilizing Yaz toolkit",
+  "full_name": "metaproxy",
+  "homepage": "https://www.indexdata.com/metaproxy",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "metaproxy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.13.0"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "d9899aa8cab5b8df10a862b280035f43bc4a144c2f9278f19a8997187df68486",
+          "url": "https://linuxbrew.bintray.com/bottles/openimageio-1.8.10_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f4930dd1b4a58165bde3979a23e3823a4864011f6f353b45187ede7f4ba9413e",
+          "url": "https://linuxbrew.bintray.com/bottles/openimageio-1.8.10_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a1a1f9b91e569416ede3352dce376482e83caf645504f7424e7d77ef799ffa5a",
+          "url": "https://linuxbrew.bintray.com/bottles/openimageio-1.8.10_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "pkg-config",
+    "boost",
+    "boost-python",
+    "boost-python3",
+    "ffmpeg",
+    "freetype",
+    "giflib",
+    "ilmbase",
+    "jpeg",
+    "libpng",
+    "libraw",
+    "libtiff",
+    "opencolorio",
+    "openexr",
+    "python",
+    "webp"
+  ],
+  "desc": "Library for reading, processing and writing images",
+  "full_name": "openimageio",
+  "homepage": "http://openimageio.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "openimageio",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.10"
+  }
+}

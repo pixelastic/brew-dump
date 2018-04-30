@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a77b38789f565878c3dd89b031693fcb35ed60404172a4fb3702b6e0f69f76e5",
+          "url": "https://linuxbrew.bintray.com/bottles/jid-0.7.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b6de24c980241a14be660440dc9aba403841f5cae50c5aa973bce92ebd1c2081",
+          "url": "https://linuxbrew.bintray.com/bottles/jid-0.7.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "59624c107014497a6596ce33a6344c1456731a2784ffb4e92bf0075ddda16ffa",
+          "url": "https://linuxbrew.bintray.com/bottles/jid-0.7.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "baf231928a3d2c899f3c7ebdfae167cca4b00623def455fb4eca4b0c6ecc7f71",
+          "url": "https://linuxbrew.bintray.com/bottles/jid-0.7.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Json incremental digger",
+  "full_name": "jid",
+  "homepage": "https://github.com/simeji/jid",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jid",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.7.2"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9d47668f2c1b428499931a32bcb55c957d837e677ce14215cd4d9a674eff1485",
+          "url": "https://linuxbrew.bintray.com/bottles/liblqr-0.4.2.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b54e684b469c952a453ec72ca7e8559198b2de0bf0b7a572b7191f266bbcda41",
+          "url": "https://linuxbrew.bintray.com/bottles/liblqr-0.4.2.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "5912e95a5c22808ee83053af73817b5514708bb0a9c9549ac2e819f20676e941",
+          "url": "https://linuxbrew.bintray.com/bottles/liblqr-0.4.2.mavericks.bottle.1.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "61c2f4e9ed619d0995ddd160cf50f9219aa1dbbbaea717372d8197572a79c112",
+          "url": "https://linuxbrew.bintray.com/bottles/liblqr-0.4.2.mountain_lion.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ce5899d11af881965bed731baac1ef6f35e77bf5d4daa1e0fa579e90b82e3d35",
+          "url": "https://linuxbrew.bintray.com/bottles/liblqr-0.4.2.sierra.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a0f647159bd2c17e449381c67b5e4718b3629196bbf71da999a852794899fe67",
+          "url": "https://linuxbrew.bintray.com/bottles/liblqr-0.4.2.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib"
+  ],
+  "desc": "C/C++ seam carving library",
+  "full_name": "liblqr",
+  "homepage": "https://liblqr.wikidot.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "liblqr",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.4.2"
+  }
+}

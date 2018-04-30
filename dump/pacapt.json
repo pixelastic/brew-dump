@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "000a282250eba0c958445cb4a1137d938c17b338e25ea9e4771844155627728a",
+          "url": "https://linuxbrew.bintray.com/bottles/pacapt-2.3.14.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4f69f27536059701100c0130ab2c06381f02629f2610af0b576cc8cae196abb4",
+          "url": "https://linuxbrew.bintray.com/bottles/pacapt-2.3.14.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "000a282250eba0c958445cb4a1137d938c17b338e25ea9e4771844155627728a",
+          "url": "https://linuxbrew.bintray.com/bottles/pacapt-2.3.14.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7bc319df1b05c4761569b0f1c2667c46862ada3544cb87ea7ce16098aa5eabdd",
+          "url": "https://linuxbrew.bintray.com/bottles/pacapt-2.3.14.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Package manager in the style of Arch's pacman",
+  "full_name": "pacapt",
+  "homepage": "https://github.com/icy/pacapt",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pacapt",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.14"
+  }
+}

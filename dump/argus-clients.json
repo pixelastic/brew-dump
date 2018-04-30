@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1f9efb0c9ed77f8c546595cfda46c60dcaec81e3c0d01e5a4d7a31595a24f88c",
+          "url": "https://linuxbrew.bintray.com/bottles/argus-clients-3.0.8.2_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c1e2461ae53031164d50a775b5c3f83b0f4155be54fac037b55934d940a631d4",
+          "url": "https://linuxbrew.bintray.com/bottles/argus-clients-3.0.8.2_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e1449092f7f8d2645de4339be67f9c84705f84b6d9fee8277277dbb5c3cd6625",
+          "url": "https://linuxbrew.bintray.com/bottles/argus-clients-3.0.8.2_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "readline",
+    "rrdtool"
+  ],
+  "desc": "Audit Record Generation and Utilization System clients",
+  "full_name": "argus-clients",
+  "homepage": "https://qosient.com/argus/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "argus-clients",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without readline support",
+      "option": "--without-readline"
+    },
+    {
+      "description": "Build without rrdtool support",
+      "option": "--without-rrdtool"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "readline",
+    "rrdtool"
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.8.2"
+  }
+}

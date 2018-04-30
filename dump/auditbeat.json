@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3d639a62737631ec77a87d4f9853f9d653982c39f05dad964cf94de04f9444b2",
+          "url": "https://linuxbrew.bintray.com/bottles/auditbeat-6.2.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ebd8f45921dbdd3089084bca6b48f3c91553007a2d42eb222e0b9cf15b1b6873",
+          "url": "https://linuxbrew.bintray.com/bottles/auditbeat-6.2.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "26a317fa93b70509f8885b63981cf3dd7332b825f975f6ceb151b49baf26fe7f",
+          "url": "https://linuxbrew.bintray.com/bottles/auditbeat-6.2.4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "482faee7abf1735c7be2014ca55a6a00eaec8e3faecf4649256da68af16bcd30",
+          "url": "https://linuxbrew.bintray.com/bottles/auditbeat-6.2.4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "python@2"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "python@2"
+  ],
+  "desc": "Lightweight Shipper for Audit Data",
+  "full_name": "auditbeat",
+  "homepage": "https://www.elastic.co/products/beats/auditbeat",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "auditbeat",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.2.4"
+  }
+}

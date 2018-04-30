@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "549f41525d1a5cf4cad493650ea0f8daae0208246f36984d6a56a4af533fc881",
+          "url": "https://linuxbrew.bintray.com/bottles/writerperfect-0.9.6.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "12f30a1f15f5887da7675026656f59dd74b7fbffdf4129a2c1778578dbf4cc4a",
+          "url": "https://linuxbrew.bintray.com/bottles/writerperfect-0.9.6.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "36981e968c146d8aeca47d96327b3f3e909a3f58ca15bed17202e93fef6e17db",
+          "url": "https://linuxbrew.bintray.com/bottles/writerperfect-0.9.6.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "boost"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "boost",
+    "libodfgen",
+    "libwpd",
+    "libwpg",
+    "libwps"
+  ],
+  "desc": "Library for importing WordPerfect documents",
+  "full_name": "writerperfect",
+  "homepage": "https://sourceforge.net/p/libwpd/wiki/writerperfect/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "writerperfect",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.6"
+  }
+}

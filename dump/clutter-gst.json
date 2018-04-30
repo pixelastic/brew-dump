@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "887250619929ceed1616de68dfeb95818ff87a3c67e739897b728fdb0df539f4",
+          "url": "https://linuxbrew.bintray.com/bottles/clutter-gst-3.0.26_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4b5dba13db6ed368bd34224d1b3ad0f1d73a0092a398fd7c8a25a23a646c5bf7",
+          "url": "https://linuxbrew.bintray.com/bottles/clutter-gst-3.0.26_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bc573f8872242e53f361fcb7819c9141fb7a36807595de5b4ce127b791dc1373",
+          "url": "https://linuxbrew.bintray.com/bottles/clutter-gst-3.0.26_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "clutter",
+    "gstreamer",
+    "gst-plugins-base",
+    "gdk-pixbuf"
+  ],
+  "desc": "ClutterMedia interface using GStreamer for video and audio",
+  "full_name": "clutter-gst",
+  "homepage": "https://developer.gnome.org/clutter-gst/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "clutter-gst",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.0.26"
+  }
+}

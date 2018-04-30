@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8dec6973a1c579264b4832dd6b766c5e1ce344b486bf2c302b47a299a14e6952",
+          "url": "https://linuxbrew.bintray.com/bottles/pngpaste-0.2.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9c215daf838e0aaa433a0672de6eef2254a917b4ce93fa15d6a85ef26daab917",
+          "url": "https://linuxbrew.bintray.com/bottles/pngpaste-0.2.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "53dcb74c9ae6f97470adda82a565e70b821879dd02733aa404a8c59db49eff79",
+          "url": "https://linuxbrew.bintray.com/bottles/pngpaste-0.2.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Paste PNG into files",
+  "full_name": "pngpaste",
+  "homepage": "https://github.com/jcsalterego/pngpaste",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pngpaste",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.2"
+  }
+}

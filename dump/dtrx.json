@@ -1,0 +1,98 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5419cb8b5327a5770d1d8a541a11c47f9195885964af3977110a4bd752a63ff7",
+          "url": "https://linuxbrew.bintray.com/bottles/dtrx-7.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c159f3897c3de8b840beb2dba4aba058262b932b06650ae72ef4c86841fcfdbe",
+          "url": "https://linuxbrew.bintray.com/bottles/dtrx-7.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "c023c31dfc27c2a198ff310bfa0438fac034209f39e42800ee5d462bb2be3e6b",
+          "url": "https://linuxbrew.bintray.com/bottles/dtrx-7.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "812e92d3899f795921dced2d1085dec1258a659595e1a0545e67a03be653b9ca",
+          "url": "https://linuxbrew.bintray.com/bottles/dtrx-7.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "15359cfa40144872520eba6cdb132a1bfc0534b66cfd87c6efab3d57221ba66f",
+          "url": "https://linuxbrew.bintray.com/bottles/dtrx-7.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cabextract",
+    "lha",
+    "unshield",
+    "unrar",
+    "p7zip"
+  ],
+  "desc": "Intelligent archive extraction",
+  "full_name": "dtrx",
+  "homepage": "https://brettcsmith.org/2007/dtrx/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dtrx",
+  "oldname": null,
+  "optional_dependencies": [
+    "cabextract",
+    "lha",
+    "unshield"
+  ],
+  "options": [
+    {
+      "description": "Build with cabextract support",
+      "option": "--with-cabextract"
+    },
+    {
+      "description": "Build with lha support",
+      "option": "--with-lha"
+    },
+    {
+      "description": "Build with unshield support",
+      "option": "--with-unshield"
+    },
+    {
+      "description": "Build without unrar support",
+      "option": "--without-unrar"
+    },
+    {
+      "description": "Build without p7zip support",
+      "option": "--without-p7zip"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "unrar",
+    "p7zip"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "7.1"
+  }
+}

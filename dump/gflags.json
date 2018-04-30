@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9e9c1a067b324ccd372ac00cd0ac00545415cb4407ea90b15c181cbfb67a4260",
+          "url": "https://linuxbrew.bintray.com/bottles/gflags-2.2.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "db36aa60a2c383dddad4774a0e0129c5cf2183f6ae813afffa9b0311ed81d8a3",
+          "url": "https://linuxbrew.bintray.com/bottles/gflags-2.2.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "519562ecebe66cf89803786d0b0ba9ac02cfa2376c822c8726fa274c1e380d0a",
+          "url": "https://linuxbrew.bintray.com/bottles/gflags-2.2.1_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "5101d3ed48e1ca28c8976dff5d7304df3c7c99b71dd45ec46bef74e48738fa8f",
+          "url": "https://linuxbrew.bintray.com/bottles/gflags-2.2.1_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5e6fcff184b2d6caf333a74cb24222da11bc1721eb6ab12a31bda7802cf8dfd9",
+          "url": "https://linuxbrew.bintray.com/bottles/gflags-2.2.1_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Library for processing command-line flags",
+  "full_name": "gflags",
+  "homepage": "https://gflags.github.io/gflags/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gflags",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build debug version",
+      "option": "--with-debug"
+    },
+    {
+      "description": "Build gflags as a static (instead of shared) library.",
+      "option": "--with-static"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.1"
+  }
+}

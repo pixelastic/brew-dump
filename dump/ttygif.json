@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c32e7ce8c456e02c9b945e9cca6252a071b68b9cda84651877481b54a76f6c1c",
+          "url": "https://linuxbrew.bintray.com/bottles/ttygif-1.4.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c8dbee8441c56e4ade77fc6990a1336e6017519760e2719813bc92f8e10eaf69",
+          "url": "https://linuxbrew.bintray.com/bottles/ttygif-1.4.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "f64ad6118dc421166dca05ac1ef2d146d545caddc49dcf1a17e06d3c9deee6fd",
+          "url": "https://linuxbrew.bintray.com/bottles/ttygif-1.4.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6459139f3d5eb5a52aacf11d1774c0404a7947d0e87e674c2bba54724bc06bbf",
+          "url": "https://linuxbrew.bintray.com/bottles/ttygif-1.4.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "imagemagick",
+    "ttyrec"
+  ],
+  "desc": "Converts a ttyrec file into gif files",
+  "full_name": "ttygif",
+  "homepage": "https://github.com/icholy/ttygif",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ttygif",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.0"
+  }
+}

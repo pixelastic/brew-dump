@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "80e207e5ac58180fe1fe852f92e7df354536a224ee3ccb56bc4aa8f4d802e000",
+          "url": "https://linuxbrew.bintray.com/bottles/quicktype-9.0.26.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "16994615b6807fb5e992869ff514e26a3bbacc41ba7c9c1f0494f925c5599bb4",
+          "url": "https://linuxbrew.bintray.com/bottles/quicktype-9.0.26.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8b9c39c1efb32410744fad0dbaa77bfad6e7a21d243dffd6b3e86f3ff573d6ec",
+          "url": "https://linuxbrew.bintray.com/bottles/quicktype-9.0.26.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c16807bb8dd5289ba850ed55705b25d7e1365190b38bae70f5a30039914ffea2",
+          "url": "https://linuxbrew.bintray.com/bottles/quicktype-9.0.26.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "desc": "Generate types and converters from JSON, Schema, and GraphQL",
+  "full_name": "quicktype",
+  "homepage": "https://github.com/quicktype/quicktype",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "quicktype",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "9.0.26"
+  }
+}

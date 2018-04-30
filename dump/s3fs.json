@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9dcbe3450e2fdf5498c18e11390c9d48474c91c1bcd4f8cad6a7e3057fb9b3ee",
+          "url": "https://linuxbrew.bintray.com/bottles/s3fs-1.83.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a2561b0db0c7eb9a4355b42a38f307f4e432da3db3b3580a68eeee8001b12ffd",
+          "url": "https://linuxbrew.bintray.com/bottles/s3fs-1.83.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d6b4884bb5138ff0f10f2149668b09685567c8f55069525ec5557f54033d191f",
+          "url": "https://linuxbrew.bintray.com/bottles/s3fs-1.83.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake"
+  ],
+  "caveats": "Be aware that s3fs has some caveats concerning S3 \"directories\"\nthat have been created by other tools. See the following issue for\ndetails:\n\n  https://code.google.com/p/s3fs/issues/detail?id=73\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "gnutls",
+    "nettle",
+    "libgcrypt"
+  ],
+  "desc": "FUSE-based file system backed by Amazon S3",
+  "full_name": "s3fs",
+  "homepage": "https://github.com/s3fs-fuse/s3fs-fuse/wiki",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "s3fs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.83"
+  }
+}

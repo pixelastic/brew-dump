@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "404ec03e044a019a487adfab90012a29a6655fe67b907d9b4e9a46d4f6c57a9b",
+          "url": "https://linuxbrew.bintray.com/bottles/bsdsfv-1.18.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "28bee35fbc8c0be9e1182287c58340898d29d9ba0f910109974af6efcb5cd61f",
+          "url": "https://linuxbrew.bintray.com/bottles/bsdsfv-1.18.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7d0590952682b7baf619122a2942dacbf7ed455263c49b0314a85be7d51b1dc1",
+          "url": "https://linuxbrew.bintray.com/bottles/bsdsfv-1.18.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "38b9d278b430e250b384c5ba2baf3e74dfe0771c5ceea45686022ecb01616ee2",
+          "url": "https://linuxbrew.bintray.com/bottles/bsdsfv-1.18.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "fd15cb46a9499bcd1182e8fe4a6ae1de9fb77ced85186601ef6c6579a22d9c51",
+          "url": "https://linuxbrew.bintray.com/bottles/bsdsfv-1.18.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "SFV utility tools",
+  "full_name": "bsdsfv",
+  "homepage": "https://bsdsfv.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bsdsfv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.18"
+  }
+}

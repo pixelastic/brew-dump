@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "a222f7c1e8b07a512a09d733c14d9fc24632a8a1188b579c34517242cf4e3c88",
+          "url": "https://linuxbrew.bintray.com/bottles/liblas-1.8.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6223e1ac50e9f1f80c6ea6e219f13cd4bf82cb47757825233781cf9f99f2fb6c",
+          "url": "https://linuxbrew.bintray.com/bottles/liblas-1.8.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5d699a266e2d5f32c7d75427f4810465f0e87fa7467ec6e4d5c8a4ad485f0603",
+          "url": "https://linuxbrew.bintray.com/bottles/liblas-1.8.1_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libgeotiff",
+    "gdal",
+    "boost",
+    "laszip"
+  ],
+  "desc": "C/C++ library for reading and writing the LAS LiDAR format",
+  "full_name": "liblas",
+  "homepage": "https://liblas.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "liblas",
+  "oldname": null,
+  "optional_dependencies": [
+    "laszip"
+  ],
+  "options": [
+    {
+      "description": "Verify during install with `make test`",
+      "option": "--with-test"
+    },
+    {
+      "description": "Build with laszip support",
+      "option": "--with-laszip"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.1"
+  }
+}

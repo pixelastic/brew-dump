@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b1b837600c126788c34e5b4e290901a551f46edec20fb177e8943a7f1d25fdbc",
+          "url": "https://linuxbrew.bintray.com/bottles/pgroonga-2.0.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "155727789272a8667873287a007474ca28de84109b19e7275a59d5597fb802ca",
+          "url": "https://linuxbrew.bintray.com/bottles/pgroonga-2.0.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "cccbefba2e48dbe69d7331af1d6e649192a31f57451945bfbc97d25472a009d6",
+          "url": "https://linuxbrew.bintray.com/bottles/pgroonga-2.0.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "groonga",
+    "postgresql"
+  ],
+  "desc": "PostgreSQL plugin to use Groonga as index",
+  "full_name": "pgroonga",
+  "homepage": "https://pgroonga.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pgroonga",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.0.5"
+  }
+}

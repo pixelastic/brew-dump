@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "aae82cdbdfbda4766e7ac39ac7cf0d588ae05379b6de60fe9a62521eaf097f61",
+          "url": "https://linuxbrew.bintray.com/bottles/httpflow-0.0.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "81bacec65a65a4f97be8035f1d21407ddada8bf3e8ab2dea8163f42162af6d65",
+          "url": "https://linuxbrew.bintray.com/bottles/httpflow-0.0.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "02f297152a11c184e4b16e3881d416f9cd388ecab8a4979a02bf0bbf6f2c4f56",
+          "url": "https://linuxbrew.bintray.com/bottles/httpflow-0.0.7.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "f1f6b80b4d0ae25da4bc0b626ce3da653ad48f55c4d9e82c3e60ec51ff6ddea4",
+          "url": "https://linuxbrew.bintray.com/bottles/httpflow-0.0.7.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pcre"
+  ],
+  "desc": "Packet capture and analysis utility similar to tcpdump for HTTP",
+  "full_name": "httpflow",
+  "homepage": "https://github.com/six-ddc/httpflow",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "httpflow",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.0.7"
+  }
+}

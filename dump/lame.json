@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "73c4d677b4e5357dc5baf30c96ac5f33cf7902e9c77869834b7cd9d17f3415bc",
+          "url": "https://linuxbrew.bintray.com/bottles/lame-3.100.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9e65c67b83efa5a686aea0506dc44935cd2af2d4fe55fe38dc19610a0ccd80dd",
+          "url": "https://linuxbrew.bintray.com/bottles/lame-3.100.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c2d7bce53be2efb5d19d99ea00fbe69613885cce46009e8ab6099f8d5925c3ba",
+          "url": "https://linuxbrew.bintray.com/bottles/lame-3.100.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "293b74a7490a120e88ad55b4b663e8596636a98dbd6b7f54f1222f0a3246d9d3",
+          "url": "https://linuxbrew.bintray.com/bottles/lame-3.100.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "desc": "High quality MPEG Audio Layer III (MP3) encoder",
+  "full_name": "lame",
+  "homepage": "https://lame.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "lame",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.100"
+  }
+}

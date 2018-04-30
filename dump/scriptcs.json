@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "e3b6cb117d23ccf9a745e0ac5e61fcb531d7e8a08476699d2ece6c31e564450e",
+          "url": "https://linuxbrew.bintray.com/bottles/scriptcs-0.17.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "263fda7addb857a9ed3c0c15856c422d3684ad069c2efc644858bb1779a92e91",
+          "url": "https://linuxbrew.bintray.com/bottles/scriptcs-0.17.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9ccece2f779060ab23e699b07d6cc6ce0b2c2e0058cc995b1541e1170f69a6eb",
+          "url": "https://linuxbrew.bintray.com/bottles/scriptcs-0.17.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "bf4b996e78af471928d9669adf1ea8f7c76b3e277842f631079c64fd171dc9ec",
+          "url": "https://linuxbrew.bintray.com/bottles/scriptcs-0.17.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "21891cea519df48979320ba74660002d270fb414181e3f7087505169af15a471",
+          "url": "https://linuxbrew.bintray.com/bottles/scriptcs-0.17.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "mono"
+  ],
+  "desc": "Tools to write and execute C#",
+  "full_name": "scriptcs",
+  "homepage": "https://github.com/scriptcs/scriptcs",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "scriptcs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.17.1"
+  }
+}

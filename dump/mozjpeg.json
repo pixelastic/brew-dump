@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "755a475a3fd6b2ab8820456f292419907386a9a136cdc51e6b66e5200757735a",
+          "url": "https://linuxbrew.bintray.com/bottles/mozjpeg-3.3.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1de665bbe8376b200128a2b9559694bbe1798407b5b095f9b3071cf837ff8176",
+          "url": "https://linuxbrew.bintray.com/bottles/mozjpeg-3.3.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "e498ac87277b31d0a160ca13d38ba2a28ce96290fe8cde611e5e3fc08ea51a8f",
+          "url": "https://linuxbrew.bintray.com/bottles/mozjpeg-3.3.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a4323af57ec0ca737d39d28b29e8fd77fa2e5f7a06a4df0e40b9f66cfb261faa",
+          "url": "https://linuxbrew.bintray.com/bottles/mozjpeg-3.3.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "nasm"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "nasm",
+    "libpng"
+  ],
+  "desc": "Improved JPEG encoder",
+  "full_name": "mozjpeg",
+  "homepage": "https://github.com/mozilla/mozjpeg",
+  "installed": [
+  ],
+  "keg_only": true,
+  "linked_keg": null,
+  "name": "mozjpeg",
+  "oldname": null,
+  "optional_dependencies": [
+    "libpng"
+  ],
+  "options": [
+    {
+      "description": "Build with libpng support",
+      "option": "--with-libpng"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "3.3.1"
+  }
+}

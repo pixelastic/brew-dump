@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "dbf599d9117d7606787743f15e083be40c8c65510d80c24ed9e972e92e4d12ac",
+          "url": "https://linuxbrew.bintray.com/bottles/pmd-6.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3d39df025d87e96be861c0b5ff04c537981995988dc2134ddef8b3fcfa7eb42b",
+          "url": "https://linuxbrew.bintray.com/bottles/pmd-6.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "029e5ebb8b16fffc8239feaff2312d5e1b14cb28d4a4d41c05adfea8ae11c653",
+          "url": "https://linuxbrew.bintray.com/bottles/pmd-6.2.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "maven"
+  ],
+  "caveats": "Run with `pmd` (instead of `run.sh` as described in the documentation).\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "maven"
+  ],
+  "desc": "Source code analyzer for Java, JavaScript, and more",
+  "full_name": "pmd",
+  "homepage": "https://pmd.github.io",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pmd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "6.2.0"
+  }
+}

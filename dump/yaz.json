@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "adf7dbd85147165647b0123ce19e9caf0ac4af5029a6d02702acc78299ac262d",
+          "url": "https://linuxbrew.bintray.com/bottles/yaz-5.24.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "935945eb04881baaaf4ea8b8dc91d5df916bdd6c494a3e01238c9af8b9c9a26e",
+          "url": "https://linuxbrew.bintray.com/bottles/yaz-5.24.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4b083b44a2c19eb9c7064c734129f08dc1ffb122080371ce7e0103bbe3193276",
+          "url": "https://linuxbrew.bintray.com/bottles/yaz-5.24.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e8f4599b3af480dab8dbff5764ee02dd5a0e372352100ccb1148ff173488819e",
+          "url": "https://linuxbrew.bintray.com/bottles/yaz-5.24.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "icu4c",
+    "libxml2"
+  ],
+  "desc": "Toolkit for Z39.50/SRW/SRU clients/servers",
+  "full_name": "yaz",
+  "homepage": "https://www.indexdata.com/yaz",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "yaz",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without icu4c support",
+      "option": "--without-icu4c"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "icu4c"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.24.0"
+  }
+}

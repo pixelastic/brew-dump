@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ab91725ffc7378cafd715b5d357fae4a0efcba481a28062ec267b880f56191fd",
+          "url": "https://linuxbrew.bintray.com/bottles/hatari-2.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8ae0f75f55becb21fcedb5dd1d06925624d911088e5eebec85f284411406622b",
+          "url": "https://linuxbrew.bintray.com/bottles/hatari-2.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "51da79162122d274d22bb54e08d3c6e9c2fffa561da57800af6342f081ed621f",
+          "url": "https://linuxbrew.bintray.com/bottles/hatari-2.1.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libpng",
+    "sdl2",
+    "portaudio"
+  ],
+  "desc": "Atari ST/STE/TT/Falcon emulator",
+  "full_name": "hatari",
+  "homepage": "https://hatari.tuxfamily.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "hatari",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.0"
+  }
+}

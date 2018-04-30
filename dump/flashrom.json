@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1d5ff4b5b6b201f65007f322a92c93d8337cbdcc028d9b777eba2c3736a59361",
+          "url": "https://linuxbrew.bintray.com/bottles/flashrom-0.9.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8a4b99ba9d265654a48038ccf8833489cdfef64eec1ff5fff9c0b33b7da01197",
+          "url": "https://linuxbrew.bintray.com/bottles/flashrom-0.9.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a94e756a9ead25454461e5e96d7ba03e174b7fb98de10daf6e766874f97b19bd",
+          "url": "https://linuxbrew.bintray.com/bottles/flashrom-0.9.9.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8d8114627429244e48956866024f977c06dc5ca75b871a66edcd16bde456816e",
+          "url": "https://linuxbrew.bintray.com/bottles/flashrom-0.9.9.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libusb-compat",
+    "libftdi0"
+  ],
+  "desc": "Identify, read, write, verify, and erase flash chips",
+  "full_name": "flashrom",
+  "homepage": "https://flashrom.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "flashrom",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.9.9"
+  }
+}

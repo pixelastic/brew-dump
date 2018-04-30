@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "49456db30e93abd2633ac358bf2e1d1e4f25b53871caecac766af9ab8d1a46b5",
+          "url": "https://linuxbrew.bintray.com/bottles/idutils-4.6_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f91b3e43aae6bb6d645a5900920364f34baae6e124b9d11f3f58a230b60d47af",
+          "url": "https://linuxbrew.bintray.com/bottles/idutils-4.6_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8a3edf99858c93dda9dc51ee15efd75b9a4fd89f828c6663470ea113a814e305",
+          "url": "https://linuxbrew.bintray.com/bottles/idutils-4.6_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "coreutils"
+  ],
+  "dependencies": [
+  ],
+  "desc": "ID database and query tools",
+  "full_name": "idutils",
+  "homepage": "https://www.gnu.org/s/idutils/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "idutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.6"
+  }
+}

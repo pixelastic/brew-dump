@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "03cb45f3f3333af6789292890b1a2ea23825a3a77f02f3ebf735c90708818166",
+          "url": "https://linuxbrew.bintray.com/bottles/glances-2.11.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ff4cdbbf531f93187e9b32047ce0ce33b9fe25d3d689bd475303b3ce5a0634c5",
+          "url": "https://linuxbrew.bintray.com/bottles/glances-2.11.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "bfdfdacd387c866e575bc05febd92e131097856b54e3d24f4db84450ddab2508",
+          "url": "https://linuxbrew.bintray.com/bottles/glances-2.11.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Alternative to top/htop",
+  "full_name": "glances",
+  "homepage": "https://nicolargo.github.io/glances/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "glances",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.11.1"
+  }
+}

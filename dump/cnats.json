@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c0bbd1825975f69b7ed172c3ad428a36494611ea56cbdadd9b6288cc26154929",
+          "url": "https://linuxbrew.bintray.com/bottles/cnats-1.7.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "93634acc0e5dc64ffcd7e664bd61d58b138293f2462aca247e85a29e1f0c9154",
+          "url": "https://linuxbrew.bintray.com/bottles/cnats-1.7.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "b7b780159a6dd26e6b998b5fc602b62781e1c9b9aa0aaa58872c2402e82e1805",
+          "url": "https://linuxbrew.bintray.com/bottles/cnats-1.7.6.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1391374948ba4827a0db720e13bb2ef6ce75fee7e30c7514d799848b7cc1e4f4",
+          "url": "https://linuxbrew.bintray.com/bottles/cnats-1.7.6.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libevent",
+    "libuv",
+    "openssl"
+  ],
+  "desc": "C client for the NATS messaging system",
+  "full_name": "cnats",
+  "homepage": "https://github.com/nats-io/cnats",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cnats",
+  "oldname": null,
+  "optional_dependencies": [
+    "libevent",
+    "libuv"
+  ],
+  "options": [
+    {
+      "description": "Build with libevent support",
+      "option": "--with-libevent"
+    },
+    {
+      "description": "Build with libuv support",
+      "option": "--with-libuv"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7.6"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "21c9bbeaf1f5ab28751714147db3257824535eda0068c701707c8ad02fe50372",
+          "url": "https://linuxbrew.bintray.com/bottles/ooniprobe-2.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "63c467de1c93e89d6eb555587ccf5048fc7d48646a1359ae51549635d619fe27",
+          "url": "https://linuxbrew.bintray.com/bottles/ooniprobe-2.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "190aa6d0fc5824a8f34c364ba6c436c6a7c4a6485afd10b9aaf39885ee2e870c",
+          "url": "https://linuxbrew.bintray.com/bottles/ooniprobe-2.3.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Decks are installed to /home/tim/.linuxbrew/opt/ooniprobe/share/ooniprobe/decks.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "geoip",
+    "libdnet",
+    "libyaml",
+    "openssl",
+    "python@2",
+    "tor"
+  ],
+  "desc": "Network interference detection tool",
+  "full_name": "ooniprobe",
+  "homepage": "https://ooni.torproject.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ooniprobe",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.3.0"
+  }
+}

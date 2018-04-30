@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "e2fe6f3370fa84645ff858ef651b54aee84b0522a8da0e529d6a98c465d6c8ad",
+          "url": "https://linuxbrew.bintray.com/bottles/ganglia-3.7.2_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d375f0a7bc5caff2ff825ac487530b0e78efb1521b8ea2b4ef7f15a002526941",
+          "url": "https://linuxbrew.bintray.com/bottles/ganglia-3.7.2_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c295e711dd78ca5a19e3b7f8c5534b049217664701c13312795bf035a3db2017",
+          "url": "https://linuxbrew.bintray.com/bottles/ganglia-3.7.2_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": "If you didn't have a default config file, one was created here:\n  /home/tim/.linuxbrew/etc/gmond.conf\n",
+  "conflicts_with": [
+    "coreutils"
+  ],
+  "dependencies": [
+    "pkg-config",
+    "apr",
+    "confuse",
+    "pcre",
+    "rrdtool"
+  ],
+  "desc": "Scalable distributed monitoring system",
+  "full_name": "ganglia",
+  "homepage": "https://ganglia.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ganglia",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.7.2"
+  }
+}

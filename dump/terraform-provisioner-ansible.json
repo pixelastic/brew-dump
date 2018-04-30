@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2b96de2a84016f1637fd428d40fcdcf16c960e795ce9307c2fb58672be2d21c0",
+          "url": "https://linuxbrew.bintray.com/bottles/terraform-provisioner-ansible-0.0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9c5773e4d576ae2f7e28438587b42170a33a6767c13805ed7ef372ad102bc139",
+          "url": "https://linuxbrew.bintray.com/bottles/terraform-provisioner-ansible-0.0.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a56474f71703f7d660a17ed6faf039e98ccf50d32ce82b2c92fcc907f012ad78",
+          "url": "https://linuxbrew.bintray.com/bottles/terraform-provisioner-ansible-0.0.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "2b9f182b17571e29b4b6767db5974e39d3b5e2e5e1bb87b83b6cf1f28f855a10",
+          "url": "https://linuxbrew.bintray.com/bottles/terraform-provisioner-ansible-0.0.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": "Once installed a $HOME/.terraformrc file is used to enable the plugin:\n\nprovisioners {\n  ansible = \"/home/tim/.linuxbrew/bin/terraform-provisioner-ansible\"\n}\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "terraform"
+  ],
+  "desc": "Ansible provisioner for Terraform",
+  "full_name": "terraform-provisioner-ansible",
+  "homepage": "https://github.com/jonmorehouse/terraform-provisioner-ansible",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "terraform-provisioner-ansible",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.0.2"
+  }
+}

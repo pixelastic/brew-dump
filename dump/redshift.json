@@ -1,0 +1,78 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f8fc6b6b2279982aefc06a03571c8de76df9542808558e542e87d7e28187d58f",
+          "url": "https://linuxbrew.bintray.com/bottles/redshift-1.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eafe2b08f2aeee05a13d92e6ec161b86d777b56bb28dedf6419757b360afecc3",
+          "url": "https://linuxbrew.bintray.com/bottles/redshift-1.11.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "9d151b44efdd166ae4239af7dff907a4868441c126f7fd11aa69a53e9d39de7a",
+          "url": "https://linuxbrew.bintray.com/bottles/redshift-1.11.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "654082b1aefb05db5833fa3dfc8b4313525c5ff4bb002de79c1793d998713afe",
+          "url": "https://linuxbrew.bintray.com/bottles/redshift-1.11.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e5224d97ef979debcf0256b2819d843c99e323ed03237f6ff31954e685062b93",
+          "url": "https://linuxbrew.bintray.com/bottles/redshift-1.11.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b51cd606ac04a3709ca9a02196c26ee6b79b1b32d976ef01155db382f5145f81",
+          "url": "https://linuxbrew.bintray.com/bottles/redshift-1.11.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": "A sample .conf file has been installed to /home/tim/.linuxbrew/opt/redshift/share/redshift.\n\nPlease note redshift expects to read its configuration file from\n/home/tim/.config\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "gettext",
+    "glib"
+  ],
+  "desc": "Adjust color temperature of your screen according to your surroundings",
+  "full_name": "redshift",
+  "homepage": "http://jonls.dk/redshift/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "redshift",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.11"
+  }
+}

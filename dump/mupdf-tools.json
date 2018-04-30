@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9cff7b00e334fd3f90ed6aee94fa57f02904db7a76b0af9aa611f37aff174004",
+          "url": "https://linuxbrew.bintray.com/bottles/mupdf-tools-1.12.0.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "02061e5a4e373b4d8283a23728ecef4d6a04d4562fce187d3354fdec65a595f4",
+          "url": "https://linuxbrew.bintray.com/bottles/mupdf-tools-1.12.0.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a9c8080aea6e6f055c601c6ad4ff7752ad650ecf226e276b88a21c0eb21b317f",
+          "url": "https://linuxbrew.bintray.com/bottles/mupdf-tools-1.12.0.sierra.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Lightweight PDF and XPS viewer",
+  "full_name": "mupdf-tools",
+  "homepage": "https://mupdf.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mupdf-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.12.0"
+  }
+}

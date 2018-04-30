@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9d1a7da30fb133b43b243e562167ffdde6c125f054c3fde7a866a0b15173f269",
+          "url": "https://linuxbrew.bintray.com/bottles/rbenv-1.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ffafe9cbf0f10545e0c7db8a5ea0ed3056226441391911d2992b2373de94afe3",
+          "url": "https://linuxbrew.bintray.com/bottles/rbenv-1.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a99c9b4ba77938ce03b8e06e0e4d7670c611214b07b78d2b5e1bc9a7571f9186",
+          "url": "https://linuxbrew.bintray.com/bottles/rbenv-1.1.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "7c54b51f6f89d40f5e50972809f2ee3850c9b0448d4a93cfaff9189ec7783ea1",
+          "url": "https://linuxbrew.bintray.com/bottles/rbenv-1.1.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e3e0e0b32a1bb337178d915a91ac7f552153cbf351973f9ef1692d9644824f61",
+          "url": "https://linuxbrew.bintray.com/bottles/rbenv-1.1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ruby-build"
+  ],
+  "desc": "Ruby version manager",
+  "full_name": "rbenv",
+  "homepage": "https://github.com/rbenv/rbenv#readme",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rbenv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without ruby-build support",
+      "option": "--without-ruby-build"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "ruby-build"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.1.1"
+  }
+}

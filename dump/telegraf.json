@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4d22161b9595e5c9dfdd0d338e47c67ff4c3aeac5047054940378652a8755f0c",
+          "url": "https://linuxbrew.bintray.com/bottles/telegraf-1.6.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3cece4022fee1e29cbb48b648624783a75b62080e7983a2ae698be60d39bd6a2",
+          "url": "https://linuxbrew.bintray.com/bottles/telegraf-1.6.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d8d470668bca360846dbb28f44842525f87a2ed688629ee199ac8f2859ab6e9a",
+          "url": "https://linuxbrew.bintray.com/bottles/telegraf-1.6.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "gdm",
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gdm",
+    "go"
+  ],
+  "desc": "Server-level metric gathering agent for InfluxDB",
+  "full_name": "telegraf",
+  "homepage": "https://influxdata.com",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "telegraf",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.6.1"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "b9eae75e261940cba3bf33aec8fea1904c6de4648a0dea1f32f517289e0d9a1d",
+          "url": "https://linuxbrew.bintray.com/bottles/taisei-1.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "162eb10eaf78191aeb474f75095cb35b5840dd4b4ad1e0452ec65ab19590cf80",
+          "url": "https://linuxbrew.bintray.com/bottles/taisei-1.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "0065ca15927c95e455dd3a42c4cc1dfcb9365069c914a8d1bffca11e41dbde00",
+          "url": "https://linuxbrew.bintray.com/bottles/taisei-1.2_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "freetype",
+    "libpng",
+    "libzip",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "python",
+    "sdl2",
+    "sdl2_mixer",
+    "sdl2_ttf"
+  ],
+  "caveats": "Sound may not work.",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "freetype",
+    "libpng",
+    "libzip",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "python",
+    "sdl2",
+    "sdl2_mixer",
+    "sdl2_ttf"
+  ],
+  "desc": "Clone of Touhou Project shoot-em-up games",
+  "full_name": "taisei",
+  "homepage": "https://taisei-project.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "taisei",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2"
+  }
+}

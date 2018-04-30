@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b891b87205fbfcc593673726193ceb44535155237d09dc17b38359ed5abee125",
+          "url": "https://linuxbrew.bintray.com/bottles/ed-1.14.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8f81d744b94ceb94b3042369ff93321b2cbd1904cf04f0289b22542d6b68d0cf",
+          "url": "https://linuxbrew.bintray.com/bottles/ed-1.14.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2bcab4bf26dae3b57ffe1097744191315941b6e26c6a43157e2595bb64f40c17",
+          "url": "https://linuxbrew.bintray.com/bottles/ed-1.14.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e1b739510bc99fd9984d3a70ff533d344faac4c4697bb4c079d8a9eb52e49f70",
+          "url": "https://linuxbrew.bintray.com/bottles/ed-1.14.2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d8d925d35a5e3a08353960f029423b4f6e7427b2ecc916407ae7e541b0ba3cfa",
+          "url": "https://linuxbrew.bintray.com/bottles/ed-1.14.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "lzip"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "lzip"
+  ],
+  "desc": "Classic UNIX line editor",
+  "full_name": "ed",
+  "homepage": "https://www.gnu.org/software/ed/ed.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ed",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Don't prepend 'g' to the binaries",
+      "option": "--with-default-names"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.14.2"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4de4edbbfe4ae62cf6af5dd8212cfc0d18feffd940dd98053e990ccde392acbb",
+          "url": "https://linuxbrew.bintray.com/bottles/json-fortran-6.3.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fdb0423147af7c31aa96b0d5e38f4a7eac9f2273187ecbb3a359614d2ad69895",
+          "url": "https://linuxbrew.bintray.com/bottles/json-fortran-6.3.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "73f4062405a630d863de9a30a9c21a7f19e2324f7eb0634d4f6c0b5b186a8270",
+          "url": "https://linuxbrew.bintray.com/bottles/json-fortran-6.3.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake",
+    "ford"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "ford",
+    "gcc"
+  ],
+  "desc": "Fortran 2008 JSON API",
+  "full_name": "json-fortran",
+  "homepage": "https://github.com/jacobwilliams/json-fortran",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "json-fortran",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build json-fortran to support unicode text in json objects and files",
+      "option": "--with-unicode-support"
+    },
+    {
+      "description": "Do not build and install FORD generated documentation for json-fortran",
+      "option": "--without-docs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.3.0"
+  }
+}

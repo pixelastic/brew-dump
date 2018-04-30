@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "010e3d1649ba47570df271456ba83c28ca23fbbceddee8cad0644ef91ba96eca",
+          "url": "https://linuxbrew.bintray.com/bottles/atkmm-2.24.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b6b2da1cde33893f1c499a6df77de45568b20afcfc87e2bfc911a25631b9a1af",
+          "url": "https://linuxbrew.bintray.com/bottles/atkmm-2.24.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "09bfd213a8eb8c7b3ab8b8858593cd9c715b3f2baf00bdeb207dabf35e9d024e",
+          "url": "https://linuxbrew.bintray.com/bottles/atkmm-2.24.2_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "e8134982e38085388877ec12a67c1484d7678f097708908ddddca95d62bb145e",
+          "url": "https://linuxbrew.bintray.com/bottles/atkmm-2.24.2_1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "atk",
+    "glibmm"
+  ],
+  "desc": "Official C++ interface for the ATK accessibility toolkit library",
+  "full_name": "atkmm",
+  "homepage": "https://www.gtkmm.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "atkmm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.24.2"
+  }
+}

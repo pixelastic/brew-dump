@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "5adaaa6d45b674090dd49918532a5035737e7d7d2a1acf861a053ac96d297596",
+          "url": "https://linuxbrew.bintray.com/bottles/polyml-5.7.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5a1f478b3b2b26ab1f2326031c5ea930aa97ac08b83881151e976942c674df65",
+          "url": "https://linuxbrew.bintray.com/bottles/polyml-5.7.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d4c027b336791cc932cebddb6ea901af8a17f482511e9858a4766b380a1b3391",
+          "url": "https://linuxbrew.bintray.com/bottles/polyml-5.7.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "c5bf1973a16ed7786240499ed4cdd9025008b4dfb700e7eea64db2377f378f06",
+          "url": "https://linuxbrew.bintray.com/bottles/polyml-5.7.1.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Standard ML implementation",
+  "full_name": "polyml",
+  "homepage": "http://www.polyml.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "polyml",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "5.7.1"
+  }
+}

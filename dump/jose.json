@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b527c51d08dc44eff7005a75eaaa5e5d89fe950a0bd55eec8929431c94877826",
+          "url": "https://linuxbrew.bintray.com/bottles/jose-10.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9b4f2fa1305f31524b044a6ded2581e31eda203996061a6e9e57f64688883b9d",
+          "url": "https://linuxbrew.bintray.com/bottles/jose-10.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8961c873e24e87730465ec0efcfa6190e9359d76e708d1a68aa49df1bb3da827",
+          "url": "https://linuxbrew.bintray.com/bottles/jose-10.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "cd2a8cfcac19635aca297bef67c97fc8c00c1c52b62182c9f7ba2599ad5237a1",
+          "url": "https://linuxbrew.bintray.com/bottles/jose-10.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "jansson",
+    "openssl"
+  ],
+  "desc": "C-language implementation of Javascript Object Signing and Encryption",
+  "full_name": "jose",
+  "homepage": "https://github.com/latchset/jose",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "jose",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "10"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "11a6747479a401661fcd32e6233e581ec0f065a0fc737ee3da163c23d73bb00d",
+          "url": "https://linuxbrew.bintray.com/bottles/charm-tools-2.2.3_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "68365eeb6730d2d7645a791c7d60206d733f19d56c16deb31e5b42cc0378bc28",
+          "url": "https://linuxbrew.bintray.com/bottles/charm-tools-2.2.3_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4dc6ab436414c0ffd0c07601bec4240b2907c090b7a7a300c5ec6bc49e960a01",
+          "url": "https://linuxbrew.bintray.com/bottles/charm-tools-2.2.3_3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "76c99fde238ddfeaae2116243ada8187398c3466d400676c85bb4a1e0a801b87",
+          "url": "https://linuxbrew.bintray.com/bottles/charm-tools-2.2.3_3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2",
+    "libyaml",
+    "mercurial",
+    "charm",
+    "openssl",
+    "pkg-config",
+    "libffi",
+    "gmp"
+  ],
+  "desc": "Tools for authoring and maintaining juju charms",
+  "full_name": "charm-tools",
+  "homepage": "https://github.com/juju/charm-tools",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "charm-tools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.2.3"
+  }
+}

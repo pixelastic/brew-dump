@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "2a91c4fb3c3f070a2828875eacc72c73d36928bea0b9169769435ed66538d9ff",
+          "url": "https://linuxbrew.bintray.com/bottles/wartremover-2.1.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bf550c84f6496836bac31e52f0fd9409183db5835b874d7da2d7d1d343c645e7",
+          "url": "https://linuxbrew.bintray.com/bottles/wartremover-2.1.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "38422af4a85e008b1405bac3aba599e5465b1ce5990ebd482132d460eb31ba49",
+          "url": "https://linuxbrew.bintray.com/bottles/wartremover-2.1.1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8f2c7df114f3c5e50569f284f9421ccaa8fd4e3e663756714ce30c39d0fae3ef",
+          "url": "https://linuxbrew.bintray.com/bottles/wartremover-2.1.1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a39d5db621275982f364f37a5e6d2c0ccd3a507c1c9afa8a6693123b75d4413c",
+          "url": "https://linuxbrew.bintray.com/bottles/wartremover-2.1.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "sbt"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sbt"
+  ],
+  "desc": "Flexible Scala code linting tool",
+  "full_name": "wartremover",
+  "homepage": "https://github.com/wartremover/wartremover",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wartremover",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.1.1"
+  }
+}

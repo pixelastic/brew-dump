@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "0f4354fe1d3f35c51cdcc66bae90a25c206574305407d102fd82c760def847a0",
+          "url": "https://linuxbrew.bintray.com/bottles/libvisio-0.1.6_3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d36591665e4cc9c4af45a9372e0e2749c1beaaf07bcf9783d31c4b305465f2b7",
+          "url": "https://linuxbrew.bintray.com/bottles/libvisio-0.1.6_3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9dc03aaa376fad416fd3f0532640ed974429a7738d69e149daa5cfd590148ea0",
+          "url": "https://linuxbrew.bintray.com/bottles/libvisio-0.1.6_3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "cppunit"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cppunit",
+    "boost",
+    "librevenge",
+    "icu4c"
+  ],
+  "desc": "Interpret and import Visio diagrams",
+  "full_name": "libvisio",
+  "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libvisio",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libvisio",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 3,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.1.6"
+  }
+}

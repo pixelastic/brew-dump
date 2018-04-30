@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "799c9c907b020aed48763162b996a672d42b3b8dde5a53381e28818ccd0981dc",
+          "url": "https://linuxbrew.bintray.com/bottles/chromaprint-1.4.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3d0ae4279d4d3fa0fad24c434e82032384256ed1613e89e7b601e1f02ceaa596",
+          "url": "https://linuxbrew.bintray.com/bottles/chromaprint-1.4.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "fc91e7116562484496de75f3e3e0a7a61771b9826b6f3a4497af411df2683290",
+          "url": "https://linuxbrew.bintray.com/bottles/chromaprint-1.4.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "94cb5a7fe84dbb14e84832689151480c8067aefb12a9015d947fd6f47a23f240",
+          "url": "https://linuxbrew.bintray.com/bottles/chromaprint-1.4.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Core component of the AcoustID project (Audio fingerprinting)",
+  "full_name": "chromaprint",
+  "homepage": "https://acoustid.org/chromaprint",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "chromaprint",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.3"
+  }
+}

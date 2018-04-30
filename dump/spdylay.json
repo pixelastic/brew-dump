@@ -1,0 +1,84 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "613ca2f401b491abe6d16eb51dfe1d955d7e985d04fc82950633c807f15b017c",
+          "url": "https://linuxbrew.bintray.com/bottles/spdylay-1.4.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9cb131c7f3205acdf923fd3a978a421f99af649d6262698395e458b1a2ef442d",
+          "url": "https://linuxbrew.bintray.com/bottles/spdylay-1.4.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "02084694808e70244e96c4aca7c1351e135215c28375ef84f83d1a86b0324ec1",
+          "url": "https://linuxbrew.bintray.com/bottles/spdylay-1.4.0_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "d43550297c5b95b430f02de68f40ba522db02d55923aea705e3a6f05aa57c663",
+          "url": "https://linuxbrew.bintray.com/bottles/spdylay-1.4.0_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c4fe31125eaff34fca1a71d7fe923d9e0fe3cde230df0fba0d9bb2c2067ea493",
+          "url": "https://linuxbrew.bintray.com/bottles/spdylay-1.4.0_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "libevent",
+    "libxml2",
+    "openssl"
+  ],
+  "desc": "Experimental implementation of SPDY protocol versions 2, 3, and 3.1",
+  "full_name": "spdylay",
+  "homepage": "https://github.com/tatsuhiro-t/spdylay",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "spdylay",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without libevent support",
+      "option": "--without-libevent"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "libevent"
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.4.0"
+  }
+}

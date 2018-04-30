@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "398333f85c3944de889172ca9d3aa5ffd709403ca2225316f130be817f09873a",
+          "url": "https://linuxbrew.bintray.com/bottles/cctools-806.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "884da525162c316ea2375417148d696f3db9c0995d54b9caf089c634f46c8424",
+          "url": "https://linuxbrew.bintray.com/bottles/cctools-806.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "3b0c895c6f0832ef9509720ebc15478e188ea6396ba41729273eb64d7b2f7ec2",
+          "url": "https://linuxbrew.bintray.com/bottles/cctools-806.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "f9f74d98119d2efd5530f8d98eb7838a77be35576880ecec73fe9d535aa2afb0",
+          "url": "https://linuxbrew.bintray.com/bottles/cctools-806.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d1cdbb626ef536c6e25884eafe2bdfb8e2c4d4011e4e37eea9c69b834c55cfe4",
+          "url": "https://linuxbrew.bintray.com/bottles/cctools-806.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a76a710f5f164feace5ad107eb40bf5e6a25e916f7334e69ee197a8e3d02b90c",
+          "url": "https://linuxbrew.bintray.com/bottles/cctools-806.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cctools-headers"
+  ],
+  "caveats": "cctools's version of ld was not built.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cctools-headers"
+  ],
+  "desc": "Binary and cross-compilation tools for Apple",
+  "full_name": "cctools",
+  "homepage": "https://opensource.apple.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "cctools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "806"
+  }
+}

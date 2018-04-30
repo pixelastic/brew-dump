@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8d29698226d26f42559f4913a13920632b85cafc389122697fa2c5c4d0cd2d8b",
+          "url": "https://linuxbrew.bintray.com/bottles/dvdrtools-0.2.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f697f22349d9ed05ad580d06b5dc38c4b626187d50cfc364af4bb5634f16b152",
+          "url": "https://linuxbrew.bintray.com/bottles/dvdrtools-0.2.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "45fbfc8f888ca87b81aa7dff0f30d8cb69c36a4ce1933d76faecbd023c4ab3ad",
+          "url": "https://linuxbrew.bintray.com/bottles/dvdrtools-0.2.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "afa198a1854643ac7657ad1c93bfc5f9b05760e3b3375dd3ec43ad0b51e4ea7e",
+          "url": "https://linuxbrew.bintray.com/bottles/dvdrtools-0.2.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "4feb2b0e87b7402706c5a382c8e35b66279aa1b73c37c7ded7a6cc14de3a8a62",
+          "url": "https://linuxbrew.bintray.com/bottles/dvdrtools-0.2.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "cdrtools"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Fork of cdrtools DVD writer support",
+  "full_name": "dvdrtools",
+  "homepage": "https://savannah.nongnu.org/projects/dvdrtools/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dvdrtools",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.2.1"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "lukemftpd"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4ef4b7c1a35307c4a3e6b70dad1ba193aceda75920da79b0a2bd135446863d5e",
+          "url": "https://linuxbrew.bintray.com/bottles/tnftpd-20100324.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ee9f7bc91071b5a4c625621593b78cf34cc01ee06b828c942afc6aa30cbee5ff",
+          "url": "https://linuxbrew.bintray.com/bottles/tnftpd-20100324.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "64d040373d1378a529947ad70460044013716d0e9fb0cbd2b5c81475caead3c7",
+          "url": "https://linuxbrew.bintray.com/bottles/tnftpd-20100324.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "You may need super-user privileges to run this program properly. See the man\npage for more details.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "NetBSD's FTP server (built from macOS Sierra sources)",
+  "full_name": "tnftpd",
+  "homepage": "https://opensource.apple.com/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tnftpd",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "20100324"
+  }
+}

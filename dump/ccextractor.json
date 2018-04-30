@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c9b725b4f4680f534e6924fe0b2b68aa77b25ff14a4118d49bc60bdfaa286287",
+          "url": "https://linuxbrew.bintray.com/bottles/ccextractor-0.85.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "35b445f24dd0be2979fb9cdb47eda8c45489aaa746d6efeb866a1e8d2329a272",
+          "url": "https://linuxbrew.bintray.com/bottles/ccextractor-0.85.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "708daa50fd6cd54bac11b8bb8f55b54b0999b180313538fa7bc3c346b4240c2e",
+          "url": "https://linuxbrew.bintray.com/bottles/ccextractor-0.85.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "03f774c0122cad214d35afe8fbfdb450ca1713601858b07d783c8ade9757c44e",
+          "url": "https://linuxbrew.bintray.com/bottles/ccextractor-0.85.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Free, GPL licensed closed caption tool",
+  "full_name": "ccextractor",
+  "homepage": "https://www.ccextractor.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ccextractor",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.85"
+  }
+}

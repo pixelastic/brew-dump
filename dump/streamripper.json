@@ -1,0 +1,71 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "eff1bb37cd652e9b3194e2fda3c682bda9da12f413a11c4e5e337c9bc849b2ea",
+          "url": "https://linuxbrew.bintray.com/bottles/streamripper-1.64.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e0f65bd98aea085a8c2cc09e8d4a4f383a84bc18ebe39d73f466e538bea7bad4",
+          "url": "https://linuxbrew.bintray.com/bottles/streamripper-1.64.6.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "a92b924639b9210e83cae1e63baa8f9b45ab4ec38816e19e32ad6fbae420a510",
+          "url": "https://linuxbrew.bintray.com/bottles/streamripper-1.64.6.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3f055510dc825aa663f35c91aa5f4e5a57baacd69c00f0c428df4a98ad9b6a7e",
+          "url": "https://linuxbrew.bintray.com/bottles/streamripper-1.64.6.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "3465e96b5f17000df88a85729674f911097ab9f1b0170a0c3c89f4892dba6fbb",
+          "url": "https://linuxbrew.bintray.com/bottles/streamripper-1.64.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib"
+  ],
+  "desc": "Separate tracks via Shoutcasts title-streaming",
+  "full_name": "streamripper",
+  "homepage": "https://streamripper.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "streamripper",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.64.6"
+  }
+}

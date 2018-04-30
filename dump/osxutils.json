@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "3bd65cf2550b709c111e31db7cb7d829a9260ed5dd35a682c370ed01593c1989",
+          "url": "https://linuxbrew.bintray.com/bottles/osxutils-1.9.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d665cbec1973b73e1e1d290014786b95d36d9cfe7028fd69fa37f698d18e81dd",
+          "url": "https://linuxbrew.bintray.com/bottles/osxutils-1.9.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8021183b4ad9c646920020e51446e555210bbb24e22da923557e1e0370353dfd",
+          "url": "https://linuxbrew.bintray.com/bottles/osxutils-1.9.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Collection of macOS command-line utilities",
+  "full_name": "osxutils",
+  "homepage": "https://github.com/specious/osxutils",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "osxutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.9.0"
+  }
+}

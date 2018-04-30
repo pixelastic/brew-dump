@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "b3230fe854623e9ef87868b028a7c3cdfa7b08cdd749def59312cbc47c510bec",
+          "url": "https://linuxbrew.bintray.com/bottles/ficy-1.0.21.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a47243a3eddfb8b8aa8ddb337de2ec09b80385bcdf6922a858a50d4a5d79cc47",
+          "url": "https://linuxbrew.bintray.com/bottles/ficy-1.0.21.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c8e04a4eb2cf74a46ed02c14c18bb13b06dcdc8703f5913744e904492efe64d8",
+          "url": "https://linuxbrew.bintray.com/bottles/ficy-1.0.21.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "818316812d71c46fe4e720204382cc1bdd8e5b5ee02f5e1f9589e6487eeecf71",
+          "url": "https://linuxbrew.bintray.com/bottles/ficy-1.0.21.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ba35c8e07903b74a37daf9131f26a578320f79252aa95e9ca7a5921065cd2a51",
+          "url": "https://linuxbrew.bintray.com/bottles/ficy-1.0.21.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Icecast/Shoutcast stream grabber suite",
+  "full_name": "ficy",
+  "homepage": "https://www.thregr.org/~wavexx/software/fIcy/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ficy",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.0.21"
+  }
+}

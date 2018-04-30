@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "fb892db831aed57dbdcb2d3a81d78bd05c5b689376d4b7f14bffc56826205ce9",
+          "url": "https://linuxbrew.bintray.com/bottles/doxymacs-1.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "29a4865170b12a2194c238c35ec5e0902b8e637e378f9013b7aef64fa21eb0fc",
+          "url": "https://linuxbrew.bintray.com/bottles/doxymacs-1.8.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "9efc35f7eee0ff431afbd36367676afb608498f823e6094b67d4c86d83694dd4",
+          "url": "https://linuxbrew.bintray.com/bottles/doxymacs-1.8.0.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "2a08771aecf0d6475b8f1e3bf9858c13fa190529a1fe1652ad59dc927a141de4",
+          "url": "https://linuxbrew.bintray.com/bottles/doxymacs-1.8.0.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2fd3dc59a8c0c8fdccf8195265d320aaa7b5d67e9a81b5a085f27cc287e7370e",
+          "url": "https://linuxbrew.bintray.com/bottles/doxymacs-1.8.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "09eb19921c2ecce5bb02b185c1040caef07d18706866006bdd5fa428bf6b8560",
+          "url": "https://linuxbrew.bintray.com/bottles/doxymacs-1.8.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "doxygen",
+    "emacs"
+  ],
+  "desc": "Elisp package for using doxygen under Emacs",
+  "full_name": "doxymacs",
+  "homepage": "https://doxymacs.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "doxymacs",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.8.0"
+  }
+}

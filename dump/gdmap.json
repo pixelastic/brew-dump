@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "4f48204465a1ce93f84eae2d5f54e2a7d9dad6e9ce5994829590ad14d3640914",
+          "url": "https://linuxbrew.bintray.com/bottles/gdmap-0.8.1_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a1cb2de04ea76b624f09a4662ae3d65313d7c8a43b3b95110a53429af8cad2b2",
+          "url": "https://linuxbrew.bintray.com/bottles/gdmap-0.8.1_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "37ace64b950b2d1565728d490e0ed505c1cbdb1a20cf1fa894a4934784a83a18",
+          "url": "https://linuxbrew.bintray.com/bottles/gdmap-0.8.1_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "intltool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "intltool",
+    "gettext",
+    "glib",
+    "gtk+"
+  ],
+  "desc": "Tool to inspect the used space of folders",
+  "full_name": "gdmap",
+  "homepage": "https://sourceforge.net/projects/gdmap/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gdmap",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8.1"
+  }
+}

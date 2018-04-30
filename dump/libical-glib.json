@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "8e4a96b46dc44aa61f0247b4d5d7afdd6c55bd457b693e599c4da5d74e8e8f49",
+          "url": "https://linuxbrew.bintray.com/bottles/libical-glib-1.0.4_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f0276d45417caf684ffe27f510f0b5004aeadd48b774d1590a6be597160470e3",
+          "url": "https://linuxbrew.bintray.com/bottles/libical-glib-1.0.4_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "69ac0d22224466d8fd02e65fafe758da6b3d06724accbea82d8b2dcad81f659a",
+          "url": "https://linuxbrew.bintray.com/bottles/libical-glib-1.0.4_1.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "ab85f909fc4c1122ac9b209e729dc73d3b76bf91e58af3ea16577d3e2982c8bb",
+          "url": "https://linuxbrew.bintray.com/bottles/libical-glib-1.0.4_1.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "485062bfe30e8dc477adaf4e25d1a2d91c53f8be33993901a078bec1ae09b4ef",
+          "url": "https://linuxbrew.bintray.com/bottles/libical-glib-1.0.4_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libical",
+    "glib",
+    "gobject-introspection"
+  ],
+  "desc": "Wrapper of libical with support of GObject Introspection",
+  "full_name": "libical-glib",
+  "homepage": "https://wiki.gnome.org/Projects/libical-glib",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "libical-glib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.4"
+  }
+}

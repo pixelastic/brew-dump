@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "80d0eac56e379fea4c651cc9e38ae07dac6bfd3464b7b31153a47c74da9b35cb",
+          "url": "https://linuxbrew.bintray.com/bottles/todolist-0.8.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "3b4b8d23cb5b1fd8dd1bad37cf27688ec151d3e79e3b593e0ed49b5c7511a8a7",
+          "url": "https://linuxbrew.bintray.com/bottles/todolist-0.8.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8aeeaa40bf1a97facb75fc2f559c0f5534b576061758476ea5538e32be3000fe",
+          "url": "https://linuxbrew.bintray.com/bottles/todolist-0.8.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "0c342b534301bdcf0e5e5f7c5a90ebce162852d828f219b10250bbe89996e372",
+          "url": "https://linuxbrew.bintray.com/bottles/todolist-0.8.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go",
+    "govendor"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go",
+    "govendor"
+  ],
+  "desc": "Very fast, simple task manager for the command-line, based upon GTD",
+  "full_name": "todolist",
+  "homepage": "http://todolist.site",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "todolist",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.8"
+  }
+}

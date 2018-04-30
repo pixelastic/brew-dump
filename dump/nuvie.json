@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "bbf72ee5eeb816255999fc5c331bc70d6b4af3a7f639795f736b8f46e70b9790",
+          "url": "https://linuxbrew.bintray.com/bottles/nuvie-0.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f6f5c6e9396e6a8920ce10765807c07c8aea1158b18807087ece931cbe428948",
+          "url": "https://linuxbrew.bintray.com/bottles/nuvie-0.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "036ab5e7a6b95f33f470c00124cc498012f38e650b830eca1d84082a7296a554",
+          "url": "https://linuxbrew.bintray.com/bottles/nuvie-0.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "324dcf4a9f1ae523fd70fbbb1141f7cfe4245348d439c37dbe7a1520eb9e00d9",
+          "url": "https://linuxbrew.bintray.com/bottles/nuvie-0.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "Copy your Ultima 6 game files into the following directory:\n  /home/tim/.linuxbrew/var/nuvie/game/ultima6/\nSave games will be stored in the following directory:\n  /home/tim/.linuxbrew/var/nuvie/savegames/\nConfig file will be located at:\n  /home/tim/.linuxbrew/var/nuvie/nuvie.cfg\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "sdl"
+  ],
+  "desc": "The Ultima 6 engine",
+  "full_name": "nuvie",
+  "homepage": "https://nuvie.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nuvie",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.5"
+  }
+}

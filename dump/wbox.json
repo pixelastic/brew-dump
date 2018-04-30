@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "0e813a0982d6b9228217f14352812d9e6880cce44757f8af9a0447bf5e4a1e63",
+          "url": "https://linuxbrew.bintray.com/bottles/wbox-5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6e8b41d8caf8ae84cf5ff0d7fe9bdb7d83b9c7afae9a746fe319e67fe145cf2c",
+          "url": "https://linuxbrew.bintray.com/bottles/wbox-5.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "35b640ce39cd36f75ec595215099f121feb517672fb11abf30b36a1e567fc117",
+          "url": "https://linuxbrew.bintray.com/bottles/wbox-5.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "241edb51af197d72022a48cb8444506188269b335b057ceaa7bf952db86777d8",
+          "url": "https://linuxbrew.bintray.com/bottles/wbox-5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "ee2bd7599a73c3a9f3fe9f8c2d441d753914981b2420e591050780d436bbf011",
+          "url": "https://linuxbrew.bintray.com/bottles/wbox-5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "HTTP testing tool and configuration-less HTTP server",
+  "full_name": "wbox",
+  "homepage": "http://hping.org/wbox/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wbox",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5"
+  }
+}

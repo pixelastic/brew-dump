@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "c5401f6b0ad0e628ca973e902a9f59e9b5339eda80f4869dc1d183c1f4aae838",
+          "url": "https://linuxbrew.bintray.com/bottles/nvi-1.81.6_4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4ac03e9bc7afe7e7349a5c16f917d19ed3f0a27efdf71a4cf4163828232ea45b",
+          "url": "https://linuxbrew.bintray.com/bottles/nvi-1.81.6_4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c2f50939879bea71f2c5463d68b8c26abb146997fe0f8c5206fcf8bb8a958f90",
+          "url": "https://linuxbrew.bintray.com/bottles/nvi-1.81.6_4.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "cb3108fff0ecf7064004af9ae209ef01cc7f0c24906bb16cefa449e0dea4e483",
+          "url": "https://linuxbrew.bintray.com/bottles/nvi-1.81.6_4.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "xz"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "xz",
+    "berkeley-db",
+    "ncurses"
+  ],
+  "desc": "44BSD re-implementation of vi",
+  "full_name": "nvi",
+  "homepage": "https://sites.google.com/a/bostic.com/keithbostic/vi/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nvi",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 4,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.81.6"
+  }
+}

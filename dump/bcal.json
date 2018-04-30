@@ -1,0 +1,60 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a65d60bce6a1b902a84e3840ea74228be5c9ffe0e1b9fc2c3ed6aa5a3907d0c7",
+          "url": "https://linuxbrew.bintray.com/bottles/bcal-1.8.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "72ceaeadbac4af0bb864ba38664fa348bda14ea4083c07a13ecd219466450b12",
+          "url": "https://linuxbrew.bintray.com/bottles/bcal-1.8.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "48310c1a3421d0d94dc205927b5f36daa5eae939b337e110630a03743feb76ad",
+          "url": "https://linuxbrew.bintray.com/bottles/bcal-1.8.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Storage conversion and expression calculator",
+  "full_name": "bcal",
+  "homepage": "https://github.com/jarun/bcal",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bcal",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8"
+  }
+}

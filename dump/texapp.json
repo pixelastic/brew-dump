@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6615c40b9f733227163ad90b0082c40e7a5885c8ffa36dcb6c5892c09367c279",
+          "url": "https://linuxbrew.bintray.com/bottles/texapp-0.6.11.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6615c40b9f733227163ad90b0082c40e7a5885c8ffa36dcb6c5892c09367c279",
+          "url": "https://linuxbrew.bintray.com/bottles/texapp-0.6.11.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "6615c40b9f733227163ad90b0082c40e7a5885c8ffa36dcb6c5892c09367c279",
+          "url": "https://linuxbrew.bintray.com/bottles/texapp-0.6.11.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "84560f05d9dff6dfec4878d4393c248e210ec29f3081edf35078bcb7018bfca7",
+          "url": "https://linuxbrew.bintray.com/bottles/texapp-0.6.11.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "readline"
+  ],
+  "desc": "App.net client based on TTYtter",
+  "full_name": "texapp",
+  "homepage": "https://www.floodgap.com/software/texapp/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "texapp",
+  "oldname": null,
+  "optional_dependencies": [
+    "readline"
+  ],
+  "options": [
+    {
+      "description": "Build with readline support",
+      "option": "--with-readline"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.11"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+    "libqrencode"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "f9bfb2e870776c67d8cfb735ac64162de374d5d123f48e3e3da965cdd742d73a",
+          "url": "https://linuxbrew.bintray.com/bottles/qrencode-4.0.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7e875aa1e56114fede796291220d623c7b7dc178ef74f4ba666d0c3c03be369b",
+          "url": "https://linuxbrew.bintray.com/bottles/qrencode-4.0.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "df4727cb66c9ca501675f7b169ac9c211e7b766a7908c69ee6248536f810bd81",
+          "url": "https://linuxbrew.bintray.com/bottles/qrencode-4.0.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "2f6fb6c6858e72da9a15a481e00005e3c2cc06675467340c26c6af383d52d3dc",
+          "url": "https://linuxbrew.bintray.com/bottles/qrencode-4.0.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libpng"
+  ],
+  "desc": "QR Code generation",
+  "full_name": "qrencode",
+  "homepage": "https://fukuchi.org/works/qrencode/index.html.en",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "qrencode",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.0.0"
+  }
+}

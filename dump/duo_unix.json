@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "76d1b26e83386c57cbcec73dfcd52ffb1769e1974f9608222ae88b0d978016b0",
+          "url": "https://linuxbrew.bintray.com/bottles/duo_unix-1.10.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "30393ba2e84c7eb00111f3eccc3f6b214cea93c58ffb2cbdc39ca88f4c7be285",
+          "url": "https://linuxbrew.bintray.com/bottles/duo_unix-1.10.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5db71e87da7c8b4db91ade92664bc0b8328757391ccf2c68778b55feae23b589",
+          "url": "https://linuxbrew.bintray.com/bottles/duo_unix-1.10.3.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "openssl"
+  ],
+  "desc": "Two-factor authentication for SSH",
+  "full_name": "duo_unix",
+  "homepage": "https://www.duosecurity.com/docs/duounix",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "duo_unix",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.10.3"
+  }
+}

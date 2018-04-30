@@ -1,0 +1,77 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "4a157e1d1f0f69db4c8070dd0f9c48e5099710aa516c41a3db83c25a0c84adb6",
+          "url": "https://linuxbrew.bintray.com/bottles/fdk-aac-encoder-0.6.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "40b98a23002f12df182d0bc814aa11ce6b9ef3fea9bf092e02f5dd5a437f873d",
+          "url": "https://linuxbrew.bintray.com/bottles/fdk-aac-encoder-0.6.3.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "1232969391e4d3efa420638de1724313ee56b06397b8f730af0e608609b6ba05",
+          "url": "https://linuxbrew.bintray.com/bottles/fdk-aac-encoder-0.6.3.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "786e3ce4a555ea473a8915df451f51ad81f5c27749c29b1e87e64d80c799588f",
+          "url": "https://linuxbrew.bintray.com/bottles/fdk-aac-encoder-0.6.3.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "03fbc5fed2792b358a9bf8e777678bbfca219cb8c9e969b6e3a6c5292de7b65f",
+          "url": "https://linuxbrew.bintray.com/bottles/fdk-aac-encoder-0.6.3.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "fdk-aac"
+  ],
+  "desc": "Command-line encoder frontend for libfdk-aac",
+  "full_name": "fdk-aac-encoder",
+  "homepage": "https://github.com/nu774/fdkaac",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fdk-aac-encoder",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.3"
+  }
+}

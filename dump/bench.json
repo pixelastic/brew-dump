@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "8db49b912fa0589be1e1c1d334855e5d63b620dc6573971b5003c87924d03098",
+          "url": "https://linuxbrew.bintray.com/bottles/bench-1.0.9.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "61c7fa791351bd4c9d7f8f0c119531e17d012551f623f868090cc93ff7661b8b",
+          "url": "https://linuxbrew.bintray.com/bottles/bench-1.0.9.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a55d0b947a65da702c8788e6cd81fc448862357d7565681582c8e27ce241c629",
+          "url": "https://linuxbrew.bintray.com/bottles/bench-1.0.9.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "022e12f26f15e34df17a69fd7b1c9f9b76869468eef49732c2b2106e3058e374",
+          "url": "https://linuxbrew.bintray.com/bottles/bench-1.0.9.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cabal-install",
+    "ghc"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cabal-install",
+    "ghc"
+  ],
+  "desc": "Command-line benchmark tool",
+  "full_name": "bench",
+  "homepage": "https://github.com/Gabriel439/bench",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bench",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.9"
+  }
+}

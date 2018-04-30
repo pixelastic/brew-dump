@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "6faf20ce4c88110019c76cc4253cd65e5743fab7cff109fc8a7d41c8f411012e",
+          "url": "https://linuxbrew.bintray.com/bottles/ndiff-2.00.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e07f1749ab348c33f3918e0278ac4dacbb6aee0553dbb62434a8b59174d20746",
+          "url": "https://linuxbrew.bintray.com/bottles/ndiff-2.00.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7451587f9747af6e7ffd0e5dbacd337a72cd9b7f3c45a1240c2033e0731d5d46",
+          "url": "https://linuxbrew.bintray.com/bottles/ndiff-2.00.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ed6f753f9fe240486de3b6589350fcc0e7afbe345ae2e01bf6b47e132de9be4e",
+          "url": "https://linuxbrew.bintray.com/bottles/ndiff-2.00.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "80adff8ec563059b7f49005c7e567b950ca58b392a4a5db18ae4957fe18b296d",
+          "url": "https://linuxbrew.bintray.com/bottles/ndiff-2.00.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "nmap"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Virtual package provided by nmap",
+  "full_name": "ndiff",
+  "homepage": "https://www.math.utah.edu/~beebe/software/ndiff/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "ndiff",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.00"
+  }
+}

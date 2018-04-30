@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "c612973622cb2b87b5043fecd3aa3419bfc75d469dd7c470e25b72a2d346b834",
+          "url": "https://linuxbrew.bintray.com/bottles/fon-flash-cli-1.10.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "eefb911151deebc71f57de54004b2d8622223b60c8bf6313fcf94a4309c7ce9a",
+          "url": "https://linuxbrew.bintray.com/bottles/fon-flash-cli-1.10.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9aa03dd80f5796ef9087b1e109660fa2c9dc612d399e24c5d61905934d087ac8",
+          "url": "https://linuxbrew.bintray.com/bottles/fon-flash-cli-1.10.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Flash La Fonera and Atheros chipset compatible devices",
+  "full_name": "fon-flash-cli",
+  "homepage": "https://www.gargoyle-router.com/wiki/doku.php?id=fon_flash",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fon-flash-cli",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.10.0"
+  }
+}

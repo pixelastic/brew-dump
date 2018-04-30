@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5140e20287eda941f8756dfdaf377663f84f6872d1ca3f6d70e04b554591d11a",
+          "url": "https://linuxbrew.bintray.com/bottles/aterm-2.8.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "f56a13be464fa577fdad7fe82779f5e6bbe820995e1849b6741ca92807c10bf0",
+          "url": "https://linuxbrew.bintray.com/bottles/aterm-2.8.high_sierra.bottle.1.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "f565d64b5b19b549cfe6eacedd587ff6d2b0e0b3129e1018b364edc0c2d9c415",
+          "url": "https://linuxbrew.bintray.com/bottles/aterm-2.8.mavericks.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dd7b81b3bd9a31746ab461b8d79e4c32838b7e86f540769e4c17825a4b89c1c2",
+          "url": "https://linuxbrew.bintray.com/bottles/aterm-2.8.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "a4e4c8cc34a33e6d5ff5720845a2e8ee8876f789e638d94169b850d8a2d8ecad",
+          "url": "https://linuxbrew.bintray.com/bottles/aterm-2.8.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d12bebbfa2e764abb9cfac1aecd6fc04e58f83eadf0fb3db298d5be03d7f8dca",
+          "url": "https://linuxbrew.bintray.com/bottles/aterm-2.8.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "AfterStep terminal emulator",
+  "full_name": "aterm",
+  "homepage": "http://strategoxt.org/Tools/ATermFormat",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "aterm",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.8"
+  }
+}

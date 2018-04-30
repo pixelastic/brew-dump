@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "9e83bffe9268c4be17f6e37254da13d2edfeee19869bd075580eeaa8f770078b",
+          "url": "https://linuxbrew.bintray.com/bottles/uniutils-2.27.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "6717501e797865b956ded03f433b9353e033328727bcdd6263b1f3721c8ef30d",
+          "url": "https://linuxbrew.bintray.com/bottles/uniutils-2.27.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "5f6609e92596f48fbb20bd0245437f4e967ebc9d06d9fc5e130584f394dce21a",
+          "url": "https://linuxbrew.bintray.com/bottles/uniutils-2.27.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "8707e4003370e82a9dc93f928f35f7160b4fa52d6954df916f292020bf9a790b",
+          "url": "https://linuxbrew.bintray.com/bottles/uniutils-2.27.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Manipulate and analyze Unicode text",
+  "full_name": "uniutils",
+  "homepage": "https://billposer.org/Software/unidesc.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "uniutils",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.27"
+  }
+}

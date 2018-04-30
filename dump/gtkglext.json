@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "1bfd5206621c55215c249f86971be17f9de6385ff08141a53797931e621e507c",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkglext-1.2.0_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "273c2ef65c3757736c30a0179c051fe293da12e11d1c26e735d9d0968c8a6296",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkglext-1.2.0_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "06c59b81c678523054566cb101bac3170fed61c74e1a8beadd25e32ea62de4e2",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkglext-1.2.0_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "bbc371cd59e3955e3bf31f37df5dfe56e977c3552d01596f0e93f252d80430e0",
+          "url": "https://linuxbrew.bintray.com/bottles/gtkglext-1.2.0_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib",
+    "gtk+"
+  ],
+  "desc": "OpenGL extension to GTK+",
+  "full_name": "gtkglext",
+  "homepage": "https://projects.gnome.org/gtkglext/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "gtkglext",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.0"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "2ping"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "4d46b724a7d8a1b317b418c23dc0fdaaa4a790dd053c087277a1d643d6d60ddf",
+          "url": "https://linuxbrew.bintray.com/bottles/twoping-4.1_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4d46b724a7d8a1b317b418c23dc0fdaaa4a790dd053c087277a1d643d6d60ddf",
+          "url": "https://linuxbrew.bintray.com/bottles/twoping-4.1_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4d46b724a7d8a1b317b418c23dc0fdaaa4a790dd053c087277a1d643d6d60ddf",
+          "url": "https://linuxbrew.bintray.com/bottles/twoping-4.1_2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python"
+  ],
+  "desc": "Ping utility to determine directional packet loss",
+  "full_name": "twoping",
+  "homepage": "https://www.finnie.org/software/2ping/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "twoping",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.1"
+  }
+}

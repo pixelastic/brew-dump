@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "aa2f1ca29b6bb27482329344ead21e774b8a73785e1a9173ae3ccbf70e200b8d",
+          "url": "https://linuxbrew.bintray.com/bottles/multimarkdown-6.3.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7b1f221bb7b67fd1f41461062abceb6367b80bdc8eebc9aeebda0329d34941f5",
+          "url": "https://linuxbrew.bintray.com/bottles/multimarkdown-6.3.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "2338a2018abbe28d753e8c4c293b1002259c480a24f8ccea26660b846d7358ba",
+          "url": "https://linuxbrew.bintray.com/bottles/multimarkdown-6.3.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "298772911076eadf172fc45ac7c30eb39679e6ee7c24a54299cfc96c559602f1",
+          "url": "https://linuxbrew.bintray.com/bottles/multimarkdown-6.3.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "mtools",
+    "markdown",
+    "discount"
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Turn marked-up plain text into well-formatted documents",
+  "full_name": "multimarkdown",
+  "homepage": "https://fletcher.github.io/MultiMarkdown-6/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "multimarkdown",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.3.2"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "56c75e78c96c473f2872a414187cf4c5d88465854322a80bed8905952a5c7779",
+          "url": "https://linuxbrew.bintray.com/bottles/rrdtool-1.7.0_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d847a62550c40b4b25a92fd1f6c4f4a18ac43390e12d27b136200a0609b83170",
+          "url": "https://linuxbrew.bintray.com/bottles/rrdtool-1.7.0_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c9baca61d56b91573699e3f69b49964286535bc2b7603f0b0eac1a4bb02aad57",
+          "url": "https://linuxbrew.bintray.com/bottles/rrdtool-1.7.0_1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib",
+    "pango",
+    "lua"
+  ],
+  "desc": "Round Robin Database",
+  "full_name": "rrdtool",
+  "homepage": "https://oss.oetiker.ch/rrdtool/index.en.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "rrdtool",
+  "oldname": null,
+  "optional_dependencies": [
+    "lua"
+  ],
+  "options": [
+    {
+      "description": "Build with lua support",
+      "option": "--with-lua"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.7.0"
+  }
+}

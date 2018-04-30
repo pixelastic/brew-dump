@@ -1,0 +1,62 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "3c53f669e4832ee9e423bd1c124d3b3e7abd2f061b824fae408f5d553c61060a",
+          "url": "https://linuxbrew.bintray.com/bottles/omniorb-4.2.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4d6e50aa2b7e921f95de4423576ad039549cbb10ed4ff034e4ebfac1ff2914fd",
+          "url": "https://linuxbrew.bintray.com/bottles/omniorb-4.2.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "989ec3dfa6d2cffa72b377822404ff212c9c52b10c6ce1cf7e77ebd5a26a96b4",
+          "url": "https://linuxbrew.bintray.com/bottles/omniorb-4.2.2.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config"
+  ],
+  "desc": "IOR and naming service utilities for omniORB",
+  "full_name": "omniorb",
+  "homepage": "https://omniorb.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "omniorb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.2.2"
+  }
+}

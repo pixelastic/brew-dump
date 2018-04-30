@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "9de1741c37d42eadc42a3dd6990c667f5ddf75a54ade98d497cfb4b44aff77d9",
+          "url": "https://linuxbrew.bintray.com/bottles/mapcrafter-2.4_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1e4f143eb5fcbbcb3ef602db9f1747e260fce6eafcc13eb22cac0610508b2b51",
+          "url": "https://linuxbrew.bintray.com/bottles/mapcrafter-2.4_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "dfcfc211eaddb20b77cf4de1896c052952299c7a3d2374a6f907835cbb0f7672",
+          "url": "https://linuxbrew.bintray.com/bottles/mapcrafter-2.4_2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "754a2b714768295a5230f65db0d3b6d606817a757c58c71e1c0332feb8e81621",
+          "url": "https://linuxbrew.bintray.com/bottles/mapcrafter-2.4_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "boost",
+    "jpeg-turbo",
+    "libpng"
+  ],
+  "desc": "Minecraft map renderer",
+  "full_name": "mapcrafter",
+  "homepage": "https://mapcrafter.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mapcrafter",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "2.4"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "12741d3c493511989b5492783249dab5d6f9306d71315a456db5513969f3325c",
+          "url": "https://linuxbrew.bintray.com/bottles/fmt-4.1.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "b7ccb91ade299906ad02d49eb4f57fb3f3da9378ffd9344c7afe9cd37a18dd77",
+          "url": "https://linuxbrew.bintray.com/bottles/fmt-4.1.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1c7d0df7c374395d846eea1886de23efb62f285b9f35b5ba386e58ac5c6913c2",
+          "url": "https://linuxbrew.bintray.com/bottles/fmt-4.1.0.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "b5c92d3349bd243ababcdb0cb910ddc6ec40a68576796f86f64030b110760b55",
+          "url": "https://linuxbrew.bintray.com/bottles/fmt-4.1.0.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Open-source formatting library for C++",
+  "full_name": "fmt",
+  "homepage": "https://fmtlib.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "fmt",
+  "oldname": "cppformat",
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "4.1.0"
+  }
+}

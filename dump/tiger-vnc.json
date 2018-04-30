@@ -1,0 +1,80 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "aba36a55571b32322bcd94cffce43eb5760bd54fa2000d68c3b968c2d9f0f161",
+          "url": "https://linuxbrew.bintray.com/bottles/tiger-vnc-1.8.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "c7213004df95a5a8faf38d036bd631a59c6dd9227565fee7485624dfc16c62bc",
+          "url": "https://linuxbrew.bintray.com/bottles/tiger-vnc-1.8.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "427af0dff8bae2e2720f0c6dea41d54de8eb8e5549ae77faab3110a9366858a5",
+          "url": "https://linuxbrew.bintray.com/bottles/tiger-vnc-1.8.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "b7def4172a88768e2e84df9931138e13401a81913a644f25a72ab43f7ba1f6ae",
+          "url": "https://linuxbrew.bintray.com/bottles/tiger-vnc-1.8.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "gnutls",
+    "jpeg-turbo",
+    "gettext",
+    "fltk"
+  ],
+  "desc": "High-performance, platform-neutral implementation of VNC",
+  "full_name": "tiger-vnc",
+  "homepage": "http://tigervnc.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "tiger-vnc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without gnutls support",
+      "option": "--without-gnutls"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "gnutls"
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.8.0"
+  }
+}

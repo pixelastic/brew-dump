@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "883ed0da7dab681c86709fa7f6dec1528ea579fcfe889bbb87e6834cac9617e3",
+          "url": "https://linuxbrew.bintray.com/bottles/mpop-1.2.6.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "bfb202f660cc7e79f8e58ba853ca3afe1ae4d205cb84301401bdc035336849bd",
+          "url": "https://linuxbrew.bintray.com/bottles/mpop-1.2.6.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "09f173b7d63bedd36901aef8243c8544d3b937d825084396ba1f999f6d029944",
+          "url": "https://linuxbrew.bintray.com/bottles/mpop-1.2.6.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "a15f133e343b6a315c9236f4a5def960936f4e9a326efc30c438fdf2fd46c2a2",
+          "url": "https://linuxbrew.bintray.com/bottles/mpop-1.2.6.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "openssl"
+  ],
+  "desc": "POP3 client",
+  "full_name": "mpop",
+  "homepage": "https://mpop.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mpop",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.6"
+  }
+}

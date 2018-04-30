@@ -1,0 +1,77 @@
+{
+  "aliases": [
+    "hashdeep"
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "986dad46d2945aac775eb625e41b0236f2413b3924244d5e9aba445994c38687",
+          "url": "https://linuxbrew.bintray.com/bottles/md5deep-4.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5f5636f7731398f775d757cb4ae913762f725d4d7bd3060a2640c155207d7a2a",
+          "url": "https://linuxbrew.bintray.com/bottles/md5deep-4.4.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "1bacd45d420975ff8b90d633e361b54c7f6a14776a41f175313360d31fb03ba4",
+          "url": "https://linuxbrew.bintray.com/bottles/md5deep-4.4.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "5d68af238b95cffd8959418d804212c50a69cbae90c203d4abb56ceafea93399",
+          "url": "https://linuxbrew.bintray.com/bottles/md5deep-4.4.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4ee90230c25f9872541d3f895fbe010765dd2e5449e56a0987e3652f89014916",
+          "url": "https://linuxbrew.bintray.com/bottles/md5deep-4.4.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "227b8b8e4f4dd71972cd02062faefef90515b44ef5c3ce55f5c665cf679a26d1",
+          "url": "https://linuxbrew.bintray.com/bottles/md5deep-4.4.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "desc": "Recursively compute digests on files/directories",
+  "full_name": "md5deep",
+  "homepage": "https://github.com/jessek/hashdeep",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "md5deep",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.4"
+  }
+}

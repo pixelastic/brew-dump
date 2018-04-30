@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "7ceba640674cfe1049e0a9befad30a10837f382fce85f28a4b2f22383a774cf5",
+          "url": "https://linuxbrew.bintray.com/bottles/uriparser-0.8.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "8abfde79da3b47d6926720fe55ad6c0aa9da10333e129385dc1baf085ec82acb",
+          "url": "https://linuxbrew.bintray.com/bottles/uriparser-0.8.5.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "adb7098ddf448c77f4a307ffd7cca24a8c9c15bb9239cd04d8501f670442f490",
+          "url": "https://linuxbrew.bintray.com/bottles/uriparser-0.8.5.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+    "libkml"
+  ],
+  "dependencies": [
+    "pkg-config",
+    "cpptest"
+  ],
+  "desc": "URI parsing library (strictly RFC 3986 compliant)",
+  "full_name": "uriparser",
+  "homepage": "https://uriparser.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "uriparser",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8.5"
+  }
+}

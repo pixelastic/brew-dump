@@ -1,0 +1,74 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "360b7c40470a5e3a4d4d7759983d310257be68d3e79518dbf71896a13093c6d0",
+          "url": "https://linuxbrew.bintray.com/bottles/leveldb-1.20_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "e033753dfe79996691998e974bef0cb3e468de581e5e005a06961144c47d2717",
+          "url": "https://linuxbrew.bintray.com/bottles/leveldb-1.20_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8528df5b2af7fab91b1ab1a6382f1b6ccd6d62da462c6a309cb76660a7225b4b",
+          "url": "https://linuxbrew.bintray.com/bottles/leveldb-1.20_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "43ce37a668a53bf194828a2eb32cc9e291df8a408b3002c12077189ef3f87f89",
+          "url": "https://linuxbrew.bintray.com/bottles/leveldb-1.20_2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "5743bd58aa63406f6405d690fad63fff92169de51331ef6918310dcb70ad6383",
+          "url": "https://linuxbrew.bintray.com/bottles/leveldb-1.20_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "gperftools",
+    "snappy"
+  ],
+  "desc": "Key-value storage library with ordered mapping",
+  "full_name": "leveldb",
+  "homepage": "https://github.com/google/leveldb/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "leveldb",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Verify the build with make check",
+      "option": "--with-test"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.20"
+  }
+}

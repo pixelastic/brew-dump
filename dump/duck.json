@@ -1,0 +1,79 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "372b74084bf2ecf1458f6be4a344be3b8f1aba86ff6fcd55a497748ebc885a27",
+          "url": "https://linuxbrew.bintray.com/bottles/duck-6.4.6.27773.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4bb7ee32d3147c03768a215841be6f7572a4c37aa01d7eadc392ec0cf5123472",
+          "url": "https://linuxbrew.bintray.com/bottles/duck-6.4.6.27773.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d32ca8d4a666c6b1f662795b00af566370a5e5f4efbbcd4831d27d8801df0bd6",
+          "url": "https://linuxbrew.bintray.com/bottles/duck-6.4.6.27773.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "ant",
+    "maven"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "ant",
+    "maven"
+  ],
+  "desc": "Command-line interface for Cyberduck (a multi-protocol file transfer tool)",
+  "full_name": "duck",
+  "homepage": "https://duck.sh/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "duck",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    },
+    {
+      "cask": "java",
+      "download": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
+      "name": "java"
+    },
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "6.4.6.27773"
+  }
+}

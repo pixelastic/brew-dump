@@ -1,0 +1,67 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "ecf62997149cefbc38b5b74ca99eeeab44569525d2ef67a4822a3c706e073ce7",
+          "url": "https://linuxbrew.bintray.com/bottles/zint-2.6.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "84fcae80b8ad56b4a4d5666a617a57c9f49afac7783f6298582a3ce053aa157b",
+          "url": "https://linuxbrew.bintray.com/bottles/zint-2.6.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "831d734afaa473f891a750799641da15653007ddd0355e8b7b2d1a49c2cc3550",
+          "url": "https://linuxbrew.bintray.com/bottles/zint-2.6.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "bd862fd26004e1ad03ee1c1c4c8d9686086af2d859290adc1bb2cf237156b716",
+          "url": "https://linuxbrew.bintray.com/bottles/zint-2.6.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libpng"
+  ],
+  "desc": "Barcode encoding library supporting over 50 symbologies",
+  "full_name": "zint",
+  "homepage": "http://www.zint.org.uk/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "zint",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.6.3"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "c78502aa7927d0376c4f3fed72d7fa258f19d26faaaf302ca5c2cbb17a36cdf2",
+          "url": "https://linuxbrew.bintray.com/bottles/nordugrid-arc-5.0.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "acfeacf8f5c913e7f7323be53fbbb8e3100fdc6f36455eea6dc9a987e10c4a64",
+          "url": "https://linuxbrew.bintray.com/bottles/nordugrid-arc-5.0.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d216048cdcf93d89caef1a7263e532577e1684dc3217b830ec80b5f61ab175c4",
+          "url": "https://linuxbrew.bintray.com/bottles/nordugrid-arc-5.0.2.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "121eb7d254c13ae76dada8ba27922dc1dc0b160b2f9fd2c45755c02d6ed67610",
+          "url": "https://linuxbrew.bintray.com/bottles/nordugrid-arc-5.0.2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gettext",
+    "glib",
+    "glibmm",
+    "libxml2",
+    "globus-toolkit"
+  ],
+  "desc": "Grid computing middleware",
+  "full_name": "nordugrid-arc",
+  "homepage": "http://www.nordugrid.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "nordugrid-arc",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "macos"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.0.2"
+  }
+}

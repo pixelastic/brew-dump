@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "ec81bb70fec6dd27f249a575194c62db766b2e31349224d503ecb1cbf2603c37",
+          "url": "https://linuxbrew.bintray.com/bottles/pev-0.80.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "9f7b8ec7a8796b91524d7fdb5e9913db5afdd220f1fadbbc5a2e32ab7a994e8c",
+          "url": "https://linuxbrew.bintray.com/bottles/pev-0.80.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "c995e2ccdc4fde4e2e1beaa3039421ef8e77cdbe0ec00f1af50d7ba551d2c695",
+          "url": "https://linuxbrew.bintray.com/bottles/pev-0.80.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "1013086fe324f7b6147181762541d89dcf4837bd29bd89756d7df23c26fad1f2",
+          "url": "https://linuxbrew.bintray.com/bottles/pev-0.80.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pcre",
+    "openssl"
+  ],
+  "desc": "PE analysis toolkit",
+  "full_name": "pev",
+  "homepage": "https://pev.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "pev",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.80"
+  }
+}

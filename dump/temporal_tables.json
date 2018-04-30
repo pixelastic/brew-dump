@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "5a12b8648de4c8d6693ee7fed2230ad64eb8500d6405be83db9a0f0e8bca664e",
+          "url": "https://linuxbrew.bintray.com/bottles/temporal_tables-1.2.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "82f04e996f0fe191fcac00acdf770c53a7a670621bb6611566491c2da2959b0b",
+          "url": "https://linuxbrew.bintray.com/bottles/temporal_tables-1.2.0.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3082b4691a7f14014384964472153afd5d2ac56939100be5c3a974625e412bca",
+          "url": "https://linuxbrew.bintray.com/bottles/temporal_tables-1.2.0.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "postgresql"
+  ],
+  "desc": "Temporal Tables PostgreSQL Extension",
+  "full_name": "temporal_tables",
+  "homepage": "https://pgxn.org/dist/temporal_tables/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "temporal_tables",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.0"
+  }
+}

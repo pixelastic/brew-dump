@@ -1,0 +1,88 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "f1e4ace83358ed1164d5d8cfbe7ffe239b5698d24211150b86dbf4d4fb589a37",
+          "url": "https://linuxbrew.bintray.com/bottles/bitlbee-3.5.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "75272001af19553b23bd5d999c76570e9f53c5f0386fe8377f4e8af6e525fb50",
+          "url": "https://linuxbrew.bintray.com/bottles/bitlbee-3.5.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "a73fcc3ea892e02dff11eda82c9338230f16778d786dbcfecae89802fb0859cb",
+          "url": "https://linuxbrew.bintray.com/bottles/bitlbee-3.5.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "85eebf3ba9ee2e986ef1c54b99a8df958cf48a1d5112f765e5498d9be23b9426",
+          "url": "https://linuxbrew.bintray.com/bottles/bitlbee-3.5.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gettext",
+    "glib",
+    "gnutls",
+    "libgcrypt",
+    "pidgin",
+    "libotr",
+    "libevent"
+  ],
+  "desc": "IRC to other chat networks gateway",
+  "full_name": "bitlbee",
+  "homepage": "https://www.bitlbee.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "bitlbee",
+  "oldname": null,
+  "optional_dependencies": [
+    "pidgin",
+    "libotr",
+    "libevent"
+  ],
+  "options": [
+    {
+      "description": "Use finch/libpurple for all communication with instant messaging networks",
+      "option": "--with-pidgin"
+    },
+    {
+      "description": "Build with otr (off the record) support",
+      "option": "--with-libotr"
+    },
+    {
+      "description": "Use libevent for the event-loop handling rather than glib.",
+      "option": "--with-libevent"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "3.5.1"
+  }
+}

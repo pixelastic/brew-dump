@@ -1,0 +1,61 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "high_sierra": {
+          "sha256": "03575df015e615777d1724a2192edc5ae2d1b0e5b7ddd89d9dee01554078810f",
+          "url": "https://linuxbrew.bintray.com/bottles/mint-0.9.1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3cca59dd945b0994a4b26fb291fb051f238196c0dde246f793baa01b2d62eed8",
+          "url": "https://linuxbrew.bintray.com/bottles/mint-0.9.1.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Dependency manager that installs and runs Swift command-line tool packages",
+  "full_name": "mint",
+  "homepage": "https://github.com/yonaskolb/Mint",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "mint",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": null,
+      "download": null,
+      "name": "xcode"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.9.1"
+  }
+}

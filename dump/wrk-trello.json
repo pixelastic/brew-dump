@@ -1,0 +1,41 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To get your token go here:\nhttps://trello.com/1/authorize?key=8d56bbd601877abfd13150a999a840d0&name=Wrk&expiration=never&response_type=token&scope=read,write\nand save it to ~/.wrk/token\nStart `wrk` for more information.\n",
+  "conflicts_with": [
+    "wrk"
+  ],
+  "dependencies": [
+  ],
+  "desc": "Command-line interface to Trello",
+  "full_name": "wrk-trello",
+  "homepage": "https://github.com/blangel/wrk",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "wrk-trello",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.1"
+  }
+}

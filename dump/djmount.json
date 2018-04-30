@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b5a178484c96047baadd5717bd5ba0cbf6b2f00fe2e6a21095dd02f45668c61d",
+          "url": "https://linuxbrew.bintray.com/bottles/djmount-0.71.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "4d70d21ce227a8a1e84df11152a0f587d647b21df8585fe69e54a133a9299795",
+          "url": "https://linuxbrew.bintray.com/bottles/djmount-0.71.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "47be8c859fd5271a518ed61bf2a70c1baea0314e5ad10fefbe0d43fc5a8bd99a",
+          "url": "https://linuxbrew.bintray.com/bottles/djmount-0.71.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "774dae46551c0a92244f01816d747a0c0e52d5898fe93792d3e9e3267845acbd",
+          "url": "https://linuxbrew.bintray.com/bottles/djmount-0.71.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "libupnp"
+  ],
+  "desc": "File system client for mounting network media servers",
+  "full_name": "djmount",
+  "homepage": "https://djmount.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "djmount",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "osxfuse",
+      "download": "https://github.com/libfuse/libfuse",
+      "name": "osxfuse"
+    }
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.71"
+  }
+}

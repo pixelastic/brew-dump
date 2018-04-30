@@ -1,0 +1,66 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "bd4e53c98f85cd63735b07c2ea203790b82447152e548f7b27e5961236c6752b",
+          "url": "https://linuxbrew.bintray.com/bottles/restic-0.8.3.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "93fa732cd990a24769b710a12240735004f8d48646cecfd34c808667e73f883c",
+          "url": "https://linuxbrew.bintray.com/bottles/restic-0.8.3.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9ce2907424db4dad23dd2042b14d14a5408c9e82fe82a4be51c155e6b385efd7",
+          "url": "https://linuxbrew.bintray.com/bottles/restic-0.8.3.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "430c55ca68bbf05afd86f277203c7597e0e7740446bb0ab69413c45b1ddb4101",
+          "url": "https://linuxbrew.bintray.com/bottles/restic-0.8.3.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "go"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "go"
+  ],
+  "desc": "Fast, efficient and secure backup program",
+  "full_name": "restic",
+  "homepage": "https://restic.github.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "restic",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.8.3"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "69b750626b5cdd03b7b2c6b6e260d8ebe5caf99e2a712503743c085baece4d8a",
+          "url": "https://linuxbrew.bintray.com/bottles/plzip-1.7.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "af30afb47c2eb2b2392c4402fa4deaeb505d34bc1a9dbd31d25fed666cfdc6a9",
+          "url": "https://linuxbrew.bintray.com/bottles/plzip-1.7.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4461870d7a81404b53b7aae5d73180cbb3677bf65e2b815808311ad0573e5494",
+          "url": "https://linuxbrew.bintray.com/bottles/plzip-1.7.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "51f1b357bf94b70131a331e73196a4d7720fb1387c764e021274cd36df9f67d5",
+          "url": "https://linuxbrew.bintray.com/bottles/plzip-1.7.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "lzlib"
+  ],
+  "desc": "Data compressor",
+  "full_name": "plzip",
+  "homepage": "https://www.nongnu.org/lzip/plzip.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "plzip",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.7"
+  }
+}

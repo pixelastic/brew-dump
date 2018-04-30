@@ -1,0 +1,73 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "2e78cc40330c53363fb1dddc0568464001b46944628283e26811e4e6ccae28fe",
+          "url": "https://linuxbrew.bintray.com/bottles/sofia-sip-1.12.11_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "215b6a55868352c1ce67741e1cbede118813b0b1d12a56ba7425114a9bbb56d3",
+          "url": "https://linuxbrew.bintray.com/bottles/sofia-sip-1.12.11_1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "1e68620530a8dda00d795bdf92f7c564174eefde5d7e703839de2e080bd89ea4",
+          "url": "https://linuxbrew.bintray.com/bottles/sofia-sip-1.12.11_1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "ddbaf0fc570bd632c520057effc396a1f5e5cc48930644559ca9cafd9cd25360",
+          "url": "https://linuxbrew.bintray.com/bottles/sofia-sip-1.12.11_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "e2f9ede8ce51b2074659a1fcf576d83031c9037aafd3c39f75330e8e7cb236a5",
+          "url": "https://linuxbrew.bintray.com/bottles/sofia-sip-1.12.11_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "glib",
+    "gettext",
+    "openssl"
+  ],
+  "desc": "SIP User-Agent library",
+  "full_name": "sofia-sip",
+  "homepage": "https://sofia-sip.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sofia-sip",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.12.11"
+  }
+}

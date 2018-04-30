@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "bdfffb820e5a7574169b91113ed59c578ebe88bcea8c890166a33fb9af17c0ce",
+          "url": "https://linuxbrew.bintray.com/bottles/git-hooks-1.00.0.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "710495206af282348fa5e311f825bdbbcb7a891345ff467468908e16b3dbc090",
+          "url": "https://linuxbrew.bintray.com/bottles/git-hooks-1.00.0.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ace6acaff04ef09795d26e6034bf411a89c9f348287dd95f756c82068cea123d",
+          "url": "https://linuxbrew.bintray.com/bottles/git-hooks-1.00.0.mavericks.bottle.tar.gz"
+        },
+        "mountain_lion": {
+          "sha256": "d6fb1c69f50a6798e288b46f36d331fe86f8c2cc7b6ea2c8e43dfe675ed80132",
+          "url": "https://linuxbrew.bintray.com/bottles/git-hooks-1.00.0.mountain_lion.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "aaceeb7b390f71c45e3c1db15c23ab664a06bfc34de1c629a2b2f5b29e1bdec2",
+          "url": "https://linuxbrew.bintray.com/bottles/git-hooks-1.00.0.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "d4c5fba7f1b80e8e68762356a2f64ac216bf4e9f3151cf2f236c92a9524b97ed",
+          "url": "https://linuxbrew.bintray.com/bottles/git-hooks-1.00.0.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "Manage project, user, and global Git hooks",
+  "full_name": "git-hooks",
+  "homepage": "https://github.com/icefox/git-hooks",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "git-hooks",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.00.0"
+  }
+}

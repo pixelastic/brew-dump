@@ -1,0 +1,76 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "f345b350a591cac87e21e8c932097d2f93ab63ffa3a46359d27c64b06ad61914",
+          "url": "https://linuxbrew.bintray.com/bottles/sip-4.19.8_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "5fa53b1d6b6e0d011b8aab0720b56e072863ed547df49366f7cf09354fadb74d",
+          "url": "https://linuxbrew.bintray.com/bottles/sip-4.19.8_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "1b3ddc306a393f11c967cfcd2404ab7d57bcff6a6824d74ae310e0b4eb703ac3",
+          "url": "https://linuxbrew.bintray.com/bottles/sip-4.19.8_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "8d1b31d3263aff0a53b53b72201082a8ab05b0312286608c62e8d1bd09b78850",
+          "url": "https://linuxbrew.bintray.com/bottles/sip-4.19.8_2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "The sip-dir for Python is /home/tim/.linuxbrew/share/sip.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python",
+    "python@2"
+  ],
+  "desc": "Tool to create Python bindings for C and C++ libraries",
+  "full_name": "sip",
+  "homepage": "https://www.riverbankcomputing.com/software/sip/intro",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sip",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build without python support",
+      "option": "--without-python"
+    },
+    {
+      "description": "Build without python@2 support",
+      "option": "--without-python@2"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python",
+    "python@2"
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "4.19.8"
+  }
+}

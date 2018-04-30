@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "b9a6caa7c8ac287479ef8a09bd54362a56b73fe80b8aac1a233864be97fc1567",
+          "url": "https://linuxbrew.bintray.com/bottles/vrpn-07.33.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a254843eaac154ae39da044efacb4725c8028e42914c4fb10cc7d524b6ecd7d0",
+          "url": "https://linuxbrew.bintray.com/bottles/vrpn-07.33.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "3f392e7ab5c352a3da3e60795a4255280cd8a53e2110e588eac2fb9c910685e0",
+          "url": "https://linuxbrew.bintray.com/bottles/vrpn-07.33.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "9c612e5be501814d74c35bc0db0307d035066763e0ee5ec13992342d80105ef5",
+          "url": "https://linuxbrew.bintray.com/bottles/vrpn-07.33.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake",
+    "libusb"
+  ],
+  "desc": "Virtual reality peripheral network",
+  "full_name": "vrpn",
+  "homepage": "https://github.com/vrpn/vrpn/wiki",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "vrpn",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+    {
+      "description": "Build client apps and tests",
+      "option": "--with-clients"
+    },
+    {
+      "description": "Build doxygen-based API documentation",
+      "option": "--with-docs"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "07.33"
+  }
+}

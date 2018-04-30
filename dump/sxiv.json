@@ -1,0 +1,72 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "16a9ac152429a736db62dc0a2ac34f1b4d70c11b3de10f856bece78acf20a9a1",
+          "url": "https://linuxbrew.bintray.com/bottles/sxiv-1.3.2_1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "61d85801587ee6d3158407ae65cd0bece03a08b2e8f99d9e7568b7ddb3b2daee",
+          "url": "https://linuxbrew.bintray.com/bottles/sxiv-1.3.2_1.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "606057791d4785165f78ae964bfa990b005d5f0cc3e51f19f64438c29b2670f5",
+          "url": "https://linuxbrew.bintray.com/bottles/sxiv-1.3.2_1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "de711fb6eb1c6ac0093ad182dd820c9debdb5d08ce03430de6462fbf9568c5e3",
+          "url": "https://linuxbrew.bintray.com/bottles/sxiv-1.3.2_1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "imlib2",
+    "giflib",
+    "libexif"
+  ],
+  "desc": "Simple X Image Viewer",
+  "full_name": "sxiv",
+  "homepage": "https://github.com/muennich/sxiv",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "sxiv",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+    {
+      "cask": "xquartz",
+      "download": "https://xquartz.macosforge.org",
+      "name": "x11"
+    }
+  ],
+  "revision": 1,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.3.2"
+  }
+}

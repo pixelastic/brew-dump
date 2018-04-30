@@ -1,0 +1,99 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "5de66201a8236e67e8dcba2563ca20ab2308eef8dc7709842a2c8a0eed2feeb4",
+          "url": "https://linuxbrew.bintray.com/bottles/postgis-2.4.4.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a4ba0e8faa5878171d0544b9c426e9cb5d0ce356d25a5a73a872af7477b649b3",
+          "url": "https://linuxbrew.bintray.com/bottles/postgis-2.4.4.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "9937b5d45d7acb82bb89ef8b400cf4ac3c85a581174f9b4f98b8f57973fe08a9",
+          "url": "https://linuxbrew.bintray.com/bottles/postgis-2.4.4.sierra.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "pkg-config",
+    "gpp"
+  ],
+  "caveats": "To create a spatially-enabled database, see the documentation:\n  https://postgis.net/docs/manual-2.4/postgis_installation.html#create_new_db_extensions\nIf you are currently using PostGIS 2.0+, you can go the soft upgrade path:\n  ALTER EXTENSION postgis UPDATE TO \"2.4.4\";\nUsers of 1.5 and below will need to go the hard-upgrade path, see here:\n  https://postgis.net/docs/manual-2.4/postgis_installation.html#upgrading\n\nPostGIS SQL scripts installed to:\n  /home/tim/.linuxbrew/opt/postgis/share/postgis\nPostGIS plugin libraries installed to:\n  /home/tim/.linuxbrew/lib\nPostGIS extension modules installed to:\n  /home/tim/.linuxbrew/share/postgresql/extension\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "pkg-config",
+    "gpp",
+    "postgresql",
+    "proj",
+    "geos",
+    "json-c",
+    "gdal",
+    "pcre",
+    "sfcgal",
+    "protobuf-c"
+  ],
+  "desc": "Adds support for geographic objects to PostgreSQL",
+  "full_name": "postgis",
+  "homepage": "https://postgis.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "postgis",
+  "oldname": null,
+  "optional_dependencies": [
+    "protobuf-c"
+  ],
+  "options": [
+    {
+      "description": "Build shp2pgsql-gui in addition to command line tools",
+      "option": "--with-gui"
+    },
+    {
+      "description": "Disable postgis raster support",
+      "option": "--without-gdal"
+    },
+    {
+      "description": "Generate multi-file HTML documentation",
+      "option": "--with-html-docs"
+    },
+    {
+      "description": "Generate developer API documentation (long process)",
+      "option": "--with-api-docs"
+    },
+    {
+      "description": "Build with protobuf-c to enable Geobuf and Mapbox Vector Tile support",
+      "option": "--with-protobuf-c"
+    },
+    {
+      "description": "Build without sfcgal support",
+      "option": "--without-sfcgal"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "gdal",
+    "sfcgal"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.4.4"
+  }
+}

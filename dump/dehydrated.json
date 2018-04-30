@@ -1,0 +1,64 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "d15ef3ebfbc9bfc48c16192a885bf5580f0269f05a62e569b18e18049cbe917d",
+          "url": "https://linuxbrew.bintray.com/bottles/dehydrated-0.6.2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "d15ef3ebfbc9bfc48c16192a885bf5580f0269f05a62e569b18e18049cbe917d",
+          "url": "https://linuxbrew.bintray.com/bottles/dehydrated-0.6.2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "d15ef3ebfbc9bfc48c16192a885bf5580f0269f05a62e569b18e18049cbe917d",
+          "url": "https://linuxbrew.bintray.com/bottles/dehydrated-0.6.2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "895c51c3c5b9cc8ccd48fcb350142380bda8050c8898b9312c97091d52f5db6a",
+          "url": "https://linuxbrew.bintray.com/bottles/dehydrated-0.6.2.x86_64_linux.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "LetsEncrypt/acme client implemented as a shell-script",
+  "full_name": "dehydrated",
+  "homepage": "https://dehydrated.de",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "dehydrated",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "0.6.2"
+  }
+}

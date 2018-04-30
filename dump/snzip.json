@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "fdc031ce925717ee49048f3ffab3015f1039a06299f5093f7949e9a41cab975e",
+          "url": "https://linuxbrew.bintray.com/bottles/snzip-1.0.4_2.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "fd4c734255707e1695f5d89a6dccc7d8b6a302771a71f6f6db0a054b9655d287",
+          "url": "https://linuxbrew.bintray.com/bottles/snzip-1.0.4_2.high_sierra.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "953a79f0aa028d4b5f13cc606ead6e225c290972db683947dabed58bb6748257",
+          "url": "https://linuxbrew.bintray.com/bottles/snzip-1.0.4_2.sierra.bottle.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1959b9c53e258d72f61e2c8c31deec3168fb19b96ae961a1c9cd56e265a14f08",
+          "url": "https://linuxbrew.bintray.com/bottles/snzip-1.0.4_2.x86_64_linux.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "68247e4d0d0520d9a2615acd906d079951b84e4138b27a69c2aa7ce6a286dd9e",
+          "url": "https://linuxbrew.bintray.com/bottles/snzip-1.0.4_2.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "snappy"
+  ],
+  "desc": "Compression/decompression tool based on snappy",
+  "full_name": "snzip",
+  "homepage": "https://github.com/kubo/snzip",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "snzip",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 2,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.0.4"
+  }
+}

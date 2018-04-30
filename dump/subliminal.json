@@ -1,0 +1,69 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "a5fbb77e9512eeb8e062e66bb58400f2e0a85e10a067e9715a0894aa401e21a8",
+          "url": "https://linuxbrew.bintray.com/bottles/subliminal-2.0.5.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "299a246633f54bea9959260d5e210086072525df57661f39188c55193ba064ef",
+          "url": "https://linuxbrew.bintray.com/bottles/subliminal-2.0.5.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "3160c050cb0c9aca25632b20afa9344a9f8dfc645aea44b4f8288a3c00e20d31",
+          "url": "https://linuxbrew.bintray.com/bottles/subliminal-2.0.5.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "4922e6a2534b5d0e532e7bac72e542631fce649b4adf1eafc6b54f3be8eb7d22",
+          "url": "https://linuxbrew.bintray.com/bottles/subliminal-2.0.5.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "93cb7e138aa5755bdd190e5d00b60de83187ad0b1876da9ebc22b9f4839d77d2",
+          "url": "https://linuxbrew.bintray.com/bottles/subliminal-2.0.5.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "python@2"
+  ],
+  "desc": "Library to search and download subtitles",
+  "full_name": "subliminal",
+  "homepage": "https://subliminal.readthedocs.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "subliminal",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "2.0.5"
+  }
+}

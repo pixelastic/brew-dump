@@ -1,0 +1,41 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+  },
+  "build_dependencies": [
+  ],
+  "caveats": "To use this software add to your profile:\n  export ZZPATH=\"/home/tim/.linuxbrew/opt/funcoeszz/bin/funcoeszz\"\n  source \"$ZZPATH\"\n\nUsage of a newer Bash than the macOS default is required.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "bash"
+  ],
+  "desc": "Dozens of command-line mini-applications (Portuguese)",
+  "full_name": "funcoeszz",
+  "homepage": "http://funcoeszz.net/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "funcoeszz",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": false,
+    "devel": null,
+    "head": null,
+    "stable": "15.5"
+  }
+}

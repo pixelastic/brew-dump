@@ -1,0 +1,75 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "a0f89a172ba19d62c331c083c94e91f575a66bb56438c1a9eb55b59fbc570598",
+          "url": "https://linuxbrew.bintray.com/bottles/minizip-1.2.11.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "ff6620fe908518ead6b18a24ed8e4942b6e2bc8f3f6d5b71f864e07e49c586fc",
+          "url": "https://linuxbrew.bintray.com/bottles/minizip-1.2.11.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "8d4d3d12774a660c68be156caf804a9982d5d79204c66b0c3e56f3e92d0fe09b",
+          "url": "https://linuxbrew.bintray.com/bottles/minizip-1.2.11.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "07e97ea251d2e46192724b1ef68335cfb2baceaeee34fd26190af8f4412c67cc",
+          "url": "https://linuxbrew.bintray.com/bottles/minizip-1.2.11.x86_64_linux.bottle.1.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "c506cadbf592627a4a6c45de9d5a96fc5da8fe6115ea9a93ca95ec7d96bc115d",
+          "url": "https://linuxbrew.bintray.com/bottles/minizip-1.2.11.yosemite.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "caveats": "Minizip headers installed in 'minizip' subdirectory, since they conflict\nwith the venerable 'unzip' library.\n",
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "zlib"
+  ],
+  "desc": "C library for zip/unzip via zLib",
+  "full_name": "minizip",
+  "homepage": "http://www.winimage.com/zLibDll/minizip.html",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "minizip",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "1.2.11"
+  }
+}

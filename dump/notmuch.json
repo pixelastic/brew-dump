@@ -1,0 +1,101 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any",
+      "files": {
+        "el_capitan": {
+          "sha256": "920c47a612a5a400c54b14eee7d86aa3c4c4c04eb1da8291cc04de221ea92d1e",
+          "url": "https://linuxbrew.bintray.com/bottles/notmuch-0.26.1.el_capitan.bottle.1.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "1a319af5dd3a42454ccc1bc77a08beb6e1479efc444e741b34346aafdd677297",
+          "url": "https://linuxbrew.bintray.com/bottles/notmuch-0.26.1.high_sierra.bottle.1.tar.gz"
+        },
+        "sierra": {
+          "sha256": "11155f61ad9941f98e0703a0f51a9b48bfeb567369cf0b4a0c0236f4331a934c",
+          "url": "https://linuxbrew.bintray.com/bottles/notmuch-0.26.1.sierra.bottle.1.tar.gz"
+        },
+        "x86_64_linux": {
+          "sha256": "1dd398c8dffeaf06ffdd0c7beeaa25959fa8b8dd8b57e424a7e00b1783b6fa55",
+          "url": "https://linuxbrew.bintray.com/bottles/notmuch-0.26.1.x86_64_linux.bottle.1.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 1,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "doxygen",
+    "libgpg-error",
+    "pkg-config",
+    "sphinx-doc"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "doxygen",
+    "libgpg-error",
+    "pkg-config",
+    "sphinx-doc",
+    "glib",
+    "gmime",
+    "talloc",
+    "xapian",
+    "zlib",
+    "python@2",
+    "emacs",
+    "python",
+    "ruby"
+  ],
+  "desc": "Thread-based email index, search, and tagging",
+  "full_name": "notmuch",
+  "homepage": "https://notmuchmail.org",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "notmuch",
+  "oldname": null,
+  "optional_dependencies": [
+    "emacs",
+    "python",
+    "ruby"
+  ],
+  "options": [
+    {
+      "description": "Build without python2 support",
+      "option": "--without-python@2"
+    },
+    {
+      "description": "Build with emacs support",
+      "option": "--with-emacs"
+    },
+    {
+      "description": "Build with python support",
+      "option": "--with-python"
+    },
+    {
+      "description": "Build with ruby support",
+      "option": "--with-ruby"
+    }
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+    "python@2"
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "0.26.1"
+  }
+}

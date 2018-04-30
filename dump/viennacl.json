@@ -1,0 +1,70 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": ":any_skip_relocation",
+      "files": {
+        "el_capitan": {
+          "sha256": "cb5cd96fd4c730518b6b0e150fd15386ad71576e444bfbbd5f055e844d4a5976",
+          "url": "https://linuxbrew.bintray.com/bottles/viennacl-1.7.1.el_capitan.bottle.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "7be4bc5f161868a9646a575530acd83034e7af6e39439e262c499b219738e74e",
+          "url": "https://linuxbrew.bintray.com/bottles/viennacl-1.7.1.high_sierra.bottle.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "7256e29352bcf349fda479ef6913241249db48065ce64e7daee8cfe7b96c88fd",
+          "url": "https://linuxbrew.bintray.com/bottles/viennacl-1.7.1.mavericks.bottle.tar.gz"
+        },
+        "sierra": {
+          "sha256": "809b0ff014ad6fdae2337ac8dd0cde29c72fe4cb8817a7e7417e9722b7572059",
+          "url": "https://linuxbrew.bintray.com/bottles/viennacl-1.7.1.sierra.bottle.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "875f61b8270246247450c0beedc9710b52d07171717dd2f9de9a493f3b4027b6",
+          "url": "https://linuxbrew.bintray.com/bottles/viennacl-1.7.1.yosemite.bottle.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 0,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+    "cmake"
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+    "cmake"
+  ],
+  "desc": "Linear algebra library for many-core architectures and multi-core CPUs",
+  "full_name": "viennacl",
+  "homepage": "https://viennacl.sourceforge.io/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "viennacl",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": "HEAD",
+    "stable": "1.7.1"
+  }
+}

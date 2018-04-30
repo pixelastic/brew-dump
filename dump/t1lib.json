@@ -1,0 +1,68 @@
+{
+  "aliases": [
+  ],
+  "bottle": {
+    "stable": {
+      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+      "files": {
+        "el_capitan": {
+          "sha256": "fa356a5405f5b0cf57c15ebd5b680c215e1e498189914e9b9663eb132655a8c1",
+          "url": "https://linuxbrew.bintray.com/bottles/t1lib-5.1.2.el_capitan.bottle.2.tar.gz"
+        },
+        "high_sierra": {
+          "sha256": "a36bc3913f6b51cb7772609a52049f90fc6241ffca3bf18c4295455ef5f4df4c",
+          "url": "https://linuxbrew.bintray.com/bottles/t1lib-5.1.2.high_sierra.bottle.2.tar.gz"
+        },
+        "mavericks": {
+          "sha256": "ec107b30d4b9a95bbc094a7a944cab862ed78a875c5ed0002aa7232ec514e9d7",
+          "url": "https://linuxbrew.bintray.com/bottles/t1lib-5.1.2.mavericks.bottle.2.tar.gz"
+        },
+        "sierra": {
+          "sha256": "94789287c849a04f05a40c79940aee6efe3e03318c95db9c2be69ee4e6806d82",
+          "url": "https://linuxbrew.bintray.com/bottles/t1lib-5.1.2.sierra.bottle.2.tar.gz"
+        },
+        "yosemite": {
+          "sha256": "6d1bf242eb7a5201180b9d4b505a7f83663802383d358180cea696714ae57fc8",
+          "url": "https://linuxbrew.bintray.com/bottles/t1lib-5.1.2.yosemite.bottle.2.tar.gz"
+        }
+      },
+      "prefix": "/home/linuxbrew/.linuxbrew",
+      "rebuild": 2,
+      "root_url": "https://linuxbrew.bintray.com/bottles"
+    }
+  },
+  "build_dependencies": [
+  ],
+  "caveats": null,
+  "conflicts_with": [
+  ],
+  "dependencies": [
+  ],
+  "desc": "C library to generate/rasterize bitmaps from Type 1 fonts",
+  "full_name": "t1lib",
+  "homepage": "https://www.t1lib.org/",
+  "installed": [
+  ],
+  "keg_only": false,
+  "linked_keg": null,
+  "name": "t1lib",
+  "oldname": null,
+  "optional_dependencies": [
+  ],
+  "options": [
+  ],
+  "outdated": false,
+  "pinned": false,
+  "recommended_dependencies": [
+  ],
+  "requirements": [
+  ],
+  "revision": 0,
+  "version_scheme": 0,
+  "versions": {
+    "bottle": true,
+    "devel": null,
+    "head": null,
+    "stable": "5.1.2"
+  }
+}
